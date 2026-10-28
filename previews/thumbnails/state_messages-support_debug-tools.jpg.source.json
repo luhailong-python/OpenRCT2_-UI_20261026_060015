@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_messages-support_debug-tools.jpg",
+  "sha256": "3e60630c3aee6e96c21be6c2477c48af1c4e947537afac12749a4890591c189d",
+  "derivedFrom": [
+    {
+      "file": "previews/states/messages-support/debug-tools.png",
+      "sha256": "6e8dfe5c68e3c79c9ebd8813a2dad7e637e3b57d7f2372394703dfc446cb3a1b",
+      "sourceRecord": "previews/states/messages-support/debug-tools.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

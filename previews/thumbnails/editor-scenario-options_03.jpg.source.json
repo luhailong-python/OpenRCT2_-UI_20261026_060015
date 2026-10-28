@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/editor-scenario-options_03.jpg",
+  "sha256": "9cd4cc99278ad9d94cd01355541fbf1af6cb26b1aab7ab0bc964c6ec42d3bde0",
+  "derivedFrom": [
+    {
+      "file": "designs/editor-scenario-options/03-财务.png",
+      "sha256": "494a117b527ac36687252f9f0306ea0d72b69b25dc81d19226d77eaf5c5c9018",
+      "sourceRecord": "designs/editor-scenario-options/03-财务.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

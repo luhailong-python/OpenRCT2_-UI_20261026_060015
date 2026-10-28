@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/management-detail_scenery-complete-tools.jpg",
+  "sha256": "6049cb915eeadbd3f2739434809fbb2dda9252f088549148b606f2bf2b62c231",
+  "derivedFrom": [
+    {
+      "file": "designs/details/management/scenery-complete-tools.png",
+      "sha256": "f5fd26f65552c99a00d1daf88b3cd633958ce29e9948bf4b7d1c5621b81cc2fb",
+      "sourceRecord": "designs/details/management/scenery-complete-tools.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

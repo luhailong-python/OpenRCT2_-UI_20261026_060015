@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_tile-inspector_04-track.jpg",
+  "sha256": "205a4b146e0efa2ccc8b497a58e0e25c268e295841c9add25313ffb09e4c7635",
+  "derivedFrom": [
+    {
+      "file": "designs/details/tile-inspector/04-track.png",
+      "sha256": "7e37c9a01f772bc46829483705f8dcf0863de3f41115d63e8a4edffe79581ab0",
+      "sourceRecord": "designs/details/tile-inspector/04-track.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

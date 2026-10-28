@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/map-gen_04.jpg",
+  "sha256": "1597e33824dd581f0d2f54a5e8bbca90ee34c508cadcdf5ba53c46e368dbadbd",
+  "derivedFrom": [
+    {
+      "file": "designs/map-gen/04-森林.png",
+      "sha256": "60ebae5c80c24625989e7bdf782339381d1d31a275fb46f73c7df6f5df1adb56",
+      "sourceRecord": "designs/map-gen/04-森林.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

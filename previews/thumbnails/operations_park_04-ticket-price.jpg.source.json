@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/operations_park_04-ticket-price.jpg",
+  "sha256": "a024c53231a08cd0be9bd64e5d803457c788b831415520042bb61f68514349ff",
+  "derivedFrom": [
+    {
+      "file": "designs/details/park-ops/04-ticket-price.png",
+      "sha256": "7e54767697fa664c95d18081a252d7addcd884e51b9d9a95ec9b243274f7ca3d",
+      "sourceRecord": "designs/details/park-ops/04-ticket-price.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

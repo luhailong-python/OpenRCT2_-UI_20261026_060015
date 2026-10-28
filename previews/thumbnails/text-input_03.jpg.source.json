@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/text-input_03.jpg",
+  "sha256": "313168284b01a486661550fc1486ce74fbd8415af4a9fbd57ed5a70bf9789df3",
+  "derivedFrom": [
+    {
+      "file": "designs/text-input/03-取消.png",
+      "sha256": "4ca200d0271f3ab224b651bcbb8cf48f3cf9ff11d3e3c1f1ab1fff0c09db310e",
+      "sourceRecord": "designs/text-input/03-取消.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

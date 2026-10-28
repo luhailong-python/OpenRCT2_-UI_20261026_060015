@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/operations_ride_09-graph-lateral.jpg",
+  "sha256": "eb1948201255b20afceeb8b57378d378138def6a26896abe650c9a769284429c",
+  "derivedFrom": [
+    {
+      "file": "designs/details/ride-ops/09-graph-lateral.png",
+      "sha256": "34167e89eed262b58dae826fb773fd545b26889b2438c70c442aa2e8c4452185",
+      "sourceRecord": "designs/details/ride-ops/09-graph-lateral.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

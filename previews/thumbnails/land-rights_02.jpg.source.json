@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/land-rights_02.jpg",
+  "sha256": "3bf0b9f33930a2e3a17b6983fd566dc595f751b693288ec94a0e32952821d9f4",
+  "derivedFrom": [
+    {
+      "file": "designs/land-rights/02-建造权.png",
+      "sha256": "e5796b651d4f6d92aa07275bfebebf90c8fda7763557956f17932c2fdc1aae9d",
+      "sourceRecord": "designs/land-rights/02-建造权.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

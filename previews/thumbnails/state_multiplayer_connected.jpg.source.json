@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_multiplayer_connected.jpg",
+  "sha256": "37042674e36a5b3d62b70c4a0f5dac4cf0fdc30ac3713f98f6954080554fc042",
+  "derivedFrom": [
+    {
+      "file": "previews/states/multiplayer/connected.png",
+      "sha256": "9098ef8a763e8c55120682dbfcacd74efdd3953f6ed8eabc42caa3716e694e39",
+      "sourceRecord": "previews/states/multiplayer/connected.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,59 @@
+{
+  "reviewedAt": "2026-10-26T09:34:23.387263-04:00",
+  "status": "sampled_static_visual_review_passed_pending_user_acceptance",
+  "method": "Saved full PNGs actually opened with view_image; source and layout QA reports separately retained. No Unity run.",
+  "directFinalRootSamples": [
+    {
+      "file": "designs/main/01-运行.png",
+      "sha256": "624fa80cee557f2c0f371fe43d6db13603e49fc67da90ef08625775b35cbfee2",
+      "observation": "HUD语义、标题暂名标记、信息条、背景与操作空间",
+      "blockingIssueObserved": false
+    },
+    {
+      "file": "designs/new-ride/01-交通.png",
+      "sha256": "f58d8f515e4c8ff2b6b1ddd1c3430dbb9125b3b16b6bd4ab618d6b47071cb462",
+      "observation": "交通设施独立插画对应、卡片与选择层级",
+      "blockingIssueObserved": false
+    },
+    {
+      "file": "designs/details/ride-ops/01-overview-closed.png",
+      "sha256": "6c715e5bdd48cc490d53ce840ffa5ff587641875df817023a7ec0f8e388a8076",
+      "observation": "设施状态、继续建设/命名/定位/拆除入口",
+      "blockingIssueObserved": false
+    },
+    {
+      "file": "designs/details/utility/filebrowser-customise.png",
+      "sha256": "c0d31ad077d076596f37885713ae657670ce44f80878b3f06a7be9a3c62dedbd",
+      "observation": "文件导航、选中行、列与预览展开菜单",
+      "blockingIssueObserved": false
+    },
+    {
+      "file": "designs/details/management/cheats-3-1.png",
+      "sha256": "f8236358368d7378f633df42c2866df30ff8f908caef4788bbb84bb3d4f8da70",
+      "observation": "游客作弊分组、动作与勾选控件文字",
+      "blockingIssueObserved": false
+    }
+  ],
+  "supportingIndependentReports": [
+    "docs/independent-visual-review.json",
+    "docs/detail-visual-qa.json",
+    "docs/operations-visual-qa.json",
+    "docs/final-independent-audit.md",
+    "docs/product-placement-audit.md",
+    "docs/sprite-qa.md"
+  ],
+  "allImagesIndividuallyHumanReviewed": false,
+  "knownBlockingArtIssues": [],
+  "unityVerified": false,
+  "sourcePositionBoundary": {
+    "exactSourceScopedIdentifiers": 1438,
+    "verifiedProductPositionIdentifiers": 820,
+    "unconfirmedProductPositionIdentifiers": 618,
+    "staticInteractiveCandidates": 957,
+    "candidateProductPositionsVerified": 528,
+    "candidateProductPositionsUnconfirmed": 429,
+    "identifiedConcreteArtGapGroups": 18,
+    "resolvedConcreteArtGapGroups": 18
+  },
+  "historicalReports": "Earlier dated observations and superseded hashes remain evidence of the repair process; use current manifests and final reports for final pixels."
+}

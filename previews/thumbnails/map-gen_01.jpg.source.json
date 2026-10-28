@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/map-gen_01.jpg",
+  "sha256": "309b2f1564da4936757b1e86a9599dbfbe4d0e5762f1d14d09fe4a37cc6f42eb",
+  "derivedFrom": [
+    {
+      "file": "designs/map-gen/01-基础.png",
+      "sha256": "5afcdc8d9225e895ab6a88e6b54947bdd29b6480b0244e1880353ef4f6fe9370",
+      "sourceRecord": "designs/map-gen/01-基础.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

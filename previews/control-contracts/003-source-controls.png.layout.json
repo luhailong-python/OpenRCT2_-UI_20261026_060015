@@ -1,0 +1,358 @@
+{
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "purpose": "technical_style_contract_not_product_screen",
+  "controls": [
+    {
+      "unit": "Banner",
+      "controlId": "WIDX_BACKGROUND",
+      "rectTopLeftXYWH": [
+        58,
+        146,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        229,
+        554,
+        98
+      ],
+      "sourceWidgetType": "frame",
+      "sourceLabelDisplayed": "窗口框板",
+      "existingTargetScreenGroups": [
+        "横幅"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Banner",
+      "controlId": "WIDX_TITLE",
+      "rectTopLeftXYWH": [
+        665,
+        146,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        229,
+        554,
+        98
+      ],
+      "sourceWidgetType": "caption",
+      "sourceLabelDisplayed": "动态标题",
+      "existingTargetScreenGroups": [
+        "横幅"
+      ],
+      "formalAssets": [],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Banner",
+      "controlId": "WIDX_CLOSE",
+      "rectTopLeftXYWH": [
+        1272,
+        146,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        229,
+        554,
+        98
+      ],
+      "sourceWidgetType": "closeBox",
+      "sourceLabelDisplayed": "关闭",
+      "existingTargetScreenGroups": [
+        "横幅"
+      ],
+      "formalAssets": [
+        "assets/common/close.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Banner",
+      "controlId": "WIDX_VIEWPORT",
+      "rectTopLeftXYWH": [
+        58,
+        368,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        451,
+        554,
+        98
+      ],
+      "sourceWidgetType": "viewport",
+      "sourceLabelDisplayed": "运行时视口",
+      "existingTargetScreenGroups": [
+        "横幅"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Banner",
+      "controlId": "WIDX_BANNER_TEXT",
+      "rectTopLeftXYWH": [
+        665,
+        368,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        451,
+        554,
+        98
+      ],
+      "sourceWidgetType": "flatBtn",
+      "sourceLabelDisplayed": "修改横幅内容",
+      "existingTargetScreenGroups": [
+        "横幅"
+      ],
+      "formalAssets": [
+        "assets/common/secondary_normal.png",
+        "assets/common/secondary_pressed.png",
+        "assets/common/secondary_selected.png",
+        "assets/common/secondary_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Banner",
+      "controlId": "WIDX_BANNER_NO_ENTRY",
+      "rectTopLeftXYWH": [
+        1272,
+        368,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        451,
+        554,
+        98
+      ],
+      "sourceWidgetType": "flatBtn",
+      "sourceLabelDisplayed": "设置当前横幅为“游客止步”",
+      "existingTargetScreenGroups": [
+        "横幅"
+      ],
+      "formalAssets": [
+        "assets/common/secondary_normal.png",
+        "assets/common/secondary_pressed.png",
+        "assets/common/secondary_selected.png",
+        "assets/common/secondary_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Banner",
+      "controlId": "WIDX_BANNER_DEMOLISH",
+      "rectTopLeftXYWH": [
+        58,
+        590,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        673,
+        554,
+        98
+      ],
+      "sourceWidgetType": "flatBtn",
+      "sourceLabelDisplayed": "拆除该横幅",
+      "existingTargetScreenGroups": [
+        "横幅"
+      ],
+      "formalAssets": [
+        "assets/common/secondary_normal.png",
+        "assets/common/secondary_pressed.png",
+        "assets/common/secondary_selected.png",
+        "assets/common/secondary_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Banner",
+      "controlId": "WIDX_MAIN_COLOUR",
+      "rectTopLeftXYWH": [
+        665,
+        590,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        673,
+        554,
+        98
+      ],
+      "sourceWidgetType": "colourBtn",
+      "sourceLabelDisplayed": "选择横幅配色",
+      "existingTargetScreenGroups": [
+        "横幅"
+      ],
+      "formalAssets": [
+        "assets/common/secondary_normal.png",
+        "assets/common/secondary_pressed.png",
+        "assets/common/secondary_selected.png",
+        "assets/common/secondary_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Banner",
+      "controlId": "WIDX_TEXT_COLOUR_DROPDOWN",
+      "rectTopLeftXYWH": [
+        1272,
+        590,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        673,
+        554,
+        98
+      ],
+      "sourceWidgetType": "dropdownMenu",
+      "sourceLabelDisplayed": "下拉选择",
+      "existingTargetScreenGroups": [
+        "横幅"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Banner",
+      "controlId": "WIDX_TEXT_COLOUR_DROPDOWN_BUTTON",
+      "rectTopLeftXYWH": [
+        58,
+        812,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        895,
+        554,
+        98
+      ],
+      "sourceWidgetType": "button",
+      "sourceLabelDisplayed": "▼",
+      "existingTargetScreenGroups": [
+        "横幅"
+      ],
+      "formalAssets": [
+        "assets/common/secondary_normal.png",
+        "assets/common/secondary_pressed.png",
+        "assets/common/secondary_selected.png",
+        "assets/common/secondary_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Changelog",
+      "controlId": "WIDX_BACKGROUND",
+      "rectTopLeftXYWH": [
+        665,
+        812,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        895,
+        554,
+        98
+      ],
+      "sourceWidgetType": "frame",
+      "sourceLabelDisplayed": "窗口框板",
+      "existingTargetScreenGroups": [
+        "更新日志",
+        "新版本"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Changelog",
+      "controlId": "WIDX_TITLE",
+      "rectTopLeftXYWH": [
+        1272,
+        812,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        895,
+        554,
+        98
+      ],
+      "sourceWidgetType": "caption",
+      "sourceLabelDisplayed": "动态标题",
+      "existingTargetScreenGroups": [
+        "更新日志",
+        "新版本"
+      ],
+      "formalAssets": [],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_footpath_01-ground.jpg",
+  "sha256": "b9cf6e5b5d5f5103e8a913fdd92673c03d03eb202572676ff4ea246482a78cd3",
+  "derivedFrom": [
+    {
+      "file": "designs/details/footpath/01-ground.png",
+      "sha256": "67a0bc5a2be4c6cf1e50c0d4b22976e4f8d8564922786fa06a4f09c4f21c7da9",
+      "sourceRecord": "designs/details/footpath/01-ground.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_finances_graph-empty.jpg",
+  "sha256": "d53389c5b1aab4e24a81208b157706c6f8812527fc005863a91dd1a089c8d9cb",
+  "derivedFrom": [
+    {
+      "file": "previews/states/finances/graph-empty.png",
+      "sha256": "031ab02f0899d4138abfc14a4d426c769a0151db88f2a07e1f7ba4485ba04eac",
+      "sourceRecord": "previews/states/finances/graph-empty.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

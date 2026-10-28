@@ -1,0 +1,60 @@
+{
+  "name": "queue",
+  "file": "assets/icons/queue.png",
+  "width": 192,
+  "height": 192,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "6f71d13667e43f305347631af7ddbbbb5c0ec343e27fb86bf7f0bde3b5592c75",
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "resizeAxes": "none",
+  "minimumSize": [
+    192,
+    192
+  ],
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "pixelsPerUnit": 100,
+  "containsDynamicText": false,
+  "source": "assets/masters/icons-native.png",
+  "sourceSha256": "d0f99448ab11be63840698af42b9839ab68ffc6b13a4ac654a5ab3252620f8c6",
+  "sourceNativeSize": [
+    1254,
+    1254
+  ],
+  "sourceRectTopLeftXYXY": [
+    477,
+    400,
+    633,
+    536
+  ],
+  "pasteOffset": [
+    18,
+    28
+  ],
+  "operation": "Original-pixel crop; isolate specified alpha>100 connected silhouettes, retain original alpha>=16 within 2px edge support; center on padded canvas. No recoloring, painting, AI call or upscaling.",
+  "derivedFrom": {
+    "file": "assets/masters/icons-native.png",
+    "sha256": "d0f99448ab11be63840698af42b9839ab68ffc6b13a4ac654a5ab3252620f8c6",
+    "generationRecord": "assets/masters/icons-native.png.generation.json"
+  },
+  "alpha": {
+    "minimum": 0,
+    "maximum": 255,
+    "transparentPixels": 27763,
+    "visiblePixels": 9101
+  },
+  "isolatedForegroundComponents": 1,
+  "qualityStatus": "passed_slice_visual_review_20261026",
+  "nativeDetailIncreased": false,
+  "processedAt": "2026-10-26T06:14:38.179246-04:00",
+  "rowMajorIndex": 20,
+  "visualEvidence": "docs/sprite-qa.md; previews/sprites-contact.jpg"
+}

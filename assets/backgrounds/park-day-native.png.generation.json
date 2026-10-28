@@ -1,0 +1,61 @@
+{
+  "file": "assets/backgrounds/park-day-native.png",
+  "sha256": "27c3ac998fcd81e675c9a05712ead25c83443b133844c169d1476c3cebe25712",
+  "generatedAt": "2026-10-26T10:02:52Z",
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "mode": "RGB",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具没有型号/质量选择器；本次返回仅含image_url及output_hint，未披露可核实型号/质量。",
+  "evidence": {
+    "toolResult": "records/bg-receipt.json",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "nativeOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a177a6-ab28-7732-aee8-f17747d127e1\\exec-dc323b01-55bb-4448-8041-d81ed0935637.png",
+    "pngMetadataKeys": []
+  },
+  "prompt": "records/bg-prompt.txt",
+  "references": [
+    {
+      "file": "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "purpose": "首要风格参考，实际附图"
+    },
+    {
+      "file": "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "purpose": "首要风格参考，实际附图"
+    }
+  ],
+  "reviewStatus": "pending_visual_review",
+  "operation": "native_model_generation_no_resampling",
+  "registeredAt": "2026-10-26T06:06:40.514981-04:00",
+  "timestampMeaning": "generatedAt为已记录的本次工具调用开始时间；宿主未披露精确渲染完成时间。"
+}

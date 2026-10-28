@@ -1,0 +1,298 @@
+{
+  "file": "previews/flows/02-ride-flow.png",
+  "textLayers": [
+    {
+      "text": "设施建造与运营流程",
+      "position": [
+        96,
+        46
+      ],
+      "fontSize": 50,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "color": "#173e35"
+    },
+    {
+      "text": "商店/服务设施无须套用所有轨道测试条件；具体能力由设施类型决定。",
+      "position": [
+        98,
+        119
+      ],
+      "fontSize": 23,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#6d6f5c"
+    },
+    {
+      "text": "建设",
+      "position": [
+        630,
+        316
+      ],
+      "fontSize": 20,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#527364"
+    },
+    {
+      "text": "校验",
+      "position": [
+        1230,
+        316
+      ],
+      "fontSize": 20,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#527364"
+    },
+    {
+      "text": "开放",
+      "position": [
+        1580,
+        539
+      ],
+      "fontSize": 20,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#527364"
+    },
+    {
+      "text": "故障",
+      "position": [
+        1230,
+        694
+      ],
+      "fontSize": 20,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#527364"
+    },
+    {
+      "text": "修复",
+      "position": [
+        1230,
+        758
+      ],
+      "fontSize": 20,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#527364"
+    },
+    {
+      "text": "关闭",
+      "position": [
+        430,
+        904
+      ],
+      "fontSize": 20,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#527364"
+    },
+    {
+      "text": "改建",
+      "position": [
+        430,
+        520
+      ],
+      "fontSize": 20,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#527364"
+    },
+    {
+      "text": "选择设施或蓝图",
+      "position": [
+        264,
+        282
+      ],
+      "fontSize": 32,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "color": "#173e35"
+    },
+    {
+      "text": "交通/温和/过山车/惊险等",
+      "position": [
+        138,
+        410
+      ],
+      "fontSize": 22,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#173e35"
+    },
+    {
+      "text": "分段建设与连接",
+      "position": [
+        864,
+        282
+      ],
+      "fontSize": 32,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "color": "#173e35"
+    },
+    {
+      "text": "轨道/车站/入口/出口/步道",
+      "position": [
+        738,
+        410
+      ],
+      "fontSize": 22,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#173e35"
+    },
+    {
+      "text": "测试与测量",
+      "position": [
+        1464,
+        282
+      ],
+      "fontSize": 32,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "color": "#173e35"
+    },
+    {
+      "text": "试车/模拟/评级/速度图表",
+      "position": [
+        1338,
+        410
+      ],
+      "fontSize": 22,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#173e35"
+    },
+    {
+      "text": "开放营业",
+      "position": [
+        1464,
+        692
+      ],
+      "fontSize": 32,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "color": "#173e35"
+    },
+    {
+      "text": "票价/客流/排队/收入",
+      "position": [
+        1338,
+        820
+      ],
+      "fontSize": 22,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#173e35"
+    },
+    {
+      "text": "维护处理",
+      "position": [
+        864,
+        692
+      ],
+      "fontSize": 32,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "color": "#173e35"
+    },
+    {
+      "text": "故障提醒 → 维修员定位",
+      "position": [
+        738,
+        820
+      ],
+      "fontSize": 22,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#173e35"
+    },
+    {
+      "text": "关闭与处置",
+      "position": [
+        264,
+        692
+      ],
+      "fontSize": 32,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "color": "#173e35"
+    },
+    {
+      "text": "修改/翻新/拆除确认",
+      "position": [
+        138,
+        820
+      ],
+      "fontSize": 22,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#173e35"
+    },
+    {
+      "text": "流程说明图 · 静态美术交付 · 操作与状态以源码合同为依据",
+      "position": [
+        100,
+        1030
+      ],
+      "fontSize": 21,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#6d6f5c"
+    }
+  ],
+  "nodes": [
+    [
+      "选择设施或蓝图",
+      "交通/温和/过山车/惊险等",
+      "track_blueprint"
+    ],
+    [
+      "分段建设与连接",
+      "轨道/车站/入口/出口/步道",
+      "build"
+    ],
+    [
+      "测试与测量",
+      "试车/模拟/评级/速度图表",
+      "research"
+    ],
+    [
+      "开放营业",
+      "票价/客流/排队/收入",
+      "park_gate"
+    ],
+    [
+      "维护处理",
+      "故障提醒 → 维修员定位",
+      "mechanic"
+    ],
+    [
+      "关闭与处置",
+      "修改/翻新/拆除确认",
+      "demolish"
+    ]
+  ],
+  "edges": [
+    [
+      0,
+      1,
+      "开始建设"
+    ],
+    [
+      1,
+      2,
+      "校验通过"
+    ],
+    [
+      2,
+      3,
+      "选择开放"
+    ],
+    [
+      3,
+      4,
+      "故障/检查"
+    ],
+    [
+      4,
+      3,
+      "修复后营业"
+    ],
+    [
+      3,
+      5,
+      "主动关闭"
+    ],
+    [
+      5,
+      1,
+      "继续改建"
+    ]
+  ],
+  "canvas": [
+    1920,
+    1080
+  ]
+}

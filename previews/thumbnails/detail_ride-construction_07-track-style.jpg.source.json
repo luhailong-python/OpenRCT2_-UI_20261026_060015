@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_ride-construction_07-track-style.jpg",
+  "sha256": "abc5cbd6febbb89db9a74328c60f21f018b68d4566e34fe685174cb9ef253103",
+  "derivedFrom": [
+    {
+      "file": "designs/details/ride-construction/07-track-style.png",
+      "sha256": "ca4f6f2a59399c22b888becee683d99b432682c5d01010d7908a4c2e4a88d6b7",
+      "sourceRecord": "designs/details/ride-construction/07-track-style.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

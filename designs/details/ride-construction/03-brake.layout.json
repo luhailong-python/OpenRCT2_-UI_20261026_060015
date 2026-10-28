@@ -1,0 +1,925 @@
+{
+  "schemaVersion": 1,
+  "screenId": "detail:ride-construction:03-brake",
+  "title": "轨道建造  制动段",
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "origin": "top-left",
+  "textLayers": [
+    {
+      "id": "text-001",
+      "text": "轨道建造",
+      "role": "dynamic-text",
+      "region": [
+        620,
+        66,
+        680,
+        75
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 46,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 65,
+      "wrappedLines": [
+        "轨道建造"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-002",
+      "text": "曲线方向",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        231,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "曲线方向"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-003",
+      "text": "坡度与侧倾",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        301,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "坡度与侧倾"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-004",
+      "text": "制动与推进",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        371,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "制动与推进"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-005",
+      "text": "座椅旋转",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        441,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "座椅旋转"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-006",
+      "text": "入口与出口",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        511,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "入口与出口"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-007",
+      "text": "制动与推进",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        218,
+        1388,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 32,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 45,
+      "wrappedLines": [
+        "制动与推进"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-008",
+      "text": "美术设计样例 · 名称 / 数值待定",
+      "role": "dynamic-text",
+      "region": [
+        600,
+        1046,
+        720,
+        28
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "美术设计样例 · 名称 / 数值待定"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-009",
+      "text": "特殊轨道",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        300,
+        1042,
+        34
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "特殊轨道"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-010",
+      "text": "制动段",
+      "role": "dynamic-text",
+      "region": [
+        430,
+        344,
+        938,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "制动段"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-011",
+      "text": "▼",
+      "role": "dynamic-text",
+      "region": [
+        1381,
+        344,
+        40,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "▼"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-012",
+      "text": "制动速度上限",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        396,
+        1042,
+        34
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "制动速度上限"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-013",
+      "text": "24 千米 / 时",
+      "role": "dynamic-text",
+      "region": [
+        458,
+        440,
+        922,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "24 千米 / 时"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-014",
+      "text": "速度设置随当前选中的特殊轨道段变化。",
+      "role": "dynamic-text",
+      "region": [
+        397,
+        870,
+        1044,
+        39
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#7A745E",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "速度设置随当前选中的特殊轨道段变化。"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-015",
+      "text": "移除高亮段",
+      "role": "dynamic-text",
+      "region": [
+        1608,
+        924,
+        154,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "移除高亮段"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-016",
+      "text": "建造此段",
+      "role": "dynamic-text",
+      "region": [
+        1380,
+        924,
+        154,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "建造此段"
+      ],
+      "dynamic": true
+    }
+  ],
+  "artAndControlLayers": [
+    {
+      "role": "park-background",
+      "asset": "assets/backgrounds/park-day-native.png",
+      "region": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "resize": "cover"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_main.png",
+      "region": [
+        52,
+        96,
+        1816,
+        930
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "title-plaque",
+      "asset": "assets/common/title_plate.png",
+      "region": [
+        520,
+        22,
+        880,
+        170
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "close",
+      "asset": "assets/common/close.png",
+      "region": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_card.png",
+      "region": [
+        84,
+        208,
+        268,
+        756
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        224,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        294,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_selected.png",
+      "region": [
+        100,
+        364,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        434,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        504,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "illustration",
+      "asset": "assets/illustrations/dragon_coaster.png",
+      "region": [
+        1478,
+        360,
+        320,
+        462
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "value-field",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        394,
+        336,
+        1050,
+        52
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "RideConstruction:WIDX_SPECIAL_TRACK_DROPDOWN"
+      ],
+      "unit": "RideConstruction",
+      "controlId": "WIDX_SPECIAL_TRACK_DROPDOWN",
+      "screenId": "detail:ride-construction:03-brake",
+      "region": [
+        394,
+        336,
+        976,
+        52
+      ],
+      "visualKind": "dropdown",
+      "label": "特殊轨道",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+          "line": 118
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 171,
+            "sourceExpression": "makeWidget        ({  6,  55}, { kGroupWidth - 6,  14}, WidgetType::button,   WindowColour::secondary, kStringIdEmpty,                                   STR_RIDE_CONSTRUCTION_OTHER_TRACK_CONFIGURATIONS_TIP)",
+            "sourceStringIds": [
+              "STR_RIDE_CONSTRUCTION_OTHER_TRACK_CONFIGURATIONS_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+          "line": 1767,
+          "expression": "             widgets[WIDX_SPECIAL_TRACK_DROPDOWN].setVisible(_specialElementDropdownState.HasActiveElements);              // Directional arrows"
+        }
+      ],
+      "displayedCondition": "trackTypeHasSpeedSetting 为真；推进与制动文案按 trackTypeIsBooster 切换，侧倾组隐藏。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "value-field",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        394,
+        432,
+        1050,
+        52
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "spinner-decrease",
+      "asset": "assets/common/minus.png",
+      "region": [
+        403,
+        438,
+        40,
+        40
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "spinner-increase",
+      "asset": "assets/common/plus.png",
+      "region": [
+        1395,
+        438,
+        40,
+        40
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "RideConstruction:WIDX_SPEED_SETTING_SPINNER"
+      ],
+      "unit": "RideConstruction",
+      "controlId": "WIDX_SPEED_SETTING_SPINNER",
+      "screenId": "detail:ride-construction:03-brake",
+      "region": [
+        450,
+        432,
+        938,
+        52
+      ],
+      "visualKind": "spinner",
+      "label": "制动速度上限",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "spinner",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+          "line": 146
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "spinner",
+            "sourcePath": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 197,
+            "sourceExpression": "makeSpinnerWidgets({ 12, 136}, {              85,  14}, WidgetType::spinner,  WindowColour::secondary, kStringIdEmpty,                                   STR_RIDE_CONSTRUCTION_BRAKE_SPEED_LIMIT_TIP         )",
+            "sourceStringIds": [
+              "STR_RIDE_CONSTRUCTION_BRAKE_SPEED_LIMIT_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": "value"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+          "line": 1937,
+          "expression": "            widgets[WIDX_SPEED_GROUPBOX].setHidden();             widgets[WIDX_SPEED_SETTING_SPINNER].setHidden();             widgets[WIDX_SPEED_SETTING_SPINNER_UP].setHidden();             widgets[WIDX_SPEED_SETTING_SPINNER_DOWN].setHidden();"
+        },
+        {
+          "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+          "line": 1938,
+          "expression": "            widgets[WIDX_SPEED_SETTING_SPINNER].setHidden();             widgets[WIDX_SPEED_SETTING_SPINNER_UP].setHidden();             widgets[WIDX_SPEED_SETTING_SPINNER_DOWN].setHidden(); "
+        },
+        {
+          "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+          "line": 1939,
+          "expression": "            widgets[WIDX_SPEED_SETTING_SPINNER_UP].setHidden();             widgets[WIDX_SPEED_SETTING_SPINNER_DOWN].setHidden();              const bool trackHasSpeedSetting = trackTypeHasSpeedSetting(_selectedTrackType)"
+        },
+        {
+          "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+          "line": 1965,
+          "expression": "                widgets[WIDX_SPEED_GROUPBOX].setVisible();                 widgets[WIDX_SPEED_SETTING_SPINNER].setVisible();                 widgets[WIDX_SPEED_SETTING_SPINNER_UP].setVisible();                 widgets[WIDX_SPEED_SETTING_SPINNER_DOWN].setVisible();"
+        },
+        {
+          "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+          "line": 1966,
+          "expression": "                widgets[WIDX_SPEED_SETTING_SPINNER].setVisible();                 widgets[WIDX_SPEED_SETTING_SPINNER_UP].setVisible();                 widgets[WIDX_SPEED_SETTING_SPINNER_DOWN].setVisible(); "
+        },
+        {
+          "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+          "line": 1967,
+          "expression": "                widgets[WIDX_SPEED_SETTING_SPINNER_UP].setVisible();                 widgets[WIDX_SPEED_SETTING_SPINNER_DOWN].setVisible();                  widgetsSetHoldable(*this, { WIDX_SPEED_SETTING_SPINNER_UP, WIDX_SPEED_SETTING_SPINNER_DOWN });"
+        }
+      ],
+      "displayedCondition": "trackTypeHasSpeedSetting 为真；推进与制动文案按 trackTypeIsBooster 切换，侧倾组隐藏。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "RideConstruction:WIDX_SPEED_SETTING_SPINNER_DOWN"
+      ],
+      "unit": "RideConstruction",
+      "controlId": "WIDX_SPEED_SETTING_SPINNER_DOWN",
+      "screenId": "detail:ride-construction:03-brake",
+      "region": [
+        403,
+        438,
+        40,
+        40
+      ],
+      "visualKind": "stepper-decrease",
+      "label": "制动速度上限减少",
+      "state": "normal",
+      "parentControl": "WIDX_SPEED_SETTING_SPINNER",
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+          "line": 148
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 197,
+            "sourceExpression": "makeSpinnerWidgets({ 12, 136}, {              85,  14}, WidgetType::spinner,  WindowColour::secondary, kStringIdEmpty,                                   STR_RIDE_CONSTRUCTION_BRAKE_SPEED_LIMIT_TIP         )",
+            "sourceStringIds": [
+              "STR_RIDE_CONSTRUCTION_BRAKE_SPEED_LIMIT_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": "decrease"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+          "line": 1939,
+          "expression": "            widgets[WIDX_SPEED_SETTING_SPINNER_UP].setHidden();             widgets[WIDX_SPEED_SETTING_SPINNER_DOWN].setHidden();              const bool trackHasSpeedSetting = trackTypeHasSpeedSetting(_selectedTrackType)"
+        },
+        {
+          "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+          "line": 1967,
+          "expression": "                widgets[WIDX_SPEED_SETTING_SPINNER_UP].setVisible();                 widgets[WIDX_SPEED_SETTING_SPINNER_DOWN].setVisible();                  widgetsSetHoldable(*this, { WIDX_SPEED_SETTING_SPINNER_UP, WIDX_SPEED_SETTING_SPINNER_DOWN });"
+        }
+      ],
+      "displayedCondition": "trackTypeHasSpeedSetting 为真；推进与制动文案按 trackTypeIsBooster 切换，侧倾组隐藏。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "RideConstruction:WIDX_SPEED_SETTING_SPINNER_UP"
+      ],
+      "unit": "RideConstruction",
+      "controlId": "WIDX_SPEED_SETTING_SPINNER_UP",
+      "screenId": "detail:ride-construction:03-brake",
+      "region": [
+        1395,
+        438,
+        40,
+        40
+      ],
+      "visualKind": "stepper-increase",
+      "label": "制动速度上限增加",
+      "state": "normal",
+      "parentControl": "WIDX_SPEED_SETTING_SPINNER",
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+          "line": 147
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 197,
+            "sourceExpression": "makeSpinnerWidgets({ 12, 136}, {              85,  14}, WidgetType::spinner,  WindowColour::secondary, kStringIdEmpty,                                   STR_RIDE_CONSTRUCTION_BRAKE_SPEED_LIMIT_TIP         )",
+            "sourceStringIds": [
+              "STR_RIDE_CONSTRUCTION_BRAKE_SPEED_LIMIT_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": "increase"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+          "line": 1938,
+          "expression": "            widgets[WIDX_SPEED_SETTING_SPINNER].setHidden();             widgets[WIDX_SPEED_SETTING_SPINNER_UP].setHidden();             widgets[WIDX_SPEED_SETTING_SPINNER_DOWN].setHidden(); "
+        },
+        {
+          "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+          "line": 1966,
+          "expression": "                widgets[WIDX_SPEED_SETTING_SPINNER].setVisible();                 widgets[WIDX_SPEED_SETTING_SPINNER_UP].setVisible();                 widgets[WIDX_SPEED_SETTING_SPINNER_DOWN].setVisible(); "
+        }
+      ],
+      "displayedCondition": "trackTypeHasSpeedSetting 为真；推进与制动文案按 trackTypeIsBooster 切换，侧倾组隐藏。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1584,
+        916,
+        202,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "RideConstruction:WIDX_DEMOLISH"
+      ],
+      "unit": "RideConstruction",
+      "controlId": "WIDX_DEMOLISH",
+      "screenId": "detail:ride-construction:03-brake",
+      "region": [
+        1584,
+        916,
+        202,
+        68
+      ],
+      "visualKind": "button",
+      "label": "移除高亮段",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+          "line": 131
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 184,
+            "sourceExpression": "makeWidget        ({ 82, 338}, {              46,  24}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_DEMOLISH_CURRENT_SECTION),            STR_RIDE_CONSTRUCTION_REMOVE_HIGHLIGHTED_SECTION_TIP)",
+            "sourceStringIds": [
+              "STR_RIDE_CONSTRUCTION_REMOVE_HIGHLIGHTED_SECTION_TIP"
+            ],
+            "originalSpriteIds": [
+              "SPR_DEMOLISH_CURRENT_SECTION"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+          "line": 2044,
+          "expression": "            widgets[WIDX_CONSTRUCT].setHidden();             widgets[WIDX_DEMOLISH].setVisible();             widgets[WIDX_ROTATE].setHidden();             if (rtd.flags.has(RtdFlag::cannotHaveGaps))"
+        },
+        {
+          "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+          "line": 2069,
+          "expression": "                    widgets[WIDX_CONSTRUCT].setVisible();                     widgets[WIDX_DEMOLISH].setHidden();                     widgets[WIDX_NEXT_SECTION].setHidden();                     widgets[WIDX_PREVIOUS_SECTION].setHidden();"
+        },
+        {
+          "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+          "line": 2075,
+          "expression": "                case RideConstructionState::entranceExit:                     widgets[WIDX_DEMOLISH].setHidden();                     widgets[WIDX_NEXT_SECTION].setHidden();                     widgets[WIDX_PREVIOUS_SECTION].setHidden();"
+        }
+      ],
+      "displayedCondition": "trackTypeHasSpeedSetting 为真；推进与制动文案按 trackTypeIsBooster 切换，侧倾组隐藏。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1356,
+        916,
+        202,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "RideConstruction:WIDX_CONSTRUCT"
+      ],
+      "unit": "RideConstruction",
+      "controlId": "WIDX_CONSTRUCT",
+      "screenId": "detail:ride-construction:03-brake",
+      "region": [
+        1356,
+        916,
+        202,
+        68
+      ],
+      "visualKind": "button",
+      "label": "建造此段",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "imgBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+          "line": 130
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "imgBtn",
+            "sourcePath": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 183,
+            "sourceExpression": "makeWidget        ({  3, 164}, {     kGroupWidth, 170}, WidgetType::imgBtn,   WindowColour::secondary, 0xFFFFFFFF,                                       STR_RIDE_CONSTRUCTION_CONSTRUCT_SELECTED_SECTION_TIP)",
+            "sourceStringIds": [
+              "STR_RIDE_CONSTRUCTION_CONSTRUCT_SELECTED_SECTION_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+          "line": 2043,
+          "expression": "             widgets[WIDX_CONSTRUCT].setHidden();             widgets[WIDX_DEMOLISH].setVisible();             widgets[WIDX_ROTATE].setHidden();"
+        },
+        {
+          "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+          "line": 2060,
+          "expression": "                case RideConstructionState::front:                     widgets[WIDX_CONSTRUCT].setVisible();                     widgets[WIDX_NEXT_SECTION].setHidden();                     break;"
+        },
+        {
+          "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+          "line": 2064,
+          "expression": "                case RideConstructionState::back:                     widgets[WIDX_CONSTRUCT].setVisible();                     widgets[WIDX_PREVIOUS_SECTION].setHidden();                     break;"
+        },
+        {
+          "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+          "line": 2068,
+          "expression": "                case RideConstructionState::place:                     widgets[WIDX_CONSTRUCT].setVisible();                     widgets[WIDX_DEMOLISH].setHidden();                     widgets[WIDX_NEXT_SECTION].setHidden();"
+        }
+      ],
+      "displayedCondition": "trackTypeHasSpeedSetting 为真；推进与制动文案按 trackTypeIsBooster 切换，侧倾组隐藏。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    }
+  ],
+  "dataDiagrams": [
+    {
+      "role": "data-rule",
+      "points": [
+        [
+          398,
+          276
+        ],
+        [
+          1790,
+          276
+        ]
+      ],
+      "color": "#B28C43",
+      "width": 1
+    }
+  ],
+  "layoutIssues": [],
+  "fontDistribution": "Official OFL-licensed fonts are included in assets/fonts; see records/font-sources.json.",
+  "status": "produced_pending_review"
+}

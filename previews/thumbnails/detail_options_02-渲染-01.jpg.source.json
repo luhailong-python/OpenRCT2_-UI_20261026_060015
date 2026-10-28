@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_options_02-渲染-01.jpg",
+  "sha256": "34f74fbce8a30a5884910db62a6637a3eb88fe81e06ce30bc1adfa41b1016ced",
+  "derivedFrom": [
+    {
+      "file": "designs/details/options/02-渲染-01.png",
+      "sha256": "1726c53799b900bbef25b3ca2dd842545ed7a074052f72bf5ee59f41bf543daa",
+      "sourceRecord": "designs/details/options/02-渲染-01.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

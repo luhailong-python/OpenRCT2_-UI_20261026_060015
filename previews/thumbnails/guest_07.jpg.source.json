@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/guest_07.jpg",
+  "sha256": "61f086730441617a9f66f92b283f2eb7c105bddaac83a7520673c374771cb809",
+  "derivedFrom": [
+    {
+      "file": "designs/guest/07-调试.png",
+      "sha256": "7075ddd6e0ad191560ff08586ccb343fedf74396f71ed5e5be6c28d71df11d84",
+      "sourceRecord": "designs/guest/07-调试.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

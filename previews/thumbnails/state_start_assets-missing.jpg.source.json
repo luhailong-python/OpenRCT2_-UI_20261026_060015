@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_start_assets-missing.jpg",
+  "sha256": "1d6e78692efa26ad34a2632001a43978ad03f3002564777e48859e2d22d4534a",
+  "derivedFrom": [
+    {
+      "file": "previews/states/start/assets-missing.png",
+      "sha256": "b047db3d6273c110cd44cd287571700de6d8b2b78ad8c7202ecbcc8ab196c670",
+      "sourceRecord": "previews/states/start/assets-missing.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

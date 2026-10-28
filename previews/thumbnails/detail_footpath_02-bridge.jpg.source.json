@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_footpath_02-bridge.jpg",
+  "sha256": "efaca11461bfd26be666d572eaca3d655202f05a1d649ba25a8d8ccc51e23b2d",
+  "derivedFrom": [
+    {
+      "file": "designs/details/footpath/02-bridge.png",
+      "sha256": "c65e27d94d3b8ed48ce1e09731778b8fa01733067cd113fb2c01274c53cbc299",
+      "sourceRecord": "designs/details/footpath/02-bridge.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

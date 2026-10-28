@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/utility-detail_ridelist-lights.jpg",
+  "sha256": "c2f48b1f6795f7a712bc38b6b51a025b1b2102a0ee343b6c9c08843a023ef97a",
+  "derivedFrom": [
+    {
+      "file": "designs/details/utility/ridelist-lights.png",
+      "sha256": "a11df0a71b247217edc61b2a31aa13174c2b7342b16af4848c67cdddc29b9c50",
+      "sourceRecord": "designs/details/utility/ridelist-lights.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/options_04.jpg",
+  "sha256": "cb07d7fe8420815258e92cbe5e46431d1835683d00b227d5ebb6ec31012e60c2",
+  "derivedFrom": [
+    {
+      "file": "designs/options/04-声音.png",
+      "sha256": "152ca4cde1c6b74ca4e339f0df22dde286d3b112aec2175884cd8a254ea0d7c2",
+      "sourceRecord": "designs/options/04-声音.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

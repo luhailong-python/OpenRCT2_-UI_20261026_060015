@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_map-gen_08-forest.jpg",
+  "sha256": "119d7051b934e1ff9395134c229d338f61ef9dba965367dd6d8c7e16960376ef",
+  "derivedFrom": [
+    {
+      "file": "designs/details/map-gen/08-forest.png",
+      "sha256": "d0c2d83a766ac5e29e109957602a98b662abd8c0bc6b9dd00cb290353070f6e2",
+      "sourceRecord": "designs/details/map-gen/08-forest.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

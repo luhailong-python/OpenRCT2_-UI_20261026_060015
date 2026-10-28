@@ -1,0 +1,12 @@
+{
+  "file": "assets/masters/supplement-native.png",
+  "source": "C:\\Users\\luyua\\.codex\\generated_images\\01a177a6-ab28-7732-aee8-f17747d127e1\\exec-69ff4425-e028-404b-8b52-99421ebd5b50.png",
+  "startedAt": "2026-10-26T10:30:57Z",
+  "transparent_background": true,
+  "references": [
+    "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+    "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+  ],
+  "prompt": "records/supplement-prompt.txt",
+  "receipt": "records/supplement-receipt.json"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_mapgen_view-clipping.jpg",
+  "sha256": "7468da72838bbd5e4e99b5a968600f361ba51bae29b3d8874e73d0cb95434b7c",
+  "derivedFrom": [
+    {
+      "file": "previews/states/mapgen/view-clipping.png",
+      "sha256": "d9a35611518107aee65bcaa0714e53bad25ee2bf1e3addeab7d65f347150c5e9",
+      "sourceRecord": "previews/states/mapgen/view-clipping.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

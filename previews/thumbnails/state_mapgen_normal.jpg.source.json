@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_mapgen_normal.jpg",
+  "sha256": "52e083764d870553253da4af87f8b4e401c1ecbea2cfcab2838ef51a69463d92",
+  "derivedFrom": [
+    {
+      "file": "previews/states/mapgen/normal.png",
+      "sha256": "f63aa3c9dfd3a5bb1b9fa038b6d415b6a18e7b6fdb83fc79c7e95cacfeb40f7c",
+      "sourceRecord": "previews/states/mapgen/normal.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

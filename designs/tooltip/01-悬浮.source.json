@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/tooltip/01-悬浮.png",
+  "sha256": "70bcd059bf9c9f08eaabea101d38fd6ceee1aff2034b54a2ac747b35cd9550a4",
+  "exportedAt": "2026-10-26T06:44:51.231005-04:00",
+  "width": 1920,
+  "height": 1080,
+  "format": "PNG",
+  "operation": "composite_preview_not_native_generation",
+  "process": [
+    "Nine-slice/contain/cover composition of painted PNG sprites",
+    "Separate Chinese text typesetting and data diagrams"
+  ],
+  "resampling": "LANCZOS where art is fitted; output dimensions do not represent new native generated detail.",
+  "nativeModelClaim": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidencePolicy": "Resolve original AI model/quality through each source asset record; unreported values remain unconfirmed.",
+  "derivedFrom": [
+    {
+      "file": "assets/backgrounds/park-day-native.png",
+      "sha256": "27c3ac998fcd81e675c9a05712ead25c83443b133844c169d1476c3cebe25712",
+      "nativeDimensions": [
+        1672,
+        941
+      ],
+      "generationRecord": "assets/backgrounds/park-day-native.png.generation.json",
+      "derivationRecord": "assets/slice-manifest.json"
+    },
+    {
+      "file": "assets/common/toolbar.png",
+      "sha256": "59c03a5df1706fb70e113a463e3ff18140da92319e7fee8442b83326f781eebf",
+      "nativeDimensions": [
+        590,
+        115
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/toolbar.png.source.json"
+    },
+    {
+      "file": "assets/icons/pause.png",
+      "sha256": "5a065b5c2d4bcc6f1de7e716ed9b5d2285645fad49d1b828340a0298f5f43d96",
+      "nativeDimensions": [
+        192,
+        192
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/icons/pause.png.source.json"
+    },
+    {
+      "file": "assets/icons/fast_forward.png",
+      "sha256": "99e54ae1ab201143bb87edbffa378ccb01dd950a4fa4f9df658cd22ab4a203df",
+      "nativeDimensions": [
+        192,
+        192
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/icons/fast_forward.png.source.json"
+    },
+    {
+      "file": "assets/icons/save.png",
+      "sha256": "a39978f7e93b79753cb58885acc3e44faaea46b0e4ae8f8744dd234ab0cc427f",
+      "nativeDimensions": [
+        192,
+        192
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/icons/save.png.source.json"
+    },
+    {
+      "file": "assets/icons/display.png",
+      "sha256": "f38a5f218e9eec0cfdf242ad5fb2bbb1627c9ec62d65f225416adb8ff4ee82e9",
+      "nativeDimensions": [
+        192,
+        192
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/icons/display.png.source.json"
+    },
+    {
+      "file": "assets/icons/mountain.png",
+      "sha256": "23c004ff301a7f892fa09a5e158cb154c70e69e7fb11431579d265cb67526dc6",
+      "nativeDimensions": [
+        192,
+        192
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/icons/mountain.png.source.json"
+    },
+    {
+      "file": "assets/icons/path.png",
+      "sha256": "d3a4c892126c876c8282cd8f7527f3518d748b41c7711a62faa9ec95229d28ec",
+      "nativeDimensions": [
+        192,
+        192
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/icons/path.png.source.json"
+    },
+    {
+      "file": "assets/icons/roller_coaster.png",
+      "sha256": "4468c378149e31796e8eef9f03728d69f4acbe302135ec985f4c48b1a9d79f61",
+      "nativeDimensions": [
+        192,
+        192
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/icons/roller_coaster.png.source.json"
+    },
+    {
+      "file": "assets/icons/pine_tree.png",
+      "sha256": "3654049dee6a59b8595728081e4d8321da9ffd3676364a63aee45598c6a7e48f",
+      "nativeDimensions": [
+        192,
+        192
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/icons/pine_tree.png.source.json"
+    },
+    {
+      "file": "assets/icons/visitor.png",
+      "sha256": "6864154acf8da64c9b7cc110d0c12a89d29af988137bf12e9515104a77cc8f29",
+      "nativeDimensions": [
+        192,
+        192
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/icons/visitor.png.source.json"
+    },
+    {
+      "file": "assets/icons/mechanic.png",
+      "sha256": "db8b46de0445dc87f79342c5cf8584c991eed86e63e3d162529c2c05b9228aac",
+      "nativeDimensions": [
+        192,
+        192
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/icons/mechanic.png.source.json"
+    },
+    {
+      "file": "assets/icons/coins.png",
+      "sha256": "7323314b8133c1b45467afabff3d394457147dda489d4a324744b3894ba51182",
+      "nativeDimensions": [
+        192,
+        192
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/icons/coins.png.source.json"
+    },
+    {
+      "file": "assets/icons/research.png",
+      "sha256": "cd0bf4a4383e63abd1da17d7bb41227354873261d4532aa15760d03ea4c58838",
+      "nativeDimensions": [
+        192,
+        192
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/icons/research.png.source.json"
+    },
+    {
+      "file": "assets/icons/news.png",
+      "sha256": "8e8f1603f81b0d3837a209a92e16b3e81d8a794fe0f90f47f2a375cd03e2f673",
+      "nativeDimensions": [
+        192,
+        192
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/icons/news.png.source.json"
+    },
+    {
+      "file": "assets/icons/multiplayer.png",
+      "sha256": "6755486bbe32c693e3ea5d378108face4f7419d89f73197ae5375e9d2c9a7f43",
+      "nativeDimensions": [
+        192,
+        192
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/icons/multiplayer.png.source.json"
+    },
+    {
+      "file": "assets/common/panel_card.png",
+      "sha256": "b82ed16e818b3bb86c16a68453bc4b73f1764c6fdb4541c2e470e5c60789568e",
+      "nativeDimensions": [
+        589,
+        558
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_card.png.source.json"
+    }
+  ],
+  "layoutRecord": "designs/tooltip/01-悬浮.layout.json",
+  "functionalReference": {
+    "repository": "https://github.com/OpenRCT2/OpenRCT2.git",
+    "commit": "52a55c3e8da5972460642bdfed61d091fe9cabfd",
+    "windowKey": "tooltip",
+    "tab": "悬浮",
+    "sourceEvidence": [
+      {
+        "path": "src/openrct2-ui/windows/Tooltip.cpp",
+        "line": 28,
+        "text": "enum WindowTooltipWidgetIdx : WidgetIndex"
+      },
+      {
+        "path": "src/openrct2-ui/windows/Tooltip.cpp",
+        "line": 33,
+        "text": "static constexpr auto _tooltipWidgets = makeWidgets("
+      },
+      {
+        "path": "src/openrct2-ui/windows/Tooltip.cpp",
+        "line": 36,
+        "text": "class TooltipWindow final : public Window"
+      }
+    ],
+    "visualAssumptions": [
+      "所有金额、名字、指标为排版样例",
+      "道家主题命名和铜钱显示属于美术改编",
+      "保留经营模拟逻辑，不叠加角色战斗或抽卡系统"
+    ]
+  },
+  "status": "produced_pending_review"
+}

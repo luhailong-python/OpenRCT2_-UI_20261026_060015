@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/server-list_02.jpg",
+  "sha256": "5903ee9a8db72957b35c1c52ed8d186e303ba092ca5e766084e5969a9ab6bd47",
+  "derivedFrom": [
+    {
+      "file": "designs/server-list/02-收藏.png",
+      "sha256": "83c084e2d30115fb8b72e14892b64bed621e51191d860f1d907b33d2e811ec26",
+      "sourceRecord": "designs/server-list/02-收藏.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

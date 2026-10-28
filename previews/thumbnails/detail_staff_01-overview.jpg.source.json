@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_staff_01-overview.jpg",
+  "sha256": "9efb30ca1e45eb4ca2d2c92d83f6ab1e11b6feb25a7ec8e8d0a77a7049cd74e7",
+  "derivedFrom": [
+    {
+      "file": "designs/details/staff/01-overview.png",
+      "sha256": "fc40b588725cc9000d44136b243aa4f74dd5b306cfdb4bdb2a45149c2df45b47",
+      "sourceRecord": "designs/details/staff/01-overview.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

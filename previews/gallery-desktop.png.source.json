@@ -1,0 +1,16 @@
+{
+  "file": "previews/gallery-desktop.png",
+  "sha256": "8e8a8865165fcb7f7338181762b657c1d6ec31222ab8ac2f2d175c08f9706bbb",
+  "operation": "headless_browser_screenshot_of_local_review_gallery_not_AI_generation",
+  "derivedFrom": [
+    {
+      "file": "index.html",
+      "sha256": "a144c7976c97f0510c06051b30292e3dcddaebc2a5d10b9d7cf69fd8099ddd3e"
+    },
+    {
+      "file": "previews/gallery.json",
+      "sha256": "407d002496f1600a74bd5d561e1eb47f22e018c66e43367ad240bdffdebfdcbb"
+    }
+  ],
+  "report": "records/gallery-qa.json"
+}

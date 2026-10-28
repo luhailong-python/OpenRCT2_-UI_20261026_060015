@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/details/options/09-web-data.png",
+  "sha256": "9d6fb367b561b8c712d56bfa0408caeae0d282eb59a9deb31f3f1234fc13aba4",
+  "exportedAt": "2026-10-26T08:00:06.764126-04:00",
+  "width": 1920,
+  "height": 1080,
+  "format": "PNG",
+  "operation": "composite_preview_not_native_generation",
+  "process": [
+    "Nine-slice/contain/cover composition of painted PNG sprites",
+    "Separate Chinese text typesetting and data diagrams"
+  ],
+  "resampling": "LANCZOS where art is fitted; output dimensions do not represent new native generated detail.",
+  "nativeModelClaim": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidencePolicy": "Resolve original AI model/quality through each source asset record; unreported values remain unconfirmed.",
+  "derivedFrom": [
+    {
+      "file": "assets/backgrounds/park-day-native.png",
+      "sha256": "27c3ac998fcd81e675c9a05712ead25c83443b133844c169d1476c3cebe25712",
+      "nativeDimensions": [
+        1672,
+        941
+      ],
+      "generationRecord": "assets/backgrounds/park-day-native.png.generation.json",
+      "derivationRecord": "assets/slice-manifest.json"
+    },
+    {
+      "file": "assets/common/panel_main.png",
+      "sha256": "704856762248133110624f38365e0ff337dd1f2f6304f66298e2230077ebca00",
+      "nativeDimensions": [
+        619,
+        610
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_main.png.source.json"
+    },
+    {
+      "file": "assets/common/title_plate.png",
+      "sha256": "f1011dd30d1ef42cbeedf64f31025c6c77c91ffbbcdd09ef74c065ad1d91ddfe",
+      "nativeDimensions": [
+        594,
+        195
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/title_plate.png.source.json"
+    },
+    {
+      "file": "assets/common/close.png",
+      "sha256": "f9089fdc15bfbfbd496d9c02de94c46b0e1e4052fffa9689de0b461e043737ec",
+      "nativeDimensions": [
+        184,
+        184
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/close.png.source.json"
+    },
+    {
+      "file": "assets/common/panel_card.png",
+      "sha256": "b82ed16e818b3bb86c16a68453bc4b73f1764c6fdb4541c2e470e5c60789568e",
+      "nativeDimensions": [
+        589,
+        558
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_card.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_normal.png",
+      "sha256": "9327a3d9577111e5985e3453a8a201010887c606a094b7e080421417aef3f92e",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_selected.png",
+      "sha256": "119a81554b9e332d698f5c704813cb047fcd4c5c71e9e5c36c7b6df6b4a789b9",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_selected.png.source.json"
+    },
+    {
+      "file": "assets/icons/save.png",
+      "sha256": "a39978f7e93b79753cb58885acc3e44faaea46b0e4ae8f8744dd234ab0cc427f",
+      "nativeDimensions": [
+        192,
+        192
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/icons/save.png.source.json"
+    },
+    {
+      "file": "assets/common/secondary_normal.png",
+      "sha256": "5f6418c0ede62320bc017ef1f00ec1d60a5d5fc34dac8c4e96d0016e6523881f",
+      "nativeDimensions": [
+        256,
+        112
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/secondary_normal.png.source.json"
+    }
+  ],
+  "layoutRecord": "designs/details/options/09-web-data.layout.json",
+  "functionalReference": {
+    "functionalRepository": "https://github.com/OpenRCT2/OpenRCT2.git",
+    "commit": "52a55c3e8da5972460642bdfed61d091fe9cabfd",
+    "sourceUnit": "Options",
+    "sourceFiles": [
+      "src/openrct2-ui/windows/Options.cpp"
+    ],
+    "condition": "仅 Emscripten 网页构建显示，桌面构建不显示这些入口。",
+    "scope": "Complete controls arranged as an actual product UI proposal; no runtime verification.",
+    "sourceControls": [
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_EXPORT_EMSCRIPTEN_DATA"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_EXPORT_EMSCRIPTEN_DATA",
+        "screenId": "detail:options:09-web-data",
+        "region": [
+          394,
+          312,
+          1050,
+          68
+        ],
+        "visualKind": "button",
+        "label": "导出网页游戏数据",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 259
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 468,
+              "sourceExpression": "makeWidget        ({ 10, kAdvancedStart + 46}, {135, 14}, WidgetType::button,       WindowColour::secondary, STR_EXPORT_EMSCRIPTEN,                     kStringIdNone                                )",
+              "sourceStringIds": [
+                "STR_EXPORT_EMSCRIPTEN"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "仅 Emscripten 网页构建显示，桌面构建不显示这些入口。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_IMPORT_EMSCRIPTEN_DATA"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_IMPORT_EMSCRIPTEN_DATA",
+        "screenId": "detail:options:09-web-data",
+        "region": [
+          394,
+          408,
+          1050,
+          68
+        ],
+        "visualKind": "button",
+        "label": "导入网页游戏数据",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 260
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 469,
+              "sourceExpression": "makeWidget        ({150, kAdvancedStart + 46}, {150, 14}, WidgetType::button,       WindowColour::secondary, STR_IMPORT_EMSCRIPTEN,                     kStringIdNone                                )",
+              "sourceStringIds": [
+                "STR_IMPORT_EMSCRIPTEN"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "仅 Emscripten 网页构建显示，桌面构建不显示这些入口。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      }
+    ],
+    "decorativeArtPolicy": "Existing painted PNGs only"
+  },
+  "status": "produced_pending_review"
+}

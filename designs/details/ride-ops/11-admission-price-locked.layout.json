@@ -1,0 +1,1782 @@
+{
+  "schemaVersion": 1,
+  "screenId": "operations:ride:11-admission-price-locked",
+  "title": "设施收入与定价",
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "origin": "top-left",
+  "textLayers": [
+    {
+      "id": "text-001",
+      "text": "设施收入与定价",
+      "role": "dynamic-text",
+      "region": [
+        620,
+        66,
+        680,
+        75
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 46,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 65,
+      "wrappedLines": [
+        "设施收入与定价"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-002",
+      "text": "概览",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        231,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "概览"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-003",
+      "text": "车辆",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        301,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "车辆"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-004",
+      "text": "运行",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        371,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "运行"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-005",
+      "text": "维护",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        441,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "维护"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-006",
+      "text": "配色",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        511,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "配色"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-007",
+      "text": "音乐",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        581,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "音乐"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-008",
+      "text": "测试",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        651,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "测试"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-009",
+      "text": "图表",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        721,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "图表"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-010",
+      "text": "收入",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        791,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "收入"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-011",
+      "text": "游客",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        861,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "游客"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-012",
+      "text": "收入",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        218,
+        1388,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 32,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 45,
+      "wrappedLines": [
+        "收入"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-013",
+      "text": "美术设计样例 · 名称 / 数值待定",
+      "role": "dynamic-text",
+      "region": [
+        600,
+        1046,
+        720,
+        28
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "美术设计样例 · 名称 / 数值待定"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-014",
+      "text": "游龙飞车",
+      "role": "dynamic-text",
+      "region": [
+        414,
+        296,
+        1320,
+        44
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 31,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 44,
+      "wrappedLines": [
+        "游龙飞车"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-015",
+      "text": "设施票价",
+      "role": "dynamic-text",
+      "region": [
+        422,
+        370,
+        649,
+        34
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#7A745E",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "设施票价"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-016",
+      "text": "免费",
+      "role": "dynamic-text",
+      "region": [
+        482,
+        414,
+        529,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#7A745E",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "免费"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-017",
+      "text": "留影价格",
+      "role": "dynamic-text",
+      "region": [
+        1122,
+        370,
+        649,
+        34
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "留影价格"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-018",
+      "text": "8 铜钱",
+      "role": "dynamic-text",
+      "region": [
+        1182,
+        414,
+        529,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "8 铜钱"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-019",
+      "text": "同种留影在全园统一价格",
+      "role": "dynamic-text",
+      "region": [
+        1180,
+        519,
+        577,
+        62
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "center",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "同种留影在全园统一价格"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-020",
+      "text": "门票制下此设施票价不可修改，留影项目单独定价。",
+      "role": "dynamic-text",
+      "region": [
+        451,
+        674,
+        1287,
+        104
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 27,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 38,
+      "wrappedLines": [
+        "门票制下此设施票价不可修改，留影项目单独定价。"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-021",
+      "text": "返回设施",
+      "role": "dynamic-text",
+      "region": [
+        1592,
+        925,
+        172,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "返回设施"
+      ],
+      "dynamic": true
+    }
+  ],
+  "artAndControlLayers": [
+    {
+      "role": "park-background",
+      "asset": "assets/backgrounds/park-day-native.png",
+      "region": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "resize": "cover"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_main.png",
+      "region": [
+        52,
+        96,
+        1816,
+        930
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "title-plaque",
+      "asset": "assets/common/title_plate.png",
+      "region": [
+        520,
+        22,
+        880,
+        170
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "close",
+      "asset": "assets/common/close.png",
+      "region": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_card.png",
+      "region": [
+        84,
+        208,
+        268,
+        756
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        224,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        294,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        364,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        434,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        504,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        574,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        644,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        714,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_selected.png",
+      "region": [
+        100,
+        784,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        854,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_CLOSE"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_CLOSE",
+      "screenId": "operations:ride:11-admission-price-locked",
+      "region": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "visualKind": "close",
+      "label": "关闭窗口",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "closeBox",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 114
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "closeBox",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 260,
+            "sourceExpression": "makeWindowShim(kWindowTitle, kWindowSize)",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "closeBox"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 2455,
+          "expression": "                widgets[WIDX_OPEN].setHidden();                 widgets[WIDX_CLOSE_LIGHT].setVisible();                 widgets[WIDX_SIMULATE_LIGHT].setHidden(); #ifdef __SIMULATE_IN_RIDE_WINDOW__"
+        },
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 2484,
+          "expression": "                widgets[WIDX_OPEN].setVisible();                 widgets[WIDX_CLOSE_LIGHT].setHidden();                 widgets[WIDX_SIMULATE_LIGHT].setHidden();                 widgets[WIDX_TEST_LIGHT].setHidden();"
+        }
+      ],
+      "displayedCondition": "RidePricesUnlocked is false; admission ride price locked; on-ride photo is present",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_TAB_1"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_TAB_1",
+      "screenId": "operations:ride:11-admission-price-locked",
+      "region": [
+        100,
+        224,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "概览",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 116
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 262,
+            "sourceExpression": "makeTab({   3, 17 }, STR_VIEW_OF_RIDE_ATTRACTION_TIP)",
+            "sourceStringIds": [
+              "STR_VIEW_OF_RIDE_ATTRACTION_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 1461,
+          "expression": "            setWidgetDisabled(WIDX_TAB_9, disableTab9);             setWidgetDisabled(WIDX_TAB_10, disableTab10);              if (getGameState().cheats.allowArbitraryRideTypeChanges)"
+        }
+      ],
+      "displayedCondition": "RidePricesUnlocked is false; admission ride price locked; on-ride photo is present",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_TAB_2"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_TAB_2",
+      "screenId": "operations:ride:11-admission-price-locked",
+      "region": [
+        100,
+        294,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "车辆",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 117
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 263,
+            "sourceExpression": "makeTab({  34, 17 }, STR_VEHICLE_DETAILS_AND_OPTIONS_TIP)",
+            "sourceStringIds": [
+              "STR_VEHICLE_DETAILS_AND_OPTIONS_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 1453,
+          "expression": "             setWidgetDisabled(WIDX_TAB_2, disableTab2);             setWidgetDisabled(WIDX_TAB_3, disableTab3);             setWidgetDisabled(WIDX_TAB_4, disableTab4);"
+        }
+      ],
+      "displayedCondition": "RidePricesUnlocked is false; admission ride price locked; on-ride photo is present",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_TAB_3"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_TAB_3",
+      "screenId": "operations:ride:11-admission-price-locked",
+      "region": [
+        100,
+        364,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "运行",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 118
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 264,
+            "sourceExpression": "makeTab({  65, 17 }, STR_OPERATING_OPTIONS_TIP)",
+            "sourceStringIds": [
+              "STR_OPERATING_OPTIONS_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 1454,
+          "expression": "            setWidgetDisabled(WIDX_TAB_2, disableTab2);             setWidgetDisabled(WIDX_TAB_3, disableTab3);             setWidgetDisabled(WIDX_TAB_4, disableTab4);             setWidgetDisabled(WIDX_TAB_5, disableTab5);"
+        },
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 1466,
+          "expression": "                // Keep operation and colour tabs visible for ride type cheats                 setWidgetDisabled(WIDX_TAB_3, false);                 setWidgetDisabled(WIDX_TAB_5, false);             }"
+        }
+      ],
+      "displayedCondition": "RidePricesUnlocked is false; admission ride price locked; on-ride photo is present",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_TAB_4"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_TAB_4",
+      "screenId": "operations:ride:11-admission-price-locked",
+      "region": [
+        100,
+        434,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "维护",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 119
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 265,
+            "sourceExpression": "makeTab({  96, 17 }, STR_MAINTENANCE_OPTIONS_TIP)",
+            "sourceStringIds": [
+              "STR_MAINTENANCE_OPTIONS_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 1455,
+          "expression": "            setWidgetDisabled(WIDX_TAB_3, disableTab3);             setWidgetDisabled(WIDX_TAB_4, disableTab4);             setWidgetDisabled(WIDX_TAB_5, disableTab5);             setWidgetDisabled(WIDX_TAB_6, disableTab6);"
+        }
+      ],
+      "displayedCondition": "RidePricesUnlocked is false; admission ride price locked; on-ride photo is present",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_TAB_5"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_TAB_5",
+      "screenId": "operations:ride:11-admission-price-locked",
+      "region": [
+        100,
+        504,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "配色",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 120
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 266,
+            "sourceExpression": "makeTab({ 127, 17 }, STR_COLOUR_SCHEME_OPTIONS_TIP)",
+            "sourceStringIds": [
+              "STR_COLOUR_SCHEME_OPTIONS_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 1456,
+          "expression": "            setWidgetDisabled(WIDX_TAB_4, disableTab4);             setWidgetDisabled(WIDX_TAB_5, disableTab5);             setWidgetDisabled(WIDX_TAB_6, disableTab6);             setWidgetDisabled(WIDX_TAB_7, disableTab7);"
+        },
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 1467,
+          "expression": "                setWidgetDisabled(WIDX_TAB_3, false);                 setWidgetDisabled(WIDX_TAB_5, false);             }         }"
+        }
+      ],
+      "displayedCondition": "RidePricesUnlocked is false; admission ride price locked; on-ride photo is present",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_TAB_6"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_TAB_6",
+      "screenId": "operations:ride:11-admission-price-locked",
+      "region": [
+        100,
+        574,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "音乐",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 121
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 267,
+            "sourceExpression": "makeTab({ 158, 17 }, STR_SOUND_AND_MUSIC_OPTIONS_TIP)",
+            "sourceStringIds": [
+              "STR_SOUND_AND_MUSIC_OPTIONS_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 1457,
+          "expression": "            setWidgetDisabled(WIDX_TAB_5, disableTab5);             setWidgetDisabled(WIDX_TAB_6, disableTab6);             setWidgetDisabled(WIDX_TAB_7, disableTab7);             setWidgetDisabled(WIDX_TAB_8, disableTab8);"
+        }
+      ],
+      "displayedCondition": "RidePricesUnlocked is false; admission ride price locked; on-ride photo is present",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_TAB_7"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_TAB_7",
+      "screenId": "operations:ride:11-admission-price-locked",
+      "region": [
+        100,
+        644,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "测试",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 122
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 268,
+            "sourceExpression": "makeTab({ 189, 17 }, STR_MEASUREMENTS_AND_TEST_DATA_TIP)",
+            "sourceStringIds": [
+              "STR_MEASUREMENTS_AND_TEST_DATA_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 1458,
+          "expression": "            setWidgetDisabled(WIDX_TAB_6, disableTab6);             setWidgetDisabled(WIDX_TAB_7, disableTab7);             setWidgetDisabled(WIDX_TAB_8, disableTab8);             setWidgetDisabled(WIDX_TAB_9, disableTab9);"
+        }
+      ],
+      "displayedCondition": "RidePricesUnlocked is false; admission ride price locked; on-ride photo is present",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_TAB_8"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_TAB_8",
+      "screenId": "operations:ride:11-admission-price-locked",
+      "region": [
+        100,
+        714,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "图表",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 123
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 269,
+            "sourceExpression": "makeTab({ 220, 17 }, STR_GRAPHS_TIP)",
+            "sourceStringIds": [
+              "STR_GRAPHS_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 1459,
+          "expression": "            setWidgetDisabled(WIDX_TAB_7, disableTab7);             setWidgetDisabled(WIDX_TAB_8, disableTab8);             setWidgetDisabled(WIDX_TAB_9, disableTab9);             setWidgetDisabled(WIDX_TAB_10, disableTab10);"
+        }
+      ],
+      "displayedCondition": "RidePricesUnlocked is false; admission ride price locked; on-ride photo is present",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_TAB_9"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_TAB_9",
+      "screenId": "operations:ride:11-admission-price-locked",
+      "region": [
+        100,
+        784,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "收入",
+      "state": "selected",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 124
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 270,
+            "sourceExpression": "makeTab({ 251, 17 }, STR_INCOME_AND_COSTS_TIP)",
+            "sourceStringIds": [
+              "STR_INCOME_AND_COSTS_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 1460,
+          "expression": "            setWidgetDisabled(WIDX_TAB_8, disableTab8);             setWidgetDisabled(WIDX_TAB_9, disableTab9);             setWidgetDisabled(WIDX_TAB_10, disableTab10); "
+        }
+      ],
+      "displayedCondition": "RidePricesUnlocked is false; admission ride price locked; on-ride photo is present",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_TAB_10"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_TAB_10",
+      "screenId": "operations:ride:11-admission-price-locked",
+      "region": [
+        100,
+        854,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "游客",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 125
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 271,
+            "sourceExpression": "makeTab({ 282, 17 }, STR_CUSTOMER_INFORMATION_TIP)",
+            "sourceStringIds": [
+              "STR_CUSTOMER_INFORMATION_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 1461,
+          "expression": "            setWidgetDisabled(WIDX_TAB_9, disableTab9);             setWidgetDisabled(WIDX_TAB_10, disableTab10);              if (getGameState().cheats.allowArbitraryRideTypeChanges)"
+        }
+      ],
+      "displayedCondition": "RidePricesUnlocked is false; admission ride price locked; on-ride photo is present",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "value-field",
+      "asset": "assets/common/secondary_disabled.png",
+      "region": [
+        418,
+        406,
+        657,
+        52
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "spinner-decrease",
+      "asset": "assets/common/minus.png",
+      "region": [
+        427,
+        412,
+        40,
+        40
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "spinner-increase",
+      "asset": "assets/common/plus.png",
+      "region": [
+        1026,
+        412,
+        40,
+        40
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_PRIMARY_PRICE"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_PRIMARY_PRICE",
+      "screenId": "operations:ride:11-admission-price-locked",
+      "region": [
+        474,
+        406,
+        545,
+        52
+      ],
+      "visualKind": "spinner",
+      "label": "设施票价",
+      "state": "disabled",
+      "parentControl": null,
+      "sourceWidgetType": "spinner",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 241
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "spinner",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 425,
+            "sourceExpression": "makeHoldableSpinnerWidgets({147,  50}, {162, 14}, WidgetType::spinner,  WindowColour::secondary, kStringIdEmpty                                            )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "value"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 6853,
+          "expression": "                && rtd.specialType != RtdSpecialType::toilet;             setWidgetDisabled(WIDX_PRIMARY_PRICE, primaryPriceLocked);             if (primaryPriceLocked)             {"
+        },
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 6862,
+          "expression": "            widgets[WIDX_SECONDARY_PRICE_LABEL].text = STR_SHOP_ITEM_PRICE_LABEL_ON_RIDE_PHOTO;             widgets[WIDX_PRIMARY_PRICE_SAME_THROUGHOUT_PARK].setHidden();              auto ridePrimaryPrice = RideGetPrice(*ride);"
+        },
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 6878,
+          "expression": "            {                 widgets[WIDX_PRIMARY_PRICE_SAME_THROUGHOUT_PARK].setVisible();                  if (ShopItemHasCommonPrice(primaryItem))"
+        }
+      ],
+      "displayedCondition": "RidePricesUnlocked is false; admission ride price locked; on-ride photo is present",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_PRIMARY_PRICE_DECREASE"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_PRIMARY_PRICE_DECREASE",
+      "screenId": "operations:ride:11-admission-price-locked",
+      "region": [
+        427,
+        412,
+        40,
+        40
+      ],
+      "visualKind": "stepper-decrease",
+      "label": "设施票价减少",
+      "state": "disabled",
+      "parentControl": "WIDX_PRIMARY_PRICE",
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 243
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 425,
+            "sourceExpression": "makeHoldableSpinnerWidgets({147,  50}, {162, 14}, WidgetType::spinner,  WindowColour::secondary, kStringIdEmpty                                            )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "decrease"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "RidePricesUnlocked is false; admission ride price locked; on-ride photo is present",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_PRIMARY_PRICE_INCREASE"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_PRIMARY_PRICE_INCREASE",
+      "screenId": "operations:ride:11-admission-price-locked",
+      "region": [
+        1026,
+        412,
+        40,
+        40
+      ],
+      "visualKind": "stepper-increase",
+      "label": "设施票价增加",
+      "state": "disabled",
+      "parentControl": "WIDX_PRIMARY_PRICE",
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 242
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 425,
+            "sourceExpression": "makeHoldableSpinnerWidgets({147,  50}, {162, 14}, WidgetType::spinner,  WindowColour::secondary, kStringIdEmpty                                            )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "increase"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "RidePricesUnlocked is false; admission ride price locked; on-ride photo is present",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_PRIMARY_PRICE_LABEL"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_PRIMARY_PRICE_LABEL",
+      "screenId": "operations:ride:11-admission-price-locked",
+      "region": [
+        422,
+        370,
+        649,
+        34
+      ],
+      "visualKind": "price-label",
+      "label": "设施票价",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "label",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 240
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "label",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 424,
+            "sourceExpression": "makeWidget        ({ 19,  51}, {126, 14}, WidgetType::label,    WindowColour::secondary                                                                    )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "RidePricesUnlocked is false; admission ride price locked; on-ride photo is present",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "value-field",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1118,
+        406,
+        657,
+        52
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "spinner-decrease",
+      "asset": "assets/common/minus.png",
+      "region": [
+        1127,
+        412,
+        40,
+        40
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "spinner-increase",
+      "asset": "assets/common/plus.png",
+      "region": [
+        1726,
+        412,
+        40,
+        40
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_SECONDARY_PRICE"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_SECONDARY_PRICE",
+      "screenId": "operations:ride:11-admission-price-locked",
+      "region": [
+        1174,
+        406,
+        545,
+        52
+      ],
+      "visualKind": "spinner",
+      "label": "留影价格",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "spinner",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 246
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "spinner",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 428,
+            "sourceExpression": "makeHoldableSpinnerWidgets({147,  94}, {162, 14}, WidgetType::spinner,  WindowColour::secondary, kStringIdEmpty                                            )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "value"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 6897,
+          "expression": "            const bool hasSecondaryItem = secondaryItem != ShopItem::none;             widgets[WIDX_SECONDARY_PRICE_LABEL].setVisible(hasSecondaryItem);             widgets[WIDX_SECONDARY_PRICE].setVisible(hasSecondaryItem);             widgets[WIDX_SECONDARY_PRICE_INCREASE].setVisible(hasSecondaryItem);"
+        },
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 6898,
+          "expression": "            widgets[WIDX_SECONDARY_PRICE_LABEL].setVisible(hasSecondaryItem);             widgets[WIDX_SECONDARY_PRICE].setVisible(hasSecondaryItem);             widgets[WIDX_SECONDARY_PRICE_INCREASE].setVisible(hasSecondaryItem);             widgets[WIDX_SECONDARY_PRICE_DECREASE].setVisible(hasSecondaryItem);"
+        },
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 6899,
+          "expression": "            widgets[WIDX_SECONDARY_PRICE].setVisible(hasSecondaryItem);             widgets[WIDX_SECONDARY_PRICE_INCREASE].setVisible(hasSecondaryItem);             widgets[WIDX_SECONDARY_PRICE_DECREASE].setVisible(hasSecondaryItem);             widgets[WIDX_SECONDARY_PRICE_SAME_THROUGHOUT_PARK].setVisible(hasSecondaryItem);"
+        },
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 6900,
+          "expression": "            widgets[WIDX_SECONDARY_PRICE_INCREASE].setVisible(hasSecondaryItem);             widgets[WIDX_SECONDARY_PRICE_DECREASE].setVisible(hasSecondaryItem);             widgets[WIDX_SECONDARY_PRICE_SAME_THROUGHOUT_PARK].setVisible(hasSecondaryItem); "
+        },
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 6901,
+          "expression": "            widgets[WIDX_SECONDARY_PRICE_DECREASE].setVisible(hasSecondaryItem);             widgets[WIDX_SECONDARY_PRICE_SAME_THROUGHOUT_PARK].setVisible(hasSecondaryItem);              if (hasSecondaryItem)"
+        }
+      ],
+      "displayedCondition": "RidePricesUnlocked is false; admission ride price locked; on-ride photo is present",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_SECONDARY_PRICE_DECREASE"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_SECONDARY_PRICE_DECREASE",
+      "screenId": "operations:ride:11-admission-price-locked",
+      "region": [
+        1127,
+        412,
+        40,
+        40
+      ],
+      "visualKind": "stepper-decrease",
+      "label": "留影价格减少",
+      "state": "normal",
+      "parentControl": "WIDX_SECONDARY_PRICE",
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 248
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 428,
+            "sourceExpression": "makeHoldableSpinnerWidgets({147,  94}, {162, 14}, WidgetType::spinner,  WindowColour::secondary, kStringIdEmpty                                            )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "decrease"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 6900,
+          "expression": "            widgets[WIDX_SECONDARY_PRICE_INCREASE].setVisible(hasSecondaryItem);             widgets[WIDX_SECONDARY_PRICE_DECREASE].setVisible(hasSecondaryItem);             widgets[WIDX_SECONDARY_PRICE_SAME_THROUGHOUT_PARK].setVisible(hasSecondaryItem); "
+        }
+      ],
+      "displayedCondition": "RidePricesUnlocked is false; admission ride price locked; on-ride photo is present",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_SECONDARY_PRICE_INCREASE"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_SECONDARY_PRICE_INCREASE",
+      "screenId": "operations:ride:11-admission-price-locked",
+      "region": [
+        1726,
+        412,
+        40,
+        40
+      ],
+      "visualKind": "stepper-increase",
+      "label": "留影价格增加",
+      "state": "normal",
+      "parentControl": "WIDX_SECONDARY_PRICE",
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 247
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 428,
+            "sourceExpression": "makeHoldableSpinnerWidgets({147,  94}, {162, 14}, WidgetType::spinner,  WindowColour::secondary, kStringIdEmpty                                            )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "increase"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 6899,
+          "expression": "            widgets[WIDX_SECONDARY_PRICE].setVisible(hasSecondaryItem);             widgets[WIDX_SECONDARY_PRICE_INCREASE].setVisible(hasSecondaryItem);             widgets[WIDX_SECONDARY_PRICE_DECREASE].setVisible(hasSecondaryItem);             widgets[WIDX_SECONDARY_PRICE_SAME_THROUGHOUT_PARK].setVisible(hasSecondaryItem);"
+        }
+      ],
+      "displayedCondition": "RidePricesUnlocked is false; admission ride price locked; on-ride photo is present",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_SECONDARY_PRICE_LABEL"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_SECONDARY_PRICE_LABEL",
+      "screenId": "operations:ride:11-admission-price-locked",
+      "region": [
+        1122,
+        370,
+        649,
+        34
+      ],
+      "visualKind": "price-label",
+      "label": "留影价格",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "label",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 245
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "label",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 427,
+            "sourceExpression": "makeWidget                ({ 19,  95}, {126, 14}, WidgetType::label,    WindowColour::secondary                                                            )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 6897,
+          "expression": "            const bool hasSecondaryItem = secondaryItem != ShopItem::none;             widgets[WIDX_SECONDARY_PRICE_LABEL].setVisible(hasSecondaryItem);             widgets[WIDX_SECONDARY_PRICE].setVisible(hasSecondaryItem);             widgets[WIDX_SECONDARY_PRICE_INCREASE].setVisible(hasSecondaryItem);"
+        }
+      ],
+      "displayedCondition": "RidePricesUnlocked is false; admission ride price locked; on-ride photo is present",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "checkbox",
+      "asset": "assets/common/checkbox_off.png",
+      "region": [
+        1122,
+        523,
+        42,
+        42
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_SECONDARY_PRICE_SAME_THROUGHOUT_PARK"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_SECONDARY_PRICE_SAME_THROUGHOUT_PARK",
+      "screenId": "operations:ride:11-admission-price-locked",
+      "region": [
+        1114,
+        505,
+        665,
+        104
+      ],
+      "visualKind": "checkbox",
+      "label": "同种留影在全园统一价格",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "checkbox",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 249
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "checkbox",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 429,
+            "sourceExpression": "makeWidget        ({  5, 106}, {306, 13}, WidgetType::checkbox, WindowColour::secondary, STR_SAME_PRICE_THROUGHOUT_PARK, STR_SAME_PRICE_THROUGHOUT_PARK_TIP)",
+            "sourceStringIds": [
+              "STR_SAME_PRICE_THROUGHOUT_PARK",
+              "STR_SAME_PRICE_THROUGHOUT_PARK_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 6901,
+          "expression": "            widgets[WIDX_SECONDARY_PRICE_DECREASE].setVisible(hasSecondaryItem);             widgets[WIDX_SECONDARY_PRICE_SAME_THROUGHOUT_PARK].setVisible(hasSecondaryItem);              if (hasSecondaryItem)"
+        }
+      ],
+      "displayedCondition": "RidePricesUnlocked is false; admission ride price locked; on-ride photo is present",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_card.png",
+      "region": [
+        414,
+        644,
+        1365,
+        172
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1568,
+        916,
+        220,
+        70
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_CLOSE"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_CLOSE",
+      "screenId": "operations:ride:11-admission-price-locked",
+      "region": [
+        1568,
+        916,
+        220,
+        70
+      ],
+      "visualKind": "button",
+      "label": "返回设施",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "closeBox",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 114
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "closeBox",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 260,
+            "sourceExpression": "makeWindowShim(kWindowTitle, kWindowSize)",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "closeBox"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 2455,
+          "expression": "                widgets[WIDX_OPEN].setHidden();                 widgets[WIDX_CLOSE_LIGHT].setVisible();                 widgets[WIDX_SIMULATE_LIGHT].setHidden(); #ifdef __SIMULATE_IN_RIDE_WINDOW__"
+        },
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 2484,
+          "expression": "                widgets[WIDX_OPEN].setVisible();                 widgets[WIDX_CLOSE_LIGHT].setHidden();                 widgets[WIDX_SIMULATE_LIGHT].setHidden();                 widgets[WIDX_TEST_LIGHT].setHidden();"
+        }
+      ],
+      "displayedCondition": "RidePricesUnlocked is false; admission ride price locked; on-ride photo is present",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    }
+  ],
+  "dataDiagrams": [
+    {
+      "role": "data-rule",
+      "points": [
+        [
+          398,
+          276
+        ],
+        [
+          1790,
+          276
+        ]
+      ],
+      "color": "#B28C43",
+      "width": 1
+    }
+  ],
+  "layoutIssues": [],
+  "fontDistribution": "Official OFL-licensed fonts are included in assets/fonts; see records/font-sources.json.",
+  "status": "produced_pending_review"
+}

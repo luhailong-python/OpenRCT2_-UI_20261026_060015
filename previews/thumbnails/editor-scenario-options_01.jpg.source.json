@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/editor-scenario-options_01.jpg",
+  "sha256": "dfcc809573ea67ef48839110391ebaa47da89c7fbb377ec6a101b741fae79f02",
+  "derivedFrom": [
+    {
+      "file": "designs/editor-scenario-options/01-目标.png",
+      "sha256": "0f39ae86a87952166ddaf156c89644f0868939cce784fc075a6b80d88a9d53a6",
+      "sourceRecord": "designs/editor-scenario-options/01-目标.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

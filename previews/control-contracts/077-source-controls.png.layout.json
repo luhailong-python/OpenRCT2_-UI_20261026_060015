@@ -1,0 +1,344 @@
+{
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "purpose": "technical_style_contract_not_product_screen",
+  "controls": [
+    {
+      "unit": "Ride",
+      "controlId": "WIDX_VEHICLE_TRAINS_DECREASE",
+      "rectTopLeftXYWH": [
+        58,
+        146,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        229,
+        554,
+        98
+      ],
+      "sourceWidgetType": "button",
+      "sourceLabelDisplayed": "最多",
+      "existingTargetScreenGroups": [
+        "车辆"
+      ],
+      "formalAssets": [
+        "assets/common/minus.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Ride",
+      "controlId": "WIDX_VEHICLE_CARS_PER_TRAIN",
+      "rectTopLeftXYWH": [
+        665,
+        146,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        229,
+        554,
+        98
+      ],
+      "sourceWidgetType": "spinner",
+      "sourceLabelDisplayed": "每列车最多为",
+      "existingTargetScreenGroups": [
+        "车辆"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Ride",
+      "controlId": "WIDX_VEHICLE_CARS_PER_TRAIN_INCREASE",
+      "rectTopLeftXYWH": [
+        1272,
+        146,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        229,
+        554,
+        98
+      ],
+      "sourceWidgetType": "button",
+      "sourceLabelDisplayed": "每列车最多为",
+      "existingTargetScreenGroups": [
+        "车辆"
+      ],
+      "formalAssets": [
+        "assets/common/plus.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Ride",
+      "controlId": "WIDX_VEHICLE_CARS_PER_TRAIN_DECREASE",
+      "rectTopLeftXYWH": [
+        58,
+        368,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        451,
+        554,
+        98
+      ],
+      "sourceWidgetType": "button",
+      "sourceLabelDisplayed": "每列车最多为",
+      "existingTargetScreenGroups": [
+        "车辆"
+      ],
+      "formalAssets": [
+        "assets/common/minus.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Ride",
+      "controlId": "WIDX_MODE_GROUP",
+      "rectTopLeftXYWH": [
+        665,
+        368,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        451,
+        554,
+        98
+      ],
+      "sourceWidgetType": "groupbox",
+      "sourceLabelDisplayed": "分组框板",
+      "existingTargetScreenGroups": [
+        "运行"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Ride",
+      "controlId": "WIDX_MODE",
+      "rectTopLeftXYWH": [
+        1272,
+        368,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        451,
+        554,
+        98
+      ],
+      "sourceWidgetType": "dropdownMenu",
+      "sourceLabelDisplayed": "选择这个游乐设施的运作模式",
+      "existingTargetScreenGroups": [
+        "运行"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Ride",
+      "controlId": "WIDX_MODE_DROPDOWN",
+      "rectTopLeftXYWH": [
+        58,
+        590,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        673,
+        554,
+        98
+      ],
+      "sourceWidgetType": "button",
+      "sourceLabelDisplayed": "▼",
+      "existingTargetScreenGroups": [
+        "运行"
+      ],
+      "formalAssets": [
+        "assets/common/secondary_normal.png",
+        "assets/common/secondary_pressed.png",
+        "assets/common/secondary_selected.png",
+        "assets/common/secondary_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Ride",
+      "controlId": "WIDX_MODE_TWEAK_LABEL",
+      "rectTopLeftXYWH": [
+        665,
+        590,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        673,
+        554,
+        98
+      ],
+      "sourceWidgetType": "label",
+      "sourceLabelDisplayed": "动态文字",
+      "existingTargetScreenGroups": [
+        "运行"
+      ],
+      "formalAssets": [],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Ride",
+      "controlId": "WIDX_MODE_TWEAK",
+      "rectTopLeftXYWH": [
+        1272,
+        590,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        673,
+        554,
+        98
+      ],
+      "sourceWidgetType": "spinner",
+      "sourceLabelDisplayed": "数值调节",
+      "existingTargetScreenGroups": [
+        "运行"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Ride",
+      "controlId": "WIDX_MODE_TWEAK_INCREASE",
+      "rectTopLeftXYWH": [
+        58,
+        812,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        895,
+        554,
+        98
+      ],
+      "sourceWidgetType": "button",
+      "sourceLabelDisplayed": "操作按钮",
+      "existingTargetScreenGroups": [
+        "运行"
+      ],
+      "formalAssets": [
+        "assets/common/plus.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Ride",
+      "controlId": "WIDX_MODE_TWEAK_DECREASE",
+      "rectTopLeftXYWH": [
+        665,
+        812,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        895,
+        554,
+        98
+      ],
+      "sourceWidgetType": "button",
+      "sourceLabelDisplayed": "操作按钮",
+      "existingTargetScreenGroups": [
+        "运行"
+      ],
+      "formalAssets": [
+        "assets/common/minus.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Ride",
+      "controlId": "WIDX_LIFT_HILL_SPEED_LABEL",
+      "rectTopLeftXYWH": [
+        1272,
+        812,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        895,
+        554,
+        98
+      ],
+      "sourceWidgetType": "label",
+      "sourceLabelDisplayed": "提升坡的上升速度",
+      "existingTargetScreenGroups": [
+        "运行"
+      ],
+      "formalAssets": [],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    }
+  ]
+}

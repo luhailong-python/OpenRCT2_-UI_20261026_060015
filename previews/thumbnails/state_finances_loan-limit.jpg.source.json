@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_finances_loan-limit.jpg",
+  "sha256": "5a9a8283c2df5538b0492f946229ea3ffd51e5e7a90dce6eef8dc5623497eec6",
+  "derivedFrom": [
+    {
+      "file": "previews/states/finances/loan-limit.png",
+      "sha256": "b38180be67dfd8751cf0af62a0943cb5ab7233ab375390610b2a2e84a9c6b005",
+      "sourceRecord": "previews/states/finances/loan-limit.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

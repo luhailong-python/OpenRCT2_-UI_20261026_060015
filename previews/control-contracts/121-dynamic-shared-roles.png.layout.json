@@ -1,0 +1,96 @@
+{
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "purpose": "technical_style_contract_not_product_screen",
+  "controls": [
+    {
+      "unit": "Chat",
+      "controlId": "DYNAMIC_SHARED_SKIN_ROLE",
+      "rectTopLeftXYWH": [
+        58,
+        210,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        293,
+        554,
+        98
+      ],
+      "sourceWidgetType": "textBox",
+      "sourceLabelDisplayed": "聊天输入与消息滚动区",
+      "existingTargetScreenGroups": [
+        "服务器聊天"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png",
+        "assets/common/secondary_normal.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Console",
+      "controlId": "DYNAMIC_SHARED_SKIN_ROLE",
+      "rectTopLeftXYWH": [
+        665,
+        210,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        293,
+        554,
+        98
+      ],
+      "sourceWidgetType": "scroll",
+      "sourceLabelDisplayed": "控制台输入、历史与输出",
+      "existingTargetScreenGroups": [
+        "调试控制台"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png",
+        "assets/common/secondary_normal.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "CustomWindow",
+      "controlId": "DYNAMIC_SHARED_SKIN_ROLE",
+      "rectTopLeftXYWH": [
+        1272,
+        210,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        293,
+        554,
+        98
+      ],
+      "sourceWidgetType": "tab",
+      "sourceLabelDisplayed": "插件标签、文字、列表与按钮",
+      "existingTargetScreenGroups": [
+        "自定义插件窗口"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png",
+        "assets/common/secondary_normal.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    }
+  ]
+}

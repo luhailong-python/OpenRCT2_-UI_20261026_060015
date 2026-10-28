@@ -1,0 +1,58 @@
+{
+  "name": "track_down",
+  "file": "assets/construction-icons/track_down.png",
+  "width": 352,
+  "height": 352,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "de5298509574a6ddea1647cb0dc4a71b66cda1fd72360c6ea05b01499945adab",
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "resizeAxes": "none",
+  "minimumSize": [
+    352,
+    352
+  ],
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "pixelsPerUnit": 100,
+  "containsDynamicText": false,
+  "source": "assets/masters/tracktools-native.png",
+  "sourceSha256": "8bf43c7a037eaa49614eb1d0f766080fa34e09269f72305e755fe7b7e12b559e",
+  "sourceNativeSize": [
+    1254,
+    1254
+  ],
+  "sourceRectTopLeftXYXY": [
+    342,
+    377,
+    613,
+    604
+  ],
+  "pasteOffset": [
+    40,
+    62
+  ],
+  "operation": "Original-pixel crop; isolate specified alpha>100 connected silhouettes, retain original alpha>=16 within 2px edge support; center on padded canvas. No recoloring, painting, AI call or upscaling.",
+  "derivedFrom": {
+    "file": "assets/masters/tracktools-native.png",
+    "sha256": "8bf43c7a037eaa49614eb1d0f766080fa34e09269f72305e755fe7b7e12b559e",
+    "generationRecord": "assets/masters/tracktools-native.png.generation.json"
+  },
+  "alpha": {
+    "minimum": 0,
+    "maximum": 255,
+    "transparentPixels": 91056,
+    "visiblePixels": 32848
+  },
+  "isolatedForegroundComponents": 1,
+  "qualityStatus": "slice_checked_pending_sheet_visual_review",
+  "nativeDetailIncreased": false,
+  "processedAt": "2026-10-26T08:06:27.359045-04:00"
+}

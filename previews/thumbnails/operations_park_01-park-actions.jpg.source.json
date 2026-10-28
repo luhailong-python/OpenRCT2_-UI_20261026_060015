@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/operations_park_01-park-actions.jpg",
+  "sha256": "29ed05f135b6e3500d003c69987533d05a34fc44eb058bfd0dda9af9125aa0c2",
+  "derivedFrom": [
+    {
+      "file": "designs/details/park-ops/01-park-actions.png",
+      "sha256": "eb5be8edbed8bf4bb100ce593ebc59c3f57a1dbd36caab32d005ea3e51381cd5",
+      "sourceRecord": "designs/details/park-ops/01-park-actions.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

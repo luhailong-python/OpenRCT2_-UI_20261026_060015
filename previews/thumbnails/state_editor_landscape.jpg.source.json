@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_editor_landscape.jpg",
+  "sha256": "b873a1f2fa49f4bf3f07fd04bb1b2db04e7a5ab3ff9bb813213d0c4b5d384b7b",
+  "derivedFrom": [
+    {
+      "file": "previews/states/editor/landscape.png",
+      "sha256": "3216f0261f24876a3a50adbe99c404ed9b2b7a67c4d2c863ec43157a795432e0",
+      "sourceRecord": "previews/states/editor/landscape.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_tile-inspector_10-banner.jpg",
+  "sha256": "f5534c8123f9faf24d5291c1b7dee65bdd0da743b26b36fcc951d221b37083fe",
+  "derivedFrom": [
+    {
+      "file": "designs/details/tile-inspector/10-banner.png",
+      "sha256": "331c3bd62a49805d1895f0c836526bed0268f721b3c77328a7a898717bc3f31b",
+      "sourceRecord": "designs/details/tile-inspector/10-banner.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

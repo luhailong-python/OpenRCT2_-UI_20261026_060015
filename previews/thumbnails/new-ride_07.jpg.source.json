@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/new-ride_07.jpg",
+  "sha256": "c59584f04afd6dc6d4008b1bac88fb7bf6c8f3b383378dae820c907233575cf1",
+  "derivedFrom": [
+    {
+      "file": "designs/new-ride/07-研发.png",
+      "sha256": "44d66c0ac9fc510808ffd5fd6b652c933200591b07f8c622c297ab414c52e932",
+      "sourceRecord": "designs/new-ride/07-研发.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

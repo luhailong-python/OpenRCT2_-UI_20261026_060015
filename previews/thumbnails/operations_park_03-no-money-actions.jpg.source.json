@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/operations_park_03-no-money-actions.jpg",
+  "sha256": "455606e72609393cd91864a58051e5147dafe0d532e1e71269a0df65ece4b0ad",
+  "derivedFrom": [
+    {
+      "file": "designs/details/park-ops/03-no-money-actions.png",
+      "sha256": "668b5745a243aac6850c649f614060956d8d809d75d3e33c1f2ab9c4a6c93746",
+      "sourceRecord": "designs/details/park-ops/03-no-money-actions.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

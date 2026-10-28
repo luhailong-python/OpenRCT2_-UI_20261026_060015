@@ -1,0 +1,909 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/details/map-gen/02-noise.png",
+  "sha256": "96cb22427ca3f2d8b8e099d110e32b271b1b635012f61fc7449246cfe4c1a78e",
+  "exportedAt": "2026-10-26T08:00:07.329503-04:00",
+  "width": 1920,
+  "height": 1080,
+  "format": "PNG",
+  "operation": "composite_preview_not_native_generation",
+  "process": [
+    "Nine-slice/contain/cover composition of painted PNG sprites",
+    "Separate Chinese text typesetting and data diagrams"
+  ],
+  "resampling": "LANCZOS where art is fitted; output dimensions do not represent new native generated detail.",
+  "nativeModelClaim": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidencePolicy": "Resolve original AI model/quality through each source asset record; unreported values remain unconfirmed.",
+  "derivedFrom": [
+    {
+      "file": "assets/backgrounds/park-day-native.png",
+      "sha256": "27c3ac998fcd81e675c9a05712ead25c83443b133844c169d1476c3cebe25712",
+      "nativeDimensions": [
+        1672,
+        941
+      ],
+      "generationRecord": "assets/backgrounds/park-day-native.png.generation.json",
+      "derivationRecord": "assets/slice-manifest.json"
+    },
+    {
+      "file": "assets/common/panel_main.png",
+      "sha256": "704856762248133110624f38365e0ff337dd1f2f6304f66298e2230077ebca00",
+      "nativeDimensions": [
+        619,
+        610
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_main.png.source.json"
+    },
+    {
+      "file": "assets/common/title_plate.png",
+      "sha256": "f1011dd30d1ef42cbeedf64f31025c6c77c91ffbbcdd09ef74c065ad1d91ddfe",
+      "nativeDimensions": [
+        594,
+        195
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/title_plate.png.source.json"
+    },
+    {
+      "file": "assets/common/close.png",
+      "sha256": "f9089fdc15bfbfbd496d9c02de94c46b0e1e4052fffa9689de0b461e043737ec",
+      "nativeDimensions": [
+        184,
+        184
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/close.png.source.json"
+    },
+    {
+      "file": "assets/common/panel_card.png",
+      "sha256": "b82ed16e818b3bb86c16a68453bc4b73f1764c6fdb4541c2e470e5c60789568e",
+      "nativeDimensions": [
+        589,
+        558
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_card.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_normal.png",
+      "sha256": "9327a3d9577111e5985e3453a8a201010887c606a094b7e080421417aef3f92e",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_selected.png",
+      "sha256": "119a81554b9e332d698f5c704813cb047fcd4c5c71e9e5c36c7b6df6b4a789b9",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_selected.png.source.json"
+    },
+    {
+      "file": "assets/common/secondary_normal.png",
+      "sha256": "5f6418c0ede62320bc017ef1f00ec1d60a5d5fc34dac8c4e96d0016e6523881f",
+      "nativeDimensions": [
+        256,
+        112
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/secondary_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/minus.png",
+      "sha256": "dbbb2ba1960865f8e4c2d82d877c08a21bd29d753a8b26d604220e3d24a6575d",
+      "nativeDimensions": [
+        184,
+        184
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/minus.png.source.json"
+    },
+    {
+      "file": "assets/common/plus.png",
+      "sha256": "324062095caa2442389b3c6bf725b6956ad555e022ef54e6421e26bed292bc88",
+      "nativeDimensions": [
+        184,
+        184
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/plus.png.source.json"
+    },
+    {
+      "file": "assets/common/primary_selected.png",
+      "sha256": "59c783e4602ec39fc988975d01afb66441b85a13b589a5143c69953e36f7640e",
+      "nativeDimensions": [
+        256,
+        120
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/primary_selected.png.source.json"
+    }
+  ],
+  "layoutRecord": "designs/details/map-gen/02-noise.layout.json",
+  "functionalReference": {
+    "functionalRepository": "https://github.com/OpenRCT2/OpenRCT2.git",
+    "commit": "52a55c3e8da5972460642bdfed61d091fe9cabfd",
+    "sourceUnit": "MapGen",
+    "sourceFiles": [
+      "src/openrct2-ui/windows/MapGen.cpp"
+    ],
+    "condition": "Algorithm::simplexNoise；显示频率和层数，高度图参数隐藏。",
+    "scope": "Complete controls arranged as an actual product UI proposal; no runtime verification.",
+    "sourceControls": [
+      {
+        "sourceControlKeys": [
+          "MapGen:WIDX_MAP_SIZE_X"
+        ],
+        "unit": "MapGen",
+        "controlId": "WIDX_MAP_SIZE_X",
+        "screenId": "detail:map-gen:02-noise",
+        "region": [
+          450,
+          336,
+          570,
+          52
+        ],
+        "visualKind": "spinner",
+        "label": "地图宽度",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "spinner",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 66
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "spinner",
+              "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+              "line": 139,
+              "sourceExpression": "makeHoldableSpinnerWidgets({238, 52}, { 50, 14}, WidgetType::spinner,      WindowColour::secondary, kStringIdEmpty                                        )",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": "value"
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 480,
+            "expression": "            setWidgetDisabled(WIDX_MAP_SIZE_LINK, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_X, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_X_UP, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_X_DOWN, isHeightMapImage);"
+          },
+          {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 481,
+            "expression": "            setWidgetDisabled(WIDX_MAP_SIZE_X, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_X_UP, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_X_DOWN, isHeightMapImage); "
+          },
+          {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 482,
+            "expression": "            setWidgetDisabled(WIDX_MAP_SIZE_X_UP, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_X_DOWN, isHeightMapImage);              // Enable heightmap widgets if one is loaded"
+          }
+        ],
+        "displayedCondition": "Algorithm::simplexNoise；显示频率和层数，高度图参数隐藏。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "MapGen:WIDX_MAP_SIZE_X_DOWN"
+        ],
+        "unit": "MapGen",
+        "controlId": "WIDX_MAP_SIZE_X_DOWN",
+        "screenId": "detail:map-gen:02-noise",
+        "region": [
+          403,
+          342,
+          40,
+          40
+        ],
+        "visualKind": "stepper-decrease",
+        "label": "地图宽度减少",
+        "state": "normal",
+        "parentControl": "WIDX_MAP_SIZE_X",
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 68
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+              "line": 139,
+              "sourceExpression": "makeHoldableSpinnerWidgets({238, 52}, { 50, 14}, WidgetType::spinner,      WindowColour::secondary, kStringIdEmpty                                        )",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": "decrease"
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 482,
+            "expression": "            setWidgetDisabled(WIDX_MAP_SIZE_X_UP, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_X_DOWN, isHeightMapImage);              // Enable heightmap widgets if one is loaded"
+          }
+        ],
+        "displayedCondition": "Algorithm::simplexNoise；显示频率和层数，高度图参数隐藏。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "MapGen:WIDX_MAP_SIZE_X_UP"
+        ],
+        "unit": "MapGen",
+        "controlId": "WIDX_MAP_SIZE_X_UP",
+        "screenId": "detail:map-gen:02-noise",
+        "region": [
+          1027,
+          342,
+          40,
+          40
+        ],
+        "visualKind": "stepper-increase",
+        "label": "地图宽度增加",
+        "state": "normal",
+        "parentControl": "WIDX_MAP_SIZE_X",
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 67
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+              "line": 139,
+              "sourceExpression": "makeHoldableSpinnerWidgets({238, 52}, { 50, 14}, WidgetType::spinner,      WindowColour::secondary, kStringIdEmpty                                        )",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": "increase"
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 481,
+            "expression": "            setWidgetDisabled(WIDX_MAP_SIZE_X, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_X_UP, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_X_DOWN, isHeightMapImage); "
+          }
+        ],
+        "displayedCondition": "Algorithm::simplexNoise；显示频率和层数，高度图参数隐藏。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "MapGen:WIDX_MAP_SIZE_Y"
+        ],
+        "unit": "MapGen",
+        "controlId": "WIDX_MAP_SIZE_Y",
+        "screenId": "detail:map-gen:02-noise",
+        "region": [
+          1168,
+          336,
+          570,
+          52
+        ],
+        "visualKind": "spinner",
+        "label": "地图高度",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "spinner",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 62
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "spinner",
+              "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+              "line": 137,
+              "sourceExpression": "makeHoldableSpinnerWidgets({165, 52}, { 50, 14}, WidgetType::spinner,      WindowColour::secondary, kStringIdEmpty                                        )",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": "value"
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 476,
+            "expression": "            bool isHeightMapImage = _settings.algorithm == MapGenerator::Algorithm::heightmapImage;             setWidgetDisabled(WIDX_MAP_SIZE_Y, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_Y_UP, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_Y_DOWN, isHeightMapImage);"
+          },
+          {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 477,
+            "expression": "            setWidgetDisabled(WIDX_MAP_SIZE_Y, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_Y_UP, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_Y_DOWN, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_LINK, isHeightMapImage);"
+          },
+          {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 478,
+            "expression": "            setWidgetDisabled(WIDX_MAP_SIZE_Y_UP, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_Y_DOWN, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_LINK, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_X, isHeightMapImage);"
+          }
+        ],
+        "displayedCondition": "Algorithm::simplexNoise；显示频率和层数，高度图参数隐藏。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "MapGen:WIDX_MAP_SIZE_Y_DOWN"
+        ],
+        "unit": "MapGen",
+        "controlId": "WIDX_MAP_SIZE_Y_DOWN",
+        "screenId": "detail:map-gen:02-noise",
+        "region": [
+          1121,
+          342,
+          40,
+          40
+        ],
+        "visualKind": "stepper-decrease",
+        "label": "地图高度减少",
+        "state": "normal",
+        "parentControl": "WIDX_MAP_SIZE_Y",
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 64
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+              "line": 137,
+              "sourceExpression": "makeHoldableSpinnerWidgets({165, 52}, { 50, 14}, WidgetType::spinner,      WindowColour::secondary, kStringIdEmpty                                        )",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": "decrease"
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 478,
+            "expression": "            setWidgetDisabled(WIDX_MAP_SIZE_Y_UP, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_Y_DOWN, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_LINK, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_X, isHeightMapImage);"
+          }
+        ],
+        "displayedCondition": "Algorithm::simplexNoise；显示频率和层数，高度图参数隐藏。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "MapGen:WIDX_MAP_SIZE_Y_UP"
+        ],
+        "unit": "MapGen",
+        "controlId": "WIDX_MAP_SIZE_Y_UP",
+        "screenId": "detail:map-gen:02-noise",
+        "region": [
+          1745,
+          342,
+          40,
+          40
+        ],
+        "visualKind": "stepper-increase",
+        "label": "地图高度增加",
+        "state": "normal",
+        "parentControl": "WIDX_MAP_SIZE_Y",
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 63
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+              "line": 137,
+              "sourceExpression": "makeHoldableSpinnerWidgets({165, 52}, { 50, 14}, WidgetType::spinner,      WindowColour::secondary, kStringIdEmpty                                        )",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": "increase"
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 477,
+            "expression": "            setWidgetDisabled(WIDX_MAP_SIZE_Y, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_Y_UP, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_Y_DOWN, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_LINK, isHeightMapImage);"
+          }
+        ],
+        "displayedCondition": "Algorithm::simplexNoise；显示频率和层数，高度图参数隐藏。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "MapGen:WIDX_MAP_SIZE_LINK"
+        ],
+        "unit": "MapGen",
+        "controlId": "WIDX_MAP_SIZE_LINK",
+        "screenId": "detail:map-gen:02-noise",
+        "region": [
+          394,
+          408,
+          682,
+          68
+        ],
+        "visualKind": "button",
+        "label": "保持正方形",
+        "state": "selected",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 65
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+              "line": 138,
+              "sourceExpression": "makeWidget                ({216, 52}, { 21, 12}, WidgetType::flatBtn,      WindowColour::secondary, ImageId(SPR_G2_LINK_CHAIN), STR_MAINTAIN_SQUARE_MAP_TOOLTIP)",
+              "sourceStringIds": [
+                "STR_MAINTAIN_SQUARE_MAP_TOOLTIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_G2_LINK_CHAIN"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 473,
+            "expression": "            setWidgetPressed(WIDX_MAP_SIZE_LINK, _mapWidthAndHeightLinked);             setWidgetDisabled(WIDX_MAP_SIZE_LINK, _settings.mapSize.x != _settings.mapSize.y);              bool isHeightMapImage = _settings.algorithm == MapGenerator::Algorithm::heightmapImage;"
+          },
+          {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 479,
+            "expression": "            setWidgetDisabled(WIDX_MAP_SIZE_Y_DOWN, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_LINK, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_X, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_X_UP, isHeightMapImage);"
+          }
+        ],
+        "displayedCondition": "Algorithm::simplexNoise；显示频率和层数，高度图参数隐藏。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "MapGen:WIDX_HEIGHTMAP_SOURCE"
+        ],
+        "unit": "MapGen",
+        "controlId": "WIDX_HEIGHTMAP_SOURCE",
+        "screenId": "detail:map-gen:02-noise",
+        "region": [
+          1112,
+          432,
+          608,
+          52
+        ],
+        "visualKind": "dropdown",
+        "label": "地形来源",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "dropdownMenu",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 69
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "dropdownMenu",
+              "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+              "line": 140,
+              "sourceExpression": "makeDropdownWidgets       ({155, 72}, {133, 14}, WidgetType::dropdownMenu, WindowColour::secondary, STR_HEIGHTMAP_FLATLAND                                  )",
+              "sourceStringIds": [
+                "STR_HEIGHTMAP_FLATLAND"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": "value"
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "Algorithm::simplexNoise；显示频率和层数，高度图参数隐藏。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "MapGen:WIDX_HEIGHTMAP_SOURCE_DROPDOWN"
+        ],
+        "unit": "MapGen",
+        "controlId": "WIDX_HEIGHTMAP_SOURCE_DROPDOWN",
+        "screenId": "detail:map-gen:02-noise",
+        "region": [
+          1724,
+          432,
+          66,
+          52
+        ],
+        "visualKind": "dropdown-button",
+        "label": "地形来源选择",
+        "state": "normal",
+        "parentControl": "WIDX_HEIGHTMAP_SOURCE",
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 70
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+              "line": 140,
+              "sourceExpression": "makeDropdownWidgets       ({155, 72}, {133, 14}, WidgetType::dropdownMenu, WindowColour::secondary, STR_HEIGHTMAP_FLATLAND                                  )",
+              "sourceStringIds": [
+                "STR_HEIGHTMAP_FLATLAND"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": "dropdown-arrow"
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "Algorithm::simplexNoise；显示频率和层数，高度图参数隐藏。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "MapGen:WIDX_SIMPLEX_BASE_FREQ"
+        ],
+        "unit": "MapGen",
+        "controlId": "WIDX_SIMPLEX_BASE_FREQ",
+        "screenId": "detail:map-gen:02-noise",
+        "region": [
+          450,
+          528,
+          570,
+          52
+        ],
+        "visualKind": "spinner",
+        "label": "基础频率",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "spinner",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 73
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "spinner",
+              "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+              "line": 143,
+              "sourceExpression": "makeHoldableSpinnerWidgets({179, 111}, {109, 14}, WidgetType::spinner,  WindowColour::secondary                          )",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": "value"
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 524,
+            "expression": "            widgets[WIDX_SIMPLEX_GROUP].setVisible(state);             widgets[WIDX_SIMPLEX_BASE_FREQ].setVisible(state);             widgets[WIDX_SIMPLEX_BASE_FREQ_UP].setVisible(state);             widgets[WIDX_SIMPLEX_BASE_FREQ_DOWN].setVisible(state);"
+          },
+          {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 525,
+            "expression": "            widgets[WIDX_SIMPLEX_BASE_FREQ].setVisible(state);             widgets[WIDX_SIMPLEX_BASE_FREQ_UP].setVisible(state);             widgets[WIDX_SIMPLEX_BASE_FREQ_DOWN].setVisible(state);             widgets[WIDX_SIMPLEX_OCTAVES].setVisible(state);"
+          },
+          {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 526,
+            "expression": "            widgets[WIDX_SIMPLEX_BASE_FREQ_UP].setVisible(state);             widgets[WIDX_SIMPLEX_BASE_FREQ_DOWN].setVisible(state);             widgets[WIDX_SIMPLEX_OCTAVES].setVisible(state);             widgets[WIDX_SIMPLEX_OCTAVES_UP].setVisible(state);"
+          }
+        ],
+        "displayedCondition": "Algorithm::simplexNoise；显示频率和层数，高度图参数隐藏。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "MapGen:WIDX_SIMPLEX_BASE_FREQ_DOWN"
+        ],
+        "unit": "MapGen",
+        "controlId": "WIDX_SIMPLEX_BASE_FREQ_DOWN",
+        "screenId": "detail:map-gen:02-noise",
+        "region": [
+          403,
+          534,
+          40,
+          40
+        ],
+        "visualKind": "stepper-decrease",
+        "label": "基础频率减少",
+        "state": "normal",
+        "parentControl": "WIDX_SIMPLEX_BASE_FREQ",
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 75
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+              "line": 143,
+              "sourceExpression": "makeHoldableSpinnerWidgets({179, 111}, {109, 14}, WidgetType::spinner,  WindowColour::secondary                          )",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": "decrease"
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 526,
+            "expression": "            widgets[WIDX_SIMPLEX_BASE_FREQ_UP].setVisible(state);             widgets[WIDX_SIMPLEX_BASE_FREQ_DOWN].setVisible(state);             widgets[WIDX_SIMPLEX_OCTAVES].setVisible(state);             widgets[WIDX_SIMPLEX_OCTAVES_UP].setVisible(state);"
+          }
+        ],
+        "displayedCondition": "Algorithm::simplexNoise；显示频率和层数，高度图参数隐藏。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "MapGen:WIDX_SIMPLEX_BASE_FREQ_UP"
+        ],
+        "unit": "MapGen",
+        "controlId": "WIDX_SIMPLEX_BASE_FREQ_UP",
+        "screenId": "detail:map-gen:02-noise",
+        "region": [
+          1027,
+          534,
+          40,
+          40
+        ],
+        "visualKind": "stepper-increase",
+        "label": "基础频率增加",
+        "state": "normal",
+        "parentControl": "WIDX_SIMPLEX_BASE_FREQ",
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 74
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+              "line": 143,
+              "sourceExpression": "makeHoldableSpinnerWidgets({179, 111}, {109, 14}, WidgetType::spinner,  WindowColour::secondary                          )",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": "increase"
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 525,
+            "expression": "            widgets[WIDX_SIMPLEX_BASE_FREQ].setVisible(state);             widgets[WIDX_SIMPLEX_BASE_FREQ_UP].setVisible(state);             widgets[WIDX_SIMPLEX_BASE_FREQ_DOWN].setVisible(state);             widgets[WIDX_SIMPLEX_OCTAVES].setVisible(state);"
+          }
+        ],
+        "displayedCondition": "Algorithm::simplexNoise；显示频率和层数，高度图参数隐藏。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "MapGen:WIDX_SIMPLEX_OCTAVES"
+        ],
+        "unit": "MapGen",
+        "controlId": "WIDX_SIMPLEX_OCTAVES",
+        "screenId": "detail:map-gen:02-noise",
+        "region": [
+          1168,
+          528,
+          570,
+          52
+        ],
+        "visualKind": "spinner",
+        "label": "噪声层数",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "spinner",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 76
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "spinner",
+              "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+              "line": 144,
+              "sourceExpression": "makeHoldableSpinnerWidgets({179, 129}, {109, 14}, WidgetType::spinner,  WindowColour::secondary                          )",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": "value"
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 527,
+            "expression": "            widgets[WIDX_SIMPLEX_BASE_FREQ_DOWN].setVisible(state);             widgets[WIDX_SIMPLEX_OCTAVES].setVisible(state);             widgets[WIDX_SIMPLEX_OCTAVES_UP].setVisible(state);             widgets[WIDX_SIMPLEX_OCTAVES_DOWN].setVisible(state);"
+          },
+          {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 528,
+            "expression": "            widgets[WIDX_SIMPLEX_OCTAVES].setVisible(state);             widgets[WIDX_SIMPLEX_OCTAVES_UP].setVisible(state);             widgets[WIDX_SIMPLEX_OCTAVES_DOWN].setVisible(state);         }"
+          },
+          {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 529,
+            "expression": "            widgets[WIDX_SIMPLEX_OCTAVES_UP].setVisible(state);             widgets[WIDX_SIMPLEX_OCTAVES_DOWN].setVisible(state);         } "
+          }
+        ],
+        "displayedCondition": "Algorithm::simplexNoise；显示频率和层数，高度图参数隐藏。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "MapGen:WIDX_SIMPLEX_OCTAVES_DOWN"
+        ],
+        "unit": "MapGen",
+        "controlId": "WIDX_SIMPLEX_OCTAVES_DOWN",
+        "screenId": "detail:map-gen:02-noise",
+        "region": [
+          1121,
+          534,
+          40,
+          40
+        ],
+        "visualKind": "stepper-decrease",
+        "label": "噪声层数减少",
+        "state": "normal",
+        "parentControl": "WIDX_SIMPLEX_OCTAVES",
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 78
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+              "line": 144,
+              "sourceExpression": "makeHoldableSpinnerWidgets({179, 129}, {109, 14}, WidgetType::spinner,  WindowColour::secondary                          )",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": "decrease"
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 529,
+            "expression": "            widgets[WIDX_SIMPLEX_OCTAVES_UP].setVisible(state);             widgets[WIDX_SIMPLEX_OCTAVES_DOWN].setVisible(state);         } "
+          }
+        ],
+        "displayedCondition": "Algorithm::simplexNoise；显示频率和层数，高度图参数隐藏。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "MapGen:WIDX_SIMPLEX_OCTAVES_UP"
+        ],
+        "unit": "MapGen",
+        "controlId": "WIDX_SIMPLEX_OCTAVES_UP",
+        "screenId": "detail:map-gen:02-noise",
+        "region": [
+          1745,
+          534,
+          40,
+          40
+        ],
+        "visualKind": "stepper-increase",
+        "label": "噪声层数增加",
+        "state": "normal",
+        "parentControl": "WIDX_SIMPLEX_OCTAVES",
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 77
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+              "line": 144,
+              "sourceExpression": "makeHoldableSpinnerWidgets({179, 129}, {109, 14}, WidgetType::spinner,  WindowColour::secondary                          )",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": "increase"
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 528,
+            "expression": "            widgets[WIDX_SIMPLEX_OCTAVES].setVisible(state);             widgets[WIDX_SIMPLEX_OCTAVES_UP].setVisible(state);             widgets[WIDX_SIMPLEX_OCTAVES_DOWN].setVisible(state);         }"
+          }
+        ],
+        "displayedCondition": "Algorithm::simplexNoise；显示频率和层数，高度图参数隐藏。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "MapGen:WIDX_MAP_GENERATE"
+        ],
+        "unit": "MapGen",
+        "controlId": "WIDX_MAP_GENERATE",
+        "screenId": "detail:map-gen:02-noise",
+        "region": [
+          1584,
+          916,
+          202,
+          68
+        ],
+        "visualKind": "button",
+        "label": "生成地图",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 58
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+              "line": 131,
+              "sourceExpression": "makeWidget({ 185, 200 }, { 109, 14 }, WidgetType::button, WindowColour::secondary, STR_MAPGEN_ACTION_GENERATE)",
+              "sourceStringIds": [
+                "STR_MAPGEN_ACTION_GENERATE"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 1392,
+            "expression": "            bool isHeightMapImage = _settings.algorithm == MapGenerator::Algorithm::heightmapImage;             setWidgetDisabled(WIDX_MAP_GENERATE, isHeightMapImage && !_heightmapLoaded);              switch (page)"
+          }
+        ],
+        "displayedCondition": "Algorithm::simplexNoise；显示频率和层数，高度图参数隐藏。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      }
+    ],
+    "decorativeArtPolicy": "Existing painted PNGs only"
+  },
+  "status": "produced_pending_review"
+}

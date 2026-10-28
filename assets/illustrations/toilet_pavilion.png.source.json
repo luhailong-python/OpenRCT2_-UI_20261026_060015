@@ -1,0 +1,39 @@
+{
+  "file": "assets/illustrations/toilet_pavilion.png",
+  "width": 480,
+  "height": 480,
+  "mode": "RGBA",
+  "sha256": "85bd2dfddded4e38ec99f35ab90845c6e26562fc40d00a4a93358b18e77cc153",
+  "sourceRectXYXY": [
+    868,
+    858,
+    1254,
+    1219
+  ],
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "spriteType": "Simple",
+  "operation": "connected_alpha_silhouette_crop_seed_alpha_gt140_mask_dilate3_keep_original_alpha_equal_canvas_no_scaling",
+  "excluded": "邻格碎片及断开的微小装饰碎片；没有重绘内容",
+  "nativeContentSize": [
+    386,
+    361
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/masters/supplement-native.png",
+      "sha256": "729afe132c390c7974da4184b140ad420c948257348291fa3ae46e2ed9cce554",
+      "generationRecord": "assets/masters/supplement-native.png.generation.json"
+    }
+  ],
+  "reviewStatus": "produced_pending_visual_review",
+  "usage": "界面卡面/详情插画，不是可运行世界精灵或动画"
+}

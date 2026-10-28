@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/player_02.jpg",
+  "sha256": "7f285c3feb547115cb77abdee28179d1406a00dad11d5f157d9bd3b1ffda74cb",
+  "derivedFrom": [
+    {
+      "file": "designs/player/02-统计.png",
+      "sha256": "3cf332638de5306b03adeecdd0b958ce2909fdc796dcb120d79bf80c4f641765",
+      "sourceRecord": "designs/player/02-统计.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

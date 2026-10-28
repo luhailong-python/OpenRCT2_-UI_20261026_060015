@@ -1,0 +1,12 @@
+{
+  "file": "assets/backgrounds/park-day-native.png",
+  "source": "C:\\Users\\luyua\\.codex\\generated_images\\01a177a6-ab28-7732-aee8-f17747d127e1\\exec-dc323b01-55bb-4448-8041-d81ed0935637.png",
+  "startedAt": "2026-10-26T10:02:52Z",
+  "transparent_background": false,
+  "references": [
+    "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+    "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+  ],
+  "prompt": "records/bg-prompt.txt",
+  "receipt": "records/bg-receipt.json"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/guest_05.jpg",
+  "sha256": "664861c195c319722e37514827b3ae629afd355a911e031451fd37d3a61aa675",
+  "derivedFrom": [
+    {
+      "file": "designs/guest/05-想法.png",
+      "sha256": "8f41be5f5234bbd4e3530c1ee566f73f28365531320847c01542f089670bdbe6",
+      "sourceRecord": "designs/guest/05-想法.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

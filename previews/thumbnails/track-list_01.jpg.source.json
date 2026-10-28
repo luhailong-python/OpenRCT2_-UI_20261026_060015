@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/track-list_01.jpg",
+  "sha256": "c74164e755619e97e7e047aa1fd0b487cc2a34379bbe491b66417df80290b479",
+  "derivedFrom": [
+    {
+      "file": "designs/track-list/01-设计列表.png",
+      "sha256": "54311ff8925c657b5f25f64ecc78f0db642bef034f6fcf898c098f1ff52b2448",
+      "sourceRecord": "designs/track-list/01-设计列表.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

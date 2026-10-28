@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/management-detail_cheats-guests-needs.jpg",
+  "sha256": "ad3dc8b57dd95af6fc353d2982c82a77a3a0a7b6216d29d0ec87b7e98b795f12",
+  "derivedFrom": [
+    {
+      "file": "designs/details/management/cheats-guests-needs.png",
+      "sha256": "e5e5d3d28a33f9e1df50d4f834b718e94b9c50f047673ee984d8500bedf590a6",
+      "sourceRecord": "designs/details/management/cheats-guests-needs.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

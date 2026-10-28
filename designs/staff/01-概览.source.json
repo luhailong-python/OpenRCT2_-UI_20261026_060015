@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/staff/01-概览.png",
+  "sha256": "6f7ee6b573cabbfda3161d280779f872dba6a51a2fe5c455bc6679c2343f762e",
+  "exportedAt": "2026-10-26T06:44:42.185963-04:00",
+  "width": 1920,
+  "height": 1080,
+  "format": "PNG",
+  "operation": "composite_preview_not_native_generation",
+  "process": [
+    "Nine-slice/contain/cover composition of painted PNG sprites",
+    "Separate Chinese text typesetting and data diagrams"
+  ],
+  "resampling": "LANCZOS where art is fitted; output dimensions do not represent new native generated detail.",
+  "nativeModelClaim": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidencePolicy": "Resolve original AI model/quality through each source asset record; unreported values remain unconfirmed.",
+  "derivedFrom": [
+    {
+      "file": "assets/backgrounds/park-day-native.png",
+      "sha256": "27c3ac998fcd81e675c9a05712ead25c83443b133844c169d1476c3cebe25712",
+      "nativeDimensions": [
+        1672,
+        941
+      ],
+      "generationRecord": "assets/backgrounds/park-day-native.png.generation.json",
+      "derivationRecord": "assets/slice-manifest.json"
+    },
+    {
+      "file": "assets/common/panel_main.png",
+      "sha256": "704856762248133110624f38365e0ff337dd1f2f6304f66298e2230077ebca00",
+      "nativeDimensions": [
+        619,
+        610
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_main.png.source.json"
+    },
+    {
+      "file": "assets/common/title_plate.png",
+      "sha256": "f1011dd30d1ef42cbeedf64f31025c6c77c91ffbbcdd09ef74c065ad1d91ddfe",
+      "nativeDimensions": [
+        594,
+        195
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/title_plate.png.source.json"
+    },
+    {
+      "file": "assets/common/close.png",
+      "sha256": "f9089fdc15bfbfbd496d9c02de94c46b0e1e4052fffa9689de0b461e043737ec",
+      "nativeDimensions": [
+        184,
+        184
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/close.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_selected.png",
+      "sha256": "119a81554b9e332d698f5c704813cb047fcd4c5c71e9e5c36c7b6df6b4a789b9",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_selected.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_normal.png",
+      "sha256": "9327a3d9577111e5985e3453a8a201010887c606a094b7e080421417aef3f92e",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/panel_card.png",
+      "sha256": "b82ed16e818b3bb86c16a68453bc4b73f1764c6fdb4541c2e470e5c60789568e",
+      "nativeDimensions": [
+        589,
+        558
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_card.png.source.json"
+    },
+    {
+      "file": "assets/illustrations/mechanic.png",
+      "sha256": "f2593e3572cf73a022be9e686e8fcfce8a8ecdf839d9303ab9d194effb331fe1",
+      "nativeDimensions": [
+        440,
+        440
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/illustrations/mechanic.png.source.json"
+    },
+    {
+      "file": "assets/common/secondary_normal.png",
+      "sha256": "5f6418c0ede62320bc017ef1f00ec1d60a5d5fc34dac8c4e96d0016e6523881f",
+      "nativeDimensions": [
+        256,
+        112
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/secondary_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/primary_normal.png",
+      "sha256": "83fe20f7969e29bf064885d8947b6ab9042e99b47dcac58c7277505e75cd1b5d",
+      "nativeDimensions": [
+        256,
+        120
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/primary_normal.png.source.json"
+    }
+  ],
+  "layoutRecord": "designs/staff/01-概览.layout.json",
+  "functionalReference": {
+    "repository": "https://github.com/OpenRCT2/OpenRCT2.git",
+    "commit": "52a55c3e8da5972460642bdfed61d091fe9cabfd",
+    "windowKey": "staff",
+    "tab": "概览",
+    "sourceEvidence": [
+      {
+        "path": "src/openrct2-ui/windows/Staff.cpp",
+        "line": 58,
+        "text": "enum WindowStaffWidgetIdx : WidgetIndex"
+      },
+      {
+        "path": "src/openrct2-ui/windows/Staff.cpp",
+        "line": 88,
+        "text": "static constexpr auto kMainStaffWidgets = makeWidgets("
+      },
+      {
+        "path": "src/openrct2-ui/windows/Staff.cpp",
+        "line": 96,
+        "text": "static constexpr auto _staffOverviewWidgets = makeWidgets("
+      },
+      {
+        "path": "src/openrct2-ui/windows/Staff.cpp",
+        "line": 108,
+        "text": "static constexpr auto _staffOptionsWidgets = makeWidgets("
+      },
+      {
+        "path": "src/openrct2-ui/windows/Staff.cpp",
+        "line": 119,
+        "text": "static constexpr auto _staffStatsWidgets = makeWidgets("
+      },
+      {
+        "path": "src/openrct2-ui/windows/Staff.cpp",
+        "line": 89,
+        "text": "makeWindowShim(kWindowTitle, kWindowSize),"
+      },
+      {
+        "path": "src/openrct2-ui/windows/Staff.cpp",
+        "line": 50,
+        "text": "enum WindowStaffPage"
+      },
+      {
+        "path": "src/openrct2-ui/windows/Staff.cpp",
+        "line": 55,
+        "text": "WINDOW_STAFF_PAGE_COUNT,"
+      },
+      {
+        "path": "src/openrct2-ui/windows/Staff.cpp",
+        "line": 1095,
+        "text": "for (int32_t i = 0; i < WINDOW_STAFF_PAGE_COUNT; i++)"
+      },
+      {
+        "path": "src/openrct2-ui/windows/Staff.cpp",
+        "line": 91,
+        "text": "makeTab({ 3, 17 }, STR_STAFF_OVERVIEW_TIP),"
+      },
+      {
+        "path": "src/openrct2-ui/windows/Staff.cpp",
+        "line": 92,
+        "text": "makeTab({ 34, 17 }, STR_STAFF_OPTIONS_TIP),"
+      },
+      {
+        "path": "src/openrct2-ui/windows/Staff.cpp",
+        "line": 93,
+        "text": "makeTab({ 65, 17 }, STR_STAFF_STATS_TIP)"
+      }
+    ],
+    "visualAssumptions": [
+      "所有金额、名字、指标为排版样例",
+      "道家主题命名和铜钱显示属于美术改编",
+      "保留经营模拟逻辑，不叠加角色战斗或抽卡系统"
+    ]
+  },
+  "status": "produced_pending_review"
+}

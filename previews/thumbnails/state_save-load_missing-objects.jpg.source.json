@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_save-load_missing-objects.jpg",
+  "sha256": "1a3db6483a6eb89d1e658c2958143c9f88a744e756bbb6d25532add264549367",
+  "derivedFrom": [
+    {
+      "file": "previews/states/save-load/missing-objects.png",
+      "sha256": "7bcbdcedd9b54c287a2956615978340f57d12970c331111e1f76eff6b3b764bc",
+      "sourceRecord": "previews/states/save-load/missing-objects.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

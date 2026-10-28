@@ -1,0 +1,1187 @@
+{
+  "schemaVersion": 1,
+  "screenId": "utility-detail:filebrowser-drives",
+  "title": "保存与读取 · 文件导航与读取",
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "origin": "top-left",
+  "textLayers": [
+    {
+      "id": "text-001",
+      "text": "保存与读取",
+      "role": "dynamic-text",
+      "region": [
+        620,
+        66,
+        680,
+        75
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 46,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 65,
+      "wrappedLines": [
+        "保存与读取"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-002",
+      "text": "读取",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        231,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "读取"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-003",
+      "text": "保存",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        301,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "保存"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-004",
+      "text": "场景",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        371,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "场景"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-005",
+      "text": "轨道",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        441,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "轨道"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-006",
+      "text": "高度图",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        511,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "高度图"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-007",
+      "text": "读取",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        218,
+        1388,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 32,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 45,
+      "wrappedLines": [
+        "读取"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-008",
+      "text": "美术设计样例 · 名称 / 数值待定",
+      "role": "dynamic-text",
+      "region": [
+        600,
+        1046,
+        720,
+        28
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "美术设计样例 · 名称 / 数值待定"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-009",
+      "text": "文件导航与读取",
+      "role": "dynamic-text",
+      "region": [
+        395,
+        865,
+        1398,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#7A745E",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "文件导航与读取"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-010",
+      "text": "当前位于 Windows 驱动器列表；上一级和新建文件夹按钮禁用。",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        1002,
+        1660,
+        30
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "当前位于 Windows 驱动器列表；上一级和新建文件夹按钮禁用。"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-011",
+      "text": "上一级",
+      "role": "dynamic-text",
+      "region": [
+        417,
+        308,
+        281,
+        43
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#7A745E",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "上一级"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-012",
+      "text": "新建文件夹",
+      "role": "dynamic-text",
+      "region": [
+        769,
+        308,
+        281,
+        43
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#7A745E",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "新建文件夹"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-013",
+      "text": "默认文件夹",
+      "role": "dynamic-text",
+      "region": [
+        1121,
+        308,
+        281,
+        43
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "默认文件夹"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-014",
+      "text": "系统文件浏览器",
+      "role": "dynamic-text",
+      "region": [
+        1473,
+        308,
+        281,
+        43
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "系统文件浏览器"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-015",
+      "text": "当前位置：此电脑",
+      "role": "dynamic-text",
+      "region": [
+        408,
+        378,
+        1358,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#7A745E",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "当前位置：此电脑"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-016",
+      "text": "文件名称（升序）",
+      "role": "dynamic-text",
+      "region": [
+        425,
+        448,
+        324,
+        44
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "文件名称（升序）"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-017",
+      "text": "大小",
+      "role": "dynamic-text",
+      "region": [
+        794,
+        448,
+        256,
+        44
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "大小"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-018",
+      "text": "修改时间",
+      "role": "dynamic-text",
+      "region": [
+        1096,
+        448,
+        256,
+        44
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "修改时间"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-019",
+      "text": "C: 驱动器",
+      "role": "dynamic-text",
+      "region": [
+        425,
+        519,
+        321,
+        59
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "C: 驱动器"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-020",
+      "text": "—",
+      "role": "dynamic-text",
+      "region": [
+        794,
+        519,
+        253,
+        59
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "—"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-021",
+      "text": "—",
+      "role": "dynamic-text",
+      "region": [
+        1096,
+        519,
+        253,
+        59
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "—"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-022",
+      "text": "E: 驱动器",
+      "role": "dynamic-text",
+      "region": [
+        425,
+        597,
+        321,
+        59
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "E: 驱动器"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-023",
+      "text": "—",
+      "role": "dynamic-text",
+      "region": [
+        794,
+        597,
+        253,
+        59
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "—"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-024",
+      "text": "—",
+      "role": "dynamic-text",
+      "region": [
+        1096,
+        597,
+        253,
+        59
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "—"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-025",
+      "text": "列与预览",
+      "role": "dynamic-text",
+      "region": [
+        1422,
+        438,
+        327,
+        43
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "列与预览"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-026",
+      "text": "▼",
+      "role": "dynamic-text",
+      "region": [
+        1729,
+        444,
+        30,
+        38
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 21,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 29,
+      "wrappedLines": [
+        "▼"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-027",
+      "text": "请选择一个驱动器\n再进入存档所在文件夹。",
+      "role": "dynamic-text",
+      "region": [
+        1418,
+        545,
+        330,
+        150
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 26,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 36,
+      "wrappedLines": [
+        "请选择一个驱动器",
+        "再进入存档所在文件夹。"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-028",
+      "text": "取消",
+      "role": "dynamic-text",
+      "region": [
+        1616,
+        924,
+        148,
+        38
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "取消"
+      ],
+      "dynamic": true
+    }
+  ],
+  "artAndControlLayers": [
+    {
+      "role": "park-background",
+      "asset": "assets/backgrounds/park-day-native.png",
+      "region": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "resize": "cover"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_main.png",
+      "region": [
+        52,
+        96,
+        1816,
+        930
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "title-plaque",
+      "asset": "assets/common/title_plate.png",
+      "region": [
+        520,
+        22,
+        880,
+        170
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "close",
+      "asset": "assets/common/close.png",
+      "region": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_card.png",
+      "region": [
+        84,
+        208,
+        268,
+        756
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_selected.png",
+      "region": [
+        100,
+        224,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        294,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        364,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        434,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        504,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_disabled.png",
+      "region": [
+        393,
+        300,
+        329,
+        63
+      ],
+      "resize": "nine",
+      "state": "disabled",
+      "sourceControlKey": "LoadSave:WIDX_PARENT_FOLDER"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_disabled.png",
+      "region": [
+        745,
+        300,
+        329,
+        63
+      ],
+      "resize": "nine",
+      "state": "disabled",
+      "sourceControlKey": "LoadSave:WIDX_NEW_FOLDER"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1097,
+        300,
+        329,
+        63
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "LoadSave:WIDX_DEFAULT_FOLDER"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1449,
+        300,
+        329,
+        63
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "LoadSave:WIDX_SYSTEM_BROWSER"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_card.png",
+      "region": [
+        390,
+        428,
+        973,
+        432
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "selected-data-row",
+      "asset": "assets/common/secondary_selected.png",
+      "region": [
+        410,
+        508,
+        933,
+        71
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1398,
+        430,
+        375,
+        63
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "LoadSave:WIDX_SORT_CUSTOMISE"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/primary_normal.png",
+      "region": [
+        1592,
+        916,
+        196,
+        70
+      ],
+      "resize": "nine",
+      "state": "normal"
+    }
+  ],
+  "dataDiagrams": [
+    {
+      "role": "data-rule",
+      "points": [
+        [
+          398,
+          276
+        ],
+        [
+          1790,
+          276
+        ]
+      ],
+      "color": "#B28C43",
+      "width": 1
+    }
+  ],
+  "layoutIssues": [],
+  "fontDistribution": "Official OFL-licensed fonts are included in assets/fonts; see records/font-sources.json.",
+  "status": "produced_pending_review",
+  "sourceControlBindings": [
+    {
+      "unit": "LoadSave",
+      "controlId": "WIDX_BACKGROUND",
+      "sourceControlKey": "LoadSave:WIDX_BACKGROUND",
+      "rectTopLeftXYWH": [
+        52,
+        96,
+        1816,
+        930
+      ],
+      "role": "window-structure",
+      "sourcePageGroups": [
+        "读取",
+        "保存",
+        "场景",
+        "轨道",
+        "高度图"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/LoadSave.cpp",
+        "line": 82
+      },
+      "sourceWidgetType": "frame",
+      "condition": "当前位于 Windows 驱动器列表；上一级和新建文件夹按钮禁用。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "LoadSave",
+      "controlId": "WIDX_TITLE",
+      "sourceControlKey": "LoadSave:WIDX_TITLE",
+      "rectTopLeftXYWH": [
+        520,
+        22,
+        880,
+        170
+      ],
+      "role": "window-structure",
+      "sourcePageGroups": [
+        "读取",
+        "保存",
+        "场景",
+        "轨道",
+        "高度图"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/LoadSave.cpp",
+        "line": 83
+      },
+      "sourceWidgetType": "caption",
+      "condition": "当前位于 Windows 驱动器列表；上一级和新建文件夹按钮禁用。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "LoadSave",
+      "controlId": "WIDX_CLOSE",
+      "sourceControlKey": "LoadSave:WIDX_CLOSE",
+      "rectTopLeftXYWH": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "role": "window-structure",
+      "sourcePageGroups": [
+        "读取",
+        "保存",
+        "场景",
+        "轨道",
+        "高度图"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/LoadSave.cpp",
+        "line": 84
+      },
+      "sourceWidgetType": "closeBox",
+      "condition": "当前位于 Windows 驱动器列表；上一级和新建文件夹按钮禁用。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "LoadSave",
+      "controlId": "WIDX_PARENT_FOLDER",
+      "sourceControlKey": "LoadSave:WIDX_PARENT_FOLDER",
+      "rectTopLeftXYWH": [
+        393,
+        300,
+        329,
+        63
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "读取",
+        "保存",
+        "场景",
+        "轨道",
+        "高度图"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/LoadSave.cpp",
+        "line": 86
+      },
+      "sourceWidgetType": "flatBtn",
+      "condition": "当前位于 Windows 驱动器列表；上一级和新建文件夹按钮禁用。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "LoadSave",
+      "controlId": "WIDX_NEW_FOLDER",
+      "sourceControlKey": "LoadSave:WIDX_NEW_FOLDER",
+      "rectTopLeftXYWH": [
+        745,
+        300,
+        329,
+        63
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "读取",
+        "保存",
+        "场景",
+        "轨道",
+        "高度图"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/LoadSave.cpp",
+        "line": 87
+      },
+      "sourceWidgetType": "flatBtn",
+      "condition": "当前位于 Windows 驱动器列表；上一级和新建文件夹按钮禁用。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "LoadSave",
+      "controlId": "WIDX_DEFAULT_FOLDER",
+      "sourceControlKey": "LoadSave:WIDX_DEFAULT_FOLDER",
+      "rectTopLeftXYWH": [
+        1097,
+        300,
+        329,
+        63
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "读取",
+        "保存",
+        "场景",
+        "轨道",
+        "高度图"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/LoadSave.cpp",
+        "line": 88
+      },
+      "sourceWidgetType": "flatBtn",
+      "condition": "当前位于 Windows 驱动器列表；上一级和新建文件夹按钮禁用。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "LoadSave",
+      "controlId": "WIDX_SYSTEM_BROWSER",
+      "sourceControlKey": "LoadSave:WIDX_SYSTEM_BROWSER",
+      "rectTopLeftXYWH": [
+        1449,
+        300,
+        329,
+        63
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "读取",
+        "保存",
+        "场景",
+        "轨道",
+        "高度图"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/LoadSave.cpp",
+        "line": 89
+      },
+      "sourceWidgetType": "flatBtn",
+      "condition": "当前位于 Windows 驱动器列表；上一级和新建文件夹按钮禁用。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "LoadSave",
+      "controlId": "WIDX_SCROLL",
+      "sourceControlKey": "LoadSave:WIDX_SCROLL",
+      "rectTopLeftXYWH": [
+        390,
+        428,
+        973,
+        432
+      ],
+      "role": "selectable-data-list",
+      "sourcePageGroups": [
+        "读取",
+        "保存",
+        "场景",
+        "轨道",
+        "高度图"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/LoadSave.cpp",
+        "line": 94
+      },
+      "sourceWidgetType": "scroll",
+      "condition": "当前位于 Windows 驱动器列表；上一级和新建文件夹按钮禁用。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "LoadSave",
+      "controlId": "WIDX_SORT_NAME",
+      "sourceControlKey": "LoadSave:WIDX_SORT_NAME",
+      "rectTopLeftXYWH": [
+        425,
+        448,
+        324,
+        44
+      ],
+      "role": "sortable-column-heading",
+      "sourcePageGroups": [
+        "读取",
+        "保存",
+        "场景",
+        "轨道",
+        "高度图"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/LoadSave.cpp",
+        "line": 90
+      },
+      "sourceWidgetType": "tableHeader",
+      "condition": "当前位于 Windows 驱动器列表；上一级和新建文件夹按钮禁用。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "LoadSave",
+      "controlId": "WIDX_SORT_SIZE",
+      "sourceControlKey": "LoadSave:WIDX_SORT_SIZE",
+      "rectTopLeftXYWH": [
+        794,
+        448,
+        256,
+        44
+      ],
+      "role": "sortable-column-heading",
+      "sourcePageGroups": [
+        "读取",
+        "保存",
+        "场景",
+        "轨道",
+        "高度图"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/LoadSave.cpp",
+        "line": 91
+      },
+      "sourceWidgetType": "tableHeader",
+      "condition": "当前位于 Windows 驱动器列表；上一级和新建文件夹按钮禁用。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "LoadSave",
+      "controlId": "WIDX_SORT_DATE",
+      "sourceControlKey": "LoadSave:WIDX_SORT_DATE",
+      "rectTopLeftXYWH": [
+        1096,
+        448,
+        256,
+        44
+      ],
+      "role": "sortable-column-heading",
+      "sourcePageGroups": [
+        "读取",
+        "保存",
+        "场景",
+        "轨道",
+        "高度图"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/LoadSave.cpp",
+        "line": 92
+      },
+      "sourceWidgetType": "tableHeader",
+      "condition": "当前位于 Windows 驱动器列表；上一级和新建文件夹按钮禁用。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "LoadSave",
+      "controlId": "WIDX_SORT_CUSTOMISE",
+      "sourceControlKey": "LoadSave:WIDX_SORT_CUSTOMISE",
+      "rectTopLeftXYWH": [
+        1398,
+        430,
+        375,
+        63
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "读取",
+        "保存",
+        "场景",
+        "轨道",
+        "高度图"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/LoadSave.cpp",
+        "line": 93
+      },
+      "sourceWidgetType": "button",
+      "condition": "当前位于 Windows 驱动器列表；上一级和新建文件夹按钮禁用。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    }
+  ],
+  "productDetailPurpose": "additional_actual_product_ui_layout"
+}

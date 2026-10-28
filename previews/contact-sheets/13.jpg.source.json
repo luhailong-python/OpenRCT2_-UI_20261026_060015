@@ -1,0 +1,135 @@
+{
+  "file": "previews/contact-sheets/13.jpg",
+  "sha256": "773b8f34a5ebcbfe9581ba8d51da1f33eb17bb4e6a83800450d258ae003733cb",
+  "derivedFrom": [
+    {
+      "file": "previews/states/messages-support/news.png",
+      "sha256": "16581b05d102be65abe55265ca2a4d0d2bc0e15733e2e697b1f7ad53fca5ce2e"
+    },
+    {
+      "file": "previews/states/multiplayer/bad-password.png",
+      "sha256": "7e1a103e78ccc34f306badf4ea93b4a216fdcf51d829225d2073d23d62c7ea85"
+    },
+    {
+      "file": "previews/states/multiplayer/bad-version.png",
+      "sha256": "296f264313a2f68a0af554cce668704d45e80d6bde21b5e00cefd8535e2db2cd"
+    },
+    {
+      "file": "previews/states/multiplayer/connected.png",
+      "sha256": "9098ef8a763e8c55120682dbfcacd74efdd3953f6ed8eabc42caa3716e694e39"
+    },
+    {
+      "file": "previews/states/multiplayer/connecting.png",
+      "sha256": "d09f301b4e81fdd50e42a921ca019fa661eeb59d7721f8763efa9b06900148c3"
+    },
+    {
+      "file": "previews/states/multiplayer/denied.png",
+      "sha256": "fc70e87cb7cf8aeef2da0805ed84cd1274b17840b53bcc37672ba772c1d2e55c"
+    },
+    {
+      "file": "previews/states/multiplayer/desync.png",
+      "sha256": "52108346bcbb667ae0d32d3c46338b4948af47e5a3608aa9ddb5896f5db90bf0"
+    },
+    {
+      "file": "previews/states/multiplayer/disconnect.png",
+      "sha256": "98460152ff52162f25aa9c919208a4e82a6dfae97c3e2235ca14b705fa6e7b89"
+    },
+    {
+      "file": "previews/states/multiplayer/empty.png",
+      "sha256": "998ecea5c634f3b8563fef071a13fd08647aecb3b187ed875cdf4b39d37d952d"
+    },
+    {
+      "file": "previews/states/multiplayer/full.png",
+      "sha256": "978c17c8f5dcbf3cee0803697d66a5de3948842e03b47f21d35d22a9f0099657"
+    },
+    {
+      "file": "previews/states/multiplayer/password.png",
+      "sha256": "a4fcf1fb32ede811e47a271a24a752946b3d7a0e7000782358abd99f6ca1e194"
+    },
+    {
+      "file": "previews/states/multiplayer/permission-denied.png",
+      "sha256": "357b2d664e072def0ac04569991e0c96ba0fe1ec65f0dda992e74319bb9310e2"
+    },
+    {
+      "file": "previews/states/multiplayer/server-list.png",
+      "sha256": "022765859ef08327747ec61d4de7a881089be7df388082bc3fac86da037effac"
+    },
+    {
+      "file": "previews/states/new-ride/blueprints-empty.png",
+      "sha256": "9b3e56e677c798702e01a431ef8b4a2cab1a6e581fe3890694fe4ae858ac2f8b"
+    },
+    {
+      "file": "previews/states/new-ride/locked.png",
+      "sha256": "7d204cf4253d5e50f61d599527fa48cd3416537e219645ce0d1bf29df8a0ce35"
+    },
+    {
+      "file": "previews/states/new-ride/normal.png",
+      "sha256": "47b3e282ac9ea2e9142b8e9037f9c9954522dd09d8bf641127dd29ae31c2af68"
+    },
+    {
+      "file": "previews/states/new-ride/placing.png",
+      "sha256": "37fb4271d95cdea381c9f64d907c3a3281d96ec66eb6a0e7b0aee81eb92b8657"
+    },
+    {
+      "file": "previews/states/park/closed.png",
+      "sha256": "fd068440030ac15e29213693a2ff6e857afc5e41affc4f1aebd44b79d303f592"
+    },
+    {
+      "file": "previews/states/park/no-awards.png",
+      "sha256": "d02819e117e8bdebcbdf90ec5666ed378fbdf7768d4a7a045ee77958582bd57f"
+    },
+    {
+      "file": "previews/states/park/objective-failure.png",
+      "sha256": "588c1f35150326880c5d3c42ab55f30d780a44f6d450e51d460a11bdc5b2677a"
+    },
+    {
+      "file": "previews/states/park/objective-progress.png",
+      "sha256": "ebfd65a6434ac640ae9c19ac0b2f82d825e79132066460fcee6a7779b6524365"
+    },
+    {
+      "file": "previews/states/park/objective-success.png",
+      "sha256": "a017c77c9fc0dd63a30c6cd9aa93d86ec6d36ae7b37a1bf6ca4d280947c744ae"
+    },
+    {
+      "file": "previews/states/park/open.png",
+      "sha256": "e2053679d6a8450de2d405fd6043af197cb6497dd274d6fc80be1ea4afc14ca6"
+    },
+    {
+      "file": "previews/states/paths-land/bridge.png",
+      "sha256": "35b09414ba59a9acda6bb3330a280daa9daaf4e00f87c2bb752de67227c613d2"
+    },
+    {
+      "file": "previews/states/paths-land/insufficient-funds.png",
+      "sha256": "327a8e2abe6f758d1df143da797012fa83c896ecd933c3270c243ee2a57d66ec"
+    },
+    {
+      "file": "previews/states/paths-land/normal.png",
+      "sha256": "d1ae28a9a2a60edcd82ef75ea9a89cd8b9c75af277157c5b6b6714dfc158cd8d"
+    },
+    {
+      "file": "previews/states/paths-land/not-for-sale.png",
+      "sha256": "25f2306c51cec4ebc7073dba821a7a7a3eaf9126ad0f33b6e4ea136355e1c048"
+    },
+    {
+      "file": "previews/states/paths-land/queue.png",
+      "sha256": "5262013cdac0bbddad09d31574e179aeab41561f18bee70e8aa5e2fae356d8e9"
+    },
+    {
+      "file": "previews/states/research/completing.png",
+      "sha256": "f6ca52b6d91967ee1df80312a49ab714cf345c955cdb3e56dfd4d83afc2022f9"
+    },
+    {
+      "file": "previews/states/research/designing.png",
+      "sha256": "74f2b1de01a327a4435b01df9720ba3758558cfdc546faa338e0a1a503db68d9"
+    },
+    {
+      "file": "previews/states/research/finished-all.png",
+      "sha256": "d7f07bdb0b2a2d5665cd00604167eb3ed22f38dac51d1911e75cc733f098de18"
+    },
+    {
+      "file": "previews/states/research/initial.png",
+      "sha256": "548f9d48d83ffda62ed469df21b2141ccd9520e16bf53e379fa32049e45f8c2d"
+    }
+  ],
+  "operation": "review_contact_sheet_thumbnail_composition_no_new_model_generation"
+}

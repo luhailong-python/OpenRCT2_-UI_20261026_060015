@@ -1,0 +1,12 @@
+{
+  "file": "assets/masters/illustrations-native.png",
+  "source": "C:\\Users\\luyua\\.codex\\generated_images\\01a177a6-ab28-7732-aee8-f17747d127e1\\exec-4cbca23e-49ac-4f38-9dd9-c685bca7c60f.png",
+  "startedAt": "2026-10-26T10:08:58Z",
+  "transparent_background": true,
+  "references": [
+    "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+    "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+  ],
+  "prompt": "records/illustrations-prompt.txt",
+  "receipt": "records/illustrations-receipt.json"
+}

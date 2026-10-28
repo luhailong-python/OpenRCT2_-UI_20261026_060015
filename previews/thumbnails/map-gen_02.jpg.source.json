@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/map-gen_02.jpg",
+  "sha256": "9335755563aafee517002e563670327b8d1b283648738e8c89e871dd2f4d23bf",
+  "derivedFrom": [
+    {
+      "file": "designs/map-gen/02-地形.png",
+      "sha256": "9814afe724351b8a797f04f509d67703ebc756525b30ce810e2019988ddce7c7",
+      "sourceRecord": "designs/map-gen/02-地形.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

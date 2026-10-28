@@ -1,0 +1,358 @@
+{
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "purpose": "technical_style_contract_not_product_screen",
+  "controls": [
+    {
+      "unit": "MapGen",
+      "controlId": "WIDX_HEIGHTMAP_STRENGTH_DOWN",
+      "rectTopLeftXYWH": [
+        58,
+        146,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        229,
+        554,
+        98
+      ],
+      "sourceWidgetType": "button",
+      "sourceLabelDisplayed": "操作按钮",
+      "existingTargetScreenGroups": [
+        "基础"
+      ],
+      "formalAssets": [
+        "assets/common/minus.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "MapGen",
+      "controlId": "WIDX_HEIGHTMAP_LOW",
+      "rectTopLeftXYWH": [
+        665,
+        146,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        229,
+        554,
+        98
+      ],
+      "sourceWidgetType": "spinner",
+      "sourceLabelDisplayed": "数值调节",
+      "existingTargetScreenGroups": [
+        "地形"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "MapGen",
+      "controlId": "WIDX_HEIGHTMAP_LOW_UP",
+      "rectTopLeftXYWH": [
+        1272,
+        146,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        229,
+        554,
+        98
+      ],
+      "sourceWidgetType": "button",
+      "sourceLabelDisplayed": "操作按钮",
+      "existingTargetScreenGroups": [
+        "地形"
+      ],
+      "formalAssets": [
+        "assets/common/plus.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "MapGen",
+      "controlId": "WIDX_HEIGHTMAP_LOW_DOWN",
+      "rectTopLeftXYWH": [
+        58,
+        368,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        451,
+        554,
+        98
+      ],
+      "sourceWidgetType": "button",
+      "sourceLabelDisplayed": "操作按钮",
+      "existingTargetScreenGroups": [
+        "地形"
+      ],
+      "formalAssets": [
+        "assets/common/minus.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "MapGen",
+      "controlId": "WIDX_HEIGHTMAP_HIGH",
+      "rectTopLeftXYWH": [
+        665,
+        368,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        451,
+        554,
+        98
+      ],
+      "sourceWidgetType": "spinner",
+      "sourceLabelDisplayed": "数值调节",
+      "existingTargetScreenGroups": [
+        "地形"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "MapGen",
+      "controlId": "WIDX_HEIGHTMAP_HIGH_UP",
+      "rectTopLeftXYWH": [
+        1272,
+        368,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        451,
+        554,
+        98
+      ],
+      "sourceWidgetType": "button",
+      "sourceLabelDisplayed": "操作按钮",
+      "existingTargetScreenGroups": [
+        "地形"
+      ],
+      "formalAssets": [
+        "assets/common/plus.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "MapGen",
+      "controlId": "WIDX_HEIGHTMAP_HIGH_DOWN",
+      "rectTopLeftXYWH": [
+        58,
+        590,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        673,
+        554,
+        98
+      ],
+      "sourceWidgetType": "button",
+      "sourceLabelDisplayed": "操作按钮",
+      "existingTargetScreenGroups": [
+        "地形"
+      ],
+      "formalAssets": [
+        "assets/common/minus.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "MapGen",
+      "controlId": "WIDX_FLOOR_TEXTURE",
+      "rectTopLeftXYWH": [
+        665,
+        590,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        673,
+        554,
+        98
+      ],
+      "sourceWidgetType": "flatBtn",
+      "sourceLabelDisplayed": "更改基础土地样式",
+      "existingTargetScreenGroups": [
+        "地形"
+      ],
+      "formalAssets": [
+        "assets/common/secondary_normal.png",
+        "assets/common/secondary_pressed.png",
+        "assets/common/secondary_selected.png",
+        "assets/common/secondary_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "MapGen",
+      "controlId": "WIDX_WALL_TEXTURE",
+      "rectTopLeftXYWH": [
+        1272,
+        590,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        673,
+        554,
+        98
+      ],
+      "sourceWidgetType": "flatBtn",
+      "sourceLabelDisplayed": "更改土地的垂直边界",
+      "existingTargetScreenGroups": [
+        "地形"
+      ],
+      "formalAssets": [
+        "assets/common/secondary_normal.png",
+        "assets/common/secondary_pressed.png",
+        "assets/common/secondary_selected.png",
+        "assets/common/secondary_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "MapGen",
+      "controlId": "WIDX_SURFACE_COLOUR_1",
+      "rectTopLeftXYWH": [
+        58,
+        812,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        895,
+        554,
+        98
+      ],
+      "sourceWidgetType": "colourBtn",
+      "sourceLabelDisplayed": "选择颜色",
+      "existingTargetScreenGroups": [
+        "地形"
+      ],
+      "formalAssets": [
+        "assets/common/secondary_normal.png",
+        "assets/common/secondary_pressed.png",
+        "assets/common/secondary_selected.png",
+        "assets/common/secondary_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "MapGen",
+      "controlId": "WIDX_EDGE_COLOUR_1",
+      "rectTopLeftXYWH": [
+        665,
+        812,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        895,
+        554,
+        98
+      ],
+      "sourceWidgetType": "colourBtn",
+      "sourceLabelDisplayed": "选择颜色",
+      "existingTargetScreenGroups": [
+        "地形"
+      ],
+      "formalAssets": [
+        "assets/common/secondary_normal.png",
+        "assets/common/secondary_pressed.png",
+        "assets/common/secondary_selected.png",
+        "assets/common/secondary_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "MapGen",
+      "controlId": "WIDX_RANDOM_TERRAIN",
+      "rectTopLeftXYWH": [
+        1272,
+        812,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        895,
+        554,
+        98
+      ],
+      "sourceWidgetType": "checkbox",
+      "sourceLabelDisplayed": "随机地形",
+      "existingTargetScreenGroups": [
+        "地形"
+      ],
+      "formalAssets": [
+        "assets/common/checkbox_off.png",
+        "assets/common/checkbox_on.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    }
+  ]
+}

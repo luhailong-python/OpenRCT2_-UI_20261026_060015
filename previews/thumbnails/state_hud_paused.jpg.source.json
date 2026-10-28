@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_hud_paused.jpg",
+  "sha256": "75b754a59245c2428cb99433dd06cef1732788a7ccb33e5694109dabf704d234",
+  "derivedFrom": [
+    {
+      "file": "previews/states/hud/paused.png",
+      "sha256": "8668cf41401149ae10c6a1789dc4fab1e2bc2b037c77ec6a479a23f2870fb698",
+      "sourceRecord": "previews/states/hud/paused.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

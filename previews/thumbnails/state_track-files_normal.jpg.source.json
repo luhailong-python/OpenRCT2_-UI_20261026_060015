@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_track-files_normal.jpg",
+  "sha256": "54718b2a2cb02c26d0fd1cc8e2ba73c8ce215271dedbd474cbaa9c4d86392281",
+  "derivedFrom": [
+    {
+      "file": "previews/states/track-files/normal.png",
+      "sha256": "930ae31942e523d23e2ab628a4a1d653115ebd529f0563ef41e9c350d9cb5665",
+      "sourceRecord": "previews/states/track-files/normal.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

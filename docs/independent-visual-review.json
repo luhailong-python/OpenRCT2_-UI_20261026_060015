@@ -1,0 +1,311 @@
+{
+  "reviewedAt": "2026-10-26T07:13:00.978617-04:00",
+  "reviewStatus": "passed_requested_sample_review",
+  "reviewer": "independent art audit agent",
+  "method": "Actually opened saved PNGs with view_image; matched file modification time/hash; no image-generation or Unity claims.",
+  "requiredSampleFamilies": [
+    "main HUD",
+    "new ride transportation",
+    "finances",
+    "settings",
+    "ride detail",
+    "modal",
+    "editor",
+    "multiplayer"
+  ],
+  "currentBlockers": [],
+  "fullGameBoundary": {
+    "sourceScopedControls": 1438,
+    "sourceWindowUnits": 79,
+    "mappingFile": "docs/control-resource-mapping.json",
+    "allMappedControlsDisplayed": false,
+    "reason": "All currently marked specified_only. Source/type/art mapping alone is not proof of a control on a produced screen.",
+    "supplementalDetailProduction": "Main reported additional source-specific art/layout gaps now being produced by renderer; this sample review does not pre-approve those future images or claim complete source-control placement."
+  },
+  "optionalSourceControlBoardPlan": {
+    "implementationStatus": "not_started_not_authorized_by_main_yet",
+    "purpose": "Printable per-source-unit palette sheets for reviewing control skin coverage; not substitutes for actual interface placement or business flow.",
+    "suggestedStructure": "One or more boards per source unit; show each WIDX/control label, resolved widget type, correct shared skin in applicable states, source locator and paper-safe Chinese caption; list structural/hidden/dynamic items explicitly. Each tile must have a unique PNG rectangle record.",
+    "strictCoverageBoundary": "A styleboard demonstrates a control skin sample, not that its actual source page layout and conditional state are implemented. Preserve separate page-placement acceptance."
+  },
+  "unityVerified": false,
+  "preFixObservations": [
+    {
+      "file": "designs/main/01-运行.png",
+      "sha256": "1cd652a57597be3f5e43dd05d2d3fc764c33550fcf50cc81bcc242eec99199e2",
+      "modifiedAt": "2026-10-26T06:32:20.616834-04:00",
+      "actuallyViewed": true,
+      "reviewStage": "pre_fix_observation_only",
+      "observation": "HUD图标语义与当前标签一致，玉绿/暖金层级清楚；该版仍早于6:27全局控件修订。",
+      "acceptance": "superseded_by_post_fix_samples"
+    },
+    {
+      "file": "designs/new-ride/01-交通.png",
+      "sha256": "3028c3740815b472e5ff01b341842e1cc693dc972073a795a7884ef7b9c6e0a9",
+      "modifiedAt": "2026-10-26T06:26:26.639798-04:00",
+      "actuallyViewed": true,
+      "reviewStage": "pre_fix_observation_only",
+      "observation": "交通页火车图仍配索道/单轨名称；已向renderer报告具体不一致。底部按钮纵向压缩待全局修订后复核。",
+      "acceptance": "superseded_by_post_fix_samples"
+    },
+    {
+      "file": "designs/options/01-显示.png",
+      "sha256": "45a37263c08fdbedee9317afb7f8467152710822ef7a38b10fef13504f674d3e",
+      "modifiedAt": "2026-10-26T06:26:36.679261-04:00",
+      "actuallyViewed": true,
+      "reviewStage": "pre_fix_observation_only",
+      "observation": "正文清晰；字段值贴左卷角，已报告内缩安全区；底部按钮待全局修订后复核。",
+      "acceptance": "superseded_by_post_fix_samples"
+    }
+  ],
+  "samples": [
+    {
+      "file": "designs/main/01-运行.png",
+      "family": "main HUD",
+      "sha256": "624fa80cee557f2c0f371fe43d6db13603e49fc67da90ef08625775b35cbfee2",
+      "modifiedAt": "2026-10-26T06:44:14.989999-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actuallyViewed": true,
+      "reviewStage": "post_fix_final_sample",
+      "observation": "暂停/快进/设施/游客/员工/财务等图标语义对应标签；顶部和底部信息清晰，场景观察区保留。",
+      "acceptance": "visual_sample_passed"
+    },
+    {
+      "file": "designs/new-ride/01-交通.png",
+      "family": "new ride transportation",
+      "sha256": "f58d8f515e4c8ff2b6b1ddd1c3430dbb9125b3b16b6bd4ab618d6b47071cb462",
+      "modifiedAt": "2026-10-26T06:48:31.828228-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actuallyViewed": true,
+      "reviewStage": "post_fix_final_sample",
+      "observation": "小火车、单轨、索道、悬挂单轨、升降台各使用对应专用新图；锁定/研究状态有明确文字。",
+      "acceptance": "visual_sample_passed"
+    },
+    {
+      "file": "designs/options/01-显示.png",
+      "family": "settings",
+      "sha256": "d7f04f4eb723e64c043ed2f606d13c9971b1ebf7f2ae4c5abc116a35243b54ac",
+      "modifiedAt": "2026-10-26T06:44:23.394752-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actuallyViewed": true,
+      "reviewStage": "post_fix_final_sample",
+      "observation": "字段值已避开左金色卷角；正文与主次操作可读，临时图示与真实设置区分。",
+      "acceptance": "visual_sample_passed"
+    },
+    {
+      "file": "designs/ride-construction/01-轨道.png",
+      "family": "construction tool",
+      "sha256": "f9a1f3af8a724f4556689e48441d351fedf1da5c709ff38521ec174916a6372a",
+      "modifiedAt": "2026-10-26T06:44:33.179725-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actuallyViewed": true,
+      "reviewStage": "post_fix_final_sample",
+      "observation": "右dock改用纸卡，标题和字段避开金框；中点由Noto正常显示，工具预览/取消/建造入口清楚。",
+      "acceptance": "visual_sample_passed"
+    },
+    {
+      "file": "designs/finances/01-收支.png",
+      "family": "finances",
+      "sha256": "556ccdb65e8c9bdfbdbfcda47edd5e9f698107b86e8345c9a6690523f602a344",
+      "modifiedAt": "2026-10-26T06:44:07.484568-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actuallyViewed": true,
+      "reviewStage": "post_fix_final_sample",
+      "observation": "现金/贷款/净额与收支表层级清楚；本月净额示例10800与列出示例项合计一致。",
+      "acceptance": "visual_sample_passed"
+    },
+    {
+      "file": "designs/ride/07-测试.png",
+      "family": "ride detail",
+      "sha256": "b93776b9f9650002af72eaeb628ee08e003def9b61efd9eb5e444b769cad8efd",
+      "modifiedAt": "2026-10-26T06:44:32.062280-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actuallyViewed": true,
+      "reviewStage": "post_fix_final_sample",
+      "observation": "刺激度/强度/眩晕度及速度/长度信息可读；试车与图表入口清楚，示例身份有标注。",
+      "acceptance": "visual_sample_passed"
+    },
+    {
+      "file": "designs/demolish-ride-prompt/01-确认.png",
+      "family": "modal",
+      "sha256": "33cad31864249cb2fdb351cd8bb1a0a8c3b50e8895061672109c6c32ede67de7",
+      "modifiedAt": "2026-10-26T06:44:01.058591-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actuallyViewed": true,
+      "reviewStage": "post_fix_final_sample",
+      "observation": "拆除对象、影响和预计返还清楚；确认拆除/取消均可辨识，警示标题和图标完整。",
+      "acceptance": "visual_sample_passed"
+    },
+    {
+      "file": "designs/editor-scenario-options/03-财务.png",
+      "family": "editor",
+      "sha256": "494a117b527ac36687252f9f0306ea0d72b69b25dc81d19226d77eaf5c5c9018",
+      "modifiedAt": "2026-10-26T06:44:05.520530-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actuallyViewed": true,
+      "reviewStage": "post_fix_final_sample",
+      "observation": "编辑步骤、财务参数、开关和上/下一步层级一致；字段内容没有被边框覆盖。",
+      "acceptance": "visual_sample_passed"
+    },
+    {
+      "file": "designs/multiplayer/02-玩家.png",
+      "family": "multiplayer",
+      "sha256": "254d4dd58f28b1d0641e7cac223e54730e05c5505e37ddb6592f97245da2d9ea",
+      "modifiedAt": "2026-10-26T06:44:18.157413-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actuallyViewed": true,
+      "reviewStage": "post_fix_final_sample",
+      "observation": "玩家/权限组/操作/延迟列清楚，成员业务未混用组队或角色养成。",
+      "acceptance": "visual_sample_passed"
+    },
+    {
+      "file": "designs/server-list/01-公共列表.png",
+      "family": "multiplayer",
+      "sha256": "fd22ba37559ad44f0ad5b54b9faaf2f54c03fd7a9352380945a95d61f92d04d1",
+      "modifiedAt": "2026-10-26T06:44:40.412561-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actuallyViewed": true,
+      "reviewStage": "post_fix_final_sample",
+      "observation": "版本兼容/版本不同、密码/公开等状态明确；列表与加入/刷新/建服入口可读。",
+      "acceptance": "visual_sample_passed"
+    },
+    {
+      "file": "designs/options/04-声音.png",
+      "family": "settings audio",
+      "sha256": "152ca4cde1c6b74ca4e339f0df22dde286d3b112aec2175884cd8a254ea0d7c2",
+      "modifiedAt": "2026-10-26T07:10:41.305013-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actuallyViewed": true,
+      "reviewStage": "post_fix_final_sample",
+      "observation": "已实际重新查看7:10:41版声音PNG：80%、75%、60%滑块位置分别正确分离并与标注一致；layout分别记录valueFraction .8/.75/.6。",
+      "acceptance": "visual_sample_passed",
+      "sliderThumbEvidence": [
+        {
+          "role": "slider-thumb",
+          "asset": "assets/common/slider_thumb.png",
+          "region": [
+            1105,
+            374,
+            40,
+            50
+          ],
+          "resize": "contain",
+          "valueFraction": 0.8
+        },
+        {
+          "role": "slider-thumb",
+          "asset": "assets/common/slider_thumb.png",
+          "region": [
+            1086,
+            448,
+            40,
+            50
+          ],
+          "resize": "contain",
+          "valueFraction": 0.75
+        },
+        {
+          "role": "slider-thumb",
+          "asset": "assets/common/slider_thumb.png",
+          "region": [
+            1031,
+            522,
+            40,
+            50
+          ],
+          "resize": "contain",
+          "valueFraction": 0.6
+        }
+      ]
+    },
+    {
+      "file": "designs/map-gen/01-基础.png",
+      "family": "editor map generator",
+      "sha256": "5afcdc8d9225e895ab6a88e6b54947bdd29b6480b0244e1880353ef4f6fe9370",
+      "modifiedAt": "2026-10-26T06:44:15.997104-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actuallyViewed": true,
+      "reviewStage": "post_fix_final_sample",
+      "observation": "参数、保持方形开关与生成地图/返回编辑器完整，长说明没有溢出。",
+      "acceptance": "visual_sample_passed"
+    },
+    {
+      "file": "previews/states/multiplayer/bad-password.png",
+      "family": "multiplayer error state",
+      "sha256": "7e1a103e78ccc34f306badf4ea93b4a216fdcf51d829225d2073d23d62c7ea85",
+      "modifiedAt": "2026-10-26T06:45:21.676778-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actuallyViewed": true,
+      "reviewStage": "post_fix_final_sample",
+      "observation": "密码错误原因、重新输入与返回清楚，不冒称连接成功或真实服务回执。",
+      "acceptance": "visual_sample_passed"
+    }
+  ],
+  "postFixSampleCount": 13,
+  "requiredFamiliesCovered": true,
+  "criticalVisualIssueCount": 0,
+  "finalLayoutGlyphProbe": {
+    "layoutFiles": 351,
+    "textLayers": 9892,
+    "method": "Read fontFileReference from each final layout, test actual assigned font glyph masks via Pillow/FreeType against U+10FFFF missing glyph.",
+    "fonts": [
+      {
+        "fontFile": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+        "uniqueCharacters": 594,
+        "missingGlyphs": []
+      },
+      {
+        "fontFile": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+        "uniqueCharacters": 840,
+        "missingGlyphs": []
+      }
+    ],
+    "missingCount": 0
+  },
+  "sampleScopeBoundary": "13 actual post-fix PNG samples inspected across all 8 requested families. This is sample visual review, not a claim that all 351 images or 1438 source controls were individually inspected for page placement.",
+  "closedIssues": [
+    "Traffic labels now use corresponding dedicated transport art.",
+    "Dock labels/title and input values now avoid ornate borders.",
+    "Missing title glyphs use Noto fallback.",
+    "Audio slider thumbs now match80/75/60percent values."
+  ]
+}

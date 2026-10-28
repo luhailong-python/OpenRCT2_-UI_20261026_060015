@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_save-load_save-prompt.jpg",
+  "sha256": "84bc0ea03dfda402dee8c25afa25c39d01ce95538ac24a14f8c3c07ddf859534",
+  "derivedFrom": [
+    {
+      "file": "previews/states/save-load/save-prompt.png",
+      "sha256": "0c6199f597f7bff95db5026f7bd1f62dcd45c3565f50725f17fbf2361e123fe1",
+      "sourceRecord": "previews/states/save-load/save-prompt.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

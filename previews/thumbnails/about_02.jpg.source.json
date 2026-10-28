@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/about_02.jpg",
+  "sha256": "eab3e851eb57944d677f828c85fa66589ff4df11937011e442511d721b2ea037",
+  "derivedFrom": [
+    {
+      "file": "designs/about/02-RCT2.png",
+      "sha256": "58add389ce4bed493ff9ead72036e6dbe76686824d454c1db2300192e7e348fc",
+      "sourceRecord": "designs/about/02-RCT2.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/operations_ride_11-admission-price-locked.jpg",
+  "sha256": "5afa31ee74e3aaa9c3ebe5bdeeb74b013c711dcd65c299dda78ba92c30598089",
+  "derivedFrom": [
+    {
+      "file": "designs/details/ride-ops/11-admission-price-locked.png",
+      "sha256": "846f84c150a3c30fe7adf39fb439d6b5cf190ffab44980e4ca1a49b8f8d74bf4",
+      "sourceRecord": "designs/details/ride-ops/11-admission-price-locked.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

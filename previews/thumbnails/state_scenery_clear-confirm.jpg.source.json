@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_scenery_clear-confirm.jpg",
+  "sha256": "5cc4dc57e2618c9b4fa09125912bf1b731e8550e257f293af7d9a197ac5a4f98",
+  "derivedFrom": [
+    {
+      "file": "previews/states/scenery/clear-confirm.png",
+      "sha256": "078cc3e444611bd9d00c32fdc5000ea9a55e68bb1383ce5afa2d2b3a52af6190",
+      "sourceRecord": "previews/states/scenery/clear-confirm.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

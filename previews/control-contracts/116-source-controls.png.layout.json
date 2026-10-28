@@ -1,0 +1,363 @@
+{
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "purpose": "technical_style_contract_not_product_screen",
+  "controls": [
+    {
+      "unit": "TrackDesignPlace",
+      "controlId": "WIDX_SELECT_DIFFERENT_DESIGN",
+      "rectTopLeftXYWH": [
+        58,
+        146,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        229,
+        554,
+        98
+      ],
+      "sourceWidgetType": "button",
+      "sourceLabelDisplayed": "选择另一个设计",
+      "existingTargetScreenGroups": [
+        "预览",
+        "放置"
+      ],
+      "formalAssets": [
+        "assets/common/secondary_normal.png",
+        "assets/common/secondary_pressed.png",
+        "assets/common/secondary_selected.png",
+        "assets/common/secondary_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "TrackDesignPlace",
+      "controlId": "WIDX_PRICE",
+      "rectTopLeftXYWH": [
+        665,
+        146,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        229,
+        554,
+        98
+      ],
+      "sourceWidgetType": "empty",
+      "sourceLabelDisplayed": "布局占位",
+      "existingTargetScreenGroups": [
+        "预览",
+        "放置"
+      ],
+      "formalAssets": [],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "TrackDesignPlace",
+      "controlId": "WIDX_PREVIEW",
+      "rectTopLeftXYWH": [
+        1272,
+        146,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        229,
+        554,
+        98
+      ],
+      "sourceWidgetType": "empty",
+      "sourceLabelDisplayed": "布局占位",
+      "existingTargetScreenGroups": [
+        "预览",
+        "放置"
+      ],
+      "formalAssets": [],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "TrackList",
+      "controlId": "WIDX_BACKGROUND",
+      "rectTopLeftXYWH": [
+        58,
+        368,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        451,
+        554,
+        98
+      ],
+      "sourceWidgetType": "frame",
+      "sourceLabelDisplayed": "窗口框板",
+      "existingTargetScreenGroups": [
+        "设计列表",
+        "详情"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "TrackList",
+      "controlId": "WIDX_TITLE",
+      "rectTopLeftXYWH": [
+        665,
+        368,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        451,
+        554,
+        98
+      ],
+      "sourceWidgetType": "caption",
+      "sourceLabelDisplayed": "动态标题",
+      "existingTargetScreenGroups": [
+        "设计列表",
+        "详情"
+      ],
+      "formalAssets": [],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "TrackList",
+      "controlId": "WIDX_CLOSE",
+      "rectTopLeftXYWH": [
+        1272,
+        368,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        451,
+        554,
+        98
+      ],
+      "sourceWidgetType": "closeBox",
+      "sourceLabelDisplayed": "关闭",
+      "existingTargetScreenGroups": [
+        "设计列表",
+        "详情"
+      ],
+      "formalAssets": [
+        "assets/common/close.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "TrackList",
+      "controlId": "WIDX_BACK",
+      "rectTopLeftXYWH": [
+        58,
+        590,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        673,
+        554,
+        98
+      ],
+      "sourceWidgetType": "tableHeader",
+      "sourceLabelDisplayed": "选择另一类游乐设施",
+      "existingTargetScreenGroups": [
+        "设计列表",
+        "详情"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "TrackList",
+      "controlId": "WIDX_FILTER_STRING",
+      "rectTopLeftXYWH": [
+        665,
+        590,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        673,
+        554,
+        98
+      ],
+      "sourceWidgetType": "textBox",
+      "sourceLabelDisplayed": "文字输入",
+      "existingTargetScreenGroups": [
+        "设计列表",
+        "详情"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "TrackList",
+      "controlId": "WIDX_FILTER_CLEAR",
+      "rectTopLeftXYWH": [
+        1272,
+        590,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        673,
+        554,
+        98
+      ],
+      "sourceWidgetType": "button",
+      "sourceLabelDisplayed": "清除",
+      "existingTargetScreenGroups": [
+        "设计列表",
+        "详情"
+      ],
+      "formalAssets": [
+        "assets/common/secondary_normal.png",
+        "assets/common/secondary_pressed.png",
+        "assets/common/secondary_selected.png",
+        "assets/common/secondary_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "TrackList",
+      "controlId": "WIDX_TRACK_LIST",
+      "rectTopLeftXYWH": [
+        58,
+        812,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        895,
+        554,
+        98
+      ],
+      "sourceWidgetType": "scroll",
+      "sourceLabelDisplayed": "点击建造设计",
+      "existingTargetScreenGroups": [
+        "设计列表",
+        "详情"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "TrackList",
+      "controlId": "WIDX_TRACK_PREVIEW",
+      "rectTopLeftXYWH": [
+        665,
+        812,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        895,
+        554,
+        98
+      ],
+      "sourceWidgetType": "flatBtn",
+      "sourceLabelDisplayed": "工具按钮",
+      "existingTargetScreenGroups": [
+        "设计列表",
+        "详情"
+      ],
+      "formalAssets": [
+        "assets/common/secondary_normal.png",
+        "assets/common/secondary_pressed.png",
+        "assets/common/secondary_selected.png",
+        "assets/common/secondary_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "TrackList",
+      "controlId": "WIDX_ROTATE",
+      "rectTopLeftXYWH": [
+        1272,
+        812,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        895,
+        554,
+        98
+      ],
+      "sourceWidgetType": "flatBtn",
+      "sourceLabelDisplayed": "旋转 90°",
+      "existingTargetScreenGroups": [
+        "设计列表",
+        "详情"
+      ],
+      "formalAssets": [
+        "assets/common/secondary_normal.png",
+        "assets/common/secondary_pressed.png",
+        "assets/common/secondary_selected.png",
+        "assets/common/secondary_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    }
+  ]
+}

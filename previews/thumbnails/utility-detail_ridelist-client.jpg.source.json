@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/utility-detail_ridelist-client.jpg",
+  "sha256": "00ad367dc7469d8ec4d3685ac7e4fbea533b9b64eed2d3646867b80a59ceb0c0",
+  "derivedFrom": [
+    {
+      "file": "designs/details/utility/ridelist-client.png",
+      "sha256": "4eace319f4c8283197cf27113b0ae62c466edd376e193340f63b1660dc061c8c",
+      "sourceRecord": "designs/details/utility/ridelist-client.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

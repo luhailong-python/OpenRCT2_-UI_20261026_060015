@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/editor-park-entrance_01.jpg",
+  "sha256": "7b61d4b11dc3f0f76d6f8ad68c924a66cf9c9d1edde33ec076022c53760b4f58",
+  "derivedFrom": [
+    {
+      "file": "designs/editor-park-entrance/01-入口.png",
+      "sha256": "ddd042f05cbfe8c7f6d812b17dc435e4848404de2468f2aebed11ad9bfdb0050",
+      "sourceRecord": "designs/editor-park-entrance/01-入口.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

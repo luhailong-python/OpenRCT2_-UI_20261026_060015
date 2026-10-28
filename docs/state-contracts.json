@@ -1,0 +1,1894 @@
+{
+  "schemaVersion": 1,
+  "referenceCommit": "52a55c3e8da5972460642bdfed61d091fe9cabfd",
+  "referenceRepository": "https://github.com/OpenRCT2/OpenRCT2.git",
+  "createdAt": "2026-10-26T06:08:10.615887-04:00",
+  "scope": "图像/状态预览合同；未经Unity接入验证",
+  "evidencePaths": "相对 reference/OpenRCT2；行号基于固定提交",
+  "copyPolicy": "中文文案与道家名称为本项目设计示例；数值为示例，动态文字不烘焙进正式底图",
+  "assumptions": [
+    "制作参考分辨率由主设计合同定义",
+    "所有返回/关闭操作回到调用者或园区；窗口保留方式按实际源逻辑接入",
+    "空、加载、失败视觉可以共用控件，但清单须有逐页映射",
+    "视觉状态不等于新游戏逻辑；仅在证据支持时标记已有"
+  ],
+  "notApplicable": [
+    "账号登录/角色创建/服务器角色选择",
+    "角色等级属性/装备/技能/战斗",
+    "玩家背包/仓库/物品强化/抽卡",
+    "每日签到/充值/奖励邮件/公会/好友列表",
+    "世界区域传送/副本/宠物坐骑"
+  ],
+  "systems": [
+    {
+      "key": "start",
+      "title": "开始与场景选择",
+      "journey": [
+        "标题菜单",
+        "选择新游戏 / 读取公园 / 多人 / 工具",
+        "选择场景",
+        "显示目标",
+        "进入公园"
+      ],
+      "tabs": [
+        "按来源",
+        "按难度",
+        "场景详情",
+        "记录"
+      ],
+      "evidence": [
+        "readme.md:66",
+        "readme.md:74",
+        "readme.md:76",
+        "src/openrct2-ui/windows/TitleMenu.cpp:1",
+        "src/openrct2-ui/windows/ScenarioSelect.cpp:1"
+      ],
+      "states": [
+        {
+          "id": "normal",
+          "title": "选择场景",
+          "message": "选择一处园地，查看目标与已完成记录。",
+          "primaryAction": "开始经营",
+          "secondaryAction": "返回",
+          "visualKind": "list",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "empty",
+          "title": "没有可用场景",
+          "message": "当前筛选中没有场景，检查筛选或游戏资料目录。",
+          "primaryAction": "清除筛选",
+          "secondaryAction": "返回",
+          "visualKind": "empty",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "completed",
+          "title": "已完成场景",
+          "message": "显示完成者与公司价值记录，可再次挑战。",
+          "primaryAction": "再次经营",
+          "secondaryAction": "返回",
+          "visualKind": "success",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "assets-missing",
+          "title": "游戏资料未就绪",
+          "message": "原作资料与所需对象尚未全部取得；先指定有效资料路径。",
+          "primaryAction": "选择资料目录",
+          "secondaryAction": "返回",
+          "visualKind": "error",
+          "logicBasis": "dependency-documented; wizard layout is suggested",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        }
+      ],
+      "notes": "资料向导为原版依赖说明的本项目视觉方案；独立更新器不是主仓游戏界面。无账号登录、选服角色、创角流程。"
+    },
+    {
+      "key": "hud",
+      "title": "经营主界面",
+      "journey": [
+        "查看园区",
+        "暂停 / 加速 / 缩放 / 旋转",
+        "打开建设或管理窗口",
+        "关闭返回园区"
+      ],
+      "tabs": [
+        "建设",
+        "管理",
+        "视图",
+        "文件",
+        "消息"
+      ],
+      "evidence": [
+        "src/openrct2-ui/windows/TopToolbar.cpp:1",
+        "src/openrct2-ui/windows/GameStatusBar.cpp:1",
+        "src/openrct2-ui/windows/NewsTicker.cpp:1"
+      ],
+      "states": [
+        {
+          "id": "running",
+          "title": "园区营业中",
+          "message": "铜钱、游客、园区评分、日期天气和消息是动态数据。",
+          "primaryAction": "建造设施",
+          "secondaryAction": "园区管理",
+          "visualKind": "hud",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "paused",
+          "title": "已暂停",
+          "message": "时间停止，部分建设操作受规则限制。",
+          "primaryAction": "继续经营",
+          "secondaryAction": "文件菜单",
+          "visualKind": "paused",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "notification",
+          "title": "经营提醒",
+          "message": "青云飞车发生故障，请安排维修。",
+          "primaryAction": "定位设施",
+          "secondaryAction": "查看消息",
+          "visualKind": "warning",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "tool-active",
+          "title": "建设工具已选中",
+          "message": "显示工具范围、预估造价与放置预览。",
+          "primaryAction": "放置",
+          "secondaryAction": "取消工具",
+          "visualKind": "selection",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        }
+      ],
+      "notes": "皮肤可以道家化，游戏数值与系统仍按经营模拟语义表达。"
+    },
+    {
+      "key": "new-ride",
+      "title": "新设施与蓝图",
+      "journey": [
+        "设施分类",
+        "选择类型",
+        "选择已有蓝图或自定义",
+        "旋转与放置",
+        "建造窗口"
+      ],
+      "tabs": [
+        "运输",
+        "温和",
+        "过山车",
+        "刺激",
+        "水上",
+        "商店与服务",
+        "研究"
+      ],
+      "evidence": [
+        "src/openrct2-ui/windows/NewRide.cpp:1",
+        "src/openrct2-ui/windows/TrackList.cpp:1",
+        "src/openrct2-ui/windows/TrackDesignPlace.cpp:1",
+        "src/openrct2-ui/windows/Research.cpp:1"
+      ],
+      "states": [
+        {
+          "id": "normal",
+          "title": "选择设施",
+          "message": "查看类型、造价与说明，可选预制蓝图或自建。",
+          "primaryAction": "选择设施",
+          "secondaryAction": "返回",
+          "visualKind": "cards",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "locked",
+          "title": "尚未研发",
+          "message": "设施需完成研究后才可建造。",
+          "primaryAction": "查看研究",
+          "secondaryAction": "返回",
+          "visualKind": "locked",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "blueprints-empty",
+          "title": "没有蓝图",
+          "message": "此类型没有已保存蓝图，可从零设计。",
+          "primaryAction": "自定义建造",
+          "secondaryAction": "返回",
+          "visualKind": "empty",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "placing",
+          "title": "放置蓝图",
+          "message": "旋转方向并检查地形和边界。",
+          "primaryAction": "确认放置",
+          "secondaryAction": "取消",
+          "visualKind": "selection",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "key": "track-build",
+      "title": "轨道与迷宫建设",
+      "journey": [
+        "选择起点与车站",
+        "逐段放置方向/坡度/曲线/特殊段",
+        "补齐入口出口与道路",
+        "模拟或试车",
+        "设施管理"
+      ],
+      "tabs": [
+        "轨道",
+        "车站",
+        "入口",
+        "出口",
+        "特殊轨道",
+        "迷宫"
+      ],
+      "evidence": [
+        "src/openrct2-ui/windows/RideConstruction.cpp:101",
+        "src/openrct2-ui/windows/MazeConstruction.cpp:1",
+        "src/openrct2/actions/track/TrackPlaceAction.cpp:85",
+        "src/openrct2/ride/Ride.cpp:2349",
+        "src/openrct2/ride/Ride.cpp:2375",
+        "src/openrct2/actions/GameActionRunner.cpp:191"
+      ],
+      "states": [
+        {
+          "id": "normal",
+          "title": "继续铺设轨道",
+          "message": "设置方向、坡度和特殊段，造价随选段更新。",
+          "primaryAction": "建造此段",
+          "secondaryAction": "移除上一段",
+          "visualKind": "construction",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "obstructed",
+          "title": "此处无法建造",
+          "message": "轨道与物体、地形或高度限制冲突。",
+          "primaryAction": "定位冲突",
+          "secondaryAction": "取消此段",
+          "visualKind": "error",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "land-not-owned",
+          "title": "未拥有土地",
+          "message": "购买土地或建筑权后再施工。",
+          "primaryAction": "购买权利",
+          "secondaryAction": "取消此段",
+          "visualKind": "locked",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "insufficient-funds",
+          "title": "铜钱不足",
+          "message": "预估造价超过当前可用资金。",
+          "primaryAction": "查看财务",
+          "secondaryAction": "取消此段",
+          "visualKind": "error",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "missing-entrance",
+          "title": "入口尚未建造",
+          "message": "为有效车站放置入口，并连接排队道路。",
+          "primaryAction": "建造入口",
+          "secondaryAction": "返回设施",
+          "visualKind": "warning",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "missing-exit",
+          "title": "出口尚未建造",
+          "message": "为有效车站放置出口，并连接普通道路。",
+          "primaryAction": "建造出口",
+          "secondaryAction": "返回设施",
+          "visualKind": "warning",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "incomplete-track",
+          "title": "轨道尚未完成",
+          "message": "检查轨道缺口、车站与当前运行模式要求。",
+          "primaryAction": "定位缺口",
+          "secondaryAction": "继续设计",
+          "visualKind": "warning",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        }
+      ],
+      "notes": "各设施要求由类型/运行模式决定，不能强制所有设施闭环，也不能强制商店具有独立入口出口。"
+    },
+    {
+      "key": "ride-operation",
+      "title": "设施经营与试车",
+      "journey": [
+        "设施总览",
+        "车辆与运行设置",
+        "模拟或试车",
+        "查看测量/图表",
+        "营业",
+        "维护或关闭"
+      ],
+      "tabs": [
+        "总览",
+        "车辆",
+        "运行",
+        "维护",
+        "配色",
+        "音乐",
+        "测量",
+        "图表",
+        "收入",
+        "顾客"
+      ],
+      "evidence": [
+        "src/openrct2-ui/windows/Ride.cpp:93",
+        "src/openrct2/actions/ride/RideSetStatusAction.cpp:54",
+        "src/openrct2/ride/Ride.cpp:626",
+        "src/openrct2/ride/Ride.cpp:1273",
+        "src/openrct2/ride/Ride.cpp:2024"
+      ],
+      "states": [
+        {
+          "id": "closed",
+          "title": "设施已关闭",
+          "message": "暂停接待游客，允许按规则修改设施。",
+          "primaryAction": "开始试车",
+          "secondaryAction": "建造修改",
+          "visualKind": "closed",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "simulating",
+          "title": "模拟运行",
+          "message": "用于轨道设计验证；是否支持由设施类型决定。",
+          "primaryAction": "结束模拟",
+          "secondaryAction": "查看图表",
+          "visualKind": "progress",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "testing",
+          "title": "试车中",
+          "message": "收集运行数据、速度和加速度记录。",
+          "primaryAction": "开始营业",
+          "secondaryAction": "停止试车",
+          "visualKind": "progress",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "untested",
+          "title": "尚无测量数据",
+          "message": "完成有效试车后查看刺激度、强度与眩晕度。",
+          "primaryAction": "开始试车",
+          "secondaryAction": "返回总览",
+          "visualKind": "empty",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "open",
+          "title": "正在营业",
+          "message": "显示排队人数、收入、满意度与运行状态。",
+          "primaryAction": "关闭设施",
+          "secondaryAction": "查看顾客",
+          "visualKind": "success",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "broken",
+          "title": "设施故障",
+          "message": "设施需要维修；故障不能通过改为模拟来绕过。",
+          "primaryAction": "定位维修员",
+          "secondaryAction": "维护详情",
+          "visualKind": "error",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "disconnected",
+          "title": "出入口未连通",
+          "message": "检查入口排队道路和出口普通道路。",
+          "primaryAction": "定位入口",
+          "secondaryAction": "检查道路",
+          "visualKind": "warning",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "refurbish",
+          "title": "翻新设施",
+          "message": "显示费用与翻新影响，确认后执行。",
+          "primaryAction": "确认翻新",
+          "secondaryAction": "取消",
+          "visualKind": "confirm",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "demolish",
+          "title": "拆除设施",
+          "message": "拆除前显示返还金额和影响。",
+          "primaryAction": "确认拆除",
+          "secondaryAction": "取消",
+          "visualKind": "danger",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        }
+      ],
+      "notes": "brokenDown/crashed 为独立标志，不是 RideStatus 第五第六个枚举值；UI 应优先显示故障警示。"
+    },
+    {
+      "key": "shops",
+      "title": "商店与服务设施",
+      "journey": [
+        "选择商店/服务",
+        "放置并连接道路",
+        "查看商品与设置售价",
+        "营业",
+        "查看成本/收益/顾客"
+      ],
+      "tabs": [
+        "总览",
+        "配色",
+        "收入",
+        "顾客"
+      ],
+      "evidence": [
+        "src/openrct2-ui/windows/NewRide.cpp:1",
+        "src/openrct2-ui/windows/Ride.cpp:1677",
+        "src/openrct2/ride/Ride.cpp:2381"
+      ],
+      "states": [
+        {
+          "id": "normal",
+          "title": "商店经营",
+          "message": "查看服务项目、售价、成本与利润。",
+          "primaryAction": "开始营业",
+          "secondaryAction": "调整售价",
+          "visualKind": "detail",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "open",
+          "title": "正在接待游客",
+          "message": "商品销售与服务收入持续记录。",
+          "primaryAction": "关闭商店",
+          "secondaryAction": "查看顾客",
+          "visualKind": "success",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "no-sales",
+          "title": "尚无销售记录",
+          "message": "游客尚未购买，检查道路、需求与价格。",
+          "primaryAction": "定位商店",
+          "secondaryAction": "返回",
+          "visualKind": "empty",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "disconnected",
+          "title": "道路尚未连通",
+          "message": "商店门口需要连接普通道路。",
+          "primaryAction": "修建道路",
+          "secondaryAction": "返回",
+          "visualKind": "warning",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        }
+      ],
+      "notes": "无玩家背包、拍卖行、充值商城；游客携带物与商店商品是实际适用内容。"
+    },
+    {
+      "key": "paths-land",
+      "title": "道路、地形与土地权利",
+      "journey": [
+        "选择工具",
+        "材质与范围",
+        "预览造价",
+        "放置/抬升/降低/移除",
+        "连通检查"
+      ],
+      "tabs": [
+        "普通道路",
+        "排队道路",
+        "桥梁/隧道",
+        "地面拖建",
+        "地形",
+        "水面",
+        "土地权利"
+      ],
+      "evidence": [
+        "src/openrct2-ui/windows/Footpath.cpp:161",
+        "src/openrct2-ui/windows/Land.cpp:1",
+        "src/openrct2-ui/windows/Water.cpp:1",
+        "src/openrct2/actions/park/LandBuyRightsAction.cpp:54",
+        "src/openrct2/actions/GameActionRunner.cpp:191"
+      ],
+      "states": [
+        {
+          "id": "normal",
+          "title": "园区建设",
+          "message": "选择地表、道路或水面工具。",
+          "primaryAction": "应用工具",
+          "secondaryAction": "返回",
+          "visualKind": "tool",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "queue",
+          "title": "排队道路",
+          "message": "与设施入口连接，普通道路与排队道路必须区分。",
+          "primaryAction": "铺设排队道路",
+          "secondaryAction": "切换普通道路",
+          "visualKind": "selection",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "bridge",
+          "title": "桥梁与隧道",
+          "message": "设置方向、坡度和高度逐段建设。",
+          "primaryAction": "建造此段",
+          "secondaryAction": "移除",
+          "visualKind": "construction",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "not-for-sale",
+          "title": "此处权利不可购买",
+          "message": "土地或建筑权未设置为可售。",
+          "primaryAction": "选择其他位置",
+          "secondaryAction": "关闭",
+          "visualKind": "locked",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "insufficient-funds",
+          "title": "资金不足",
+          "message": "此次地形或道路操作超出预算。",
+          "primaryAction": "查看财务",
+          "secondaryAction": "取消",
+          "visualKind": "error",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "key": "scenery",
+      "title": "景观与标牌",
+      "journey": [
+        "选择景观分类",
+        "搜索/主题/筛选",
+        "选择对象与颜色",
+        "旋转/高度/散布",
+        "放置",
+        "编辑标牌"
+      ],
+      "tabs": [
+        "小景物",
+        "大景物",
+        "墙体",
+        "道路附件",
+        "标牌",
+        "景观组",
+        "散布"
+      ],
+      "evidence": [
+        "src/openrct2-ui/windows/Scenery.cpp:1",
+        "src/openrct2-ui/windows/SceneryScatter.cpp:1",
+        "src/openrct2-ui/windows/Banner.cpp:1",
+        "src/openrct2-ui/windows/Sign.cpp:1",
+        "src/openrct2-ui/windows/ClearScenery.cpp:1"
+      ],
+      "states": [
+        {
+          "id": "normal",
+          "title": "布置景观",
+          "message": "选择景物、配色与朝向。",
+          "primaryAction": "放置景物",
+          "secondaryAction": "返回",
+          "visualKind": "cards",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "empty",
+          "title": "未找到景物",
+          "message": "调整搜索词或筛选分类。",
+          "primaryAction": "清除筛选",
+          "secondaryAction": "返回",
+          "visualKind": "empty",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "scatter",
+          "title": "散布景观",
+          "message": "设置范围、密度与可变朝向。",
+          "primaryAction": "应用散布",
+          "secondaryAction": "取消",
+          "visualKind": "tool",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "sign-edit",
+          "title": "修改标牌",
+          "message": "输入标牌文字，设置配色与适用通行限制。",
+          "primaryAction": "保存标牌",
+          "secondaryAction": "取消",
+          "visualKind": "form",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "clear-confirm",
+          "title": "清理选区",
+          "message": "选择清除小景物、大景物、步道、墙体或道路附件。",
+          "primaryAction": "清理选区",
+          "secondaryAction": "取消",
+          "visualKind": "danger",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "key": "guests",
+      "title": "游客名单与详情",
+      "journey": [
+        "游客列表",
+        "按行动/想法分组或筛选",
+        "打开游客",
+        "属性/财务/想法/携带物",
+        "定位与追踪"
+      ],
+      "tabs": [
+        "总览",
+        "状态",
+        "乘坐记录",
+        "财务",
+        "想法",
+        "携带物",
+        "调试"
+      ],
+      "evidence": [
+        "src/openrct2-ui/windows/Guest.cpp:58",
+        "src/openrct2-ui/windows/Guest.cpp:94",
+        "src/openrct2-ui/windows/Guest.cpp:499",
+        "src/openrct2-ui/windows/GuestList.cpp:1"
+      ],
+      "states": [
+        {
+          "id": "normal",
+          "title": "游客详情",
+          "message": "显示姓名、位置、行动、幸福感、体力、饥饿、口渴、眩晕与如厕需求。",
+          "primaryAction": "定位游客",
+          "secondaryAction": "追踪游客",
+          "visualKind": "detail",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "empty-list",
+          "title": "没有符合条件的游客",
+          "message": "当前筛选没有结果。",
+          "primaryAction": "清除筛选",
+          "secondaryAction": "返回",
+          "visualKind": "empty",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "no-rides",
+          "title": "尚未乘坐设施",
+          "message": "此游客尚无乘坐记录。",
+          "primaryAction": "返回总览",
+          "secondaryAction": "关闭",
+          "visualKind": "empty",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "no-items",
+          "title": "没有携带物品",
+          "message": "此游客当前没有可展示的携带物。",
+          "primaryAction": "返回总览",
+          "secondaryAction": "关闭",
+          "visualKind": "empty",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "no-money-mode",
+          "title": "财务页不可用",
+          "message": "无金钱模式下隐藏或禁用财务页。",
+          "primaryAction": "查看状态",
+          "secondaryAction": "关闭",
+          "visualKind": "disabled",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "debug-disabled",
+          "title": "调试页未启用",
+          "message": "只有启用调试工具时显示调试页。",
+          "primaryAction": "返回总览",
+          "secondaryAction": "关闭",
+          "visualKind": "disabled",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        }
+      ],
+      "notes": "游客携带物是观察信息，不是玩家可使用整理的RPG背包。拾起/改名/追踪在原版存在，权限限制需接入时保留。"
+    },
+    {
+      "key": "staff",
+      "title": "员工与巡逻",
+      "journey": [
+        "员工列表分类",
+        "雇佣",
+        "员工详情",
+        "任务选项",
+        "绘制巡逻区",
+        "工作统计",
+        "解雇确认"
+      ],
+      "tabs": [
+        "清洁工",
+        "维修工",
+        "保安",
+        "表演者",
+        "总览",
+        "工作选项",
+        "统计"
+      ],
+      "evidence": [
+        "src/openrct2-ui/windows/Staff.cpp:49",
+        "src/openrct2-ui/windows/Staff.cpp:404",
+        "src/openrct2-ui/windows/Staff.cpp:431",
+        "src/openrct2-ui/windows/StaffList.cpp:1",
+        "src/openrct2-ui/windows/PatrolArea.cpp:1",
+        "src/openrct2/actions/peep/StaffHireNewAction.cpp:59",
+        "src/openrct2/actions/peep/StaffSetPatrolAreaAction.cpp:48"
+      ],
+      "states": [
+        {
+          "id": "normal",
+          "title": "员工管理",
+          "message": "按岗位查看人员、工资和工作状态。",
+          "primaryAction": "雇佣员工",
+          "secondaryAction": "查看详情",
+          "visualKind": "list",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "empty",
+          "title": "尚未雇佣此类员工",
+          "message": "安排必要人员维护园区。",
+          "primaryAction": "雇佣员工",
+          "secondaryAction": "返回",
+          "visualKind": "empty",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "hired",
+          "title": "员工已雇佣",
+          "message": "显示新员工位置与工作选项。",
+          "primaryAction": "设置巡逻区",
+          "secondaryAction": "返回名单",
+          "visualKind": "success",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "patrol",
+          "title": "编辑巡逻范围",
+          "message": "在地图绘制或移除巡逻区，区分当前员工与同类员工。",
+          "primaryAction": "完成设置",
+          "secondaryAction": "清除范围",
+          "visualKind": "selection",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "fire-confirm",
+          "title": "解雇员工",
+          "message": "确认解雇当前员工。",
+          "primaryAction": "确认解雇",
+          "secondaryAction": "取消",
+          "visualKind": "danger",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "limit-reached",
+          "title": "无法继续雇佣",
+          "message": "游戏人数或员工对象限制已达到。",
+          "primaryAction": "查看名单",
+          "secondaryAction": "关闭",
+          "visualKind": "error",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "key": "park",
+      "title": "公园管理与目标",
+      "journey": [
+        "主界面打开公园",
+        "入口营业与票价",
+        "评分/游客/统计",
+        "查看目标进度",
+        "达成或失败",
+        "完成记录"
+      ],
+      "tabs": [
+        "入口",
+        "评分",
+        "游客",
+        "票价",
+        "统计",
+        "目标",
+        "奖项"
+      ],
+      "evidence": [
+        "src/openrct2-ui/windows/Park.cpp:53",
+        "src/openrct2-ui/windows/Park.cpp:396",
+        "src/openrct2-ui/windows/Park.cpp:983",
+        "src/openrct2-ui/windows/Park.cpp:1083",
+        "src/openrct2/scenario/Scenario.cpp:162",
+        "src/openrct2/scenario/Scenario.cpp:171",
+        "src/openrct2/scenario/ScenarioObjective.h:28",
+        "src/openrct2/scenario/ScenarioObjective.cpp:222"
+      ],
+      "states": [
+        {
+          "id": "open",
+          "title": "公园正在营业",
+          "message": "可查看入口、评分、游客、票价和统计。",
+          "primaryAction": "关闭公园",
+          "secondaryAction": "定位入口",
+          "visualKind": "detail",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "closed",
+          "title": "公园已关闭",
+          "message": "准备好设施与道路后开放。",
+          "primaryAction": "开放公园",
+          "secondaryAction": "查看目标",
+          "visualKind": "closed",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "objective-progress",
+          "title": "场景目标进行中",
+          "message": "显示目标、当前进度和适用截止日期。",
+          "primaryAction": "继续经营",
+          "secondaryAction": "定位相关设施",
+          "visualKind": "progress",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "objective-success",
+          "title": "场景目标已达成",
+          "message": "显示完成结果与公司价值，输入完成者名称。",
+          "primaryAction": "登记完成者",
+          "secondaryAction": "继续经营",
+          "visualKind": "success",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "objective-failure",
+          "title": "场景目标未达成",
+          "message": "显示失败原因，仍可依据场景规则继续查看园区。",
+          "primaryAction": "继续查看",
+          "secondaryAction": "返回主菜单",
+          "visualKind": "error",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "no-awards",
+          "title": "尚无园区奖项",
+          "message": "持续改善园区服务与经营表现。",
+          "primaryAction": "返回总览",
+          "secondaryAction": "关闭",
+          "visualKind": "empty",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        }
+      ],
+      "notes": "不存在任务奖励手动领取、签到或跨服排行榜；场景记录/奖项为适用目标结果系统。部分目标无截止期，不能一律倒计时。"
+    },
+    {
+      "key": "finances",
+      "title": "财务与贷款",
+      "journey": [
+        "财务总览",
+        "收入支出账目",
+        "现金/园区价值/利润趋势",
+        "借贷或还贷",
+        "营销/研究预算"
+      ],
+      "tabs": [
+        "收支",
+        "现金趋势",
+        "园区价值",
+        "利润趋势",
+        "营销",
+        "研究"
+      ],
+      "evidence": [
+        "src/openrct2-ui/windows/Finances.cpp:36",
+        "src/openrct2/actions/park/ParkSetLoanAction.cpp:40",
+        "src/openrct2-ui/windows/Finances.cpp:226"
+      ],
+      "states": [
+        {
+          "id": "normal",
+          "title": "财务总览",
+          "message": "显示收入、支出、现金、贷款与利息。",
+          "primaryAction": "增加贷款",
+          "secondaryAction": "偿还贷款",
+          "visualKind": "table",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "loan-limit",
+          "title": "无法增加贷款",
+          "message": "贷款已达到允许的上限。",
+          "primaryAction": "查看贷款",
+          "secondaryAction": "关闭",
+          "visualKind": "disabled",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "repay-insufficient",
+          "title": "现金不足以偿还",
+          "message": "还款需要足够可用现金。",
+          "primaryAction": "调整金额",
+          "secondaryAction": "取消",
+          "visualKind": "error",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "no-money",
+          "title": "无金钱模式",
+          "message": "金钱相关页面按原版适用性隐藏或禁用。",
+          "primaryAction": "查看园区",
+          "secondaryAction": "返回",
+          "visualKind": "disabled",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "graph-empty",
+          "title": "暂无足够历史数据",
+          "message": "经营一段时间后显示趋势。",
+          "primaryAction": "返回收支",
+          "secondaryAction": "关闭",
+          "visualKind": "empty",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "key": "marketing",
+      "title": "营销活动",
+      "journey": [
+        "财务营销页",
+        "选择营销类型",
+        "选设施或商品（适用时）",
+        "设置周数",
+        "查看周费与总费",
+        "开始",
+        "活动列表与结束消息"
+      ],
+      "tabs": [
+        "活动中",
+        "可用活动",
+        "新建活动"
+      ],
+      "evidence": [
+        "src/openrct2-ui/windows/NewCampaign.cpp:36",
+        "src/openrct2-ui/windows/NewCampaign.cpp:349",
+        "src/openrct2/actions/park/ParkMarketingAction.cpp:48",
+        "src/openrct2/management/Marketing.cpp:1"
+      ],
+      "states": [
+        {
+          "id": "normal",
+          "title": "新建营销活动",
+          "message": "选择目标、周期并确认总成本。",
+          "primaryAction": "开始活动",
+          "secondaryAction": "取消",
+          "visualKind": "form",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "selection-required",
+          "title": "请先选择推广对象",
+          "message": "此类活动需要指定设施或商品。",
+          "primaryAction": "选择对象",
+          "secondaryAction": "取消",
+          "visualKind": "disabled",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "active",
+          "title": "营销进行中",
+          "message": "显示活动类型、目标和剩余周数。",
+          "primaryAction": "查看目标",
+          "secondaryAction": "返回财务",
+          "visualKind": "progress",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "forbidden",
+          "title": "营销活动被禁止",
+          "message": "当前场景规则不允许开展营销。",
+          "primaryAction": "查看规则",
+          "secondaryAction": "返回",
+          "visualKind": "locked",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "empty",
+          "title": "暂无进行中的活动",
+          "message": "可选择适用营销方案。",
+          "primaryAction": "创建活动",
+          "secondaryAction": "返回",
+          "visualKind": "empty",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "complete",
+          "title": "营销活动已结束",
+          "message": "活动效果归入游客与经营数据。",
+          "primaryAction": "查看财务",
+          "secondaryAction": "关闭",
+          "visualKind": "success",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        }
+      ],
+      "notes": "结束后没有额外奖励领取按钮；不虚构活动商城。"
+    },
+    {
+      "key": "research",
+      "title": "研究与解锁",
+      "journey": [
+        "研究页",
+        "资金档位",
+        "研究优先类别",
+        "初期研究",
+        "设计",
+        "完成设计",
+        "新设施/车辆/景观可用"
+      ],
+      "tabs": [
+        "当前研究",
+        "最近完成",
+        "资金与优先级"
+      ],
+      "evidence": [
+        "src/openrct2/management/Research.cpp:56",
+        "src/openrct2/management/Research.cpp:134",
+        "src/openrct2/management/Research.cpp:251",
+        "src/openrct2/management/Research.cpp:346",
+        "src/openrct2/actions/park/ParkSetResearchFundingAction.cpp:44"
+      ],
+      "states": [
+        {
+          "id": "initial",
+          "title": "初期研究",
+          "message": "研究方向选择中，预计日期可能尚未确定。",
+          "primaryAction": "调整资金",
+          "secondaryAction": "研究优先级",
+          "visualKind": "progress",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "designing",
+          "title": "正在设计",
+          "message": "显示研究类别、阶段与可用预计完成日期。",
+          "primaryAction": "调整资金",
+          "secondaryAction": "查看设施",
+          "visualKind": "progress",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "completing",
+          "title": "设计即将完成",
+          "message": "等待研究完成并自动解锁相关对象。",
+          "primaryAction": "查看研究",
+          "secondaryAction": "返回",
+          "visualKind": "progress",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "paused",
+          "title": "研究未拨款",
+          "message": "资金档位为无时暂停进度。",
+          "primaryAction": "调整资金",
+          "secondaryAction": "返回",
+          "visualKind": "paused",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "unlocked",
+          "title": "新项目已可用",
+          "message": "设施、车辆或景观对象已解锁。",
+          "primaryAction": "查看新项目",
+          "secondaryAction": "继续经营",
+          "visualKind": "success",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "finished-all",
+          "title": "全部研究已完成",
+          "message": "没有剩余可研究对象，研究资金自动归零。",
+          "primaryAction": "查看设施",
+          "secondaryAction": "返回",
+          "visualKind": "success",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        }
+      ],
+      "notes": "资金为无/最低/普通/最高四档；原版不是角色成长或技能树。"
+    },
+    {
+      "key": "editor",
+      "title": "场景编辑器",
+      "journey": [
+        "选择对象",
+        "编辑地形与入口",
+        "研究列表",
+        "场景选项",
+        "选择目标",
+        "场景资料",
+        "保存场景"
+      ],
+      "tabs": [
+        "对象",
+        "地形",
+        "研究列表",
+        "场景选项",
+        "目标",
+        "资料",
+        "保存"
+      ],
+      "evidence": [
+        "src/openrct2/scenes/editor/EditorStep.h:16",
+        "src/openrct2-ui/windows/EditorStepController.cpp:138",
+        "src/openrct2-ui/windows/EditorStepController.cpp:212",
+        "src/openrct2/scenes/editor/EditorController.cpp:97",
+        "src/openrct2/scenes/editor/EditorController.cpp:169"
+      ],
+      "states": [
+        {
+          "id": "object-selection",
+          "title": "选择场景对象",
+          "message": "选择必要设施、车站、地形、道路、水和人物动画对象。",
+          "primaryAction": "下一步",
+          "secondaryAction": "返回",
+          "visualKind": "selection",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "object-required",
+          "title": "缺少必要对象",
+          "message": "至少选择规定的对象类别后才能继续。",
+          "primaryAction": "定位缺失类别",
+          "secondaryAction": "取消",
+          "visualKind": "error",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "landscape",
+          "title": "编辑场景地形",
+          "message": "设置园区土地、入口、连接道路与游客出生点。",
+          "primaryAction": "下一步",
+          "secondaryAction": "上一步",
+          "visualKind": "construction",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "park-invalid",
+          "title": "园区布局尚不完整",
+          "message": "检查土地所有权、入口朝向、入口道路和游客出生点。",
+          "primaryAction": "定位问题",
+          "secondaryAction": "上一步",
+          "visualKind": "warning",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "research-list",
+          "title": "设置研究顺序",
+          "message": "区分已发明与待研究对象，可调整顺序。",
+          "primaryAction": "下一步",
+          "secondaryAction": "上一步",
+          "visualKind": "list",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "options",
+          "title": "场景选项",
+          "message": "设置财务、游客、园区规则等约束。",
+          "primaryAction": "下一步",
+          "secondaryAction": "上一步",
+          "visualKind": "form",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "objective",
+          "title": "选择场景目标",
+          "message": "选择目标类型和适用数值、日期条件。",
+          "primaryAction": "下一步",
+          "secondaryAction": "上一步",
+          "visualKind": "form",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "details",
+          "title": "填写场景资料",
+          "message": "编辑名称、说明、分类等元信息。",
+          "primaryAction": "保存场景",
+          "secondaryAction": "上一步",
+          "visualKind": "form",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "save-failed",
+          "title": "无法保存场景",
+          "message": "显示对象或文件写入错误，保留已编辑内容。",
+          "primaryAction": "返回检查",
+          "secondaryAction": "关闭",
+          "visualKind": "error",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        }
+      ],
+      "notes": "编辑步骤枚举为确定来源；单独的过山车设计器和蓝图管理器也是工具入口。美术方案不代表实际可运行编辑器。"
+    },
+    {
+      "key": "mapgen",
+      "title": "地图生成与视图",
+      "journey": [
+        "地图生成",
+        "设置尺寸/地形源",
+        "设置高度/水/森林",
+        "生成预览",
+        "确认后返回编辑"
+      ],
+      "tabs": [
+        "基础",
+        "地形",
+        "水面",
+        "森林"
+      ],
+      "evidence": [
+        "src/openrct2-ui/windows/MapGen.cpp:39",
+        "src/openrct2-ui/windows/MapGen.cpp:62",
+        "src/openrct2-ui/windows/Map.cpp:1",
+        "src/openrct2-ui/windows/Transparency.cpp:1",
+        "src/openrct2-ui/windows/ViewClipping.cpp:1"
+      ],
+      "states": [
+        {
+          "id": "normal",
+          "title": "地图生成",
+          "message": "设置地图尺寸、噪声或高度图、材质、水位和树林。",
+          "primaryAction": "生成地图",
+          "secondaryAction": "取消",
+          "visualKind": "form",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "heightmap-required",
+          "title": "尚未选择高度图",
+          "message": "选择有效图像后继续。",
+          "primaryAction": "浏览图像",
+          "secondaryAction": "取消",
+          "visualKind": "empty",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "map-view",
+          "title": "园区地图",
+          "message": "切换游客与设施图层，定位到园区坐标。",
+          "primaryAction": "定位选中位置",
+          "secondaryAction": "关闭",
+          "visualKind": "map",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "view-clipping",
+          "title": "视图裁切",
+          "message": "设置可见高度或区域，辅助查看地下与遮挡。",
+          "primaryAction": "应用范围",
+          "secondaryAction": "重置",
+          "visualKind": "tool",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        }
+      ],
+      "notes": "无RPG区域传送；园区地图是经营视图导航。"
+    },
+    {
+      "key": "save-load",
+      "title": "存档、读取与对象缺失",
+      "journey": [
+        "文件菜单",
+        "浏览目录/排序/预览",
+        "输入文件名",
+        "同名覆盖确认",
+        "保存或读取",
+        "缺对象时查看清单/下载"
+      ],
+      "tabs": [
+        "存档列表",
+        "预览",
+        "目录",
+        "对象缺失"
+      ],
+      "evidence": [
+        "src/openrct2-ui/windows/LoadSave.cpp:528",
+        "src/openrct2-ui/windows/LoadSave.cpp:967",
+        "src/openrct2-ui/windows/SavePrompt.cpp:33",
+        "src/openrct2-ui/windows/OverwritePrompt.cpp:28",
+        "src/openrct2-ui/windows/ObjectLoadError.cpp:44",
+        "src/openrct2-ui/windows/ObjectLoadError.cpp:285",
+        "docs/save-format.md:1"
+      ],
+      "states": [
+        {
+          "id": "normal",
+          "title": "选择存档",
+          "message": "按名称、大小、日期排序并查看可用预览。",
+          "primaryAction": "读取所选",
+          "secondaryAction": "返回",
+          "visualKind": "list",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "empty",
+          "title": "当前目录没有存档",
+          "message": "更换目录或先保存当前园区。",
+          "primaryAction": "上级目录",
+          "secondaryAction": "返回",
+          "visualKind": "empty",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "save-prompt",
+          "title": "离开前保存",
+          "message": "可保存、不保存或取消此次离开。",
+          "primaryAction": "保存",
+          "secondaryAction": "不保存 / 取消",
+          "visualKind": "confirm",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "overwrite",
+          "title": "同名存档已存在",
+          "message": "确认覆盖所选文件。",
+          "primaryAction": "覆盖保存",
+          "secondaryAction": "取消",
+          "visualKind": "danger",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "invalid-name",
+          "title": "文件名不可用",
+          "message": "移除不允许的字符并重试。",
+          "primaryAction": "修改名称",
+          "secondaryAction": "取消",
+          "visualKind": "error",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "missing-objects",
+          "title": "缺少所需对象",
+          "message": "列出对象名称、来源与类型，可复制清单或下载。",
+          "primaryAction": "下载全部",
+          "secondaryAction": "复制清单",
+          "visualKind": "error",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "downloading",
+          "title": "正在下载对象",
+          "message": "显示当前对象、来源、完成数量与总数。",
+          "primaryAction": "取消下载",
+          "secondaryAction": "查看清单",
+          "visualKind": "progress",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "download-incomplete",
+          "title": "部分对象未取得",
+          "message": "保留缺失清单，需取得对象后再次读取。",
+          "primaryAction": "查看缺失清单",
+          "secondaryAction": "关闭",
+          "visualKind": "warning",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        }
+      ],
+      "notes": "下载功能来自游戏逻辑，UI制作阶段不自行下载用户的原作资料或商业素材。"
+    },
+    {
+      "key": "track-files",
+      "title": "蓝图导入与管理",
+      "journey": [
+        "轨道蓝图列表",
+        "查看数据/缩略图",
+        "放置或导入",
+        "重命名/删除确认"
+      ],
+      "tabs": [
+        "蓝图列表",
+        "蓝图详情",
+        "管理"
+      ],
+      "evidence": [
+        "src/openrct2-ui/windows/TrackList.cpp:1",
+        "src/openrct2-ui/windows/InstallTrack.cpp:1",
+        "src/openrct2-ui/windows/TrackDesignManage.cpp:31",
+        "src/openrct2-ui/windows/TrackDesignManage.cpp:113"
+      ],
+      "states": [
+        {
+          "id": "normal",
+          "title": "蓝图管理",
+          "message": "查看轨道蓝图与统计，选择放置、重命名或删除。",
+          "primaryAction": "放置蓝图",
+          "secondaryAction": "管理",
+          "visualKind": "detail",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "delete-confirm",
+          "title": "永久删除蓝图",
+          "message": "确认删除所选蓝图文件。",
+          "primaryAction": "确认删除",
+          "secondaryAction": "取消",
+          "visualKind": "danger",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "rename-failed",
+          "title": "无法重命名",
+          "message": "检查名称字符、同名文件和写入权限。",
+          "primaryAction": "修改名称",
+          "secondaryAction": "取消",
+          "visualKind": "error",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "delete-failed",
+          "title": "无法删除蓝图",
+          "message": "文件可能被写保护或锁定。",
+          "primaryAction": "关闭提示",
+          "secondaryAction": "返回",
+          "visualKind": "error",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "key": "multiplayer",
+      "title": "多人协作",
+      "journey": [
+        "服务器列表",
+        "选择服务器/直接连接",
+        "版本检查",
+        "密码与认证",
+        "下载园区",
+        "加入协作",
+        "玩家/权限组/聊天"
+      ],
+      "tabs": [
+        "服务器",
+        "创建服务器",
+        "玩家",
+        "权限组",
+        "选项",
+        "聊天"
+      ],
+      "evidence": [
+        "src/openrct2-ui/windows/ServerList.cpp:147",
+        "src/openrct2-ui/windows/NetworkStatus.cpp:175",
+        "src/openrct2/network/NetworkTypes.h:41",
+        "src/openrct2/network/NetworkBase.cpp:2393",
+        "src/openrct2/network/NetworkBase.cpp:885",
+        "src/openrct2-ui/windows/Multiplayer.cpp:107",
+        "src/openrct2-ui/interface/Chat.cpp:51"
+      ],
+      "states": [
+        {
+          "id": "server-list",
+          "title": "服务器列表",
+          "message": "查看名称、描述、玩家数、版本与密码标记。",
+          "primaryAction": "加入服务器",
+          "secondaryAction": "创建服务器",
+          "visualKind": "list",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "empty",
+          "title": "暂无可用服务器",
+          "message": "可刷新列表或输入服务器地址。",
+          "primaryAction": "刷新列表",
+          "secondaryAction": "直接连接",
+          "visualKind": "empty",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "connecting",
+          "title": "正在连接",
+          "message": "显示连接、认证与园区下载阶段。",
+          "primaryAction": "取消连接",
+          "secondaryAction": "返回",
+          "visualKind": "progress",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "password",
+          "title": "服务器需要密码",
+          "message": "输入房间密码以完成认证。",
+          "primaryAction": "确认密码",
+          "secondaryAction": "取消",
+          "visualKind": "form",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "bad-password",
+          "title": "密码不正确",
+          "message": "输入正确密码后重新连接。",
+          "primaryAction": "重新输入",
+          "secondaryAction": "返回",
+          "visualKind": "error",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "bad-version",
+          "title": "版本不兼容",
+          "message": "当前游戏与服务器网络版本不同。",
+          "primaryAction": "关闭提示",
+          "secondaryAction": "返回列表",
+          "visualKind": "error",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "full",
+          "title": "服务器人数已满",
+          "message": "选择其他服务器或稍后手动重试。",
+          "primaryAction": "返回列表",
+          "secondaryAction": "关闭",
+          "visualKind": "error",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "denied",
+          "title": "认证未通过",
+          "message": "名称、密钥或验证结果不符合服务器要求。",
+          "primaryAction": "返回列表",
+          "secondaryAction": "关闭",
+          "visualKind": "error",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "connected",
+          "title": "已加入协作",
+          "message": "查看玩家、权限组和聊天，操作由权限控制。",
+          "primaryAction": "查看玩家",
+          "secondaryAction": "打开聊天",
+          "visualKind": "success",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "permission-denied",
+          "title": "没有此操作权限",
+          "message": "当前权限组不能执行所选建设或管理操作。",
+          "primaryAction": "查看权限组",
+          "secondaryAction": "关闭",
+          "visualKind": "disabled",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "desync",
+          "title": "园区状态不同步",
+          "message": "显示失同步消息与可用诊断信息，按原版网络流程退出或重新加入。",
+          "primaryAction": "返回服务器列表",
+          "secondaryAction": "关闭",
+          "visualKind": "error",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "disconnect",
+          "title": "连接已断开",
+          "message": "显示服务器给出的断开原因。",
+          "primaryAction": "返回服务器列表",
+          "secondaryAction": "关闭",
+          "visualKind": "error",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        }
+      ],
+      "notes": "自动重连不是已核实原版功能；重新加入是设计导向，实际接入需要调用原版可用路径。账号、公会、私人邮件不是此多人系统。"
+    },
+    {
+      "key": "settings",
+      "title": "设置、操作与可访问性",
+      "journey": [
+        "打开设置",
+        "选择类别",
+        "修改项",
+        "快捷键重绑/恢复",
+        "返回游戏"
+      ],
+      "tabs": [
+        "显示",
+        "渲染",
+        "语言单位",
+        "音频",
+        "界面",
+        "操作",
+        "其他",
+        "高级"
+      ],
+      "evidence": [
+        "src/openrct2-ui/windows/Options.cpp:71",
+        "src/openrct2-ui/windows/Options.cpp:140",
+        "src/openrct2-ui/windows/Options.cpp:202",
+        "src/openrct2-ui/windows/ShortcutKeys.cpp:33",
+        "src/openrct2-ui/windows/ShortcutKeys.cpp:575",
+        "src/openrct2-ui/windows/Themes.cpp:1",
+        "src/openrct2-ui/windows/CustomCurrency.cpp:1"
+      ],
+      "states": [
+        {
+          "id": "normal",
+          "title": "游戏设置",
+          "message": "分类设置显示、渲染、语言单位、音频、界面、控制与高级项。",
+          "primaryAction": "返回游戏",
+          "secondaryAction": "快捷键",
+          "visualKind": "form",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "accessibility",
+          "title": "操作与舒适性",
+          "message": "禁闪电、界面缩放/放大、触控增强、光标限制与手柄项依来源提供。",
+          "primaryAction": "返回游戏",
+          "secondaryAction": "快捷键",
+          "visualKind": "form",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "key-capture",
+          "title": "请按下新的快捷键",
+          "message": "为当前操作录入新的按键组合。",
+          "primaryAction": "移除绑定",
+          "secondaryAction": "取消",
+          "visualKind": "input",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "reset-confirm",
+          "title": "恢复默认快捷键",
+          "message": "确认恢复快捷键配置。",
+          "primaryAction": "恢复默认",
+          "secondaryAction": "取消",
+          "visualKind": "confirm",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "theme-edit",
+          "title": "界面主题",
+          "message": "编辑界面颜色与主题配置。",
+          "primaryAction": "返回设置",
+          "secondaryAction": "关闭",
+          "visualKind": "form",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "custom-currency",
+          "title": "自定义货币",
+          "message": "设置货币符号、显示位置和汇率。",
+          "primaryAction": "返回设置",
+          "secondaryAction": "关闭",
+          "visualKind": "form",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        }
+      ],
+      "notes": "不虚构独立完整无障碍系统、旁白或色盲模式；当前已核实的是具体舒适性/输入选项。设置多为即时保存，最终接入不应统一强加“应用”确认。"
+    },
+    {
+      "key": "messages-support",
+      "title": "消息、帮助与维护工具",
+      "journey": [
+        "经营消息",
+        "定位对象或打开窗口",
+        "历史消息",
+        "帮助/关于/更新日志",
+        "可选调试工具"
+      ],
+      "tabs": [
+        "消息",
+        "历史",
+        "关于",
+        "更新日志",
+        "资源包",
+        "调试"
+      ],
+      "evidence": [
+        "src/openrct2-ui/windows/News.cpp:1",
+        "src/openrct2-ui/windows/About.cpp:1",
+        "src/openrct2-ui/windows/Changelog.cpp:1",
+        "src/openrct2-ui/windows/AssetPacks.cpp:1",
+        "src/openrct2-ui/windows/Cheats.cpp:1",
+        "src/openrct2-ui/windows/TileInspector.cpp:1",
+        "src/openrct2-ui/windows/DebugPaint.cpp:1"
+      ],
+      "states": [
+        {
+          "id": "news",
+          "title": "园区消息",
+          "message": "查看设施故障、研究完成、园区奖项等经营事件。",
+          "primaryAction": "定位事件",
+          "secondaryAction": "查看历史",
+          "visualKind": "list",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "empty",
+          "title": "暂无消息",
+          "message": "园区事件会在这里汇总。",
+          "primaryAction": "继续经营",
+          "secondaryAction": "关闭",
+          "visualKind": "empty",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "about",
+          "title": "关于游戏",
+          "message": "显示版本、作者与来源信息。",
+          "primaryAction": "关闭",
+          "secondaryAction": "更新日志",
+          "visualKind": "detail",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "asset-packs",
+          "title": "资源包",
+          "message": "查看已安装资源包及启用状态。",
+          "primaryAction": "返回设置",
+          "secondaryAction": "关闭",
+          "visualKind": "list",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        },
+        {
+          "id": "debug-tools",
+          "title": "高级工具",
+          "message": "作弊、地块检查和绘制调试仅在适用条件下显示。",
+          "primaryAction": "返回园区",
+          "secondaryAction": "关闭",
+          "visualKind": "tool",
+          "logicBasis": "existing",
+          "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+        }
+      ],
+      "notes": "新增的新手图解可以建议补充，但不应声称仓库已有完整教程/邮件/好友/签到功能。"
+    }
+  ]
+}

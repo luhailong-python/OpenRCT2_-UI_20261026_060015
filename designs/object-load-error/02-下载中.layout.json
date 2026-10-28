@@ -1,0 +1,388 @@
+{
+  "schemaVersion": 1,
+  "screenId": "object-load-error:02",
+  "title": "对象缺失与下载 · 下载中",
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "origin": "top-left",
+  "textLayers": [
+    {
+      "id": "text-001",
+      "text": "对象缺失与下载",
+      "role": "dynamic-text",
+      "region": [
+        620,
+        66,
+        680,
+        75
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 46,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 65,
+      "wrappedLines": [
+        "对象缺失与下载"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-002",
+      "text": "缺失对象",
+      "role": "dynamic-text",
+      "region": [
+        128,
+        208,
+        290,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 26,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 36,
+      "wrappedLines": [
+        "缺失对象"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-003",
+      "text": "下载中",
+      "role": "dynamic-text",
+      "region": [
+        470,
+        208,
+        290,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 26,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 36,
+      "wrappedLines": [
+        "下载中"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-004",
+      "text": "失败",
+      "role": "dynamic-text",
+      "region": [
+        812,
+        208,
+        290,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 26,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 36,
+      "wrappedLines": [
+        "失败"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-005",
+      "text": "下载中",
+      "role": "dynamic-text",
+      "region": [
+        118,
+        300,
+        1664,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 32,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 45,
+      "wrappedLines": [
+        "下载中"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-006",
+      "text": "美术设计样例 · 名称 / 数值待定",
+      "role": "dynamic-text",
+      "region": [
+        600,
+        1046,
+        720,
+        28
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "美术设计样例 · 名称 / 数值待定"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-007",
+      "text": "正在下载对象",
+      "role": "dynamic-text",
+      "region": [
+        470,
+        432,
+        1284,
+        80
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 38,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 53,
+      "wrappedLines": [
+        "正在下载对象"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-008",
+      "text": "云海景观组 · 已完成 8 / 12 个对象",
+      "role": "dynamic-text",
+      "region": [
+        470,
+        540,
+        1284,
+        100
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 27,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 38,
+      "wrappedLines": [
+        "云海景观组 · 已完成 8 / 12 个对象"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-009",
+      "text": "查看清单",
+      "role": "dynamic-text",
+      "region": [
+        1616,
+        925,
+        148,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "查看清单"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-010",
+      "text": "取消下载",
+      "role": "dynamic-text",
+      "region": [
+        1402,
+        924,
+        148,
+        38
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "取消下载"
+      ],
+      "dynamic": true
+    }
+  ],
+  "artAndControlLayers": [
+    {
+      "role": "park-background",
+      "asset": "assets/backgrounds/park-day-native.png",
+      "region": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "resize": "cover"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_main.png",
+      "region": [
+        52,
+        96,
+        1816,
+        930
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "title-plaque",
+      "asset": "assets/common/title_plate.png",
+      "region": [
+        520,
+        22,
+        880,
+        170
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "close",
+      "asset": "assets/common/close.png",
+      "region": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        108,
+        200,
+        330,
+        66
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_selected.png",
+      "region": [
+        450,
+        200,
+        330,
+        66
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        792,
+        200,
+        330,
+        66
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "illustration",
+      "asset": "assets/illustrations/lake_scenario.png",
+      "region": [
+        135,
+        412,
+        300,
+        418
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "progress-track",
+      "asset": "assets/common/progress_track.png",
+      "region": [
+        470,
+        687,
+        1264,
+        42
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "progress-fill",
+      "asset": "assets/common/progress_fill.png",
+      "region": [
+        478,
+        695,
+        848,
+        26
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1592,
+        916,
+        196,
+        70
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/primary_normal.png",
+      "region": [
+        1378,
+        916,
+        196,
+        70
+      ],
+      "resize": "nine",
+      "state": "normal"
+    }
+  ],
+  "dataDiagrams": [
+    {
+      "role": "data-rule",
+      "points": [
+        [
+          118,
+          358
+        ],
+        [
+          1786,
+          358
+        ]
+      ],
+      "color": "#B28C43",
+      "width": 1
+    }
+  ],
+  "layoutIssues": [],
+  "fontDistribution": "Official OFL-licensed fonts are included in assets/fonts; see records/font-sources.json.",
+  "status": "produced_pending_review"
+}

@@ -1,0 +1,1559 @@
+{
+  "schemaVersion": 1,
+  "screenId": "management-detail:cheats-6-1",
+  "title": "沙盒与作弊 · 沙盒设施工具 · 1",
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "origin": "top-left",
+  "textLayers": [
+    {
+      "id": "text-001",
+      "text": "沙盒与作弊",
+      "role": "dynamic-text",
+      "region": [
+        620,
+        66,
+        680,
+        75
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 46,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 65,
+      "wrappedLines": [
+        "沙盒与作弊"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-002",
+      "text": "财务",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        231,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "财务"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-003",
+      "text": "日期",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        301,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "日期"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-004",
+      "text": "游客",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        371,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "游客"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-005",
+      "text": "员工",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        441,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "员工"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-006",
+      "text": "公园",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        511,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "公园"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-007",
+      "text": "设施",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        581,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "设施"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-008",
+      "text": "天气",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        651,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "天气"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-009",
+      "text": "设施",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        218,
+        1388,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 32,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 45,
+      "wrappedLines": [
+        "设施"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-010",
+      "text": "美术设计样例 · 名称 / 数值待定",
+      "role": "dynamic-text",
+      "region": [
+        600,
+        1046,
+        720,
+        28
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "美术设计样例 · 名称 / 数值待定"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-011",
+      "text": "沙盒设施工具 · 1",
+      "role": "dynamic-text",
+      "region": [
+        395,
+        865,
+        1398,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#7A745E",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "沙盒设施工具 · 1"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-012",
+      "text": "沙盒工具已启用；当前示例具有操作权限，变更即时生效。",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        1002,
+        1660,
+        30
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "沙盒工具已启用；当前示例具有操作权限，变更即时生效。"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-013",
+      "text": "维修全部游乐设施",
+      "role": "dynamic-text",
+      "region": [
+        418,
+        310,
+        630,
+        42
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "维修全部游乐设施"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-014",
+      "text": "翻新游乐设施",
+      "role": "dynamic-text",
+      "region": [
+        1140,
+        310,
+        630,
+        42
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "翻新游乐设施"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-015",
+      "text": "复位故障状态",
+      "role": "dynamic-text",
+      "region": [
+        418,
+        388,
+        630,
+        42
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "复位故障状态"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-016",
+      "text": "检查间隔为10分钟",
+      "role": "dynamic-text",
+      "region": [
+        1140,
+        388,
+        630,
+        42
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "检查间隔为10分钟"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-017",
+      "text": "启用所有可渲染的轨道部件",
+      "role": "dynamic-text",
+      "region": [
+        451,
+        463,
+        616,
+        60
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "启用所有可渲染的轨道部件"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-018",
+      "text": "允许在所有轨道配置中使用链式牵引",
+      "role": "dynamic-text",
+      "region": [
+        1173,
+        463,
+        616,
+        60
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "允许在所有轨道配置中使用链式牵引"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-019",
+      "text": "允许在无效高度建造轨道",
+      "role": "dynamic-text",
+      "region": [
+        451,
+        541,
+        616,
+        60
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "允许在无效高度建造轨道"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-020",
+      "text": "全可拆除",
+      "role": "dynamic-text",
+      "region": [
+        1173,
+        541,
+        616,
+        60
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "全可拆除"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-021",
+      "text": "显示所有运行模式",
+      "role": "dynamic-text",
+      "region": [
+        451,
+        619,
+        616,
+        60
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "显示所有运行模式"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-022",
+      "text": "解锁操作限制",
+      "role": "dynamic-text",
+      "region": [
+        1173,
+        619,
+        616,
+        60
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "解锁操作限制"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-023",
+      "text": "禁用制动器故障",
+      "role": "dynamic-text",
+      "region": [
+        451,
+        697,
+        616,
+        60
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "禁用制动器故障"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-024",
+      "text": "禁用所有故障",
+      "role": "dynamic-text",
+      "region": [
+        1173,
+        697,
+        616,
+        60
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "禁用所有故障"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-025",
+      "text": "游乐设施不会随时间流逝而贬值",
+      "role": "dynamic-text",
+      "region": [
+        451,
+        775,
+        616,
+        60
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "游乐设施不会随时间流逝而贬值"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-026",
+      "text": "允许任意切换游乐设施类型",
+      "role": "dynamic-text",
+      "region": [
+        1173,
+        775,
+        616,
+        60
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "允许任意切换游乐设施类型"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-027",
+      "text": "返回园区",
+      "role": "dynamic-text",
+      "region": [
+        1616,
+        924,
+        148,
+        38
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "返回园区"
+      ],
+      "dynamic": true
+    }
+  ],
+  "artAndControlLayers": [
+    {
+      "role": "park-background",
+      "asset": "assets/backgrounds/park-day-native.png",
+      "region": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "resize": "cover"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_main.png",
+      "region": [
+        52,
+        96,
+        1816,
+        930
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "title-plaque",
+      "asset": "assets/common/title_plate.png",
+      "region": [
+        520,
+        22,
+        880,
+        170
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "close",
+      "asset": "assets/common/close.png",
+      "region": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_card.png",
+      "region": [
+        84,
+        208,
+        268,
+        756
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        224,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        294,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        364,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        434,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        504,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_selected.png",
+      "region": [
+        100,
+        574,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        644,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        394,
+        302,
+        678,
+        62
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "Cheats:WIDX_FIX_ALL"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1116,
+        302,
+        678,
+        62
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "Cheats:WIDX_RENEW_RIDES"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        394,
+        380,
+        678,
+        62
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "Cheats:WIDX_RESET_CRASH_STATUS"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1116,
+        380,
+        678,
+        62
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "Cheats:WIDX_10_MINUTE_INSPECTIONS"
+    },
+    {
+      "role": "detail-checkbox",
+      "asset": "assets/common/checkbox_off.png",
+      "region": [
+        394,
+        468,
+        40,
+        40
+      ],
+      "resize": "contain",
+      "sourceControlKey": "Cheats:WIDX_ENABLE_ALL_DRAWABLE_TRACK_PIECES"
+    },
+    {
+      "role": "detail-checkbox",
+      "asset": "assets/common/checkbox_off.png",
+      "region": [
+        1116,
+        468,
+        40,
+        40
+      ],
+      "resize": "contain",
+      "sourceControlKey": "Cheats:WIDX_ENABLE_CHAIN_LIFT_ON_ALL_TRACK"
+    },
+    {
+      "role": "detail-checkbox",
+      "asset": "assets/common/checkbox_off.png",
+      "region": [
+        394,
+        546,
+        40,
+        40
+      ],
+      "resize": "contain",
+      "sourceControlKey": "Cheats:WIDX_ALLOW_TRACK_PLACE_INVALID_HEIGHTS"
+    },
+    {
+      "role": "detail-checkbox",
+      "asset": "assets/common/checkbox_off.png",
+      "region": [
+        1116,
+        546,
+        40,
+        40
+      ],
+      "resize": "contain",
+      "sourceControlKey": "Cheats:WIDX_MAKE_DESTRUCTIBLE"
+    },
+    {
+      "role": "detail-checkbox",
+      "asset": "assets/common/checkbox_off.png",
+      "region": [
+        394,
+        624,
+        40,
+        40
+      ],
+      "resize": "contain",
+      "sourceControlKey": "Cheats:WIDX_SHOW_ALL_OPERATING_MODES"
+    },
+    {
+      "role": "detail-checkbox",
+      "asset": "assets/common/checkbox_off.png",
+      "region": [
+        1116,
+        624,
+        40,
+        40
+      ],
+      "resize": "contain",
+      "sourceControlKey": "Cheats:WIDX_UNLOCK_OPERATING_LIMITS"
+    },
+    {
+      "role": "detail-checkbox",
+      "asset": "assets/common/checkbox_off.png",
+      "region": [
+        394,
+        702,
+        40,
+        40
+      ],
+      "resize": "contain",
+      "sourceControlKey": "Cheats:WIDX_DISABLE_BRAKES_FAILURE"
+    },
+    {
+      "role": "detail-checkbox",
+      "asset": "assets/common/checkbox_off.png",
+      "region": [
+        1116,
+        702,
+        40,
+        40
+      ],
+      "resize": "contain",
+      "sourceControlKey": "Cheats:WIDX_DISABLE_ALL_BREAKDOWNS"
+    },
+    {
+      "role": "detail-checkbox",
+      "asset": "assets/common/checkbox_off.png",
+      "region": [
+        394,
+        780,
+        40,
+        40
+      ],
+      "resize": "contain",
+      "sourceControlKey": "Cheats:WIDX_DISABLE_RIDE_VALUE_AGING"
+    },
+    {
+      "role": "detail-checkbox",
+      "asset": "assets/common/checkbox_off.png",
+      "region": [
+        1116,
+        780,
+        40,
+        40
+      ],
+      "resize": "contain",
+      "sourceControlKey": "Cheats:WIDX_ENABLE_ARBITRARY_RIDE_TYPE_CHANGES"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/primary_normal.png",
+      "region": [
+        1592,
+        916,
+        196,
+        70
+      ],
+      "resize": "nine",
+      "state": "normal"
+    }
+  ],
+  "dataDiagrams": [
+    {
+      "role": "data-rule",
+      "points": [
+        [
+          398,
+          276
+        ],
+        [
+          1790,
+          276
+        ]
+      ],
+      "color": "#B28C43",
+      "width": 1
+    }
+  ],
+  "layoutIssues": [],
+  "fontDistribution": "Official OFL-licensed fonts are included in assets/fonts; see records/font-sources.json.",
+  "status": "produced_pending_review",
+  "sourceControlBindings": [
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_BACKGROUND",
+      "sourceControlKey": "Cheats:WIDX_BACKGROUND",
+      "rectTopLeftXYWH": [
+        52,
+        96,
+        1816,
+        930
+      ],
+      "role": "window-structure",
+      "sourcePageGroups": [
+        "财务",
+        "日期",
+        "游客",
+        "员工",
+        "公园",
+        "设施",
+        "天气"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 82
+      },
+      "sourceWidgetType": "frame",
+      "condition": "沙盒工具已启用；当前示例具有操作权限，变更即时生效。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_TITLE",
+      "sourceControlKey": "Cheats:WIDX_TITLE",
+      "rectTopLeftXYWH": [
+        520,
+        22,
+        880,
+        170
+      ],
+      "role": "window-structure",
+      "sourcePageGroups": [
+        "财务",
+        "日期",
+        "游客",
+        "员工",
+        "公园",
+        "设施",
+        "天气"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 83
+      },
+      "sourceWidgetType": "caption",
+      "condition": "沙盒工具已启用；当前示例具有操作权限，变更即时生效。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_CLOSE",
+      "sourceControlKey": "Cheats:WIDX_CLOSE",
+      "rectTopLeftXYWH": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "role": "window-structure",
+      "sourcePageGroups": [
+        "财务",
+        "日期",
+        "游客",
+        "员工",
+        "公园",
+        "设施",
+        "天气"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 84
+      },
+      "sourceWidgetType": "closeBox",
+      "condition": "沙盒工具已启用；当前示例具有操作权限，变更即时生效。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_TAB_1",
+      "sourceControlKey": "Cheats:WIDX_TAB_1",
+      "rectTopLeftXYWH": [
+        100,
+        224,
+        236,
+        64
+      ],
+      "role": "source-navigation",
+      "sourcePageGroups": [
+        "财务",
+        "日期",
+        "游客",
+        "员工",
+        "公园",
+        "设施",
+        "天气"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 86
+      },
+      "sourceWidgetType": "tab",
+      "condition": "沙盒工具已启用；当前示例具有操作权限，变更即时生效。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_TAB_2",
+      "sourceControlKey": "Cheats:WIDX_TAB_2",
+      "rectTopLeftXYWH": [
+        100,
+        294,
+        236,
+        64
+      ],
+      "role": "source-navigation",
+      "sourcePageGroups": [
+        "财务",
+        "日期",
+        "游客",
+        "员工",
+        "公园",
+        "设施",
+        "天气"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 87
+      },
+      "sourceWidgetType": "tab",
+      "condition": "沙盒工具已启用；当前示例具有操作权限，变更即时生效。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_TAB_3",
+      "sourceControlKey": "Cheats:WIDX_TAB_3",
+      "rectTopLeftXYWH": [
+        100,
+        364,
+        236,
+        64
+      ],
+      "role": "source-navigation",
+      "sourcePageGroups": [
+        "财务",
+        "日期",
+        "游客",
+        "员工",
+        "公园",
+        "设施",
+        "天气"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 88
+      },
+      "sourceWidgetType": "tab",
+      "condition": "沙盒工具已启用；当前示例具有操作权限，变更即时生效。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_TAB_4",
+      "sourceControlKey": "Cheats:WIDX_TAB_4",
+      "rectTopLeftXYWH": [
+        100,
+        434,
+        236,
+        64
+      ],
+      "role": "source-navigation",
+      "sourcePageGroups": [
+        "财务",
+        "日期",
+        "游客",
+        "员工",
+        "公园",
+        "设施",
+        "天气"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 89
+      },
+      "sourceWidgetType": "tab",
+      "condition": "沙盒工具已启用；当前示例具有操作权限，变更即时生效。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_TAB_5",
+      "sourceControlKey": "Cheats:WIDX_TAB_5",
+      "rectTopLeftXYWH": [
+        100,
+        504,
+        236,
+        64
+      ],
+      "role": "source-navigation",
+      "sourcePageGroups": [
+        "财务",
+        "日期",
+        "游客",
+        "员工",
+        "公园",
+        "设施",
+        "天气"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 90
+      },
+      "sourceWidgetType": "tab",
+      "condition": "沙盒工具已启用；当前示例具有操作权限，变更即时生效。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_TAB_6",
+      "sourceControlKey": "Cheats:WIDX_TAB_6",
+      "rectTopLeftXYWH": [
+        100,
+        574,
+        236,
+        64
+      ],
+      "role": "source-navigation",
+      "sourcePageGroups": [
+        "财务",
+        "日期",
+        "游客",
+        "员工",
+        "公园",
+        "设施",
+        "天气"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 91
+      },
+      "sourceWidgetType": "tab",
+      "condition": "沙盒工具已启用；当前示例具有操作权限，变更即时生效。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_TAB_7",
+      "sourceControlKey": "Cheats:WIDX_TAB_7",
+      "rectTopLeftXYWH": [
+        100,
+        644,
+        236,
+        64
+      ],
+      "role": "source-navigation",
+      "sourcePageGroups": [
+        "财务",
+        "日期",
+        "游客",
+        "员工",
+        "公园",
+        "设施",
+        "天气"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 92
+      },
+      "sourceWidgetType": "tab",
+      "condition": "沙盒工具已启用；当前示例具有操作权限，变更即时生效。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_FIX_ALL",
+      "sourceControlKey": "Cheats:WIDX_FIX_ALL",
+      "rectTopLeftXYWH": [
+        394,
+        302,
+        678,
+        62
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "设施"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 176
+      },
+      "sourceWidgetType": "button",
+      "condition": "沙盒工具已启用；当前示例具有操作权限，变更即时生效。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_RENEW_RIDES",
+      "sourceControlKey": "Cheats:WIDX_RENEW_RIDES",
+      "rectTopLeftXYWH": [
+        1116,
+        302,
+        678,
+        62
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "设施"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 177
+      },
+      "sourceWidgetType": "button",
+      "condition": "沙盒工具已启用；当前示例具有操作权限，变更即时生效。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_RESET_CRASH_STATUS",
+      "sourceControlKey": "Cheats:WIDX_RESET_CRASH_STATUS",
+      "rectTopLeftXYWH": [
+        394,
+        380,
+        678,
+        62
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "设施"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 178
+      },
+      "sourceWidgetType": "button",
+      "condition": "沙盒工具已启用；当前示例具有操作权限，变更即时生效。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_10_MINUTE_INSPECTIONS",
+      "sourceControlKey": "Cheats:WIDX_10_MINUTE_INSPECTIONS",
+      "rectTopLeftXYWH": [
+        1116,
+        380,
+        678,
+        62
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "设施"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 179
+      },
+      "sourceWidgetType": "button",
+      "condition": "沙盒工具已启用；当前示例具有操作权限，变更即时生效。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_ENABLE_ALL_DRAWABLE_TRACK_PIECES",
+      "sourceControlKey": "Cheats:WIDX_ENABLE_ALL_DRAWABLE_TRACK_PIECES",
+      "rectTopLeftXYWH": [
+        394,
+        456,
+        678,
+        68
+      ],
+      "role": "checkbox",
+      "sourcePageGroups": [
+        "设施"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 181
+      },
+      "sourceWidgetType": "checkbox",
+      "condition": "沙盒工具已启用；当前示例具有操作权限，变更即时生效。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_ENABLE_CHAIN_LIFT_ON_ALL_TRACK",
+      "sourceControlKey": "Cheats:WIDX_ENABLE_CHAIN_LIFT_ON_ALL_TRACK",
+      "rectTopLeftXYWH": [
+        1116,
+        456,
+        678,
+        68
+      ],
+      "role": "checkbox",
+      "sourcePageGroups": [
+        "设施"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 182
+      },
+      "sourceWidgetType": "checkbox",
+      "condition": "沙盒工具已启用；当前示例具有操作权限，变更即时生效。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_ALLOW_TRACK_PLACE_INVALID_HEIGHTS",
+      "sourceControlKey": "Cheats:WIDX_ALLOW_TRACK_PLACE_INVALID_HEIGHTS",
+      "rectTopLeftXYWH": [
+        394,
+        534,
+        678,
+        68
+      ],
+      "role": "checkbox",
+      "sourcePageGroups": [
+        "设施"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 183
+      },
+      "sourceWidgetType": "checkbox",
+      "condition": "沙盒工具已启用；当前示例具有操作权限，变更即时生效。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_MAKE_DESTRUCTIBLE",
+      "sourceControlKey": "Cheats:WIDX_MAKE_DESTRUCTIBLE",
+      "rectTopLeftXYWH": [
+        1116,
+        534,
+        678,
+        68
+      ],
+      "role": "checkbox",
+      "sourcePageGroups": [
+        "设施"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 184
+      },
+      "sourceWidgetType": "checkbox",
+      "condition": "沙盒工具已启用；当前示例具有操作权限，变更即时生效。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_SHOW_ALL_OPERATING_MODES",
+      "sourceControlKey": "Cheats:WIDX_SHOW_ALL_OPERATING_MODES",
+      "rectTopLeftXYWH": [
+        394,
+        612,
+        678,
+        68
+      ],
+      "role": "checkbox",
+      "sourcePageGroups": [
+        "设施"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 186
+      },
+      "sourceWidgetType": "checkbox",
+      "condition": "沙盒工具已启用；当前示例具有操作权限，变更即时生效。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_UNLOCK_OPERATING_LIMITS",
+      "sourceControlKey": "Cheats:WIDX_UNLOCK_OPERATING_LIMITS",
+      "rectTopLeftXYWH": [
+        1116,
+        612,
+        678,
+        68
+      ],
+      "role": "checkbox",
+      "sourcePageGroups": [
+        "设施"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 187
+      },
+      "sourceWidgetType": "checkbox",
+      "condition": "沙盒工具已启用；当前示例具有操作权限，变更即时生效。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_DISABLE_BRAKES_FAILURE",
+      "sourceControlKey": "Cheats:WIDX_DISABLE_BRAKES_FAILURE",
+      "rectTopLeftXYWH": [
+        394,
+        690,
+        678,
+        68
+      ],
+      "role": "checkbox",
+      "sourcePageGroups": [
+        "设施"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 188
+      },
+      "sourceWidgetType": "checkbox",
+      "condition": "沙盒工具已启用；当前示例具有操作权限，变更即时生效。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_DISABLE_ALL_BREAKDOWNS",
+      "sourceControlKey": "Cheats:WIDX_DISABLE_ALL_BREAKDOWNS",
+      "rectTopLeftXYWH": [
+        1116,
+        690,
+        678,
+        68
+      ],
+      "role": "checkbox",
+      "sourcePageGroups": [
+        "设施"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 189
+      },
+      "sourceWidgetType": "checkbox",
+      "condition": "沙盒工具已启用；当前示例具有操作权限，变更即时生效。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_DISABLE_RIDE_VALUE_AGING",
+      "sourceControlKey": "Cheats:WIDX_DISABLE_RIDE_VALUE_AGING",
+      "rectTopLeftXYWH": [
+        394,
+        768,
+        678,
+        68
+      ],
+      "role": "checkbox",
+      "sourcePageGroups": [
+        "设施"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 190
+      },
+      "sourceWidgetType": "checkbox",
+      "condition": "沙盒工具已启用；当前示例具有操作权限，变更即时生效。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_ENABLE_ARBITRARY_RIDE_TYPE_CHANGES",
+      "sourceControlKey": "Cheats:WIDX_ENABLE_ARBITRARY_RIDE_TYPE_CHANGES",
+      "rectTopLeftXYWH": [
+        1116,
+        768,
+        678,
+        68
+      ],
+      "role": "checkbox",
+      "sourcePageGroups": [
+        "设施"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 192
+      },
+      "sourceWidgetType": "checkbox",
+      "condition": "沙盒工具已启用；当前示例具有操作权限，变更即时生效。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    }
+  ],
+  "productDetailPurpose": "additional_actual_product_ui_layout"
+}

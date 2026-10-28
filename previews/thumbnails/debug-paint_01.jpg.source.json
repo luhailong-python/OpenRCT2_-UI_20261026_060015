@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/debug-paint_01.jpg",
+  "sha256": "d18e42cd84c57abd936e0f8faabf6f290dfe3c2b2a66af1d5b73e844650f4432",
+  "derivedFrom": [
+    {
+      "file": "designs/debug-paint/01-绘制诊断.png",
+      "sha256": "96ff56b3bf4f2dbb04516bcf46d2315bade65f34cccb90855ab039b08eafdd78",
+      "sourceRecord": "designs/debug-paint/01-绘制诊断.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

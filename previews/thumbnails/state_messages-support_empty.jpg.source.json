@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_messages-support_empty.jpg",
+  "sha256": "2fa86df5e16087abfa47672eb055e3eb39d71d85e29c3a785a6179da597b2d98",
+  "derivedFrom": [
+    {
+      "file": "previews/states/messages-support/empty.png",
+      "sha256": "efe288958928cd7dcdad6daf8482f59ac1762ec1038343dd1f066af7d8f69d7b",
+      "sourceRecord": "previews/states/messages-support/empty.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/save-prompt_03.jpg",
+  "sha256": "a5d4f03b745f9c1a728e5788f792c796da418e97bbe8de9b961c160b16293f12",
+  "derivedFrom": [
+    {
+      "file": "designs/save-prompt/03-取消.png",
+      "sha256": "fb44c8881302312f0697000a2024ea6b8908da76946ebd7637e67758734d596a",
+      "sourceRecord": "designs/save-prompt/03-取消.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

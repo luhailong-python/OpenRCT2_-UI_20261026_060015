@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/utility-detail_guestlist-individual-tools.jpg",
+  "sha256": "c383f537db1837ed58c10a83066865bb33251849697d5344e742503d19e09cee",
+  "derivedFrom": [
+    {
+      "file": "designs/details/utility/guestlist-individual-tools.png",
+      "sha256": "11613bbf0e19f6abc47fb7e99c7b966cfb4088155b2056abff425e92926dbe40",
+      "sourceRecord": "designs/details/utility/guestlist-individual-tools.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

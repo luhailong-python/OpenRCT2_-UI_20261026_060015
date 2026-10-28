@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_settings_custom-currency.jpg",
+  "sha256": "805705ace5fcf219fc37c32e7f63add808aa1af846be4740787d382e3fa487b0",
+  "derivedFrom": [
+    {
+      "file": "previews/states/settings/custom-currency.png",
+      "sha256": "18eab293965b7b530bac1da8d3d8469147c3cd71834cf9e44e56425a5b624d48",
+      "sourceRecord": "previews/states/settings/custom-currency.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

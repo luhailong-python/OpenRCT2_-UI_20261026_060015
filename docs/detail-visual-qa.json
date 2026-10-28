@@ -1,0 +1,669 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-26T08:55:51.723269-04:00",
+  "reviewer": "flow_research / direct original-resolution image inspection",
+  "scope": "48 owned supplemental product detail screens; direct visual inspection is restricted to the three hash-bound samples listed below.",
+  "filesystemScope": "Only this E: task project was written. F:/work/image remains read-only; no association README was written.",
+  "referenceCommit": "52a55c3e8da5972460642bdfed61d091fe9cabfd",
+  "evidence": {
+    "detailManifest": "docs/detail-ui-production-manifest.json",
+    "detailManifestSha256": "daac2a6d2a5c833f7e5079c208a379be423070b147e34e86e8210af0a1ec0aa1",
+    "detailManifestCreatedAt": "2026-10-26T08:00:12.552604-04:00",
+    "sourceControlClassifier": "docs/control-resource-mapping.json",
+    "sourceControlClassifierSha256": "e468a8efeb490370c115a11b6c8d24677f831f1550498ebfaafc4223c42f5847",
+    "expectedDefinition": "For each of the six named units, include source controls whose excludedFromInteractiveCount is false. Compare the exact (unit,controlId) key against actual detail coverage records."
+  },
+  "productionMachineChecks": {
+    "screenCount": 48,
+    "sourceBindingCount": 455,
+    "uniqueExpectedControlCount": 296,
+    "uniqueObservedExpectedControlCount": 296,
+    "layoutIssueCount": 0,
+    "outOfBoundsSourceControlGeometry": [],
+    "sourceControlEquivalence": [
+      {
+        "sourceUnit": "RideConstruction",
+        "expectedCount": 37,
+        "observedCount": 37,
+        "missingControls": [],
+        "result": "passed"
+      },
+      {
+        "sourceUnit": "Footpath",
+        "expectedCount": 15,
+        "observedCount": 15,
+        "missingControls": [],
+        "result": "passed"
+      },
+      {
+        "sourceUnit": "Staff",
+        "expectedCount": 12,
+        "observedCount": 12,
+        "missingControls": [],
+        "result": "passed"
+      },
+      {
+        "sourceUnit": "Options",
+        "expectedCount": 98,
+        "observedCount": 98,
+        "missingControls": [],
+        "result": "passed"
+      },
+      {
+        "sourceUnit": "MapGen",
+        "expectedCount": 48,
+        "observedCount": 48,
+        "missingControls": [],
+        "result": "passed"
+      },
+      {
+        "sourceUnit": "TileInspector",
+        "expectedCount": 86,
+        "observedCount": 86,
+        "missingControls": [],
+        "result": "passed"
+      }
+    ],
+    "imageChecks": [
+      {
+        "file": "designs/details/ride-construction/01-curves.png",
+        "sha256": "343a9292d4b686970de65b06afe4c9774f633bfbdbff1731a37153461e523176",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/ride-construction/02-slopes-banking.png",
+        "sha256": "683a4c363f77f712d6cc382edfd683747775359161f09b4b197d4f6badba91da",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/ride-construction/03-brake.png",
+        "sha256": "f96f46527f84c36432e01dfa060bcd3ef2d61a3c412fd79bdb29bea8d7f583d2",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/ride-construction/04-booster.png",
+        "sha256": "cbc924d29e10a7f5c7ce86687af95ef23a60ae8a139074af1399b412a9548de6",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/ride-construction/05-seat-angle.png",
+        "sha256": "b3ff937b1324471441666b0e65b654b8abdcc1a1946c408ad101a5baad9cb708",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/ride-construction/06-entrance-exit.png",
+        "sha256": "7771c8ccfa7a45b9a1d6ab8ca239dc12f9294c13d736ff6d2f75cc02ed40892a",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/ride-construction/07-track-style.png",
+        "sha256": "ca4f6f2a59399c22b888becee683d99b432682c5d01010d7908a4c2e4a88d6b7",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/footpath/01-ground.png",
+        "sha256": "67a0bc5a2be4c6cf1e50c0d4b22976e4f8d8564922786fa06a4f09c4f21c7da9",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/footpath/02-bridge.png",
+        "sha256": "c65e27d94d3b8ed48ce1e09731778b8fa01733067cd113fb2c01274c53cbc299",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/footpath/03-area.png",
+        "sha256": "76c64a6006117bc560eb55d080591edc0d9c3383772120140fbc121156185f11",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/footpath/04-mode-switch.png",
+        "sha256": "5ff40b94a0236be6aac42242d66d2f49dc0171a4243d3b8088c8d5a31446c95a",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/staff/01-overview.png",
+        "sha256": "fc40b588725cc9000d44136b243aa4f74dd5b306cfdb4bdb2a45149c2df45b47",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/staff/02-working.png",
+        "sha256": "0461f7e9e3468174305417654b1594e2ee31b334ea9b520ef83856aba939d314",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/staff/03-handyman.png",
+        "sha256": "72f2604acba02363d0584ecd149fa80125a407ff07f8edfc30d4d5e3e5a344ff",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/staff/04-mechanic.png",
+        "sha256": "a4a8c37bc83bc6da75b3f273f9785004307ee1456d287a87cb54ec9d27825165",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/staff/05-costume.png",
+        "sha256": "1823b19d0766d27c4bcfcb9bac34f8c3608fab1a6e6998bde31c6b3c1238285a",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/options/01-显示-01.png",
+        "sha256": "4cb20aa22cdfc586a5f1cfdf661fd9a7c4bccb82100f9079ff52a7a27d6ef11f",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/options/02-渲染-01.png",
+        "sha256": "1726c53799b900bbef25b3ca2dd842545ed7a074052f72bf5ee59f41bf543daa",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/options/02-渲染-02.png",
+        "sha256": "d5f9f059067c041a39787352e205423fba9ddf8f3ca8c650f382e519190a0321",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/options/03-文化-01.png",
+        "sha256": "2e72c31ab5a134e8e3af1b927bc42b0bbc99ac284cedb7c68c38e7f704a2a9d8",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/options/04-声音-01.png",
+        "sha256": "9e71ce36efa629e0370b7cd9ab4a180587e6148f81b1d1364c0538f14837eb84",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/options/05-界面-01.png",
+        "sha256": "b3693763898a7374a5c6051267abdca8c86372e85e228eb382c0ef8a451a856f",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/options/05-界面-02.png",
+        "sha256": "420faa26f22f8c586751f0ee0cd9f1b2f21fe8547da7ab83e080bdd5034b7efa",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/options/06-操作-01.png",
+        "sha256": "fbe48163eab472f9090f50676e984d4a5887083830cd2cdfbdba112ed6b33a20",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/options/07-杂项-01.png",
+        "sha256": "784339e9f57ac56d332c99df334d19ca5a91fe3e2b7a8463abcbf3b628a181ad",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/options/08-高级-01.png",
+        "sha256": "436102f706850f578522873dcdcfa3776ed4cf8a29d52e451b3e828b96298143",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/options/09-web-data.png",
+        "sha256": "9d6fb367b561b8c712d56bfa0408caeae0d282eb59a9deb31f3f1234fc13aba4",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/map-gen/01-flatland.png",
+        "sha256": "003715df656eece553ab54bf2a7525b60a1e926a37868aba46d6916d950d8456",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/map-gen/02-noise.png",
+        "sha256": "96cb22427ca3f2d8b8e099d110e32b271b1b635012f61fc7449246cfe4c1a78e",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/map-gen/03-image-unloaded.png",
+        "sha256": "35df12d55eec7945489f8dc9d83a48d13d642aa7c53d04f580c5d837da4113bc",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/map-gen/04-image-loaded.png",
+        "sha256": "2f0247bbafacfc4279a773e1d5048b2b9f11cb02040ad08a57ab2d913025fde2",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/map-gen/05-image-smooth.png",
+        "sha256": "baedca7e9a6bf3c10ca78b2c31a032d54bfbb012f4cf9a13cd6a559d2743064b",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/map-gen/06-terrain.png",
+        "sha256": "25826dcec4e7b18025ec9c75525cdaf08348120b49fcb5a122cdf4af9cffd830",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/map-gen/07-water.png",
+        "sha256": "279d0fdbc445f538a3efc9487b4b2331b55f3f3c4312cf5d029698c126ceb43e",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/map-gen/08-forest.png",
+        "sha256": "d0c2d83a766ac5e29e109957602a98b662abd8c0bc6b9dd00cb290353070f6e2",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/map-gen/09-forest-disabled.png",
+        "sha256": "20bac17082852f921ac9b579db0d45bf07ca5e4a92d474fd61b1e33799d54d3e",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/tile-inspector/01-element-tools.png",
+        "sha256": "6ac70b9ce8cfa70db1b0d3d9ac7763433f316341863db5e5938982ad7a1070cb",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/tile-inspector/00-element-list.png",
+        "sha256": "af104f9cdf5f296e96561be339ea2138152136a7fecfa7490e7a15838a1ca359",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/tile-inspector/02-surface.png",
+        "sha256": "64b54ba04679f029c936b7a823cef670bebc34410251b8920b29c2918acee45a",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/tile-inspector/03-path-1.png",
+        "sha256": "8a497b9b4b44febc91c329c5f9b8be61be44e562dd8d9ead83604e11bfee8198",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/tile-inspector/03-path-2.png",
+        "sha256": "bb0e3f36ec079f109d8af56339fd63b829ae7e134a95de8637df0bbb86f39574",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/tile-inspector/04-track.png",
+        "sha256": "7e37c9a01f772bc46829483705f8dcf0863de3f41115d63e8a4edffe79581ab0",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/tile-inspector/05-small-scenery.png",
+        "sha256": "dcbf64ea223b9628ded63528cc89cbfeb97914bf1d6fe75893922432a5d7c757",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/tile-inspector/06-large-scenery.png",
+        "sha256": "e509dbf21dd81e7324c101b619e15690c9d3b18f61fae533b63ea52a7ea46634",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/tile-inspector/07-wall-sloped.png",
+        "sha256": "49271b93e57f6677b0920d4ae0cf979684255d2860657000dcdeb762a4a739c8",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/tile-inspector/08-wall-animated.png",
+        "sha256": "76ce6139ee4c74cfdc847b73b051f5d60d0eee0f377395a3658677183b5f1aaf",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/tile-inspector/09-entrance.png",
+        "sha256": "7fb097d2bbf06cd1d665a6d6876e31e90a0882fcc7613ed532c941030a6d4f41",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      },
+      {
+        "file": "designs/details/tile-inspector/10-banner.png",
+        "sha256": "331c3bd62a49805d1895f0c836526bed0268f721b3c77328a7a898717bc3f31b",
+        "size": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "decodable": true,
+        "layoutIssueCount": 0
+      }
+    ],
+    "result": "passed"
+  },
+  "visualSamples": [
+    {
+      "file": "designs/details/ride-construction/02-slopes-banking.png",
+      "sha256": "683a4c363f77f712d6cc382edfd683747775359161f09b4b197d4f6badba91da",
+      "fileModifiedAt": "2026-10-26T08:00:00.052566-04:00",
+      "layoutFile": "designs/details/ride-construction/02-slopes-banking.layout.json",
+      "layoutSha256": "3b5b26f7a9226ba6877e520a59d44010ecd4462ea2bb7db47ddf39d55fbb9692",
+      "inspectionTool": "view_image detail=original",
+      "inspectedExportResolution": [
+        1920,
+        1080
+      ],
+      "observations": [
+        "顶牌只显示轨道建造，文字完整位于玉绿有效面内。",
+        "垂直/陡峭/普通坡度、水平、牵引链和三种侧倾均为独立可辨控件。",
+        "水平与保持水平侧倾采用玉绿选中样式，其他选择为米白，文字未压住金边。",
+        "建造此段与模拟运行入口清楚；页内说明对应当前支持这些轨道选项的示例条件。"
+      ],
+      "blockingFindings": [],
+      "result": "passed_sample_visual_review"
+    },
+    {
+      "file": "designs/details/map-gen/05-image-smooth.png",
+      "sha256": "baedca7e9a6bf3c10ca78b2c31a032d54bfbb012f4cf9a13cd6a559d2743064b",
+      "fileModifiedAt": "2026-10-26T08:00:08.162860-04:00",
+      "layoutFile": "designs/details/map-gen/05-image-smooth.layout.json",
+      "layoutSha256": "65daf6406dfe9f11065bf06f655d197dc45f8cf8533a1b32ac2fd6c73517ce89",
+      "inspectionTool": "view_image detail=original",
+      "inspectedExportResolution": [
+        1920,
+        1080
+      ],
+      "observations": [
+        "宽度、高度和保持正方形的灰色禁用面与高度图模式一致，已加载文件名可读。",
+        "高度图来源与浏览入口、归一化、平滑开关、强度及增减按钮均实际画出。",
+        "平滑已选中且强度4为可用状态，符合已加载并启用平滑的源条件。",
+        "数值、字段名、复选框和下拉箭头有清楚留白，未发现文字溢出或缺字方框。"
+      ],
+      "blockingFindings": [],
+      "result": "passed_sample_visual_review"
+    },
+    {
+      "file": "designs/details/tile-inspector/03-path-1.png",
+      "sha256": "8a497b9b4b44febc91c329c5f9b8be61be44e562dd8d9ead83604e11bfee8198",
+      "fileModifiedAt": "2026-10-26T08:00:10.283206-04:00",
+      "layoutFile": "designs/details/tile-inspector/03-path-1.layout.json",
+      "layoutSha256": "473c2b6f1650fbdbf75a35dcd3e6dacd65eee2e54c8b5433055f755986ff574d",
+      "inspectionTool": "view_image detail=original",
+      "inspectedExportResolution": [
+        1920,
+        1080
+      ],
+      "observations": [
+        "顶牌与步道分类导航清楚；基础高度增减和附件损坏、坡道、路口栏杆分别表达。",
+        "方向连通边显示独立复选控件，东北及西南为示例选中，其他本页方向未选中。",
+        "页面明确方向基于当前视图，避免将源码控件方位误当固定世界方位。",
+        "旋转、复制、移除元素入口实际画出，文字与装饰保持安全间距。"
+      ],
+      "blockingFindings": [],
+      "result": "passed_sample_visual_review"
+    }
+  ],
+  "result": "passed_48_machine_checks_and_3_sample_visual_reviews",
+  "unresolvedBlockingFindingsWithinOwnedScope": [],
+  "limits": [
+    "This does not claim every supplemental image was visually inspected in this review.",
+    "This does not audit the whole game, other workers outputs, or all source controls outside these six units.",
+    "Source-control presentation and art layout do not prove runtime events, input behavior, Unity integration, or game simulation.",
+    "These are 1920x1080 composited design exports; the review does not claim native AI-generated detail at that resolution."
+  ]
+}

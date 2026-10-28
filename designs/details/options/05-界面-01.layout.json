@@ -1,0 +1,1286 @@
+{
+  "schemaVersion": 1,
+  "screenId": "detail:options:05-界面-01",
+  "title": "游戏设置  界面",
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "origin": "top-left",
+  "textLayers": [
+    {
+      "id": "text-001",
+      "text": "游戏设置",
+      "role": "dynamic-text",
+      "region": [
+        620,
+        66,
+        680,
+        75
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 46,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 65,
+      "wrappedLines": [
+        "游戏设置"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-002",
+      "text": "显示",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        231,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "显示"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-003",
+      "text": "渲染",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        301,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "渲染"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-004",
+      "text": "文化",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        371,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "文化"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-005",
+      "text": "声音",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        441,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "声音"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-006",
+      "text": "界面",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        511,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "界面"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-007",
+      "text": "操作",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        581,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "操作"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-008",
+      "text": "杂项",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        651,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "杂项"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-009",
+      "text": "高级",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        721,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "高级"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-010",
+      "text": "界面",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        218,
+        1388,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 32,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 45,
+      "wrappedLines": [
+        "界面"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-011",
+      "text": "美术设计样例 · 名称 / 数值待定",
+      "role": "dynamic-text",
+      "region": [
+        600,
+        1046,
+        720,
+        28
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "美术设计样例 · 名称 / 数值待定"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-012",
+      "text": "界面主题",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        300,
+        674,
+        34
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "界面主题"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-013",
+      "text": "云游仙苑",
+      "role": "dynamic-text",
+      "region": [
+        430,
+        344,
+        570,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "云游仙苑"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-014",
+      "text": "▼",
+      "role": "dynamic-text",
+      "region": [
+        1013,
+        344,
+        40,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "▼"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-015",
+      "text": "编辑配色主题",
+      "role": "dynamic-text",
+      "region": [
+        1136,
+        320,
+        634,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "编辑配色主题"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-016",
+      "text": "将工具栏按钮水平居中对齐",
+      "role": "dynamic-text",
+      "region": [
+        456,
+        410,
+        602,
+        62
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "center",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "将工具栏按钮水平居中对齐"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-017",
+      "text": "财务",
+      "role": "dynamic-text",
+      "region": [
+        1174,
+        410,
+        602,
+        62
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "center",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "财务"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-018",
+      "text": "研发",
+      "role": "dynamic-text",
+      "region": [
+        456,
+        506,
+        602,
+        62
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "center",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "研发"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-019",
+      "text": "作弊",
+      "role": "dynamic-text",
+      "region": [
+        1174,
+        506,
+        602,
+        62
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "center",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "作弊"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-020",
+      "text": "最近消息",
+      "role": "dynamic-text",
+      "region": [
+        456,
+        602,
+        602,
+        62
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "center",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "最近消息"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-021",
+      "text": "静音",
+      "role": "dynamic-text",
+      "region": [
+        1174,
+        602,
+        602,
+        62
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "center",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "静音"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-022",
+      "text": "聊天室",
+      "role": "dynamic-text",
+      "region": [
+        456,
+        698,
+        602,
+        62
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "center",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "聊天室"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-023",
+      "text": "缩放",
+      "role": "dynamic-text",
+      "region": [
+        1174,
+        698,
+        602,
+        62
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "center",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "缩放"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-024",
+      "text": "设置调整后即时保存。  本类第 1 页 / 共 2 页",
+      "role": "dynamic-text",
+      "region": [
+        397,
+        870,
+        1394,
+        39
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#7A745E",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "设置调整后即时保存。  本类第 1 页 / 共 2 页"
+      ],
+      "dynamic": true
+    }
+  ],
+  "artAndControlLayers": [
+    {
+      "role": "park-background",
+      "asset": "assets/backgrounds/park-day-native.png",
+      "region": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "resize": "cover"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_main.png",
+      "region": [
+        52,
+        96,
+        1816,
+        930
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "title-plaque",
+      "asset": "assets/common/title_plate.png",
+      "region": [
+        520,
+        22,
+        880,
+        170
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "close",
+      "asset": "assets/common/close.png",
+      "region": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_card.png",
+      "region": [
+        84,
+        208,
+        268,
+        756
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        224,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        294,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        364,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        434,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_selected.png",
+      "region": [
+        100,
+        504,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        574,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        644,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        714,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "value-field",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        394,
+        336,
+        682,
+        52
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Options:WIDX_THEMES"
+      ],
+      "unit": "Options",
+      "controlId": "WIDX_THEMES",
+      "screenId": "detail:options:05-界面-01",
+      "region": [
+        394,
+        336,
+        608,
+        52
+      ],
+      "visualKind": "dropdown",
+      "label": "界面主题",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "dropdownMenu",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Options.cpp",
+          "line": 185
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "dropdownMenu",
+            "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+            "line": 400,
+            "sourceExpression": "makeWidget({155, kThemesGroupStart + 14}, {145, 14}, WidgetType::dropdownMenu, WindowColour::secondary, kStringIdEmpty                                                )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Options:WIDX_THEMES_DROPDOWN"
+      ],
+      "unit": "Options",
+      "controlId": "WIDX_THEMES_DROPDOWN",
+      "screenId": "detail:options:05-界面-01",
+      "region": [
+        1006,
+        336,
+        66,
+        52
+      ],
+      "visualKind": "dropdown-button",
+      "label": "界面主题选择",
+      "state": "normal",
+      "parentControl": "WIDX_THEMES",
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Options.cpp",
+          "line": 186
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+            "line": 401,
+            "sourceExpression": "makeWidget({288, kThemesGroupStart + 15}, { 11, 12}, WidgetType::button,       WindowColour::secondary, STR_DROPDOWN_GLYPH,             STR_CURRENT_THEME_TIP     )",
+            "sourceStringIds": [
+              "STR_DROPDOWN_GLYPH",
+              "STR_CURRENT_THEME_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1112,
+        312,
+        682,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Options:WIDX_THEMES_BUTTON"
+      ],
+      "unit": "Options",
+      "controlId": "WIDX_THEMES_BUTTON",
+      "screenId": "detail:options:05-界面-01",
+      "region": [
+        1112,
+        312,
+        682,
+        68
+      ],
+      "visualKind": "button",
+      "label": "编辑配色主题",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Options.cpp",
+          "line": 187
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+            "line": 402,
+            "sourceExpression": "makeWidget({155, kThemesGroupStart + 30}, {145, 14}, WidgetType::button,       WindowColour::secondary, STR_EDIT_THEMES_BUTTON,         STR_EDIT_THEMES_BUTTON_TIP)",
+            "sourceStringIds": [
+              "STR_EDIT_THEMES_BUTTON",
+              "STR_EDIT_THEMES_BUTTON_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "checkbox",
+      "asset": "assets/common/checkbox_on.png",
+      "region": [
+        398,
+        414,
+        42,
+        42
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Options:WIDX_TOOLBAR_BUTTONS_CENTRED"
+      ],
+      "unit": "Options",
+      "controlId": "WIDX_TOOLBAR_BUTTONS_CENTRED",
+      "screenId": "detail:options:05-界面-01",
+      "region": [
+        390,
+        396,
+        690,
+        96
+      ],
+      "visualKind": "checkbox",
+      "label": "将工具栏按钮水平居中对齐",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "checkbox",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Options.cpp",
+          "line": 189
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "checkbox",
+            "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+            "line": 405,
+            "sourceExpression": "makeWidget({ 10, kToolbarGroupStart + 14}, {280, 12}, WidgetType::checkbox, WindowColour::tertiary,  STR_OPTIONS_TOOLBAR_BUTTONS_CENTRED, STR_OPTIONS_TOOLBAR_BUTTONS_CENTRED_TIP      )",
+            "sourceStringIds": [
+              "STR_OPTIONS_TOOLBAR_BUTTONS_CENTRED",
+              "STR_OPTIONS_TOOLBAR_BUTTONS_CENTRED_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "checkbox",
+      "asset": "assets/common/checkbox_on.png",
+      "region": [
+        1116,
+        414,
+        42,
+        42
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Options:WIDX_TOOLBAR_SHOW_FINANCES"
+      ],
+      "unit": "Options",
+      "controlId": "WIDX_TOOLBAR_SHOW_FINANCES",
+      "screenId": "detail:options:05-界面-01",
+      "region": [
+        1108,
+        396,
+        690,
+        96
+      ],
+      "visualKind": "checkbox",
+      "label": "财务",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "checkbox",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Options.cpp",
+          "line": 191
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "checkbox",
+            "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+            "line": 407,
+            "sourceExpression": "makeWidget({ 24, kToolbarGroupStart + 46}, {122, 12}, WidgetType::checkbox, WindowColour::tertiary , STR_FINANCES_BUTTON_ON_TOOLBAR,      STR_FINANCES_BUTTON_ON_TOOLBAR_TIP           )",
+            "sourceStringIds": [
+              "STR_FINANCES_BUTTON_ON_TOOLBAR",
+              "STR_FINANCES_BUTTON_ON_TOOLBAR_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "checkbox",
+      "asset": "assets/common/checkbox_on.png",
+      "region": [
+        398,
+        510,
+        42,
+        42
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Options:WIDX_TOOLBAR_SHOW_RESEARCH"
+      ],
+      "unit": "Options",
+      "controlId": "WIDX_TOOLBAR_SHOW_RESEARCH",
+      "screenId": "detail:options:05-界面-01",
+      "region": [
+        390,
+        492,
+        690,
+        96
+      ],
+      "visualKind": "checkbox",
+      "label": "研发",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "checkbox",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Options.cpp",
+          "line": 192
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "checkbox",
+            "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+            "line": 408,
+            "sourceExpression": "makeWidget({ 24, kToolbarGroupStart + 61}, {122, 12}, WidgetType::checkbox, WindowColour::tertiary , STR_RESEARCH_BUTTON_ON_TOOLBAR,      STR_RESEARCH_BUTTON_ON_TOOLBAR_TIP           )",
+            "sourceStringIds": [
+              "STR_RESEARCH_BUTTON_ON_TOOLBAR",
+              "STR_RESEARCH_BUTTON_ON_TOOLBAR_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "checkbox",
+      "asset": "assets/common/checkbox_on.png",
+      "region": [
+        1116,
+        510,
+        42,
+        42
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Options:WIDX_TOOLBAR_SHOW_CHEATS"
+      ],
+      "unit": "Options",
+      "controlId": "WIDX_TOOLBAR_SHOW_CHEATS",
+      "screenId": "detail:options:05-界面-01",
+      "region": [
+        1108,
+        492,
+        690,
+        96
+      ],
+      "visualKind": "checkbox",
+      "label": "作弊",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "checkbox",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Options.cpp",
+          "line": 193
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "checkbox",
+            "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+            "line": 409,
+            "sourceExpression": "makeWidget({155, kToolbarGroupStart + 46}, {145, 12}, WidgetType::checkbox, WindowColour::tertiary , STR_CHEATS_BUTTON_ON_TOOLBAR,        STR_CHEATS_BUTTON_ON_TOOLBAR_TIP             )",
+            "sourceStringIds": [
+              "STR_CHEATS_BUTTON_ON_TOOLBAR",
+              "STR_CHEATS_BUTTON_ON_TOOLBAR_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "checkbox",
+      "asset": "assets/common/checkbox_on.png",
+      "region": [
+        398,
+        606,
+        42,
+        42
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Options:WIDX_TOOLBAR_SHOW_NEWS"
+      ],
+      "unit": "Options",
+      "controlId": "WIDX_TOOLBAR_SHOW_NEWS",
+      "screenId": "detail:options:05-界面-01",
+      "region": [
+        390,
+        588,
+        690,
+        96
+      ],
+      "visualKind": "checkbox",
+      "label": "最近消息",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "checkbox",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Options.cpp",
+          "line": 194
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "checkbox",
+            "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+            "line": 410,
+            "sourceExpression": "makeWidget({155, kToolbarGroupStart + 61}, {145, 12}, WidgetType::checkbox, WindowColour::tertiary , STR_SHOW_RECENT_MESSAGES_ON_TOOLBAR, STR_SHOW_RECENT_MESSAGES_ON_TOOLBAR_TIP      )",
+            "sourceStringIds": [
+              "STR_SHOW_RECENT_MESSAGES_ON_TOOLBAR",
+              "STR_SHOW_RECENT_MESSAGES_ON_TOOLBAR_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "checkbox",
+      "asset": "assets/common/checkbox_on.png",
+      "region": [
+        1116,
+        606,
+        42,
+        42
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Options:WIDX_TOOLBAR_SHOW_MUTE"
+      ],
+      "unit": "Options",
+      "controlId": "WIDX_TOOLBAR_SHOW_MUTE",
+      "screenId": "detail:options:05-界面-01",
+      "region": [
+        1108,
+        588,
+        690,
+        96
+      ],
+      "visualKind": "checkbox",
+      "label": "静音",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "checkbox",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Options.cpp",
+          "line": 195
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "checkbox",
+            "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+            "line": 411,
+            "sourceExpression": "makeWidget({ 24, kToolbarGroupStart + 76}, {162, 12}, WidgetType::checkbox, WindowColour::tertiary , STR_MUTE_BUTTON_ON_TOOLBAR,          STR_MUTE_BUTTON_ON_TOOLBAR_TIP               )",
+            "sourceStringIds": [
+              "STR_MUTE_BUTTON_ON_TOOLBAR",
+              "STR_MUTE_BUTTON_ON_TOOLBAR_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "checkbox",
+      "asset": "assets/common/checkbox_on.png",
+      "region": [
+        398,
+        702,
+        42,
+        42
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Options:WIDX_TOOLBAR_SHOW_CHAT"
+      ],
+      "unit": "Options",
+      "controlId": "WIDX_TOOLBAR_SHOW_CHAT",
+      "screenId": "detail:options:05-界面-01",
+      "region": [
+        390,
+        684,
+        690,
+        96
+      ],
+      "visualKind": "checkbox",
+      "label": "聊天室",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "checkbox",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Options.cpp",
+          "line": 196
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "checkbox",
+            "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+            "line": 412,
+            "sourceExpression": "makeWidget({155, kToolbarGroupStart + 76}, {145, 12}, WidgetType::checkbox, WindowColour::tertiary , STR_CHAT_BUTTON_ON_TOOLBAR,          STR_CHAT_BUTTON_ON_TOOLBAR_TIP               )",
+            "sourceStringIds": [
+              "STR_CHAT_BUTTON_ON_TOOLBAR",
+              "STR_CHAT_BUTTON_ON_TOOLBAR_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "checkbox",
+      "asset": "assets/common/checkbox_on.png",
+      "region": [
+        1116,
+        702,
+        42,
+        42
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Options:WIDX_TOOLBAR_SHOW_ZOOM"
+      ],
+      "unit": "Options",
+      "controlId": "WIDX_TOOLBAR_SHOW_ZOOM",
+      "screenId": "detail:options:05-界面-01",
+      "region": [
+        1108,
+        684,
+        690,
+        96
+      ],
+      "visualKind": "checkbox",
+      "label": "缩放",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "checkbox",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Options.cpp",
+          "line": 197
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "checkbox",
+            "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+            "line": 413,
+            "sourceExpression": "makeWidget({ 24, kToolbarGroupStart + 91}, {122, 12}, WidgetType::checkbox, WindowColour::tertiary , STR_ZOOM_BUTTON_ON_TOOLBAR,          STR_ZOOM_BUTTON_ON_TOOLBAR_TIP               )",
+            "sourceStringIds": [
+              "STR_ZOOM_BUTTON_ON_TOOLBAR",
+              "STR_ZOOM_BUTTON_ON_TOOLBAR_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    }
+  ],
+  "dataDiagrams": [
+    {
+      "role": "data-rule",
+      "points": [
+        [
+          398,
+          276
+        ],
+        [
+          1790,
+          276
+        ]
+      ],
+      "color": "#B28C43",
+      "width": 1
+    }
+  ],
+  "layoutIssues": [],
+  "fontDistribution": "Official OFL-licensed fonts are included in assets/fonts; see records/font-sources.json.",
+  "status": "produced_pending_review"
+}

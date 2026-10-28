@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/overwrite-prompt_01.jpg",
+  "sha256": "d92a43741e49a5a05eb7d74451011a8c3e92957853466123115ffa03c34b238f",
+  "derivedFrom": [
+    {
+      "file": "designs/overwrite-prompt/01-确认.png",
+      "sha256": "b9f46d6506a034d3c81fcfa5f017997d97bee1cbf99d5f83e33850accb83b90c",
+      "sourceRecord": "designs/overwrite-prompt/01-确认.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

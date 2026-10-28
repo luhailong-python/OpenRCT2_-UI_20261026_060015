@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/title-menu_01.jpg",
+  "sha256": "18041cb255451eef3293504b28fa1e76124957262698bab2c9d6d74444a2b03e",
+  "derivedFrom": [
+    {
+      "file": "designs/title-menu/01-主菜单.png",
+      "sha256": "acf13a004941a51df02742e3be5550697b5241e92f0560abc715563d3857e74e",
+      "sourceRecord": "designs/title-menu/01-主菜单.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,1740 @@
+{
+  "schemaVersion": 1,
+  "screenId": "management-detail:editor-object-complete-selection",
+  "title": "编辑对象选择 · 设施对象 · 分类与来源筛选",
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "origin": "top-left",
+  "textLayers": [
+    {
+      "id": "text-001",
+      "text": "编辑对象选择",
+      "role": "dynamic-text",
+      "region": [
+        620,
+        66,
+        680,
+        75
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 46,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 65,
+      "wrappedLines": [
+        "编辑对象选择"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-002",
+      "text": "设施车辆",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        231,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "设施车辆"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-003",
+      "text": "景观主题",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        301,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "景观主题"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-004",
+      "text": "步道",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        371,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "步道"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-005",
+      "text": "入口建筑",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        441,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "入口建筑"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-006",
+      "text": "地形",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        511,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "地形"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-007",
+      "text": "音乐",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        581,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "音乐"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-008",
+      "text": "游客员工",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        651,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "游客员工"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-009",
+      "text": "设施车辆",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        218,
+        1388,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 32,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 45,
+      "wrappedLines": [
+        "设施车辆"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-010",
+      "text": "美术设计样例 · 名称 / 数值待定",
+      "role": "dynamic-text",
+      "region": [
+        600,
+        1046,
+        720,
+        28
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "美术设计样例 · 名称 / 数值待定"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-011",
+      "text": "设施对象 · 分类与来源筛选",
+      "role": "dynamic-text",
+      "region": [
+        395,
+        865,
+        1398,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#7A745E",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "设施对象 · 分类与来源筛选"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-012",
+      "text": "重载按钮仅在已开启调试工具时显示；此图为已开启状态。",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        1002,
+        1660,
+        30
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "重载按钮仅在已开启调试工具时显示；此图为已开启状态。"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-013",
+      "text": "素材来源",
+      "role": "dynamic-text",
+      "region": [
+        395,
+        308,
+        252,
+        54
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "素材来源"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-014",
+      "text": "全部来源",
+      "role": "dynamic-text",
+      "region": [
+        707,
+        312,
+        239,
+        42
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "center",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "全部来源"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-015",
+      "text": "▼",
+      "role": "dynamic-text",
+      "region": [
+        953,
+        305,
+        40,
+        52
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "▼"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-016",
+      "text": "搜索",
+      "role": "dynamic-text",
+      "region": [
+        1030,
+        308,
+        230,
+        54
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "搜索"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-017",
+      "text": "过山车",
+      "role": "dynamic-text",
+      "region": [
+        1320,
+        312,
+        243,
+        42
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "center",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "过山车"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-018",
+      "text": "清除",
+      "role": "dynamic-text",
+      "region": [
+        1629,
+        309,
+        132,
+        41
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "清除"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-019",
+      "text": "全部",
+      "role": "dynamic-text",
+      "region": [
+        408,
+        392,
+        154,
+        36
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 22,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "全部"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-020",
+      "text": "交通",
+      "role": "dynamic-text",
+      "region": [
+        608,
+        392,
+        154,
+        36
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 22,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "交通"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-021",
+      "text": "温和",
+      "role": "dynamic-text",
+      "region": [
+        808,
+        392,
+        154,
+        36
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 22,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "温和"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-022",
+      "text": "过山车",
+      "role": "dynamic-text",
+      "region": [
+        1008,
+        392,
+        154,
+        36
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 22,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "过山车"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-023",
+      "text": "惊险",
+      "role": "dynamic-text",
+      "region": [
+        1208,
+        392,
+        154,
+        36
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 22,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "惊险"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-024",
+      "text": "水上",
+      "role": "dynamic-text",
+      "region": [
+        1408,
+        392,
+        154,
+        36
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 22,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "水上"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-025",
+      "text": "商店摊位",
+      "role": "dynamic-text",
+      "region": [
+        1608,
+        392,
+        154,
+        36
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 22,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "商店摊位"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-026",
+      "text": "按设施类型排序",
+      "role": "dynamic-text",
+      "region": [
+        464,
+        473,
+        317,
+        40
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "按设施类型排序"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-027",
+      "text": "按名称排序",
+      "role": "dynamic-text",
+      "region": [
+        854,
+        473,
+        332,
+        40
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "按名称排序"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-028",
+      "text": "木质过山车",
+      "role": "dynamic-text",
+      "region": [
+        508,
+        543,
+        630,
+        46
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "木质过山车"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-029",
+      "text": "钢制过山车",
+      "role": "dynamic-text",
+      "region": [
+        508,
+        608,
+        630,
+        46
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "钢制过山车"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-030",
+      "text": "悬挂过山车",
+      "role": "dynamic-text",
+      "region": [
+        508,
+        673,
+        630,
+        46
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "悬挂过山车"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-031",
+      "text": "发射过山车",
+      "role": "dynamic-text",
+      "region": [
+        508,
+        738,
+        630,
+        46
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "发射过山车"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-032",
+      "text": "钢制过山车 · 已选择",
+      "role": "dynamic-text",
+      "region": [
+        1328,
+        710,
+        442,
+        80
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "钢制过山车 · 已选择"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-033",
+      "text": "安装轨道设计",
+      "role": "dynamic-text",
+      "region": [
+        1104,
+        925,
+        262,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "安装轨道设计"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-034",
+      "text": "重载所选对象",
+      "role": "dynamic-text",
+      "region": [
+        1439,
+        925,
+        302,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "重载所选对象"
+      ],
+      "dynamic": true
+    }
+  ],
+  "artAndControlLayers": [
+    {
+      "role": "park-background",
+      "asset": "assets/backgrounds/park-day-native.png",
+      "region": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "resize": "cover"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_main.png",
+      "region": [
+        52,
+        96,
+        1816,
+        930
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "title-plaque",
+      "asset": "assets/common/title_plate.png",
+      "region": [
+        520,
+        22,
+        880,
+        170
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "close",
+      "asset": "assets/common/close.png",
+      "region": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_card.png",
+      "region": [
+        84,
+        208,
+        268,
+        756
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_selected.png",
+      "region": [
+        100,
+        224,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        294,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        364,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        434,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        504,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        574,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        644,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "detail-dropdown",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        664,
+        301,
+        335,
+        60
+      ],
+      "resize": "nine",
+      "sourceControlKey": "EditorObjectSelection:WIDX_FILTER_DROPDOWN"
+    },
+    {
+      "role": "detail-text",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1277,
+        301,
+        307,
+        60
+      ],
+      "resize": "nine",
+      "sourceControlKey": "EditorObjectSelection:WIDX_FILTER_TEXT_BOX"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1605,
+        302,
+        180,
+        60
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "EditorObjectSelection:WIDX_FILTER_CLEAR_BUTTON"
+    },
+    {
+      "role": "object-subcategory",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        390,
+        380,
+        190,
+        58
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "object-subcategory",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        590,
+        380,
+        190,
+        58
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "object-subcategory",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        790,
+        380,
+        190,
+        58
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "object-subcategory",
+      "asset": "assets/common/tab_selected.png",
+      "region": [
+        990,
+        380,
+        190,
+        58
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "object-subcategory",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        1190,
+        380,
+        190,
+        58
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "object-subcategory",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        1390,
+        380,
+        190,
+        58
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "object-subcategory",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        1590,
+        380,
+        190,
+        58
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_card.png",
+      "region": [
+        390,
+        454,
+        870,
+        408
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        440,
+        466,
+        365,
+        58
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "EditorObjectSelection:WIDX_LIST_SORT_TYPE"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        830,
+        466,
+        380,
+        58
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "EditorObjectSelection:WIDX_LIST_SORT_RIDE"
+    },
+    {
+      "role": "object-selection-checkbox",
+      "asset": "assets/common/checkbox_on.png",
+      "region": [
+        450,
+        540,
+        38,
+        38
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "object-selection-checkbox",
+      "asset": "assets/common/checkbox_on.png",
+      "region": [
+        450,
+        605,
+        38,
+        38
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "object-selection-checkbox",
+      "asset": "assets/common/checkbox_off.png",
+      "region": [
+        450,
+        670,
+        38,
+        38
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "object-selection-checkbox",
+      "asset": "assets/common/checkbox_off.png",
+      "region": [
+        450,
+        735,
+        38,
+        38
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_card.png",
+      "region": [
+        1300,
+        455,
+        498,
+        407
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "illustration",
+      "asset": "assets/illustrations/dragon_coaster.png",
+      "region": [
+        1330,
+        477,
+        438,
+        220
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1080,
+        916,
+        310,
+        70
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "EditorObjectSelection:WIDX_INSTALL_TRACK"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1415,
+        916,
+        350,
+        70
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "EditorObjectSelection:WIDX_RELOAD_OBJECT"
+    }
+  ],
+  "dataDiagrams": [
+    {
+      "role": "data-rule",
+      "points": [
+        [
+          398,
+          276
+        ],
+        [
+          1790,
+          276
+        ]
+      ],
+      "color": "#B28C43",
+      "width": 1
+    }
+  ],
+  "layoutIssues": [],
+  "fontDistribution": "Official OFL-licensed fonts are included in assets/fonts; see records/font-sources.json.",
+  "status": "produced_pending_review",
+  "sourceControlBindings": [
+    {
+      "unit": "EditorObjectSelection",
+      "controlId": "WIDX_BACKGROUND",
+      "sourceControlKey": "EditorObjectSelection:WIDX_BACKGROUND",
+      "rectTopLeftXYWH": [
+        52,
+        96,
+        1816,
+        930
+      ],
+      "role": "window-structure",
+      "sourcePageGroups": [
+        "设施车辆",
+        "景观主题",
+        "步道",
+        "入口建筑",
+        "地形",
+        "音乐",
+        "游客员工"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/EditorObjectSelection.cpp",
+        "line": 200
+      },
+      "sourceWidgetType": "frame",
+      "condition": "重载按钮仅在已开启调试工具时显示；此图为已开启状态。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "EditorObjectSelection",
+      "controlId": "WIDX_TITLE",
+      "sourceControlKey": "EditorObjectSelection:WIDX_TITLE",
+      "rectTopLeftXYWH": [
+        520,
+        22,
+        880,
+        170
+      ],
+      "role": "window-structure",
+      "sourcePageGroups": [
+        "设施车辆",
+        "景观主题",
+        "步道",
+        "入口建筑",
+        "地形",
+        "音乐",
+        "游客员工"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/EditorObjectSelection.cpp",
+        "line": 201
+      },
+      "sourceWidgetType": "caption",
+      "condition": "重载按钮仅在已开启调试工具时显示；此图为已开启状态。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "EditorObjectSelection",
+      "controlId": "WIDX_CLOSE",
+      "sourceControlKey": "EditorObjectSelection:WIDX_CLOSE",
+      "rectTopLeftXYWH": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "role": "window-structure",
+      "sourcePageGroups": [
+        "设施车辆",
+        "景观主题",
+        "步道",
+        "入口建筑",
+        "地形",
+        "音乐",
+        "游客员工"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/EditorObjectSelection.cpp",
+        "line": 202
+      },
+      "sourceWidgetType": "closeBox",
+      "condition": "重载按钮仅在已开启调试工具时显示；此图为已开启状态。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "EditorObjectSelection",
+      "controlId": "WIDX_FILTER_DROPDOWN",
+      "sourceControlKey": "EditorObjectSelection:WIDX_FILTER_DROPDOWN",
+      "rectTopLeftXYWH": [
+        664,
+        301,
+        335,
+        60
+      ],
+      "role": "dropdown",
+      "sourcePageGroups": [
+        "设施车辆",
+        "景观主题",
+        "步道",
+        "入口建筑",
+        "地形",
+        "音乐",
+        "游客员工"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/EditorObjectSelection.cpp",
+        "line": 207
+      },
+      "sourceWidgetType": "dropdownMenu",
+      "condition": "重载按钮仅在已开启调试工具时显示；此图为已开启状态。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "EditorObjectSelection",
+      "controlId": "WIDX_FILTER_DROPDOWN_BTN",
+      "sourceControlKey": "EditorObjectSelection:WIDX_FILTER_DROPDOWN_BTN",
+      "rectTopLeftXYWH": [
+        953,
+        305,
+        40,
+        52
+      ],
+      "role": "dropdown-arrow",
+      "sourcePageGroups": [
+        "设施车辆",
+        "景观主题",
+        "步道",
+        "入口建筑",
+        "地形",
+        "音乐",
+        "游客员工"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/EditorObjectSelection.cpp",
+        "line": 208
+      },
+      "sourceWidgetType": "button",
+      "condition": "重载按钮仅在已开启调试工具时显示；此图为已开启状态。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "EditorObjectSelection",
+      "controlId": "WIDX_FILTER_TEXT_BOX",
+      "sourceControlKey": "EditorObjectSelection:WIDX_FILTER_TEXT_BOX",
+      "rectTopLeftXYWH": [
+        1277,
+        301,
+        307,
+        60
+      ],
+      "role": "text",
+      "sourcePageGroups": [
+        "设施车辆",
+        "景观主题",
+        "步道",
+        "入口建筑",
+        "地形",
+        "音乐",
+        "游客员工"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/EditorObjectSelection.cpp",
+        "line": 209
+      },
+      "sourceWidgetType": "textBox",
+      "condition": "重载按钮仅在已开启调试工具时显示；此图为已开启状态。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "EditorObjectSelection",
+      "controlId": "WIDX_FILTER_CLEAR_BUTTON",
+      "sourceControlKey": "EditorObjectSelection:WIDX_FILTER_CLEAR_BUTTON",
+      "rectTopLeftXYWH": [
+        1605,
+        302,
+        180,
+        60
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "设施车辆",
+        "景观主题",
+        "步道",
+        "入口建筑",
+        "地形",
+        "音乐",
+        "游客员工"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/EditorObjectSelection.cpp",
+        "line": 210
+      },
+      "sourceWidgetType": "button",
+      "condition": "重载按钮仅在已开启调试工具时显示；此图为已开启状态。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "EditorObjectSelection",
+      "controlId": "WIDX_SUB_TAB_0",
+      "sourceControlKey": "EditorObjectSelection:WIDX_SUB_TAB_0",
+      "rectTopLeftXYWH": [
+        390,
+        380,
+        190,
+        58
+      ],
+      "role": "source-subcategory-tab",
+      "sourcePageGroups": [
+        "设施车辆",
+        "景观主题",
+        "步道",
+        "入口建筑",
+        "地形",
+        "音乐",
+        "游客员工"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/EditorObjectSelection.cpp",
+        "line": 212
+      },
+      "sourceWidgetType": "tab",
+      "condition": "重载按钮仅在已开启调试工具时显示；此图为已开启状态。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "EditorObjectSelection",
+      "controlId": "WIDX_SUB_TAB_1",
+      "sourceControlKey": "EditorObjectSelection:WIDX_SUB_TAB_1",
+      "rectTopLeftXYWH": [
+        590,
+        380,
+        190,
+        58
+      ],
+      "role": "source-subcategory-tab",
+      "sourcePageGroups": [
+        "设施车辆",
+        "景观主题",
+        "步道",
+        "入口建筑",
+        "地形",
+        "音乐",
+        "游客员工"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/EditorObjectSelection.cpp",
+        "line": 213
+      },
+      "sourceWidgetType": "tab",
+      "condition": "重载按钮仅在已开启调试工具时显示；此图为已开启状态。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "EditorObjectSelection",
+      "controlId": "WIDX_SUB_TAB_2",
+      "sourceControlKey": "EditorObjectSelection:WIDX_SUB_TAB_2",
+      "rectTopLeftXYWH": [
+        790,
+        380,
+        190,
+        58
+      ],
+      "role": "source-subcategory-tab",
+      "sourcePageGroups": [
+        "设施车辆",
+        "景观主题",
+        "步道",
+        "入口建筑",
+        "地形",
+        "音乐",
+        "游客员工"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/EditorObjectSelection.cpp",
+        "line": 214
+      },
+      "sourceWidgetType": "tab",
+      "condition": "重载按钮仅在已开启调试工具时显示；此图为已开启状态。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "EditorObjectSelection",
+      "controlId": "WIDX_SUB_TAB_3",
+      "sourceControlKey": "EditorObjectSelection:WIDX_SUB_TAB_3",
+      "rectTopLeftXYWH": [
+        990,
+        380,
+        190,
+        58
+      ],
+      "role": "source-subcategory-tab",
+      "sourcePageGroups": [
+        "设施车辆",
+        "景观主题",
+        "步道",
+        "入口建筑",
+        "地形",
+        "音乐",
+        "游客员工"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/EditorObjectSelection.cpp",
+        "line": 215
+      },
+      "sourceWidgetType": "tab",
+      "condition": "重载按钮仅在已开启调试工具时显示；此图为已开启状态。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "EditorObjectSelection",
+      "controlId": "WIDX_SUB_TAB_4",
+      "sourceControlKey": "EditorObjectSelection:WIDX_SUB_TAB_4",
+      "rectTopLeftXYWH": [
+        1190,
+        380,
+        190,
+        58
+      ],
+      "role": "source-subcategory-tab",
+      "sourcePageGroups": [
+        "设施车辆",
+        "景观主题",
+        "步道",
+        "入口建筑",
+        "地形",
+        "音乐",
+        "游客员工"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/EditorObjectSelection.cpp",
+        "line": 216
+      },
+      "sourceWidgetType": "tab",
+      "condition": "重载按钮仅在已开启调试工具时显示；此图为已开启状态。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "EditorObjectSelection",
+      "controlId": "WIDX_SUB_TAB_5",
+      "sourceControlKey": "EditorObjectSelection:WIDX_SUB_TAB_5",
+      "rectTopLeftXYWH": [
+        1390,
+        380,
+        190,
+        58
+      ],
+      "role": "source-subcategory-tab",
+      "sourcePageGroups": [
+        "设施车辆",
+        "景观主题",
+        "步道",
+        "入口建筑",
+        "地形",
+        "音乐",
+        "游客员工"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/EditorObjectSelection.cpp",
+        "line": 217
+      },
+      "sourceWidgetType": "tab",
+      "condition": "重载按钮仅在已开启调试工具时显示；此图为已开启状态。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "EditorObjectSelection",
+      "controlId": "WIDX_SUB_TAB_6",
+      "sourceControlKey": "EditorObjectSelection:WIDX_SUB_TAB_6",
+      "rectTopLeftXYWH": [
+        1590,
+        380,
+        190,
+        58
+      ],
+      "role": "source-subcategory-tab",
+      "sourcePageGroups": [
+        "设施车辆",
+        "景观主题",
+        "步道",
+        "入口建筑",
+        "地形",
+        "音乐",
+        "游客员工"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/EditorObjectSelection.cpp",
+        "line": 218
+      },
+      "sourceWidgetType": "tab",
+      "condition": "重载按钮仅在已开启调试工具时显示；此图为已开启状态。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "EditorObjectSelection",
+      "controlId": "WIDX_LIST",
+      "sourceControlKey": "EditorObjectSelection:WIDX_LIST",
+      "rectTopLeftXYWH": [
+        390,
+        454,
+        870,
+        408
+      ],
+      "role": "object-selection-list",
+      "sourcePageGroups": [
+        "设施车辆",
+        "景观主题",
+        "步道",
+        "入口建筑",
+        "地形",
+        "音乐",
+        "游客员工"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/EditorObjectSelection.cpp",
+        "line": 204
+      },
+      "sourceWidgetType": "scroll",
+      "condition": "重载按钮仅在已开启调试工具时显示；此图为已开启状态。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "EditorObjectSelection",
+      "controlId": "WIDX_LIST_SORT_TYPE",
+      "sourceControlKey": "EditorObjectSelection:WIDX_LIST_SORT_TYPE",
+      "rectTopLeftXYWH": [
+        440,
+        466,
+        365,
+        58
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "设施车辆",
+        "景观主题",
+        "步道",
+        "入口建筑",
+        "地形",
+        "音乐",
+        "游客员工"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/EditorObjectSelection.cpp",
+        "line": 219
+      },
+      "sourceWidgetType": "tableHeader",
+      "condition": "重载按钮仅在已开启调试工具时显示；此图为已开启状态。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "EditorObjectSelection",
+      "controlId": "WIDX_LIST_SORT_RIDE",
+      "sourceControlKey": "EditorObjectSelection:WIDX_LIST_SORT_RIDE",
+      "rectTopLeftXYWH": [
+        830,
+        466,
+        380,
+        58
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "设施车辆",
+        "景观主题",
+        "步道",
+        "入口建筑",
+        "地形",
+        "音乐",
+        "游客员工"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/EditorObjectSelection.cpp",
+        "line": 220
+      },
+      "sourceWidgetType": "tableHeader",
+      "condition": "重载按钮仅在已开启调试工具时显示；此图为已开启状态。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "EditorObjectSelection",
+      "controlId": "WIDX_PREVIEW",
+      "sourceControlKey": "EditorObjectSelection:WIDX_PREVIEW",
+      "rectTopLeftXYWH": [
+        1300,
+        455,
+        498,
+        407
+      ],
+      "role": "selected-object-preview",
+      "sourcePageGroups": [
+        "设施车辆",
+        "景观主题",
+        "步道",
+        "入口建筑",
+        "地形",
+        "音乐",
+        "游客员工"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/EditorObjectSelection.cpp",
+        "line": 205
+      },
+      "sourceWidgetType": "flatBtn",
+      "condition": "重载按钮仅在已开启调试工具时显示；此图为已开启状态。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "EditorObjectSelection",
+      "controlId": "WIDX_INSTALL_TRACK",
+      "sourceControlKey": "EditorObjectSelection:WIDX_INSTALL_TRACK",
+      "rectTopLeftXYWH": [
+        1080,
+        916,
+        310,
+        70
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "设施车辆",
+        "景观主题",
+        "步道",
+        "入口建筑",
+        "地形",
+        "音乐",
+        "游客员工"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/EditorObjectSelection.cpp",
+        "line": 206
+      },
+      "sourceWidgetType": "button",
+      "condition": "重载按钮仅在已开启调试工具时显示；此图为已开启状态。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "EditorObjectSelection",
+      "controlId": "WIDX_RELOAD_OBJECT",
+      "sourceControlKey": "EditorObjectSelection:WIDX_RELOAD_OBJECT",
+      "rectTopLeftXYWH": [
+        1415,
+        916,
+        350,
+        70
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "设施车辆",
+        "景观主题",
+        "步道",
+        "入口建筑",
+        "地形",
+        "音乐",
+        "游客员工"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/EditorObjectSelection.cpp",
+        "line": 221
+      },
+      "sourceWidgetType": "imgBtn",
+      "condition": "重载按钮仅在已开启调试工具时显示；此图为已开启状态。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    }
+  ],
+  "productDetailPurpose": "additional_actual_product_ui_layout"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/operations_ride_05-protected.jpg",
+  "sha256": "73136c84b494cb7784122b0941f8aeea64749a6fdd7e8e187a1ca6b89cce4493",
+  "derivedFrom": [
+    {
+      "file": "designs/details/ride-ops/05-protected.png",
+      "sha256": "1e7d40f2fab1f62e5b0975a1b41eb64279012e2fb7d2401ef49c2a37f20f4b0b",
+      "sourceRecord": "designs/details/ride-ops/05-protected.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

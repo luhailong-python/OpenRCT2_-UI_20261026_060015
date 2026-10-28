@@ -1,0 +1,394 @@
+{
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "purpose": "technical_style_contract_not_product_screen",
+  "controls": [
+    {
+      "unit": "TileInspector",
+      "controlId": "WIDX_COLUMN_CLEARANCEHEIGHT",
+      "rectTopLeftXYWH": [
+        58,
+        146,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        229,
+        554,
+        98
+      ],
+      "sourceWidgetType": "tableHeader",
+      "sourceLabelDisplayed": "CH",
+      "existingTargetScreenGroups": [
+        "地表",
+        "步道",
+        "轨道",
+        "小景物",
+        "大景物",
+        "墙",
+        "入口",
+        "横幅"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "TileInspector",
+      "controlId": "WIDX_COLUMN_DIRECTION",
+      "rectTopLeftXYWH": [
+        665,
+        146,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        229,
+        554,
+        98
+      ],
+      "sourceWidgetType": "tableHeader",
+      "sourceLabelDisplayed": "D",
+      "existingTargetScreenGroups": [
+        "地表",
+        "步道",
+        "轨道",
+        "小景物",
+        "大景物",
+        "墙",
+        "入口",
+        "横幅"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "TileInspector",
+      "controlId": "WIDX_COLUMN_GHOSTFLAG",
+      "rectTopLeftXYWH": [
+        1272,
+        146,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        229,
+        554,
+        98
+      ],
+      "sourceWidgetType": "tableHeader",
+      "sourceLabelDisplayed": "G",
+      "existingTargetScreenGroups": [
+        "地表",
+        "步道",
+        "轨道",
+        "小景物",
+        "大景物",
+        "墙",
+        "入口",
+        "横幅"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "TileInspector",
+      "controlId": "WIDX_COLUMN_LASTFLAG",
+      "rectTopLeftXYWH": [
+        58,
+        368,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        451,
+        554,
+        98
+      ],
+      "sourceWidgetType": "tableHeader",
+      "sourceLabelDisplayed": "L",
+      "existingTargetScreenGroups": [
+        "地表",
+        "步道",
+        "轨道",
+        "小景物",
+        "大景物",
+        "墙",
+        "入口",
+        "横幅"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "TileInspector",
+      "controlId": "WIDX_GROUPBOX_DETAILS",
+      "rectTopLeftXYWH": [
+        665,
+        368,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        451,
+        554,
+        98
+      ],
+      "sourceWidgetType": "groupbox",
+      "sourceLabelDisplayed": "分组框板",
+      "existingTargetScreenGroups": [
+        "地表",
+        "步道",
+        "轨道",
+        "小景物",
+        "大景物",
+        "墙",
+        "入口",
+        "横幅"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "TileInspector",
+      "controlId": "WIDX_GROUPBOX_PROPERTIES",
+      "rectTopLeftXYWH": [
+        1272,
+        368,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        451,
+        554,
+        98
+      ],
+      "sourceWidgetType": "groupbox",
+      "sourceLabelDisplayed": "属性",
+      "existingTargetScreenGroups": [
+        "地表",
+        "步道",
+        "轨道",
+        "小景物",
+        "大景物",
+        "墙",
+        "入口",
+        "横幅"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "TileInspector",
+      "controlId": "WIDX_SURFACE_SPINNER_HEIGHT",
+      "rectTopLeftXYWH": [
+        58,
+        590,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        673,
+        554,
+        98
+      ],
+      "sourceWidgetType": "spinner",
+      "sourceLabelDisplayed": "数值调节",
+      "existingTargetScreenGroups": [
+        "地表"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "TileInspector",
+      "controlId": "WIDX_SURFACE_SPINNER_HEIGHT_INCREASE",
+      "rectTopLeftXYWH": [
+        665,
+        590,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        673,
+        554,
+        98
+      ],
+      "sourceWidgetType": "button",
+      "sourceLabelDisplayed": "操作按钮",
+      "existingTargetScreenGroups": [
+        "地表"
+      ],
+      "formalAssets": [
+        "assets/common/plus.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "TileInspector",
+      "controlId": "WIDX_SURFACE_SPINNER_HEIGHT_DECREASE",
+      "rectTopLeftXYWH": [
+        1272,
+        590,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        673,
+        554,
+        98
+      ],
+      "sourceWidgetType": "button",
+      "sourceLabelDisplayed": "操作按钮",
+      "existingTargetScreenGroups": [
+        "地表"
+      ],
+      "formalAssets": [
+        "assets/common/minus.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "TileInspector",
+      "controlId": "WIDX_SURFACE_BUTTON_REMOVE_FENCES",
+      "rectTopLeftXYWH": [
+        58,
+        812,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        895,
+        554,
+        98
+      ],
+      "sourceWidgetType": "button",
+      "sourceLabelDisplayed": "移除乐园边界",
+      "existingTargetScreenGroups": [
+        "地表"
+      ],
+      "formalAssets": [
+        "assets/common/secondary_normal.png",
+        "assets/common/secondary_pressed.png",
+        "assets/common/secondary_selected.png",
+        "assets/common/secondary_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "TileInspector",
+      "controlId": "WIDX_SURFACE_BUTTON_RESTORE_FENCES",
+      "rectTopLeftXYWH": [
+        665,
+        812,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        895,
+        554,
+        98
+      ],
+      "sourceWidgetType": "button",
+      "sourceLabelDisplayed": "还原乐园边界",
+      "existingTargetScreenGroups": [
+        "地表"
+      ],
+      "formalAssets": [
+        "assets/common/secondary_normal.png",
+        "assets/common/secondary_pressed.png",
+        "assets/common/secondary_selected.png",
+        "assets/common/secondary_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "TileInspector",
+      "controlId": "WIDX_SURFACE_CHECK_CORNER_N",
+      "rectTopLeftXYWH": [
+        1272,
+        812,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        895,
+        554,
+        98
+      ],
+      "sourceWidgetType": "checkbox",
+      "sourceLabelDisplayed": "勾选项",
+      "existingTargetScreenGroups": [
+        "地表"
+      ],
+      "formalAssets": [
+        "assets/common/checkbox_off.png",
+        "assets/common/checkbox_on.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    }
+  ]
+}

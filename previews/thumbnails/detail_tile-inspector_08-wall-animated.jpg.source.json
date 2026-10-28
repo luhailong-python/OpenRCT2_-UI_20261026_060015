@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_tile-inspector_08-wall-animated.jpg",
+  "sha256": "564049c630e210eed4c1d884eba4a41b75052a46d9b67850f0cd27c148e9c643",
+  "derivedFrom": [
+    {
+      "file": "designs/details/tile-inspector/08-wall-animated.png",
+      "sha256": "76ce6139ee4c74cfdc847b73b051f5d60d0eee0f377395a3658677183b5f1aaf",
+      "sourceRecord": "designs/details/tile-inspector/08-wall-animated.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

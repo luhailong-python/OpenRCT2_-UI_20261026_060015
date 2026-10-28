@@ -1,0 +1,356 @@
+{
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "purpose": "technical_style_contract_not_product_screen",
+  "controls": [
+    {
+      "unit": "Options",
+      "controlId": "WIDX_TOOLBAR_SHOW_MUTE",
+      "rectTopLeftXYWH": [
+        58,
+        146,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        229,
+        554,
+        98
+      ],
+      "sourceWidgetType": "checkbox",
+      "sourceLabelDisplayed": "静音",
+      "existingTargetScreenGroups": [
+        "界面"
+      ],
+      "formalAssets": [
+        "assets/common/checkbox_off.png",
+        "assets/common/checkbox_on.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Options",
+      "controlId": "WIDX_TOOLBAR_SHOW_CHAT",
+      "rectTopLeftXYWH": [
+        665,
+        146,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        229,
+        554,
+        98
+      ],
+      "sourceWidgetType": "checkbox",
+      "sourceLabelDisplayed": "聊天室",
+      "existingTargetScreenGroups": [
+        "界面"
+      ],
+      "formalAssets": [
+        "assets/common/checkbox_off.png",
+        "assets/common/checkbox_on.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Options",
+      "controlId": "WIDX_TOOLBAR_SHOW_ZOOM",
+      "rectTopLeftXYWH": [
+        1272,
+        146,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        229,
+        554,
+        98
+      ],
+      "sourceWidgetType": "checkbox",
+      "sourceLabelDisplayed": "缩放",
+      "existingTargetScreenGroups": [
+        "界面"
+      ],
+      "formalAssets": [
+        "assets/common/checkbox_off.png",
+        "assets/common/checkbox_on.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Options",
+      "controlId": "WIDX_TOOLBAR_SHOW_ROTATE_ANTI_CLOCKWISE",
+      "rectTopLeftXYWH": [
+        58,
+        368,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        451,
+        554,
+        98
+      ],
+      "sourceWidgetType": "checkbox",
+      "sourceLabelDisplayed": "逆时计旋转",
+      "existingTargetScreenGroups": [
+        "界面"
+      ],
+      "formalAssets": [
+        "assets/common/checkbox_off.png",
+        "assets/common/checkbox_on.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Options",
+      "controlId": "WIDX_CONTROLS_GROUP",
+      "rectTopLeftXYWH": [
+        665,
+        368,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        451,
+        554,
+        98
+      ],
+      "sourceWidgetType": "groupbox",
+      "sourceLabelDisplayed": "控制",
+      "existingTargetScreenGroups": [
+        "操作"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Options",
+      "controlId": "WIDX_SCREEN_EDGE_SCROLLING",
+      "rectTopLeftXYWH": [
+        1272,
+        368,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        451,
+        554,
+        98
+      ],
+      "sourceWidgetType": "checkbox",
+      "sourceLabelDisplayed": "当鼠标位于屏幕边缘时滚动视图",
+      "existingTargetScreenGroups": [
+        "操作"
+      ],
+      "formalAssets": [
+        "assets/common/checkbox_off.png",
+        "assets/common/checkbox_on.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Options",
+      "controlId": "WIDX_TRAP_CURSOR",
+      "rectTopLeftXYWH": [
+        58,
+        590,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        673,
+        554,
+        98
+      ],
+      "sourceWidgetType": "checkbox",
+      "sourceLabelDisplayed": "限制鼠标指针仅在窗口内移动",
+      "existingTargetScreenGroups": [
+        "操作"
+      ],
+      "formalAssets": [
+        "assets/common/checkbox_off.png",
+        "assets/common/checkbox_on.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Options",
+      "controlId": "WIDX_INVERT_DRAG",
+      "rectTopLeftXYWH": [
+        665,
+        590,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        673,
+        554,
+        98
+      ],
+      "sourceWidgetType": "checkbox",
+      "sourceLabelDisplayed": "拖拽时反转鼠标右键",
+      "existingTargetScreenGroups": [
+        "操作"
+      ],
+      "formalAssets": [
+        "assets/common/checkbox_off.png",
+        "assets/common/checkbox_on.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Options",
+      "controlId": "WIDX_ZOOM_TO_CURSOR",
+      "rectTopLeftXYWH": [
+        1272,
+        590,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        673,
+        554,
+        98
+      ],
+      "sourceWidgetType": "checkbox",
+      "sourceLabelDisplayed": "放大到鼠标所在位置",
+      "existingTargetScreenGroups": [
+        "操作"
+      ],
+      "formalAssets": [
+        "assets/common/checkbox_off.png",
+        "assets/common/checkbox_on.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Options",
+      "controlId": "WIDX_WINDOW_BUTTONS_ON_THE_LEFT",
+      "rectTopLeftXYWH": [
+        58,
+        812,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        895,
+        554,
+        98
+      ],
+      "sourceWidgetType": "checkbox",
+      "sourceLabelDisplayed": "在左侧显示窗口按钮",
+      "existingTargetScreenGroups": [
+        "操作"
+      ],
+      "formalAssets": [
+        "assets/common/checkbox_off.png",
+        "assets/common/checkbox_on.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Options",
+      "controlId": "WIDX_ENLARGED_UI",
+      "rectTopLeftXYWH": [
+        665,
+        812,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        895,
+        554,
+        98
+      ],
+      "sourceWidgetType": "checkbox",
+      "sourceLabelDisplayed": "放大用户界面",
+      "existingTargetScreenGroups": [
+        "操作"
+      ],
+      "formalAssets": [
+        "assets/common/checkbox_off.png",
+        "assets/common/checkbox_on.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Options",
+      "controlId": "WIDX_TOUCH_ENHANCEMENTS",
+      "rectTopLeftXYWH": [
+        1272,
+        812,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        895,
+        554,
+        98
+      ],
+      "sourceWidgetType": "checkbox",
+      "sourceLabelDisplayed": "增强触控模式",
+      "existingTargetScreenGroups": [
+        "操作"
+      ],
+      "formalAssets": [
+        "assets/common/checkbox_off.png",
+        "assets/common/checkbox_on.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    }
+  ]
+}

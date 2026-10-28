@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/tooltip_01.jpg",
+  "sha256": "801d4ce13c0cb4876868e3fb50509c9bc4d82c53060664f2eba4b16a364461e2",
+  "derivedFrom": [
+    {
+      "file": "designs/tooltip/01-悬浮.png",
+      "sha256": "70bcd059bf9c9f08eaabea101d38fd6ceee1aff2034b54a2ac747b35cd9550a4",
+      "sourceRecord": "designs/tooltip/01-悬浮.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

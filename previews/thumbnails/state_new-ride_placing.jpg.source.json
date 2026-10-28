@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_new-ride_placing.jpg",
+  "sha256": "d67f09a25f7e24e1bf75ae2fc6385b089961877e52aef42ce362f65b1e83d5cd",
+  "derivedFrom": [
+    {
+      "file": "previews/states/new-ride/placing.png",
+      "sha256": "37fb4271d95cdea381c9f64d907c3a3281d96ec66eb6a0e7b0aee81eb92b8657",
+      "sourceRecord": "previews/states/new-ride/placing.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

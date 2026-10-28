@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/management-detail_cheats-6-1.jpg",
+  "sha256": "dbc482073bd8edbbbc7fb05a90f3041bc8fc78672129c06e853be5bf72f37ab9",
+  "derivedFrom": [
+    {
+      "file": "designs/details/management/cheats-6-1.png",
+      "sha256": "cd79a9da9788489e19254064d763b86e4e7307cf5a348378da76d8d28bd4e30e",
+      "sourceRecord": "designs/details/management/cheats-6-1.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

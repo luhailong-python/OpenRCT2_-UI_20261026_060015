@@ -1,0 +1,12 @@
+{
+  "file": "assets/masters/controls-native.png",
+  "source": "C:\\Users\\luyua\\.codex\\generated_images\\01a177a6-ab28-7732-aee8-f17747d127e1\\exec-1f7900ee-e4cb-414b-b35f-49c29d3c27fd.png",
+  "startedAt": "2026-10-26T10:06:13Z",
+  "transparent_background": true,
+  "references": [
+    "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+    "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+  ],
+  "prompt": "records/controls-prompt.txt",
+  "receipt": "records/controls-receipt.json"
+}

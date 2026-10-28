@@ -1,0 +1,99 @@
+{
+  "file": "previews/contact-sheets/15.jpg",
+  "sha256": "03121230692f395f14e6f2ef5535b1195f8268361590a514e4d4969a16a6c3ae",
+  "derivedFrom": [
+    {
+      "file": "previews/states/shops/normal.png",
+      "sha256": "3b62c0189ff2dca8a594976859223a83b4a8669a1fbe8174abea88792b4a1174"
+    },
+    {
+      "file": "previews/states/shops/open.png",
+      "sha256": "8f44eb6274881982946c96be611fb5ea9b0ce27dbfbd223127d66c158bd7fce9"
+    },
+    {
+      "file": "previews/states/staff/empty.png",
+      "sha256": "06afa2d3c20b9251a2862f15ed0e7dd74754023b1163dacaba3de105cbde40be"
+    },
+    {
+      "file": "previews/states/staff/fire-confirm.png",
+      "sha256": "03f84e2cb9318c4b9f80f83436cccd2835acc5d3b4b0b98b997a43084f31213e"
+    },
+    {
+      "file": "previews/states/staff/hired.png",
+      "sha256": "217204585981bae3e0eb8af73b5a85a6d66aba6fdfcfa3ec6bc8aadd68055b05"
+    },
+    {
+      "file": "previews/states/staff/limit-reached.png",
+      "sha256": "960dd66e5702bdd66fc3827ff63d2075e231676bab9ce2fa36fff00585f43ece"
+    },
+    {
+      "file": "previews/states/staff/normal.png",
+      "sha256": "6b2f2215bc6aa0020deafeff54e1f927a094a3e94943adb628791132e8b03fe6"
+    },
+    {
+      "file": "previews/states/staff/patrol.png",
+      "sha256": "3b5f4261b32c34e6b5d5cbfd30ecacd7b5d3ffad19a226bbe90f8d346dd5e36e"
+    },
+    {
+      "file": "previews/states/start/assets-missing.png",
+      "sha256": "b047db3d6273c110cd44cd287571700de6d8b2b78ad8c7202ecbcc8ab196c670"
+    },
+    {
+      "file": "previews/states/start/completed.png",
+      "sha256": "9d7acb4d8bf265821a7cae02731dea8c2288e17c30d8207dd3a938fa5717de7c"
+    },
+    {
+      "file": "previews/states/start/empty.png",
+      "sha256": "453bc14ddff7a2113ce17b4c3c6232774306ae21a352cc7633b5fbac3388dc46"
+    },
+    {
+      "file": "previews/states/start/normal.png",
+      "sha256": "d56aca039b2af8e3bdbd20d666ef1906ad8943e62b4d20cb19484860bed89938"
+    },
+    {
+      "file": "previews/states/track-build/incomplete-track.png",
+      "sha256": "708c233843e4087834a058b093904dc3954ea6e7ba51f5628cc0a42f9c0fe746"
+    },
+    {
+      "file": "previews/states/track-build/insufficient-funds.png",
+      "sha256": "4d4a52b9d68cfaaac5a5b086a6e8cf357a4362e200bd74cf273b619d2f04b9e5"
+    },
+    {
+      "file": "previews/states/track-build/land-not-owned.png",
+      "sha256": "0ec731a9a8abdd001781ae2539e4261a5e6cf2dc3f3cf87932731376408fe908"
+    },
+    {
+      "file": "previews/states/track-build/missing-entrance.png",
+      "sha256": "916d38ffd36065bbb639a4474e46bf4f50d9815089205c37a6959f144491b882"
+    },
+    {
+      "file": "previews/states/track-build/missing-exit.png",
+      "sha256": "6e7833f393218246955baffcb974b0f01b8b71d6bb9f558af76732a69e2e81ed"
+    },
+    {
+      "file": "previews/states/track-build/normal.png",
+      "sha256": "9ec442ba547acf79caed0ec06aa725c6dfea1288e33b3722ff829c71b86a677e"
+    },
+    {
+      "file": "previews/states/track-build/obstructed.png",
+      "sha256": "cff80af28c965c2c7e53da76d1a4e556425857b9dbd5213c5907f2d885740732"
+    },
+    {
+      "file": "previews/states/track-files/delete-confirm.png",
+      "sha256": "6d2c53d430b80c5675a9bc8415795a8dce78b9d51f9bd6c42348afd319d1bf4b"
+    },
+    {
+      "file": "previews/states/track-files/delete-failed.png",
+      "sha256": "728c806b2237764ef33c90033d46b1725125f07a09821e378ab7d0ac907fb745"
+    },
+    {
+      "file": "previews/states/track-files/normal.png",
+      "sha256": "930ae31942e523d23e2ab628a4a1d653115ebd529f0563ef41e9c350d9cb5665"
+    },
+    {
+      "file": "previews/states/track-files/rename-failed.png",
+      "sha256": "24c8336658e1c2d403455cd18037909782b992e662afd86a2564e3fc06e3b455"
+    }
+  ],
+  "operation": "review_contact_sheet_thumbnail_composition_no_new_model_generation"
+}

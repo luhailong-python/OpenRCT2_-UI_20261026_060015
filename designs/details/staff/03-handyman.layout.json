@@ -1,0 +1,687 @@
+{
+  "schemaVersion": 1,
+  "screenId": "detail:staff:03-handyman",
+  "title": "清洁工  工作职责",
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "origin": "top-left",
+  "textLayers": [
+    {
+      "id": "text-001",
+      "text": "清洁工",
+      "role": "dynamic-text",
+      "region": [
+        620,
+        66,
+        680,
+        75
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 46,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 65,
+      "wrappedLines": [
+        "清洁工"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-002",
+      "text": "员工概览",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        231,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "员工概览"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-003",
+      "text": "清洁职责",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        301,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "清洁职责"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-004",
+      "text": "维修职责",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        371,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "维修职责"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-005",
+      "text": "表演服装",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        441,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "表演服装"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-006",
+      "text": "作业状态",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        511,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "作业状态"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-007",
+      "text": "清洁职责",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        218,
+        1388,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 32,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 45,
+      "wrappedLines": [
+        "清洁职责"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-008",
+      "text": "美术设计样例 · 名称 / 数值待定",
+      "role": "dynamic-text",
+      "region": [
+        600,
+        1046,
+        720,
+        28
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "美术设计样例 · 名称 / 数值待定"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-009",
+      "text": "清扫步道",
+      "role": "dynamic-text",
+      "region": [
+        456,
+        314,
+        970,
+        62
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "center",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "清扫步道"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-010",
+      "text": "浇灌花园",
+      "role": "dynamic-text",
+      "region": [
+        456,
+        410,
+        970,
+        62
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "center",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "浇灌花园"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-011",
+      "text": "清空垃圾桶",
+      "role": "dynamic-text",
+      "region": [
+        456,
+        506,
+        970,
+        62
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "center",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "清空垃圾桶"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-012",
+      "text": "修剪草地",
+      "role": "dynamic-text",
+      "region": [
+        456,
+        602,
+        970,
+        62
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "center",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "修剪草地"
+      ],
+      "dynamic": true
+    }
+  ],
+  "artAndControlLayers": [
+    {
+      "role": "park-background",
+      "asset": "assets/backgrounds/park-day-native.png",
+      "region": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "resize": "cover"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_main.png",
+      "region": [
+        52,
+        96,
+        1816,
+        930
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "title-plaque",
+      "asset": "assets/common/title_plate.png",
+      "region": [
+        520,
+        22,
+        880,
+        170
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "close",
+      "asset": "assets/common/close.png",
+      "region": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_card.png",
+      "region": [
+        84,
+        208,
+        268,
+        756
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        224,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_selected.png",
+      "region": [
+        100,
+        294,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        364,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        434,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        504,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "illustration",
+      "asset": "assets/illustrations/cleaner.png",
+      "region": [
+        1478,
+        360,
+        320,
+        462
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "checkbox",
+      "asset": "assets/common/checkbox_on.png",
+      "region": [
+        398,
+        318,
+        42,
+        42
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Staff:WIDX_CHECKBOX_1"
+      ],
+      "unit": "Staff",
+      "controlId": "WIDX_CHECKBOX_1",
+      "screenId": "detail:staff:03-handyman",
+      "region": [
+        390,
+        300,
+        1058,
+        96
+      ],
+      "visualKind": "checkbox",
+      "label": "清扫步道",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "checkbox",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Staff.cpp",
+          "line": 76
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "checkbox",
+            "sourcePath": "src/openrct2-ui/windows/Staff.cpp",
+            "line": 110,
+            "sourceExpression": "makeWidget     ({      5,  50},                {180,  12}, WidgetType::checkbox,     WindowColour::secondary                                            )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Staff.cpp",
+          "line": 837,
+          "expression": "                {                     widgets[WIDX_CHECKBOX_1].setHidden();                     widgets[WIDX_CHECKBOX_2].setHidden();                     widgets[WIDX_CHECKBOX_3].setHidden();"
+        },
+        {
+          "path": "src/openrct2-ui/windows/Staff.cpp",
+          "line": 862,
+          "expression": "                case StaffType::handyman:                     widgets[WIDX_CHECKBOX_1].setVisible();                     widgets[WIDX_CHECKBOX_1].text = STR_STAFF_OPTION_SWEEP_FOOTPATHS;                     widgets[WIDX_CHECKBOX_2].setVisible();"
+        },
+        {
+          "path": "src/openrct2-ui/windows/Staff.cpp",
+          "line": 875,
+          "expression": "                case StaffType::mechanic:                     widgets[WIDX_CHECKBOX_1].setVisible();                     widgets[WIDX_CHECKBOX_1].text = STR_INSPECT_RIDES;                     widgets[WIDX_CHECKBOX_2].setVisible();"
+        }
+      ],
+      "displayedCondition": "StaffType::handyman；四个职责复选框可见，服装选择隐藏。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "checkbox",
+      "asset": "assets/common/checkbox_on.png",
+      "region": [
+        398,
+        414,
+        42,
+        42
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Staff:WIDX_CHECKBOX_2"
+      ],
+      "unit": "Staff",
+      "controlId": "WIDX_CHECKBOX_2",
+      "screenId": "detail:staff:03-handyman",
+      "region": [
+        390,
+        396,
+        1058,
+        96
+      ],
+      "visualKind": "checkbox",
+      "label": "浇灌花园",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "checkbox",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Staff.cpp",
+          "line": 77
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "checkbox",
+            "sourcePath": "src/openrct2-ui/windows/Staff.cpp",
+            "line": 111,
+            "sourceExpression": "makeWidget     ({      5,  67},                {180,  12}, WidgetType::checkbox,     WindowColour::secondary                                            )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Staff.cpp",
+          "line": 838,
+          "expression": "                    widgets[WIDX_CHECKBOX_1].setHidden();                     widgets[WIDX_CHECKBOX_2].setHidden();                     widgets[WIDX_CHECKBOX_3].setHidden();                     widgets[WIDX_CHECKBOX_4].setHidden();"
+        },
+        {
+          "path": "src/openrct2-ui/windows/Staff.cpp",
+          "line": 864,
+          "expression": "                    widgets[WIDX_CHECKBOX_1].text = STR_STAFF_OPTION_SWEEP_FOOTPATHS;                     widgets[WIDX_CHECKBOX_2].setVisible();                     widgets[WIDX_CHECKBOX_2].text = STR_STAFF_OPTION_WATER_GARDENS;                     widgets[WIDX_CHECKBOX_3].setVisible();"
+        },
+        {
+          "path": "src/openrct2-ui/windows/Staff.cpp",
+          "line": 877,
+          "expression": "                    widgets[WIDX_CHECKBOX_1].text = STR_INSPECT_RIDES;                     widgets[WIDX_CHECKBOX_2].setVisible();                     widgets[WIDX_CHECKBOX_2].text = STR_FIX_RIDES;                     widgets[WIDX_CHECKBOX_3].setHidden();"
+        }
+      ],
+      "displayedCondition": "StaffType::handyman；四个职责复选框可见，服装选择隐藏。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "checkbox",
+      "asset": "assets/common/checkbox_on.png",
+      "region": [
+        398,
+        510,
+        42,
+        42
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Staff:WIDX_CHECKBOX_3"
+      ],
+      "unit": "Staff",
+      "controlId": "WIDX_CHECKBOX_3",
+      "screenId": "detail:staff:03-handyman",
+      "region": [
+        390,
+        492,
+        1058,
+        96
+      ],
+      "visualKind": "checkbox",
+      "label": "清空垃圾桶",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "checkbox",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Staff.cpp",
+          "line": 78
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "checkbox",
+            "sourcePath": "src/openrct2-ui/windows/Staff.cpp",
+            "line": 112,
+            "sourceExpression": "makeWidget     ({      5,  84},                {180,  12}, WidgetType::checkbox,     WindowColour::secondary                                            )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Staff.cpp",
+          "line": 839,
+          "expression": "                    widgets[WIDX_CHECKBOX_2].setHidden();                     widgets[WIDX_CHECKBOX_3].setHidden();                     widgets[WIDX_CHECKBOX_4].setHidden();                     widgets[WIDX_COSTUME_BOX].setVisible();"
+        },
+        {
+          "path": "src/openrct2-ui/windows/Staff.cpp",
+          "line": 866,
+          "expression": "                    widgets[WIDX_CHECKBOX_2].text = STR_STAFF_OPTION_WATER_GARDENS;                     widgets[WIDX_CHECKBOX_3].setVisible();                     widgets[WIDX_CHECKBOX_3].text = STR_STAFF_OPTION_EMPTY_LITTER;                     widgets[WIDX_CHECKBOX_4].setVisible();"
+        },
+        {
+          "path": "src/openrct2-ui/windows/Staff.cpp",
+          "line": 879,
+          "expression": "                    widgets[WIDX_CHECKBOX_2].text = STR_FIX_RIDES;                     widgets[WIDX_CHECKBOX_3].setHidden();                     widgets[WIDX_CHECKBOX_4].setHidden();                     widgets[WIDX_COSTUME_BOX].setHidden();"
+        }
+      ],
+      "displayedCondition": "StaffType::handyman；四个职责复选框可见，服装选择隐藏。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "checkbox",
+      "asset": "assets/common/checkbox_off.png",
+      "region": [
+        398,
+        606,
+        42,
+        42
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Staff:WIDX_CHECKBOX_4"
+      ],
+      "unit": "Staff",
+      "controlId": "WIDX_CHECKBOX_4",
+      "screenId": "detail:staff:03-handyman",
+      "region": [
+        390,
+        588,
+        1058,
+        96
+      ],
+      "visualKind": "checkbox",
+      "label": "修剪草地",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "checkbox",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Staff.cpp",
+          "line": 79
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "checkbox",
+            "sourcePath": "src/openrct2-ui/windows/Staff.cpp",
+            "line": 113,
+            "sourceExpression": "makeWidget     ({      5, 101},                {180,  12}, WidgetType::checkbox,     WindowColour::secondary                                            )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Staff.cpp",
+          "line": 840,
+          "expression": "                    widgets[WIDX_CHECKBOX_3].setHidden();                     widgets[WIDX_CHECKBOX_4].setHidden();                     widgets[WIDX_COSTUME_BOX].setVisible();                     widgets[WIDX_COSTUME_BTN].setVisible();"
+        },
+        {
+          "path": "src/openrct2-ui/windows/Staff.cpp",
+          "line": 868,
+          "expression": "                    widgets[WIDX_CHECKBOX_3].text = STR_STAFF_OPTION_EMPTY_LITTER;                     widgets[WIDX_CHECKBOX_4].setVisible();                     widgets[WIDX_CHECKBOX_4].text = STR_STAFF_OPTION_MOW_GRASS;                     widgets[WIDX_COSTUME_BOX].setHidden();"
+        },
+        {
+          "path": "src/openrct2-ui/windows/Staff.cpp",
+          "line": 880,
+          "expression": "                    widgets[WIDX_CHECKBOX_3].setHidden();                     widgets[WIDX_CHECKBOX_4].setHidden();                     widgets[WIDX_COSTUME_BOX].setHidden();                     widgets[WIDX_COSTUME_BTN].setHidden();"
+        }
+      ],
+      "displayedCondition": "StaffType::handyman；四个职责复选框可见，服装选择隐藏。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    }
+  ],
+  "dataDiagrams": [
+    {
+      "role": "data-rule",
+      "points": [
+        [
+          398,
+          276
+        ],
+        [
+          1790,
+          276
+        ]
+      ],
+      "color": "#B28C43",
+      "width": 1
+    }
+  ],
+  "layoutIssues": [],
+  "fontDistribution": "Official OFL-licensed fonts are included in assets/fonts; see records/font-sources.json.",
+  "status": "produced_pending_review"
+}

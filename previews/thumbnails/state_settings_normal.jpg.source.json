@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_settings_normal.jpg",
+  "sha256": "3a7885f49c9bfcb3de8db576f718c94b4ca09460b7b8111cbe143ad2b688cc8e",
+  "derivedFrom": [
+    {
+      "file": "previews/states/settings/normal.png",
+      "sha256": "da782dd9be0719e987ca340be27bff0caf0548eaf58716935fc1155f03044815",
+      "sourceRecord": "previews/states/settings/normal.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

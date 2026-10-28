@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/details/options/02-渲染-02.png",
+  "sha256": "d5f9f059067c041a39787352e205423fba9ddf8f3ca8c650f382e519190a0321",
+  "exportedAt": "2026-10-26T08:00:04.625457-04:00",
+  "width": 1920,
+  "height": 1080,
+  "format": "PNG",
+  "operation": "composite_preview_not_native_generation",
+  "process": [
+    "Nine-slice/contain/cover composition of painted PNG sprites",
+    "Separate Chinese text typesetting and data diagrams"
+  ],
+  "resampling": "LANCZOS where art is fitted; output dimensions do not represent new native generated detail.",
+  "nativeModelClaim": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidencePolicy": "Resolve original AI model/quality through each source asset record; unreported values remain unconfirmed.",
+  "derivedFrom": [
+    {
+      "file": "assets/backgrounds/park-day-native.png",
+      "sha256": "27c3ac998fcd81e675c9a05712ead25c83443b133844c169d1476c3cebe25712",
+      "nativeDimensions": [
+        1672,
+        941
+      ],
+      "generationRecord": "assets/backgrounds/park-day-native.png.generation.json",
+      "derivationRecord": "assets/slice-manifest.json"
+    },
+    {
+      "file": "assets/common/panel_main.png",
+      "sha256": "704856762248133110624f38365e0ff337dd1f2f6304f66298e2230077ebca00",
+      "nativeDimensions": [
+        619,
+        610
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_main.png.source.json"
+    },
+    {
+      "file": "assets/common/title_plate.png",
+      "sha256": "f1011dd30d1ef42cbeedf64f31025c6c77c91ffbbcdd09ef74c065ad1d91ddfe",
+      "nativeDimensions": [
+        594,
+        195
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/title_plate.png.source.json"
+    },
+    {
+      "file": "assets/common/close.png",
+      "sha256": "f9089fdc15bfbfbd496d9c02de94c46b0e1e4052fffa9689de0b461e043737ec",
+      "nativeDimensions": [
+        184,
+        184
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/close.png.source.json"
+    },
+    {
+      "file": "assets/common/panel_card.png",
+      "sha256": "b82ed16e818b3bb86c16a68453bc4b73f1764c6fdb4541c2e470e5c60789568e",
+      "nativeDimensions": [
+        589,
+        558
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_card.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_normal.png",
+      "sha256": "9327a3d9577111e5985e3453a8a201010887c606a094b7e080421417aef3f92e",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_selected.png",
+      "sha256": "119a81554b9e332d698f5c704813cb047fcd4c5c71e9e5c36c7b6df6b4a789b9",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_selected.png.source.json"
+    },
+    {
+      "file": "assets/common/checkbox_on.png",
+      "sha256": "b986cc788cbae485e12a8a778be057715201d11e3d1154776881966b680b77b9",
+      "nativeDimensions": [
+        128,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/checkbox_on.png.source.json"
+    }
+  ],
+  "layoutRecord": "designs/details/options/02-渲染-02.layout.json",
+  "functionalReference": {
+    "functionalRepository": "https://github.com/OpenRCT2/OpenRCT2.git",
+    "commit": "52a55c3e8da5972460642bdfed61d091fe9cabfd",
+    "sourceUnit": "Options",
+    "sourceFiles": [
+      "src/openrct2-ui/windows/Options.cpp"
+    ],
+    "condition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+    "scope": "Complete controls arranged as an actual product UI proposal; no runtime verification.",
+    "sourceControls": [
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_DISABLE_LIGHTNING_EFFECT_CHECKBOX"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_DISABLE_LIGHTNING_EFFECT_CHECKBOX",
+        "screenId": "detail:options:02-渲染-02",
+        "region": [
+          390,
+          300,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "禁用光影效果",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 146
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 329,
+              "sourceExpression": "makeWidget({25, kFrameEffectStart + 75}, {266, 12}, WidgetType::checkbox, WindowColour::secondary, STR_DISABLE_LIGHTNING_EFFECT, STR_DISABLE_LIGHTNING_EFFECT_TIP)",
+              "sourceStringIds": [
+                "STR_DISABLE_LIGHTNING_EFFECT",
+                "STR_DISABLE_LIGHTNING_EFFECT_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 1161,
+            "expression": "                setCheckboxValue(WIDX_DISABLE_LIGHTNING_EFFECT_CHECKBOX, true);             setWidgetDisabled(WIDX_DISABLE_LIGHTNING_EFFECT_CHECKBOX, noWeather);         } "
+          }
+        ],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      }
+    ],
+    "decorativeArtPolicy": "Existing painted PNGs only"
+  },
+  "status": "produced_pending_review"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_hud_tool-active.jpg",
+  "sha256": "b1f31edf5c2d70e9087590d6e37b5b3c0d5bf7e206b7fac1875fd15fc3444f85",
+  "derivedFrom": [
+    {
+      "file": "previews/states/hud/tool-active.png",
+      "sha256": "cd6b83d0d7a87dc514543c9a72affae2c8899a14c572f17b55567022b6ff503e",
+      "sourceRecord": "previews/states/hud/tool-active.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

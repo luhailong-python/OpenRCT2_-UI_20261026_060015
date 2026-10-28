@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/error_01.jpg",
+  "sha256": "47612efe69640f0f6b7a597b9110e40a1aa551d1b9e3f21e688ad3049c940119",
+  "derivedFrom": [
+    {
+      "file": "designs/error/01-失败.png",
+      "sha256": "cc190c50b4436b9f607cca3a4127a6d1e3cb459d0460a48bb8b70759f6535036",
+      "sourceRecord": "designs/error/01-失败.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

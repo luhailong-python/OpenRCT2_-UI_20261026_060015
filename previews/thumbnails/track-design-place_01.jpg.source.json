@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/track-design-place_01.jpg",
+  "sha256": "9c61eff0dc34f00c752f87d44085804b50676cffb20876adb2ec30646667277f",
+  "derivedFrom": [
+    {
+      "file": "designs/track-design-place/01-预览.png",
+      "sha256": "04a9d5ad1127f42b3b078a184813405c6e8f7f1f76f11c9148637ef96ef7f611",
+      "sourceRecord": "designs/track-design-place/01-预览.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

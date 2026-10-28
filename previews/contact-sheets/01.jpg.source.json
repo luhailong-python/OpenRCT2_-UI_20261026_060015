@@ -1,0 +1,135 @@
+{
+  "file": "previews/contact-sheets/01.jpg",
+  "sha256": "adc7837ad250d9f7d41e50138792145f4e76334db2842adc80c6ae85d2dd62a1",
+  "derivedFrom": [
+    {
+      "file": "designs/about/01-OpenRCT2.png",
+      "sha256": "201ce69a45fe64b6f6b03817afcd1db448999345f59c90993f93af76c2d9e461"
+    },
+    {
+      "file": "designs/about/02-RCT2.png",
+      "sha256": "58add389ce4bed493ff9ead72036e6dbe76686824d454c1db2300192e7e348fc"
+    },
+    {
+      "file": "designs/asset-packs/01-资源包.png",
+      "sha256": "2005f09f1b187e7275656a895d3414c76e1173be12ba352ac9d87cbcad5cf83f"
+    },
+    {
+      "file": "designs/banner/01-横幅.png",
+      "sha256": "3216d3ab22cb857a98717f45672caad24b6d118280fb79733f7de7f305a56e84"
+    },
+    {
+      "file": "designs/changelog/01-更新日志.png",
+      "sha256": "7d78ef63644f5af64f3e6aa6ed4629d5222f568f1d1f460afcf2a8ce84927de4"
+    },
+    {
+      "file": "designs/changelog/02-新版本.png",
+      "sha256": "79a809672839001b7fe672763d9736bcb3bc079bc3f193882bc5a1ff40de11a1"
+    },
+    {
+      "file": "designs/chat/01-聊天.png",
+      "sha256": "53e6c96071dc93b75da1f52eed15cbff5b94363ca30ff3c3b3e66fad4919434c"
+    },
+    {
+      "file": "designs/cheats/01-财务.png",
+      "sha256": "46e668dfc0bfe86340bc24a023bc11f38c29a42abb4981ca4d2a9fc202f24537"
+    },
+    {
+      "file": "designs/cheats/02-日期.png",
+      "sha256": "33e45b9e4fd135c333a3c7c7be8d6be02ee843a9d6312ba2799f9cfdadde4b10"
+    },
+    {
+      "file": "designs/cheats/03-游客.png",
+      "sha256": "20b1bc8b5c29489a72343caa7710f2d52d9a10783d6a6789c0fffbeb33d0cc43"
+    },
+    {
+      "file": "designs/cheats/04-员工.png",
+      "sha256": "b8279abc081a6ebe8630091ece81023695627a90463370e6b9cabcbfcd4a9394"
+    },
+    {
+      "file": "designs/cheats/05-公园.png",
+      "sha256": "f2284fbdd243efc5f53dac0d667c9ceb35bbcfe6a17da445f80b5768ebdb74bd"
+    },
+    {
+      "file": "designs/cheats/06-设施.png",
+      "sha256": "0dafe821418d656731e27f5eee80cd0f9cb5f0ac50b8a19db080c64bcc568ce4"
+    },
+    {
+      "file": "designs/cheats/07-天气.png",
+      "sha256": "934a6867a9680877a81b9681ea6db60122536721614e973b241069299238f744"
+    },
+    {
+      "file": "designs/clear-scenery/01-清除.png",
+      "sha256": "6f21f0683caa6b5c44657b9393da6c9f18dc42c773808a0d0902db3c05e6bc1d"
+    },
+    {
+      "file": "designs/console/01-控制台.png",
+      "sha256": "aae770592a450b4d666a5f24d904e0f4ccc790bf1e17b82f265d2493c2b726fe"
+    },
+    {
+      "file": "designs/custom-currency/01-自定义货币.png",
+      "sha256": "c69f3d16c499e92c98d17fdc0a532185c68e8b0e901d499d75e6c50fb77abbdb"
+    },
+    {
+      "file": "designs/date-info-panel/01-日期天气.png",
+      "sha256": "f478c0e769dc577d4c1715332241127cde919c5897863a7650ade0c6094fcbfc"
+    },
+    {
+      "file": "designs/debug-paint/01-绘制诊断.png",
+      "sha256": "96ff56b3bf4f2dbb04516bcf46d2315bade65f34cccb90855ab039b08eafdd78"
+    },
+    {
+      "file": "designs/demolish-ride-prompt/01-确认.png",
+      "sha256": "33cad31864249cb2fdb351cd8bb1a0a8c3b50e8895061672109c6c32ede67de7"
+    },
+    {
+      "file": "designs/demolish-ride-prompt/02-取消.png",
+      "sha256": "33cad31864249cb2fdb351cd8bb1a0a8c3b50e8895061672109c6c32ede67de7"
+    },
+    {
+      "file": "designs/dropdown/01-文本.png",
+      "sha256": "001b657ed1a489a398b3674071a47bd1c5210ae9bf9e12f0b80c2752414715c8"
+    },
+    {
+      "file": "designs/dropdown/02-颜色.png",
+      "sha256": "4366f1e8857d5572f7e486ef3e911a70739f0762bb46ac43e4b4dbdc662e8748"
+    },
+    {
+      "file": "designs/dropdown/03-图像.png",
+      "sha256": "cbe37bba3e9d0c971a5874df45860b3d005c62a0bb6c036a146b05f761a8dd94"
+    },
+    {
+      "file": "designs/editor-inventions-list/01-已研究.png",
+      "sha256": "e10207511c1ec3d9d542e31d27f6abc0a629aebbff596fee5130c4d3b30842e4"
+    },
+    {
+      "file": "designs/editor-inventions-list/02-未研究.png",
+      "sha256": "f8b973eb8b1561a7d806abaf6c0f551234b41ebf54ff400bf7569a5d78ba83d4"
+    },
+    {
+      "file": "designs/editor-object-selection/01-设施车辆.png",
+      "sha256": "3f0c33f0219ff617261cd63a6be216a92dde708ced83c2e0e7216157d9a684aa"
+    },
+    {
+      "file": "designs/editor-object-selection/02-景观主题.png",
+      "sha256": "e3bbd3dff5e8db2088c897ecdc889881c6fcb6069f0cd8ecb5aea97036950506"
+    },
+    {
+      "file": "designs/editor-object-selection/03-步道.png",
+      "sha256": "e4535b425ca679358e4a1a41a749524120ecf3f759a53e69c1068877d57273b8"
+    },
+    {
+      "file": "designs/editor-object-selection/04-入口建筑.png",
+      "sha256": "daa69264fd60079d1d465d6d4994f776a884888bc10ba5e7c2c18f4d6b7e71a5"
+    },
+    {
+      "file": "designs/editor-object-selection/05-地形.png",
+      "sha256": "174fec678ec6b7cc378a5f5e3489efbcebfddc594c693fb980d282e5894d5a55"
+    },
+    {
+      "file": "designs/editor-object-selection/06-音乐.png",
+      "sha256": "652b544bdf131e16026ee253e9bef48e62de7ffe9fbe467f935f22d98581ec9b"
+    }
+  ],
+  "operation": "review_contact_sheet_thumbnail_composition_no_new_model_generation"
+}

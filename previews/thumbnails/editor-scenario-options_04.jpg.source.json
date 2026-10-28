@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/editor-scenario-options_04.jpg",
+  "sha256": "14351f4acfd0c5c3662e9f732c9e87f0a9430106754c6151eeca1cfa48b1f2d1",
+  "derivedFrom": [
+    {
+      "file": "designs/editor-scenario-options/04-游客.png",
+      "sha256": "eea9a5bd31e176828bd7a9b114dc263c49002bb5b2efab1b65f36f5f91b6a6c1",
+      "sourceRecord": "designs/editor-scenario-options/04-游客.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

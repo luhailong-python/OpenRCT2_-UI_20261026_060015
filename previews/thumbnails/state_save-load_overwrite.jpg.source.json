@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_save-load_overwrite.jpg",
+  "sha256": "6ab1e7fc305da2c054f31855294e081fa851fb870caca9ae77d07efbdda3cd88",
+  "derivedFrom": [
+    {
+      "file": "previews/states/save-load/overwrite.png",
+      "sha256": "3022e49cf4853f53db1acb4f018b26d0cf94106bdd3e3eb3323ce48ecada7c06",
+      "sourceRecord": "previews/states/save-load/overwrite.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

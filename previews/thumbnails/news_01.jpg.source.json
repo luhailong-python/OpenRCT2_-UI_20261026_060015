@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/news_01.jpg",
+  "sha256": "cf4ebbb7c57201897b1f98c6967a95d219d366b49cd8434e00b9cbaa2b4a310f",
+  "derivedFrom": [
+    {
+      "file": "designs/news/01-近期消息.png",
+      "sha256": "5940e14bdf3c1fb8886b4021601f507183269b31e61f2ff2a47da33fdf8f89f0",
+      "sourceRecord": "designs/news/01-近期消息.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

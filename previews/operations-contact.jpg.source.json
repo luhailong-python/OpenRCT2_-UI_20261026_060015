@@ -1,0 +1,137 @@
+{
+  "file": "previews/operations-contact.jpg",
+  "sha256": "7dca90b972d091396ca6eff2ee70065fecd892960eb323cf075fb8de79ea6c40",
+  "operation": "QA thumbnail montage of26 final operations product previews. Not new model artwork.",
+  "derivedFrom": [
+    {
+      "file": "designs/details/ride-ops/01-overview-closed.png",
+      "sha256": "6c715e5bdd48cc490d53ce840ffa5ff587641875df817023a7ec0f8e388a8076",
+      "sourceRecord": "designs/details/ride-ops/01-overview-closed.source.json"
+    },
+    {
+      "file": "designs/details/ride-ops/02-overview-testing.png",
+      "sha256": "59e2974628ddad053fecef7df223c7b18cf704fbb72fd3c1a9a03d67f7c76cfa",
+      "sourceRecord": "designs/details/ride-ops/02-overview-testing.source.json"
+    },
+    {
+      "file": "designs/details/ride-ops/03-overview-open.png",
+      "sha256": "82a94266128b23e9a2ea643254bdb401d84c546e4f713d44dc4a24ae4ba58fa8",
+      "sourceRecord": "designs/details/ride-ops/03-overview-open.source.json"
+    },
+    {
+      "file": "designs/details/ride-ops/04-overview-simulating.png",
+      "sha256": "c8a364d27c55b7fa8fd10c9cf81d89e5519cf384e16e43a64d76d7dbdef230be",
+      "sourceRecord": "designs/details/ride-ops/04-overview-simulating.source.json"
+    },
+    {
+      "file": "designs/details/ride-ops/05-protected.png",
+      "sha256": "1e7d40f2fab1f62e5b0975a1b41eb64279012e2fb7d2401ef49c2a37f20f4b0b",
+      "sourceRecord": "designs/details/ride-ops/05-protected.source.json"
+    },
+    {
+      "file": "designs/details/ride-ops/06-graph-velocity.png",
+      "sha256": "0b562ffa365a728a9736f511cb982220eaf0e3f7a8a593b8b11ebb62cbb10783",
+      "sourceRecord": "designs/details/ride-ops/06-graph-velocity.source.json"
+    },
+    {
+      "file": "designs/details/ride-ops/07-graph-altitude.png",
+      "sha256": "d5c2f87c210b24944770e2b276a399fc56b5277e6e9f31eaa069e54892199429",
+      "sourceRecord": "designs/details/ride-ops/07-graph-altitude.source.json"
+    },
+    {
+      "file": "designs/details/ride-ops/08-graph-vertical.png",
+      "sha256": "5fe8a8e5949dd2955dc3a57ddaf1140b9bcbb98fbf095abf4a3798b6ec041c29",
+      "sourceRecord": "designs/details/ride-ops/08-graph-vertical.source.json"
+    },
+    {
+      "file": "designs/details/ride-ops/09-graph-lateral.png",
+      "sha256": "34167e89eed262b58dae826fb773fd545b26889b2438c70c442aa2e8c4452185",
+      "sourceRecord": "designs/details/ride-ops/09-graph-lateral.source.json"
+    },
+    {
+      "file": "designs/details/ride-ops/10-shop-prices.png",
+      "sha256": "9cab4c1327aa37f83eab93c97d291f0c70ef38c97f54d674d4cc5e68fac4d860",
+      "sourceRecord": "designs/details/ride-ops/10-shop-prices.source.json"
+    },
+    {
+      "file": "designs/details/ride-ops/11-admission-price-locked.png",
+      "sha256": "846f84c150a3c30fe7adf39fb439d6b5cf190ffab44980e4ca1a49b8f8d74bf4",
+      "sourceRecord": "designs/details/ride-ops/11-admission-price-locked.source.json"
+    },
+    {
+      "file": "designs/details/ride-ops/13-blueprint-entry.png",
+      "sha256": "9a7b358b14a95bf6993014e3dcd81581a001bd355b3712670b7ee30ea9cb85af",
+      "sourceRecord": "designs/details/ride-ops/13-blueprint-entry.source.json"
+    },
+    {
+      "file": "designs/details/ride-ops/14-blueprint-entry-locked.png",
+      "sha256": "1f7755ffdf438dac18753f24b9046bc9299f0bd7cea167f7557e0bfb3572e2db",
+      "sourceRecord": "designs/details/ride-ops/14-blueprint-entry-locked.source.json"
+    },
+    {
+      "file": "designs/details/ride-ops/15-blueprint-scenery-selection.png",
+      "sha256": "31359efe20d989a21f170f00190bce0bd9a2eee63760d9f3393dc04a14456676",
+      "sourceRecord": "designs/details/ride-ops/15-blueprint-scenery-selection.source.json"
+    },
+    {
+      "file": "designs/details/ride-ops/12-rename.png",
+      "sha256": "f200e6f93850d3b5a8ac3cced6bfed9d3866d44da1fff6a251286b45a6e06741",
+      "sourceRecord": "designs/details/ride-ops/12-rename.source.json"
+    },
+    {
+      "file": "designs/details/guest-ops/01-guest-actions.png",
+      "sha256": "ce5a86c04983898562ba648471fe16dab7eb80dab75deae9854151d51f9f6807",
+      "sourceRecord": "designs/details/guest-ops/01-guest-actions.source.json"
+    },
+    {
+      "file": "designs/details/guest-ops/02-pickup-unavailable.png",
+      "sha256": "0d3048184d799f6b4b6ef80f32b23f78325c1cf9d6b9b4f02da8a6319183b221",
+      "sourceRecord": "designs/details/guest-ops/02-pickup-unavailable.source.json"
+    },
+    {
+      "file": "designs/details/guest-ops/03-pickup-placement.png",
+      "sha256": "f297c705f97a9aa49caecfe85c579c9dea29543121c696f96c0521c068524bd0",
+      "sourceRecord": "designs/details/guest-ops/03-pickup-placement.source.json"
+    },
+    {
+      "file": "designs/details/guest-ops/04-rename.png",
+      "sha256": "7c8c78b68ce5c3c1f4b20ed59684bd5274a30c699506e06aae46fd2dd6c2f1d7",
+      "sourceRecord": "designs/details/guest-ops/04-rename.source.json"
+    },
+    {
+      "file": "designs/details/park-ops/01-park-actions.png",
+      "sha256": "eb5be8edbed8bf4bb100ce593ebc59c3f57a1dbd36caab32d005ea3e51381cd5",
+      "sourceRecord": "designs/details/park-ops/01-park-actions.source.json"
+    },
+    {
+      "file": "designs/details/park-ops/02-objective-keeps-open.png",
+      "sha256": "8661193a4dad0daed973ebe31653418db334f7aa1f4dd2810ba7ce6024df619f",
+      "sourceRecord": "designs/details/park-ops/02-objective-keeps-open.source.json"
+    },
+    {
+      "file": "designs/details/park-ops/03-no-money-actions.png",
+      "sha256": "668b5745a243aac6850c649f614060956d8d809d75d3e33c1f2ab9c4a6c93746",
+      "sourceRecord": "designs/details/park-ops/03-no-money-actions.source.json"
+    },
+    {
+      "file": "designs/details/park-ops/04-ticket-price.png",
+      "sha256": "7e54767697fa664c95d18081a252d7addcd884e51b9d9a95ec9b243274f7ca3d",
+      "sourceRecord": "designs/details/park-ops/04-ticket-price.source.json"
+    },
+    {
+      "file": "designs/details/park-ops/05-ticket-free-locked.png",
+      "sha256": "26187bb86640dc56e7eaa5a9d263b265864fd41753a97c55bbc616e534e472eb",
+      "sourceRecord": "designs/details/park-ops/05-ticket-free-locked.source.json"
+    },
+    {
+      "file": "designs/details/park-ops/06-rename.png",
+      "sha256": "a6754adca499ed4306158448511d39c9d301ec09b4674847b7906ec1c9f5feef",
+      "sourceRecord": "designs/details/park-ops/06-rename.source.json"
+    },
+    {
+      "file": "designs/details/park-ops/07-completion-name-entry.png",
+      "sha256": "bb7d77714e96fb39c5ae5985f0afb12824e1fd2ef01b68b8a61ecb2d38cee89f",
+      "sourceRecord": "designs/details/park-ops/07-completion-name-entry.source.json"
+    }
+  ]
+}

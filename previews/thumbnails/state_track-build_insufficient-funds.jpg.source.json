@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_track-build_insufficient-funds.jpg",
+  "sha256": "fc4ee0ef089c446b800e1f60db647fe8804a770033502a77f58fffd01152773a",
+  "derivedFrom": [
+    {
+      "file": "previews/states/track-build/insufficient-funds.png",
+      "sha256": "4d4a52b9d68cfaaac5a5b086a6e8cf357a4362e200bd74cf273b619d2f04b9e5",
+      "sourceRecord": "previews/states/track-build/insufficient-funds.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

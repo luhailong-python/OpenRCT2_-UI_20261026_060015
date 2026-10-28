@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_map-gen_09-forest-disabled.jpg",
+  "sha256": "f45742aae10b1dc6456f003cfa69971f72d32eea9e24951c34e96e00bbcd4dab",
+  "derivedFrom": [
+    {
+      "file": "designs/details/map-gen/09-forest-disabled.png",
+      "sha256": "20bac17082852f921ac9b579db0d45bf07ca5e4a92d474fd61b1e33799d54d3e",
+      "sourceRecord": "designs/details/map-gen/09-forest-disabled.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

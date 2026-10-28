@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/title-options_01.jpg",
+  "sha256": "c66645590bcb1fd128febedc6f211b8486a1ffae0486ce40797685fa97f7570d",
+  "derivedFrom": [
+    {
+      "file": "designs/title-options/01-设置入口.png",
+      "sha256": "8db237913401aa50366284b391501fc0a7420b9ebbabde337fd18e94c8e96b1b",
+      "sourceRecord": "designs/title-options/01-设置入口.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

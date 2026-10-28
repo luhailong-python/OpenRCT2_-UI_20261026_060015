@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/research_02.jpg",
+  "sha256": "624cd160b13c4cd460f95814f03502686762320b0791c18f58061dff93d26ddb",
+  "derivedFrom": [
+    {
+      "file": "designs/research/02-经费.png",
+      "sha256": "8ecec3fb3289e3ae6013cc52d1911601843cfbf606da9aa3249455efaf919920",
+      "sourceRecord": "designs/research/02-经费.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

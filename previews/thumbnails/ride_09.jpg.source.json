@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/ride_09.jpg",
+  "sha256": "ecc8038e283b7ee6630b2e82963da6e9e633c02f31ad6c72adf9a5f94b9d22da",
+  "derivedFrom": [
+    {
+      "file": "designs/ride/09-收入.png",
+      "sha256": "fe10da7f8f60b41efd2740b77460a10ad06ae5e8bdb1ac678817ad85385f9bc0",
+      "sourceRecord": "designs/ride/09-收入.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

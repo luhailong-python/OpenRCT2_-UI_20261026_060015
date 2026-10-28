@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/operations_ride_06-graph-velocity.jpg",
+  "sha256": "e06c05da1997e630dc0d805a715ef91af54f8360f7da0cfa016518ad84c3ddeb",
+  "derivedFrom": [
+    {
+      "file": "designs/details/ride-ops/06-graph-velocity.png",
+      "sha256": "0b562ffa365a728a9736f511cb982220eaf0e3f7a8a593b8b11ebb62cbb10783",
+      "sourceRecord": "designs/details/ride-ops/06-graph-velocity.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

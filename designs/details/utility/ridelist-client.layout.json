@@ -1,0 +1,1274 @@
+{
+  "schemaVersion": 1,
+  "screenId": "utility-detail:ridelist-client",
+  "title": "设施总览 · 设施列表、列选择与批量管理",
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "origin": "top-left",
+  "textLayers": [
+    {
+      "id": "text-001",
+      "text": "设施总览",
+      "role": "dynamic-text",
+      "region": [
+        620,
+        66,
+        680,
+        75
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 46,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 65,
+      "wrappedLines": [
+        "设施总览"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-002",
+      "text": "游乐设施",
+      "role": "dynamic-text",
+      "region": [
+        128,
+        208,
+        290,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 26,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 36,
+      "wrappedLines": [
+        "游乐设施"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-003",
+      "text": "商店摊位",
+      "role": "dynamic-text",
+      "region": [
+        470,
+        208,
+        290,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 26,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 36,
+      "wrappedLines": [
+        "商店摊位"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-004",
+      "text": "服务设施",
+      "role": "dynamic-text",
+      "region": [
+        812,
+        208,
+        290,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 26,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 36,
+      "wrappedLines": [
+        "服务设施"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-005",
+      "text": "游乐设施",
+      "role": "dynamic-text",
+      "region": [
+        118,
+        300,
+        1664,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 32,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 45,
+      "wrappedLines": [
+        "游乐设施"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-006",
+      "text": "美术设计样例 · 名称 / 数值待定",
+      "role": "dynamic-text",
+      "region": [
+        600,
+        1046,
+        720,
+        28
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "美术设计样例 · 名称 / 数值待定"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-007",
+      "text": "设施列表、列选择与批量管理",
+      "role": "dynamic-text",
+      "region": [
+        115,
+        865,
+        1674,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#7A745E",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "设施列表、列选择与批量管理"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-008",
+      "text": "多人客户端隐藏快速拆除入口；批量开关仍按权限处理。",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        1002,
+        1660,
+        30
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "多人客户端隐藏快速拆除入口；批量开关仍按权限处理。"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-009",
+      "text": "搜索设施",
+      "role": "dynamic-text",
+      "region": [
+        115,
+        390,
+        275,
+        56
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "搜索设施"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-010",
+      "text": "",
+      "role": "dynamic-text",
+      "region": [
+        450,
+        394,
+        563,
+        44
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "center",
+      "lineHeight": 31,
+      "wrappedLines": [
+        ""
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-011",
+      "text": "清除",
+      "role": "dynamic-text",
+      "region": [
+        1083,
+        392,
+        132,
+        42
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "清除"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-012",
+      "text": "全部开关",
+      "role": "dynamic-text",
+      "region": [
+        1293,
+        391,
+        457,
+        34
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 24,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "全部开关"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-013",
+      "text": "▼",
+      "role": "dynamic-text",
+      "region": [
+        1730,
+        398,
+        30,
+        37
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 21,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 29,
+      "wrappedLines": [
+        "▼"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-014",
+      "text": "设施名称（升序）",
+      "role": "dynamic-text",
+      "region": [
+        145,
+        494,
+        433,
+        44
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "设施名称（升序）"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-015",
+      "text": "营业状态",
+      "role": "dynamic-text",
+      "region": [
+        623,
+        494,
+        735,
+        44
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "营业状态"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-016",
+      "text": "游龙飞车",
+      "role": "dynamic-text",
+      "region": [
+        145,
+        565,
+        430,
+        59
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "游龙飞车"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-017",
+      "text": "开放",
+      "role": "dynamic-text",
+      "region": [
+        623,
+        565,
+        732,
+        59
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "开放"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-018",
+      "text": "云游小火车",
+      "role": "dynamic-text",
+      "region": [
+        145,
+        643,
+        430,
+        59
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "云游小火车"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-019",
+      "text": "试车",
+      "role": "dynamic-text",
+      "region": [
+        623,
+        643,
+        732,
+        59
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "试车"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-020",
+      "text": "竹影水道",
+      "role": "dynamic-text",
+      "region": [
+        145,
+        721,
+        430,
+        59
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "竹影水道"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-021",
+      "text": "关闭",
+      "role": "dynamic-text",
+      "region": [
+        623,
+        721,
+        732,
+        59
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "关闭"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-022",
+      "text": "显示信息",
+      "role": "dynamic-text",
+      "region": [
+        1425,
+        482,
+        322,
+        42
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "显示信息"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-023",
+      "text": "▼",
+      "role": "dynamic-text",
+      "region": [
+        1727,
+        489,
+        30,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 21,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 29,
+      "wrappedLines": [
+        "▼"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-024",
+      "text": "营业状态",
+      "role": "dynamic-text",
+      "region": [
+        1460,
+        568,
+        252,
+        37
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "营业状态"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-025",
+      "text": "受欢迎程度",
+      "role": "dynamic-text",
+      "region": [
+        1460,
+        623,
+        252,
+        37
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "受欢迎程度"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-026",
+      "text": "满意度",
+      "role": "dynamic-text",
+      "region": [
+        1460,
+        678,
+        252,
+        37
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "满意度"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-027",
+      "text": "每小时利润",
+      "role": "dynamic-text",
+      "region": [
+        1460,
+        733,
+        252,
+        37
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "每小时利润"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-028",
+      "text": "返回园区",
+      "role": "dynamic-text",
+      "region": [
+        1616,
+        924,
+        148,
+        38
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "返回园区"
+      ],
+      "dynamic": true
+    }
+  ],
+  "artAndControlLayers": [
+    {
+      "role": "park-background",
+      "asset": "assets/backgrounds/park-day-native.png",
+      "region": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "resize": "cover"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_main.png",
+      "region": [
+        52,
+        96,
+        1816,
+        930
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "title-plaque",
+      "asset": "assets/common/title_plate.png",
+      "region": [
+        520,
+        22,
+        880,
+        170
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "close",
+      "asset": "assets/common/close.png",
+      "region": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_selected.png",
+      "region": [
+        108,
+        200,
+        330,
+        66
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        450,
+        200,
+        330,
+        66
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        792,
+        200,
+        330,
+        66
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "detail-text",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        407,
+        383,
+        627,
+        62
+      ],
+      "resize": "nine",
+      "sourceControlKey": "RideList:WIDX_SEARCH_TEXT_BOX"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1059,
+        384,
+        180,
+        62
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "RideList:WIDX_SEARCH_CLEAR_BUTTON"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/primary_normal.png",
+      "region": [
+        1269,
+        384,
+        505,
+        62
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "RideList:WIDX_OPEN_CLOSE_ALL"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_card.png",
+      "region": [
+        110,
+        474,
+        1259,
+        386
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "selected-data-row",
+      "asset": "assets/common/secondary_selected.png",
+      "region": [
+        130,
+        554,
+        1219,
+        71
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1401,
+        475,
+        370,
+        61
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "RideList:WIDX_HEADER_CUSTOMISE"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_card.png",
+      "region": [
+        1401,
+        559,
+        370,
+        220
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "menu-selected-item",
+      "asset": "assets/common/secondary_selected.png",
+      "region": [
+        1425,
+        567,
+        322,
+        39
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/primary_normal.png",
+      "region": [
+        1592,
+        916,
+        196,
+        70
+      ],
+      "resize": "nine",
+      "state": "normal"
+    }
+  ],
+  "dataDiagrams": [
+    {
+      "role": "data-rule",
+      "points": [
+        [
+          118,
+          358
+        ],
+        [
+          1786,
+          358
+        ]
+      ],
+      "color": "#B28C43",
+      "width": 1
+    }
+  ],
+  "layoutIssues": [],
+  "fontDistribution": "Official OFL-licensed fonts are included in assets/fonts; see records/font-sources.json.",
+  "status": "produced_pending_review",
+  "sourceControlBindings": [
+    {
+      "unit": "RideList",
+      "controlId": "WIDX_BACKGROUND",
+      "sourceControlKey": "RideList:WIDX_BACKGROUND",
+      "rectTopLeftXYWH": [
+        52,
+        96,
+        1816,
+        930
+      ],
+      "role": "window-structure",
+      "sourcePageGroups": [
+        "游乐设施",
+        "商店摊位",
+        "服务设施"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/RideList.cpp",
+        "line": 52
+      },
+      "sourceWidgetType": "frame",
+      "condition": "多人客户端隐藏快速拆除入口；批量开关仍按权限处理。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "RideList",
+      "controlId": "WIDX_TITLE",
+      "sourceControlKey": "RideList:WIDX_TITLE",
+      "rectTopLeftXYWH": [
+        520,
+        22,
+        880,
+        170
+      ],
+      "role": "window-structure",
+      "sourcePageGroups": [
+        "游乐设施",
+        "商店摊位",
+        "服务设施"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/RideList.cpp",
+        "line": 53
+      },
+      "sourceWidgetType": "caption",
+      "condition": "多人客户端隐藏快速拆除入口；批量开关仍按权限处理。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "RideList",
+      "controlId": "WIDX_CLOSE",
+      "sourceControlKey": "RideList:WIDX_CLOSE",
+      "rectTopLeftXYWH": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "role": "window-structure",
+      "sourcePageGroups": [
+        "游乐设施",
+        "商店摊位",
+        "服务设施"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/RideList.cpp",
+        "line": 54
+      },
+      "sourceWidgetType": "closeBox",
+      "condition": "多人客户端隐藏快速拆除入口；批量开关仍按权限处理。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "RideList",
+      "controlId": "WIDX_TAB_1",
+      "sourceControlKey": "RideList:WIDX_TAB_1",
+      "rectTopLeftXYWH": [
+        108,
+        200,
+        330,
+        66
+      ],
+      "role": "source-navigation",
+      "sourcePageGroups": [
+        "游乐设施",
+        "商店摊位",
+        "服务设施"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/RideList.cpp",
+        "line": 57
+      },
+      "sourceWidgetType": "tab",
+      "condition": "多人客户端隐藏快速拆除入口；批量开关仍按权限处理。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "RideList",
+      "controlId": "WIDX_TAB_2",
+      "sourceControlKey": "RideList:WIDX_TAB_2",
+      "rectTopLeftXYWH": [
+        450,
+        200,
+        330,
+        66
+      ],
+      "role": "source-navigation",
+      "sourcePageGroups": [
+        "游乐设施",
+        "商店摊位",
+        "服务设施"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/RideList.cpp",
+        "line": 58
+      },
+      "sourceWidgetType": "tab",
+      "condition": "多人客户端隐藏快速拆除入口；批量开关仍按权限处理。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "RideList",
+      "controlId": "WIDX_TAB_3",
+      "sourceControlKey": "RideList:WIDX_TAB_3",
+      "rectTopLeftXYWH": [
+        792,
+        200,
+        330,
+        66
+      ],
+      "role": "source-navigation",
+      "sourcePageGroups": [
+        "游乐设施",
+        "商店摊位",
+        "服务设施"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/RideList.cpp",
+        "line": 59
+      },
+      "sourceWidgetType": "tab",
+      "condition": "多人客户端隐藏快速拆除入口；批量开关仍按权限处理。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "RideList",
+      "controlId": "WIDX_SEARCH_TEXT_BOX",
+      "sourceControlKey": "RideList:WIDX_SEARCH_TEXT_BOX",
+      "rectTopLeftXYWH": [
+        407,
+        383,
+        627,
+        62
+      ],
+      "role": "text",
+      "sourcePageGroups": [
+        "游乐设施",
+        "商店摊位",
+        "服务设施"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/RideList.cpp",
+        "line": 60
+      },
+      "sourceWidgetType": "textBox",
+      "condition": "多人客户端隐藏快速拆除入口；批量开关仍按权限处理。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "RideList",
+      "controlId": "WIDX_SEARCH_CLEAR_BUTTON",
+      "sourceControlKey": "RideList:WIDX_SEARCH_CLEAR_BUTTON",
+      "rectTopLeftXYWH": [
+        1059,
+        384,
+        180,
+        62
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "游乐设施",
+        "商店摊位",
+        "服务设施"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/RideList.cpp",
+        "line": 61
+      },
+      "sourceWidgetType": "button",
+      "condition": "多人客户端隐藏快速拆除入口；批量开关仍按权限处理。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "RideList",
+      "controlId": "WIDX_OPEN_CLOSE_ALL",
+      "sourceControlKey": "RideList:WIDX_OPEN_CLOSE_ALL",
+      "rectTopLeftXYWH": [
+        1269,
+        384,
+        505,
+        62
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "游乐设施",
+        "商店摊位",
+        "服务设施"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/RideList.cpp",
+        "line": 56
+      },
+      "sourceWidgetType": "flatBtn",
+      "condition": "多人客户端隐藏快速拆除入口；批量开关仍按权限处理。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "RideList",
+      "controlId": "WIDX_LIST",
+      "sourceControlKey": "RideList:WIDX_LIST",
+      "rectTopLeftXYWH": [
+        110,
+        474,
+        1259,
+        386
+      ],
+      "role": "selectable-data-list",
+      "sourcePageGroups": [
+        "游乐设施",
+        "商店摊位",
+        "服务设施"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/RideList.cpp",
+        "line": 65
+      },
+      "sourceWidgetType": "scroll",
+      "condition": "多人客户端隐藏快速拆除入口；批量开关仍按权限处理。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "RideList",
+      "controlId": "WIDX_HEADER_NAME",
+      "sourceControlKey": "RideList:WIDX_HEADER_NAME",
+      "rectTopLeftXYWH": [
+        145,
+        494,
+        433,
+        44
+      ],
+      "role": "sort-name-header",
+      "sourcePageGroups": [
+        "游乐设施",
+        "商店摊位",
+        "服务设施"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/RideList.cpp",
+        "line": 62
+      },
+      "sourceWidgetType": "tableHeader",
+      "condition": "多人客户端隐藏快速拆除入口；批量开关仍按权限处理。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "RideList",
+      "controlId": "WIDX_HEADER_OTHER",
+      "sourceControlKey": "RideList:WIDX_HEADER_OTHER",
+      "rectTopLeftXYWH": [
+        623,
+        494,
+        680,
+        44
+      ],
+      "role": "sort-information-header",
+      "sourcePageGroups": [
+        "游乐设施",
+        "商店摊位",
+        "服务设施"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/RideList.cpp",
+        "line": 63
+      },
+      "sourceWidgetType": "tableHeader",
+      "condition": "多人客户端隐藏快速拆除入口；批量开关仍按权限处理。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "RideList",
+      "controlId": "WIDX_HEADER_CUSTOMISE",
+      "sourceControlKey": "RideList:WIDX_HEADER_CUSTOMISE",
+      "rectTopLeftXYWH": [
+        1401,
+        475,
+        370,
+        61
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "游乐设施",
+        "商店摊位",
+        "服务设施"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/RideList.cpp",
+        "line": 64
+      },
+      "sourceWidgetType": "button",
+      "condition": "多人客户端隐藏快速拆除入口；批量开关仍按权限处理。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "RideList",
+      "controlId": "WIDX_HEADER_CUSTOMISE",
+      "sourceControlKey": "RideList:WIDX_HEADER_CUSTOMISE",
+      "rectTopLeftXYWH": [
+        1425,
+        567,
+        322,
+        39
+      ],
+      "role": "opened-menu-item",
+      "sourcePageGroups": [
+        "游乐设施",
+        "商店摊位",
+        "服务设施"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/RideList.cpp",
+        "line": 64
+      },
+      "sourceWidgetType": "button",
+      "condition": "多人客户端隐藏快速拆除入口；批量开关仍按权限处理。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated",
+      "subpart": {
+        "optionLabel": "营业状态"
+      }
+    },
+    {
+      "unit": "RideList",
+      "controlId": "WIDX_HEADER_CUSTOMISE",
+      "sourceControlKey": "RideList:WIDX_HEADER_CUSTOMISE",
+      "rectTopLeftXYWH": [
+        1425,
+        622,
+        322,
+        39
+      ],
+      "role": "opened-menu-item",
+      "sourcePageGroups": [
+        "游乐设施",
+        "商店摊位",
+        "服务设施"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/RideList.cpp",
+        "line": 64
+      },
+      "sourceWidgetType": "button",
+      "condition": "多人客户端隐藏快速拆除入口；批量开关仍按权限处理。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated",
+      "subpart": {
+        "optionLabel": "受欢迎程度"
+      }
+    },
+    {
+      "unit": "RideList",
+      "controlId": "WIDX_HEADER_CUSTOMISE",
+      "sourceControlKey": "RideList:WIDX_HEADER_CUSTOMISE",
+      "rectTopLeftXYWH": [
+        1425,
+        677,
+        322,
+        39
+      ],
+      "role": "opened-menu-item",
+      "sourcePageGroups": [
+        "游乐设施",
+        "商店摊位",
+        "服务设施"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/RideList.cpp",
+        "line": 64
+      },
+      "sourceWidgetType": "button",
+      "condition": "多人客户端隐藏快速拆除入口；批量开关仍按权限处理。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated",
+      "subpart": {
+        "optionLabel": "满意度"
+      }
+    },
+    {
+      "unit": "RideList",
+      "controlId": "WIDX_HEADER_CUSTOMISE",
+      "sourceControlKey": "RideList:WIDX_HEADER_CUSTOMISE",
+      "rectTopLeftXYWH": [
+        1425,
+        732,
+        322,
+        39
+      ],
+      "role": "opened-menu-item",
+      "sourcePageGroups": [
+        "游乐设施",
+        "商店摊位",
+        "服务设施"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/RideList.cpp",
+        "line": 64
+      },
+      "sourceWidgetType": "button",
+      "condition": "多人客户端隐藏快速拆除入口；批量开关仍按权限处理。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated",
+      "subpart": {
+        "optionLabel": "每小时利润"
+      }
+    }
+  ],
+  "productDetailPurpose": "additional_actual_product_ui_layout"
+}

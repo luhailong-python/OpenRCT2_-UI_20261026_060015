@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/ride_06.jpg",
+  "sha256": "cb68c0aae2b8893ef63746ccab6921aa056844973003b49ae4ddfb6d721d228f",
+  "derivedFrom": [
+    {
+      "file": "designs/ride/06-音乐.png",
+      "sha256": "197be80a4d2dc1fe2ef8a5fc97efca3451999028e8449e73d5c5c7349b5f6d19",
+      "sourceRecord": "designs/ride/06-音乐.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

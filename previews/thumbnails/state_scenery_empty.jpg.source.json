@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_scenery_empty.jpg",
+  "sha256": "6005a30124a089bb4aaef4bdeadd062169a60ad23540118f545745a63d58cdba",
+  "derivedFrom": [
+    {
+      "file": "previews/states/scenery/empty.png",
+      "sha256": "c12e06253ee46b48a79abf45634360b5da28cfefad871b06ab3d9a5916f99851",
+      "sourceRecord": "previews/states/scenery/empty.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

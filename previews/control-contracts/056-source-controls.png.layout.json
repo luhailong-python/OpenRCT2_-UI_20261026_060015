@@ -1,0 +1,380 @@
+{
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "purpose": "technical_style_contract_not_product_screen",
+  "controls": [
+    {
+      "unit": "Options",
+      "controlId": "WIDX_TAB_CONTROLS",
+      "rectTopLeftXYWH": [
+        58,
+        146,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        229,
+        554,
+        98
+      ],
+      "sourceWidgetType": "tab",
+      "sourceLabelDisplayed": "控制",
+      "existingTargetScreenGroups": [
+        "显示",
+        "渲染",
+        "文化",
+        "声音",
+        "界面",
+        "操作",
+        "杂项",
+        "高级"
+      ],
+      "formalAssets": [
+        "assets/common/tab_normal.png",
+        "assets/common/tab_pressed.png",
+        "assets/common/tab_selected.png",
+        "assets/common/tab_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Options",
+      "controlId": "WIDX_TAB_MISC",
+      "rectTopLeftXYWH": [
+        665,
+        146,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        229,
+        554,
+        98
+      ],
+      "sourceWidgetType": "tab",
+      "sourceLabelDisplayed": "杂项",
+      "existingTargetScreenGroups": [
+        "显示",
+        "渲染",
+        "文化",
+        "声音",
+        "界面",
+        "操作",
+        "杂项",
+        "高级"
+      ],
+      "formalAssets": [
+        "assets/common/tab_normal.png",
+        "assets/common/tab_pressed.png",
+        "assets/common/tab_selected.png",
+        "assets/common/tab_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Options",
+      "controlId": "WIDX_TAB_ADVANCED",
+      "rectTopLeftXYWH": [
+        1272,
+        146,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        229,
+        554,
+        98
+      ],
+      "sourceWidgetType": "tab",
+      "sourceLabelDisplayed": "高级",
+      "existingTargetScreenGroups": [
+        "显示",
+        "渲染",
+        "文化",
+        "声音",
+        "界面",
+        "操作",
+        "杂项",
+        "高级"
+      ],
+      "formalAssets": [
+        "assets/common/tab_normal.png",
+        "assets/common/tab_pressed.png",
+        "assets/common/tab_selected.png",
+        "assets/common/tab_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Options",
+      "controlId": "WIDX_PAGE_START",
+      "rectTopLeftXYWH": [
+        58,
+        368,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        451,
+        554,
+        98
+      ],
+      "sourceWidgetType": "enum-index-marker",
+      "sourceLabelDisplayed": "索引别名：复用对应控件",
+      "existingTargetScreenGroups": [
+        "显示",
+        "渲染",
+        "文化",
+        "声音",
+        "界面",
+        "操作",
+        "杂项",
+        "高级"
+      ],
+      "formalAssets": [],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Options",
+      "controlId": "WIDX_WINDOW_GROUP",
+      "rectTopLeftXYWH": [
+        665,
+        368,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        451,
+        554,
+        98
+      ],
+      "sourceWidgetType": "groupbox",
+      "sourceLabelDisplayed": "窗口",
+      "existingTargetScreenGroups": [
+        "显示"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Options",
+      "controlId": "WIDX_FULLSCREEN_LABEL",
+      "rectTopLeftXYWH": [
+        1272,
+        368,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        451,
+        554,
+        98
+      ],
+      "sourceWidgetType": "label",
+      "sourceLabelDisplayed": "显示模式",
+      "existingTargetScreenGroups": [
+        "显示"
+      ],
+      "formalAssets": [],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Options",
+      "controlId": "WIDX_FULLSCREEN",
+      "rectTopLeftXYWH": [
+        58,
+        590,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        673,
+        554,
+        98
+      ],
+      "sourceWidgetType": "dropdownMenu",
+      "sourceLabelDisplayed": "下拉选择",
+      "existingTargetScreenGroups": [
+        "显示"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Options",
+      "controlId": "WIDX_FULLSCREEN_DROPDOWN",
+      "rectTopLeftXYWH": [
+        665,
+        590,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        673,
+        554,
+        98
+      ],
+      "sourceWidgetType": "button",
+      "sourceLabelDisplayed": "▼",
+      "existingTargetScreenGroups": [
+        "显示"
+      ],
+      "formalAssets": [
+        "assets/common/secondary_normal.png",
+        "assets/common/secondary_pressed.png",
+        "assets/common/secondary_selected.png",
+        "assets/common/secondary_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Options",
+      "controlId": "WIDX_RESOLUTION_LABEL",
+      "rectTopLeftXYWH": [
+        1272,
+        590,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        673,
+        554,
+        98
+      ],
+      "sourceWidgetType": "label",
+      "sourceLabelDisplayed": "屏幕分辨率",
+      "existingTargetScreenGroups": [
+        "显示"
+      ],
+      "formalAssets": [],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Options",
+      "controlId": "WIDX_RESOLUTION",
+      "rectTopLeftXYWH": [
+        58,
+        812,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        895,
+        554,
+        98
+      ],
+      "sourceWidgetType": "dropdownMenu",
+      "sourceLabelDisplayed": "下拉选择",
+      "existingTargetScreenGroups": [
+        "显示"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Options",
+      "controlId": "WIDX_RESOLUTION_DROPDOWN",
+      "rectTopLeftXYWH": [
+        665,
+        812,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        895,
+        554,
+        98
+      ],
+      "sourceWidgetType": "button",
+      "sourceLabelDisplayed": "▼",
+      "existingTargetScreenGroups": [
+        "显示"
+      ],
+      "formalAssets": [
+        "assets/common/secondary_normal.png",
+        "assets/common/secondary_pressed.png",
+        "assets/common/secondary_selected.png",
+        "assets/common/secondary_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Options",
+      "controlId": "WIDX_SCALE_LABEL",
+      "rectTopLeftXYWH": [
+        1272,
+        812,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        895,
+        554,
+        98
+      ],
+      "sourceWidgetType": "label",
+      "sourceLabelDisplayed": "窗口缩放比例",
+      "existingTargetScreenGroups": [
+        "显示"
+      ],
+      "formalAssets": [],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    }
+  ]
+}

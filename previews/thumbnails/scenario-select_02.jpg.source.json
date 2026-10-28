@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/scenario-select_02.jpg",
+  "sha256": "71ce291ebac31c20792401c8bb0b4a9cb07cc53778ff589b196abf00258379eb",
+  "derivedFrom": [
+    {
+      "file": "designs/scenario-select/02-RCT1新增设施.png",
+      "sha256": "fd6f5d70fc068aa370d8bcdf1c6e246136866db3ed3910c6a78a31467b29a595",
+      "sourceRecord": "designs/scenario-select/02-RCT1新增设施.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

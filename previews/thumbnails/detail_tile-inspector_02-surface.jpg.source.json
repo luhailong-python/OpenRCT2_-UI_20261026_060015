@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_tile-inspector_02-surface.jpg",
+  "sha256": "6f24b645d735c985aeeb3902710370bcce9d88a4a7c1ba7159b8a29a5ff355fe",
+  "derivedFrom": [
+    {
+      "file": "designs/details/tile-inspector/02-surface.png",
+      "sha256": "64b54ba04679f029c936b7a823cef670bebc34410251b8920b29c2918acee45a",
+      "sourceRecord": "designs/details/tile-inspector/02-surface.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

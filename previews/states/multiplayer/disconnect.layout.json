@@ -1,0 +1,971 @@
+{
+  "schemaVersion": 1,
+  "screenId": "state:multiplayer:disconnect",
+  "title": "多人协作 · 连接已断开",
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "origin": "top-left",
+  "textLayers": [
+    {
+      "id": "text-001",
+      "text": "云游仙苑",
+      "role": "dynamic-text",
+      "region": [
+        48,
+        32,
+        240,
+        52
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 33,
+      "color": "#FFF8DF",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 46,
+      "wrappedLines": [
+        "云游仙苑"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-002",
+      "text": "暂名 · 经营园区",
+      "role": "dynamic-text",
+      "region": [
+        49,
+        81,
+        240,
+        30
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 20,
+      "color": "#FFF8DF",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 28,
+      "wrappedLines": [
+        "暂名 · 经营园区"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-003",
+      "text": "暂停",
+      "role": "dynamic-text",
+      "region": [
+        324,
+        79,
+        90,
+        32
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "暂停"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-004",
+      "text": "加速",
+      "role": "dynamic-text",
+      "region": [
+        433,
+        79,
+        90,
+        32
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "加速"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-005",
+      "text": "文件",
+      "role": "dynamic-text",
+      "region": [
+        542,
+        79,
+        90,
+        32
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "文件"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-006",
+      "text": "视图",
+      "role": "dynamic-text",
+      "region": [
+        651,
+        79,
+        90,
+        32
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "视图"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-007",
+      "text": "地形",
+      "role": "dynamic-text",
+      "region": [
+        760,
+        79,
+        90,
+        32
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "地形"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-008",
+      "text": "步道",
+      "role": "dynamic-text",
+      "region": [
+        869,
+        79,
+        90,
+        32
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "步道"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-009",
+      "text": "设施",
+      "role": "dynamic-text",
+      "region": [
+        978,
+        79,
+        90,
+        32
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "设施"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-010",
+      "text": "景观",
+      "role": "dynamic-text",
+      "region": [
+        1087,
+        79,
+        90,
+        32
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "景观"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-011",
+      "text": "游客",
+      "role": "dynamic-text",
+      "region": [
+        1196,
+        79,
+        90,
+        32
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "游客"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-012",
+      "text": "员工",
+      "role": "dynamic-text",
+      "region": [
+        1305,
+        79,
+        90,
+        32
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "员工"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-013",
+      "text": "财务",
+      "role": "dynamic-text",
+      "region": [
+        1414,
+        79,
+        90,
+        32
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "财务"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-014",
+      "text": "研究",
+      "role": "dynamic-text",
+      "region": [
+        1523,
+        79,
+        90,
+        32
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "研究"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-015",
+      "text": "消息",
+      "role": "dynamic-text",
+      "region": [
+        1632,
+        79,
+        90,
+        32
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "消息"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-016",
+      "text": "联机",
+      "role": "dynamic-text",
+      "region": [
+        1741,
+        79,
+        90,
+        32
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "联机"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-017",
+      "text": "现金",
+      "role": "dynamic-text",
+      "region": [
+        66,
+        991,
+        92,
+        34
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#FFF8DF",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "现金"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-018",
+      "text": "128,400 铜钱",
+      "role": "dynamic-text",
+      "region": [
+        148,
+        989,
+        275,
+        40
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "128,400 铜钱"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-019",
+      "text": "游客",
+      "role": "dynamic-text",
+      "region": [
+        432,
+        991,
+        92,
+        34
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#FFF8DF",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "游客"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-020",
+      "text": "1,280 人",
+      "role": "dynamic-text",
+      "region": [
+        514,
+        989,
+        275,
+        40
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "1,280 人"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-021",
+      "text": "评分",
+      "role": "dynamic-text",
+      "region": [
+        798,
+        991,
+        92,
+        34
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#FFF8DF",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "评分"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-022",
+      "text": "820 / 999",
+      "role": "dynamic-text",
+      "region": [
+        880,
+        989,
+        275,
+        40
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "820 / 999"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-023",
+      "text": "日期",
+      "role": "dynamic-text",
+      "region": [
+        1164,
+        991,
+        92,
+        34
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#FFF8DF",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "日期"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-024",
+      "text": "第 3 年 · 6 月 15 日",
+      "role": "dynamic-text",
+      "region": [
+        1246,
+        989,
+        275,
+        40
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "第 3 年 · 6 月 15 日"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-025",
+      "text": "天气",
+      "role": "dynamic-text",
+      "region": [
+        1530,
+        991,
+        92,
+        34
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#FFF8DF",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "天气"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-026",
+      "text": "晴朗 · 24°C",
+      "role": "dynamic-text",
+      "region": [
+        1612,
+        989,
+        275,
+        40
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "晴朗 · 24°C"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-027",
+      "text": "美术设计样例 · 名称 / 数值待定",
+      "role": "dynamic-text",
+      "region": [
+        600,
+        1046,
+        720,
+        28
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "美术设计样例 · 名称 / 数值待定"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-028",
+      "text": "连接已断开",
+      "role": "dynamic-text",
+      "region": [
+        495,
+        325,
+        930,
+        88
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 40,
+      "color": "#AB4537",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 56,
+      "wrappedLines": [
+        "连接已断开"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-029",
+      "text": "显示服务器给出的断开原因。",
+      "role": "dynamic-text",
+      "region": [
+        677,
+        470,
+        750,
+        176
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 28,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "center",
+      "lineHeight": 39,
+      "wrappedLines": [
+        "显示服务器给出的断开原因。"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-030",
+      "text": "返回服务器列表",
+      "role": "dynamic-text",
+      "region": [
+        737,
+        732,
+        242,
+        37
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "返回服务器列表"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-031",
+      "text": "关闭",
+      "role": "dynamic-text",
+      "region": [
+        1045,
+        732,
+        138,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "关闭"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-032",
+      "text": "多人协作",
+      "role": "dynamic-text",
+      "region": [
+        64,
+        1038,
+        520,
+        32
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#FFF8DF",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "多人协作"
+      ],
+      "dynamic": true
+    }
+  ],
+  "artAndControlLayers": [
+    {
+      "role": "park-background",
+      "asset": "assets/backgrounds/park-day-native.png",
+      "region": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "resize": "cover"
+    },
+    {
+      "role": "main-toolbar",
+      "asset": "assets/common/toolbar.png",
+      "region": [
+        24,
+        18,
+        1872,
+        108
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "icon",
+      "asset": "assets/icons/pause.png",
+      "region": [
+        342,
+        25,
+        52,
+        52
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "icon",
+      "asset": "assets/icons/fast_forward.png",
+      "region": [
+        451,
+        25,
+        52,
+        52
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "icon",
+      "asset": "assets/icons/save.png",
+      "region": [
+        560,
+        25,
+        52,
+        52
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "icon",
+      "asset": "assets/icons/display.png",
+      "region": [
+        669,
+        25,
+        52,
+        52
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "icon",
+      "asset": "assets/icons/mountain.png",
+      "region": [
+        778,
+        25,
+        52,
+        52
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "icon",
+      "asset": "assets/icons/path.png",
+      "region": [
+        887,
+        25,
+        52,
+        52
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "icon",
+      "asset": "assets/icons/roller_coaster.png",
+      "region": [
+        996,
+        25,
+        52,
+        52
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "icon",
+      "asset": "assets/icons/pine_tree.png",
+      "region": [
+        1105,
+        25,
+        52,
+        52
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "icon",
+      "asset": "assets/icons/visitor.png",
+      "region": [
+        1214,
+        25,
+        52,
+        52
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "icon",
+      "asset": "assets/icons/mechanic.png",
+      "region": [
+        1323,
+        25,
+        52,
+        52
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "icon",
+      "asset": "assets/icons/coins.png",
+      "region": [
+        1432,
+        25,
+        52,
+        52
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "icon",
+      "asset": "assets/icons/research.png",
+      "region": [
+        1541,
+        25,
+        52,
+        52
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "icon",
+      "asset": "assets/icons/news.png",
+      "region": [
+        1650,
+        25,
+        52,
+        52
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "icon",
+      "asset": "assets/icons/multiplayer.png",
+      "region": [
+        1759,
+        25,
+        52,
+        52
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "status-toolbar",
+      "asset": "assets/common/toolbar.png",
+      "region": [
+        24,
+        974,
+        1872,
+        82
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_main.png",
+      "region": [
+        425,
+        280,
+        1070,
+        550
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "icon",
+      "asset": "assets/icons/warning.png",
+      "region": [
+        493,
+        468,
+        144,
+        144
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/primary_normal.png",
+      "region": [
+        713,
+        724,
+        290,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1021,
+        724,
+        186,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    }
+  ],
+  "dataDiagrams": [
+    {
+      "role": "data-rule",
+      "points": [
+        [
+          487,
+          425
+        ],
+        [
+          1433,
+          425
+        ]
+      ],
+      "color": "#B28C43",
+      "width": 1
+    }
+  ],
+  "layoutIssues": [],
+  "fontDistribution": "Official OFL-licensed fonts are included in assets/fonts; see records/font-sources.json.",
+  "status": "produced_pending_review"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/object-load-error_03.jpg",
+  "sha256": "d2250785583d777e75fd25de1575cdb9c0970638e1faa13b6ac7824f0eb30e56",
+  "derivedFrom": [
+    {
+      "file": "designs/object-load-error/03-失败.png",
+      "sha256": "9fc6660db8fb1bb5153466e5736d9d668314d4898d72d04c3ef75c9d2b855884",
+      "sourceRecord": "designs/object-load-error/03-失败.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

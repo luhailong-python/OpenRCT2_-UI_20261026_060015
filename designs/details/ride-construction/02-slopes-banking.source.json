@@ -1,0 +1,920 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/details/ride-construction/02-slopes-banking.png",
+  "sha256": "683a4c363f77f712d6cc382edfd683747775359161f09b4b197d4f6badba91da",
+  "exportedAt": "2026-10-26T08:00:00.053113-04:00",
+  "width": 1920,
+  "height": 1080,
+  "format": "PNG",
+  "operation": "composite_preview_not_native_generation",
+  "process": [
+    "Nine-slice/contain/cover composition of painted PNG sprites",
+    "Separate Chinese text typesetting and data diagrams"
+  ],
+  "resampling": "LANCZOS where art is fitted; output dimensions do not represent new native generated detail.",
+  "nativeModelClaim": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidencePolicy": "Resolve original AI model/quality through each source asset record; unreported values remain unconfirmed.",
+  "derivedFrom": [
+    {
+      "file": "assets/backgrounds/park-day-native.png",
+      "sha256": "27c3ac998fcd81e675c9a05712ead25c83443b133844c169d1476c3cebe25712",
+      "nativeDimensions": [
+        1672,
+        941
+      ],
+      "generationRecord": "assets/backgrounds/park-day-native.png.generation.json",
+      "derivationRecord": "assets/slice-manifest.json"
+    },
+    {
+      "file": "assets/common/panel_main.png",
+      "sha256": "704856762248133110624f38365e0ff337dd1f2f6304f66298e2230077ebca00",
+      "nativeDimensions": [
+        619,
+        610
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_main.png.source.json"
+    },
+    {
+      "file": "assets/common/title_plate.png",
+      "sha256": "f1011dd30d1ef42cbeedf64f31025c6c77c91ffbbcdd09ef74c065ad1d91ddfe",
+      "nativeDimensions": [
+        594,
+        195
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/title_plate.png.source.json"
+    },
+    {
+      "file": "assets/common/close.png",
+      "sha256": "f9089fdc15bfbfbd496d9c02de94c46b0e1e4052fffa9689de0b461e043737ec",
+      "nativeDimensions": [
+        184,
+        184
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/close.png.source.json"
+    },
+    {
+      "file": "assets/common/panel_card.png",
+      "sha256": "b82ed16e818b3bb86c16a68453bc4b73f1764c6fdb4541c2e470e5c60789568e",
+      "nativeDimensions": [
+        589,
+        558
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_card.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_normal.png",
+      "sha256": "9327a3d9577111e5985e3453a8a201010887c606a094b7e080421417aef3f92e",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_selected.png",
+      "sha256": "119a81554b9e332d698f5c704813cb047fcd4c5c71e9e5c36c7b6df6b4a789b9",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_selected.png.source.json"
+    },
+    {
+      "file": "assets/common/secondary_normal.png",
+      "sha256": "5f6418c0ede62320bc017ef1f00ec1d60a5d5fc34dac8c4e96d0016e6523881f",
+      "nativeDimensions": [
+        256,
+        112
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/secondary_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/primary_selected.png",
+      "sha256": "59c783e4602ec39fc988975d01afb66441b85a13b589a5143c69953e36f7640e",
+      "nativeDimensions": [
+        256,
+        120
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/primary_selected.png.source.json"
+    },
+    {
+      "file": "assets/common/checkbox_on.png",
+      "sha256": "b986cc788cbae485e12a8a778be057715201d11e3d1154776881966b680b77b9",
+      "nativeDimensions": [
+        128,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/checkbox_on.png.source.json"
+    }
+  ],
+  "layoutRecord": "designs/details/ride-construction/02-slopes-banking.layout.json",
+  "functionalReference": {
+    "functionalRepository": "https://github.com/OpenRCT2/OpenRCT2.git",
+    "commit": "52a55c3e8da5972460642bdfed61d091fe9cabfd",
+    "sourceUnit": "RideConstruction",
+    "sourceFiles": [
+      "src/openrct2-ui/windows/RideConstruction.cpp"
+    ],
+    "condition": "非速度设置轨道段，设施支持 flatRollBanking；坡度与链条选项随轨道支持情况启用。",
+    "scope": "Complete controls arranged as an actual product UI proposal; no runtime verification.",
+    "sourceControls": [
+      {
+        "sourceControlKeys": [
+          "RideConstruction:WIDX_SLOPE_DOWN_VERTICAL"
+        ],
+        "unit": "RideConstruction",
+        "controlId": "WIDX_SLOPE_DOWN_VERTICAL",
+        "screenId": "detail:ride-construction:02-slopes-banking",
+        "region": [
+          394,
+          312,
+          682,
+          68
+        ],
+        "visualKind": "button",
+        "label": "垂直下坡",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 119
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/RideConstruction.cpp",
+              "line": 172,
+              "sourceExpression": "makeWidget        ({  6,  88}, {              24,  24}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_RIDE_CONSTRUCTION_VERTICAL_DROP),     STR_RIDE_CONSTRUCTION_VERTICAL_DROP_TIP             )",
+              "sourceStringIds": [
+                "STR_RIDE_CONSTRUCTION_VERTICAL_DROP_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_RIDE_CONSTRUCTION_VERTICAL_DROP"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1854,
+            "expression": "             widgets[WIDX_SLOPE_DOWN_VERTICAL].setHidden();             widgets[WIDX_SLOPE_UP_VERTICAL].setHidden(); "
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1865,
+            "expression": "                {                     widgets[WIDX_SLOPE_DOWN_VERTICAL].setVisible();                 }             }"
+          }
+        ],
+        "displayedCondition": "非速度设置轨道段，设施支持 flatRollBanking；坡度与链条选项随轨道支持情况启用。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "RideConstruction:WIDX_SLOPE_DOWN_STEEP"
+        ],
+        "unit": "RideConstruction",
+        "controlId": "WIDX_SLOPE_DOWN_STEEP",
+        "screenId": "detail:ride-construction:02-slopes-banking",
+        "region": [
+          1112,
+          312,
+          682,
+          68
+        ],
+        "visualKind": "button",
+        "label": "陡峭下坡",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 120
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/RideConstruction.cpp",
+              "line": 173,
+              "sourceExpression": "makeWidget        ({ 30,  88}, {              24,  24}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_RIDE_CONSTRUCTION_SLOPE_DOWN_STEEP),  STR_RIDE_CONSTRUCTION_STEEP_SLOPE_DOWN_TIP          )",
+              "sourceStringIds": [
+                "STR_RIDE_CONSTRUCTION_STEEP_SLOPE_DOWN_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_RIDE_CONSTRUCTION_SLOPE_DOWN_STEEP"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1783,
+            "expression": "            // Slope arrows             widgets[WIDX_SLOPE_DOWN_STEEP].setHidden();             widgets[WIDX_SLOPE_DOWN].setHidden();             widgets[WIDX_LEVEL].setHidden();"
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1819,
+            "expression": "                    // Enable helix                     widgets[WIDX_SLOPE_DOWN_STEEP].setVisible();                     if (IsTrackEnabled(TrackGroup::helixUpBankedHalf))                         widgets[WIDX_SLOPE_UP_STEEP].setVisible();"
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1827,
+            "expression": "            {                 widgets[WIDX_SLOPE_DOWN_STEEP].setVisible();             }             if (IsTrackEnabled(TrackGroup::slopeSteepUp) || IsTrackEnabled(TrackGroup::diagSlopeSteepUp))"
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1873,
+            "expression": "            {                 widgets[WIDX_SLOPE_DOWN_STEEP].setVisible();                 widgets[WIDX_SLOPE_DOWN_STEEP].image = ImageId(SPR_RIDE_CONSTRUCTION_HELIX_DOWN);                 widgets[WIDX_SLOPE_DOWN_STEEP].tooltip = STR_RIDE_CONSTRUCTION_HELIX_DOWN_TIP;"
+          }
+        ],
+        "displayedCondition": "非速度设置轨道段，设施支持 flatRollBanking；坡度与链条选项随轨道支持情况启用。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "RideConstruction:WIDX_SLOPE_DOWN"
+        ],
+        "unit": "RideConstruction",
+        "controlId": "WIDX_SLOPE_DOWN",
+        "screenId": "detail:ride-construction:02-slopes-banking",
+        "region": [
+          394,
+          405,
+          682,
+          68
+        ],
+        "visualKind": "button",
+        "label": "下坡",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 121
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/RideConstruction.cpp",
+              "line": 174,
+              "sourceExpression": "makeWidget        ({ 54,  88}, {              24,  24}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_RIDE_CONSTRUCTION_SLOPE_DOWN),        STR_RIDE_CONSTRUCTION_SLOPE_DOWN_TIP                )",
+              "sourceStringIds": [
+                "STR_RIDE_CONSTRUCTION_SLOPE_DOWN_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_RIDE_CONSTRUCTION_SLOPE_DOWN"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1783,
+            "expression": "            // Slope arrows             widgets[WIDX_SLOPE_DOWN_STEEP].setHidden();             widgets[WIDX_SLOPE_DOWN].setHidden();             widgets[WIDX_LEVEL].setHidden();"
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1784,
+            "expression": "            widgets[WIDX_SLOPE_DOWN_STEEP].setHidden();             widgets[WIDX_SLOPE_DOWN].setHidden();             widgets[WIDX_LEVEL].setHidden();             widgets[WIDX_SLOPE_UP].setHidden();"
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1807,
+            "expression": "            {                 widgets[WIDX_SLOPE_DOWN].setVisible();                 widgets[WIDX_SLOPE_UP].setVisible();             }"
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1819,
+            "expression": "                    // Enable helix                     widgets[WIDX_SLOPE_DOWN_STEEP].setVisible();                     if (IsTrackEnabled(TrackGroup::helixUpBankedHalf))                         widgets[WIDX_SLOPE_UP_STEEP].setVisible();"
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1827,
+            "expression": "            {                 widgets[WIDX_SLOPE_DOWN_STEEP].setVisible();             }             if (IsTrackEnabled(TrackGroup::slopeSteepUp) || IsTrackEnabled(TrackGroup::diagSlopeSteepUp))"
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1854,
+            "expression": "             widgets[WIDX_SLOPE_DOWN_VERTICAL].setHidden();             widgets[WIDX_SLOPE_UP_VERTICAL].setHidden(); "
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1865,
+            "expression": "                {                     widgets[WIDX_SLOPE_DOWN_VERTICAL].setVisible();                 }             }"
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1873,
+            "expression": "            {                 widgets[WIDX_SLOPE_DOWN_STEEP].setVisible();                 widgets[WIDX_SLOPE_DOWN_STEEP].image = ImageId(SPR_RIDE_CONSTRUCTION_HELIX_DOWN);                 widgets[WIDX_SLOPE_DOWN_STEEP].tooltip = STR_RIDE_CONSTRUCTION_HELIX_DOWN_TIP;"
+          }
+        ],
+        "displayedCondition": "非速度设置轨道段，设施支持 flatRollBanking；坡度与链条选项随轨道支持情况启用。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "RideConstruction:WIDX_LEVEL"
+        ],
+        "unit": "RideConstruction",
+        "controlId": "WIDX_LEVEL",
+        "screenId": "detail:ride-construction:02-slopes-banking",
+        "region": [
+          1112,
+          405,
+          682,
+          68
+        ],
+        "visualKind": "button",
+        "label": "水平",
+        "state": "selected",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 122
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/RideConstruction.cpp",
+              "line": 175,
+              "sourceExpression": "makeWidget        ({ 78,  88}, {              24,  24}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_RIDE_CONSTRUCTION_SLOPE_LEVEL),       STR_RIDE_CONSTRUCTION_LEVEL_TIP                     )",
+              "sourceStringIds": [
+                "STR_RIDE_CONSTRUCTION_LEVEL_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_RIDE_CONSTRUCTION_SLOPE_LEVEL"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1785,
+            "expression": "            widgets[WIDX_SLOPE_DOWN].setHidden();             widgets[WIDX_LEVEL].setHidden();             widgets[WIDX_SLOPE_UP].setHidden();             widgets[WIDX_SLOPE_UP_STEEP].setHidden();"
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1797,
+            "expression": "            {                 widgets[WIDX_LEVEL].setVisible();                 widgets[WIDX_SLOPE_UP].setVisible();             }"
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1803,
+            "expression": "            {                 widgets[WIDX_LEVEL].setVisible();             }             if (IsTrackEnabled(TrackGroup::slope))"
+          }
+        ],
+        "displayedCondition": "非速度设置轨道段，设施支持 flatRollBanking；坡度与链条选项随轨道支持情况启用。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "RideConstruction:WIDX_SLOPE_UP"
+        ],
+        "unit": "RideConstruction",
+        "controlId": "WIDX_SLOPE_UP",
+        "screenId": "detail:ride-construction:02-slopes-banking",
+        "region": [
+          394,
+          498,
+          682,
+          68
+        ],
+        "visualKind": "button",
+        "label": "上坡",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 123
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/RideConstruction.cpp",
+              "line": 176,
+              "sourceExpression": "makeWidget        ({102,  88}, {              24,  24}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_RIDE_CONSTRUCTION_SLOPE_UP),          STR_RIDE_CONSTRUCTION_SLOPE_UP_TIP                  )",
+              "sourceStringIds": [
+                "STR_RIDE_CONSTRUCTION_SLOPE_UP_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_RIDE_CONSTRUCTION_SLOPE_UP"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1786,
+            "expression": "            widgets[WIDX_LEVEL].setHidden();             widgets[WIDX_SLOPE_UP].setHidden();             widgets[WIDX_SLOPE_UP_STEEP].setHidden(); "
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1787,
+            "expression": "            widgets[WIDX_SLOPE_UP].setHidden();             widgets[WIDX_SLOPE_UP_STEEP].setHidden();              // NB: these particular ones can be shared with helixes"
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1798,
+            "expression": "                widgets[WIDX_LEVEL].setVisible();                 widgets[WIDX_SLOPE_UP].setVisible();             }             if (IsTrackEnabled(TrackGroup::slope) || IsTrackEnabled(TrackGroup::slopeSteepDown)"
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1808,
+            "expression": "                widgets[WIDX_SLOPE_DOWN].setVisible();                 widgets[WIDX_SLOPE_UP].setVisible();             }             if ((IsTrackEnabled(TrackGroup::helixDownBankedHalf) || IsTrackEnabled(TrackGroup::helixUpBankedHalf))"
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1821,
+            "expression": "                    if (IsTrackEnabled(TrackGroup::helixUpBankedHalf))                         widgets[WIDX_SLOPE_UP_STEEP].setVisible();                 }             }"
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1831,
+            "expression": "            {                 widgets[WIDX_SLOPE_UP_STEEP].setVisible();             } "
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1855,
+            "expression": "            widgets[WIDX_SLOPE_DOWN_VERTICAL].setHidden();             widgets[WIDX_SLOPE_UP_VERTICAL].setHidden();              if (IsTrackEnabled(TrackGroup::slopeVertical) && !TrackPieceDirectionIsDiagonal(_currentTrackPieceDirection))"
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1861,
+            "expression": "                {                     widgets[WIDX_SLOPE_UP_VERTICAL].setVisible();                 }                 else if (_previousTrackPitchEnd == TrackPitch::down60 || _previousTrackPitchEnd == TrackPitch::down90)"
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1876,
+            "expression": "                widgets[WIDX_SLOPE_DOWN_STEEP].tooltip = STR_RIDE_CONSTRUCTION_HELIX_DOWN_TIP;                 widgets[WIDX_SLOPE_UP_STEEP].setVisible();                 widgets[WIDX_SLOPE_UP_STEEP].image = ImageId(SPR_RIDE_CONSTRUCTION_HELIX_UP);                 widgets[WIDX_SLOPE_UP_STEEP].tooltip = STR_RIDE_CONSTRUCTION_HELIX_UP_TIP;"
+          }
+        ],
+        "displayedCondition": "非速度设置轨道段，设施支持 flatRollBanking；坡度与链条选项随轨道支持情况启用。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "RideConstruction:WIDX_SLOPE_UP_STEEP"
+        ],
+        "unit": "RideConstruction",
+        "controlId": "WIDX_SLOPE_UP_STEEP",
+        "screenId": "detail:ride-construction:02-slopes-banking",
+        "region": [
+          1112,
+          498,
+          682,
+          68
+        ],
+        "visualKind": "button",
+        "label": "陡峭上坡",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 124
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/RideConstruction.cpp",
+              "line": 177,
+              "sourceExpression": "makeWidget        ({126,  88}, {              24,  24}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_RIDE_CONSTRUCTION_SLOPE_UP_STEEP),    STR_RIDE_CONSTRUCTION_STEEP_SLOPE_UP_TIP            )",
+              "sourceStringIds": [
+                "STR_RIDE_CONSTRUCTION_STEEP_SLOPE_UP_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_RIDE_CONSTRUCTION_SLOPE_UP_STEEP"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1787,
+            "expression": "            widgets[WIDX_SLOPE_UP].setHidden();             widgets[WIDX_SLOPE_UP_STEEP].setHidden();              // NB: these particular ones can be shared with helixes"
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1821,
+            "expression": "                    if (IsTrackEnabled(TrackGroup::helixUpBankedHalf))                         widgets[WIDX_SLOPE_UP_STEEP].setVisible();                 }             }"
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1831,
+            "expression": "            {                 widgets[WIDX_SLOPE_UP_STEEP].setVisible();             } "
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1876,
+            "expression": "                widgets[WIDX_SLOPE_DOWN_STEEP].tooltip = STR_RIDE_CONSTRUCTION_HELIX_DOWN_TIP;                 widgets[WIDX_SLOPE_UP_STEEP].setVisible();                 widgets[WIDX_SLOPE_UP_STEEP].image = ImageId(SPR_RIDE_CONSTRUCTION_HELIX_UP);                 widgets[WIDX_SLOPE_UP_STEEP].tooltip = STR_RIDE_CONSTRUCTION_HELIX_UP_TIP;"
+          }
+        ],
+        "displayedCondition": "非速度设置轨道段，设施支持 flatRollBanking；坡度与链条选项随轨道支持情况启用。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "RideConstruction:WIDX_SLOPE_UP_VERTICAL"
+        ],
+        "unit": "RideConstruction",
+        "controlId": "WIDX_SLOPE_UP_VERTICAL",
+        "screenId": "detail:ride-construction:02-slopes-banking",
+        "region": [
+          394,
+          591,
+          682,
+          68
+        ],
+        "visualKind": "button",
+        "label": "垂直上坡",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 125
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/RideConstruction.cpp",
+              "line": 178,
+              "sourceExpression": "makeWidget        ({150,  88}, {              24,  24}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_RIDE_CONSTRUCTION_VERTICAL_RISE),     STR_RIDE_CONSTRUCTION_VERTICAL_RISE_TIP             )",
+              "sourceStringIds": [
+                "STR_RIDE_CONSTRUCTION_VERTICAL_RISE_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_RIDE_CONSTRUCTION_VERTICAL_RISE"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1855,
+            "expression": "            widgets[WIDX_SLOPE_DOWN_VERTICAL].setHidden();             widgets[WIDX_SLOPE_UP_VERTICAL].setHidden();              if (IsTrackEnabled(TrackGroup::slopeVertical) && !TrackPieceDirectionIsDiagonal(_currentTrackPieceDirection))"
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1861,
+            "expression": "                {                     widgets[WIDX_SLOPE_UP_VERTICAL].setVisible();                 }                 else if (_previousTrackPitchEnd == TrackPitch::down60 || _previousTrackPitchEnd == TrackPitch::down90)"
+          }
+        ],
+        "displayedCondition": "非速度设置轨道段，设施支持 flatRollBanking；坡度与链条选项随轨道支持情况启用。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "RideConstruction:WIDX_CHAIN_LIFT"
+        ],
+        "unit": "RideConstruction",
+        "controlId": "WIDX_CHAIN_LIFT",
+        "screenId": "detail:ride-construction:02-slopes-banking",
+        "region": [
+          1108,
+          579,
+          690,
+          93
+        ],
+        "visualKind": "checkbox",
+        "label": "使用牵引链",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 126
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/RideConstruction.cpp",
+              "line": 179,
+              "sourceExpression": "makeWidget        ({178,  88}, {              24,  24}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_CHAIN_LIFT),                          STR_RIDE_CONSTRUCTION_CHAIN_LIFT_TIP                )",
+              "sourceStringIds": [
+                "STR_RIDE_CONSTRUCTION_CHAIN_LIFT_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_CHAIN_LIFT"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1845,
+            "expression": "                    && currentRide->getRideTypeDescriptor().flags.has(RtdFlag::hasTrack));             widgets[WIDX_CHAIN_LIFT].setVisible(showChainLift);              int32_t x = kVerticalDropButtonStart;"
+          }
+        ],
+        "displayedCondition": "非速度设置轨道段，设施支持 flatRollBanking；坡度与链条选项随轨道支持情况启用。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "RideConstruction:WIDX_BANK_LEFT"
+        ],
+        "unit": "RideConstruction",
+        "controlId": "WIDX_BANK_LEFT",
+        "screenId": "detail:ride-construction:02-slopes-banking",
+        "region": [
+          394,
+          684,
+          682,
+          68
+        ],
+        "visualKind": "button",
+        "label": "向左侧倾",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 127
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/RideConstruction.cpp",
+              "line": 180,
+              "sourceExpression": "makeWidget        ({ 54, 132}, {              24,  24}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_RIDE_CONSTRUCTION_LEFT_BANK),         STR_RIDE_CONSTRUCTION_ROLL_FOR_LEFT_CURVE_TIP       )",
+              "sourceStringIds": [
+                "STR_RIDE_CONSTRUCTION_ROLL_FOR_LEFT_CURVE_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_RIDE_CONSTRUCTION_LEFT_BANK"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1930,
+            "expression": "            widgets[WIDX_BANKING_GROUPBOX].setVisible();             widgets[WIDX_BANK_LEFT].setHidden();             widgets[WIDX_BANK_STRAIGHT].setHidden();             widgets[WIDX_BANK_RIGHT].setHidden();"
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1956,
+            "expression": "                const bool hasFlatRollBanking = IsTrackEnabled(TrackGroup::flatRollBanking);                 widgets[WIDX_BANK_LEFT].setVisible(hasFlatRollBanking);                 widgets[WIDX_BANK_STRAIGHT].setVisible(hasFlatRollBanking);                 widgets[WIDX_BANK_RIGHT].setVisible(hasFlatRollBanking);"
+          }
+        ],
+        "displayedCondition": "非速度设置轨道段，设施支持 flatRollBanking；坡度与链条选项随轨道支持情况启用。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "RideConstruction:WIDX_BANK_STRAIGHT"
+        ],
+        "unit": "RideConstruction",
+        "controlId": "WIDX_BANK_STRAIGHT",
+        "screenId": "detail:ride-construction:02-slopes-banking",
+        "region": [
+          1112,
+          684,
+          682,
+          68
+        ],
+        "visualKind": "button",
+        "label": "保持水平侧倾",
+        "state": "selected",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 128
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/RideConstruction.cpp",
+              "line": 181,
+              "sourceExpression": "makeWidget        ({ 78, 132}, {              24,  24}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_RIDE_CONSTRUCTION_NO_BANK),           STR_RIDE_CONSTRUCTION_NO_ROLL_TIP                   )",
+              "sourceStringIds": [
+                "STR_RIDE_CONSTRUCTION_NO_ROLL_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_RIDE_CONSTRUCTION_NO_BANK"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1931,
+            "expression": "            widgets[WIDX_BANK_LEFT].setHidden();             widgets[WIDX_BANK_STRAIGHT].setHidden();             widgets[WIDX_BANK_RIGHT].setHidden();             widgets[WIDX_U_TRACK].setHidden();"
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1957,
+            "expression": "                widgets[WIDX_BANK_LEFT].setVisible(hasFlatRollBanking);                 widgets[WIDX_BANK_STRAIGHT].setVisible(hasFlatRollBanking);                 widgets[WIDX_BANK_RIGHT].setVisible(hasFlatRollBanking);                 onDrawUpdateCoveredPieces(trackDrawerDescriptor, widgets, hasFlatRollBanking);"
+          }
+        ],
+        "displayedCondition": "非速度设置轨道段，设施支持 flatRollBanking；坡度与链条选项随轨道支持情况启用。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "RideConstruction:WIDX_BANK_RIGHT"
+        ],
+        "unit": "RideConstruction",
+        "controlId": "WIDX_BANK_RIGHT",
+        "screenId": "detail:ride-construction:02-slopes-banking",
+        "region": [
+          394,
+          777,
+          682,
+          68
+        ],
+        "visualKind": "button",
+        "label": "向右侧倾",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 129
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/RideConstruction.cpp",
+              "line": 182,
+              "sourceExpression": "makeWidget        ({102, 132}, {              24,  24}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_RIDE_CONSTRUCTION_RIGHT_BANK),        STR_RIDE_CONSTRUCTION_ROLL_FOR_RIGHT_CURVE_TIP      )",
+              "sourceStringIds": [
+                "STR_RIDE_CONSTRUCTION_ROLL_FOR_RIGHT_CURVE_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_RIDE_CONSTRUCTION_RIGHT_BANK"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1932,
+            "expression": "            widgets[WIDX_BANK_STRAIGHT].setHidden();             widgets[WIDX_BANK_RIGHT].setHidden();             widgets[WIDX_U_TRACK].setHidden();             widgets[WIDX_O_TRACK].setHidden();"
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1958,
+            "expression": "                widgets[WIDX_BANK_STRAIGHT].setVisible(hasFlatRollBanking);                 widgets[WIDX_BANK_RIGHT].setVisible(hasFlatRollBanking);                 onDrawUpdateCoveredPieces(trackDrawerDescriptor, widgets, hasFlatRollBanking);             }"
+          }
+        ],
+        "displayedCondition": "非速度设置轨道段，设施支持 flatRollBanking；坡度与链条选项随轨道支持情况启用。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "RideConstruction:WIDX_SIMULATE"
+        ],
+        "unit": "RideConstruction",
+        "controlId": "WIDX_SIMULATE",
+        "screenId": "detail:ride-construction:02-slopes-banking",
+        "region": [
+          1584,
+          916,
+          202,
+          68
+        ],
+        "visualKind": "button",
+        "label": "模拟运行",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 144
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/RideConstruction.cpp",
+              "line": 195,
+              "sourceExpression": "makeWidget        ({161, 338}, {              24,  24}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_G2_SIMULATE),                         STR_SIMULATE_RIDE_TIP                               )",
+              "sourceStringIds": [
+                "STR_SIMULATE_RIDE_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_G2_SIMULATE"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "非速度设置轨道段，设施支持 flatRollBanking；坡度与链条选项随轨道支持情况启用。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "RideConstruction:WIDX_CONSTRUCT"
+        ],
+        "unit": "RideConstruction",
+        "controlId": "WIDX_CONSTRUCT",
+        "screenId": "detail:ride-construction:02-slopes-banking",
+        "region": [
+          1356,
+          916,
+          202,
+          68
+        ],
+        "visualKind": "button",
+        "label": "建造此段",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "imgBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 130
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "imgBtn",
+              "sourcePath": "src/openrct2-ui/windows/RideConstruction.cpp",
+              "line": 183,
+              "sourceExpression": "makeWidget        ({  3, 164}, {     kGroupWidth, 170}, WidgetType::imgBtn,   WindowColour::secondary, 0xFFFFFFFF,                                       STR_RIDE_CONSTRUCTION_CONSTRUCT_SELECTED_SECTION_TIP)",
+              "sourceStringIds": [
+                "STR_RIDE_CONSTRUCTION_CONSTRUCT_SELECTED_SECTION_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 2043,
+            "expression": "             widgets[WIDX_CONSTRUCT].setHidden();             widgets[WIDX_DEMOLISH].setVisible();             widgets[WIDX_ROTATE].setHidden();"
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 2060,
+            "expression": "                case RideConstructionState::front:                     widgets[WIDX_CONSTRUCT].setVisible();                     widgets[WIDX_NEXT_SECTION].setHidden();                     break;"
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 2064,
+            "expression": "                case RideConstructionState::back:                     widgets[WIDX_CONSTRUCT].setVisible();                     widgets[WIDX_PREVIOUS_SECTION].setHidden();                     break;"
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 2068,
+            "expression": "                case RideConstructionState::place:                     widgets[WIDX_CONSTRUCT].setVisible();                     widgets[WIDX_DEMOLISH].setHidden();                     widgets[WIDX_NEXT_SECTION].setHidden();"
+          }
+        ],
+        "displayedCondition": "非速度设置轨道段，设施支持 flatRollBanking；坡度与链条选项随轨道支持情况启用。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      }
+    ],
+    "decorativeArtPolicy": "Existing painted PNGs only"
+  },
+  "status": "produced_pending_review"
+}

@@ -1,0 +1,1164 @@
+{
+  "schemaVersion": 1,
+  "screenId": "utility-detail:stafflist-quickfire",
+  "title": "员工管理 · 员工类别管理与园区工具",
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "origin": "top-left",
+  "textLayers": [
+    {
+      "id": "text-001",
+      "text": "员工管理",
+      "role": "dynamic-text",
+      "region": [
+        620,
+        66,
+        680,
+        75
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 46,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 65,
+      "wrappedLines": [
+        "员工管理"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-002",
+      "text": "清洁",
+      "role": "dynamic-text",
+      "region": [
+        128,
+        208,
+        290,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 26,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 36,
+      "wrappedLines": [
+        "清洁"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-003",
+      "text": "维修",
+      "role": "dynamic-text",
+      "region": [
+        470,
+        208,
+        290,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 26,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 36,
+      "wrappedLines": [
+        "维修"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-004",
+      "text": "安保",
+      "role": "dynamic-text",
+      "region": [
+        812,
+        208,
+        290,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 26,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 36,
+      "wrappedLines": [
+        "安保"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-005",
+      "text": "演员",
+      "role": "dynamic-text",
+      "region": [
+        1154,
+        208,
+        290,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 26,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 36,
+      "wrappedLines": [
+        "演员"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-006",
+      "text": "维修",
+      "role": "dynamic-text",
+      "region": [
+        118,
+        300,
+        1664,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 32,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 45,
+      "wrappedLines": [
+        "维修"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-007",
+      "text": "美术设计样例 · 名称 / 数值待定",
+      "role": "dynamic-text",
+      "region": [
+        600,
+        1046,
+        720,
+        28
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "美术设计样例 · 名称 / 数值待定"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-008",
+      "text": "员工类别管理与园区工具",
+      "role": "dynamic-text",
+      "region": [
+        115,
+        865,
+        1674,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#7A745E",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "员工类别管理与园区工具"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-009",
+      "text": "快速解雇模式已开启：点击列表中的员工直接执行解雇；再点此按钮退出模式。",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        1002,
+        1660,
+        30
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "快速解雇模式已开启：点击列表中的员工直接执行解雇；再点此按钮退出模式。"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-010",
+      "text": "员工",
+      "role": "dynamic-text",
+      "region": [
+        145,
+        402,
+        410,
+        44
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "员工"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-011",
+      "text": "当前行动",
+      "role": "dynamic-text",
+      "region": [
+        600,
+        402,
+        326,
+        44
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "当前行动"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-012",
+      "text": "薪资",
+      "role": "dynamic-text",
+      "region": [
+        972,
+        402,
+        326,
+        44
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "薪资"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-013",
+      "text": "小竹",
+      "role": "dynamic-text",
+      "region": [
+        145,
+        473,
+        407,
+        59
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "小竹"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-014",
+      "text": "修理游龙飞车",
+      "role": "dynamic-text",
+      "region": [
+        600,
+        473,
+        323,
+        59
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "修理游龙飞车"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-015",
+      "text": "¥80 / 月",
+      "role": "dynamic-text",
+      "region": [
+        972,
+        473,
+        323,
+        59
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "¥80 / 月"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-016",
+      "text": "阿岩",
+      "role": "dynamic-text",
+      "region": [
+        145,
+        551,
+        407,
+        59
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "阿岩"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-017",
+      "text": "检查云游小火车",
+      "role": "dynamic-text",
+      "region": [
+        600,
+        551,
+        323,
+        59
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "检查云游小火车"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-018",
+      "text": "¥80 / 月",
+      "role": "dynamic-text",
+      "region": [
+        972,
+        551,
+        323,
+        59
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "¥80 / 月"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-019",
+      "text": "青玉",
+      "role": "dynamic-text",
+      "region": [
+        145,
+        629,
+        407,
+        59
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "青玉"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-020",
+      "text": "在巡逻",
+      "role": "dynamic-text",
+      "region": [
+        600,
+        629,
+        323,
+        59
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "在巡逻"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-021",
+      "text": "¥80 / 月",
+      "role": "dynamic-text",
+      "region": [
+        972,
+        629,
+        323,
+        59
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "¥80 / 月"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-022",
+      "text": "雇用维修员",
+      "role": "dynamic-text",
+      "region": [
+        1368,
+        394,
+        377,
+        35
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "雇用维修员"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-023",
+      "text": "退出快速解雇",
+      "role": "dynamic-text",
+      "region": [
+        1368,
+        481,
+        377,
+        44
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "退出快速解雇"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-024",
+      "text": "巡逻区域与最近员工",
+      "role": "dynamic-text",
+      "region": [
+        1368,
+        567,
+        377,
+        44
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "巡逻区域与最近员工"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-025",
+      "text": "在地图高亮员工",
+      "role": "dynamic-text",
+      "region": [
+        1368,
+        653,
+        377,
+        44
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "在地图高亮员工"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-026",
+      "text": "本类别制服颜色",
+      "role": "dynamic-text",
+      "region": [
+        1359,
+        741,
+        395,
+        43
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "本类别制服颜色"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-027",
+      "text": "返回园区",
+      "role": "dynamic-text",
+      "region": [
+        1616,
+        924,
+        148,
+        38
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "返回园区"
+      ],
+      "dynamic": true
+    }
+  ],
+  "artAndControlLayers": [
+    {
+      "role": "park-background",
+      "asset": "assets/backgrounds/park-day-native.png",
+      "region": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "resize": "cover"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_main.png",
+      "region": [
+        52,
+        96,
+        1816,
+        930
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "title-plaque",
+      "asset": "assets/common/title_plate.png",
+      "region": [
+        520,
+        22,
+        880,
+        170
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "close",
+      "asset": "assets/common/close.png",
+      "region": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        108,
+        200,
+        330,
+        66
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_selected.png",
+      "region": [
+        450,
+        200,
+        330,
+        66
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        792,
+        200,
+        330,
+        66
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        1134,
+        200,
+        330,
+        66
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_card.png",
+      "region": [
+        110,
+        382,
+        1199,
+        478
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "selected-data-row",
+      "asset": "assets/common/secondary_selected.png",
+      "region": [
+        130,
+        462,
+        1159,
+        71
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/primary_normal.png",
+      "region": [
+        1344,
+        387,
+        425,
+        65
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "StaffList:WIDX_STAFF_LIST_HIRE_BUTTON"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_selected.png",
+      "region": [
+        1344,
+        473,
+        425,
+        65
+      ],
+      "resize": "nine",
+      "state": "selected",
+      "sourceControlKey": "StaffList:WIDX_STAFF_LIST_QUICK_FIRE"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1344,
+        559,
+        425,
+        65
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "StaffList:WIDX_STAFF_LIST_SHOW_PATROL_AREA_BUTTON"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1344,
+        645,
+        425,
+        65
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "StaffList:WIDX_STAFF_LIST_MAP"
+    },
+    {
+      "role": "detail-color-button",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1365,
+        797,
+        383,
+        63
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/primary_normal.png",
+      "region": [
+        1592,
+        916,
+        196,
+        70
+      ],
+      "resize": "nine",
+      "state": "normal"
+    }
+  ],
+  "dataDiagrams": [
+    {
+      "role": "data-rule",
+      "points": [
+        [
+          118,
+          358
+        ],
+        [
+          1786,
+          358
+        ]
+      ],
+      "color": "#B28C43",
+      "width": 1
+    },
+    {
+      "role": "dynamic-color-swatch",
+      "rect": [
+        1542,
+        814,
+        28,
+        28
+      ],
+      "color": "#D6AA58"
+    }
+  ],
+  "layoutIssues": [],
+  "fontDistribution": "Official OFL-licensed fonts are included in assets/fonts; see records/font-sources.json.",
+  "status": "produced_pending_review",
+  "sourceControlBindings": [
+    {
+      "unit": "StaffList",
+      "controlId": "WIDX_STAFF_LIST_BACKGROUND",
+      "sourceControlKey": "StaffList:WIDX_STAFF_LIST_BACKGROUND",
+      "rectTopLeftXYWH": [
+        52,
+        96,
+        1816,
+        930
+      ],
+      "role": "window-structure",
+      "sourcePageGroups": [
+        "清洁",
+        "维修",
+        "安保",
+        "演员"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/StaffList.cpp",
+        "line": 62
+      },
+      "sourceWidgetType": "frame",
+      "condition": "快速解雇模式已开启：点击列表中的员工直接执行解雇；再点此按钮退出模式。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "StaffList",
+      "controlId": "WIDX_STAFF_LIST_TITLE",
+      "sourceControlKey": "StaffList:WIDX_STAFF_LIST_TITLE",
+      "rectTopLeftXYWH": [
+        520,
+        22,
+        880,
+        170
+      ],
+      "role": "window-structure",
+      "sourcePageGroups": [
+        "清洁",
+        "维修",
+        "安保",
+        "演员"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/StaffList.cpp",
+        "line": 63
+      },
+      "sourceWidgetType": "caption",
+      "condition": "快速解雇模式已开启：点击列表中的员工直接执行解雇；再点此按钮退出模式。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "StaffList",
+      "controlId": "WIDX_STAFF_LIST_CLOSE",
+      "sourceControlKey": "StaffList:WIDX_STAFF_LIST_CLOSE",
+      "rectTopLeftXYWH": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "role": "window-structure",
+      "sourcePageGroups": [
+        "清洁",
+        "维修",
+        "安保",
+        "演员"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/StaffList.cpp",
+        "line": 64
+      },
+      "sourceWidgetType": "closeBox",
+      "condition": "快速解雇模式已开启：点击列表中的员工直接执行解雇；再点此按钮退出模式。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "StaffList",
+      "controlId": "WIDX_STAFF_LIST_HANDYMEN_TAB",
+      "sourceControlKey": "StaffList:WIDX_STAFF_LIST_HANDYMEN_TAB",
+      "rectTopLeftXYWH": [
+        108,
+        200,
+        330,
+        66
+      ],
+      "role": "source-navigation",
+      "sourcePageGroups": [
+        "清洁",
+        "维修",
+        "安保",
+        "演员"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/StaffList.cpp",
+        "line": 66
+      },
+      "sourceWidgetType": "tab",
+      "condition": "快速解雇模式已开启：点击列表中的员工直接执行解雇；再点此按钮退出模式。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "StaffList",
+      "controlId": "WIDX_STAFF_LIST_MECHANICS_TAB",
+      "sourceControlKey": "StaffList:WIDX_STAFF_LIST_MECHANICS_TAB",
+      "rectTopLeftXYWH": [
+        450,
+        200,
+        330,
+        66
+      ],
+      "role": "source-navigation",
+      "sourcePageGroups": [
+        "清洁",
+        "维修",
+        "安保",
+        "演员"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/StaffList.cpp",
+        "line": 67
+      },
+      "sourceWidgetType": "tab",
+      "condition": "快速解雇模式已开启：点击列表中的员工直接执行解雇；再点此按钮退出模式。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "StaffList",
+      "controlId": "WIDX_STAFF_LIST_SECURITY_TAB",
+      "sourceControlKey": "StaffList:WIDX_STAFF_LIST_SECURITY_TAB",
+      "rectTopLeftXYWH": [
+        792,
+        200,
+        330,
+        66
+      ],
+      "role": "source-navigation",
+      "sourcePageGroups": [
+        "清洁",
+        "维修",
+        "安保",
+        "演员"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/StaffList.cpp",
+        "line": 68
+      },
+      "sourceWidgetType": "tab",
+      "condition": "快速解雇模式已开启：点击列表中的员工直接执行解雇；再点此按钮退出模式。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "StaffList",
+      "controlId": "WIDX_STAFF_LIST_ENTERTAINERS_TAB",
+      "sourceControlKey": "StaffList:WIDX_STAFF_LIST_ENTERTAINERS_TAB",
+      "rectTopLeftXYWH": [
+        1134,
+        200,
+        330,
+        66
+      ],
+      "role": "source-navigation",
+      "sourcePageGroups": [
+        "清洁",
+        "维修",
+        "安保",
+        "演员"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/StaffList.cpp",
+        "line": 69
+      },
+      "sourceWidgetType": "tab",
+      "condition": "快速解雇模式已开启：点击列表中的员工直接执行解雇；再点此按钮退出模式。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "StaffList",
+      "controlId": "WIDX_STAFF_LIST_LIST",
+      "sourceControlKey": "StaffList:WIDX_STAFF_LIST_LIST",
+      "rectTopLeftXYWH": [
+        110,
+        382,
+        1199,
+        478
+      ],
+      "role": "selectable-data-list",
+      "sourcePageGroups": [
+        "清洁",
+        "维修",
+        "安保",
+        "演员"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/StaffList.cpp",
+        "line": 70
+      },
+      "sourceWidgetType": "scroll",
+      "condition": "快速解雇模式已开启：点击列表中的员工直接执行解雇；再点此按钮退出模式。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "StaffList",
+      "controlId": "WIDX_STAFF_LIST_HIRE_BUTTON",
+      "sourceControlKey": "StaffList:WIDX_STAFF_LIST_HIRE_BUTTON",
+      "rectTopLeftXYWH": [
+        1344,
+        387,
+        425,
+        65
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "清洁",
+        "维修",
+        "安保",
+        "演员"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/StaffList.cpp",
+        "line": 72
+      },
+      "sourceWidgetType": "button",
+      "condition": "快速解雇模式已开启：点击列表中的员工直接执行解雇；再点此按钮退出模式。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "StaffList",
+      "controlId": "WIDX_STAFF_LIST_QUICK_FIRE",
+      "sourceControlKey": "StaffList:WIDX_STAFF_LIST_QUICK_FIRE",
+      "rectTopLeftXYWH": [
+        1344,
+        473,
+        425,
+        65
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "清洁",
+        "维修",
+        "安保",
+        "演员"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/StaffList.cpp",
+        "line": 73
+      },
+      "sourceWidgetType": "flatBtn",
+      "condition": "快速解雇模式已开启：点击列表中的员工直接执行解雇；再点此按钮退出模式。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "StaffList",
+      "controlId": "WIDX_STAFF_LIST_SHOW_PATROL_AREA_BUTTON",
+      "sourceControlKey": "StaffList:WIDX_STAFF_LIST_SHOW_PATROL_AREA_BUTTON",
+      "rectTopLeftXYWH": [
+        1344,
+        559,
+        425,
+        65
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "清洁",
+        "维修",
+        "安保",
+        "演员"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/StaffList.cpp",
+        "line": 74
+      },
+      "sourceWidgetType": "flatBtn",
+      "condition": "快速解雇模式已开启：点击列表中的员工直接执行解雇；再点此按钮退出模式。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "StaffList",
+      "controlId": "WIDX_STAFF_LIST_MAP",
+      "sourceControlKey": "StaffList:WIDX_STAFF_LIST_MAP",
+      "rectTopLeftXYWH": [
+        1344,
+        645,
+        425,
+        65
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "清洁",
+        "维修",
+        "安保",
+        "演员"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/StaffList.cpp",
+        "line": 75
+      },
+      "sourceWidgetType": "flatBtn",
+      "condition": "快速解雇模式已开启：点击列表中的员工直接执行解雇；再点此按钮退出模式。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "StaffList",
+      "controlId": "WIDX_STAFF_LIST_UNIFORM_COLOUR_PICKER",
+      "sourceControlKey": "StaffList:WIDX_STAFF_LIST_UNIFORM_COLOUR_PICKER",
+      "rectTopLeftXYWH": [
+        1365,
+        797,
+        383,
+        63
+      ],
+      "role": "color-button",
+      "sourcePageGroups": [
+        "清洁",
+        "维修",
+        "安保",
+        "演员"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/StaffList.cpp",
+        "line": 71
+      },
+      "sourceWidgetType": "colourBtn",
+      "condition": "快速解雇模式已开启：点击列表中的员工直接执行解雇；再点此按钮退出模式。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    }
+  ],
+  "productDetailPurpose": "additional_actual_product_ui_layout"
+}

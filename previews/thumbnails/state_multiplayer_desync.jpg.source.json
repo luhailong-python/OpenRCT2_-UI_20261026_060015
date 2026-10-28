@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_multiplayer_desync.jpg",
+  "sha256": "9e5ff64430636b3625b5007ebd3d268ef20cf204812a13d5deb4cf144b741509",
+  "derivedFrom": [
+    {
+      "file": "previews/states/multiplayer/desync.png",
+      "sha256": "52108346bcbb667ae0d32d3c46338b4948af47e5a3608aa9ddb5896f5db90bf0",
+      "sourceRecord": "previews/states/multiplayer/desync.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

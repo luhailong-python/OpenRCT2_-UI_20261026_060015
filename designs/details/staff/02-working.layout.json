@@ -1,0 +1,856 @@
+{
+  "schemaVersion": 1,
+  "screenId": "detail:staff:02-working",
+  "title": "清风  维修工",
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "origin": "top-left",
+  "textLayers": [
+    {
+      "id": "text-001",
+      "text": "清风",
+      "role": "dynamic-text",
+      "region": [
+        620,
+        66,
+        680,
+        75
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 46,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 65,
+      "wrappedLines": [
+        "清风"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-002",
+      "text": "员工概览",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        231,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "员工概览"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-003",
+      "text": "清洁职责",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        301,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "清洁职责"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-004",
+      "text": "维修职责",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        371,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "维修职责"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-005",
+      "text": "表演服装",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        441,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "表演服装"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-006",
+      "text": "作业状态",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        511,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "作业状态"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-007",
+      "text": "作业状态",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        218,
+        1388,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 32,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 45,
+      "wrappedLines": [
+        "作业状态"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-008",
+      "text": "美术设计样例 · 名称 / 数值待定",
+      "role": "dynamic-text",
+      "region": [
+        600,
+        1046,
+        720,
+        28
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "美术设计样例 · 名称 / 数值待定"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-009",
+      "text": "工作位置",
+      "role": "dynamic-text",
+      "region": [
+        1534,
+        635,
+        208,
+        37
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "工作位置"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-010",
+      "text": "移动到新位置",
+      "role": "dynamic-text",
+      "region": [
+        418,
+        320,
+        1002,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#7A745E",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "移动到新位置"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-011",
+      "text": "设置巡逻区域",
+      "role": "dynamic-text",
+      "region": [
+        418,
+        416,
+        1002,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "设置巡逻区域"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-012",
+      "text": "修改员工姓名",
+      "role": "dynamic-text",
+      "region": [
+        418,
+        512,
+        1002,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "修改员工姓名"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-013",
+      "text": "定位员工",
+      "role": "dynamic-text",
+      "region": [
+        418,
+        608,
+        1002,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "定位员工"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-014",
+      "text": "解雇员工",
+      "role": "dynamic-text",
+      "region": [
+        418,
+        704,
+        1002,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#7A745E",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "解雇员工"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-015",
+      "text": "正在检查游龙飞车。",
+      "role": "dynamic-text",
+      "region": [
+        397,
+        870,
+        1044,
+        39
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#7A745E",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "正在检查游龙飞车。"
+      ],
+      "dynamic": true
+    }
+  ],
+  "artAndControlLayers": [
+    {
+      "role": "park-background",
+      "asset": "assets/backgrounds/park-day-native.png",
+      "region": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "resize": "cover"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_main.png",
+      "region": [
+        52,
+        96,
+        1816,
+        930
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "title-plaque",
+      "asset": "assets/common/title_plate.png",
+      "region": [
+        520,
+        22,
+        880,
+        170
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "close",
+      "asset": "assets/common/close.png",
+      "region": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_card.png",
+      "region": [
+        84,
+        208,
+        268,
+        756
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        224,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        294,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        364,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        434,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_selected.png",
+      "region": [
+        100,
+        504,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "illustration",
+      "asset": "assets/illustrations/mechanic.png",
+      "region": [
+        1478,
+        305,
+        320,
+        260
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_card.png",
+      "region": [
+        1478,
+        600,
+        320,
+        210
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "viewport-art",
+      "asset": "assets/backgrounds/park-day-native.png",
+      "region": [
+        1494,
+        616,
+        288,
+        178
+      ],
+      "resize": "cover"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1510,
+        628,
+        256,
+        54
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Staff:WIDX_VIEWPORT"
+      ],
+      "unit": "Staff",
+      "controlId": "WIDX_VIEWPORT",
+      "screenId": "detail:staff:02-working",
+      "region": [
+        1478,
+        600,
+        320,
+        210
+      ],
+      "visualKind": "viewport",
+      "label": "员工所在位置",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "viewport",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Staff.cpp",
+          "line": 68
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "viewport",
+            "sourcePath": "src/openrct2-ui/windows/Staff.cpp",
+            "line": 98,
+            "sourceExpression": "makeWidget     ({ 3, 47},                      {162, 120}, WidgetType::viewport,      WindowColour::secondary                                                 )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "当前正在维修或检查，禁止搬运与解雇。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_disabled.png",
+      "region": [
+        394,
+        312,
+        1050,
+        68
+      ],
+      "resize": "nine",
+      "state": "disabled"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Staff:WIDX_PICKUP"
+      ],
+      "unit": "Staff",
+      "controlId": "WIDX_PICKUP",
+      "screenId": "detail:staff:02-working",
+      "region": [
+        394,
+        312,
+        1050,
+        68
+      ],
+      "visualKind": "button",
+      "label": "移动到新位置",
+      "state": "disabled",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Staff.cpp",
+          "line": 70
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/Staff.cpp",
+            "line": 100,
+            "sourceExpression": "makeWidget     ({kWindowSize.width - 25,  45}, { 24,  24}, WidgetType::flatBtn,       WindowColour::secondary, ImageId(SPR_PICKUP_BTN), STR_PICKUP_TIP        )",
+            "sourceStringIds": [
+              "STR_PICKUP_TIP"
+            ],
+            "originalSpriteIds": [
+              "SPR_PICKUP_BTN"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Staff.cpp",
+          "line": 1043,
+          "expression": "                {                     setWidgetDisabled(WIDX_PICKUP, false);                 }                 else"
+        },
+        {
+          "path": "src/openrct2-ui/windows/Staff.cpp",
+          "line": 1047,
+          "expression": "                {                     setWidgetDisabled(WIDX_PICKUP, true);                 } "
+        }
+      ],
+      "displayedCondition": "当前正在维修或检查，禁止搬运与解雇。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        394,
+        408,
+        1050,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Staff:WIDX_PATROL"
+      ],
+      "unit": "Staff",
+      "controlId": "WIDX_PATROL",
+      "screenId": "detail:staff:02-working",
+      "region": [
+        394,
+        408,
+        1050,
+        68
+      ],
+      "visualKind": "button",
+      "label": "设置巡逻区域",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Staff.cpp",
+          "line": 71
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/Staff.cpp",
+            "line": 101,
+            "sourceExpression": "makeWidget     ({kWindowSize.width - 25,  69}, { 24,  24}, WidgetType::flatBtn,       WindowColour::secondary, ImageId(SPR_PATROL_BTN), STR_SET_PATROL_TIP    )",
+            "sourceStringIds": [
+              "STR_SET_PATROL_TIP"
+            ],
+            "originalSpriteIds": [
+              "SPR_PATROL_BTN"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "当前正在维修或检查，禁止搬运与解雇。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        394,
+        504,
+        1050,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Staff:WIDX_RENAME"
+      ],
+      "unit": "Staff",
+      "controlId": "WIDX_RENAME",
+      "screenId": "detail:staff:02-working",
+      "region": [
+        394,
+        504,
+        1050,
+        68
+      ],
+      "visualKind": "button",
+      "label": "修改员工姓名",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Staff.cpp",
+          "line": 72
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/Staff.cpp",
+            "line": 102,
+            "sourceExpression": "makeWidget     ({kWindowSize.width - 25,  93}, { 24,  24}, WidgetType::flatBtn,       WindowColour::secondary, ImageId(SPR_RENAME),     STR_NAME_STAFF_TIP    )",
+            "sourceStringIds": [
+              "STR_NAME_STAFF_TIP"
+            ],
+            "originalSpriteIds": [
+              "SPR_RENAME"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "当前正在维修或检查，禁止搬运与解雇。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        394,
+        600,
+        1050,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Staff:WIDX_LOCATE"
+      ],
+      "unit": "Staff",
+      "controlId": "WIDX_LOCATE",
+      "screenId": "detail:staff:02-working",
+      "region": [
+        394,
+        600,
+        1050,
+        68
+      ],
+      "visualKind": "button",
+      "label": "定位员工",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Staff.cpp",
+          "line": 73
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/Staff.cpp",
+            "line": 103,
+            "sourceExpression": "makeWidget     ({kWindowSize.width - 25, 117}, { 24,  24}, WidgetType::flatBtn,       WindowColour::secondary, ImageId(SPR_LOCATE),     STR_LOCATE_SUBJECT_TIP)",
+            "sourceStringIds": [
+              "STR_LOCATE_SUBJECT_TIP"
+            ],
+            "originalSpriteIds": [
+              "SPR_LOCATE"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "当前正在维修或检查，禁止搬运与解雇。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_disabled.png",
+      "region": [
+        394,
+        696,
+        1050,
+        68
+      ],
+      "resize": "nine",
+      "state": "disabled"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Staff:WIDX_FIRE"
+      ],
+      "unit": "Staff",
+      "controlId": "WIDX_FIRE",
+      "screenId": "detail:staff:02-working",
+      "region": [
+        394,
+        696,
+        1050,
+        68
+      ],
+      "visualKind": "button",
+      "label": "解雇员工",
+      "state": "disabled",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Staff.cpp",
+          "line": 74
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/Staff.cpp",
+            "line": 104,
+            "sourceExpression": "makeWidget     ({kWindowSize.width - 25, 141}, { 24,  24}, WidgetType::flatBtn,       WindowColour::secondary, ImageId(SPR_DEMOLISH),   STR_FIRE_STAFF_TIP    )",
+            "sourceStringIds": [
+              "STR_FIRE_STAFF_TIP"
+            ],
+            "originalSpriteIds": [
+              "SPR_DEMOLISH"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Staff.cpp",
+          "line": 1050,
+          "expression": "                 setWidgetDisabled(WIDX_FIRE, staff->state == PeepState::fixing || staff->state == PeepState::inspecting);             }         }"
+        }
+      ],
+      "displayedCondition": "当前正在维修或检查，禁止搬运与解雇。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    }
+  ],
+  "dataDiagrams": [
+    {
+      "role": "data-rule",
+      "points": [
+        [
+          398,
+          276
+        ],
+        [
+          1790,
+          276
+        ]
+      ],
+      "color": "#B28C43",
+      "width": 1
+    }
+  ],
+  "layoutIssues": [],
+  "fontDistribution": "Official OFL-licensed fonts are included in assets/fonts; see records/font-sources.json.",
+  "status": "produced_pending_review"
+}

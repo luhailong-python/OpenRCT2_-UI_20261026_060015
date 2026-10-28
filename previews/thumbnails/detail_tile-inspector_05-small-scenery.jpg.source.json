@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_tile-inspector_05-small-scenery.jpg",
+  "sha256": "e7c2f5aa47ad7ee0e4c7fe7c42271f99df10990e3d1943a8b9023a0098ea2082",
+  "derivedFrom": [
+    {
+      "file": "designs/details/tile-inspector/05-small-scenery.png",
+      "sha256": "dcbf64ea223b9628ded63528cc89cbfeb97914bf1d6fe75893922432a5d7c757",
+      "sourceRecord": "designs/details/tile-inspector/05-small-scenery.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

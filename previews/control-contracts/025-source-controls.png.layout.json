@@ -1,0 +1,340 @@
+{
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "purpose": "technical_style_contract_not_product_screen",
+  "controls": [
+    {
+      "unit": "EditorScenarioOptions",
+      "controlId": "WIDX_FORBID_MARKETING",
+      "rectTopLeftXYWH": [
+        58,
+        146,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        229,
+        554,
+        98
+      ],
+      "sourceWidgetType": "checkbox",
+      "sourceLabelDisplayed": "禁止营销计划",
+      "existingTargetScreenGroups": [
+        "财务"
+      ],
+      "formalAssets": [
+        "assets/common/checkbox_off.png",
+        "assets/common/checkbox_on.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "EditorScenarioOptions",
+      "controlId": "WIDX_CASH_PER_GUEST_LABEL",
+      "rectTopLeftXYWH": [
+        665,
+        146,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        229,
+        554,
+        98
+      ],
+      "sourceWidgetType": "label",
+      "sourceLabelDisplayed": "游客身上现金（平均值）",
+      "existingTargetScreenGroups": [
+        "游客"
+      ],
+      "formalAssets": [],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "EditorScenarioOptions",
+      "controlId": "WIDX_CASH_PER_GUEST",
+      "rectTopLeftXYWH": [
+        1272,
+        146,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        229,
+        554,
+        98
+      ],
+      "sourceWidgetType": "spinner",
+      "sourceLabelDisplayed": "数值调节",
+      "existingTargetScreenGroups": [
+        "游客"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "EditorScenarioOptions",
+      "controlId": "WIDX_CASH_PER_GUEST_INCREASE",
+      "rectTopLeftXYWH": [
+        58,
+        368,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        451,
+        554,
+        98
+      ],
+      "sourceWidgetType": "button",
+      "sourceLabelDisplayed": "操作按钮",
+      "existingTargetScreenGroups": [
+        "游客"
+      ],
+      "formalAssets": [
+        "assets/common/plus.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "EditorScenarioOptions",
+      "controlId": "WIDX_CASH_PER_GUEST_DECREASE",
+      "rectTopLeftXYWH": [
+        665,
+        368,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        451,
+        554,
+        98
+      ],
+      "sourceWidgetType": "button",
+      "sourceLabelDisplayed": "操作按钮",
+      "existingTargetScreenGroups": [
+        "游客"
+      ],
+      "formalAssets": [
+        "assets/common/minus.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "EditorScenarioOptions",
+      "controlId": "WIDX_GUEST_INITIAL_HAPPINESS_LABEL",
+      "rectTopLeftXYWH": [
+        1272,
+        368,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        451,
+        554,
+        98
+      ],
+      "sourceWidgetType": "label",
+      "sourceLabelDisplayed": "游客初始快乐度",
+      "existingTargetScreenGroups": [
+        "游客"
+      ],
+      "formalAssets": [],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "EditorScenarioOptions",
+      "controlId": "WIDX_GUEST_INITIAL_HAPPINESS",
+      "rectTopLeftXYWH": [
+        58,
+        590,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        673,
+        554,
+        98
+      ],
+      "sourceWidgetType": "spinner",
+      "sourceLabelDisplayed": "数值调节",
+      "existingTargetScreenGroups": [
+        "游客"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "EditorScenarioOptions",
+      "controlId": "WIDX_GUEST_INITIAL_HAPPINESS_INCREASE",
+      "rectTopLeftXYWH": [
+        665,
+        590,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        673,
+        554,
+        98
+      ],
+      "sourceWidgetType": "button",
+      "sourceLabelDisplayed": "操作按钮",
+      "existingTargetScreenGroups": [
+        "游客"
+      ],
+      "formalAssets": [
+        "assets/common/plus.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "EditorScenarioOptions",
+      "controlId": "WIDX_GUEST_INITIAL_HAPPINESS_DECREASE",
+      "rectTopLeftXYWH": [
+        1272,
+        590,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        673,
+        554,
+        98
+      ],
+      "sourceWidgetType": "button",
+      "sourceLabelDisplayed": "操作按钮",
+      "existingTargetScreenGroups": [
+        "游客"
+      ],
+      "formalAssets": [
+        "assets/common/minus.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "EditorScenarioOptions",
+      "controlId": "WIDX_GUEST_INITIAL_HUNGER_LABEL",
+      "rectTopLeftXYWH": [
+        58,
+        812,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        895,
+        554,
+        98
+      ],
+      "sourceWidgetType": "label",
+      "sourceLabelDisplayed": "游客初始饥饿度",
+      "existingTargetScreenGroups": [
+        "游客"
+      ],
+      "formalAssets": [],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "EditorScenarioOptions",
+      "controlId": "WIDX_GUEST_INITIAL_HUNGER",
+      "rectTopLeftXYWH": [
+        665,
+        812,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        895,
+        554,
+        98
+      ],
+      "sourceWidgetType": "spinner",
+      "sourceLabelDisplayed": "数值调节",
+      "existingTargetScreenGroups": [
+        "游客"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "EditorScenarioOptions",
+      "controlId": "WIDX_GUEST_INITIAL_HUNGER_INCREASE",
+      "rectTopLeftXYWH": [
+        1272,
+        812,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        895,
+        554,
+        98
+      ],
+      "sourceWidgetType": "button",
+      "sourceLabelDisplayed": "操作按钮",
+      "existingTargetScreenGroups": [
+        "游客"
+      ],
+      "formalAssets": [
+        "assets/common/plus.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/top-toolbar_01.jpg",
+  "sha256": "81044fae82d1be2c0a40f03bfe5985ceed61d83e838125e67a72a0d4a7a337cf",
+  "derivedFrom": [
+    {
+      "file": "designs/top-toolbar/01-文件.png",
+      "sha256": "61bb5788b46161a371dcdd27bef02747d01a46bca7fc7f11bf3b34db4b0de0e9",
+      "sourceRecord": "designs/top-toolbar/01-文件.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

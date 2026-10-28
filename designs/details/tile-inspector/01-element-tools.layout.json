@@ -1,0 +1,1460 @@
+{
+  "schemaVersion": 1,
+  "screenId": "detail:tile-inspector:01-element-tools",
+  "title": "地块检查  元素操作",
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "origin": "top-left",
+  "textLayers": [
+    {
+      "id": "text-001",
+      "text": "地块检查",
+      "role": "dynamic-text",
+      "region": [
+        620,
+        66,
+        680,
+        75
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 46,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 65,
+      "wrappedLines": [
+        "地块检查"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-002",
+      "text": "元素操作",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        231,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "元素操作"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-003",
+      "text": "地表",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        301,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "地表"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-004",
+      "text": "步道",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        371,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "步道"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-005",
+      "text": "轨道",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        441,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "轨道"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-006",
+      "text": "小景物",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        511,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "小景物"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-007",
+      "text": "大景物",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        581,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "大景物"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-008",
+      "text": "墙",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        651,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "墙"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-009",
+      "text": "入口",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        721,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "入口"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-010",
+      "text": "横幅",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        791,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "横幅"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-011",
+      "text": "元素操作",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        218,
+        1388,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 32,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 45,
+      "wrappedLines": [
+        "元素操作"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-012",
+      "text": "美术设计样例 · 名称 / 数值待定",
+      "role": "dynamic-text",
+      "region": [
+        600,
+        1046,
+        720,
+        28
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "美术设计样例 · 名称 / 数值待定"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-013",
+      "text": "地块 X 坐标",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        300,
+        674,
+        34
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "地块 X 坐标"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-014",
+      "text": "64",
+      "role": "dynamic-text",
+      "region": [
+        458,
+        344,
+        554,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "64"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-015",
+      "text": "地块 Y 坐标",
+      "role": "dynamic-text",
+      "region": [
+        1116,
+        300,
+        674,
+        34
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "地块 Y 坐标"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-016",
+      "text": "72",
+      "role": "dynamic-text",
+      "region": [
+        1176,
+        344,
+        554,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "72"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-017",
+      "text": "复制所选元素",
+      "role": "dynamic-text",
+      "region": [
+        418,
+        416,
+        634,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "复制所选元素"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-018",
+      "text": "粘贴元素",
+      "role": "dynamic-text",
+      "region": [
+        1136,
+        416,
+        634,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "粘贴元素"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-019",
+      "text": "元素上移",
+      "role": "dynamic-text",
+      "region": [
+        418,
+        512,
+        634,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "元素上移"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-020",
+      "text": "元素下移",
+      "role": "dynamic-text",
+      "region": [
+        1136,
+        512,
+        634,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "元素下移"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-021",
+      "text": "旋转所选元素",
+      "role": "dynamic-text",
+      "region": [
+        418,
+        608,
+        634,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "旋转所选元素"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-022",
+      "text": "按基础高度排序",
+      "role": "dynamic-text",
+      "region": [
+        1136,
+        608,
+        634,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "按基础高度排序"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-023",
+      "text": "移除所选元素",
+      "role": "dynamic-text",
+      "region": [
+        418,
+        704,
+        634,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "移除所选元素"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-024",
+      "text": "高级地块编辑 · 改动即时作用于当前园区。",
+      "role": "dynamic-text",
+      "region": [
+        397,
+        870,
+        1394,
+        39
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#7A745E",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "高级地块编辑 · 改动即时作用于当前园区。"
+      ],
+      "dynamic": true
+    }
+  ],
+  "artAndControlLayers": [
+    {
+      "role": "park-background",
+      "asset": "assets/backgrounds/park-day-native.png",
+      "region": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "resize": "cover"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_main.png",
+      "region": [
+        52,
+        96,
+        1816,
+        930
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "title-plaque",
+      "asset": "assets/common/title_plate.png",
+      "region": [
+        520,
+        22,
+        880,
+        170
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "close",
+      "asset": "assets/common/close.png",
+      "region": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_card.png",
+      "region": [
+        84,
+        208,
+        268,
+        756
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_selected.png",
+      "region": [
+        100,
+        224,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        294,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        364,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        434,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        504,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        574,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        644,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        714,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        784,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "value-field",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        394,
+        336,
+        682,
+        52
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "spinner-decrease",
+      "asset": "assets/common/minus.png",
+      "region": [
+        403,
+        342,
+        40,
+        40
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "spinner-increase",
+      "asset": "assets/common/plus.png",
+      "region": [
+        1027,
+        342,
+        40,
+        40
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "TileInspector:WIDX_SPINNER_X"
+      ],
+      "unit": "TileInspector",
+      "controlId": "WIDX_SPINNER_X",
+      "screenId": "detail:tile-inspector:01-element-tools",
+      "region": [
+        450,
+        336,
+        570,
+        52
+      ],
+      "visualKind": "spinner",
+      "label": "地块 X 坐标",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "spinner",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 86
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "spinner",
+            "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 281,
+            "sourceExpression": "makeHoldableSpinnerWidgets({20, 23}, {58, 14}, WidgetType::spinner, WindowColour::secondary)",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "value"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 2133,
+          "expression": "                WIDX_SPINNER_X_INCREASE, !(_tileSelected && ((_toolMap.x / 32) < kMaximumMapSizeTechnical - 1)));             setWidgetDisabledAndInvalidate(WIDX_SPINNER_X_DECREASE, !(_tileSelected && ((_toolMap.x / 32) > 0)));             setWidgetDisabledAndInvalidate(                 WIDX_SPINNER_Y_INCREASE, !(_tileSelected && ((_toolMap.y / 32) < kMaximumMapSizeTechnical - 1)));"
+        }
+      ],
+      "displayedCondition": "已选择一个元素且剪贴板已有可粘贴元素；移动按钮还受元素顺序约束。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "TileInspector:WIDX_SPINNER_X_DECREASE"
+      ],
+      "unit": "TileInspector",
+      "controlId": "WIDX_SPINNER_X_DECREASE",
+      "screenId": "detail:tile-inspector:01-element-tools",
+      "region": [
+        403,
+        342,
+        40,
+        40
+      ],
+      "visualKind": "stepper-decrease",
+      "label": "地块 X 坐标减少",
+      "state": "normal",
+      "parentControl": "WIDX_SPINNER_X",
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 88
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 281,
+            "sourceExpression": "makeHoldableSpinnerWidgets({20, 23}, {58, 14}, WidgetType::spinner, WindowColour::secondary)",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "decrease"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 2133,
+          "expression": "                WIDX_SPINNER_X_INCREASE, !(_tileSelected && ((_toolMap.x / 32) < kMaximumMapSizeTechnical - 1)));             setWidgetDisabledAndInvalidate(WIDX_SPINNER_X_DECREASE, !(_tileSelected && ((_toolMap.x / 32) > 0)));             setWidgetDisabledAndInvalidate(                 WIDX_SPINNER_Y_INCREASE, !(_tileSelected && ((_toolMap.y / 32) < kMaximumMapSizeTechnical - 1)));"
+        }
+      ],
+      "displayedCondition": "已选择一个元素且剪贴板已有可粘贴元素；移动按钮还受元素顺序约束。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "TileInspector:WIDX_SPINNER_X_INCREASE"
+      ],
+      "unit": "TileInspector",
+      "controlId": "WIDX_SPINNER_X_INCREASE",
+      "screenId": "detail:tile-inspector:01-element-tools",
+      "region": [
+        1027,
+        342,
+        40,
+        40
+      ],
+      "visualKind": "stepper-increase",
+      "label": "地块 X 坐标增加",
+      "state": "normal",
+      "parentControl": "WIDX_SPINNER_X",
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 87
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 281,
+            "sourceExpression": "makeHoldableSpinnerWidgets({20, 23}, {58, 14}, WidgetType::spinner, WindowColour::secondary)",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "increase"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "已选择一个元素且剪贴板已有可粘贴元素；移动按钮还受元素顺序约束。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "value-field",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1112,
+        336,
+        682,
+        52
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "spinner-decrease",
+      "asset": "assets/common/minus.png",
+      "region": [
+        1121,
+        342,
+        40,
+        40
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "spinner-increase",
+      "asset": "assets/common/plus.png",
+      "region": [
+        1745,
+        342,
+        40,
+        40
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "TileInspector:WIDX_SPINNER_Y"
+      ],
+      "unit": "TileInspector",
+      "controlId": "WIDX_SPINNER_Y",
+      "screenId": "detail:tile-inspector:01-element-tools",
+      "region": [
+        1168,
+        336,
+        570,
+        52
+      ],
+      "visualKind": "spinner",
+      "label": "地块 Y 坐标",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "spinner",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 90
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "spinner",
+            "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 283,
+            "sourceExpression": "makeHoldableSpinnerWidgets({97, 23}, {58, 14}, WidgetType::spinner, WindowColour::secondary)",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "value"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 2136,
+          "expression": "                WIDX_SPINNER_Y_INCREASE, !(_tileSelected && ((_toolMap.y / 32) < kMaximumMapSizeTechnical - 1)));             setWidgetDisabledAndInvalidate(WIDX_SPINNER_Y_DECREASE, !(_tileSelected && ((_toolMap.y / 32) > 0)));              // Sort buttons"
+        }
+      ],
+      "displayedCondition": "已选择一个元素且剪贴板已有可粘贴元素；移动按钮还受元素顺序约束。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "TileInspector:WIDX_SPINNER_Y_DECREASE"
+      ],
+      "unit": "TileInspector",
+      "controlId": "WIDX_SPINNER_Y_DECREASE",
+      "screenId": "detail:tile-inspector:01-element-tools",
+      "region": [
+        1121,
+        342,
+        40,
+        40
+      ],
+      "visualKind": "stepper-decrease",
+      "label": "地块 Y 坐标减少",
+      "state": "normal",
+      "parentControl": "WIDX_SPINNER_Y",
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 92
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 283,
+            "sourceExpression": "makeHoldableSpinnerWidgets({97, 23}, {58, 14}, WidgetType::spinner, WindowColour::secondary)",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "decrease"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 2136,
+          "expression": "                WIDX_SPINNER_Y_INCREASE, !(_tileSelected && ((_toolMap.y / 32) < kMaximumMapSizeTechnical - 1)));             setWidgetDisabledAndInvalidate(WIDX_SPINNER_Y_DECREASE, !(_tileSelected && ((_toolMap.y / 32) > 0)));              // Sort buttons"
+        }
+      ],
+      "displayedCondition": "已选择一个元素且剪贴板已有可粘贴元素；移动按钮还受元素顺序约束。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "TileInspector:WIDX_SPINNER_Y_INCREASE"
+      ],
+      "unit": "TileInspector",
+      "controlId": "WIDX_SPINNER_Y_INCREASE",
+      "screenId": "detail:tile-inspector:01-element-tools",
+      "region": [
+        1745,
+        342,
+        40,
+        40
+      ],
+      "visualKind": "stepper-increase",
+      "label": "地块 Y 坐标增加",
+      "state": "normal",
+      "parentControl": "WIDX_SPINNER_Y",
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 91
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 283,
+            "sourceExpression": "makeHoldableSpinnerWidgets({97, 23}, {58, 14}, WidgetType::spinner, WindowColour::secondary)",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "increase"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "已选择一个元素且剪贴板已有可粘贴元素；移动按钮还受元素顺序约束。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        394,
+        408,
+        682,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "TileInspector:WIDX_BUTTON_COPY"
+      ],
+      "unit": "TileInspector",
+      "controlId": "WIDX_BUTTON_COPY",
+      "screenId": "detail:tile-inspector:01-element-tools",
+      "region": [
+        394,
+        408,
+        682,
+        68
+      ],
+      "visualKind": "button",
+      "label": "复制所选元素",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 99
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 291,
+            "sourceExpression": "makeWidget(kToolbarButtonAnchor + kToolbarButtonOffsetX * 5,                     kToolbarButtonSize,     WidgetType::flatBtn,     WindowColour::secondary, ImageId(SPR_G2_COPY),      STR_TILE_INSPECTOR_COPY_TIP)",
+            "sourceStringIds": [
+              "STR_TILE_INSPECTOR_COPY_TIP"
+            ],
+            "originalSpriteIds": [
+              "SPR_G2_COPY"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 2151,
+          "expression": "            // Copy button             setWidgetDisabledAndInvalidate(WIDX_BUTTON_COPY, windowTileInspectorSelectedIndex < 0);              // Paste button"
+        }
+      ],
+      "displayedCondition": "已选择一个元素且剪贴板已有可粘贴元素；移动按钮还受元素顺序约束。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1112,
+        408,
+        682,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "TileInspector:WIDX_BUTTON_PASTE"
+      ],
+      "unit": "TileInspector",
+      "controlId": "WIDX_BUTTON_PASTE",
+      "screenId": "detail:tile-inspector:01-element-tools",
+      "region": [
+        1112,
+        408,
+        682,
+        68
+      ],
+      "visualKind": "button",
+      "label": "粘贴元素",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 98
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 290,
+            "sourceExpression": "makeWidget(kToolbarButtonAnchor + kToolbarButtonOffsetX * 4,                     kToolbarButtonSize,     WidgetType::flatBtn,     WindowColour::secondary, ImageId(SPR_G2_PASTE),     STR_TILE_INSPECTOR_PASTE_TIP)",
+            "sourceStringIds": [
+              "STR_TILE_INSPECTOR_PASTE_TIP"
+            ],
+            "originalSpriteIds": [
+              "SPR_G2_PASTE"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 2154,
+          "expression": "            // Paste button             setWidgetDisabledAndInvalidate(WIDX_BUTTON_PASTE, !(_tileSelected && _elementCopied));              widgets[WIDX_BACKGROUND].bottom = height - 1;"
+        }
+      ],
+      "displayedCondition": "已选择一个元素且剪贴板已有可粘贴元素；移动按钮还受元素顺序约束。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        394,
+        504,
+        682,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "TileInspector:WIDX_BUTTON_MOVE_UP"
+      ],
+      "unit": "TileInspector",
+      "controlId": "WIDX_BUTTON_MOVE_UP",
+      "screenId": "detail:tile-inspector:01-element-tools",
+      "region": [
+        394,
+        504,
+        682,
+        68
+      ],
+      "visualKind": "button",
+      "label": "元素上移",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 94
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 286,
+            "sourceExpression": "makeWidget(kToolbarButtonAnchor + kToolbarButtonOffsetX * 1,                     kToolbarButtonHalfSize, WidgetType::button,      WindowColour::secondary, STR_UP,                    STR_MOVE_SELECTED_ELEMENT_UP_TIP)",
+            "sourceStringIds": [
+              "STR_UP",
+              "STR_MOVE_SELECTED_ELEMENT_UP_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "已选择一个元素且剪贴板已有可粘贴元素；移动按钮还受元素顺序约束。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1112,
+        504,
+        682,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "TileInspector:WIDX_BUTTON_MOVE_DOWN"
+      ],
+      "unit": "TileInspector",
+      "controlId": "WIDX_BUTTON_MOVE_DOWN",
+      "screenId": "detail:tile-inspector:01-element-tools",
+      "region": [
+        1112,
+        504,
+        682,
+        68
+      ],
+      "visualKind": "button",
+      "label": "元素下移",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 95
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 287,
+            "sourceExpression": "makeWidget(kToolbarButtonAnchor + kToolbarButtonOffsetX * 1 + ScreenSize{0, 12}, kToolbarButtonHalfSize, WidgetType::button,      WindowColour::secondary, STR_DOWN,                  STR_MOVE_SELECTED_ELEMENT_DOWN_TIP)",
+            "sourceStringIds": [
+              "STR_DOWN",
+              "STR_MOVE_SELECTED_ELEMENT_DOWN_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 2148,
+          "expression": "            // Move Down button             setWidgetDisabledAndInvalidate(WIDX_BUTTON_MOVE_DOWN, windowTileInspectorSelectedIndex <= 0);              // Copy button"
+        }
+      ],
+      "displayedCondition": "已选择一个元素且剪贴板已有可粘贴元素；移动按钮还受元素顺序约束。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        394,
+        600,
+        682,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "TileInspector:WIDX_BUTTON_ROTATE"
+      ],
+      "unit": "TileInspector",
+      "controlId": "WIDX_BUTTON_ROTATE",
+      "screenId": "detail:tile-inspector:01-element-tools",
+      "region": [
+        394,
+        600,
+        682,
+        68
+      ],
+      "visualKind": "button",
+      "label": "旋转所选元素",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 96
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 288,
+            "sourceExpression": "makeWidget(kToolbarButtonAnchor + kToolbarButtonOffsetX * 2,                     kToolbarButtonSize,     WidgetType::flatBtn,     WindowColour::secondary, ImageId(SPR_ROTATE_ARROW), STR_ROTATE_SELECTED_ELEMENT_TIP)",
+            "sourceStringIds": [
+              "STR_ROTATE_SELECTED_ELEMENT_TIP"
+            ],
+            "originalSpriteIds": [
+              "SPR_ROTATE_ARROW"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "已选择一个元素且剪贴板已有可粘贴元素；移动按钮还受元素顺序约束。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1112,
+        600,
+        682,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "TileInspector:WIDX_BUTTON_SORT"
+      ],
+      "unit": "TileInspector",
+      "controlId": "WIDX_BUTTON_SORT",
+      "screenId": "detail:tile-inspector:01-element-tools",
+      "region": [
+        1112,
+        600,
+        682,
+        68
+      ],
+      "visualKind": "button",
+      "label": "按基础高度排序",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 97
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 289,
+            "sourceExpression": "makeWidget(kToolbarButtonAnchor + kToolbarButtonOffsetX * 3,                     kToolbarButtonSize,     WidgetType::flatBtn,     WindowColour::secondary, ImageId(SPR_G2_SORT),      STR_TILE_INSPECTOR_SORT_TIP)",
+            "sourceStringIds": [
+              "STR_TILE_INSPECTOR_SORT_TIP"
+            ],
+            "originalSpriteIds": [
+              "SPR_G2_SORT"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 2139,
+          "expression": "            // Sort buttons             setWidgetDisabledAndInvalidate(WIDX_BUTTON_SORT, !(_tileSelected && windowTileInspectorElementCount > 1));              // Move Up button"
+        }
+      ],
+      "displayedCondition": "已选择一个元素且剪贴板已有可粘贴元素；移动按钮还受元素顺序约束。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        394,
+        696,
+        682,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "TileInspector:WIDX_BUTTON_REMOVE"
+      ],
+      "unit": "TileInspector",
+      "controlId": "WIDX_BUTTON_REMOVE",
+      "screenId": "detail:tile-inspector:01-element-tools",
+      "region": [
+        394,
+        696,
+        682,
+        68
+      ],
+      "visualKind": "button",
+      "label": "移除所选元素",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 93
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 285,
+            "sourceExpression": "makeWidget(kToolbarButtonAnchor + kToolbarButtonOffsetX * 0,                     kToolbarButtonSize,     WidgetType::flatBtn,     WindowColour::secondary, ImageId(SPR_DEMOLISH),     STR_REMOVE_SELECTED_ELEMENT_TIP )",
+            "sourceStringIds": [
+              "STR_REMOVE_SELECTED_ELEMENT_TIP"
+            ],
+            "originalSpriteIds": [
+              "SPR_DEMOLISH"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "已选择一个元素且剪贴板已有可粘贴元素；移动按钮还受元素顺序约束。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    }
+  ],
+  "dataDiagrams": [
+    {
+      "role": "data-rule",
+      "points": [
+        [
+          398,
+          276
+        ],
+        [
+          1790,
+          276
+        ]
+      ],
+      "color": "#B28C43",
+      "width": 1
+    }
+  ],
+  "layoutIssues": [],
+  "fontDistribution": "Official OFL-licensed fonts are included in assets/fonts; see records/font-sources.json.",
+  "status": "produced_pending_review"
+}

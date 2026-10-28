@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_map-gen_01-flatland.jpg",
+  "sha256": "cbf58e35bbe11df665ab705e13aa487e7271e6afcbace0221d29ecca526c1c5d",
+  "derivedFrom": [
+    {
+      "file": "designs/details/map-gen/01-flatland.png",
+      "sha256": "003715df656eece553ab54bf2a7525b60a1e926a37868aba46d6916d950d8456",
+      "sourceRecord": "designs/details/map-gen/01-flatland.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_options_05-界面-02.jpg",
+  "sha256": "e749eb0b5646dbb585aa46ef47f1eab6b26cb4416d2629fe778a2713d061425b",
+  "derivedFrom": [
+    {
+      "file": "designs/details/options/05-界面-02.png",
+      "sha256": "420faa26f22f8c586751f0ee0cd9f1b2f21fe8547da7ab83e080bdd5034b7efa",
+      "sourceRecord": "designs/details/options/05-界面-02.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

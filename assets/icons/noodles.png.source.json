@@ -1,0 +1,60 @@
+{
+  "name": "noodles",
+  "file": "assets/icons/noodles.png",
+  "width": 192,
+  "height": 192,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "43e244ff04c9115b03dc70f421b7a37871520273fcc6af519137ccc4f7b4f2e2",
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "resizeAxes": "none",
+  "minimumSize": [
+    192,
+    192
+  ],
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "pixelsPerUnit": 100,
+  "containsDynamicText": false,
+  "source": "assets/masters/icons-native.png",
+  "sourceSha256": "d0f99448ab11be63840698af42b9839ab68ffc6b13a4ac654a5ab3252620f8c6",
+  "sourceNativeSize": [
+    1254,
+    1254
+  ],
+  "sourceRectTopLeftXYXY": [
+    954,
+    539,
+    1097,
+    687
+  ],
+  "pasteOffset": [
+    24,
+    22
+  ],
+  "operation": "Original-pixel crop; isolate specified alpha>100 connected silhouettes, retain original alpha>=16 within 2px edge support; center on padded canvas. No recoloring, painting, AI call or upscaling.",
+  "derivedFrom": {
+    "file": "assets/masters/icons-native.png",
+    "sha256": "d0f99448ab11be63840698af42b9839ab68ffc6b13a4ac654a5ab3252620f8c6",
+    "generationRecord": "assets/masters/icons-native.png.generation.json"
+  },
+  "alpha": {
+    "minimum": 0,
+    "maximum": 255,
+    "transparentPixels": 23234,
+    "visiblePixels": 13630
+  },
+  "isolatedForegroundComponents": 1,
+  "qualityStatus": "passed_slice_visual_review_20261026",
+  "nativeDetailIncreased": false,
+  "processedAt": "2026-10-26T06:14:39.404565-04:00",
+  "rowMajorIndex": 31,
+  "visualEvidence": "docs/sprite-qa.md; previews/sprites-contact.jpg"
+}

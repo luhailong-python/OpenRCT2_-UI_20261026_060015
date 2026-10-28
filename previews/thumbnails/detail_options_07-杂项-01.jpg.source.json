@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_options_07-杂项-01.jpg",
+  "sha256": "31f26a6d3c3344d22c5ab6e7e59cc8ca41c9774f78933c2e8ecb016ae1b1b18d",
+  "derivedFrom": [
+    {
+      "file": "designs/details/options/07-杂项-01.png",
+      "sha256": "784339e9f57ac56d332c99df334d19ca5a91fe3e2b7a8463abcbf3b628a181ad",
+      "sourceRecord": "designs/details/options/07-杂项-01.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

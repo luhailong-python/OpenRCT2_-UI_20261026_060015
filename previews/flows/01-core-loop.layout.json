@@ -1,0 +1,283 @@
+{
+  "file": "previews/flows/01-core-loop.png",
+  "textLayers": [
+    {
+      "text": "经营系统与反馈循环",
+      "position": [
+        96,
+        46
+      ],
+      "fontSize": 50,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "color": "#173e35"
+    },
+    {
+      "text": "玩法参考：OpenRCT2；道家名称为视觉设计样例。",
+      "position": [
+        98,
+        119
+      ],
+      "fontSize": 23,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#6d6f5c"
+    },
+    {
+      "text": "建设",
+      "position": [
+        630,
+        316
+      ],
+      "fontSize": 20,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#527364"
+    },
+    {
+      "text": "测试",
+      "position": [
+        1230,
+        316
+      ],
+      "fontSize": 20,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#527364"
+    },
+    {
+      "text": "运营",
+      "position": [
+        1580,
+        539
+      ],
+      "fontSize": 20,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#527364"
+    },
+    {
+      "text": "收支",
+      "position": [
+        1230,
+        726
+      ],
+      "fontSize": 20,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#527364"
+    },
+    {
+      "text": "目标",
+      "position": [
+        630,
+        726
+      ],
+      "fontSize": 20,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#527364"
+    },
+    {
+      "text": "解锁反馈",
+      "position": [
+        980,
+        539
+      ],
+      "fontSize": 20,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#527364"
+    },
+    {
+      "text": "园区主界面",
+      "position": [
+        264,
+        282
+      ],
+      "fontSize": 32,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "color": "#173e35"
+    },
+    {
+      "text": "暂停/加速/视图/导航",
+      "position": [
+        138,
+        410
+      ],
+      "fontSize": 22,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#173e35"
+    },
+    {
+      "text": "建设园区",
+      "position": [
+        864,
+        282
+      ],
+      "fontSize": 32,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "color": "#173e35"
+    },
+    {
+      "text": "土地 → 步道 → 设施",
+      "position": [
+        738,
+        410
+      ],
+      "fontSize": 22,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#173e35"
+    },
+    {
+      "text": "测试与营业",
+      "position": [
+        1464,
+        282
+      ],
+      "fontSize": 32,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "color": "#173e35"
+    },
+    {
+      "text": "运行参数 → 测量 → 开放",
+      "position": [
+        1338,
+        410
+      ],
+      "fontSize": 22,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#173e35"
+    },
+    {
+      "text": "游客与员工",
+      "position": [
+        1464,
+        692
+      ],
+      "fontSize": 32,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "color": "#173e35"
+    },
+    {
+      "text": "需求/消费/巡逻/维修",
+      "position": [
+        1338,
+        820
+      ],
+      "fontSize": 22,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#173e35"
+    },
+    {
+      "text": "财务与研究",
+      "position": [
+        864,
+        692
+      ],
+      "fontSize": 32,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "color": "#173e35"
+    },
+    {
+      "text": "收支/贷款/营销/拨款",
+      "position": [
+        738,
+        820
+      ],
+      "fontSize": 22,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#173e35"
+    },
+    {
+      "text": "目标与奖项",
+      "position": [
+        264,
+        692
+      ],
+      "fontSize": 32,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "color": "#173e35"
+    },
+    {
+      "text": "评分与目标 → 成功/失败",
+      "position": [
+        138,
+        820
+      ],
+      "fontSize": 22,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#173e35"
+    },
+    {
+      "text": "流程说明图 · 静态美术交付 · 操作与状态以源码合同为依据",
+      "position": [
+        100,
+        1030
+      ],
+      "fontSize": 21,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#6d6f5c"
+    }
+  ],
+  "nodes": [
+    [
+      "园区主界面",
+      "暂停/加速/视图/导航",
+      "park_gate"
+    ],
+    [
+      "建设园区",
+      "土地 → 步道 → 设施",
+      "build"
+    ],
+    [
+      "测试与营业",
+      "运行参数 → 测量 → 开放",
+      "roller_coaster"
+    ],
+    [
+      "游客与员工",
+      "需求/消费/巡逻/维修",
+      "visitor"
+    ],
+    [
+      "财务与研究",
+      "收支/贷款/营销/拨款",
+      "coins"
+    ],
+    [
+      "目标与奖项",
+      "评分与目标 → 成功/失败",
+      "trophy"
+    ]
+  ],
+  "edges": [
+    [
+      0,
+      1,
+      "选择建设"
+    ],
+    [
+      1,
+      2,
+      "条件满足"
+    ],
+    [
+      2,
+      3,
+      "体验反馈"
+    ],
+    [
+      3,
+      4,
+      "经营收支"
+    ],
+    [
+      4,
+      5,
+      "持续经营"
+    ],
+    [
+      4,
+      1,
+      "研究解锁/预算反馈"
+    ]
+  ],
+  "canvas": [
+    1920,
+    1080
+  ]
+}

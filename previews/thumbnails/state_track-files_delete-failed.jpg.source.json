@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_track-files_delete-failed.jpg",
+  "sha256": "dd089b41be7c4fe226e991f5307acefd93a107e61d571b274bdd70344c8f5a44",
+  "derivedFrom": [
+    {
+      "file": "previews/states/track-files/delete-failed.png",
+      "sha256": "728c806b2237764ef33c90033d46b1725125f07a09821e378ab7d0ac907fb745",
+      "sourceRecord": "previews/states/track-files/delete-failed.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

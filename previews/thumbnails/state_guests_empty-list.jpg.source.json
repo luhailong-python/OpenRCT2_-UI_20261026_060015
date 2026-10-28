@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_guests_empty-list.jpg",
+  "sha256": "df032abcd2d8e678fcf3496fb6d05ebcfcc0dc0a81044f20bc8acc54b67d0704",
+  "derivedFrom": [
+    {
+      "file": "previews/states/guests/empty-list.png",
+      "sha256": "9ddfa0f5e2550a16cd4cd43c39ec6284f3eb0f1738229f40dc0bd54db1082259",
+      "sourceRecord": "previews/states/guests/empty-list.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,585 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/details/options/05-界面-01.png",
+  "sha256": "b3693763898a7374a5c6051267abdca8c86372e85e228eb382c0ef8a451a856f",
+  "exportedAt": "2026-10-26T08:00:05.414683-04:00",
+  "width": 1920,
+  "height": 1080,
+  "format": "PNG",
+  "operation": "composite_preview_not_native_generation",
+  "process": [
+    "Nine-slice/contain/cover composition of painted PNG sprites",
+    "Separate Chinese text typesetting and data diagrams"
+  ],
+  "resampling": "LANCZOS where art is fitted; output dimensions do not represent new native generated detail.",
+  "nativeModelClaim": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidencePolicy": "Resolve original AI model/quality through each source asset record; unreported values remain unconfirmed.",
+  "derivedFrom": [
+    {
+      "file": "assets/backgrounds/park-day-native.png",
+      "sha256": "27c3ac998fcd81e675c9a05712ead25c83443b133844c169d1476c3cebe25712",
+      "nativeDimensions": [
+        1672,
+        941
+      ],
+      "generationRecord": "assets/backgrounds/park-day-native.png.generation.json",
+      "derivationRecord": "assets/slice-manifest.json"
+    },
+    {
+      "file": "assets/common/panel_main.png",
+      "sha256": "704856762248133110624f38365e0ff337dd1f2f6304f66298e2230077ebca00",
+      "nativeDimensions": [
+        619,
+        610
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_main.png.source.json"
+    },
+    {
+      "file": "assets/common/title_plate.png",
+      "sha256": "f1011dd30d1ef42cbeedf64f31025c6c77c91ffbbcdd09ef74c065ad1d91ddfe",
+      "nativeDimensions": [
+        594,
+        195
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/title_plate.png.source.json"
+    },
+    {
+      "file": "assets/common/close.png",
+      "sha256": "f9089fdc15bfbfbd496d9c02de94c46b0e1e4052fffa9689de0b461e043737ec",
+      "nativeDimensions": [
+        184,
+        184
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/close.png.source.json"
+    },
+    {
+      "file": "assets/common/panel_card.png",
+      "sha256": "b82ed16e818b3bb86c16a68453bc4b73f1764c6fdb4541c2e470e5c60789568e",
+      "nativeDimensions": [
+        589,
+        558
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_card.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_normal.png",
+      "sha256": "9327a3d9577111e5985e3453a8a201010887c606a094b7e080421417aef3f92e",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_selected.png",
+      "sha256": "119a81554b9e332d698f5c704813cb047fcd4c5c71e9e5c36c7b6df6b4a789b9",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_selected.png.source.json"
+    },
+    {
+      "file": "assets/common/secondary_normal.png",
+      "sha256": "5f6418c0ede62320bc017ef1f00ec1d60a5d5fc34dac8c4e96d0016e6523881f",
+      "nativeDimensions": [
+        256,
+        112
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/secondary_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/checkbox_on.png",
+      "sha256": "b986cc788cbae485e12a8a778be057715201d11e3d1154776881966b680b77b9",
+      "nativeDimensions": [
+        128,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/checkbox_on.png.source.json"
+    }
+  ],
+  "layoutRecord": "designs/details/options/05-界面-01.layout.json",
+  "functionalReference": {
+    "functionalRepository": "https://github.com/OpenRCT2/OpenRCT2.git",
+    "commit": "52a55c3e8da5972460642bdfed61d091fe9cabfd",
+    "sourceUnit": "Options",
+    "sourceFiles": [
+      "src/openrct2-ui/windows/Options.cpp"
+    ],
+    "condition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+    "scope": "Complete controls arranged as an actual product UI proposal; no runtime verification.",
+    "sourceControls": [
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_THEMES"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_THEMES",
+        "screenId": "detail:options:05-界面-01",
+        "region": [
+          394,
+          336,
+          608,
+          52
+        ],
+        "visualKind": "dropdown",
+        "label": "界面主题",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "dropdownMenu",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 185
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "dropdownMenu",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 400,
+              "sourceExpression": "makeWidget({155, kThemesGroupStart + 14}, {145, 14}, WidgetType::dropdownMenu, WindowColour::secondary, kStringIdEmpty                                                )",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_THEMES_DROPDOWN"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_THEMES_DROPDOWN",
+        "screenId": "detail:options:05-界面-01",
+        "region": [
+          1006,
+          336,
+          66,
+          52
+        ],
+        "visualKind": "dropdown-button",
+        "label": "界面主题选择",
+        "state": "normal",
+        "parentControl": "WIDX_THEMES",
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 186
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 401,
+              "sourceExpression": "makeWidget({288, kThemesGroupStart + 15}, { 11, 12}, WidgetType::button,       WindowColour::secondary, STR_DROPDOWN_GLYPH,             STR_CURRENT_THEME_TIP     )",
+              "sourceStringIds": [
+                "STR_DROPDOWN_GLYPH",
+                "STR_CURRENT_THEME_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_THEMES_BUTTON"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_THEMES_BUTTON",
+        "screenId": "detail:options:05-界面-01",
+        "region": [
+          1112,
+          312,
+          682,
+          68
+        ],
+        "visualKind": "button",
+        "label": "编辑配色主题",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 187
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 402,
+              "sourceExpression": "makeWidget({155, kThemesGroupStart + 30}, {145, 14}, WidgetType::button,       WindowColour::secondary, STR_EDIT_THEMES_BUTTON,         STR_EDIT_THEMES_BUTTON_TIP)",
+              "sourceStringIds": [
+                "STR_EDIT_THEMES_BUTTON",
+                "STR_EDIT_THEMES_BUTTON_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_TOOLBAR_BUTTONS_CENTRED"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_TOOLBAR_BUTTONS_CENTRED",
+        "screenId": "detail:options:05-界面-01",
+        "region": [
+          390,
+          396,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "将工具栏按钮水平居中对齐",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 189
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 405,
+              "sourceExpression": "makeWidget({ 10, kToolbarGroupStart + 14}, {280, 12}, WidgetType::checkbox, WindowColour::tertiary,  STR_OPTIONS_TOOLBAR_BUTTONS_CENTRED, STR_OPTIONS_TOOLBAR_BUTTONS_CENTRED_TIP      )",
+              "sourceStringIds": [
+                "STR_OPTIONS_TOOLBAR_BUTTONS_CENTRED",
+                "STR_OPTIONS_TOOLBAR_BUTTONS_CENTRED_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_TOOLBAR_SHOW_FINANCES"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_TOOLBAR_SHOW_FINANCES",
+        "screenId": "detail:options:05-界面-01",
+        "region": [
+          1108,
+          396,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "财务",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 191
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 407,
+              "sourceExpression": "makeWidget({ 24, kToolbarGroupStart + 46}, {122, 12}, WidgetType::checkbox, WindowColour::tertiary , STR_FINANCES_BUTTON_ON_TOOLBAR,      STR_FINANCES_BUTTON_ON_TOOLBAR_TIP           )",
+              "sourceStringIds": [
+                "STR_FINANCES_BUTTON_ON_TOOLBAR",
+                "STR_FINANCES_BUTTON_ON_TOOLBAR_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_TOOLBAR_SHOW_RESEARCH"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_TOOLBAR_SHOW_RESEARCH",
+        "screenId": "detail:options:05-界面-01",
+        "region": [
+          390,
+          492,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "研发",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 192
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 408,
+              "sourceExpression": "makeWidget({ 24, kToolbarGroupStart + 61}, {122, 12}, WidgetType::checkbox, WindowColour::tertiary , STR_RESEARCH_BUTTON_ON_TOOLBAR,      STR_RESEARCH_BUTTON_ON_TOOLBAR_TIP           )",
+              "sourceStringIds": [
+                "STR_RESEARCH_BUTTON_ON_TOOLBAR",
+                "STR_RESEARCH_BUTTON_ON_TOOLBAR_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_TOOLBAR_SHOW_CHEATS"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_TOOLBAR_SHOW_CHEATS",
+        "screenId": "detail:options:05-界面-01",
+        "region": [
+          1108,
+          492,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "作弊",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 193
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 409,
+              "sourceExpression": "makeWidget({155, kToolbarGroupStart + 46}, {145, 12}, WidgetType::checkbox, WindowColour::tertiary , STR_CHEATS_BUTTON_ON_TOOLBAR,        STR_CHEATS_BUTTON_ON_TOOLBAR_TIP             )",
+              "sourceStringIds": [
+                "STR_CHEATS_BUTTON_ON_TOOLBAR",
+                "STR_CHEATS_BUTTON_ON_TOOLBAR_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_TOOLBAR_SHOW_NEWS"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_TOOLBAR_SHOW_NEWS",
+        "screenId": "detail:options:05-界面-01",
+        "region": [
+          390,
+          588,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "最近消息",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 194
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 410,
+              "sourceExpression": "makeWidget({155, kToolbarGroupStart + 61}, {145, 12}, WidgetType::checkbox, WindowColour::tertiary , STR_SHOW_RECENT_MESSAGES_ON_TOOLBAR, STR_SHOW_RECENT_MESSAGES_ON_TOOLBAR_TIP      )",
+              "sourceStringIds": [
+                "STR_SHOW_RECENT_MESSAGES_ON_TOOLBAR",
+                "STR_SHOW_RECENT_MESSAGES_ON_TOOLBAR_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_TOOLBAR_SHOW_MUTE"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_TOOLBAR_SHOW_MUTE",
+        "screenId": "detail:options:05-界面-01",
+        "region": [
+          1108,
+          588,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "静音",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 195
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 411,
+              "sourceExpression": "makeWidget({ 24, kToolbarGroupStart + 76}, {162, 12}, WidgetType::checkbox, WindowColour::tertiary , STR_MUTE_BUTTON_ON_TOOLBAR,          STR_MUTE_BUTTON_ON_TOOLBAR_TIP               )",
+              "sourceStringIds": [
+                "STR_MUTE_BUTTON_ON_TOOLBAR",
+                "STR_MUTE_BUTTON_ON_TOOLBAR_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_TOOLBAR_SHOW_CHAT"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_TOOLBAR_SHOW_CHAT",
+        "screenId": "detail:options:05-界面-01",
+        "region": [
+          390,
+          684,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "聊天室",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 196
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 412,
+              "sourceExpression": "makeWidget({155, kToolbarGroupStart + 76}, {145, 12}, WidgetType::checkbox, WindowColour::tertiary , STR_CHAT_BUTTON_ON_TOOLBAR,          STR_CHAT_BUTTON_ON_TOOLBAR_TIP               )",
+              "sourceStringIds": [
+                "STR_CHAT_BUTTON_ON_TOOLBAR",
+                "STR_CHAT_BUTTON_ON_TOOLBAR_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_TOOLBAR_SHOW_ZOOM"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_TOOLBAR_SHOW_ZOOM",
+        "screenId": "detail:options:05-界面-01",
+        "region": [
+          1108,
+          684,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "缩放",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 197
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 413,
+              "sourceExpression": "makeWidget({ 24, kToolbarGroupStart + 91}, {122, 12}, WidgetType::checkbox, WindowColour::tertiary , STR_ZOOM_BUTTON_ON_TOOLBAR,          STR_ZOOM_BUTTON_ON_TOOLBAR_TIP               )",
+              "sourceStringIds": [
+                "STR_ZOOM_BUTTON_ON_TOOLBAR",
+                "STR_ZOOM_BUTTON_ON_TOOLBAR_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      }
+    ],
+    "decorativeArtPolicy": "Existing painted PNGs only"
+  },
+  "status": "produced_pending_review"
+}

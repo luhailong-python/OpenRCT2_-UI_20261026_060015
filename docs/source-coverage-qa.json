@@ -1,0 +1,628 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-26T06:18:29.778664-04:00",
+  "referenceCommit": "52a55c3e8da5972460642bdfed61d091fe9cabfd",
+  "scope": "independent source/UI semantic QA; not engine or full visual acceptance",
+  "inventoryInputSha256": "e8178e09a8605f8fd411b1669d6a44da091745481ec30ded9ea46c3085292aab",
+  "inventoryOutputSha256": "f24690c9e647f00ebb3bc0aaf4a3b18660c7f005d4abb9340e1c74947f972ef0",
+  "status": "source vocabulary and complete source-control skin contract checks passed; representative product pixel recheck pending renderer outputs",
+  "corrections": [
+    {
+      "windowUnit": "Options",
+      "tab": "显示",
+      "field": "primaryAction",
+      "before": "应用显示设置",
+      "after": "返回游戏",
+      "reason": "Options controls change and save immediately; no global Apply action in source"
+    },
+    {
+      "windowUnit": "Options",
+      "tab": "渲染",
+      "field": "primaryAction",
+      "before": "应用渲染设置",
+      "after": "返回游戏",
+      "reason": "Options controls change and save immediately; no global Apply action in source"
+    },
+    {
+      "windowUnit": "Options",
+      "tab": "文化",
+      "field": "primaryAction",
+      "before": "应用语言单位",
+      "after": "自定义货币",
+      "reason": "Options controls change and save immediately; no global Apply action in source"
+    },
+    {
+      "windowUnit": "Options",
+      "tab": "声音",
+      "field": "primaryAction",
+      "before": "试听",
+      "after": "返回游戏",
+      "reason": "Options controls change and save immediately; no global Apply action in source"
+    },
+    {
+      "windowUnit": "Options",
+      "tab": "杂项",
+      "field": "primaryAction",
+      "before": "应用偏好",
+      "after": "返回游戏",
+      "reason": "Options controls change and save immediately; no global Apply action in source"
+    },
+    {
+      "windowUnit": "CustomCurrency",
+      "tab": "自定义货币",
+      "field": "primaryAction",
+      "before": "保存货币",
+      "after": "返回设置",
+      "reason": "CustomCurrency.cpp:79/87/149/173/185 persist changes per control"
+    },
+    {
+      "windowUnit": "DebugPaint",
+      "tab": "绘制诊断",
+      "field": "primaryAction",
+      "before": "应用调试",
+      "after": "返回园区",
+      "reason": "Debug draw flags toggle immediately"
+    },
+    {
+      "windowUnit": "Ride",
+      "tab": "车辆",
+      "field": "primaryAction",
+      "before": "应用车辆",
+      "after": "返回总览",
+      "reason": "Vehicle counters/dropdowns execute individual actions, not staged Apply"
+    },
+    {
+      "windowUnit": "Ride",
+      "tab": "运行",
+      "field": "primaryAction",
+      "before": "应用运行参数",
+      "after": "返回总览",
+      "reason": "Operating options execute per control"
+    },
+    {
+      "windowUnit": "Ride",
+      "tab": "维护",
+      "field": "primaryAction",
+      "before": "呼叫机械师",
+      "after": "定位机械师",
+      "reason": "Ride.cpp:3851-3897 locates assigned or nearest mechanic; it does not manually dispatch a new call"
+    },
+    {
+      "windowUnit": "Ride",
+      "tab": "配色",
+      "field": "primaryAction",
+      "before": "应用配色",
+      "after": "返回总览",
+      "reason": "Color controls change immediately"
+    },
+    {
+      "windowUnit": "Ride",
+      "tab": "音乐",
+      "field": "primaryAction",
+      "before": "试听",
+      "after": "关闭音乐",
+      "reason": "Ride.cpp:5348 toggles ride music; no separate audition workflow"
+    },
+    {
+      "windowUnit": "Ride",
+      "tab": "图表",
+      "field": "primaryAction",
+      "before": "开始记录",
+      "after": "返回总览",
+      "reason": "Ride.cpp:236-239 and 415-420 expose graph type selectors; logging is automatic, no Start recording control"
+    },
+    {
+      "windowUnit": "Staff",
+      "tab": "职责",
+      "field": "primaryAction",
+      "before": "应用职责",
+      "after": "返回总览",
+      "reason": "Staff.cpp:773 changes order bits immediately"
+    },
+    {
+      "windowUnit": "Themes",
+      "tab": "主题",
+      "field": "primaryAction",
+      "before": "保存主题",
+      "after": "返回设置",
+      "reason": "Theme controls write immediately; no global Save action"
+    },
+    {
+      "windowUnit": "Themes",
+      "tab": "主界面",
+      "field": "primaryAction",
+      "before": "保存主题",
+      "after": "返回设置",
+      "reason": "Theme controls write immediately; no global Save action"
+    },
+    {
+      "windowUnit": "Themes",
+      "tab": "公园",
+      "field": "primaryAction",
+      "before": "保存主题",
+      "after": "返回设置",
+      "reason": "Theme controls write immediately; no global Save action"
+    },
+    {
+      "windowUnit": "Themes",
+      "tab": "工具",
+      "field": "primaryAction",
+      "before": "保存主题",
+      "after": "返回设置",
+      "reason": "Theme controls write immediately; no global Save action"
+    },
+    {
+      "windowUnit": "Themes",
+      "tab": "设施游客",
+      "field": "primaryAction",
+      "before": "保存主题",
+      "after": "返回设置",
+      "reason": "Theme controls write immediately; no global Save action"
+    },
+    {
+      "windowUnit": "Themes",
+      "tab": "编辑器",
+      "field": "primaryAction",
+      "before": "保存主题",
+      "after": "返回设置",
+      "reason": "Theme controls write immediately; no global Save action"
+    },
+    {
+      "windowUnit": "Themes",
+      "tab": "杂项",
+      "field": "primaryAction",
+      "before": "保存主题",
+      "after": "返回设置",
+      "reason": "Theme controls write immediately; no global Save action"
+    },
+    {
+      "windowUnit": "Themes",
+      "tab": "弹窗",
+      "field": "primaryAction",
+      "before": "保存主题",
+      "after": "返回设置",
+      "reason": "Theme controls write immediately; no global Save action"
+    },
+    {
+      "windowUnit": "Themes",
+      "tab": "特性",
+      "field": "primaryAction",
+      "before": "保存主题",
+      "after": "返回设置",
+      "reason": "Theme controls write immediately; no global Save action"
+    },
+    {
+      "windowUnit": "TileInspector",
+      "tab": "地表",
+      "field": "primaryAction",
+      "before": "应用元素修改",
+      "after": "返回园区",
+      "reason": "Inspector edits apply via individual controls"
+    },
+    {
+      "windowUnit": "TileInspector",
+      "tab": "步道",
+      "field": "primaryAction",
+      "before": "应用元素修改",
+      "after": "返回园区",
+      "reason": "Inspector edits apply via individual controls"
+    },
+    {
+      "windowUnit": "TileInspector",
+      "tab": "轨道",
+      "field": "primaryAction",
+      "before": "应用元素修改",
+      "after": "返回园区",
+      "reason": "Inspector edits apply via individual controls"
+    },
+    {
+      "windowUnit": "TileInspector",
+      "tab": "小景物",
+      "field": "primaryAction",
+      "before": "应用元素修改",
+      "after": "返回园区",
+      "reason": "Inspector edits apply via individual controls"
+    },
+    {
+      "windowUnit": "TileInspector",
+      "tab": "大景物",
+      "field": "primaryAction",
+      "before": "应用元素修改",
+      "after": "返回园区",
+      "reason": "Inspector edits apply via individual controls"
+    },
+    {
+      "windowUnit": "TileInspector",
+      "tab": "墙",
+      "field": "primaryAction",
+      "before": "应用元素修改",
+      "after": "返回园区",
+      "reason": "Inspector edits apply via individual controls"
+    },
+    {
+      "windowUnit": "TileInspector",
+      "tab": "入口",
+      "field": "primaryAction",
+      "before": "应用元素修改",
+      "after": "返回园区",
+      "reason": "Inspector edits apply via individual controls"
+    },
+    {
+      "windowUnit": "TileInspector",
+      "tab": "横幅",
+      "field": "primaryAction",
+      "before": "应用元素修改",
+      "after": "返回园区",
+      "reason": "Inspector edits apply via individual controls"
+    },
+    {
+      "windowUnit": "Transparency",
+      "tab": "可见性",
+      "field": "primaryAction",
+      "before": "应用可见性",
+      "after": "返回园区",
+      "reason": "Visibility flags toggle immediately"
+    },
+    {
+      "windowUnit": "ViewClipping",
+      "tab": "高度",
+      "field": "primaryAction",
+      "before": "应用裁切",
+      "after": "返回园区",
+      "reason": "Clipping values/range apply directly"
+    },
+    {
+      "windowUnit": "ViewClipping",
+      "tab": "区域",
+      "field": "primaryAction",
+      "before": "应用裁切",
+      "after": "返回园区",
+      "reason": "Clipping values/range apply directly"
+    },
+    {
+      "windowUnit": "Banner",
+      "tab": "横幅",
+      "field": "primaryAction",
+      "before": "保存横幅",
+      "after": "修改文字",
+      "reason": "Banner uses separate text-input confirmation; colors/closed flag update immediately"
+    },
+    {
+      "windowUnit": "Sign",
+      "tab": "招牌",
+      "field": "primaryAction",
+      "before": "保存招牌",
+      "after": "修改文字",
+      "reason": "Sign uses separate text-input confirmation; colors update immediately"
+    },
+    {
+      "windowUnit": "PatrolArea",
+      "tab": "绘制",
+      "field": "primaryAction",
+      "before": "保存巡逻区",
+      "after": "完成设置",
+      "reason": "Patrol map painting commits as actions; complete closes tool"
+    },
+    {
+      "windowUnit": "PatrolArea",
+      "tab": "擦除",
+      "field": "primaryAction",
+      "before": "保存巡逻区",
+      "after": "完成设置",
+      "reason": "Patrol map painting commits as actions; complete closes tool"
+    },
+    {
+      "windowUnit": "EditorInventionsList",
+      "tab": "已研究",
+      "field": "primaryAction",
+      "before": "保存研究顺序",
+      "after": "下一步",
+      "reason": "Research order is manipulated directly; navigation advances editor"
+    },
+    {
+      "windowUnit": "EditorInventionsList",
+      "tab": "未研究",
+      "field": "primaryAction",
+      "before": "保存研究顺序",
+      "after": "下一步",
+      "reason": "Research order is manipulated directly; navigation advances editor"
+    },
+    {
+      "windowUnit": "EditorScenarioOptions",
+      "tab": "目标",
+      "field": "primaryAction",
+      "before": "保存目标",
+      "after": "返回编辑器",
+      "reason": "Editor settings modify individually; file save is separate editor stage"
+    },
+    {
+      "windowUnit": "EditorScenarioOptions",
+      "tab": "场景详情",
+      "field": "primaryAction",
+      "before": "保存场景说明",
+      "after": "返回编辑器",
+      "reason": "Editor settings modify individually; file save is separate editor stage"
+    },
+    {
+      "windowUnit": "EditorScenarioOptions",
+      "tab": "财务",
+      "field": "primaryAction",
+      "before": "保存财务参数",
+      "after": "返回编辑器",
+      "reason": "Editor settings modify individually; file save is separate editor stage"
+    },
+    {
+      "windowUnit": "EditorScenarioOptions",
+      "tab": "游客",
+      "field": "primaryAction",
+      "before": "保存游客参数",
+      "after": "返回编辑器",
+      "reason": "Editor settings modify individually; file save is separate editor stage"
+    },
+    {
+      "windowUnit": "EditorScenarioOptions",
+      "tab": "公园限制",
+      "field": "primaryAction",
+      "before": "保存公园限制",
+      "after": "返回编辑器",
+      "reason": "Editor settings modify individually; file save is separate editor stage"
+    },
+    {
+      "windowUnit": "EditorScenarioOptions",
+      "tab": "保留设施",
+      "field": "primaryAction",
+      "before": "保存保留设施",
+      "after": "返回编辑器",
+      "reason": "Editor settings modify individually; file save is separate editor stage"
+    },
+    {
+      "windowUnit": "EditorObjectSelection",
+      "tab": "设施车辆",
+      "field": "primaryAction",
+      "before": "应用对象选择",
+      "after": "完成对象选择",
+      "reason": "Object selection closure/validation must not imply independent new file save"
+    },
+    {
+      "windowUnit": "EditorObjectSelection",
+      "tab": "景观主题",
+      "field": "primaryAction",
+      "before": "应用对象选择",
+      "after": "完成对象选择",
+      "reason": "Object selection closure/validation must not imply independent new file save"
+    },
+    {
+      "windowUnit": "EditorObjectSelection",
+      "tab": "步道",
+      "field": "primaryAction",
+      "before": "应用对象选择",
+      "after": "完成对象选择",
+      "reason": "Object selection closure/validation must not imply independent new file save"
+    },
+    {
+      "windowUnit": "EditorObjectSelection",
+      "tab": "入口建筑",
+      "field": "primaryAction",
+      "before": "应用对象选择",
+      "after": "完成对象选择",
+      "reason": "Object selection closure/validation must not imply independent new file save"
+    },
+    {
+      "windowUnit": "EditorObjectSelection",
+      "tab": "地形",
+      "field": "primaryAction",
+      "before": "应用对象选择",
+      "after": "完成对象选择",
+      "reason": "Object selection closure/validation must not imply independent new file save"
+    },
+    {
+      "windowUnit": "EditorObjectSelection",
+      "tab": "音乐",
+      "field": "primaryAction",
+      "before": "应用对象选择",
+      "after": "完成对象选择",
+      "reason": "Object selection closure/validation must not imply independent new file save"
+    },
+    {
+      "windowUnit": "EditorObjectSelection",
+      "tab": "游客员工",
+      "field": "primaryAction",
+      "before": "应用对象选择",
+      "after": "完成对象选择",
+      "reason": "Object selection closure/validation must not imply independent new file save"
+    },
+    {
+      "windowUnit": "Multiplayer",
+      "tab": "权限组",
+      "field": "primaryAction",
+      "before": "保存权限",
+      "after": "返回玩家列表",
+      "reason": "Permission checkboxes/group actions execute individually"
+    },
+    {
+      "windowUnit": "Multiplayer",
+      "tab": "选项",
+      "field": "primaryAction",
+      "before": "应用选项",
+      "after": "返回服务器信息",
+      "reason": "Multiplayer preferences toggle immediately"
+    },
+    {
+      "windowUnit": "MapGen",
+      "tab": "地形",
+      "field": "primaryAction",
+      "before": "预览地形",
+      "after": "生成地图",
+      "reason": "All four MapGen tabs share actual Generate action; source has no separate nondestructive preview generation"
+    },
+    {
+      "windowUnit": "MapGen",
+      "tab": "水域",
+      "field": "primaryAction",
+      "before": "预览水域",
+      "after": "生成地图",
+      "reason": "Same source Generate action"
+    },
+    {
+      "windowUnit": "MapGen",
+      "tab": "森林",
+      "field": "primaryAction",
+      "before": "预览森林",
+      "after": "生成地图",
+      "reason": "Same source Generate action"
+    },
+    {
+      "windowUnit": "LoadSave",
+      "tab": "读取",
+      "field": "primaryAction",
+      "before": "保存",
+      "after": "读取公园",
+      "reason": "Load mode must not show Save primary action"
+    },
+    {
+      "windowUnit": "LoadSave",
+      "tab": "高度图",
+      "field": "primaryAction",
+      "before": "保存",
+      "after": "选择高度图",
+      "reason": "Heightmap mode opens image, not save file"
+    },
+    {
+      "windowUnit": "LoadSave",
+      "tab": "场景",
+      "field": "primaryAction",
+      "before": "保存",
+      "after": "保存场景",
+      "reason": "Scenario save context"
+    },
+    {
+      "windowUnit": "LoadSave",
+      "tab": "轨道",
+      "field": "primaryAction",
+      "before": "保存",
+      "after": "保存轨道设计",
+      "reason": "Track save context"
+    },
+    {
+      "windowUnit": "Staff",
+      "tab": "职责",
+      "field": "fields",
+      "reason": "Staff.cpp:876/878 mechanic orders differ from cleaner duties"
+    },
+    {
+      "windowUnit": "ClearScenery",
+      "field": "features/fields",
+      "reason": "ClearScenery.cpp:36-40/54-58 list five removal categories"
+    },
+    {
+      "windowUnit": "SceneryScatter",
+      "field": "fields",
+      "reason": "Source density is low/medium/high, not arbitrary percent; no independent tree-species or random-direction control in this window"
+    },
+    {
+      "windowUnit": "MapGen",
+      "field": "fields",
+      "reason": "MapGen.cpp:166-176 exposes water/beaches and trees/ratio/min/max altitude, not beach-material/tree-species selection"
+    }
+  ],
+  "pendingReviews": [
+    "Global input inset changed from20px to40px by renderer owner; await actual rerender pixel review",
+    "Strict product-control pixel placements remain pending/unverified; source style contract evidence is complete"
+  ],
+  "counts": {
+    "sourceWindowCpp": 79,
+    "inventoryRecords": 82,
+    "tabModePreviews": 226,
+    "tabDetails": 226,
+    "allSourceScopedControlIds": 1438,
+    "interactiveCandidates": 943,
+    "styleContractSheets": 120,
+    "dynamicSharedRoleSheets": 1,
+    "sourceStyleBindings": 1438,
+    "productScreenBindingsVerified": 0
+  },
+  "controlEvidence": {
+    "mapping": "docs/control-resource-mapping.json",
+    "sheets": "docs/control-display-evidence.json",
+    "presence": "displayed_style_contract_only",
+    "productScreenshotPlacement": "pending_unverified",
+    "missingStyleBindings": 0,
+    "parserUnknowns": 0,
+    "machineChecks": {
+      "controlIdsExactMatchInventory": true,
+      "uniqueBindings": 1438,
+      "pngSize": [
+        1920,
+        1080
+      ],
+      "allPngHashesVerified": true,
+      "allRecordsAndFormalAssetsExist": true,
+      "allCellRectsInBounds": true,
+      "failures": []
+    },
+    "visualReview": {
+      "observedSamples": [
+        "previews/control-contracts/040-source-controls.png"
+      ],
+      "findings": "Corrected button-label crowding and under-minimum panel samples. Cell headings carry source labels; button samples show concise state labels. Other source sheets use same deterministic templates; no claim of individual pixel review of every label."
+    }
+  },
+  "productReviewFindings": [
+    {
+      "id": "sign-banner-restriction",
+      "status": "corrected_in_renderer_code_pending_new_png",
+      "title": "Sign branch removes the Banner-only no-entry field",
+      "evidence": "if key == 'sign': p['fields'] = p['fields'][:3]"
+    },
+    {
+      "id": "unsupported-cheats",
+      "status": "corrected_in_renderer_code_pending_new_png",
+      "title": "Unsupported freeze-wages/freeze-needs/temperature controls removed; source operation labels supplied"
+    },
+    {
+      "id": "source-debug-flags",
+      "status": "corrected_in_renderer_code_pending_new_png",
+      "title": "Actual seven debug-paint flags now used"
+    },
+    {
+      "id": "editor-save-stage",
+      "status": "corrected_in_renderer_code_pending_new_png",
+      "title": "No early save-scene-details CTA remains"
+    },
+    {
+      "id": "input-content-inset",
+      "status": "renderer_code_adjusted_pending_new_png",
+      "title": "Field inset changed20→40; inspect new images to confirm gold ornament/text separation"
+    }
+  ],
+  "productImagesActuallyViewed": [
+    {
+      "file": "designs/ride/03-运行.png",
+      "sha256AtReview": "9f98e583a16e9055fa6f88d2bce01285f76b7c439aa609dd3760b0ea8b3c4aa8",
+      "scope": "representative pixel review before pending global field-padding correction"
+    },
+    {
+      "file": "designs/staff/02-职责.png",
+      "sha256AtReview": "15e282ab3e7a7c411bb02eca03512dd8f110650e27a638e71db128265cd61493",
+      "scope": "representative pixel review before pending global field-padding correction"
+    },
+    {
+      "file": "designs/options/01-显示.png",
+      "sha256AtReview": "45a37263c08fdbedee9317afb7f8467152710822ef7a38b10fef13504f674d3e",
+      "scope": "representative pixel review before pending global field-padding correction"
+    }
+  ],
+  "notApplicableConfirmed": [
+    "RPG account/login/character creation",
+    "combat/equipment/skills/player inventory",
+    "gacha/recharge/daily signin/reward mail/guild/friends",
+    "world teleport/dungeon/pets/mounts"
+  ],
+  "dependencyStatus": {
+    "originalCommercialRCT2Art": "not_obtained_by_source_clone",
+    "objectMusicSoundTitlePackages": "external assets.json references; not counted as obtained art",
+    "gitLfsPointersInNeededSource": "none found",
+    "runtimeAndUnity": "not_run_not_validated",
+    "arbitraryThirdPartyPlugins": "unbounded content; only public shared skin contract supplied"
+  }
+}

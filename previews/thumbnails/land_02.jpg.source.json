@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/land_02.jpg",
+  "sha256": "d91abbd99ada73ed1a5b4d39f416df6d4ac68dd84248e20a410bea5732de9765",
+  "derivedFrom": [
+    {
+      "file": "designs/land/02-涂绘.png",
+      "sha256": "f7276a61f2c3059e89bb9e56ccddb8145b9283b41c0c5b36bb8cd029cac6fbf4",
+      "sourceRecord": "designs/land/02-涂绘.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

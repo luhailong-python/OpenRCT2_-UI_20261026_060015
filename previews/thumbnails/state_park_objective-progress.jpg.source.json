@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_park_objective-progress.jpg",
+  "sha256": "3708cd3b4f8aa1ea28fa8b2e23cbed3384583e3f91bb0007957c6406c6372e1e",
+  "derivedFrom": [
+    {
+      "file": "previews/states/park/objective-progress.png",
+      "sha256": "ebfd65a6434ac640ae9c19ac0b2f82d825e79132066460fcee6a7779b6524365",
+      "sourceRecord": "previews/states/park/objective-progress.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

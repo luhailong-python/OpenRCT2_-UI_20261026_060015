@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_scenery_sign-edit.jpg",
+  "sha256": "f0488bc60e78608995458df6f0a7fc8bc96eddb8cd3817cffcd54b9ceb5b372f",
+  "derivedFrom": [
+    {
+      "file": "previews/states/scenery/sign-edit.png",
+      "sha256": "f24ab91f7c827dbacd5212c470750123e81981ddeb2c8a944a22ffa2427d52d2",
+      "sourceRecord": "previews/states/scenery/sign-edit.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

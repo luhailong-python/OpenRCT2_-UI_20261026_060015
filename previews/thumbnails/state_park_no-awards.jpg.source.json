@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_park_no-awards.jpg",
+  "sha256": "d0fcbd1371bdde7d5ebae7d289e707d0a7f4e60cd8de2f724a8919b55cc790cf",
+  "derivedFrom": [
+    {
+      "file": "previews/states/park/no-awards.png",
+      "sha256": "d02819e117e8bdebcbdf90ec5666ed378fbdf7768d4a7a045ee77958582bd57f",
+      "sourceRecord": "previews/states/park/no-awards.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

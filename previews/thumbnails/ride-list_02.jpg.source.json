@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/ride-list_02.jpg",
+  "sha256": "17822f4480224bc4e5e1f37f649391ae9652d341a21e765c85c5bb9c7282e09b",
+  "derivedFrom": [
+    {
+      "file": "designs/ride-list/02-商店摊位.png",
+      "sha256": "7e4ca2e90e9487e7a3f34a21c003b5c821ea6ae504a2a10db3b211a764f6c29c",
+      "sourceRecord": "designs/ride-list/02-商店摊位.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

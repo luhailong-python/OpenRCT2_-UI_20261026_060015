@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_marketing_forbidden.jpg",
+  "sha256": "71e976c3c8f571fbca8ad8d5d0dac500ac69c69f57c20dde731e36344ad8bcf1",
+  "derivedFrom": [
+    {
+      "file": "previews/states/marketing/forbidden.png",
+      "sha256": "cfc53ea71f1abbfd9d8d879b12fbf4fe43a46e497a4e5d6821a9c0393fa8d0b8",
+      "sourceRecord": "previews/states/marketing/forbidden.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/dropdown_02.jpg",
+  "sha256": "974019b4df1d9eb60d34bc2c247c04b7d14a42b1f2f679b5173a5eb4f0ad9d64",
+  "derivedFrom": [
+    {
+      "file": "designs/dropdown/02-颜色.png",
+      "sha256": "4366f1e8857d5572f7e486ef3e911a70739f0762bb46ac43e4b4dbdc662e8748",
+      "sourceRecord": "designs/dropdown/02-颜色.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

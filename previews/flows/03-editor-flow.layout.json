@@ -1,0 +1,268 @@
+{
+  "file": "previews/flows/03-editor-flow.png",
+  "textLayers": [
+    {
+      "text": "场景编辑与保存流程",
+      "position": [
+        96,
+        46
+      ],
+      "fontSize": 50,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "color": "#173e35"
+    },
+    {
+      "text": "七步控制器存在前置校验；不能将所有步骤理解为可任意跳转。",
+      "position": [
+        98,
+        119
+      ],
+      "fontSize": 23,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#6d6f5c"
+    },
+    {
+      "text": "齐备",
+      "position": [
+        630,
+        316
+      ],
+      "fontSize": 20,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#527364"
+    },
+    {
+      "text": "校验",
+      "position": [
+        1230,
+        316
+      ],
+      "fontSize": 20,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#527364"
+    },
+    {
+      "text": "下一步",
+      "position": [
+        1580,
+        539
+      ],
+      "fontSize": 20,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#527364"
+    },
+    {
+      "text": "资料",
+      "position": [
+        1230,
+        726
+      ],
+      "fontSize": 20,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#527364"
+    },
+    {
+      "text": "保存",
+      "position": [
+        630,
+        726
+      ],
+      "fontSize": 20,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#527364"
+    },
+    {
+      "text": "01 选择对象",
+      "position": [
+        264,
+        282
+      ],
+      "fontSize": 32,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "color": "#173e35"
+    },
+    {
+      "text": "设施/景观/步道/入口等",
+      "position": [
+        138,
+        410
+      ],
+      "fontSize": 22,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#173e35"
+    },
+    {
+      "text": "02 地形与连通",
+      "position": [
+        864,
+        282
+      ],
+      "fontSize": 32,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "color": "#173e35"
+    },
+    {
+      "text": "土地/入口/道路/出生点",
+      "position": [
+        738,
+        410
+      ],
+      "fontSize": 22,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#173e35"
+    },
+    {
+      "text": "03 研究顺序",
+      "position": [
+        1464,
+        282
+      ],
+      "fontSize": 32,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "color": "#173e35"
+    },
+    {
+      "text": "已研究/未研究/优先顺序",
+      "position": [
+        1338,
+        410
+      ],
+      "fontSize": 22,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#173e35"
+    },
+    {
+      "text": "04 场景选项",
+      "position": [
+        1464,
+        692
+      ],
+      "fontSize": 32,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "color": "#173e35"
+    },
+    {
+      "text": "财务/游客/限制/气候",
+      "position": [
+        1338,
+        820
+      ],
+      "fontSize": 22,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#173e35"
+    },
+    {
+      "text": "05/06 目标与资料",
+      "position": [
+        864,
+        692
+      ],
+      "fontSize": 32,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "color": "#173e35"
+    },
+    {
+      "text": "05目标参数 / 06标题说明",
+      "position": [
+        738,
+        820
+      ],
+      "fontSize": 22,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#173e35"
+    },
+    {
+      "text": "07 保存场景",
+      "position": [
+        264,
+        692
+      ],
+      "fontSize": 32,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "color": "#173e35"
+    },
+    {
+      "text": "保存路径/名称/覆盖确认",
+      "position": [
+        138,
+        820
+      ],
+      "fontSize": 22,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#173e35"
+    },
+    {
+      "text": "流程说明图 · 静态美术交付 · 操作与状态以源码合同为依据",
+      "position": [
+        100,
+        1030
+      ],
+      "fontSize": 21,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#6d6f5c"
+    }
+  ],
+  "nodes": [
+    [
+      "01 选择对象",
+      "设施/景观/步道/入口等",
+      "roller_coaster"
+    ],
+    [
+      "02 地形与连通",
+      "土地/入口/道路/出生点",
+      "mountain"
+    ],
+    [
+      "03 研究顺序",
+      "已研究/未研究/优先顺序",
+      "research"
+    ],
+    [
+      "04 场景选项",
+      "财务/游客/限制/气候",
+      "settings"
+    ],
+    [
+      "05/06 目标与资料",
+      "05目标参数 / 06标题说明",
+      "objective"
+    ],
+    [
+      "07 保存场景",
+      "保存路径/名称/覆盖确认",
+      "save"
+    ]
+  ],
+  "edges": [
+    [
+      0,
+      1,
+      "必要对象齐备"
+    ],
+    [
+      1,
+      2,
+      "入口等校验通过"
+    ],
+    [
+      2,
+      3,
+      "下一步"
+    ],
+    [
+      3,
+      4,
+      "目标 → 资料"
+    ],
+    [
+      4,
+      5,
+      "通过保存检查"
+    ]
+  ],
+  "canvas": [
+    1920,
+    1080
+  ]
+}

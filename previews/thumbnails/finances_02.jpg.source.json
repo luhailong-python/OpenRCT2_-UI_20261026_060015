@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/finances_02.jpg",
+  "sha256": "2580b7572e83bc3f45e9b12edc4aac32f4663957f04e0a33d5c9e9cca7aae857",
+  "derivedFrom": [
+    {
+      "file": "designs/finances/02-现金.png",
+      "sha256": "57896f212faa93e462cba39ffc6d5499e0ef7d6c75b8a8d37f0268034d57b07e",
+      "sourceRecord": "designs/finances/02-现金.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

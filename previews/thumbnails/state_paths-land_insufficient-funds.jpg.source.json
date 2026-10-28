@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_paths-land_insufficient-funds.jpg",
+  "sha256": "6573f95f56caeadb9029bc820b6a9ecb0fd91c5a281cc8104ff27250ef6b1ce3",
+  "derivedFrom": [
+    {
+      "file": "previews/states/paths-land/insufficient-funds.png",
+      "sha256": "327a8e2abe6f758d1df143da797012fa83c896ecd933c3270c243ee2a57d66ec",
+      "sourceRecord": "previews/states/paths-land/insufficient-funds.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

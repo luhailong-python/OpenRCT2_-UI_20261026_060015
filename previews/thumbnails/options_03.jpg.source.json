@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/options_03.jpg",
+  "sha256": "61622cda6f8157d1494d7f4752552eae114f2e3fc83d250519d05ef5a9b647dd",
+  "derivedFrom": [
+    {
+      "file": "designs/options/03-文化.png",
+      "sha256": "f49b88472a6e36b98f0997ba75005e17f2530384de537adddf839b3896612882",
+      "sourceRecord": "designs/options/03-文化.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,352 @@
+{
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "purpose": "technical_style_contract_not_product_screen",
+  "controls": [
+    {
+      "unit": "Options",
+      "controlId": "WIDX_EFFECTS_GROUP",
+      "rectTopLeftXYWH": [
+        58,
+        146,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        229,
+        554,
+        98
+      ],
+      "sourceWidgetType": "groupbox",
+      "sourceLabelDisplayed": "渲染效果",
+      "existingTargetScreenGroups": [
+        "渲染"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Options",
+      "controlId": "WIDX_DAY_NIGHT_CHECKBOX",
+      "rectTopLeftXYWH": [
+        665,
+        146,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        229,
+        554,
+        98
+      ],
+      "sourceWidgetType": "checkbox",
+      "sourceLabelDisplayed": "日夜循环",
+      "existingTargetScreenGroups": [
+        "渲染"
+      ],
+      "formalAssets": [
+        "assets/common/checkbox_off.png",
+        "assets/common/checkbox_on.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Options",
+      "controlId": "WIDX_ENABLE_LIGHT_FX_CHECKBOX",
+      "rectTopLeftXYWH": [
+        1272,
+        146,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        229,
+        554,
+        98
+      ],
+      "sourceWidgetType": "checkbox",
+      "sourceLabelDisplayed": "启用光照效果（实验性质）",
+      "existingTargetScreenGroups": [
+        "渲染"
+      ],
+      "formalAssets": [
+        "assets/common/checkbox_off.png",
+        "assets/common/checkbox_on.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Options",
+      "controlId": "WIDX_ENABLE_LIGHT_FX_FOR_VEHICLES_CHECKBOX",
+      "rectTopLeftXYWH": [
+        58,
+        368,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        451,
+        554,
+        98
+      ],
+      "sourceWidgetType": "checkbox",
+      "sourceLabelDisplayed": "开启灯光效果（实验性）",
+      "existingTargetScreenGroups": [
+        "渲染"
+      ],
+      "formalAssets": [
+        "assets/common/checkbox_off.png",
+        "assets/common/checkbox_on.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Options",
+      "controlId": "WIDX_RENDER_WEATHER_EFFECTS_CHECKBOX",
+      "rectTopLeftXYWH": [
+        665,
+        368,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        451,
+        554,
+        98
+      ],
+      "sourceWidgetType": "checkbox",
+      "sourceLabelDisplayed": "渲染天气效果",
+      "existingTargetScreenGroups": [
+        "渲染"
+      ],
+      "formalAssets": [
+        "assets/common/checkbox_off.png",
+        "assets/common/checkbox_on.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Options",
+      "controlId": "WIDX_DISABLE_LIGHTNING_EFFECT_CHECKBOX",
+      "rectTopLeftXYWH": [
+        1272,
+        368,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        451,
+        554,
+        98
+      ],
+      "sourceWidgetType": "checkbox",
+      "sourceLabelDisplayed": "禁用光影效果",
+      "existingTargetScreenGroups": [
+        "渲染"
+      ],
+      "formalAssets": [
+        "assets/common/checkbox_off.png",
+        "assets/common/checkbox_on.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Options",
+      "controlId": "WIDX_LANGUAGE_LABEL",
+      "rectTopLeftXYWH": [
+        58,
+        590,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        673,
+        554,
+        98
+      ],
+      "sourceWidgetType": "label",
+      "sourceLabelDisplayed": "语言",
+      "existingTargetScreenGroups": [
+        "文化"
+      ],
+      "formalAssets": [],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Options",
+      "controlId": "WIDX_LANGUAGE",
+      "rectTopLeftXYWH": [
+        665,
+        590,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        673,
+        554,
+        98
+      ],
+      "sourceWidgetType": "dropdownMenu",
+      "sourceLabelDisplayed": "下拉选择",
+      "existingTargetScreenGroups": [
+        "文化"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Options",
+      "controlId": "WIDX_LANGUAGE_DROPDOWN",
+      "rectTopLeftXYWH": [
+        1272,
+        590,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        673,
+        554,
+        98
+      ],
+      "sourceWidgetType": "button",
+      "sourceLabelDisplayed": "▼",
+      "existingTargetScreenGroups": [
+        "文化"
+      ],
+      "formalAssets": [
+        "assets/common/secondary_normal.png",
+        "assets/common/secondary_pressed.png",
+        "assets/common/secondary_selected.png",
+        "assets/common/secondary_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Options",
+      "controlId": "WIDX_CURRENCY_LABEL",
+      "rectTopLeftXYWH": [
+        58,
+        812,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        895,
+        554,
+        98
+      ],
+      "sourceWidgetType": "label",
+      "sourceLabelDisplayed": "货币单位",
+      "existingTargetScreenGroups": [
+        "文化"
+      ],
+      "formalAssets": [],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Options",
+      "controlId": "WIDX_CURRENCY",
+      "rectTopLeftXYWH": [
+        665,
+        812,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        895,
+        554,
+        98
+      ],
+      "sourceWidgetType": "dropdownMenu",
+      "sourceLabelDisplayed": "下拉选择",
+      "existingTargetScreenGroups": [
+        "文化"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Options",
+      "controlId": "WIDX_CURRENCY_DROPDOWN",
+      "rectTopLeftXYWH": [
+        1272,
+        812,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        895,
+        554,
+        98
+      ],
+      "sourceWidgetType": "button",
+      "sourceLabelDisplayed": "▼",
+      "existingTargetScreenGroups": [
+        "文化"
+      ],
+      "formalAssets": [
+        "assets/common/secondary_normal.png",
+        "assets/common/secondary_pressed.png",
+        "assets/common/secondary_selected.png",
+        "assets/common/secondary_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    }
+  ]
+}

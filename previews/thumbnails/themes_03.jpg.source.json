@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/themes_03.jpg",
+  "sha256": "eb8422def228d9645f6e78c8f786f7f48ce83ba2aa434d32135bee542f112ab1",
+  "derivedFrom": [
+    {
+      "file": "designs/themes/03-公园.png",
+      "sha256": "ececdcd971bef30e7e3bb2fc9066554736d43bdca446846231052452c64a301a",
+      "sourceRecord": "designs/themes/03-公园.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

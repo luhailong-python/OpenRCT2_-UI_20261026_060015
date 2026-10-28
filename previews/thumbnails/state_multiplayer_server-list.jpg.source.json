@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_multiplayer_server-list.jpg",
+  "sha256": "d7437fff80eda602faffdf06499c9eb1ab71840b8498179edecf5b1c8ac95d0f",
+  "derivedFrom": [
+    {
+      "file": "previews/states/multiplayer/server-list.png",
+      "sha256": "022765859ef08327747ec61d4de7a881089be7df388082bc3fac86da037effac",
+      "sourceRecord": "previews/states/multiplayer/server-list.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

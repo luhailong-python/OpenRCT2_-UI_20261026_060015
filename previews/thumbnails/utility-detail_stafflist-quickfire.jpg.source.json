@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/utility-detail_stafflist-quickfire.jpg",
+  "sha256": "0352c704fe2381df4487d17b4a8082af2800ff17aa7d94b6f879bc096e118a9a",
+  "derivedFrom": [
+    {
+      "file": "designs/details/utility/stafflist-quickfire.png",
+      "sha256": "22aad123410cfb4e6be70ebb886ccc1c166dc6f6d6cde93ae475c0946816b3fc",
+      "sourceRecord": "designs/details/utility/stafflist-quickfire.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

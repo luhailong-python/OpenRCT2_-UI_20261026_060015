@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/management-detail_themes-main-2.jpg",
+  "sha256": "652a8fcb6dd4b4974eeb8430635b54be2680d000f0b95837a4c7c8c50e48be4d",
+  "derivedFrom": [
+    {
+      "file": "designs/details/management/themes-main-2.png",
+      "sha256": "8f5e5d960563434e42de73e8108d7c29ea7a1b087cfa4b2badd882b3d93f768f",
+      "sourceRecord": "designs/details/management/themes-main-2.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

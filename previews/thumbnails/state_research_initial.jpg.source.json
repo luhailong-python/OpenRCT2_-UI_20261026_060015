@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_research_initial.jpg",
+  "sha256": "a360170c723fe6562b01a7214e071683b43b9b7c7731d91ea3244b4cebc26985",
+  "derivedFrom": [
+    {
+      "file": "previews/states/research/initial.png",
+      "sha256": "548f9d48d83ffda62ed469df21b2141ccd9520e16bf53e379fa32049e45f8c2d",
+      "sourceRecord": "previews/states/research/initial.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

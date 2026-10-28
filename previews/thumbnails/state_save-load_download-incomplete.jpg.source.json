@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_save-load_download-incomplete.jpg",
+  "sha256": "13099cea857378441194bb38cc9f637880e2fba9a20c0e08675d5848b437df6d",
+  "derivedFrom": [
+    {
+      "file": "previews/states/save-load/download-incomplete.png",
+      "sha256": "a0cd2e7a30b34418ff6bdadd86d1723f209575fd3d09b51fddbb730346ece0e4",
+      "sourceRecord": "previews/states/save-load/download-incomplete.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

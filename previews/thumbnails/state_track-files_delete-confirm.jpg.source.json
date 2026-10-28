@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_track-files_delete-confirm.jpg",
+  "sha256": "e498f41310db97e856439dd53c2c9bd8ae558663ae3cab4a8942366459ff6bb8",
+  "derivedFrom": [
+    {
+      "file": "previews/states/track-files/delete-confirm.png",
+      "sha256": "6d2c53d430b80c5675a9bc8415795a8dce78b9d51f9bd6c42348afd319d1bf4b",
+      "sourceRecord": "previews/states/track-files/delete-confirm.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

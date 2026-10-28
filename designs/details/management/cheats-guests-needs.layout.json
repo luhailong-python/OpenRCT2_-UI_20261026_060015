@@ -1,0 +1,1723 @@
+{
+  "schemaVersion": 1,
+  "screenId": "management-detail:cheats-guests-needs",
+  "title": "沙盒与作弊 · 游客需求与强度偏好",
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "origin": "top-left",
+  "textLayers": [
+    {
+      "id": "text-001",
+      "text": "沙盒与作弊",
+      "role": "dynamic-text",
+      "region": [
+        620,
+        66,
+        680,
+        75
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 46,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 65,
+      "wrappedLines": [
+        "沙盒与作弊"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-002",
+      "text": "财务",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        231,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "财务"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-003",
+      "text": "日期",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        301,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "日期"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-004",
+      "text": "游客",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        371,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "游客"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-005",
+      "text": "员工",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        441,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "员工"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-006",
+      "text": "公园",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        511,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "公园"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-007",
+      "text": "设施",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        581,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "设施"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-008",
+      "text": "天气",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        651,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "天气"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-009",
+      "text": "游客",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        218,
+        1388,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 32,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 45,
+      "wrappedLines": [
+        "游客"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-010",
+      "text": "美术设计样例 · 名称 / 数值待定",
+      "role": "dynamic-text",
+      "region": [
+        600,
+        1046,
+        720,
+        28
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "美术设计样例 · 名称 / 数值待定"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-011",
+      "text": "游客需求与强度偏好",
+      "role": "dynamic-text",
+      "region": [
+        395,
+        865,
+        1398,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#7A745E",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "游客需求与强度偏好"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-012",
+      "text": "沙盒工具已启用；这些按钮直接修改当前游客数据。",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        1002,
+        1660,
+        30
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "沙盒工具已启用；这些按钮直接修改当前游客数据。"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-013",
+      "text": "幸福感",
+      "role": "dynamic-text",
+      "region": [
+        408,
+        311,
+        520,
+        54
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 26,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 36,
+      "wrappedLines": [
+        "幸福感"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-014",
+      "text": "设为最小",
+      "role": "dynamic-text",
+      "region": [
+        1064,
+        310,
+        227,
+        42
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "设为最小"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-015",
+      "text": "设为最大",
+      "role": "dynamic-text",
+      "region": [
+        1369,
+        310,
+        227,
+        42
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "设为最大"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-016",
+      "text": "体力",
+      "role": "dynamic-text",
+      "region": [
+        408,
+        386,
+        520,
+        54
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 26,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 36,
+      "wrappedLines": [
+        "体力"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-017",
+      "text": "设为最小",
+      "role": "dynamic-text",
+      "region": [
+        1064,
+        385,
+        227,
+        42
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "设为最小"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-018",
+      "text": "设为最大",
+      "role": "dynamic-text",
+      "region": [
+        1369,
+        385,
+        227,
+        42
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "设为最大"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-019",
+      "text": "饥饿",
+      "role": "dynamic-text",
+      "region": [
+        408,
+        461,
+        520,
+        54
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 26,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 36,
+      "wrappedLines": [
+        "饥饿"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-020",
+      "text": "设为最小",
+      "role": "dynamic-text",
+      "region": [
+        1064,
+        460,
+        227,
+        42
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "设为最小"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-021",
+      "text": "设为最大",
+      "role": "dynamic-text",
+      "region": [
+        1369,
+        460,
+        227,
+        42
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "设为最大"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-022",
+      "text": "口渴",
+      "role": "dynamic-text",
+      "region": [
+        408,
+        536,
+        520,
+        54
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 26,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 36,
+      "wrappedLines": [
+        "口渴"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-023",
+      "text": "设为最小",
+      "role": "dynamic-text",
+      "region": [
+        1064,
+        535,
+        227,
+        42
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "设为最小"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-024",
+      "text": "设为最大",
+      "role": "dynamic-text",
+      "region": [
+        1369,
+        535,
+        227,
+        42
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "设为最大"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-025",
+      "text": "眩晕",
+      "role": "dynamic-text",
+      "region": [
+        408,
+        611,
+        520,
+        54
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 26,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 36,
+      "wrappedLines": [
+        "眩晕"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-026",
+      "text": "设为最小",
+      "role": "dynamic-text",
+      "region": [
+        1064,
+        610,
+        227,
+        42
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "设为最小"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-027",
+      "text": "设为最大",
+      "role": "dynamic-text",
+      "region": [
+        1369,
+        610,
+        227,
+        42
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "设为最大"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-028",
+      "text": "耐眩晕程度",
+      "role": "dynamic-text",
+      "region": [
+        408,
+        686,
+        520,
+        54
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 26,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 36,
+      "wrappedLines": [
+        "耐眩晕程度"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-029",
+      "text": "设为最小",
+      "role": "dynamic-text",
+      "region": [
+        1064,
+        685,
+        227,
+        42
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "设为最小"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-030",
+      "text": "设为最大",
+      "role": "dynamic-text",
+      "region": [
+        1369,
+        685,
+        227,
+        42
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "设为最大"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-031",
+      "text": "如厕需求",
+      "role": "dynamic-text",
+      "region": [
+        408,
+        761,
+        520,
+        54
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 26,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 36,
+      "wrappedLines": [
+        "如厕需求"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-032",
+      "text": "设为最小",
+      "role": "dynamic-text",
+      "region": [
+        1064,
+        760,
+        227,
+        42
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "设为最小"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-033",
+      "text": "设为最大",
+      "role": "dynamic-text",
+      "region": [
+        1369,
+        760,
+        227,
+        42
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "设为最大"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-034",
+      "text": "返回游客工具",
+      "role": "dynamic-text",
+      "region": [
+        1556,
+        924,
+        208,
+        38
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "返回游客工具"
+      ],
+      "dynamic": true
+    }
+  ],
+  "artAndControlLayers": [
+    {
+      "role": "park-background",
+      "asset": "assets/backgrounds/park-day-native.png",
+      "region": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "resize": "cover"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_main.png",
+      "region": [
+        52,
+        96,
+        1816,
+        930
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "title-plaque",
+      "asset": "assets/common/title_plate.png",
+      "region": [
+        520,
+        22,
+        880,
+        170
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "close",
+      "asset": "assets/common/close.png",
+      "region": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_card.png",
+      "region": [
+        84,
+        208,
+        268,
+        756
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        224,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        294,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_selected.png",
+      "region": [
+        100,
+        364,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        434,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        504,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        574,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        644,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1040,
+        302,
+        275,
+        62
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "Cheats:WIDX_GUEST_HAPPINESS_MIN"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1345,
+        302,
+        275,
+        62
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "Cheats:WIDX_GUEST_HAPPINESS_MAX"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1040,
+        377,
+        275,
+        62
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "Cheats:WIDX_GUEST_ENERGY_MIN"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1345,
+        377,
+        275,
+        62
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "Cheats:WIDX_GUEST_ENERGY_MAX"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1040,
+        452,
+        275,
+        62
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "Cheats:WIDX_GUEST_HUNGER_MIN"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1345,
+        452,
+        275,
+        62
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "Cheats:WIDX_GUEST_HUNGER_MAX"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1040,
+        527,
+        275,
+        62
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "Cheats:WIDX_GUEST_THIRST_MIN"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1345,
+        527,
+        275,
+        62
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "Cheats:WIDX_GUEST_THIRST_MAX"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1040,
+        602,
+        275,
+        62
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "Cheats:WIDX_GUEST_NAUSEA_MIN"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1345,
+        602,
+        275,
+        62
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "Cheats:WIDX_GUEST_NAUSEA_MAX"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1040,
+        677,
+        275,
+        62
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "Cheats:WIDX_GUEST_NAUSEA_TOLERANCE_MIN"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1345,
+        677,
+        275,
+        62
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "Cheats:WIDX_GUEST_NAUSEA_TOLERANCE_MAX"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1040,
+        752,
+        275,
+        62
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "Cheats:WIDX_GUEST_TOILET_MIN"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1345,
+        752,
+        275,
+        62
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "Cheats:WIDX_GUEST_TOILET_MAX"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/primary_normal.png",
+      "region": [
+        1532,
+        916,
+        256,
+        70
+      ],
+      "resize": "nine",
+      "state": "normal"
+    }
+  ],
+  "dataDiagrams": [
+    {
+      "role": "data-rule",
+      "points": [
+        [
+          398,
+          276
+        ],
+        [
+          1790,
+          276
+        ]
+      ],
+      "color": "#B28C43",
+      "width": 1
+    }
+  ],
+  "layoutIssues": [],
+  "fontDistribution": "Official OFL-licensed fonts are included in assets/fonts; see records/font-sources.json.",
+  "status": "produced_pending_review",
+  "sourceControlBindings": [
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_BACKGROUND",
+      "sourceControlKey": "Cheats:WIDX_BACKGROUND",
+      "rectTopLeftXYWH": [
+        52,
+        96,
+        1816,
+        930
+      ],
+      "role": "window-structure",
+      "sourcePageGroups": [
+        "财务",
+        "日期",
+        "游客",
+        "员工",
+        "公园",
+        "设施",
+        "天气"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 82
+      },
+      "sourceWidgetType": "frame",
+      "condition": "沙盒工具已启用；这些按钮直接修改当前游客数据。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_TITLE",
+      "sourceControlKey": "Cheats:WIDX_TITLE",
+      "rectTopLeftXYWH": [
+        520,
+        22,
+        880,
+        170
+      ],
+      "role": "window-structure",
+      "sourcePageGroups": [
+        "财务",
+        "日期",
+        "游客",
+        "员工",
+        "公园",
+        "设施",
+        "天气"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 83
+      },
+      "sourceWidgetType": "caption",
+      "condition": "沙盒工具已启用；这些按钮直接修改当前游客数据。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_CLOSE",
+      "sourceControlKey": "Cheats:WIDX_CLOSE",
+      "rectTopLeftXYWH": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "role": "window-structure",
+      "sourcePageGroups": [
+        "财务",
+        "日期",
+        "游客",
+        "员工",
+        "公园",
+        "设施",
+        "天气"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 84
+      },
+      "sourceWidgetType": "closeBox",
+      "condition": "沙盒工具已启用；这些按钮直接修改当前游客数据。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_TAB_1",
+      "sourceControlKey": "Cheats:WIDX_TAB_1",
+      "rectTopLeftXYWH": [
+        100,
+        224,
+        236,
+        64
+      ],
+      "role": "source-navigation",
+      "sourcePageGroups": [
+        "财务",
+        "日期",
+        "游客",
+        "员工",
+        "公园",
+        "设施",
+        "天气"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 86
+      },
+      "sourceWidgetType": "tab",
+      "condition": "沙盒工具已启用；这些按钮直接修改当前游客数据。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_TAB_2",
+      "sourceControlKey": "Cheats:WIDX_TAB_2",
+      "rectTopLeftXYWH": [
+        100,
+        294,
+        236,
+        64
+      ],
+      "role": "source-navigation",
+      "sourcePageGroups": [
+        "财务",
+        "日期",
+        "游客",
+        "员工",
+        "公园",
+        "设施",
+        "天气"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 87
+      },
+      "sourceWidgetType": "tab",
+      "condition": "沙盒工具已启用；这些按钮直接修改当前游客数据。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_TAB_3",
+      "sourceControlKey": "Cheats:WIDX_TAB_3",
+      "rectTopLeftXYWH": [
+        100,
+        364,
+        236,
+        64
+      ],
+      "role": "source-navigation",
+      "sourcePageGroups": [
+        "财务",
+        "日期",
+        "游客",
+        "员工",
+        "公园",
+        "设施",
+        "天气"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 88
+      },
+      "sourceWidgetType": "tab",
+      "condition": "沙盒工具已启用；这些按钮直接修改当前游客数据。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_TAB_4",
+      "sourceControlKey": "Cheats:WIDX_TAB_4",
+      "rectTopLeftXYWH": [
+        100,
+        434,
+        236,
+        64
+      ],
+      "role": "source-navigation",
+      "sourcePageGroups": [
+        "财务",
+        "日期",
+        "游客",
+        "员工",
+        "公园",
+        "设施",
+        "天气"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 89
+      },
+      "sourceWidgetType": "tab",
+      "condition": "沙盒工具已启用；这些按钮直接修改当前游客数据。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_TAB_5",
+      "sourceControlKey": "Cheats:WIDX_TAB_5",
+      "rectTopLeftXYWH": [
+        100,
+        504,
+        236,
+        64
+      ],
+      "role": "source-navigation",
+      "sourcePageGroups": [
+        "财务",
+        "日期",
+        "游客",
+        "员工",
+        "公园",
+        "设施",
+        "天气"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 90
+      },
+      "sourceWidgetType": "tab",
+      "condition": "沙盒工具已启用；这些按钮直接修改当前游客数据。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_TAB_6",
+      "sourceControlKey": "Cheats:WIDX_TAB_6",
+      "rectTopLeftXYWH": [
+        100,
+        574,
+        236,
+        64
+      ],
+      "role": "source-navigation",
+      "sourcePageGroups": [
+        "财务",
+        "日期",
+        "游客",
+        "员工",
+        "公园",
+        "设施",
+        "天气"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 91
+      },
+      "sourceWidgetType": "tab",
+      "condition": "沙盒工具已启用；这些按钮直接修改当前游客数据。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_TAB_7",
+      "sourceControlKey": "Cheats:WIDX_TAB_7",
+      "rectTopLeftXYWH": [
+        100,
+        644,
+        236,
+        64
+      ],
+      "role": "source-navigation",
+      "sourcePageGroups": [
+        "财务",
+        "日期",
+        "游客",
+        "员工",
+        "公园",
+        "设施",
+        "天气"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 92
+      },
+      "sourceWidgetType": "tab",
+      "condition": "沙盒工具已启用；这些按钮直接修改当前游客数据。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_GUEST_HAPPINESS_MIN",
+      "sourceControlKey": "Cheats:WIDX_GUEST_HAPPINESS_MIN",
+      "rectTopLeftXYWH": [
+        1040,
+        302,
+        275,
+        62
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "游客"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 121
+      },
+      "sourceWidgetType": "button",
+      "condition": "沙盒工具已启用；这些按钮直接修改当前游客数据。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_GUEST_HAPPINESS_MAX",
+      "sourceControlKey": "Cheats:WIDX_GUEST_HAPPINESS_MAX",
+      "rectTopLeftXYWH": [
+        1345,
+        302,
+        275,
+        62
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "游客"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 120
+      },
+      "sourceWidgetType": "button",
+      "condition": "沙盒工具已启用；这些按钮直接修改当前游客数据。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_GUEST_ENERGY_MIN",
+      "sourceControlKey": "Cheats:WIDX_GUEST_ENERGY_MIN",
+      "rectTopLeftXYWH": [
+        1040,
+        377,
+        275,
+        62
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "游客"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 123
+      },
+      "sourceWidgetType": "button",
+      "condition": "沙盒工具已启用；这些按钮直接修改当前游客数据。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_GUEST_ENERGY_MAX",
+      "sourceControlKey": "Cheats:WIDX_GUEST_ENERGY_MAX",
+      "rectTopLeftXYWH": [
+        1345,
+        377,
+        275,
+        62
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "游客"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 122
+      },
+      "sourceWidgetType": "button",
+      "condition": "沙盒工具已启用；这些按钮直接修改当前游客数据。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_GUEST_HUNGER_MIN",
+      "sourceControlKey": "Cheats:WIDX_GUEST_HUNGER_MIN",
+      "rectTopLeftXYWH": [
+        1040,
+        452,
+        275,
+        62
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "游客"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 125
+      },
+      "sourceWidgetType": "button",
+      "condition": "沙盒工具已启用；这些按钮直接修改当前游客数据。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_GUEST_HUNGER_MAX",
+      "sourceControlKey": "Cheats:WIDX_GUEST_HUNGER_MAX",
+      "rectTopLeftXYWH": [
+        1345,
+        452,
+        275,
+        62
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "游客"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 124
+      },
+      "sourceWidgetType": "button",
+      "condition": "沙盒工具已启用；这些按钮直接修改当前游客数据。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_GUEST_THIRST_MIN",
+      "sourceControlKey": "Cheats:WIDX_GUEST_THIRST_MIN",
+      "rectTopLeftXYWH": [
+        1040,
+        527,
+        275,
+        62
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "游客"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 127
+      },
+      "sourceWidgetType": "button",
+      "condition": "沙盒工具已启用；这些按钮直接修改当前游客数据。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_GUEST_THIRST_MAX",
+      "sourceControlKey": "Cheats:WIDX_GUEST_THIRST_MAX",
+      "rectTopLeftXYWH": [
+        1345,
+        527,
+        275,
+        62
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "游客"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 126
+      },
+      "sourceWidgetType": "button",
+      "condition": "沙盒工具已启用；这些按钮直接修改当前游客数据。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_GUEST_NAUSEA_MIN",
+      "sourceControlKey": "Cheats:WIDX_GUEST_NAUSEA_MIN",
+      "rectTopLeftXYWH": [
+        1040,
+        602,
+        275,
+        62
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "游客"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 129
+      },
+      "sourceWidgetType": "button",
+      "condition": "沙盒工具已启用；这些按钮直接修改当前游客数据。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_GUEST_NAUSEA_MAX",
+      "sourceControlKey": "Cheats:WIDX_GUEST_NAUSEA_MAX",
+      "rectTopLeftXYWH": [
+        1345,
+        602,
+        275,
+        62
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "游客"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 128
+      },
+      "sourceWidgetType": "button",
+      "condition": "沙盒工具已启用；这些按钮直接修改当前游客数据。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_GUEST_NAUSEA_TOLERANCE_MIN",
+      "sourceControlKey": "Cheats:WIDX_GUEST_NAUSEA_TOLERANCE_MIN",
+      "rectTopLeftXYWH": [
+        1040,
+        677,
+        275,
+        62
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "游客"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 131
+      },
+      "sourceWidgetType": "button",
+      "condition": "沙盒工具已启用；这些按钮直接修改当前游客数据。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_GUEST_NAUSEA_TOLERANCE_MAX",
+      "sourceControlKey": "Cheats:WIDX_GUEST_NAUSEA_TOLERANCE_MAX",
+      "rectTopLeftXYWH": [
+        1345,
+        677,
+        275,
+        62
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "游客"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 130
+      },
+      "sourceWidgetType": "button",
+      "condition": "沙盒工具已启用；这些按钮直接修改当前游客数据。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_GUEST_TOILET_MIN",
+      "sourceControlKey": "Cheats:WIDX_GUEST_TOILET_MIN",
+      "rectTopLeftXYWH": [
+        1040,
+        752,
+        275,
+        62
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "游客"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 133
+      },
+      "sourceWidgetType": "button",
+      "condition": "沙盒工具已启用；这些按钮直接修改当前游客数据。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Cheats",
+      "controlId": "WIDX_GUEST_TOILET_MAX",
+      "sourceControlKey": "Cheats:WIDX_GUEST_TOILET_MAX",
+      "rectTopLeftXYWH": [
+        1345,
+        752,
+        275,
+        62
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "游客"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Cheats.cpp",
+        "line": 132
+      },
+      "sourceWidgetType": "button",
+      "condition": "沙盒工具已启用；这些按钮直接修改当前游客数据。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    }
+  ],
+  "productDetailPurpose": "additional_actual_product_ui_layout"
+}

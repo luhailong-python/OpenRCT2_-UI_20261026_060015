@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/map_01.jpg",
+  "sha256": "aa9795360f9ca3fbb3dcf5bb3cd254db12cdabc6625ce4c89cd4bcd6c9cbbc21",
+  "derivedFrom": [
+    {
+      "file": "designs/map/01-游客.png",
+      "sha256": "e43380e033ad5c38b8e134eb2ee509d7e489ba1a0f86b8334ec665f315ad0eb0",
+      "sourceRecord": "designs/map/01-游客.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "title_plate",
+  "file": "assets/common/title_plate.png",
+  "width": 594,
+  "height": 195,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "f1011dd30d1ef42cbeedf64f31025c6c77c91ffbbcdd09ef74c065ad1d91ddfe",
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "resizeAxes": "none",
+  "minimumSize": [
+    594,
+    195
+  ],
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "pixelsPerUnit": 100,
+  "containsDynamicText": false,
+  "source": "assets/masters/surfaces-native.png",
+  "sourceSha256": "61e8e082373c62f4851412a4de451175a3358030125dbd5fa6a0e4963348a8c6",
+  "sourceNativeSize": [
+    1254,
+    1254
+  ],
+  "sourceRectTopLeftXYXY": [
+    25,
+    895,
+    611,
+    1082
+  ],
+  "pasteOffset": [
+    4,
+    4
+  ],
+  "operation": "Original-pixel crop; isolate specified alpha>100 connected silhouettes, retain original alpha>=16 within 2px edge support; center on padded canvas. No recoloring, painting, AI call or upscaling.",
+  "derivedFrom": {
+    "file": "assets/masters/surfaces-native.png",
+    "sha256": "61e8e082373c62f4851412a4de451175a3358030125dbd5fa6a0e4963348a8c6",
+    "generationRecord": "assets/masters/surfaces-native.png.generation.json"
+  },
+  "alpha": {
+    "minimum": 0,
+    "maximum": 255,
+    "transparentPixels": 42697,
+    "visiblePixels": 73133
+  },
+  "isolatedForegroundComponents": 1,
+  "qualityStatus": "passed_slice_visual_review_20261026",
+  "nativeDetailIncreased": false,
+  "processedAt": "2026-10-26T06:14:33.263359-04:00",
+  "visualEvidence": "docs/sprite-qa.md; previews/sprites-contact.jpg"
+}

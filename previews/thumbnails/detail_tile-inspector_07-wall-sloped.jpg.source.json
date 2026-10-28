@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_tile-inspector_07-wall-sloped.jpg",
+  "sha256": "4e0bd05f5d0b77f5d2bf3666342178033df7566a91c94a37ecff0f31e7c9efc5",
+  "derivedFrom": [
+    {
+      "file": "designs/details/tile-inspector/07-wall-sloped.png",
+      "sha256": "49271b93e57f6677b0920d4ae0cf979684255d2860657000dcdeb762a4a739c8",
+      "sourceRecord": "designs/details/tile-inspector/07-wall-sloped.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

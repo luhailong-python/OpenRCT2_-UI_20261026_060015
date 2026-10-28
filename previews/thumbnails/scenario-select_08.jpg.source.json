@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/scenario-select_08.jpg",
+  "sha256": "b9238feda90f8caca53fd4c9031a1de8307304698142852e2bb9465627605907",
+  "derivedFrom": [
+    {
+      "file": "designs/scenario-select/08-真实公园.png",
+      "sha256": "8197a1a0daa1f245f1a62e66c070dcc3e05f981dc255e2e01972ddc2a061e0b5",
+      "sourceRecord": "designs/scenario-select/08-真实公园.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

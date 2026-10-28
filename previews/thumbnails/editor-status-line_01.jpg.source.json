@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/editor-status-line_01.jpg",
+  "sha256": "36a0dc0e5e5a2148e74215cdc9aa693a72b1c729ebb073ba88d67a16bb056e2a",
+  "derivedFrom": [
+    {
+      "file": "designs/editor-status-line/01-步骤状态.png",
+      "sha256": "1358aff0a31f51597503fe0ce04ca428d98f0031fa74d87594f062ab25ce795f",
+      "sourceRecord": "designs/editor-status-line/01-步骤状态.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

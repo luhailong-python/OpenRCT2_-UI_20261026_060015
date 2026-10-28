@@ -1,0 +1,55 @@
+{
+  "file": "previews/overview.jpg",
+  "sha256": "3a5ea061b0cc518767911f3d639819985b33b07bf1bb7a546037ede0ff698771",
+  "derivedFrom": [
+    {
+      "file": "designs/title-menu/01-主菜单.png",
+      "sha256": "acf13a004941a51df02742e3be5550697b5241e92f0560abc715563d3857e74e"
+    },
+    {
+      "file": "designs/main/01-运行.png",
+      "sha256": "624fa80cee557f2c0f371fe43d6db13603e49fc67da90ef08625775b35cbfee2"
+    },
+    {
+      "file": "designs/new-ride/01-交通.png",
+      "sha256": "f58d8f515e4c8ff2b6b1ddd1c3430dbb9125b3b16b6bd4ab618d6b47071cb462"
+    },
+    {
+      "file": "designs/ride-construction/01-轨道.png",
+      "sha256": "f9a1f3af8a724f4556689e48441d351fedf1da5c709ff38521ec174916a6372a"
+    },
+    {
+      "file": "designs/ride/01-概览.png",
+      "sha256": "f7631721027ac5d7a40fa2da97c7049c987d1c8b2085de444a5ad42c4c4b5fb3"
+    },
+    {
+      "file": "designs/finances/01-收支.png",
+      "sha256": "556ccdb65e8c9bdfbdbfcda47edd5e9f698107b86e8345c9a6690523f602a344"
+    },
+    {
+      "file": "designs/guest/01-概览.png",
+      "sha256": "cccf8a827ec781702e0069a981c6beb7ac64ec0907c601eacdeb0f6244868ba4"
+    },
+    {
+      "file": "designs/staff-list/01-清洁.png",
+      "sha256": "5bad948f83ed53b376928d8ffd7f72b5a31a5d6c519097d71b5f6b7f21fd54fe"
+    },
+    {
+      "file": "designs/editor-scenario-options/01-目标.png",
+      "sha256": "0f39ae86a87952166ddaf156c89644f0868939cce784fc075a6b80d88a9d53a6"
+    },
+    {
+      "file": "designs/multiplayer/01-信息.png",
+      "sha256": "209715c1ceddd0c48a8a22b6b5f0d44a88f0d14e5cbf1971806872467048fd35"
+    },
+    {
+      "file": "designs/options/01-显示.png",
+      "sha256": "d7f04f4eb723e64c043ed2f606d13c9971b1ebf7f2ae4c5abc116a35243b54ac"
+    },
+    {
+      "file": "designs/park/01-入口.png",
+      "sha256": "68b60ac82586fe3e984665b10ee4284067f66de48f4487def46e7c783ccd3681"
+    }
+  ],
+  "operation": "12_screen_review_contact_sheet_no_new_model_generation"
+}

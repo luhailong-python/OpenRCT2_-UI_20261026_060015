@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/ride-construction_04.jpg",
+  "sha256": "97252c2bbff084df151ac77c9db84308fdde8205a35c12af081e987311d99c5f",
+  "derivedFrom": [
+    {
+      "file": "designs/ride-construction/04-特殊轨道.png",
+      "sha256": "39b3610598d25892e20ea895ac5711cc07ac78fa02bb2fa9f7fcd36e9cc38a7c",
+      "sourceRecord": "designs/ride-construction/04-特殊轨道.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

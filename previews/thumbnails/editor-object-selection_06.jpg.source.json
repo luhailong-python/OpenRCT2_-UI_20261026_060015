@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/editor-object-selection_06.jpg",
+  "sha256": "9baa474705278ac36bd3f9962967af8d2876f46408aae3703415f5420cfaad0a",
+  "derivedFrom": [
+    {
+      "file": "designs/editor-object-selection/06-音乐.png",
+      "sha256": "652b544bdf131e16026ee253e9bef48e62de7ffe9fbe467f935f22d98581ec9b",
+      "sourceRecord": "designs/editor-object-selection/06-音乐.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

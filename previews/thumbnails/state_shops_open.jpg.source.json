@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_shops_open.jpg",
+  "sha256": "4001fff8a3870041b3bb955ecca2d030ced292dce64e57534992a9d619cdde1c",
+  "derivedFrom": [
+    {
+      "file": "previews/states/shops/open.png",
+      "sha256": "8f44eb6274881982946c96be611fb5ea9b0ce27dbfbd223127d66c158bd7fce9",
+      "sourceRecord": "previews/states/shops/open.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,45 @@
+{
+  "file": "previews/flows/01-core-loop.png",
+  "sha256": "07675502e2b283ad7569104cfe2237fa79e3d70a97d55bb4afae053c7d369eb5",
+  "operation": "diagram_typesetting_and_composition_from_handpainted_sprites_not_AI_generation",
+  "derivedFrom": [
+    {
+      "file": "assets/common/panel_card.png",
+      "sha256": "b82ed16e818b3bb86c16a68453bc4b73f1764c6fdb4541c2e470e5c60789568e",
+      "sourceRecord": "assets/common/panel_card.png.source.json"
+    },
+    {
+      "file": "assets/icons/build.png",
+      "sha256": "0fc7ef5b45c5569da1bb8755219953f491e16aa7416ec1f352498a559a0d6654",
+      "sourceRecord": "assets/icons/build.png.source.json"
+    },
+    {
+      "file": "assets/icons/coins.png",
+      "sha256": "7323314b8133c1b45467afabff3d394457147dda489d4a324744b3894ba51182",
+      "sourceRecord": "assets/icons/coins.png.source.json"
+    },
+    {
+      "file": "assets/icons/park_gate.png",
+      "sha256": "6ede8f9e35da2f6e9d36cc8e1e3d7f3277fbe1d1002471833c60bb5efb2e7c71",
+      "sourceRecord": "assets/icons/park_gate.png.source.json"
+    },
+    {
+      "file": "assets/icons/roller_coaster.png",
+      "sha256": "4468c378149e31796e8eef9f03728d69f4acbe302135ec985f4c48b1a9d79f61",
+      "sourceRecord": "assets/icons/roller_coaster.png.source.json"
+    },
+    {
+      "file": "assets/icons/trophy.png",
+      "sha256": "481f09a3d0c667ef0277f295dea2ae97ad35e15fe218a57c0076894a75e56335",
+      "sourceRecord": "assets/icons/trophy.png.source.json"
+    },
+    {
+      "file": "assets/icons/visitor.png",
+      "sha256": "6864154acf8da64c9b7cc110d0c12a89d29af988137bf12e9515104a77cc8f29",
+      "sourceRecord": "assets/icons/visitor.png.source.json"
+    }
+  ],
+  "logicReference": "docs/workflows.md",
+  "fonts": "records/font-sources.json",
+  "nativeDetailIncreased": false
+}

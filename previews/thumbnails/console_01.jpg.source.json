@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/console_01.jpg",
+  "sha256": "77818400c52b54972c80752bf0f76acefebf688b6f5af42508059a702eda4413",
+  "derivedFrom": [
+    {
+      "file": "designs/console/01-控制台.png",
+      "sha256": "aae770592a450b4d666a5f24d904e0f4ccc790bf1e17b82f265d2493c2b726fe",
+      "sourceRecord": "designs/console/01-控制台.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

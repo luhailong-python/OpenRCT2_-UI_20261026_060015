@@ -1,0 +1,135 @@
+{
+  "file": "previews/contact-sheets/10.jpg",
+  "sha256": "46a932c648fccd5d1aac2204fbda20a126fec0f24c55b2b1fc1c919131d57400",
+  "derivedFrom": [
+    {
+      "file": "designs/details/management/themes-main-1.png",
+      "sha256": "7dc77d752676824c8d8d91ebfbd6e29844f84f237ea4ca26849bc98067211d76"
+    },
+    {
+      "file": "designs/details/management/themes-main-2.png",
+      "sha256": "8f5e5d960563434e42de73e8108d7c29ea7a1b087cfa4b2badd882b3d93f768f"
+    },
+    {
+      "file": "designs/details/management/themes-park-1.png",
+      "sha256": "6867d0a10a54ce499c9ee31e3e447eca6e21e87782dd66cfc60fc3ad82614415"
+    },
+    {
+      "file": "designs/details/management/themes-park-2.png",
+      "sha256": "266a4c094583cf36137877cb15dd136d4a87da1b9193937ebabf08f7587323b3"
+    },
+    {
+      "file": "designs/details/management/themes-tools-1.png",
+      "sha256": "c2c212faa1332a1517996e51f862d491792acd49fd595d53747219390dfda78b"
+    },
+    {
+      "file": "designs/details/management/themes-tools-2.png",
+      "sha256": "a5686e81a61a0614662144b06b0d56e6718d6e04d15f006da07fe216c5c1b032"
+    },
+    {
+      "file": "designs/details/management/themes-ridesguests-1.png",
+      "sha256": "3e259e8c62fc4bb854661e7e8a78bfb0f56c8022c8c486b418b219c60d365d79"
+    },
+    {
+      "file": "designs/details/management/themes-ridesguests-2.png",
+      "sha256": "7e85b9c18a6033202d3971b9067a807a44bd76976fac503be466611b3849adf0"
+    },
+    {
+      "file": "designs/details/management/themes-editors-1.png",
+      "sha256": "4551a80a370cd978607d198c9c3e224c74bc68974009933e5b69cd85823f27d2"
+    },
+    {
+      "file": "designs/details/management/themes-misc-1.png",
+      "sha256": "a9403e1d120c39e640080d13ed1d7cb27bd4a9a3203f43e6db2e2cc8889376e1"
+    },
+    {
+      "file": "designs/details/management/themes-misc-2.png",
+      "sha256": "99aadf7c6a3417010f18c07d41d79d3bdfb1f04f59939b84a1cbe841f41b90e5"
+    },
+    {
+      "file": "designs/details/management/themes-misc-3.png",
+      "sha256": "98addefcdb616c800ff6029bc4c4a1964690fc312d9d176e83c4b5df9c7cd5ff"
+    },
+    {
+      "file": "designs/details/management/themes-prompts-1.png",
+      "sha256": "a16db9f0fe49f68a6a0409986e1d67b30b72705f393533199e26480aedae1ab4"
+    },
+    {
+      "file": "designs/details/management/themes-prompts-2.png",
+      "sha256": "6c05dc009e3141c53e8f498f0f262d4f152e311eb7fcd6801e05496c7964b8cf"
+    },
+    {
+      "file": "designs/details/management/themes-feature-options.png",
+      "sha256": "8f3c5065677967bb0139a85f69c704ccd632d8f6d138d81536d3b0ff4fd3528b"
+    },
+    {
+      "file": "designs/details/management/editor-inventions-complete-tools.png",
+      "sha256": "51f3c1bc68bd9ef3bc6f60dd7deea61e9649d452ce91146b69a2c2ad2a11da5a"
+    },
+    {
+      "file": "designs/details/ride-ops/01-overview-closed.png",
+      "sha256": "6c715e5bdd48cc490d53ce840ffa5ff587641875df817023a7ec0f8e388a8076"
+    },
+    {
+      "file": "designs/details/ride-ops/02-overview-testing.png",
+      "sha256": "59e2974628ddad053fecef7df223c7b18cf704fbb72fd3c1a9a03d67f7c76cfa"
+    },
+    {
+      "file": "designs/details/ride-ops/03-overview-open.png",
+      "sha256": "82a94266128b23e9a2ea643254bdb401d84c546e4f713d44dc4a24ae4ba58fa8"
+    },
+    {
+      "file": "designs/details/ride-ops/04-overview-simulating.png",
+      "sha256": "c8a364d27c55b7fa8fd10c9cf81d89e5519cf384e16e43a64d76d7dbdef230be"
+    },
+    {
+      "file": "designs/details/ride-ops/05-protected.png",
+      "sha256": "1e7d40f2fab1f62e5b0975a1b41eb64279012e2fb7d2401ef49c2a37f20f4b0b"
+    },
+    {
+      "file": "designs/details/ride-ops/06-graph-velocity.png",
+      "sha256": "0b562ffa365a728a9736f511cb982220eaf0e3f7a8a593b8b11ebb62cbb10783"
+    },
+    {
+      "file": "designs/details/ride-ops/07-graph-altitude.png",
+      "sha256": "d5c2f87c210b24944770e2b276a399fc56b5277e6e9f31eaa069e54892199429"
+    },
+    {
+      "file": "designs/details/ride-ops/08-graph-vertical.png",
+      "sha256": "5fe8a8e5949dd2955dc3a57ddaf1140b9bcbb98fbf095abf4a3798b6ec041c29"
+    },
+    {
+      "file": "designs/details/ride-ops/09-graph-lateral.png",
+      "sha256": "34167e89eed262b58dae826fb773fd545b26889b2438c70c442aa2e8c4452185"
+    },
+    {
+      "file": "designs/details/ride-ops/10-shop-prices.png",
+      "sha256": "9cab4c1327aa37f83eab93c97d291f0c70ef38c97f54d674d4cc5e68fac4d860"
+    },
+    {
+      "file": "designs/details/ride-ops/11-admission-price-locked.png",
+      "sha256": "846f84c150a3c30fe7adf39fb439d6b5cf190ffab44980e4ca1a49b8f8d74bf4"
+    },
+    {
+      "file": "designs/details/ride-ops/13-blueprint-entry.png",
+      "sha256": "9a7b358b14a95bf6993014e3dcd81581a001bd355b3712670b7ee30ea9cb85af"
+    },
+    {
+      "file": "designs/details/ride-ops/14-blueprint-entry-locked.png",
+      "sha256": "1f7755ffdf438dac18753f24b9046bc9299f0bd7cea167f7557e0bfb3572e2db"
+    },
+    {
+      "file": "designs/details/ride-ops/15-blueprint-scenery-selection.png",
+      "sha256": "31359efe20d989a21f170f00190bce0bd9a2eee63760d9f3393dc04a14456676"
+    },
+    {
+      "file": "designs/details/ride-ops/12-rename.png",
+      "sha256": "f200e6f93850d3b5a8ac3cced6bfed9d3866d44da1fff6a251286b45a6e06741"
+    },
+    {
+      "file": "designs/details/guest-ops/01-guest-actions.png",
+      "sha256": "ce5a86c04983898562ba648471fe16dab7eb80dab75deae9854151d51f9f6807"
+    }
+  ],
+  "operation": "review_contact_sheet_thumbnail_composition_no_new_model_generation"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/new-campaign_01.jpg",
+  "sha256": "64263e21cce8b6de025551be16317094fe6ea1dbaba572ccbfe7c5b31a618d42",
+  "derivedFrom": [
+    {
+      "file": "designs/new-campaign/01-活动设置.png",
+      "sha256": "41f259a21d641a13928cba3d8ab68e3b9fc8b591e054418fe155ec676b939f8b",
+      "sourceRecord": "designs/new-campaign/01-活动设置.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

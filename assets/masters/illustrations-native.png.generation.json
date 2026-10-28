@@ -1,0 +1,61 @@
+{
+  "file": "assets/masters/illustrations-native.png",
+  "sha256": "38b639e2585e8fe3b7218cfd8bb9d4255bc6676b3d20248ee94281b5da3d53cd",
+  "generatedAt": "2026-10-26T10:08:58Z",
+  "width": 1086,
+  "height": 1448,
+  "format": "PNG",
+  "mode": "RGBA",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具没有型号/质量选择器；本次返回仅含image_url及output_hint，未披露可核实型号/质量。",
+  "evidence": {
+    "toolResult": "records/illustrations-receipt.json",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "nativeOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a177a6-ab28-7732-aee8-f17747d127e1\\exec-4cbca23e-49ac-4f38-9dd9-c685bca7c60f.png",
+    "pngMetadataKeys": []
+  },
+  "prompt": "records/illustrations-prompt.txt",
+  "references": [
+    {
+      "file": "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "purpose": "首要风格参考，实际附图"
+    },
+    {
+      "file": "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "purpose": "首要风格参考，实际附图"
+    }
+  ],
+  "reviewStatus": "pending_visual_review",
+  "operation": "native_model_generation_no_resampling",
+  "registeredAt": "2026-10-26T06:11:41.70051-04:00",
+  "timestampMeaning": "generatedAt为已记录的本次工具调用开始时间；宿主未披露精确渲染完成时间。"
+}

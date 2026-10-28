@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_settings_key-capture.jpg",
+  "sha256": "ec282847bfb6386540f93f7ebad0f0aadfe3036f21720a23607eb8c3027f5966",
+  "derivedFrom": [
+    {
+      "file": "previews/states/settings/key-capture.png",
+      "sha256": "32f738c719c1941fa135db3aa0824c3b2976aeb17bafe5a0ff712a3180d71e19",
+      "sourceRecord": "previews/states/settings/key-capture.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

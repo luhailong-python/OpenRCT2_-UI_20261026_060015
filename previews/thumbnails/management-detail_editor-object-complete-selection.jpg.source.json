@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/management-detail_editor-object-complete-selection.jpg",
+  "sha256": "644606eda0d3caf64ad84a3ca95af453b634d39748d783ee22d64f30d2aeccd5",
+  "derivedFrom": [
+    {
+      "file": "designs/details/management/editor-object-complete-selection.png",
+      "sha256": "adcbba1e3e4a6caa57eac1364c2a3dda751808523dab801a20be9c9b4f2e14f6",
+      "sourceRecord": "designs/details/management/editor-object-complete-selection.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

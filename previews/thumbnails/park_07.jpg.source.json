@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/park_07.jpg",
+  "sha256": "79c28504bad2788a3f7cbdf769ed6f12e898c27addbe62fec8356f30bc22fb1c",
+  "derivedFrom": [
+    {
+      "file": "designs/park/07-奖项.png",
+      "sha256": "56a52faad189b347e236eaafb56b36de4f6f88ccaf407eb05344fa95032d0952",
+      "sourceRecord": "designs/park/07-奖项.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

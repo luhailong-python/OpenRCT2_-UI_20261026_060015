@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/operations_ride_08-graph-vertical.jpg",
+  "sha256": "a45cac9b6d5cee370aa4b2aefb1e67f607c58ba80212b3d6615e7eea76f167aa",
+  "derivedFrom": [
+    {
+      "file": "designs/details/ride-ops/08-graph-vertical.png",
+      "sha256": "5fe8a8e5949dd2955dc3a57ddaf1140b9bcbb98fbf095abf4a3798b6ec041c29",
+      "sourceRecord": "designs/details/ride-ops/08-graph-vertical.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

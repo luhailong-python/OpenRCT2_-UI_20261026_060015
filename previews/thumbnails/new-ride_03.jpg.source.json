@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/new-ride_03.jpg",
+  "sha256": "9925a9c6ab01d946e7dcf7d7656b403be20a1a828c001eea22ff90a346f1b17a",
+  "derivedFrom": [
+    {
+      "file": "designs/new-ride/03-过山车.png",
+      "sha256": "4f23cfb0ba946c5407fa5aeb4150e4c819fcad2a2f540707275b6d2ae567f3af",
+      "sourceRecord": "designs/new-ride/03-过山车.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

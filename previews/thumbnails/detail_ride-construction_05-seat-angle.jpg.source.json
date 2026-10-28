@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_ride-construction_05-seat-angle.jpg",
+  "sha256": "88f4b10243f04c3983a3a59e4d10ffde6249074145c9144224805466e8cea60b",
+  "derivedFrom": [
+    {
+      "file": "designs/details/ride-construction/05-seat-angle.png",
+      "sha256": "b3ff937b1324471441666b0e65b654b8abdcc1a1946c408ad101a5baad9cb708",
+      "sourceRecord": "designs/details/ride-construction/05-seat-angle.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

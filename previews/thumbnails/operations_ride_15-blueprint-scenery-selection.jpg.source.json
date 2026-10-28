@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/operations_ride_15-blueprint-scenery-selection.jpg",
+  "sha256": "ec593023e99acf36cf41d1c85ee7e201fc73309d6d6864461eaa880ca9fc2203",
+  "derivedFrom": [
+    {
+      "file": "designs/details/ride-ops/15-blueprint-scenery-selection.png",
+      "sha256": "31359efe20d989a21f170f00190bce0bd9a2eee63760d9f3393dc04a14456676",
+      "sourceRecord": "designs/details/ride-ops/15-blueprint-scenery-selection.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

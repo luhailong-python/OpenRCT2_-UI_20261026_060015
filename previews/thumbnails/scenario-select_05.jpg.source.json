@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/scenario-select_05.jpg",
+  "sha256": "5838bcd5ae8b8f5657bb1cca802aec98129feffb1e8545c2d72878dd23dcecd9",
+  "derivedFrom": [
+    {
+      "file": "designs/scenario-select/05-RCT2奇异世界.png",
+      "sha256": "6cfe02ceaae959621e1af1aea42995714e595460e941f1ff27094826dec96b29",
+      "sourceRecord": "designs/scenario-select/05-RCT2奇异世界.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

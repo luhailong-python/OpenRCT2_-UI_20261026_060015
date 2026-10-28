@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/view-clipping_02.jpg",
+  "sha256": "440a3cef6f3693f4fdfd4aa74c8b695d6057b61ba290327ebecae9ea6580b0fe",
+  "derivedFrom": [
+    {
+      "file": "designs/view-clipping/02-区域.png",
+      "sha256": "0f60c57191f4da62da0aeae531101836c65fbc5808f463c472b04b67d3257183",
+      "sourceRecord": "designs/view-clipping/02-区域.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

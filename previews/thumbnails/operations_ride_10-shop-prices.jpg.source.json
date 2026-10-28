@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/operations_ride_10-shop-prices.jpg",
+  "sha256": "fa7713f333f64830349e3911405ce52f3cde97fef71a2a8e081d70669df4c0ef",
+  "derivedFrom": [
+    {
+      "file": "designs/details/ride-ops/10-shop-prices.png",
+      "sha256": "9cab4c1327aa37f83eab93c97d291f0c70ef38c97f54d674d4cc5e68fac4d860",
+      "sourceRecord": "designs/details/ride-ops/10-shop-prices.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

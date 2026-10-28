@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/footpath_01.jpg",
+  "sha256": "e6ef69d04892dba4dc4a269a73266eec9004a7303be33d21d886ee2bd984dd42",
+  "derivedFrom": [
+    {
+      "file": "designs/footpath/01-地面.png",
+      "sha256": "8955c9bd2250e108e6ab0d297463736c83ff89fdfd1abfd9cfbbe382b7765122",
+      "sourceRecord": "designs/footpath/01-地面.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

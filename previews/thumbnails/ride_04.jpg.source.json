@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/ride_04.jpg",
+  "sha256": "790c36245ef3d6214a2e0bedb1e7a3014c40921abd325868625bfa84e8a40a6b",
+  "derivedFrom": [
+    {
+      "file": "designs/ride/04-维护.png",
+      "sha256": "c6477686cd739c57c9ff6922c81b9104673b7f1a2b019f00d243481331eef109",
+      "sourceRecord": "designs/ride/04-维护.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

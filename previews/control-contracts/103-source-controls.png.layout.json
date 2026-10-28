@@ -1,0 +1,459 @@
+{
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "purpose": "technical_style_contract_not_product_screen",
+  "controls": [
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_HEADER_PALETTE",
+      "rectTopLeftXYWH": [
+        58,
+        146,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        229,
+        554,
+        98
+      ],
+      "sourceWidgetType": "tableHeader",
+      "sourceLabelDisplayed": "调色板",
+      "existingTargetScreenGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_HEADER_TRANSPARENCY",
+      "rectTopLeftXYWH": [
+        665,
+        146,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        229,
+        554,
+        98
+      ],
+      "sourceWidgetType": "tableHeader",
+      "sourceLabelDisplayed": "透明",
+      "existingTargetScreenGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_PRESETS",
+      "rectTopLeftXYWH": [
+        1272,
+        146,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        229,
+        554,
+        98
+      ],
+      "sourceWidgetType": "dropdownMenu",
+      "sourceLabelDisplayed": "下拉选择",
+      "existingTargetScreenGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_PRESETS_DROPDOWN",
+      "rectTopLeftXYWH": [
+        58,
+        368,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        451,
+        554,
+        98
+      ],
+      "sourceWidgetType": "button",
+      "sourceLabelDisplayed": "▼",
+      "existingTargetScreenGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "formalAssets": [
+        "assets/common/secondary_normal.png",
+        "assets/common/secondary_pressed.png",
+        "assets/common/secondary_selected.png",
+        "assets/common/secondary_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_DUPLICATE_BUTTON",
+      "rectTopLeftXYWH": [
+        665,
+        368,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        451,
+        554,
+        98
+      ],
+      "sourceWidgetType": "button",
+      "sourceLabelDisplayed": "复制",
+      "existingTargetScreenGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "formalAssets": [
+        "assets/common/secondary_normal.png",
+        "assets/common/secondary_pressed.png",
+        "assets/common/secondary_selected.png",
+        "assets/common/secondary_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_DELETE_BUTTON",
+      "rectTopLeftXYWH": [
+        1272,
+        368,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        451,
+        554,
+        98
+      ],
+      "sourceWidgetType": "button",
+      "sourceLabelDisplayed": "删除",
+      "existingTargetScreenGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "formalAssets": [
+        "assets/common/secondary_normal.png",
+        "assets/common/secondary_pressed.png",
+        "assets/common/secondary_selected.png",
+        "assets/common/secondary_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_RENAME_BUTTON",
+      "rectTopLeftXYWH": [
+        58,
+        590,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        673,
+        554,
+        98
+      ],
+      "sourceWidgetType": "button",
+      "sourceLabelDisplayed": "重命名",
+      "existingTargetScreenGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "formalAssets": [
+        "assets/common/secondary_normal.png",
+        "assets/common/secondary_pressed.png",
+        "assets/common/secondary_selected.png",
+        "assets/common/secondary_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_COLOURBTN_MASK",
+      "rectTopLeftXYWH": [
+        665,
+        590,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        673,
+        554,
+        98
+      ],
+      "sourceWidgetType": "colourBtn",
+      "sourceLabelDisplayed": "颜色选择",
+      "existingTargetScreenGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "formalAssets": [
+        "assets/common/secondary_normal.png",
+        "assets/common/secondary_pressed.png",
+        "assets/common/secondary_selected.png",
+        "assets/common/secondary_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_LIST",
+      "rectTopLeftXYWH": [
+        1272,
+        590,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        673,
+        554,
+        98
+      ],
+      "sourceWidgetType": "scroll",
+      "sourceLabelDisplayed": "列表 / 图表 / 音量等动态区域",
+      "existingTargetScreenGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_RCT1_RIDE_LIGHTS",
+      "rectTopLeftXYWH": [
+        58,
+        812,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        895,
+        554,
+        98
+      ],
+      "sourceWidgetType": "checkbox",
+      "sourceLabelDisplayed": "过山车大亨1式游乐设施开关指示灯",
+      "existingTargetScreenGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "formalAssets": [
+        "assets/common/checkbox_off.png",
+        "assets/common/checkbox_on.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_RCT1_PARK_LIGHTS",
+      "rectTopLeftXYWH": [
+        665,
+        812,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        895,
+        554,
+        98
+      ],
+      "sourceWidgetType": "checkbox",
+      "sourceLabelDisplayed": "过山车大亨1式游乐园开关指示灯",
+      "existingTargetScreenGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "formalAssets": [
+        "assets/common/checkbox_off.png",
+        "assets/common/checkbox_on.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_RCT1_SCENARIO_FONT",
+      "rectTopLeftXYWH": [
+        1272,
+        812,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        895,
+        554,
+        98
+      ],
+      "sourceWidgetType": "checkbox",
+      "sourceLabelDisplayed": "过山车大亨1式选择剧情字体",
+      "existingTargetScreenGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "formalAssets": [
+        "assets/common/checkbox_off.png",
+        "assets/common/checkbox_on.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    }
+  ]
+}

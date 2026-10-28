@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/player_01.jpg",
+  "sha256": "e60d6704c2bacc219f286f50567da27c62e921bf3cd603019f1d7c46020b158f",
+  "derivedFrom": [
+    {
+      "file": "designs/player/01-概览.png",
+      "sha256": "b812a8dac3f33f7d9688ae1e835de48adafa2b9e511063c6383d8e80956ad869",
+      "sourceRecord": "designs/player/01-概览.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,68 @@
+{
+  "createdAt": "2026-10-26T09:31:01.366759-04:00",
+  "checks": [
+    {
+      "name": "all_source_windows_mapped",
+      "passed": true,
+      "detail": "79窗口源码单元+Chat/Console/CustomWindow"
+    },
+    {
+      "name": "tab_mode_counts",
+      "passed": true,
+      "detail": {
+        "base": 226,
+        "expected": 226,
+        "additionalProductDetails": 120
+      }
+    },
+    {
+      "name": "business_state_counts",
+      "passed": true,
+      "detail": {
+        "actual": 125,
+        "expected": 125
+      }
+    },
+    {
+      "name": "preview_text_layout_no_reported_overflow",
+      "passed": true,
+      "detail": {
+        "reported": 0
+      }
+    },
+    {
+      "name": "all_preview_files_and_records_exist",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "screen_dimensions_1920_1080",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "formal_asset_sizes_hashes",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "formal_sprites_real_alpha",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "sprite_border_ranges",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "font_license_record_exists",
+      "passed": true,
+      "detail": "正式字体及许可证记录"
+    }
+  ],
+  "failures": [],
+  "unityVerified": false,
+  "scope": "offline_static_art_and_metadata",
+  "status": "machine_checks_passed_visual_review_recorded_separately"
+}

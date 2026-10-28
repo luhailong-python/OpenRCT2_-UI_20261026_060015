@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "file": "previews/states/mapgen/normal.png",
+  "sha256": "f63aa3c9dfd3a5bb1b9fa038b6d415b6a18e7b6fdb83fc79c7e95cacfeb40f7c",
+  "exportedAt": "2026-10-26T06:50:04.100373-04:00",
+  "width": 1920,
+  "height": 1080,
+  "format": "PNG",
+  "operation": "composite_preview_not_native_generation",
+  "process": [
+    "Nine-slice/contain/cover composition of painted PNG sprites",
+    "Separate Chinese text typesetting and data diagrams"
+  ],
+  "resampling": "LANCZOS where art is fitted; output dimensions do not represent new native generated detail.",
+  "nativeModelClaim": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidencePolicy": "Resolve original AI model/quality through each source asset record; unreported values remain unconfirmed.",
+  "derivedFrom": [
+    {
+      "file": "assets/backgrounds/park-day-native.png",
+      "sha256": "27c3ac998fcd81e675c9a05712ead25c83443b133844c169d1476c3cebe25712",
+      "nativeDimensions": [
+        1672,
+        941
+      ],
+      "generationRecord": "assets/backgrounds/park-day-native.png.generation.json",
+      "derivationRecord": "assets/slice-manifest.json"
+    },
+    {
+      "file": "assets/common/panel_main.png",
+      "sha256": "704856762248133110624f38365e0ff337dd1f2f6304f66298e2230077ebca00",
+      "nativeDimensions": [
+        619,
+        610
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_main.png.source.json"
+    },
+    {
+      "file": "assets/common/title_plate.png",
+      "sha256": "f1011dd30d1ef42cbeedf64f31025c6c77c91ffbbcdd09ef74c065ad1d91ddfe",
+      "nativeDimensions": [
+        594,
+        195
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/title_plate.png.source.json"
+    },
+    {
+      "file": "assets/common/close.png",
+      "sha256": "f9089fdc15bfbfbd496d9c02de94c46b0e1e4052fffa9689de0b461e043737ec",
+      "nativeDimensions": [
+        184,
+        184
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/close.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_selected.png",
+      "sha256": "119a81554b9e332d698f5c704813cb047fcd4c5c71e9e5c36c7b6df6b4a789b9",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_selected.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_normal.png",
+      "sha256": "9327a3d9577111e5985e3453a8a201010887c606a094b7e080421417aef3f92e",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_normal.png.source.json"
+    },
+    {
+      "file": "assets/illustrations/mountain_scenario.png",
+      "sha256": "51032a4343a8e94bb53c18f04de46f9aacee420f4d5b47edc9bbdf5071d42a2b",
+      "nativeDimensions": [
+        440,
+        440
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/illustrations/mountain_scenario.png.source.json"
+    },
+    {
+      "file": "assets/common/secondary_normal.png",
+      "sha256": "5f6418c0ede62320bc017ef1f00ec1d60a5d5fc34dac8c4e96d0016e6523881f",
+      "nativeDimensions": [
+        256,
+        112
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/secondary_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/toggle_on.png",
+      "sha256": "94eedb08dfc060bd312c373f577d8739a07cbcf5d715e94392fe734c36c139b6",
+      "nativeDimensions": [
+        208,
+        112
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/toggle_on.png.source.json"
+    },
+    {
+      "file": "assets/common/primary_normal.png",
+      "sha256": "83fe20f7969e29bf064885d8947b6ab9042e99b47dcac58c7277505e75cd1b5d",
+      "nativeDimensions": [
+        256,
+        120
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/primary_normal.png.source.json"
+    }
+  ],
+  "layoutRecord": "previews/states/mapgen/normal.layout.json",
+  "functionalReference": {
+    "repository": "https://github.com/OpenRCT2/OpenRCT2.git",
+    "commit": "52a55c3e8da5972460642bdfed61d091fe9cabfd",
+    "stateContract": "docs/state-contracts.json",
+    "system": "mapgen",
+    "state": {
+      "id": "normal",
+      "title": "地图生成",
+      "message": "设置地图尺寸、噪声或高度图、材质、水位和树林。",
+      "primaryAction": "生成地图",
+      "secondaryAction": "取消",
+      "visualKind": "form",
+      "logicBasis": "existing",
+      "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+    },
+    "evidence": [
+      "src/openrct2-ui/windows/MapGen.cpp:39",
+      "src/openrct2-ui/windows/MapGen.cpp:62",
+      "src/openrct2-ui/windows/Map.cpp:1",
+      "src/openrct2-ui/windows/Transparency.cpp:1",
+      "src/openrct2-ui/windows/ViewClipping.cpp:1"
+    ]
+  },
+  "status": "produced_pending_review"
+}

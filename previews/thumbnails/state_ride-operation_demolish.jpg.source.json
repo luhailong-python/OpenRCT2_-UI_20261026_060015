@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_ride-operation_demolish.jpg",
+  "sha256": "cab472559b4787cede93c0cdd189efddf8ad47748f82fab79442e9cd798e6f9a",
+  "derivedFrom": [
+    {
+      "file": "previews/states/ride-operation/demolish.png",
+      "sha256": "656cb291e3d0e13f179cca4214b2d0282117d0c1f9b1ea540bcc3e3d7e6a101e",
+      "sourceRecord": "previews/states/ride-operation/demolish.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

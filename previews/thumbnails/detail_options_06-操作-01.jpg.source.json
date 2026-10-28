@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_options_06-操作-01.jpg",
+  "sha256": "f836869e58b67509cd67aa6744bfe7bfc9a240f2a399d9ba36b1ff46a38ccae2",
+  "derivedFrom": [
+    {
+      "file": "designs/details/options/06-操作-01.png",
+      "sha256": "fbe48163eab472f9090f50676e984d4a5887083830cd2cdfbdba112ed6b33a20",
+      "sourceRecord": "designs/details/options/06-操作-01.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

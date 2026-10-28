@@ -1,0 +1,1401 @@
+{
+  "schemaVersion": 1,
+  "screenId": "detail:options:04-声音-01",
+  "title": "游戏设置  声音",
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "origin": "top-left",
+  "textLayers": [
+    {
+      "id": "text-001",
+      "text": "游戏设置",
+      "role": "dynamic-text",
+      "region": [
+        620,
+        66,
+        680,
+        75
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 46,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 65,
+      "wrappedLines": [
+        "游戏设置"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-002",
+      "text": "显示",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        231,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "显示"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-003",
+      "text": "渲染",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        301,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "渲染"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-004",
+      "text": "文化",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        371,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "文化"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-005",
+      "text": "声音",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        441,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "声音"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-006",
+      "text": "界面",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        511,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "界面"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-007",
+      "text": "操作",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        581,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "操作"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-008",
+      "text": "杂项",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        651,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "杂项"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-009",
+      "text": "高级",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        721,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "高级"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-010",
+      "text": "声音",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        218,
+        1388,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 32,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 45,
+      "wrappedLines": [
+        "声音"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-011",
+      "text": "美术设计样例 · 名称 / 数值待定",
+      "role": "dynamic-text",
+      "region": [
+        600,
+        1046,
+        720,
+        28
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "美术设计样例 · 名称 / 数值待定"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-012",
+      "text": "声音设备",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        300,
+        674,
+        34
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "声音设备"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-013",
+      "text": "默认输出设备",
+      "role": "dynamic-text",
+      "region": [
+        430,
+        344,
+        570,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "默认输出设备"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-014",
+      "text": "▼",
+      "role": "dynamic-text",
+      "region": [
+        1013,
+        344,
+        40,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "▼"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-015",
+      "text": "主音量",
+      "role": "dynamic-text",
+      "region": [
+        1174,
+        314,
+        602,
+        62
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "center",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "主音量"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-016",
+      "text": "音效",
+      "role": "dynamic-text",
+      "region": [
+        456,
+        410,
+        602,
+        62
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "center",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "音效"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-017",
+      "text": "设施音乐",
+      "role": "dynamic-text",
+      "region": [
+        1174,
+        410,
+        602,
+        62
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "center",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "设施音乐"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-018",
+      "text": "游戏失去焦点时静音",
+      "role": "dynamic-text",
+      "region": [
+        456,
+        506,
+        602,
+        62
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "center",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "游戏失去焦点时静音"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-019",
+      "text": "主菜单音乐",
+      "role": "dynamic-text",
+      "region": [
+        1116,
+        492,
+        674,
+        34
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "主菜单音乐"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-020",
+      "text": "当前安装的标题音乐",
+      "role": "dynamic-text",
+      "region": [
+        1148,
+        536,
+        570,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "当前安装的标题音乐"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-021",
+      "text": "▼",
+      "role": "dynamic-text",
+      "region": [
+        1731,
+        536,
+        40,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "▼"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-022",
+      "text": "主音量",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        588,
+        674,
+        34
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "主音量"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-023",
+      "text": "80%",
+      "role": "dynamic-text",
+      "region": [
+        965,
+        630,
+        105,
+        40
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "right",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "80%"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-024",
+      "text": "音效音量",
+      "role": "dynamic-text",
+      "region": [
+        1116,
+        588,
+        674,
+        34
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "音效音量"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-025",
+      "text": "75%",
+      "role": "dynamic-text",
+      "region": [
+        1683,
+        630,
+        105,
+        40
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "right",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "75%"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-026",
+      "text": "设施音乐音量",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        684,
+        674,
+        34
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "设施音乐音量"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-027",
+      "text": "60%",
+      "role": "dynamic-text",
+      "region": [
+        965,
+        726,
+        105,
+        40
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "right",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "60%"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-028",
+      "text": "设置调整后即时保存。",
+      "role": "dynamic-text",
+      "region": [
+        397,
+        870,
+        1394,
+        39
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#7A745E",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "设置调整后即时保存。"
+      ],
+      "dynamic": true
+    }
+  ],
+  "artAndControlLayers": [
+    {
+      "role": "park-background",
+      "asset": "assets/backgrounds/park-day-native.png",
+      "region": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "resize": "cover"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_main.png",
+      "region": [
+        52,
+        96,
+        1816,
+        930
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "title-plaque",
+      "asset": "assets/common/title_plate.png",
+      "region": [
+        520,
+        22,
+        880,
+        170
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "close",
+      "asset": "assets/common/close.png",
+      "region": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_card.png",
+      "region": [
+        84,
+        208,
+        268,
+        756
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        224,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        294,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        364,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_selected.png",
+      "region": [
+        100,
+        434,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        504,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        574,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        644,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        714,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "value-field",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        394,
+        336,
+        682,
+        52
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Options:WIDX_SOUND"
+      ],
+      "unit": "Options",
+      "controlId": "WIDX_SOUND",
+      "screenId": "detail:options:04-声音-01",
+      "region": [
+        394,
+        336,
+        608,
+        52
+      ],
+      "visualKind": "dropdown",
+      "label": "声音设备",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "dropdownMenu",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Options.cpp",
+          "line": 169
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "dropdownMenu",
+            "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+            "line": 356,
+            "sourceExpression": "makeWidget({ 10,  53}, {290, 14}, WidgetType::dropdownMenu, WindowColour::secondary                                                )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Options.cpp",
+          "line": 1608,
+          "expression": "            setCheckboxValue(WIDX_AUDIO_FOCUS_CHECKBOX, Config::Get().sound.audioFocus);             widgetSetEnabled(*this, WIDX_SOUND_CHECKBOX, Config::Get().sound.masterSoundEnabled);             widgetSetEnabled(*this, WIDX_MUSIC_CHECKBOX, Config::Get().sound.masterSoundEnabled); "
+        }
+      ],
+      "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Options:WIDX_SOUND_DROPDOWN"
+      ],
+      "unit": "Options",
+      "controlId": "WIDX_SOUND_DROPDOWN",
+      "screenId": "detail:options:04-声音-01",
+      "region": [
+        1006,
+        336,
+        66,
+        52
+      ],
+      "visualKind": "dropdown-button",
+      "label": "声音设备选择",
+      "state": "normal",
+      "parentControl": "WIDX_SOUND",
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Options.cpp",
+          "line": 170
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+            "line": 357,
+            "sourceExpression": "makeWidget({288,  54}, { 11, 12}, WidgetType::button,       WindowColour::secondary, STR_DROPDOWN_GLYPH,      STR_AUDIO_DEVICE_TIP )",
+            "sourceStringIds": [
+              "STR_DROPDOWN_GLYPH",
+              "STR_AUDIO_DEVICE_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "checkbox",
+      "asset": "assets/common/checkbox_on.png",
+      "region": [
+        1116,
+        318,
+        42,
+        42
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Options:WIDX_MASTER_SOUND_CHECKBOX"
+      ],
+      "unit": "Options",
+      "controlId": "WIDX_MASTER_SOUND_CHECKBOX",
+      "screenId": "detail:options:04-声音-01",
+      "region": [
+        1108,
+        300,
+        690,
+        96
+      ],
+      "visualKind": "checkbox",
+      "label": "主音量",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "checkbox",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Options.cpp",
+          "line": 171
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "checkbox",
+            "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+            "line": 358,
+            "sourceExpression": "makeWidget({ 10,  71}, {220, 12}, WidgetType::checkbox,     WindowColour::secondary, STR_MASTER_VOLUME,       STR_MASTER_VOLUME_TIP)",
+            "sourceStringIds": [
+              "STR_MASTER_VOLUME",
+              "STR_MASTER_VOLUME_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "checkbox",
+      "asset": "assets/common/checkbox_on.png",
+      "region": [
+        398,
+        414,
+        42,
+        42
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Options:WIDX_SOUND_CHECKBOX"
+      ],
+      "unit": "Options",
+      "controlId": "WIDX_SOUND_CHECKBOX",
+      "screenId": "detail:options:04-声音-01",
+      "region": [
+        390,
+        396,
+        690,
+        96
+      ],
+      "visualKind": "checkbox",
+      "label": "音效",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "checkbox",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Options.cpp",
+          "line": 172
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "checkbox",
+            "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+            "line": 359,
+            "sourceExpression": "makeWidget({ 10,  86}, {220, 12}, WidgetType::checkbox,     WindowColour::secondary, STR_SOUND_EFFECTS,       STR_SOUND_EFFECTS_TIP)",
+            "sourceStringIds": [
+              "STR_SOUND_EFFECTS",
+              "STR_SOUND_EFFECTS_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Options.cpp",
+          "line": 1608,
+          "expression": "            setCheckboxValue(WIDX_AUDIO_FOCUS_CHECKBOX, Config::Get().sound.audioFocus);             widgetSetEnabled(*this, WIDX_SOUND_CHECKBOX, Config::Get().sound.masterSoundEnabled);             widgetSetEnabled(*this, WIDX_MUSIC_CHECKBOX, Config::Get().sound.masterSoundEnabled); "
+        }
+      ],
+      "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "checkbox",
+      "asset": "assets/common/checkbox_on.png",
+      "region": [
+        1116,
+        414,
+        42,
+        42
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Options:WIDX_MUSIC_CHECKBOX"
+      ],
+      "unit": "Options",
+      "controlId": "WIDX_MUSIC_CHECKBOX",
+      "screenId": "detail:options:04-声音-01",
+      "region": [
+        1108,
+        396,
+        690,
+        96
+      ],
+      "visualKind": "checkbox",
+      "label": "设施音乐",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "checkbox",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Options.cpp",
+          "line": 173
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "checkbox",
+            "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+            "line": 360,
+            "sourceExpression": "makeWidget({ 10, 101}, {220, 12}, WidgetType::checkbox,     WindowColour::secondary, STR_RIDE_MUSIC,          STR_RIDE_MUSIC_TIP   )",
+            "sourceStringIds": [
+              "STR_RIDE_MUSIC",
+              "STR_RIDE_MUSIC_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Options.cpp",
+          "line": 1609,
+          "expression": "            widgetSetEnabled(*this, WIDX_SOUND_CHECKBOX, Config::Get().sound.masterSoundEnabled);             widgetSetEnabled(*this, WIDX_MUSIC_CHECKBOX, Config::Get().sound.masterSoundEnabled);              // Initialize only on first frame, otherwise the scrollbars won't be able to be modified"
+        }
+      ],
+      "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "checkbox",
+      "asset": "assets/common/checkbox_on.png",
+      "region": [
+        398,
+        510,
+        42,
+        42
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Options:WIDX_AUDIO_FOCUS_CHECKBOX"
+      ],
+      "unit": "Options",
+      "controlId": "WIDX_AUDIO_FOCUS_CHECKBOX",
+      "screenId": "detail:options:04-声音-01",
+      "region": [
+        390,
+        492,
+        690,
+        96
+      ],
+      "visualKind": "checkbox",
+      "label": "游戏失去焦点时静音",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "checkbox",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Options.cpp",
+          "line": 174
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "checkbox",
+            "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+            "line": 361,
+            "sourceExpression": "makeWidget({ 10, 115}, {290, 13}, WidgetType::checkbox,     WindowColour::secondary, STR_AUDIO_FOCUS,         STR_AUDIO_FOCUS_TIP  )",
+            "sourceStringIds": [
+              "STR_AUDIO_FOCUS",
+              "STR_AUDIO_FOCUS_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "value-field",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1112,
+        528,
+        682,
+        52
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Options:WIDX_TITLE_MUSIC"
+      ],
+      "unit": "Options",
+      "controlId": "WIDX_TITLE_MUSIC",
+      "screenId": "detail:options:04-声音-01",
+      "region": [
+        1112,
+        528,
+        608,
+        52
+      ],
+      "visualKind": "dropdown",
+      "label": "主菜单音乐",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "dropdownMenu",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Options.cpp",
+          "line": 176
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "dropdownMenu",
+            "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+            "line": 363,
+            "sourceExpression": "makeWidget({155, 129}, {145, 14}, WidgetType::dropdownMenu, WindowColour::secondary                                                )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Options:WIDX_TITLE_MUSIC_DROPDOWN"
+      ],
+      "unit": "Options",
+      "controlId": "WIDX_TITLE_MUSIC_DROPDOWN",
+      "screenId": "detail:options:04-声音-01",
+      "region": [
+        1724,
+        528,
+        66,
+        52
+      ],
+      "visualKind": "dropdown-button",
+      "label": "主菜单音乐选择",
+      "state": "normal",
+      "parentControl": "WIDX_TITLE_MUSIC",
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Options.cpp",
+          "line": 177
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+            "line": 364,
+            "sourceExpression": "makeWidget({288, 130}, { 11, 12}, WidgetType::button,       WindowColour::secondary, STR_DROPDOWN_GLYPH,      STR_TITLE_MUSIC_TIP  )",
+            "sourceStringIds": [
+              "STR_DROPDOWN_GLYPH",
+              "STR_TITLE_MUSIC_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "slider-track",
+      "asset": "assets/common/slider_track.png",
+      "region": [
+        410,
+        642,
+        540,
+        18
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "slider-thumb",
+      "asset": "assets/common/slider_thumb.png",
+      "region": [
+        815,
+        625,
+        34,
+        50
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Options:WIDX_MASTER_VOLUME"
+      ],
+      "unit": "Options",
+      "controlId": "WIDX_MASTER_VOLUME",
+      "screenId": "detail:options:04-声音-01",
+      "region": [
+        394,
+        624,
+        682,
+        52
+      ],
+      "visualKind": "slider",
+      "label": "主音量",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "scroll",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Options.cpp",
+          "line": 178
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "scroll",
+            "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+            "line": 365,
+            "sourceExpression": "makeWidget({155,  72}, {145, 13}, WidgetType::scroll,       WindowColour::secondary, SCROLL_HORIZONTAL                             )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "slider-track",
+      "asset": "assets/common/slider_track.png",
+      "region": [
+        1128,
+        642,
+        540,
+        18
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "slider-thumb",
+      "asset": "assets/common/slider_thumb.png",
+      "region": [
+        1508,
+        625,
+        34,
+        50
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Options:WIDX_SOUND_VOLUME"
+      ],
+      "unit": "Options",
+      "controlId": "WIDX_SOUND_VOLUME",
+      "screenId": "detail:options:04-声音-01",
+      "region": [
+        1112,
+        624,
+        682,
+        52
+      ],
+      "visualKind": "slider",
+      "label": "音效音量",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "scroll",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Options.cpp",
+          "line": 179
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "scroll",
+            "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+            "line": 366,
+            "sourceExpression": "makeWidget({155,  87}, {145, 13}, WidgetType::scroll,       WindowColour::secondary, SCROLL_HORIZONTAL                             )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "slider-track",
+      "asset": "assets/common/slider_track.png",
+      "region": [
+        410,
+        738,
+        540,
+        18
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "slider-thumb",
+      "asset": "assets/common/slider_thumb.png",
+      "region": [
+        714,
+        721,
+        34,
+        50
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Options:WIDX_MUSIC_VOLUME"
+      ],
+      "unit": "Options",
+      "controlId": "WIDX_MUSIC_VOLUME",
+      "screenId": "detail:options:04-声音-01",
+      "region": [
+        394,
+        720,
+        682,
+        52
+      ],
+      "visualKind": "slider",
+      "label": "设施音乐音量",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "scroll",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Options.cpp",
+          "line": 180
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "scroll",
+            "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+            "line": 367,
+            "sourceExpression": "makeWidget({155, 102}, {145, 13}, WidgetType::scroll,       WindowColour::secondary, SCROLL_HORIZONTAL                             )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    }
+  ],
+  "dataDiagrams": [
+    {
+      "role": "data-rule",
+      "points": [
+        [
+          398,
+          276
+        ],
+        [
+          1790,
+          276
+        ]
+      ],
+      "color": "#B28C43",
+      "width": 1
+    }
+  ],
+  "layoutIssues": [],
+  "fontDistribution": "Official OFL-licensed fonts are included in assets/fonts; see records/font-sources.json.",
+  "status": "produced_pending_review"
+}

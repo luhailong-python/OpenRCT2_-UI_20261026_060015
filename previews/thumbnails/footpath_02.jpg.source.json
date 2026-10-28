@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/footpath_02.jpg",
+  "sha256": "1255f30700bd217c01bd56ea9f3ed9e94cda2442e0085bf230e45b9d1ddecaa4",
+  "derivedFrom": [
+    {
+      "file": "designs/footpath/02-桥梁隧道.png",
+      "sha256": "65202b718d2b5f0c4324794160cdacd8a99fed2194323dd051fb59bc31301754",
+      "sourceRecord": "designs/footpath/02-桥梁隧道.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

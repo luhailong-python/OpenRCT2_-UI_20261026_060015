@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_save-load_invalid-name.jpg",
+  "sha256": "d247dcea4b661110e9e615e7960104d18db08ab56d6a719f6ba61981b6393fb7",
+  "derivedFrom": [
+    {
+      "file": "previews/states/save-load/invalid-name.png",
+      "sha256": "9b89cbd5fc134f2de00bd0c0c66c652ab42b09ee4d52e6fb520209f5d8290eee",
+      "sourceRecord": "previews/states/save-load/invalid-name.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

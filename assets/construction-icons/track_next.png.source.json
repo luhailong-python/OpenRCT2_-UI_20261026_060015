@@ -1,0 +1,58 @@
+{
+  "name": "track_next",
+  "file": "assets/construction-icons/track_next.png",
+  "width": 352,
+  "height": 352,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "534c779979a7759bb3c3d858e687fe7faa3075329fcf222a1d30306062fcf17f",
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "resizeAxes": "none",
+  "minimumSize": [
+    352,
+    352
+  ],
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "pixelsPerUnit": 100,
+  "containsDynamicText": false,
+  "source": "assets/masters/tracktools-native.png",
+  "sourceSha256": "8bf43c7a037eaa49614eb1d0f766080fa34e09269f72305e755fe7b7e12b559e",
+  "sourceNativeSize": [
+    1254,
+    1254
+  ],
+  "sourceRectTopLeftXYXY": [
+    973,
+    989,
+    1207,
+    1186
+  ],
+  "pasteOffset": [
+    59,
+    77
+  ],
+  "operation": "Original-pixel crop; isolate specified alpha>100 connected silhouettes, retain original alpha>=16 within 2px edge support; center on padded canvas. No recoloring, painting, AI call or upscaling.",
+  "derivedFrom": {
+    "file": "assets/masters/tracktools-native.png",
+    "sha256": "8bf43c7a037eaa49614eb1d0f766080fa34e09269f72305e755fe7b7e12b559e",
+    "generationRecord": "assets/masters/tracktools-native.png.generation.json"
+  },
+  "alpha": {
+    "minimum": 0,
+    "maximum": 255,
+    "transparentPixels": 93463,
+    "visiblePixels": 30441
+  },
+  "isolatedForegroundComponents": 1,
+  "qualityStatus": "slice_checked_pending_sheet_visual_review",
+  "nativeDetailIncreased": false,
+  "processedAt": "2026-10-26T08:06:28.492287-04:00"
+}

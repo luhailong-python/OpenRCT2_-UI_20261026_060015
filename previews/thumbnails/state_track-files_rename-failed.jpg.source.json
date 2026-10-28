@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_track-files_rename-failed.jpg",
+  "sha256": "c47bc134841dd285f50b429930c9ab7cc2eef6c177dde0083f3950c03a102f07",
+  "derivedFrom": [
+    {
+      "file": "previews/states/track-files/rename-failed.png",
+      "sha256": "24c8336658e1c2d403455cd18037909782b992e662afd86a2564e3fc06e3b455",
+      "sourceRecord": "previews/states/track-files/rename-failed.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

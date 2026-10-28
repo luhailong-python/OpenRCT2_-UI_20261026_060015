@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/server-start_01.jpg",
+  "sha256": "099ad0dd3aac3000dc0a7eeeb64c65f02de7f56a89c42feb0047f2439fc2656b",
+  "derivedFrom": [
+    {
+      "file": "designs/server-start/01-新建.png",
+      "sha256": "1f5a0a4060213fa6bed16dd60b472e736acee25068d6528f564b6d9443a3a276",
+      "sourceRecord": "designs/server-start/01-新建.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

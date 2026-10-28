@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_map-gen_05-image-smooth.jpg",
+  "sha256": "7d783cdfef3afe6b8865c826bef873487415591f4c4c96436989b8cbb96d2129",
+  "derivedFrom": [
+    {
+      "file": "designs/details/map-gen/05-image-smooth.png",
+      "sha256": "baedca7e9a6bf3c10ca78b2c31a032d54bfbb012f4cf9a13cd6a559d2743064b",
+      "sourceRecord": "designs/details/map-gen/05-image-smooth.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

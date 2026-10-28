@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/operations_ride_04-overview-simulating.jpg",
+  "sha256": "e28a1651fc507e45c00d059667bbf3f6d34d39e9fd56de97c91fa246a80c38e7",
+  "derivedFrom": [
+    {
+      "file": "designs/details/ride-ops/04-overview-simulating.png",
+      "sha256": "c8a364d27c55b7fa8fd10c9cf81d89e5519cf384e16e43a64d76d7dbdef230be",
+      "sourceRecord": "designs/details/ride-ops/04-overview-simulating.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

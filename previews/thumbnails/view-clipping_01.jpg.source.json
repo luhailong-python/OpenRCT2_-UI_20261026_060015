@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/view-clipping_01.jpg",
+  "sha256": "50dfb6c07dc92492449601058455b821771968bac48240f8c12b7cc58a450f51",
+  "derivedFrom": [
+    {
+      "file": "designs/view-clipping/01-高度.png",
+      "sha256": "b8684333c31c8d59f208c6d0747690ac625e8c2a3018514a20d24b3e4dbb16da",
+      "sourceRecord": "designs/view-clipping/01-高度.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

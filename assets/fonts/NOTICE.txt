@@ -1,0 +1,9 @@
+Original, unmodified fonts supplied with their licenses.
+
+assets/fonts/NotoSansCJKsc-Regular.otf
+© 2014-2021 Adobe (http://www.adobe.com/).
+License: assets/fonts/NotoSansCJK-LICENSE.txt
+
+assets/fonts/MaShanZheng-Regular.ttf
+Copyright 2018 The MaShanZheng Project Authors (https://github.com/googlefonts/mashanzheng)
+License: assets/fonts/MaShanZheng-OFL.txt

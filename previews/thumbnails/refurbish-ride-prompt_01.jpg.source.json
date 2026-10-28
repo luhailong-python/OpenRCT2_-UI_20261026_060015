@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/refurbish-ride-prompt_01.jpg",
+  "sha256": "174980a60ad19b950006c088b2b5c21d34348bd63ba7f9eebd168f159d5a30d7",
+  "derivedFrom": [
+    {
+      "file": "designs/refurbish-ride-prompt/01-确认.png",
+      "sha256": "ae4f6a74d98f065a98270e49e7b4025020a6df986c9b4bd78306f9874b9c7f2c",
+      "sourceRecord": "designs/refurbish-ride-prompt/01-确认.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

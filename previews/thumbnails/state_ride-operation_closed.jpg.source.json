@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_ride-operation_closed.jpg",
+  "sha256": "24327635ccceba74e25c35580af5b7b2cfaab53fbbcd13159150886b2ec97e44",
+  "derivedFrom": [
+    {
+      "file": "previews/states/ride-operation/closed.png",
+      "sha256": "840038dc531a15b6de37351459cb002e889f2befab974dbe1a3b43e3c3d5a77f",
+      "sourceRecord": "previews/states/ride-operation/closed.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

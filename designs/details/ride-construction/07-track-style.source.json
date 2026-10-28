@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/details/ride-construction/07-track-style.png",
+  "sha256": "ca4f6f2a59399c22b888becee683d99b432682c5d01010d7908a4c2e4a88d6b7",
+  "exportedAt": "2026-10-26T08:00:01.454174-04:00",
+  "width": 1920,
+  "height": 1080,
+  "format": "PNG",
+  "operation": "composite_preview_not_native_generation",
+  "process": [
+    "Nine-slice/contain/cover composition of painted PNG sprites",
+    "Separate Chinese text typesetting and data diagrams"
+  ],
+  "resampling": "LANCZOS where art is fitted; output dimensions do not represent new native generated detail.",
+  "nativeModelClaim": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidencePolicy": "Resolve original AI model/quality through each source asset record; unreported values remain unconfirmed.",
+  "derivedFrom": [
+    {
+      "file": "assets/backgrounds/park-day-native.png",
+      "sha256": "27c3ac998fcd81e675c9a05712ead25c83443b133844c169d1476c3cebe25712",
+      "nativeDimensions": [
+        1672,
+        941
+      ],
+      "generationRecord": "assets/backgrounds/park-day-native.png.generation.json",
+      "derivationRecord": "assets/slice-manifest.json"
+    },
+    {
+      "file": "assets/common/panel_main.png",
+      "sha256": "704856762248133110624f38365e0ff337dd1f2f6304f66298e2230077ebca00",
+      "nativeDimensions": [
+        619,
+        610
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_main.png.source.json"
+    },
+    {
+      "file": "assets/common/title_plate.png",
+      "sha256": "f1011dd30d1ef42cbeedf64f31025c6c77c91ffbbcdd09ef74c065ad1d91ddfe",
+      "nativeDimensions": [
+        594,
+        195
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/title_plate.png.source.json"
+    },
+    {
+      "file": "assets/common/close.png",
+      "sha256": "f9089fdc15bfbfbd496d9c02de94c46b0e1e4052fffa9689de0b461e043737ec",
+      "nativeDimensions": [
+        184,
+        184
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/close.png.source.json"
+    },
+    {
+      "file": "assets/common/panel_card.png",
+      "sha256": "b82ed16e818b3bb86c16a68453bc4b73f1764c6fdb4541c2e470e5c60789568e",
+      "nativeDimensions": [
+        589,
+        558
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_card.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_normal.png",
+      "sha256": "9327a3d9577111e5985e3453a8a201010887c606a094b7e080421417aef3f92e",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_selected.png",
+      "sha256": "119a81554b9e332d698f5c704813cb047fcd4c5c71e9e5c36c7b6df6b4a789b9",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_selected.png.source.json"
+    },
+    {
+      "file": "assets/illustrations/bamboo_flume.png",
+      "sha256": "ada52ff9d8311b837614ce80ef48248c9f4e946ba4833dbe4ac64fe16b9568a5",
+      "nativeDimensions": [
+        440,
+        440
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/illustrations/bamboo_flume.png.source.json"
+    },
+    {
+      "file": "assets/common/primary_selected.png",
+      "sha256": "59c783e4602ec39fc988975d01afb66441b85a13b589a5143c69953e36f7640e",
+      "nativeDimensions": [
+        256,
+        120
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/primary_selected.png.source.json"
+    },
+    {
+      "file": "assets/common/secondary_normal.png",
+      "sha256": "5f6418c0ede62320bc017ef1f00ec1d60a5d5fc34dac8c4e96d0016e6523881f",
+      "nativeDimensions": [
+        256,
+        112
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/secondary_normal.png.source.json"
+    }
+  ],
+  "layoutRecord": "designs/details/ride-construction/07-track-style.layout.json",
+  "functionalReference": {
+    "functionalRepository": "https://github.com/OpenRCT2/OpenRCT2.git",
+    "commit": "52a55c3e8da5972460642bdfed61d091fe9cabfd",
+    "sourceUnit": "RideConstruction",
+    "sourceFiles": [
+      "src/openrct2-ui/windows/RideConstruction.cpp"
+    ],
+    "condition": "trackDrawerDescriptor.HasCoveredPieces() 为真，当前轨道元素有效且非速度设置段。",
+    "scope": "Complete controls arranged as an actual product UI proposal; no runtime verification.",
+    "sourceControls": [
+      {
+        "sourceControlKeys": [
+          "RideConstruction:WIDX_U_TRACK"
+        ],
+        "unit": "RideConstruction",
+        "controlId": "WIDX_U_TRACK",
+        "screenId": "detail:ride-construction:07-track-style",
+        "region": [
+          394,
+          312,
+          1050,
+          68
+        ],
+        "visualKind": "button",
+        "label": "开放式轨道",
+        "state": "selected",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 138
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/RideConstruction.cpp",
+              "line": 191,
+              "sourceExpression": "makeWidget        ({ 41, 132}, {              24,  24}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_RIDE_CONSTRUCTION_U_SHAPED_TRACK),    STR_RIDE_CONSTRUCTION_U_SHAPED_OPEN_TRACK_TIP       )",
+              "sourceStringIds": [
+                "STR_RIDE_CONSTRUCTION_U_SHAPED_OPEN_TRACK_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_RIDE_CONSTRUCTION_U_SHAPED_TRACK"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1676,
+            "expression": "        {             widgets[WIDX_U_TRACK].setHidden();             widgets[WIDX_O_TRACK].setHidden(); "
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1694,
+            "expression": "            widgets[WIDX_BANKING_GROUPBOX].text = STR_RIDE_CONSTRUCTION_TRACK_STYLE;             widgets[WIDX_U_TRACK].setVisible();             widgets[WIDX_O_TRACK].setVisible(); "
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1933,
+            "expression": "            widgets[WIDX_BANK_RIGHT].setHidden();             widgets[WIDX_U_TRACK].setHidden();             widgets[WIDX_O_TRACK].setHidden(); "
+          }
+        ],
+        "displayedCondition": "trackDrawerDescriptor.HasCoveredPieces() 为真，当前轨道元素有效且非速度设置段。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "RideConstruction:WIDX_O_TRACK"
+        ],
+        "unit": "RideConstruction",
+        "controlId": "WIDX_O_TRACK",
+        "screenId": "detail:ride-construction:07-track-style",
+        "region": [
+          394,
+          408,
+          1050,
+          68
+        ],
+        "visualKind": "button",
+        "label": "覆盖式轨道",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 139
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/RideConstruction.cpp",
+              "line": 192,
+              "sourceExpression": "makeWidget        ({144, 132}, {              24,  24}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_RIDE_CONSTRUCTION_O_SHAPED_TRACK),    STR_RIDE_CONSTRUCTION_O_SHAPED_ENCLOSED_TRACK_TIP   )",
+              "sourceStringIds": [
+                "STR_RIDE_CONSTRUCTION_O_SHAPED_ENCLOSED_TRACK_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_RIDE_CONSTRUCTION_O_SHAPED_TRACK"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1677,
+            "expression": "            widgets[WIDX_U_TRACK].setHidden();             widgets[WIDX_O_TRACK].setHidden();              if (!trackDrawerDescriptor.HasCoveredPieces())"
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1695,
+            "expression": "            widgets[WIDX_U_TRACK].setVisible();             widgets[WIDX_O_TRACK].setVisible();              widgets[WIDX_U_TRACK].image = ImageId(trackDrawerDescriptor.Regular.icon);"
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1934,
+            "expression": "            widgets[WIDX_U_TRACK].setHidden();             widgets[WIDX_O_TRACK].setHidden();              widgets[WIDX_SPEED_GROUPBOX].setHidden();"
+          }
+        ],
+        "displayedCondition": "trackDrawerDescriptor.HasCoveredPieces() 为真，当前轨道元素有效且非速度设置段。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      }
+    ],
+    "decorativeArtPolicy": "Existing painted PNGs only"
+  },
+  "status": "produced_pending_review"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/scenario-select_10.jpg",
+  "sha256": "78bee83c590d584a5f5b1db3d855e10948bb914e5e173f6d6e33eca8fb8dd38a",
+  "derivedFrom": [
+    {
+      "file": "designs/scenario-select/10-其他公园.png",
+      "sha256": "f55638f6dba383f2a99a5aa6574cd69af7d3de3f3ae9cabd1fc7668fdbb12b07",
+      "sourceRecord": "designs/scenario-select/10-其他公园.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

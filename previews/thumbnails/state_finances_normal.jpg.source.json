@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_finances_normal.jpg",
+  "sha256": "b78e8c8b1eba1ee619fede224769c2164a2694966f18ae245b987c00095889e0",
+  "derivedFrom": [
+    {
+      "file": "previews/states/finances/normal.png",
+      "sha256": "caafa7bb7cb04e02fc5b2b13c81d8229332901459ca79ab7fa320550f6da3ece",
+      "sourceRecord": "previews/states/finances/normal.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_ride-construction_03-brake.jpg",
+  "sha256": "6c4fb58a9a2c2e936aca7ce1cde6843aad10cc561b9660e5d05a3cdc83dc9c90",
+  "derivedFrom": [
+    {
+      "file": "designs/details/ride-construction/03-brake.png",
+      "sha256": "f96f46527f84c36432e01dfa060bcd3ef2d61a3c412fd79bdb29bea8d7f583d2",
+      "sourceRecord": "designs/details/ride-construction/03-brake.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

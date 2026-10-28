@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_scenery_scatter.jpg",
+  "sha256": "f162f498c32e97dae8f7412beea4a8bc776c4611fdd0e5d1582bf0dc4359d654",
+  "derivedFrom": [
+    {
+      "file": "previews/states/scenery/scatter.png",
+      "sha256": "15665ae46c4d1a99048e14f33c8a1ce2950babdf11957ace48e400eac55e32b7",
+      "sourceRecord": "previews/states/scenery/scatter.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

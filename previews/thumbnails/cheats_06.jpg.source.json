@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/cheats_06.jpg",
+  "sha256": "29e077ed20a58e0fc2d961348039691367625b840a4143c85ca9a135b0bf6fec",
+  "derivedFrom": [
+    {
+      "file": "designs/cheats/06-设施.png",
+      "sha256": "0dafe821418d656731e27f5eee80cd0f9cb5f0ac50b8a19db080c64bcc568ce4",
+      "sourceRecord": "designs/cheats/06-设施.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

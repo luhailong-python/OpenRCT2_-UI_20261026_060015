@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/utility-detail_newride-research-shortcuts.jpg",
+  "sha256": "3b92d298b1a9e6c463ed53011ba22298d0f9231a2d4bd2374f5428f8f48570b9",
+  "derivedFrom": [
+    {
+      "file": "designs/details/utility/newride-research-shortcuts.png",
+      "sha256": "25fecd6290c4048a39c7054f170e99165dac76aef272c4984234db0cdb3bf4c5",
+      "sourceRecord": "designs/details/utility/newride-research-shortcuts.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

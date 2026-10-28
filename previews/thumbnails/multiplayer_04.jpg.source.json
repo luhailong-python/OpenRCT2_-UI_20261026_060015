@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/multiplayer_04.jpg",
+  "sha256": "19c0ef64729065b96e8cafa31dfe10e1bfed1ff535ce51ebd246935d48f10510",
+  "derivedFrom": [
+    {
+      "file": "designs/multiplayer/04-选项.png",
+      "sha256": "31fdfdfe3e10c99b5d92c2e0848098ec7b083142096a61c0b359e8d1354cacac",
+      "sourceRecord": "designs/multiplayer/04-选项.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

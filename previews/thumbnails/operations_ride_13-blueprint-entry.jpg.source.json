@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/operations_ride_13-blueprint-entry.jpg",
+  "sha256": "c98fd2e76c0466e733b4fd9f43394bb63986366f3779e359c35d4be849d134f1",
+  "derivedFrom": [
+    {
+      "file": "designs/details/ride-ops/13-blueprint-entry.png",
+      "sha256": "9a7b358b14a95bf6993014e3dcd81581a001bd355b3712670b7ee30ea9cb85af",
+      "sourceRecord": "designs/details/ride-ops/13-blueprint-entry.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

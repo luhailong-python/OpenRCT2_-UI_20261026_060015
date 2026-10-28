@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_track-build_incomplete-track.jpg",
+  "sha256": "5890bfd090243416729d69042ce06fec341e4f514531a2334b7f4dc32608cb21",
+  "derivedFrom": [
+    {
+      "file": "previews/states/track-build/incomplete-track.png",
+      "sha256": "708c233843e4087834a058b093904dc3954ea6e7ba51f5628cc0a42f9c0fe746",
+      "sourceRecord": "previews/states/track-build/incomplete-track.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/finances_04.jpg",
+  "sha256": "17c62d78600bac644a61bf031498ff0d514e0fc8f471b91257ddd900b1f2cc1f",
+  "derivedFrom": [
+    {
+      "file": "designs/finances/04-周利润.png",
+      "sha256": "90189f1aabedfb97399b6e8c54152bc8e9051ccd7c68a3a13894ee990a7212f1",
+      "sourceRecord": "designs/finances/04-周利润.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

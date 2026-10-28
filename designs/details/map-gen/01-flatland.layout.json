@@ -1,0 +1,1146 @@
+{
+  "schemaVersion": 1,
+  "screenId": "detail:map-gen:01-flatland",
+  "title": "地图生成  平地",
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "origin": "top-left",
+  "textLayers": [
+    {
+      "id": "text-001",
+      "text": "地图生成",
+      "role": "dynamic-text",
+      "region": [
+        620,
+        66,
+        680,
+        75
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 46,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 65,
+      "wrappedLines": [
+        "地图生成"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-002",
+      "text": "平地",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        231,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "平地"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-003",
+      "text": "噪声",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        301,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "噪声"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-004",
+      "text": "高度图",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        371,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "高度图"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-005",
+      "text": "地形",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        441,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "地形"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-006",
+      "text": "水域",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        511,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "水域"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-007",
+      "text": "森林",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        581,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "森林"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-008",
+      "text": "平地",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        218,
+        1388,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 32,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 45,
+      "wrappedLines": [
+        "平地"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-009",
+      "text": "美术设计样例 · 名称 / 数值待定",
+      "role": "dynamic-text",
+      "region": [
+        600,
+        1046,
+        720,
+        28
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "美术设计样例 · 名称 / 数值待定"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-010",
+      "text": "地图宽度",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        300,
+        1042,
+        34
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "地图宽度"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-011",
+      "text": "128",
+      "role": "dynamic-text",
+      "region": [
+        458,
+        344,
+        922,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "128"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-012",
+      "text": "地图高度",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        396,
+        1042,
+        34
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "地图高度"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-013",
+      "text": "128",
+      "role": "dynamic-text",
+      "region": [
+        458,
+        440,
+        922,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "128"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-014",
+      "text": "保持正方形",
+      "role": "dynamic-text",
+      "region": [
+        418,
+        512,
+        1002,
+        37
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "保持正方形"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-015",
+      "text": "地形来源",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        588,
+        1042,
+        34
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "地形来源"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-016",
+      "text": "平地",
+      "role": "dynamic-text",
+      "region": [
+        430,
+        632,
+        938,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "平地"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-017",
+      "text": "▼",
+      "role": "dynamic-text",
+      "region": [
+        1381,
+        632,
+        40,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "▼"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-018",
+      "text": "生成地图",
+      "role": "dynamic-text",
+      "region": [
+        1608,
+        924,
+        154,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "生成地图"
+      ],
+      "dynamic": true
+    }
+  ],
+  "artAndControlLayers": [
+    {
+      "role": "park-background",
+      "asset": "assets/backgrounds/park-day-native.png",
+      "region": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "resize": "cover"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_main.png",
+      "region": [
+        52,
+        96,
+        1816,
+        930
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "title-plaque",
+      "asset": "assets/common/title_plate.png",
+      "region": [
+        520,
+        22,
+        880,
+        170
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "close",
+      "asset": "assets/common/close.png",
+      "region": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_card.png",
+      "region": [
+        84,
+        208,
+        268,
+        756
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_selected.png",
+      "region": [
+        100,
+        224,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        294,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        364,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        434,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        504,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        574,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "illustration",
+      "asset": "assets/illustrations/mountain_scenario.png",
+      "region": [
+        1478,
+        360,
+        320,
+        462
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "value-field",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        394,
+        336,
+        1050,
+        52
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "spinner-decrease",
+      "asset": "assets/common/minus.png",
+      "region": [
+        403,
+        342,
+        40,
+        40
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "spinner-increase",
+      "asset": "assets/common/plus.png",
+      "region": [
+        1395,
+        342,
+        40,
+        40
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "MapGen:WIDX_MAP_SIZE_X"
+      ],
+      "unit": "MapGen",
+      "controlId": "WIDX_MAP_SIZE_X",
+      "screenId": "detail:map-gen:01-flatland",
+      "region": [
+        450,
+        336,
+        938,
+        52
+      ],
+      "visualKind": "spinner",
+      "label": "地图宽度",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "spinner",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 66
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "spinner",
+            "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 139,
+            "sourceExpression": "makeHoldableSpinnerWidgets({238, 52}, { 50, 14}, WidgetType::spinner,      WindowColour::secondary, kStringIdEmpty                                        )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "value"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 480,
+          "expression": "            setWidgetDisabled(WIDX_MAP_SIZE_LINK, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_X, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_X_UP, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_X_DOWN, isHeightMapImage);"
+        },
+        {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 481,
+          "expression": "            setWidgetDisabled(WIDX_MAP_SIZE_X, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_X_UP, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_X_DOWN, isHeightMapImage); "
+        },
+        {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 482,
+          "expression": "            setWidgetDisabled(WIDX_MAP_SIZE_X_UP, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_X_DOWN, isHeightMapImage);              // Enable heightmap widgets if one is loaded"
+        }
+      ],
+      "displayedCondition": "Algorithm::blank；高度图和噪声参数隐藏。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "MapGen:WIDX_MAP_SIZE_X_DOWN"
+      ],
+      "unit": "MapGen",
+      "controlId": "WIDX_MAP_SIZE_X_DOWN",
+      "screenId": "detail:map-gen:01-flatland",
+      "region": [
+        403,
+        342,
+        40,
+        40
+      ],
+      "visualKind": "stepper-decrease",
+      "label": "地图宽度减少",
+      "state": "normal",
+      "parentControl": "WIDX_MAP_SIZE_X",
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 68
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 139,
+            "sourceExpression": "makeHoldableSpinnerWidgets({238, 52}, { 50, 14}, WidgetType::spinner,      WindowColour::secondary, kStringIdEmpty                                        )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "decrease"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 482,
+          "expression": "            setWidgetDisabled(WIDX_MAP_SIZE_X_UP, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_X_DOWN, isHeightMapImage);              // Enable heightmap widgets if one is loaded"
+        }
+      ],
+      "displayedCondition": "Algorithm::blank；高度图和噪声参数隐藏。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "MapGen:WIDX_MAP_SIZE_X_UP"
+      ],
+      "unit": "MapGen",
+      "controlId": "WIDX_MAP_SIZE_X_UP",
+      "screenId": "detail:map-gen:01-flatland",
+      "region": [
+        1395,
+        342,
+        40,
+        40
+      ],
+      "visualKind": "stepper-increase",
+      "label": "地图宽度增加",
+      "state": "normal",
+      "parentControl": "WIDX_MAP_SIZE_X",
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 67
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 139,
+            "sourceExpression": "makeHoldableSpinnerWidgets({238, 52}, { 50, 14}, WidgetType::spinner,      WindowColour::secondary, kStringIdEmpty                                        )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "increase"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 481,
+          "expression": "            setWidgetDisabled(WIDX_MAP_SIZE_X, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_X_UP, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_X_DOWN, isHeightMapImage); "
+        }
+      ],
+      "displayedCondition": "Algorithm::blank；高度图和噪声参数隐藏。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "value-field",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        394,
+        432,
+        1050,
+        52
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "spinner-decrease",
+      "asset": "assets/common/minus.png",
+      "region": [
+        403,
+        438,
+        40,
+        40
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "spinner-increase",
+      "asset": "assets/common/plus.png",
+      "region": [
+        1395,
+        438,
+        40,
+        40
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "MapGen:WIDX_MAP_SIZE_Y"
+      ],
+      "unit": "MapGen",
+      "controlId": "WIDX_MAP_SIZE_Y",
+      "screenId": "detail:map-gen:01-flatland",
+      "region": [
+        450,
+        432,
+        938,
+        52
+      ],
+      "visualKind": "spinner",
+      "label": "地图高度",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "spinner",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 62
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "spinner",
+            "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 137,
+            "sourceExpression": "makeHoldableSpinnerWidgets({165, 52}, { 50, 14}, WidgetType::spinner,      WindowColour::secondary, kStringIdEmpty                                        )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "value"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 476,
+          "expression": "            bool isHeightMapImage = _settings.algorithm == MapGenerator::Algorithm::heightmapImage;             setWidgetDisabled(WIDX_MAP_SIZE_Y, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_Y_UP, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_Y_DOWN, isHeightMapImage);"
+        },
+        {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 477,
+          "expression": "            setWidgetDisabled(WIDX_MAP_SIZE_Y, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_Y_UP, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_Y_DOWN, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_LINK, isHeightMapImage);"
+        },
+        {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 478,
+          "expression": "            setWidgetDisabled(WIDX_MAP_SIZE_Y_UP, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_Y_DOWN, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_LINK, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_X, isHeightMapImage);"
+        }
+      ],
+      "displayedCondition": "Algorithm::blank；高度图和噪声参数隐藏。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "MapGen:WIDX_MAP_SIZE_Y_DOWN"
+      ],
+      "unit": "MapGen",
+      "controlId": "WIDX_MAP_SIZE_Y_DOWN",
+      "screenId": "detail:map-gen:01-flatland",
+      "region": [
+        403,
+        438,
+        40,
+        40
+      ],
+      "visualKind": "stepper-decrease",
+      "label": "地图高度减少",
+      "state": "normal",
+      "parentControl": "WIDX_MAP_SIZE_Y",
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 64
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 137,
+            "sourceExpression": "makeHoldableSpinnerWidgets({165, 52}, { 50, 14}, WidgetType::spinner,      WindowColour::secondary, kStringIdEmpty                                        )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "decrease"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 478,
+          "expression": "            setWidgetDisabled(WIDX_MAP_SIZE_Y_UP, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_Y_DOWN, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_LINK, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_X, isHeightMapImage);"
+        }
+      ],
+      "displayedCondition": "Algorithm::blank；高度图和噪声参数隐藏。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "MapGen:WIDX_MAP_SIZE_Y_UP"
+      ],
+      "unit": "MapGen",
+      "controlId": "WIDX_MAP_SIZE_Y_UP",
+      "screenId": "detail:map-gen:01-flatland",
+      "region": [
+        1395,
+        438,
+        40,
+        40
+      ],
+      "visualKind": "stepper-increase",
+      "label": "地图高度增加",
+      "state": "normal",
+      "parentControl": "WIDX_MAP_SIZE_Y",
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 63
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 137,
+            "sourceExpression": "makeHoldableSpinnerWidgets({165, 52}, { 50, 14}, WidgetType::spinner,      WindowColour::secondary, kStringIdEmpty                                        )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "increase"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 477,
+          "expression": "            setWidgetDisabled(WIDX_MAP_SIZE_Y, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_Y_UP, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_Y_DOWN, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_LINK, isHeightMapImage);"
+        }
+      ],
+      "displayedCondition": "Algorithm::blank；高度图和噪声参数隐藏。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/primary_selected.png",
+      "region": [
+        394,
+        504,
+        1050,
+        68
+      ],
+      "resize": "nine",
+      "state": "selected"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "MapGen:WIDX_MAP_SIZE_LINK"
+      ],
+      "unit": "MapGen",
+      "controlId": "WIDX_MAP_SIZE_LINK",
+      "screenId": "detail:map-gen:01-flatland",
+      "region": [
+        394,
+        504,
+        1050,
+        68
+      ],
+      "visualKind": "button",
+      "label": "保持正方形",
+      "state": "selected",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 65
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 138,
+            "sourceExpression": "makeWidget                ({216, 52}, { 21, 12}, WidgetType::flatBtn,      WindowColour::secondary, ImageId(SPR_G2_LINK_CHAIN), STR_MAINTAIN_SQUARE_MAP_TOOLTIP)",
+            "sourceStringIds": [
+              "STR_MAINTAIN_SQUARE_MAP_TOOLTIP"
+            ],
+            "originalSpriteIds": [
+              "SPR_G2_LINK_CHAIN"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 473,
+          "expression": "            setWidgetPressed(WIDX_MAP_SIZE_LINK, _mapWidthAndHeightLinked);             setWidgetDisabled(WIDX_MAP_SIZE_LINK, _settings.mapSize.x != _settings.mapSize.y);              bool isHeightMapImage = _settings.algorithm == MapGenerator::Algorithm::heightmapImage;"
+        },
+        {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 479,
+          "expression": "            setWidgetDisabled(WIDX_MAP_SIZE_Y_DOWN, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_LINK, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_X, isHeightMapImage);             setWidgetDisabled(WIDX_MAP_SIZE_X_UP, isHeightMapImage);"
+        }
+      ],
+      "displayedCondition": "Algorithm::blank；高度图和噪声参数隐藏。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "value-field",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        394,
+        624,
+        1050,
+        52
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "MapGen:WIDX_HEIGHTMAP_SOURCE"
+      ],
+      "unit": "MapGen",
+      "controlId": "WIDX_HEIGHTMAP_SOURCE",
+      "screenId": "detail:map-gen:01-flatland",
+      "region": [
+        394,
+        624,
+        976,
+        52
+      ],
+      "visualKind": "dropdown",
+      "label": "地形来源",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "dropdownMenu",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 69
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "dropdownMenu",
+            "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 140,
+            "sourceExpression": "makeDropdownWidgets       ({155, 72}, {133, 14}, WidgetType::dropdownMenu, WindowColour::secondary, STR_HEIGHTMAP_FLATLAND                                  )",
+            "sourceStringIds": [
+              "STR_HEIGHTMAP_FLATLAND"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": "value"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "Algorithm::blank；高度图和噪声参数隐藏。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "MapGen:WIDX_HEIGHTMAP_SOURCE_DROPDOWN"
+      ],
+      "unit": "MapGen",
+      "controlId": "WIDX_HEIGHTMAP_SOURCE_DROPDOWN",
+      "screenId": "detail:map-gen:01-flatland",
+      "region": [
+        1374,
+        624,
+        66,
+        52
+      ],
+      "visualKind": "dropdown-button",
+      "label": "地形来源选择",
+      "state": "normal",
+      "parentControl": "WIDX_HEIGHTMAP_SOURCE",
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 70
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 140,
+            "sourceExpression": "makeDropdownWidgets       ({155, 72}, {133, 14}, WidgetType::dropdownMenu, WindowColour::secondary, STR_HEIGHTMAP_FLATLAND                                  )",
+            "sourceStringIds": [
+              "STR_HEIGHTMAP_FLATLAND"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": "dropdown-arrow"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "Algorithm::blank；高度图和噪声参数隐藏。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1584,
+        916,
+        202,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "MapGen:WIDX_MAP_GENERATE"
+      ],
+      "unit": "MapGen",
+      "controlId": "WIDX_MAP_GENERATE",
+      "screenId": "detail:map-gen:01-flatland",
+      "region": [
+        1584,
+        916,
+        202,
+        68
+      ],
+      "visualKind": "button",
+      "label": "生成地图",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 58
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 131,
+            "sourceExpression": "makeWidget({ 185, 200 }, { 109, 14 }, WidgetType::button, WindowColour::secondary, STR_MAPGEN_ACTION_GENERATE)",
+            "sourceStringIds": [
+              "STR_MAPGEN_ACTION_GENERATE"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 1392,
+          "expression": "            bool isHeightMapImage = _settings.algorithm == MapGenerator::Algorithm::heightmapImage;             setWidgetDisabled(WIDX_MAP_GENERATE, isHeightMapImage && !_heightmapLoaded);              switch (page)"
+        }
+      ],
+      "displayedCondition": "Algorithm::blank；高度图和噪声参数隐藏。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    }
+  ],
+  "dataDiagrams": [
+    {
+      "role": "data-rule",
+      "points": [
+        [
+          398,
+          276
+        ],
+        [
+          1790,
+          276
+        ]
+      ],
+      "color": "#B28C43",
+      "width": 1
+    }
+  ],
+  "layoutIssues": [],
+  "fontDistribution": "Official OFL-licensed fonts are included in assets/fonts; see records/font-sources.json.",
+  "status": "produced_pending_review"
+}

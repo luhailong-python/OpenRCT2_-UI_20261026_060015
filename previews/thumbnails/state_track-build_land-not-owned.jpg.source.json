@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_track-build_land-not-owned.jpg",
+  "sha256": "080bda4c27eb22abbb1d5ce53dee45325b3445db652d21be92fbf1a580323883",
+  "derivedFrom": [
+    {
+      "file": "previews/states/track-build/land-not-owned.png",
+      "sha256": "0ec731a9a8abdd001781ae2539e4261a5e6cf2dc3f3cf87932731376408fe908",
+      "sourceRecord": "previews/states/track-build/land-not-owned.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

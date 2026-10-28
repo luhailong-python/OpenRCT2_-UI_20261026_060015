@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/track-design-manage_01.jpg",
+  "sha256": "84813f0bb13deb55817e4a55c365983a16514851739571cbeea16086909b5a46",
+  "derivedFrom": [
+    {
+      "file": "designs/track-design-manage/01-管理.png",
+      "sha256": "a431a9574a8d740f3bed112f61a803c0b67ffa75582f6d8bf0212f7d2942619c",
+      "sourceRecord": "designs/track-design-manage/01-管理.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

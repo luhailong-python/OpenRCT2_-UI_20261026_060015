@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_staff_04-mechanic.jpg",
+  "sha256": "3d038bf971691db688348fac36941e0303ecb80d698e8c510845215e5fd1254b",
+  "derivedFrom": [
+    {
+      "file": "designs/details/staff/04-mechanic.png",
+      "sha256": "a4a8c37bc83bc6da75b3f273f9785004307ee1456d287a87cb54ec9d27825165",
+      "sourceRecord": "designs/details/staff/04-mechanic.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

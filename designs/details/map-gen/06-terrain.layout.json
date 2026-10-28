@@ -1,0 +1,1469 @@
+{
+  "schemaVersion": 1,
+  "screenId": "detail:map-gen:06-terrain",
+  "title": "地图生成  地形参数",
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "origin": "top-left",
+  "textLayers": [
+    {
+      "id": "text-001",
+      "text": "地图生成",
+      "role": "dynamic-text",
+      "region": [
+        620,
+        66,
+        680,
+        75
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 46,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 65,
+      "wrappedLines": [
+        "地图生成"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-002",
+      "text": "平地",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        231,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "平地"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-003",
+      "text": "噪声",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        301,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "噪声"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-004",
+      "text": "高度图",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        371,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "高度图"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-005",
+      "text": "地形",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        441,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "地形"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-006",
+      "text": "水域",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        511,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "水域"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-007",
+      "text": "森林",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        581,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "森林"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-008",
+      "text": "地形",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        218,
+        1388,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 32,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 45,
+      "wrappedLines": [
+        "地形"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-009",
+      "text": "美术设计样例 · 名称 / 数值待定",
+      "role": "dynamic-text",
+      "region": [
+        600,
+        1046,
+        720,
+        28
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "美术设计样例 · 名称 / 数值待定"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-010",
+      "text": "最低地形高度",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        300,
+        674,
+        34
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "最低地形高度"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-011",
+      "text": "8",
+      "role": "dynamic-text",
+      "region": [
+        458,
+        344,
+        554,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "8"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-012",
+      "text": "最高地形高度",
+      "role": "dynamic-text",
+      "region": [
+        1116,
+        300,
+        674,
+        34
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "最高地形高度"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-013",
+      "text": "32",
+      "role": "dynamic-text",
+      "region": [
+        1176,
+        344,
+        554,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "32"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-014",
+      "text": "地表材质",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        396,
+        674,
+        34
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "地表材质"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-015",
+      "text": "自然青灰石",
+      "role": "dynamic-text",
+      "region": [
+        430,
+        440,
+        570,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "自然青灰石"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-016",
+      "text": "▼",
+      "role": "dynamic-text",
+      "region": [
+        1013,
+        440,
+        40,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "▼"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-017",
+      "text": "崖面材质",
+      "role": "dynamic-text",
+      "region": [
+        1116,
+        396,
+        674,
+        34
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "崖面材质"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-018",
+      "text": "浅灰岩壁",
+      "role": "dynamic-text",
+      "region": [
+        1148,
+        440,
+        570,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "浅灰岩壁"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-019",
+      "text": "▼",
+      "role": "dynamic-text",
+      "region": [
+        1731,
+        440,
+        40,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "▼"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-020",
+      "text": "地表颜色",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        492,
+        674,
+        34
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "地表颜色"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-021",
+      "text": "#A6B8AA",
+      "role": "dynamic-text",
+      "region": [
+        455,
+        536,
+        586,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "#A6B8AA"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-022",
+      "text": "崖面颜色",
+      "role": "dynamic-text",
+      "region": [
+        1116,
+        492,
+        674,
+        34
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "崖面颜色"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-023",
+      "text": "#A7ADA7",
+      "role": "dynamic-text",
+      "region": [
+        1173,
+        536,
+        586,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "#A7ADA7"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-024",
+      "text": "随机地形",
+      "role": "dynamic-text",
+      "region": [
+        456,
+        602,
+        602,
+        62
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "center",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "随机地形"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-025",
+      "text": "平滑地块边缘",
+      "role": "dynamic-text",
+      "region": [
+        1174,
+        602,
+        602,
+        62
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "center",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "平滑地块边缘"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-026",
+      "text": "生成地图",
+      "role": "dynamic-text",
+      "region": [
+        1608,
+        924,
+        154,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "生成地图"
+      ],
+      "dynamic": true
+    }
+  ],
+  "artAndControlLayers": [
+    {
+      "role": "park-background",
+      "asset": "assets/backgrounds/park-day-native.png",
+      "region": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "resize": "cover"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_main.png",
+      "region": [
+        52,
+        96,
+        1816,
+        930
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "title-plaque",
+      "asset": "assets/common/title_plate.png",
+      "region": [
+        520,
+        22,
+        880,
+        170
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "close",
+      "asset": "assets/common/close.png",
+      "region": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_card.png",
+      "region": [
+        84,
+        208,
+        268,
+        756
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        224,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        294,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        364,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_selected.png",
+      "region": [
+        100,
+        434,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        504,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        574,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "value-field",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        394,
+        336,
+        682,
+        52
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "spinner-decrease",
+      "asset": "assets/common/minus.png",
+      "region": [
+        403,
+        342,
+        40,
+        40
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "spinner-increase",
+      "asset": "assets/common/plus.png",
+      "region": [
+        1027,
+        342,
+        40,
+        40
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "MapGen:WIDX_HEIGHTMAP_LOW"
+      ],
+      "unit": "MapGen",
+      "controlId": "WIDX_HEIGHTMAP_LOW",
+      "screenId": "detail:map-gen:06-terrain",
+      "region": [
+        450,
+        336,
+        570,
+        52
+      ],
+      "visualKind": "spinner",
+      "label": "最低地形高度",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "spinner",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 88
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "spinner",
+            "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 155,
+            "sourceExpression": "makeHoldableSpinnerWidgets({179,  52}, {109, 14}, WidgetType::spinner,  WindowColour::secondary                                  )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "value"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "当前为 Simplex 地形、randomTerrain=false，地表/崖面样式可用；选择的对象支持颜色。非平地算法可平滑地块边缘。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "MapGen:WIDX_HEIGHTMAP_LOW_DOWN"
+      ],
+      "unit": "MapGen",
+      "controlId": "WIDX_HEIGHTMAP_LOW_DOWN",
+      "screenId": "detail:map-gen:06-terrain",
+      "region": [
+        403,
+        342,
+        40,
+        40
+      ],
+      "visualKind": "stepper-decrease",
+      "label": "最低地形高度减少",
+      "state": "normal",
+      "parentControl": "WIDX_HEIGHTMAP_LOW",
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 90
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 155,
+            "sourceExpression": "makeHoldableSpinnerWidgets({179,  52}, {109, 14}, WidgetType::spinner,  WindowColour::secondary                                  )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "decrease"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "当前为 Simplex 地形、randomTerrain=false，地表/崖面样式可用；选择的对象支持颜色。非平地算法可平滑地块边缘。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "MapGen:WIDX_HEIGHTMAP_LOW_UP"
+      ],
+      "unit": "MapGen",
+      "controlId": "WIDX_HEIGHTMAP_LOW_UP",
+      "screenId": "detail:map-gen:06-terrain",
+      "region": [
+        1027,
+        342,
+        40,
+        40
+      ],
+      "visualKind": "stepper-increase",
+      "label": "最低地形高度增加",
+      "state": "normal",
+      "parentControl": "WIDX_HEIGHTMAP_LOW",
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 89
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 155,
+            "sourceExpression": "makeHoldableSpinnerWidgets({179,  52}, {109, 14}, WidgetType::spinner,  WindowColour::secondary                                  )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "increase"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "当前为 Simplex 地形、randomTerrain=false，地表/崖面样式可用；选择的对象支持颜色。非平地算法可平滑地块边缘。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "value-field",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1112,
+        336,
+        682,
+        52
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "spinner-decrease",
+      "asset": "assets/common/minus.png",
+      "region": [
+        1121,
+        342,
+        40,
+        40
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "spinner-increase",
+      "asset": "assets/common/plus.png",
+      "region": [
+        1745,
+        342,
+        40,
+        40
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "MapGen:WIDX_HEIGHTMAP_HIGH"
+      ],
+      "unit": "MapGen",
+      "controlId": "WIDX_HEIGHTMAP_HIGH",
+      "screenId": "detail:map-gen:06-terrain",
+      "region": [
+        1168,
+        336,
+        570,
+        52
+      ],
+      "visualKind": "spinner",
+      "label": "最高地形高度",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "spinner",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 91
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "spinner",
+            "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 156,
+            "sourceExpression": "makeHoldableSpinnerWidgets({179,  70}, {109, 14}, WidgetType::spinner,  WindowColour::secondary                                  )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "value"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 1175,
+          "expression": "            // Max land height option is irrelevant for flatland             setWidgetEnabled(WIDX_HEIGHTMAP_HIGH, _settings.algorithm != MapGenerator::Algorithm::blank);              // only offer terrain edge smoothing if we don't use flatland terrain"
+        }
+      ],
+      "displayedCondition": "当前为 Simplex 地形、randomTerrain=false，地表/崖面样式可用；选择的对象支持颜色。非平地算法可平滑地块边缘。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "MapGen:WIDX_HEIGHTMAP_HIGH_DOWN"
+      ],
+      "unit": "MapGen",
+      "controlId": "WIDX_HEIGHTMAP_HIGH_DOWN",
+      "screenId": "detail:map-gen:06-terrain",
+      "region": [
+        1121,
+        342,
+        40,
+        40
+      ],
+      "visualKind": "stepper-decrease",
+      "label": "最高地形高度减少",
+      "state": "normal",
+      "parentControl": "WIDX_HEIGHTMAP_HIGH",
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 93
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 156,
+            "sourceExpression": "makeHoldableSpinnerWidgets({179,  70}, {109, 14}, WidgetType::spinner,  WindowColour::secondary                                  )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "decrease"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "当前为 Simplex 地形、randomTerrain=false，地表/崖面样式可用；选择的对象支持颜色。非平地算法可平滑地块边缘。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "MapGen:WIDX_HEIGHTMAP_HIGH_UP"
+      ],
+      "unit": "MapGen",
+      "controlId": "WIDX_HEIGHTMAP_HIGH_UP",
+      "screenId": "detail:map-gen:06-terrain",
+      "region": [
+        1745,
+        342,
+        40,
+        40
+      ],
+      "visualKind": "stepper-increase",
+      "label": "最高地形高度增加",
+      "state": "normal",
+      "parentControl": "WIDX_HEIGHTMAP_HIGH",
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 92
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 156,
+            "sourceExpression": "makeHoldableSpinnerWidgets({179,  70}, {109, 14}, WidgetType::spinner,  WindowColour::secondary                                  )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "increase"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "当前为 Simplex 地形、randomTerrain=false，地表/崖面样式可用；选择的对象支持颜色。非平地算法可平滑地块边缘。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "value-field",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        394,
+        432,
+        682,
+        52
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "MapGen:WIDX_FLOOR_TEXTURE"
+      ],
+      "unit": "MapGen",
+      "controlId": "WIDX_FLOOR_TEXTURE",
+      "screenId": "detail:map-gen:06-terrain",
+      "region": [
+        394,
+        432,
+        608,
+        52
+      ],
+      "visualKind": "dropdown",
+      "label": "地表材质",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 94
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 157,
+            "sourceExpression": "makeWidget        ({179,  88}, { 47, 36}, WidgetType::flatBtn,  WindowColour::secondary, 0xFFFFFFFF, STR_CHANGE_BASE_LAND_TIP    )",
+            "sourceStringIds": [
+              "STR_CHANGE_BASE_LAND_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 1171,
+          "expression": "            // only allow floor and wall texture options if random terrain is disabled             setWidgetEnabled(WIDX_FLOOR_TEXTURE, !_randomTerrain);             setWidgetEnabled(WIDX_WALL_TEXTURE, !_randomTerrain); "
+        }
+      ],
+      "displayedCondition": "当前为 Simplex 地形、randomTerrain=false，地表/崖面样式可用；选择的对象支持颜色。非平地算法可平滑地块边缘。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "value-field",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1112,
+        432,
+        682,
+        52
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "MapGen:WIDX_WALL_TEXTURE"
+      ],
+      "unit": "MapGen",
+      "controlId": "WIDX_WALL_TEXTURE",
+      "screenId": "detail:map-gen:06-terrain",
+      "region": [
+        1112,
+        432,
+        608,
+        52
+      ],
+      "visualKind": "dropdown",
+      "label": "崖面材质",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 95
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 158,
+            "sourceExpression": "makeWidget        ({236,  88}, { 47, 36}, WidgetType::flatBtn,  WindowColour::secondary, 0xFFFFFFFF, STR_CHANGE_VERTICAL_LAND_TIP)",
+            "sourceStringIds": [
+              "STR_CHANGE_VERTICAL_LAND_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 1172,
+          "expression": "            setWidgetEnabled(WIDX_FLOOR_TEXTURE, !_randomTerrain);             setWidgetEnabled(WIDX_WALL_TEXTURE, !_randomTerrain);              // Max land height option is irrelevant for flatland"
+        }
+      ],
+      "displayedCondition": "当前为 Simplex 地形、randomTerrain=false，地表/崖面样式可用；选择的对象支持颜色。非平地算法可平滑地块边缘。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "value-field",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        394,
+        528,
+        682,
+        52
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "icon",
+      "asset": "assets/icons/eyedropper.png",
+      "region": [
+        404,
+        536,
+        36,
+        36
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "MapGen:WIDX_SURFACE_COLOUR_1"
+      ],
+      "unit": "MapGen",
+      "controlId": "WIDX_SURFACE_COLOUR_1",
+      "screenId": "detail:map-gen:06-terrain",
+      "region": [
+        394,
+        528,
+        682,
+        52
+      ],
+      "visualKind": "color",
+      "label": "地表颜色",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "colourBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 96
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "colourBtn",
+            "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 159,
+            "sourceExpression": "makeWidget        ({197, 128}, {12, 12}, WidgetType::colourBtn, WindowColour::secondary, 0xFFFFFFFF,                              STR_SELECT_COLOUR)",
+            "sourceStringIds": [
+              "STR_SELECT_COLOUR"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 1180,
+          "expression": "             widgets[WIDX_SURFACE_COLOUR_1].setVisible(_surfaceColour1Enabled && !_randomTerrain);             widgets[WIDX_EDGE_COLOUR_1].setVisible(_edgeColour1Enabled && !_randomTerrain); "
+        }
+      ],
+      "displayedCondition": "当前为 Simplex 地形、randomTerrain=false，地表/崖面样式可用；选择的对象支持颜色。非平地算法可平滑地块边缘。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "value-field",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1112,
+        528,
+        682,
+        52
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "icon",
+      "asset": "assets/icons/eyedropper.png",
+      "region": [
+        1122,
+        536,
+        36,
+        36
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "MapGen:WIDX_EDGE_COLOUR_1"
+      ],
+      "unit": "MapGen",
+      "controlId": "WIDX_EDGE_COLOUR_1",
+      "screenId": "detail:map-gen:06-terrain",
+      "region": [
+        1112,
+        528,
+        682,
+        52
+      ],
+      "visualKind": "color",
+      "label": "崖面颜色",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "colourBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 97
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "colourBtn",
+            "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 160,
+            "sourceExpression": "makeWidget        ({254, 128}, {12, 12}, WidgetType::colourBtn, WindowColour::secondary, 0xFFFFFFFF,                              STR_SELECT_COLOUR)",
+            "sourceStringIds": [
+              "STR_SELECT_COLOUR"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 1181,
+          "expression": "            widgets[WIDX_SURFACE_COLOUR_1].setVisible(_surfaceColour1Enabled && !_randomTerrain);             widgets[WIDX_EDGE_COLOUR_1].setVisible(_edgeColour1Enabled && !_randomTerrain);              widgets[WIDX_SURFACE_COLOUR_1].image = getColourButtonImage(_settings.surfaceColour1);"
+        }
+      ],
+      "displayedCondition": "当前为 Simplex 地形、randomTerrain=false，地表/崖面样式可用；选择的对象支持颜色。非平地算法可平滑地块边缘。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "checkbox",
+      "asset": "assets/common/checkbox_off.png",
+      "region": [
+        398,
+        606,
+        42,
+        42
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "MapGen:WIDX_RANDOM_TERRAIN"
+      ],
+      "unit": "MapGen",
+      "controlId": "WIDX_RANDOM_TERRAIN",
+      "screenId": "detail:map-gen:06-terrain",
+      "region": [
+        390,
+        588,
+        690,
+        96
+      ],
+      "visualKind": "checkbox",
+      "label": "随机地形",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "checkbox",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 98
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "checkbox",
+            "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 161,
+            "sourceExpression": "makeWidget        ({ 10, 106}, {150, 12}, WidgetType::checkbox, WindowColour::secondary, STR_MAPGEN_OPTION_RANDOM_TERRAIN        )",
+            "sourceStringIds": [
+              "STR_MAPGEN_OPTION_RANDOM_TERRAIN"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "当前为 Simplex 地形、randomTerrain=false，地表/崖面样式可用；选择的对象支持颜色。非平地算法可平滑地块边缘。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "checkbox",
+      "asset": "assets/common/checkbox_on.png",
+      "region": [
+        1116,
+        606,
+        42,
+        42
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "MapGen:WIDX_HEIGHTMAP_SMOOTH_TILE_EDGES"
+      ],
+      "unit": "MapGen",
+      "controlId": "WIDX_HEIGHTMAP_SMOOTH_TILE_EDGES",
+      "screenId": "detail:map-gen:06-terrain",
+      "region": [
+        1108,
+        588,
+        690,
+        96
+      ],
+      "visualKind": "checkbox",
+      "label": "平滑地块边缘",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "checkbox",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 99
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "checkbox",
+            "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 162,
+            "sourceExpression": "makeWidget        ({ 10, 122}, {150, 12}, WidgetType::checkbox, WindowColour::secondary, STR_MAPGEN_SMOOTH_TILE                  )",
+            "sourceStringIds": [
+              "STR_MAPGEN_SMOOTH_TILE"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 1178,
+          "expression": "            // only offer terrain edge smoothing if we don't use flatland terrain             setWidgetEnabled(WIDX_HEIGHTMAP_SMOOTH_TILE_EDGES, _settings.algorithm != MapGenerator::Algorithm::blank);              widgets[WIDX_SURFACE_COLOUR_1].setVisible(_surfaceColour1Enabled && !_randomTerrain);"
+        }
+      ],
+      "displayedCondition": "当前为 Simplex 地形、randomTerrain=false，地表/崖面样式可用；选择的对象支持颜色。非平地算法可平滑地块边缘。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1584,
+        916,
+        202,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "MapGen:WIDX_MAP_GENERATE"
+      ],
+      "unit": "MapGen",
+      "controlId": "WIDX_MAP_GENERATE",
+      "screenId": "detail:map-gen:06-terrain",
+      "region": [
+        1584,
+        916,
+        202,
+        68
+      ],
+      "visualKind": "button",
+      "label": "生成地图",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 58
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 131,
+            "sourceExpression": "makeWidget({ 185, 200 }, { 109, 14 }, WidgetType::button, WindowColour::secondary, STR_MAPGEN_ACTION_GENERATE)",
+            "sourceStringIds": [
+              "STR_MAPGEN_ACTION_GENERATE"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 1392,
+          "expression": "            bool isHeightMapImage = _settings.algorithm == MapGenerator::Algorithm::heightmapImage;             setWidgetDisabled(WIDX_MAP_GENERATE, isHeightMapImage && !_heightmapLoaded);              switch (page)"
+        }
+      ],
+      "displayedCondition": "当前为 Simplex 地形、randomTerrain=false，地表/崖面样式可用；选择的对象支持颜色。非平地算法可平滑地块边缘。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    }
+  ],
+  "dataDiagrams": [
+    {
+      "role": "data-rule",
+      "points": [
+        [
+          398,
+          276
+        ],
+        [
+          1790,
+          276
+        ]
+      ],
+      "color": "#B28C43",
+      "width": 1
+    }
+  ],
+  "layoutIssues": [],
+  "fontDistribution": "Official OFL-licensed fonts are included in assets/fonts; see records/font-sources.json.",
+  "status": "produced_pending_review"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/scenery_01.jpg",
+  "sha256": "bd8c907b38292c984f2e0089b3b5b1d68a2d4c25f0f4b88defa5c73d156b31a5",
+  "derivedFrom": [
+    {
+      "file": "designs/scenery/01-主题.png",
+      "sha256": "b82fc0a328b31c77b693be7c441bcc6d219f9d60b39098f7e7708588a84680d8",
+      "sourceRecord": "designs/scenery/01-主题.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

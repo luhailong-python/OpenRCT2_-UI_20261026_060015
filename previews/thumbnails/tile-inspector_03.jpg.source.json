@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/tile-inspector_03.jpg",
+  "sha256": "e53b9da0492d09ba37e72856bd45eba1e9c93a3ed9e7ccc7341036b380b49619",
+  "derivedFrom": [
+    {
+      "file": "designs/tile-inspector/03-轨道.png",
+      "sha256": "6efab6edcd8b0d418c343dc9d51c40e4eeae1761905a829fe8251d2ac9bb79a5",
+      "sourceRecord": "designs/tile-inspector/03-轨道.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

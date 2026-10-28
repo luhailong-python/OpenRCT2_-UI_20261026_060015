@@ -1,0 +1,135 @@
+{
+  "file": "previews/contact-sheets/14.jpg",
+  "sha256": "a4d1b3a91d72a159a4bd66686083189a99ffad0a8a33944d73582b04cbbe1f06",
+  "derivedFrom": [
+    {
+      "file": "previews/states/research/paused.png",
+      "sha256": "880d1c7faacb6cde7d46bada419c06a28e581c595e9ee3478c4b943298a0a5c8"
+    },
+    {
+      "file": "previews/states/research/unlocked.png",
+      "sha256": "ea06c19c3f3ce79f3f73500d596694f9eaecdbd6e5c085c782dedee2564b37ac"
+    },
+    {
+      "file": "previews/states/ride-operation/broken.png",
+      "sha256": "fb8d804af7ba8e42feeb695a365e2836fe4f720b2b5a3e7e5bd55aef002d659e"
+    },
+    {
+      "file": "previews/states/ride-operation/closed.png",
+      "sha256": "840038dc531a15b6de37351459cb002e889f2befab974dbe1a3b43e3c3d5a77f"
+    },
+    {
+      "file": "previews/states/ride-operation/demolish.png",
+      "sha256": "656cb291e3d0e13f179cca4214b2d0282117d0c1f9b1ea540bcc3e3d7e6a101e"
+    },
+    {
+      "file": "previews/states/ride-operation/disconnected.png",
+      "sha256": "546faeb280e1ab2541876d355423357a9f92ef0826850e2a72f8e89d29bbfee9"
+    },
+    {
+      "file": "previews/states/ride-operation/open.png",
+      "sha256": "bf1ca5cac6e2a72b7486aff12ae860741d476ba1a9c9a792e46680472b019ee7"
+    },
+    {
+      "file": "previews/states/ride-operation/refurbish.png",
+      "sha256": "9002568a3718a2c1b9291308cadc6ae4000e0fec6108675e5a3aee119f270905"
+    },
+    {
+      "file": "previews/states/ride-operation/simulating.png",
+      "sha256": "6056fc3d239f31bb7e7eb37f517111c375155d6e8965474326ab33530032769f"
+    },
+    {
+      "file": "previews/states/ride-operation/testing.png",
+      "sha256": "d9ae558a533aa80eb6f5c1a93bf2b371b98ca198ca600882bb1d77cb444da0ce"
+    },
+    {
+      "file": "previews/states/ride-operation/untested.png",
+      "sha256": "3d85ea49520efb36e991b8be6d7544e0966934e2d91536d13737c6b230b751f1"
+    },
+    {
+      "file": "previews/states/save-load/download-incomplete.png",
+      "sha256": "a0cd2e7a30b34418ff6bdadd86d1723f209575fd3d09b51fddbb730346ece0e4"
+    },
+    {
+      "file": "previews/states/save-load/downloading.png",
+      "sha256": "8df2c98b56fd41d0f990a5840b2a5ce662a6e8d80ae6c25f091b02e3fc36674c"
+    },
+    {
+      "file": "previews/states/save-load/empty.png",
+      "sha256": "2ce4da2f26a6a8fd8d14212e43933937337358a975586f4c7bff172033683ca3"
+    },
+    {
+      "file": "previews/states/save-load/invalid-name.png",
+      "sha256": "9b89cbd5fc134f2de00bd0c0c66c652ab42b09ee4d52e6fb520209f5d8290eee"
+    },
+    {
+      "file": "previews/states/save-load/missing-objects.png",
+      "sha256": "7bcbdcedd9b54c287a2956615978340f57d12970c331111e1f76eff6b3b764bc"
+    },
+    {
+      "file": "previews/states/save-load/normal.png",
+      "sha256": "55516eca3d33fbd718b629b2ac971887fa2b8e75e49a795bc75bc69da94194ec"
+    },
+    {
+      "file": "previews/states/save-load/overwrite.png",
+      "sha256": "3022e49cf4853f53db1acb4f018b26d0cf94106bdd3e3eb3323ce48ecada7c06"
+    },
+    {
+      "file": "previews/states/save-load/save-prompt.png",
+      "sha256": "0c6199f597f7bff95db5026f7bd1f62dcd45c3565f50725f17fbf2361e123fe1"
+    },
+    {
+      "file": "previews/states/scenery/clear-confirm.png",
+      "sha256": "078cc3e444611bd9d00c32fdc5000ea9a55e68bb1383ce5afa2d2b3a52af6190"
+    },
+    {
+      "file": "previews/states/scenery/empty.png",
+      "sha256": "c12e06253ee46b48a79abf45634360b5da28cfefad871b06ab3d9a5916f99851"
+    },
+    {
+      "file": "previews/states/scenery/normal.png",
+      "sha256": "27acbff51806568ab58093a0469124fb87af220d01a9c39545ea6b585cd4974b"
+    },
+    {
+      "file": "previews/states/scenery/scatter.png",
+      "sha256": "15665ae46c4d1a99048e14f33c8a1ce2950babdf11957ace48e400eac55e32b7"
+    },
+    {
+      "file": "previews/states/scenery/sign-edit.png",
+      "sha256": "f24ab91f7c827dbacd5212c470750123e81981ddeb2c8a944a22ffa2427d52d2"
+    },
+    {
+      "file": "previews/states/settings/accessibility.png",
+      "sha256": "755afcfe484eed1a5efd90524b45afbccc5bb1c5e487e9053044f36224b43497"
+    },
+    {
+      "file": "previews/states/settings/custom-currency.png",
+      "sha256": "18eab293965b7b530bac1da8d3d8469147c3cd71834cf9e44e56425a5b624d48"
+    },
+    {
+      "file": "previews/states/settings/key-capture.png",
+      "sha256": "32f738c719c1941fa135db3aa0824c3b2976aeb17bafe5a0ff712a3180d71e19"
+    },
+    {
+      "file": "previews/states/settings/normal.png",
+      "sha256": "da782dd9be0719e987ca340be27bff0caf0548eaf58716935fc1155f03044815"
+    },
+    {
+      "file": "previews/states/settings/reset-confirm.png",
+      "sha256": "de2765f0d2dadf9f53496713d79de357d5c9cb295cc30d05b27807627492adde"
+    },
+    {
+      "file": "previews/states/settings/theme-edit.png",
+      "sha256": "5f43f3af275a66ddcfc0ca25a5887b89a53228101d8bb2d8855bf969a8f23cd5"
+    },
+    {
+      "file": "previews/states/shops/disconnected.png",
+      "sha256": "9f3d855883458fa9d6f9a5cad0fa3a9186fb975e50b52bef4199d61c396a52db"
+    },
+    {
+      "file": "previews/states/shops/no-sales.png",
+      "sha256": "8b3e4db47afa10c70fd3ff440d0ac76620afc0f1e6076a4aa282c35ee2d6bdee"
+    }
+  ],
+  "operation": "review_contact_sheet_thumbnail_composition_no_new_model_generation"
+}

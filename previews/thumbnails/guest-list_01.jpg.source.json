@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/guest-list_01.jpg",
+  "sha256": "d98e1811485c3a610b65d7decdb96dbd109a410f9f30c3e32e6fede7a1373e8b",
+  "derivedFrom": [
+    {
+      "file": "designs/guest-list/01-个体.png",
+      "sha256": "4a841c904b086d2dad57f1d59769f0a20473b11365b8352b7ac3667395169c09",
+      "sourceRecord": "designs/guest-list/01-个体.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_scenery_normal.jpg",
+  "sha256": "6a4671b19900da86177ed15e30725a72b5465c09398afdd87e1dbb5995a0f7f8",
+  "derivedFrom": [
+    {
+      "file": "previews/states/scenery/normal.png",
+      "sha256": "27acbff51806568ab58093a0469124fb87af220d01a9c39545ea6b585cd4974b",
+      "sourceRecord": "previews/states/scenery/normal.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

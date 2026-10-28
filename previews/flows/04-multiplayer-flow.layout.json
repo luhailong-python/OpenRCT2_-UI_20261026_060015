@@ -1,0 +1,298 @@
+{
+  "file": "previews/flows/04-multiplayer-flow.png",
+  "textLayers": [
+    {
+      "text": "多人协作与异常返回",
+      "position": [
+        96,
+        46
+      ],
+      "fontSize": 50,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "color": "#173e35"
+    },
+    {
+      "text": "协作服务器使用名称、版本与密码认证；无账号选角或RPG角色服。",
+      "position": [
+        98,
+        119
+      ],
+      "fontSize": 23,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#6d6f5c"
+    },
+    {
+      "text": "连接",
+      "position": [
+        630,
+        316
+      ],
+      "fontSize": 20,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#527364"
+    },
+    {
+      "text": "认证",
+      "position": [
+        1230,
+        316
+      ],
+      "fontSize": 20,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#527364"
+    },
+    {
+      "text": "同步",
+      "position": [
+        1580,
+        539
+      ],
+      "fontSize": 20,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#527364"
+    },
+    {
+      "text": "权限",
+      "position": [
+        1230,
+        726
+      ],
+      "fontSize": 20,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#527364"
+    },
+    {
+      "text": "认证失败",
+      "position": [
+        470,
+        580
+      ],
+      "fontSize": 20,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#527364"
+    },
+    {
+      "text": "异常",
+      "position": [
+        430,
+        904
+      ],
+      "fontSize": 20,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#527364"
+    },
+    {
+      "text": "返回",
+      "position": [
+        380,
+        539
+      ],
+      "fontSize": 20,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#527364"
+    },
+    {
+      "text": "服务器列表",
+      "position": [
+        264,
+        282
+      ],
+      "fontSize": 32,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "color": "#173e35"
+    },
+    {
+      "text": "公开/收藏/直接连接",
+      "position": [
+        138,
+        410
+      ],
+      "fontSize": 22,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#173e35"
+    },
+    {
+      "text": "连接与认证",
+      "position": [
+        864,
+        282
+      ],
+      "fontSize": 32,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "color": "#173e35"
+    },
+    {
+      "text": "版本/名称/密码/容量",
+      "position": [
+        738,
+        410
+      ],
+      "fontSize": 22,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#173e35"
+    },
+    {
+      "text": "下载与同步",
+      "position": [
+        1464,
+        282
+      ],
+      "fontSize": 32,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "color": "#173e35"
+    },
+    {
+      "text": "显示进度；允许取消",
+      "position": [
+        1338,
+        410
+      ],
+      "fontSize": 22,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#173e35"
+    },
+    {
+      "text": "协作经营",
+      "position": [
+        1464,
+        692
+      ],
+      "fontSize": 32,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "color": "#173e35"
+    },
+    {
+      "text": "园区操作/聊天/玩家统计",
+      "position": [
+        1338,
+        820
+      ],
+      "fontSize": 22,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#173e35"
+    },
+    {
+      "text": "权限组与管理",
+      "position": [
+        864,
+        692
+      ],
+      "fontSize": 32,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "color": "#173e35"
+    },
+    {
+      "text": "组别/允许操作/踢出",
+      "position": [
+        738,
+        820
+      ],
+      "fontSize": 22,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#173e35"
+    },
+    {
+      "text": "异常反馈",
+      "position": [
+        264,
+        692
+      ],
+      "fontSize": 32,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "color": "#173e35"
+    },
+    {
+      "text": "错误版本/密码/断线/失同步",
+      "position": [
+        138,
+        820
+      ],
+      "fontSize": 22,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#173e35"
+    },
+    {
+      "text": "流程说明图 · 静态美术交付 · 操作与状态以源码合同为依据",
+      "position": [
+        100,
+        1030
+      ],
+      "fontSize": 21,
+      "font": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "color": "#6d6f5c"
+    }
+  ],
+  "nodes": [
+    [
+      "服务器列表",
+      "公开/收藏/直接连接",
+      "multiplayer"
+    ],
+    [
+      "连接与认证",
+      "版本/名称/密码/容量",
+      "lock"
+    ],
+    [
+      "下载与同步",
+      "显示进度；允许取消",
+      "open"
+    ],
+    [
+      "协作经营",
+      "园区操作/聊天/玩家统计",
+      "chat"
+    ],
+    [
+      "权限组与管理",
+      "组别/允许操作/踢出",
+      "security"
+    ],
+    [
+      "异常反馈",
+      "错误版本/密码/断线/失同步",
+      "warning"
+    ]
+  ],
+  "edges": [
+    [
+      0,
+      1,
+      "连接"
+    ],
+    [
+      1,
+      2,
+      "认证成功"
+    ],
+    [
+      2,
+      3,
+      "同步完成"
+    ],
+    [
+      3,
+      4,
+      "查看权限"
+    ],
+    [
+      1,
+      5,
+      "认证失败"
+    ],
+    [
+      3,
+      5,
+      "连接异常"
+    ],
+    [
+      5,
+      0,
+      "返回列表"
+    ]
+  ],
+  "canvas": [
+    1920,
+    1080
+  ]
+}

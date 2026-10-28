@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "max",
+  "builtin_product": "ChatGPT Images 2.5",
+  "selection": "latest_verified",
+  "preferred_route": "builtin",
+  "verified_on": "2026-10-22",
+  "sources": {
+    "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+    "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+    "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+  }
+}

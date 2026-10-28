@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/map-gen_03.jpg",
+  "sha256": "af513254e24d8021f6ce7a2a5cd596cec4e12a2a15ae6bf2b97922b99dfe2fa5",
+  "derivedFrom": [
+    {
+      "file": "designs/map-gen/03-水域.png",
+      "sha256": "4f0041db807e96616c38cd9b095db0fd7639b78cb4f82e0b4a92be873a7f6dc1",
+      "sourceRecord": "designs/map-gen/03-水域.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

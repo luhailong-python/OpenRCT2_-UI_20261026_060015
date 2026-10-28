@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/multiplayer_02.jpg",
+  "sha256": "d9be248ea52aa9db6435d0b75c303fbe1a7a01ddd3b31d35e5473b95c2d30723",
+  "derivedFrom": [
+    {
+      "file": "designs/multiplayer/02-玩家.png",
+      "sha256": "254d4dd58f28b1d0641e7cac223e54730e05c5505e37ddb6592f97245da2d9ea",
+      "sourceRecord": "designs/multiplayer/02-玩家.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

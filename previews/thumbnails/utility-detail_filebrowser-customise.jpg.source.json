@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/utility-detail_filebrowser-customise.jpg",
+  "sha256": "601a1344e01b06b5797882f07c18316e97dbae9514fd525f4dda748b600583d3",
+  "derivedFrom": [
+    {
+      "file": "designs/details/utility/filebrowser-customise.png",
+      "sha256": "c0d31ad077d076596f37885713ae657670ce44f80878b3f06a7be9a3c62dedbd",
+      "sourceRecord": "designs/details/utility/filebrowser-customise.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

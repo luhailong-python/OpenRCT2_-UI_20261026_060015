@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_paths-land_not-for-sale.jpg",
+  "sha256": "66334a31c8fd7abe66a1cafa863fb2f6f26e1a968783cc444a39cf71127d8315",
+  "derivedFrom": [
+    {
+      "file": "previews/states/paths-land/not-for-sale.png",
+      "sha256": "25f2306c51cec4ebc7073dba821a7a7a3eaf9126ad0f33b6e4ea136355e1c048",
+      "sourceRecord": "previews/states/paths-land/not-for-sale.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

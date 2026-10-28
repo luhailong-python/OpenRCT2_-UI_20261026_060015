@@ -1,0 +1,623 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/details/park-ops/05-ticket-free-locked.png",
+  "sha256": "26187bb86640dc56e7eaa5a9d263b265864fd41753a97c55bbc616e534e472eb",
+  "exportedAt": "2026-10-26T08:41:33.024702-04:00",
+  "width": 1920,
+  "height": 1080,
+  "format": "PNG",
+  "operation": "composite_preview_not_native_generation",
+  "process": [
+    "Nine-slice/contain/cover composition of painted PNG sprites",
+    "Separate Chinese text typesetting and data diagrams"
+  ],
+  "resampling": "LANCZOS where art is fitted; output dimensions do not represent new native generated detail.",
+  "nativeModelClaim": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidencePolicy": "Resolve original AI model/quality through each source asset record; unreported values remain unconfirmed.",
+  "derivedFrom": [
+    {
+      "file": "assets/backgrounds/park-day-native.png",
+      "sha256": "27c3ac998fcd81e675c9a05712ead25c83443b133844c169d1476c3cebe25712",
+      "nativeDimensions": [
+        1672,
+        941
+      ],
+      "generationRecord": "assets/backgrounds/park-day-native.png.generation.json",
+      "derivationRecord": "assets/slice-manifest.json"
+    },
+    {
+      "file": "assets/common/panel_main.png",
+      "sha256": "704856762248133110624f38365e0ff337dd1f2f6304f66298e2230077ebca00",
+      "nativeDimensions": [
+        619,
+        610
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_main.png.source.json"
+    },
+    {
+      "file": "assets/common/title_plate.png",
+      "sha256": "f1011dd30d1ef42cbeedf64f31025c6c77c91ffbbcdd09ef74c065ad1d91ddfe",
+      "nativeDimensions": [
+        594,
+        195
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/title_plate.png.source.json"
+    },
+    {
+      "file": "assets/common/close.png",
+      "sha256": "f9089fdc15bfbfbd496d9c02de94c46b0e1e4052fffa9689de0b461e043737ec",
+      "nativeDimensions": [
+        184,
+        184
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/close.png.source.json"
+    },
+    {
+      "file": "assets/common/panel_card.png",
+      "sha256": "b82ed16e818b3bb86c16a68453bc4b73f1764c6fdb4541c2e470e5c60789568e",
+      "nativeDimensions": [
+        589,
+        558
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_card.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_normal.png",
+      "sha256": "9327a3d9577111e5985e3453a8a201010887c606a094b7e080421417aef3f92e",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_selected.png",
+      "sha256": "119a81554b9e332d698f5c704813cb047fcd4c5c71e9e5c36c7b6df6b4a789b9",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_selected.png.source.json"
+    },
+    {
+      "file": "assets/icons/park_gate.png",
+      "sha256": "6ede8f9e35da2f6e9d36cc8e1e3d7f3277fbe1d1002471833c60bb5efb2e7c71",
+      "nativeDimensions": [
+        192,
+        192
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/icons/park_gate.png.source.json"
+    },
+    {
+      "file": "assets/common/secondary_disabled.png",
+      "sha256": "9033970323911aa959f63cbcc180f5dec0edcdea230ea0ef5a9f91d281b60f89",
+      "nativeDimensions": [
+        256,
+        112
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/secondary_disabled.png.source.json"
+    },
+    {
+      "file": "assets/common/secondary_normal.png",
+      "sha256": "5f6418c0ede62320bc017ef1f00ec1d60a5d5fc34dac8c4e96d0016e6523881f",
+      "nativeDimensions": [
+        256,
+        112
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/secondary_normal.png.source.json"
+    }
+  ],
+  "layoutRecord": "designs/details/park-ops/05-ticket-free-locked.layout.json",
+  "functionalReference": {
+    "functionalRepository": "https://github.com/OpenRCT2/OpenRCT2.git",
+    "commit": "52a55c3e8da5972460642bdfed61d091fe9cabfd",
+    "sourceUnit": "Park",
+    "sourceFiles": [
+      "src/openrct2-ui/windows/Park.cpp"
+    ],
+    "condition": "EntranceFeeUnlocked is false or ParkFlag.noMoney; price is label, stepper buttons hidden",
+    "sourceControls": [
+      {
+        "sourceControlKeys": [
+          "Park:WIDX_CLOSE"
+        ],
+        "unit": "Park",
+        "controlId": "WIDX_CLOSE",
+        "screenId": "operations:park:05-ticket-free-locked",
+        "region": [
+          1776,
+          110,
+          68,
+          68
+        ],
+        "visualKind": "close",
+        "label": "关闭窗口",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "closeBox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Park.cpp",
+            "line": 67
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "closeBox",
+              "sourcePath": "src/openrct2-ui/windows/Park.cpp",
+              "line": 99,
+              "sourceExpression": "makeWindowShim(kWindowTitle, { width, kWindowHeight })",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": "closeBox"
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/Park.cpp",
+            "line": 515,
+            "expression": "            setWidgetDisabled(WIDX_OPEN_OR_CLOSE, disableOpenClose);             setWidgetDisabled(WIDX_CLOSE_LIGHT, disableOpenClose);             setWidgetDisabled(WIDX_OPEN_LIGHT, disableOpenClose); "
+          },
+          {
+            "path": "src/openrct2-ui/windows/Park.cpp",
+            "line": 534,
+            "expression": "                widgets[WIDX_OPEN_OR_CLOSE].setHidden();                 widgets[WIDX_CLOSE_LIGHT].setVisible();                 widgets[WIDX_OPEN_LIGHT].setVisible();                 y = widgets[WIDX_OPEN_LIGHT].bottom + 5;"
+          },
+          {
+            "path": "src/openrct2-ui/windows/Park.cpp",
+            "line": 545,
+            "expression": "                widgets[WIDX_OPEN_OR_CLOSE].setVisible();                 widgets[WIDX_CLOSE_LIGHT].setHidden();                 widgets[WIDX_OPEN_LIGHT].setHidden();                 y = widgets[WIDX_PAGE_BACKGROUND].top + 6;"
+          }
+        ],
+        "displayedCondition": "EntranceFeeUnlocked is false or ParkFlag.noMoney; price is label, stepper buttons hidden",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Park:WIDX_TAB_1"
+        ],
+        "unit": "Park",
+        "controlId": "WIDX_TAB_1",
+        "screenId": "operations:park:05-ticket-free-locked",
+        "region": [
+          100,
+          224,
+          236,
+          64
+        ],
+        "visualKind": "navigation-tab",
+        "label": "入口",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "tab",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Park.cpp",
+            "line": 69
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "tab",
+              "sourcePath": "src/openrct2-ui/windows/Park.cpp",
+              "line": 101,
+              "sourceExpression": "makeTab   ({   3, 17 }, STR_PARK_ENTRANCE_TAB_TIP                                  )",
+              "sourceStringIds": [
+                "STR_PARK_ENTRANCE_TAB_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "EntranceFeeUnlocked is false or ParkFlag.noMoney; price is label, stepper buttons hidden",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Park:WIDX_TAB_2"
+        ],
+        "unit": "Park",
+        "controlId": "WIDX_TAB_2",
+        "screenId": "operations:park:05-ticket-free-locked",
+        "region": [
+          100,
+          294,
+          236,
+          64
+        ],
+        "visualKind": "navigation-tab",
+        "label": "评分",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "tab",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Park.cpp",
+            "line": 70
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "tab",
+              "sourcePath": "src/openrct2-ui/windows/Park.cpp",
+              "line": 102,
+              "sourceExpression": "makeTab   ({  34, 17 }, STR_PARK_RATING_TAB_TIP                                    )",
+              "sourceStringIds": [
+                "STR_PARK_RATING_TAB_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "EntranceFeeUnlocked is false or ParkFlag.noMoney; price is label, stepper buttons hidden",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Park:WIDX_TAB_3"
+        ],
+        "unit": "Park",
+        "controlId": "WIDX_TAB_3",
+        "screenId": "operations:park:05-ticket-free-locked",
+        "region": [
+          100,
+          364,
+          236,
+          64
+        ],
+        "visualKind": "navigation-tab",
+        "label": "游客",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "tab",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Park.cpp",
+            "line": 71
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "tab",
+              "sourcePath": "src/openrct2-ui/windows/Park.cpp",
+              "line": 103,
+              "sourceExpression": "makeTab   ({  65, 17 }, STR_PARK_GUESTS_TAB_TIP                                    )",
+              "sourceStringIds": [
+                "STR_PARK_GUESTS_TAB_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "EntranceFeeUnlocked is false or ParkFlag.noMoney; price is label, stepper buttons hidden",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Park:WIDX_TAB_4"
+        ],
+        "unit": "Park",
+        "controlId": "WIDX_TAB_4",
+        "screenId": "operations:park:05-ticket-free-locked",
+        "region": [
+          100,
+          434,
+          236,
+          64
+        ],
+        "visualKind": "navigation-tab",
+        "label": "票价",
+        "state": "selected",
+        "parentControl": null,
+        "sourceWidgetType": "tab",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Park.cpp",
+            "line": 72
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "tab",
+              "sourcePath": "src/openrct2-ui/windows/Park.cpp",
+              "line": 104,
+              "sourceExpression": "makeTab   ({  96, 17 }, STR_PARK_PRICE_TAB_TIP                                     )",
+              "sourceStringIds": [
+                "STR_PARK_PRICE_TAB_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/Park.cpp",
+            "line": 396,
+            "expression": "            // Disable price tab if money is disabled             setWidgetDisabled(WIDX_TAB_4, _parkData.flags.has(ParkFlag::noMoney));         } "
+          }
+        ],
+        "displayedCondition": "EntranceFeeUnlocked is false or ParkFlag.noMoney; price is label, stepper buttons hidden",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Park:WIDX_TAB_5"
+        ],
+        "unit": "Park",
+        "controlId": "WIDX_TAB_5",
+        "screenId": "operations:park:05-ticket-free-locked",
+        "region": [
+          100,
+          504,
+          236,
+          64
+        ],
+        "visualKind": "navigation-tab",
+        "label": "统计",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "tab",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Park.cpp",
+            "line": 73
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "tab",
+              "sourcePath": "src/openrct2-ui/windows/Park.cpp",
+              "line": 105,
+              "sourceExpression": "makeTab   ({ 127, 17 }, STR_PARK_STATS_TAB_TIP                                     )",
+              "sourceStringIds": [
+                "STR_PARK_STATS_TAB_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "EntranceFeeUnlocked is false or ParkFlag.noMoney; price is label, stepper buttons hidden",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Park:WIDX_TAB_6"
+        ],
+        "unit": "Park",
+        "controlId": "WIDX_TAB_6",
+        "screenId": "operations:park:05-ticket-free-locked",
+        "region": [
+          100,
+          574,
+          236,
+          64
+        ],
+        "visualKind": "navigation-tab",
+        "label": "目标",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "tab",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Park.cpp",
+            "line": 74
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "tab",
+              "sourcePath": "src/openrct2-ui/windows/Park.cpp",
+              "line": 106,
+              "sourceExpression": "makeTab   ({ 158, 17 }, STR_PARK_OBJECTIVE_TAB_TIP                                 )",
+              "sourceStringIds": [
+                "STR_PARK_OBJECTIVE_TAB_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "EntranceFeeUnlocked is false or ParkFlag.noMoney; price is label, stepper buttons hidden",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Park:WIDX_TAB_7"
+        ],
+        "unit": "Park",
+        "controlId": "WIDX_TAB_7",
+        "screenId": "operations:park:05-ticket-free-locked",
+        "region": [
+          100,
+          644,
+          236,
+          64
+        ],
+        "visualKind": "navigation-tab",
+        "label": "奖项",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "tab",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Park.cpp",
+            "line": 75
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "tab",
+              "sourcePath": "src/openrct2-ui/windows/Park.cpp",
+              "line": 107,
+              "sourceExpression": "makeTab   ({ 189, 17 }, STR_PARK_AWARDS_TAB_TIP                                    )",
+              "sourceStringIds": [
+                "STR_PARK_AWARDS_TAB_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "EntranceFeeUnlocked is false or ParkFlag.noMoney; price is label, stepper buttons hidden",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Park:WIDX_PRICE_LABEL"
+        ],
+        "unit": "Park",
+        "controlId": "WIDX_PRICE_LABEL",
+        "screenId": "operations:park:05-ticket-free-locked",
+        "region": [
+          840,
+          366,
+          850,
+          44
+        ],
+        "visualKind": "label",
+        "label": "门票价格",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "label",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Park.cpp",
+            "line": 86
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "label",
+              "sourcePath": "src/openrct2-ui/windows/Park.cpp",
+              "line": 133,
+              "sourceExpression": "makeWidget                ({ 21, 50}, {126, 14}, WidgetType::label,   WindowColour::secondary, STR_ADMISSION_PRICE)",
+              "sourceStringIds": [
+                "STR_ADMISSION_PRICE"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "EntranceFeeUnlocked is false or ParkFlag.noMoney; price is label, stepper buttons hidden",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Park:WIDX_PRICE"
+        ],
+        "unit": "Park",
+        "controlId": "WIDX_PRICE",
+        "screenId": "operations:park:05-ticket-free-locked",
+        "region": [
+          840,
+          438,
+          860,
+          90
+        ],
+        "visualKind": "read-only-price",
+        "label": "免费",
+        "state": "disabled",
+        "parentControl": null,
+        "sourceWidgetType": "spinner",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Park.cpp",
+            "line": 87
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "spinner",
+              "sourcePath": "src/openrct2-ui/windows/Park.cpp",
+              "line": 134,
+              "sourceExpression": "makeHoldableSpinnerWidgets({147, 50}, { 76, 14}, WidgetType::spinner, WindowColour::secondary                     )",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": "value"
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "EntranceFeeUnlocked is false or ParkFlag.noMoney; price is label, stepper buttons hidden",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Park:WIDX_CLOSE"
+        ],
+        "unit": "Park",
+        "controlId": "WIDX_CLOSE",
+        "screenId": "operations:park:05-ticket-free-locked",
+        "region": [
+          1568,
+          916,
+          220,
+          70
+        ],
+        "visualKind": "button",
+        "label": "返回园区",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "closeBox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Park.cpp",
+            "line": 67
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "closeBox",
+              "sourcePath": "src/openrct2-ui/windows/Park.cpp",
+              "line": 99,
+              "sourceExpression": "makeWindowShim(kWindowTitle, { width, kWindowHeight })",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": "closeBox"
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/Park.cpp",
+            "line": 515,
+            "expression": "            setWidgetDisabled(WIDX_OPEN_OR_CLOSE, disableOpenClose);             setWidgetDisabled(WIDX_CLOSE_LIGHT, disableOpenClose);             setWidgetDisabled(WIDX_OPEN_LIGHT, disableOpenClose); "
+          },
+          {
+            "path": "src/openrct2-ui/windows/Park.cpp",
+            "line": 534,
+            "expression": "                widgets[WIDX_OPEN_OR_CLOSE].setHidden();                 widgets[WIDX_CLOSE_LIGHT].setVisible();                 widgets[WIDX_OPEN_LIGHT].setVisible();                 y = widgets[WIDX_OPEN_LIGHT].bottom + 5;"
+          },
+          {
+            "path": "src/openrct2-ui/windows/Park.cpp",
+            "line": 545,
+            "expression": "                widgets[WIDX_OPEN_OR_CLOSE].setVisible();                 widgets[WIDX_CLOSE_LIGHT].setHidden();                 widgets[WIDX_OPEN_LIGHT].setHidden();                 y = widgets[WIDX_PAGE_BACKGROUND].top + 6;"
+          }
+        ],
+        "displayedCondition": "EntranceFeeUnlocked is false or ParkFlag.noMoney; price is label, stepper buttons hidden",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      }
+    ],
+    "scope": "Functional product layout proposal, not a technical styleboard or runtime result.",
+    "decorativeArtPolicy": "Existing painted assets and separate text; lines/graphs are data overlays.",
+    "sourceEvidenceNotes": [
+      "Park.cpp:837-860 entrance price unlocked/read-only conditions"
+    ],
+    "noInventedControl": "Park has no same-price-throughout-park checkbox; those source controls belong to Ride sale items."
+  },
+  "status": "produced_pending_review"
+}

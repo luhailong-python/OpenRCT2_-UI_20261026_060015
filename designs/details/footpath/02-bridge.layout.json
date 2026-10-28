@@ -1,0 +1,1392 @@
+{
+  "schemaVersion": 1,
+  "screenId": "detail:footpath:02-bridge",
+  "title": "步道建设  桥梁与隧道",
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "origin": "top-left",
+  "textLayers": [
+    {
+      "id": "text-001",
+      "text": "步道建设",
+      "role": "dynamic-text",
+      "region": [
+        620,
+        66,
+        680,
+        75
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 46,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 65,
+      "wrappedLines": [
+        "步道建设"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-002",
+      "text": "地面铺设",
+      "role": "dynamic-text",
+      "region": [
+        128,
+        208,
+        290,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 26,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 36,
+      "wrappedLines": [
+        "地面铺设"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-003",
+      "text": "桥梁与隧道",
+      "role": "dynamic-text",
+      "region": [
+        470,
+        208,
+        290,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 26,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 36,
+      "wrappedLines": [
+        "桥梁与隧道"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-004",
+      "text": "区域拖建",
+      "role": "dynamic-text",
+      "region": [
+        812,
+        208,
+        290,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 26,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 36,
+      "wrappedLines": [
+        "区域拖建"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-005",
+      "text": "桥梁与隧道",
+      "role": "dynamic-text",
+      "region": [
+        118,
+        300,
+        1664,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 32,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 45,
+      "wrappedLines": [
+        "桥梁与隧道"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-006",
+      "text": "美术设计样例 · 名称 / 数值待定",
+      "role": "dynamic-text",
+      "region": [
+        600,
+        1046,
+        720,
+        28
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "美术设计样例 · 名称 / 数值待定"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-007",
+      "text": "普通道路路面",
+      "role": "dynamic-text",
+      "region": [
+        118,
+        382,
+        812,
+        34
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "普通道路路面"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-008",
+      "text": "青石步道",
+      "role": "dynamic-text",
+      "region": [
+        150,
+        426,
+        708,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "青石步道"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-009",
+      "text": "▼",
+      "role": "dynamic-text",
+      "region": [
+        871,
+        426,
+        40,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "▼"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-010",
+      "text": "排队道路路面",
+      "role": "dynamic-text",
+      "region": [
+        974,
+        382,
+        812,
+        34
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "排队道路路面"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-011",
+      "text": "玉绿排队路",
+      "role": "dynamic-text",
+      "region": [
+        1006,
+        426,
+        708,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "玉绿排队路"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-012",
+      "text": "▼",
+      "role": "dynamic-text",
+      "region": [
+        1727,
+        426,
+        40,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "▼"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-013",
+      "text": "道路栏杆",
+      "role": "dynamic-text",
+      "region": [
+        118,
+        477,
+        812,
+        34
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "道路栏杆"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-014",
+      "text": "金玉栏杆",
+      "role": "dynamic-text",
+      "region": [
+        150,
+        521,
+        708,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "金玉栏杆"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-015",
+      "text": "▼",
+      "role": "dynamic-text",
+      "region": [
+        871,
+        521,
+        40,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "▼"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-016",
+      "text": "西北",
+      "role": "dynamic-text",
+      "region": [
+        994,
+        497,
+        772,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "西北"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-017",
+      "text": "东北",
+      "role": "dynamic-text",
+      "region": [
+        138,
+        592,
+        772,
+        37
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "东北"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-018",
+      "text": "西南",
+      "role": "dynamic-text",
+      "region": [
+        994,
+        592,
+        772,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "西南"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-019",
+      "text": "东南",
+      "role": "dynamic-text",
+      "region": [
+        138,
+        687,
+        772,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "东南"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-020",
+      "text": "下坡",
+      "role": "dynamic-text",
+      "region": [
+        994,
+        687,
+        772,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "下坡"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-021",
+      "text": "水平",
+      "role": "dynamic-text",
+      "region": [
+        138,
+        782,
+        772,
+        37
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "水平"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-022",
+      "text": "上坡",
+      "role": "dynamic-text",
+      "region": [
+        994,
+        782,
+        772,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "上坡"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-023",
+      "text": "桥梁与隧道逐段设置方向与坡度；地面和区域模式直接选择位置。",
+      "role": "dynamic-text",
+      "region": [
+        117,
+        870,
+        1670,
+        39
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#7A745E",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "桥梁与隧道逐段设置方向与坡度；地面和区域模式直接选择位置。"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-024",
+      "text": "移除上一段",
+      "role": "dynamic-text",
+      "region": [
+        1608,
+        924,
+        154,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "移除上一段"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-025",
+      "text": "建造道路",
+      "role": "dynamic-text",
+      "region": [
+        1380,
+        924,
+        154,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "建造道路"
+      ],
+      "dynamic": true
+    }
+  ],
+  "artAndControlLayers": [
+    {
+      "role": "park-background",
+      "asset": "assets/backgrounds/park-day-native.png",
+      "region": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "resize": "cover"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_main.png",
+      "region": [
+        52,
+        96,
+        1816,
+        930
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "title-plaque",
+      "asset": "assets/common/title_plate.png",
+      "region": [
+        520,
+        22,
+        880,
+        170
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "close",
+      "asset": "assets/common/close.png",
+      "region": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        108,
+        200,
+        330,
+        66
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_selected.png",
+      "region": [
+        450,
+        200,
+        330,
+        66
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        792,
+        200,
+        330,
+        66
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "value-field",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        114,
+        418,
+        820,
+        52
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Footpath:WIDX_FOOTPATH_TYPE"
+      ],
+      "unit": "Footpath",
+      "controlId": "WIDX_FOOTPATH_TYPE",
+      "screenId": "detail:footpath:02-bridge",
+      "region": [
+        114,
+        418,
+        746,
+        52
+      ],
+      "visualKind": "dropdown",
+      "label": "普通道路路面",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Footpath.cpp",
+          "line": 166
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 195,
+            "sourceExpression": "makeWidget({ 6,  30}, { 47, 36}, WidgetType::flatBtn,  WindowColour::secondary, 0xFFFFFFFF,                             STR_FOOTPATH_TIP                                   )",
+            "sourceStringIds": [
+              "STR_FOOTPATH_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "bridgeOrTunnel=True; 方向可用性还受 validDirections 约束，此例为四向可用。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "value-field",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        970,
+        418,
+        820,
+        52
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Footpath:WIDX_QUEUELINE_TYPE"
+      ],
+      "unit": "Footpath",
+      "controlId": "WIDX_QUEUELINE_TYPE",
+      "screenId": "detail:footpath:02-bridge",
+      "region": [
+        970,
+        418,
+        746,
+        52
+      ],
+      "visualKind": "dropdown",
+      "label": "排队道路路面",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Footpath.cpp",
+          "line": 167
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 196,
+            "sourceExpression": "makeWidget({53,  30}, { 47, 36}, WidgetType::flatBtn,  WindowColour::secondary, 0xFFFFFFFF,                             STR_QUEUE_LINE_PATH_TIP                            )",
+            "sourceStringIds": [
+              "STR_QUEUE_LINE_PATH_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "bridgeOrTunnel=True; 方向可用性还受 validDirections 约束，此例为四向可用。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "value-field",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        114,
+        513,
+        820,
+        52
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Footpath:WIDX_RAILINGS_TYPE"
+      ],
+      "unit": "Footpath",
+      "controlId": "WIDX_RAILINGS_TYPE",
+      "screenId": "detail:footpath:02-bridge",
+      "region": [
+        114,
+        513,
+        746,
+        52
+      ],
+      "visualKind": "dropdown",
+      "label": "道路栏杆",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Footpath.cpp",
+          "line": 168
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 197,
+            "sourceExpression": "makeWidget({29,  69}, { 47, 36}, WidgetType::flatBtn,  WindowColour::secondary, 0xFFFFFFFF,                             STR_OBJECT_SELECTION_FOOTPATH_RAILINGS             )",
+            "sourceStringIds": [
+              "STR_OBJECT_SELECTION_FOOTPATH_RAILINGS"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Footpath.cpp",
+          "line": 568,
+          "expression": "             widgets[WIDX_RAILINGS_TYPE].setVisible(gFootpathSelection.legacyPath == kObjectEntryIndexNull);         } "
+        }
+      ],
+      "displayedCondition": "bridgeOrTunnel=True; 方向可用性还受 validDirections 约束，此例为四向可用。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        970,
+        489,
+        820,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Footpath:WIDX_DIRECTION_NW"
+      ],
+      "unit": "Footpath",
+      "controlId": "WIDX_DIRECTION_NW",
+      "screenId": "detail:footpath:02-bridge",
+      "region": [
+        970,
+        489,
+        820,
+        68
+      ],
+      "visualKind": "button",
+      "label": "西北",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Footpath.cpp",
+          "line": 171
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 201,
+            "sourceExpression": "makeWidget({53, 127}, { 45, 29}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_CONSTRUCTION_DIRECTION_NE),     STR_DIRECTION_TIP                              )",
+            "sourceStringIds": [
+              "STR_DIRECTION_TIP"
+            ],
+            "originalSpriteIds": [
+              "SPR_CONSTRUCTION_DIRECTION_NE"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Footpath.cpp",
+          "line": 1775,
+          "expression": "            };             setWidgetDisabled(WIDX_DIRECTION_NW, directionDisabled(0));             setWidgetDisabled(WIDX_DIRECTION_NE, directionDisabled(1));             setWidgetDisabled(WIDX_DIRECTION_SW, directionDisabled(2));"
+        }
+      ],
+      "displayedCondition": "bridgeOrTunnel=True; 方向可用性还受 validDirections 约束，此例为四向可用。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/primary_selected.png",
+      "region": [
+        114,
+        584,
+        820,
+        68
+      ],
+      "resize": "nine",
+      "state": "selected"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Footpath:WIDX_DIRECTION_NE"
+      ],
+      "unit": "Footpath",
+      "controlId": "WIDX_DIRECTION_NE",
+      "screenId": "detail:footpath:02-bridge",
+      "region": [
+        114,
+        584,
+        820,
+        68
+      ],
+      "visualKind": "button",
+      "label": "东北",
+      "state": "selected",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Footpath.cpp",
+          "line": 172
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 202,
+            "sourceExpression": "makeWidget({53, 156}, { 45, 29}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_CONSTRUCTION_DIRECTION_SE),     STR_DIRECTION_TIP                              )",
+            "sourceStringIds": [
+              "STR_DIRECTION_TIP"
+            ],
+            "originalSpriteIds": [
+              "SPR_CONSTRUCTION_DIRECTION_SE"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Footpath.cpp",
+          "line": 1776,
+          "expression": "            setWidgetDisabled(WIDX_DIRECTION_NW, directionDisabled(0));             setWidgetDisabled(WIDX_DIRECTION_NE, directionDisabled(1));             setWidgetDisabled(WIDX_DIRECTION_SW, directionDisabled(2));             setWidgetDisabled(WIDX_DIRECTION_SE, directionDisabled(3));"
+        }
+      ],
+      "displayedCondition": "bridgeOrTunnel=True; 方向可用性还受 validDirections 约束，此例为四向可用。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        970,
+        584,
+        820,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Footpath:WIDX_DIRECTION_SW"
+      ],
+      "unit": "Footpath",
+      "controlId": "WIDX_DIRECTION_SW",
+      "screenId": "detail:footpath:02-bridge",
+      "region": [
+        970,
+        584,
+        820,
+        68
+      ],
+      "visualKind": "button",
+      "label": "西南",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Footpath.cpp",
+          "line": 173
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 203,
+            "sourceExpression": "makeWidget({ 8, 156}, { 45, 29}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_CONSTRUCTION_DIRECTION_SW),     STR_DIRECTION_TIP                              )",
+            "sourceStringIds": [
+              "STR_DIRECTION_TIP"
+            ],
+            "originalSpriteIds": [
+              "SPR_CONSTRUCTION_DIRECTION_SW"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Footpath.cpp",
+          "line": 1777,
+          "expression": "            setWidgetDisabled(WIDX_DIRECTION_NE, directionDisabled(1));             setWidgetDisabled(WIDX_DIRECTION_SW, directionDisabled(2));             setWidgetDisabled(WIDX_DIRECTION_SE, directionDisabled(3)); "
+        }
+      ],
+      "displayedCondition": "bridgeOrTunnel=True; 方向可用性还受 validDirections 约束，此例为四向可用。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        114,
+        679,
+        820,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Footpath:WIDX_DIRECTION_SE"
+      ],
+      "unit": "Footpath",
+      "controlId": "WIDX_DIRECTION_SE",
+      "screenId": "detail:footpath:02-bridge",
+      "region": [
+        114,
+        679,
+        820,
+        68
+      ],
+      "visualKind": "button",
+      "label": "东南",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Footpath.cpp",
+          "line": 174
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 204,
+            "sourceExpression": "makeWidget({ 8, 127}, { 45, 29}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_CONSTRUCTION_DIRECTION_NW),     STR_DIRECTION_TIP                              )",
+            "sourceStringIds": [
+              "STR_DIRECTION_TIP"
+            ],
+            "originalSpriteIds": [
+              "SPR_CONSTRUCTION_DIRECTION_NW"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Footpath.cpp",
+          "line": 1778,
+          "expression": "            setWidgetDisabled(WIDX_DIRECTION_SW, directionDisabled(2));             setWidgetDisabled(WIDX_DIRECTION_SE, directionDisabled(3));              // Bridge-mode group / slope widgets"
+        }
+      ],
+      "displayedCondition": "bridgeOrTunnel=True; 方向可用性还受 validDirections 约束，此例为四向可用。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        970,
+        679,
+        820,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Footpath:WIDX_SLOPEDOWN"
+      ],
+      "unit": "Footpath",
+      "controlId": "WIDX_SLOPEDOWN",
+      "screenId": "detail:footpath:02-bridge",
+      "region": [
+        970,
+        679,
+        820,
+        68
+      ],
+      "visualKind": "button",
+      "label": "下坡",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Footpath.cpp",
+          "line": 177
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 208,
+            "sourceExpression": "makeWidget({17, 207}, { 24, 24}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_RIDE_CONSTRUCTION_SLOPE_DOWN),  STR_SLOPE_DOWN_TIP                             )",
+            "sourceStringIds": [
+              "STR_SLOPE_DOWN_TIP"
+            ],
+            "originalSpriteIds": [
+              "SPR_RIDE_CONSTRUCTION_SLOPE_DOWN"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Footpath.cpp",
+          "line": 1783,
+          "expression": "            setWidgetDisabled(WIDX_SLOPE_GROUP, !bridgeMode);             setWidgetDisabled(WIDX_SLOPEDOWN, !bridgeMode);             setWidgetDisabled(WIDX_LEVEL, !bridgeMode);             setWidgetDisabled(WIDX_SLOPEUP, !bridgeMode);"
+        }
+      ],
+      "displayedCondition": "bridgeOrTunnel=True; 方向可用性还受 validDirections 约束，此例为四向可用。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/primary_selected.png",
+      "region": [
+        114,
+        774,
+        820,
+        68
+      ],
+      "resize": "nine",
+      "state": "selected"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Footpath:WIDX_LEVEL"
+      ],
+      "unit": "Footpath",
+      "controlId": "WIDX_LEVEL",
+      "screenId": "detail:footpath:02-bridge",
+      "region": [
+        114,
+        774,
+        820,
+        68
+      ],
+      "visualKind": "button",
+      "label": "水平",
+      "state": "selected",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Footpath.cpp",
+          "line": 178
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 209,
+            "sourceExpression": "makeWidget({41, 207}, { 24, 24}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_RIDE_CONSTRUCTION_SLOPE_LEVEL), STR_LEVEL_TIP                                  )",
+            "sourceStringIds": [
+              "STR_LEVEL_TIP"
+            ],
+            "originalSpriteIds": [
+              "SPR_RIDE_CONSTRUCTION_SLOPE_LEVEL"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Footpath.cpp",
+          "line": 1784,
+          "expression": "            setWidgetDisabled(WIDX_SLOPEDOWN, !bridgeMode);             setWidgetDisabled(WIDX_LEVEL, !bridgeMode);             setWidgetDisabled(WIDX_SLOPEUP, !bridgeMode);             setWidgetDisabled(WIDX_CONSTRUCT, !bridgeMode);"
+        }
+      ],
+      "displayedCondition": "bridgeOrTunnel=True; 方向可用性还受 validDirections 约束，此例为四向可用。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        970,
+        774,
+        820,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Footpath:WIDX_SLOPEUP"
+      ],
+      "unit": "Footpath",
+      "controlId": "WIDX_SLOPEUP",
+      "screenId": "detail:footpath:02-bridge",
+      "region": [
+        970,
+        774,
+        820,
+        68
+      ],
+      "visualKind": "button",
+      "label": "上坡",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Footpath.cpp",
+          "line": 179
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 210,
+            "sourceExpression": "makeWidget({65, 207}, { 24, 24}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_RIDE_CONSTRUCTION_SLOPE_UP),    STR_SLOPE_UP_TIP                               )",
+            "sourceStringIds": [
+              "STR_SLOPE_UP_TIP"
+            ],
+            "originalSpriteIds": [
+              "SPR_RIDE_CONSTRUCTION_SLOPE_UP"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Footpath.cpp",
+          "line": 1785,
+          "expression": "            setWidgetDisabled(WIDX_LEVEL, !bridgeMode);             setWidgetDisabled(WIDX_SLOPEUP, !bridgeMode);             setWidgetDisabled(WIDX_CONSTRUCT, !bridgeMode);             setWidgetDisabled(WIDX_REMOVE, !bridgeMode);"
+        }
+      ],
+      "displayedCondition": "bridgeOrTunnel=True; 方向可用性还受 validDirections 约束，此例为四向可用。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1584,
+        916,
+        202,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Footpath:WIDX_REMOVE"
+      ],
+      "unit": "Footpath",
+      "controlId": "WIDX_REMOVE",
+      "screenId": "detail:footpath:02-bridge",
+      "region": [
+        1584,
+        916,
+        202,
+        68
+      ],
+      "visualKind": "button",
+      "label": "移除上一段",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Footpath.cpp",
+          "line": 181
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 212,
+            "sourceExpression": "makeWidget({30, 335}, { 46, 24}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_DEMOLISH_CURRENT_SECTION),      STR_REMOVE_PREVIOUS_FOOTPATH_SECTION_TIP       )",
+            "sourceStringIds": [
+              "STR_REMOVE_PREVIOUS_FOOTPATH_SECTION_TIP"
+            ],
+            "originalSpriteIds": [
+              "SPR_DEMOLISH_CURRENT_SECTION"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Footpath.cpp",
+          "line": 1787,
+          "expression": "            setWidgetDisabled(WIDX_CONSTRUCT, !bridgeMode);             setWidgetDisabled(WIDX_REMOVE, !bridgeMode);              invalidate();"
+        }
+      ],
+      "displayedCondition": "bridgeOrTunnel=True; 方向可用性还受 validDirections 约束，此例为四向可用。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1356,
+        916,
+        202,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Footpath:WIDX_CONSTRUCT"
+      ],
+      "unit": "Footpath",
+      "controlId": "WIDX_CONSTRUCT",
+      "screenId": "detail:footpath:02-bridge",
+      "region": [
+        1356,
+        916,
+        202,
+        68
+      ],
+      "visualKind": "button",
+      "label": "建造道路",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Footpath.cpp",
+          "line": 180
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 211,
+            "sourceExpression": "makeWidget({ 8, 242}, { 90, 90}, WidgetType::flatBtn,  WindowColour::secondary, 0xFFFFFFFF,                                 STR_CONSTRUCT_THE_SELECTED_FOOTPATH_SECTION_TIP)",
+            "sourceStringIds": [
+              "STR_CONSTRUCT_THE_SELECTED_FOOTPATH_SECTION_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Footpath.cpp",
+          "line": 557,
+          "expression": "            // Enable / disable construct button             widgets[WIDX_CONSTRUCT].setVisible(_footpathConstructionMode == PathConstructionMode::bridgeOrTunnel);  #ifndef DISABLE_NETWORK"
+        },
+        {
+          "path": "src/openrct2-ui/windows/Footpath.cpp",
+          "line": 565,
+          "expression": "            }             setWidgetDisabled(WIDX_CONSTRUCT_DRAG_AREA, !canDrag); #endif "
+        },
+        {
+          "path": "src/openrct2-ui/windows/Footpath.cpp",
+          "line": 1786,
+          "expression": "            setWidgetDisabled(WIDX_SLOPEUP, !bridgeMode);             setWidgetDisabled(WIDX_CONSTRUCT, !bridgeMode);             setWidgetDisabled(WIDX_REMOVE, !bridgeMode); "
+        }
+      ],
+      "displayedCondition": "bridgeOrTunnel=True; 方向可用性还受 validDirections 约束，此例为四向可用。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    }
+  ],
+  "dataDiagrams": [
+    {
+      "role": "data-rule",
+      "points": [
+        [
+          118,
+          358
+        ],
+        [
+          1786,
+          358
+        ]
+      ],
+      "color": "#B28C43",
+      "width": 1
+    }
+  ],
+  "layoutIssues": [],
+  "fontDistribution": "Official OFL-licensed fonts are included in assets/fonts; see records/font-sources.json.",
+  "status": "produced_pending_review"
+}

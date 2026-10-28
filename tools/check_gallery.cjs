@@ -1,0 +1,33 @@
+// Offline gallery interaction QA, not a game/Unity test.
+const fs=require('fs'),path=require('path'),crypto=require('crypto');
+const {pathToFileURL}=require('url');
+const {chromium}=require('C:/Users/luyua/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const root=path.resolve(__dirname,'..');
+const hash=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+(async()=>{
+ const exe=['C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe','C:/Program Files/Google/Chrome/Application/chrome.exe'].find(p=>fs.existsSync(p));
+ const browser=await chromium.launch({headless:true,...(exe?{executablePath:exe}:{})});
+ const page=await browser.newPage({viewport:{width:1440,height:1000}});const errors=[];
+ page.on('pageerror',e=>errors.push(e.message));page.on('requestfailed',r=>errors.push(r.url()+': '+r.failure()?.errorText));
+ await page.goto(pathToFileURL(path.join(root,'index.html')).href);await page.waitForSelector('.tile img');
+ const all=await page.locator('.tile').count();
+ const expected=JSON.parse(fs.readFileSync(path.join(root,'previews/gallery.json'),'utf8')).length;
+ const checks=[{name:'initial_count',passed:all===expected,actual:all,expected}];
+ await page.locator('#q').fill('财务');const searched=await page.locator('.tile').count();checks.push({name:'search',passed:searched>0&&searched<all,actual:searched});
+ await page.locator('.tile button').first().click();await page.waitForFunction(()=>document.querySelector('#large').complete&&document.querySelector('#large').naturalWidth===1920);
+ const first=await page.locator('#large').getAttribute('src');await page.locator('#next').click();const next=await page.locator('#large').getAttribute('src');checks.push({name:'modal_next',passed:first!==next});
+ await page.keyboard.press('Escape');checks.push({name:'escape_close',passed:!(await page.locator('#viewer').evaluate(e=>e.open))});
+ await page.locator('#reset').click();await page.locator('#kind').selectOption('state');const stateCount=await page.locator('.tile').count();checks.push({name:'state_filter',passed:stateCount===125,actual:stateCount});
+ await page.locator('#kind').selectOption('detail');const detailCount=await page.locator('.tile').count();checks.push({name:'product_detail_filter',passed:detailCount===120,actual:detailCount});
+ await page.locator('#reset').click();
+ const missing=[];const data=JSON.parse(fs.readFileSync(path.join(root,'previews/gallery.json'),'utf8'));
+ for(const r of data)for(const k of ['file','thumb','layout','sources'])if(!r[k]||!fs.existsSync(path.join(root,r[k])))missing.push({id:r.id,k,path:r[k]});
+ checks.push({name:'all_gallery_files_exist',passed:missing.length===0,missing});
+ const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth);checks.push({name:'desktop_viewer_no_horizontal_overflow',passed:!overflow});
+ checks.push({name:'browser_no_errors',passed:errors.length===0,errors});
+ const dest=path.join(root,'previews/gallery-desktop.png');await page.screenshot({path:dest});
+ const report={verifiedAt:new Date().toISOString(),scope:'offline_image_gallery_only_not_game_or_Unity',browser:await browser.version(),checks,status:checks.every(c=>c.passed)?'passed':'failed'};
+ fs.writeFileSync(path.join(root,'records/gallery-qa.json'),JSON.stringify(report,null,2));
+ fs.writeFileSync(dest+'.source.json',JSON.stringify({file:'previews/gallery-desktop.png',sha256:hash(dest),operation:'headless_browser_screenshot_of_local_review_gallery_not_AI_generation',derivedFrom:[{file:'index.html',sha256:hash(path.join(root,'index.html'))},{file:'previews/gallery.json',sha256:hash(path.join(root,'previews/gallery.json'))}],report:'records/gallery-qa.json'},null,2));
+ await browser.close();console.log(JSON.stringify(report));
+})().catch(e=>{console.error(e);process.exit(1)});

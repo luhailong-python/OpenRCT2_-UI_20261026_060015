@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/operations_ride_14-blueprint-entry-locked.jpg",
+  "sha256": "88909a2bff425d51fca0527c7d69c04db700fc244d57c998a514bfcb489761d5",
+  "derivedFrom": [
+    {
+      "file": "designs/details/ride-ops/14-blueprint-entry-locked.png",
+      "sha256": "1f7755ffdf438dac18753f24b9046bc9299f0bd7cea167f7557e0bfb3572e2db",
+      "sourceRecord": "designs/details/ride-ops/14-blueprint-entry-locked.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

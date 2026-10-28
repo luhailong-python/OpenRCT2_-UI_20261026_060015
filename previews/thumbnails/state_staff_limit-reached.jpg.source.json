@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_staff_limit-reached.jpg",
+  "sha256": "cbc8de6de90d320fda8d9337071a5fde2e97a584788930b902643a250ca1118b",
+  "derivedFrom": [
+    {
+      "file": "previews/states/staff/limit-reached.png",
+      "sha256": "960dd66e5702bdd66fc3827ff63d2075e231676bab9ce2fa36fff00585f43ece",
+      "sourceRecord": "previews/states/staff/limit-reached.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

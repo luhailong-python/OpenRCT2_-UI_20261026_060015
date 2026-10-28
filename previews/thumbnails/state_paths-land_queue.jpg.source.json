@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_paths-land_queue.jpg",
+  "sha256": "33aacd8dd4cba4083d12f4d8c823a3778c44106b05b3fc4d4d1382bd00a6e716",
+  "derivedFrom": [
+    {
+      "file": "previews/states/paths-land/queue.png",
+      "sha256": "5262013cdac0bbddad09d31574e179aeab41561f18bee70e8aa5e2fae356d8e9",
+      "sourceRecord": "previews/states/paths-land/queue.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

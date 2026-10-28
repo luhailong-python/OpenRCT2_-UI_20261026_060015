@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_track-build_normal.jpg",
+  "sha256": "6cbf3c4b335de6f1704b518de84eb00118bac6343b16c8e820842486f7862131",
+  "derivedFrom": [
+    {
+      "file": "previews/states/track-build/normal.png",
+      "sha256": "9ec442ba547acf79caed0ec06aa725c6dfea1288e33b3722ff829c71b86a677e",
+      "sourceRecord": "previews/states/track-build/normal.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

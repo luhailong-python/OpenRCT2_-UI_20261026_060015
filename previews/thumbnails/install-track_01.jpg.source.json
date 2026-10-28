@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/install-track_01.jpg",
+  "sha256": "d6b2f9a3b5daae390fb24a123cd4339fdb86664944ce8116d2885e432fe0514f",
+  "derivedFrom": [
+    {
+      "file": "designs/install-track/01-安装.png",
+      "sha256": "931ba0c7791e774fefcac84cc7e68c2e46e3281821b2483eae0aaaff10d01b4a",
+      "sourceRecord": "designs/install-track/01-安装.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

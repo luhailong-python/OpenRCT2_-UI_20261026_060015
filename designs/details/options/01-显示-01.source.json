@@ -1,0 +1,792 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/details/options/01-显示-01.png",
+  "sha256": "4cb20aa22cdfc586a5f1cfdf661fd9a7c4bccb82100f9079ff52a7a27d6ef11f",
+  "exportedAt": "2026-10-26T08:00:04.098038-04:00",
+  "width": 1920,
+  "height": 1080,
+  "format": "PNG",
+  "operation": "composite_preview_not_native_generation",
+  "process": [
+    "Nine-slice/contain/cover composition of painted PNG sprites",
+    "Separate Chinese text typesetting and data diagrams"
+  ],
+  "resampling": "LANCZOS where art is fitted; output dimensions do not represent new native generated detail.",
+  "nativeModelClaim": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidencePolicy": "Resolve original AI model/quality through each source asset record; unreported values remain unconfirmed.",
+  "derivedFrom": [
+    {
+      "file": "assets/backgrounds/park-day-native.png",
+      "sha256": "27c3ac998fcd81e675c9a05712ead25c83443b133844c169d1476c3cebe25712",
+      "nativeDimensions": [
+        1672,
+        941
+      ],
+      "generationRecord": "assets/backgrounds/park-day-native.png.generation.json",
+      "derivationRecord": "assets/slice-manifest.json"
+    },
+    {
+      "file": "assets/common/panel_main.png",
+      "sha256": "704856762248133110624f38365e0ff337dd1f2f6304f66298e2230077ebca00",
+      "nativeDimensions": [
+        619,
+        610
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_main.png.source.json"
+    },
+    {
+      "file": "assets/common/title_plate.png",
+      "sha256": "f1011dd30d1ef42cbeedf64f31025c6c77c91ffbbcdd09ef74c065ad1d91ddfe",
+      "nativeDimensions": [
+        594,
+        195
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/title_plate.png.source.json"
+    },
+    {
+      "file": "assets/common/close.png",
+      "sha256": "f9089fdc15bfbfbd496d9c02de94c46b0e1e4052fffa9689de0b461e043737ec",
+      "nativeDimensions": [
+        184,
+        184
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/close.png.source.json"
+    },
+    {
+      "file": "assets/common/panel_card.png",
+      "sha256": "b82ed16e818b3bb86c16a68453bc4b73f1764c6fdb4541c2e470e5c60789568e",
+      "nativeDimensions": [
+        589,
+        558
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_card.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_selected.png",
+      "sha256": "119a81554b9e332d698f5c704813cb047fcd4c5c71e9e5c36c7b6df6b4a789b9",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_selected.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_normal.png",
+      "sha256": "9327a3d9577111e5985e3453a8a201010887c606a094b7e080421417aef3f92e",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/secondary_normal.png",
+      "sha256": "5f6418c0ede62320bc017ef1f00ec1d60a5d5fc34dac8c4e96d0016e6523881f",
+      "nativeDimensions": [
+        256,
+        112
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/secondary_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/minus.png",
+      "sha256": "dbbb2ba1960865f8e4c2d82d877c08a21bd29d753a8b26d604220e3d24a6575d",
+      "nativeDimensions": [
+        184,
+        184
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/minus.png.source.json"
+    },
+    {
+      "file": "assets/common/plus.png",
+      "sha256": "324062095caa2442389b3c6bf725b6956ad555e022ef54e6421e26bed292bc88",
+      "nativeDimensions": [
+        184,
+        184
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/plus.png.source.json"
+    },
+    {
+      "file": "assets/common/checkbox_off.png",
+      "sha256": "679e9f340dc1923bea8ed6473870a6fe3005881c5a9974b9e03f1b4647cec9b2",
+      "nativeDimensions": [
+        128,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/checkbox_off.png.source.json"
+    },
+    {
+      "file": "assets/common/checkbox_on.png",
+      "sha256": "b986cc788cbae485e12a8a778be057715201d11e3d1154776881966b680b77b9",
+      "nativeDimensions": [
+        128,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/checkbox_on.png.source.json"
+    }
+  ],
+  "layoutRecord": "designs/details/options/01-显示-01.layout.json",
+  "functionalReference": {
+    "functionalRepository": "https://github.com/OpenRCT2/OpenRCT2.git",
+    "commit": "52a55c3e8da5972460642bdfed61d091fe9cabfd",
+    "sourceUnit": "Options",
+    "sourceFiles": [
+      "src/openrct2-ui/windows/Options.cpp"
+    ],
+    "condition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+    "scope": "Complete controls arranged as an actual product UI proposal; no runtime verification.",
+    "sourceControls": [
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_FULLSCREEN"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_FULLSCREEN",
+        "screenId": "detail:options:01-显示-01",
+        "region": [
+          394,
+          336,
+          608,
+          52
+        ],
+        "visualKind": "dropdown",
+        "label": "窗口模式",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "dropdownMenu",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 107
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "dropdownMenu",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 286,
+              "sourceExpression": "makeWidget        ({155,  68}, {145,  14}, WidgetType::dropdownMenu, WindowColour::secondary                                                                                  )",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_FULLSCREEN_DROPDOWN"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_FULLSCREEN_DROPDOWN",
+        "screenId": "detail:options:01-显示-01",
+        "region": [
+          1006,
+          336,
+          66,
+          52
+        ],
+        "visualKind": "dropdown-button",
+        "label": "窗口模式选择",
+        "state": "normal",
+        "parentControl": "WIDX_FULLSCREEN",
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 108
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 287,
+              "sourceExpression": "makeWidget        ({288,  69}, { 11,  12}, WidgetType::button,       WindowColour::secondary, STR_DROPDOWN_GLYPH,                    STR_FULLSCREEN_MODE_TIP                  )",
+              "sourceStringIds": [
+                "STR_DROPDOWN_GLYPH",
+                "STR_FULLSCREEN_MODE_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_RESOLUTION"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_RESOLUTION",
+        "screenId": "detail:options:01-显示-01",
+        "region": [
+          1112,
+          336,
+          608,
+          52
+        ],
+        "visualKind": "dropdown",
+        "label": "分辨率",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "dropdownMenu",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 110
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "dropdownMenu",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 289,
+              "sourceExpression": "makeWidget        ({155,  85}, {145,  14}, WidgetType::dropdownMenu, WindowColour::secondary, kStringIdEmpty                                                    )",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 992,
+            "expression": "                != static_cast<int32_t>(FullscreenMode::fullscreen);             setWidgetDisabled(WIDX_RESOLUTION_DROPDOWN, disableResolution);             setWidgetDisabled(WIDX_RESOLUTION, disableResolution);             setWidgetDisabled(WIDX_RESOLUTION_LABEL, disableResolution);"
+          },
+          {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 993,
+            "expression": "            setWidgetDisabled(WIDX_RESOLUTION_DROPDOWN, disableResolution);             setWidgetDisabled(WIDX_RESOLUTION, disableResolution);             setWidgetDisabled(WIDX_RESOLUTION_LABEL, disableResolution); "
+          },
+          {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 994,
+            "expression": "            setWidgetDisabled(WIDX_RESOLUTION, disableResolution);             setWidgetDisabled(WIDX_RESOLUTION_LABEL, disableResolution);              setCheckboxValue(WIDX_SHOW_FPS_CHECKBOX, Config::Get().general.showFPS);"
+          }
+        ],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_RESOLUTION_DROPDOWN"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_RESOLUTION_DROPDOWN",
+        "screenId": "detail:options:01-显示-01",
+        "region": [
+          1724,
+          336,
+          66,
+          52
+        ],
+        "visualKind": "dropdown-button",
+        "label": "分辨率选择",
+        "state": "normal",
+        "parentControl": "WIDX_RESOLUTION",
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 111
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 290,
+              "sourceExpression": "makeWidget        ({288,  86}, { 11,  12}, WidgetType::button,       WindowColour::secondary, STR_DROPDOWN_GLYPH,                    STR_DISPLAY_RESOLUTION_TIP               )",
+              "sourceStringIds": [
+                "STR_DROPDOWN_GLYPH",
+                "STR_DISPLAY_RESOLUTION_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 992,
+            "expression": "                != static_cast<int32_t>(FullscreenMode::fullscreen);             setWidgetDisabled(WIDX_RESOLUTION_DROPDOWN, disableResolution);             setWidgetDisabled(WIDX_RESOLUTION, disableResolution);             setWidgetDisabled(WIDX_RESOLUTION_LABEL, disableResolution);"
+          }
+        ],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_SCALE"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_SCALE",
+        "screenId": "detail:options:01-显示-01",
+        "region": [
+          450,
+          432,
+          570,
+          52
+        ],
+        "visualKind": "spinner",
+        "label": "界面缩放",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "spinner",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 113
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "spinner",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 292,
+              "sourceExpression": "makeSpinnerWidgets({155, 102}, {145,  14}, WidgetType::spinner,      WindowColour::secondary, kStringIdNone,                         STR_WINDOW_SCALE_TIP                     )",
+              "sourceStringIds": [
+                "STR_WINDOW_SCALE_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": "value"
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_SCALE_DOWN"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_SCALE_DOWN",
+        "screenId": "detail:options:01-显示-01",
+        "region": [
+          403,
+          438,
+          40,
+          40
+        ],
+        "visualKind": "stepper-decrease",
+        "label": "界面缩放减少",
+        "state": "normal",
+        "parentControl": "WIDX_SCALE",
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 115
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 292,
+              "sourceExpression": "makeSpinnerWidgets({155, 102}, {145,  14}, WidgetType::spinner,      WindowColour::secondary, kStringIdNone,                         STR_WINDOW_SCALE_TIP                     )",
+              "sourceStringIds": [
+                "STR_WINDOW_SCALE_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": "decrease"
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_SCALE_UP"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_SCALE_UP",
+        "screenId": "detail:options:01-显示-01",
+        "region": [
+          1027,
+          438,
+          40,
+          40
+        ],
+        "visualKind": "stepper-increase",
+        "label": "界面缩放增加",
+        "state": "normal",
+        "parentControl": "WIDX_SCALE",
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 114
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 292,
+              "sourceExpression": "makeSpinnerWidgets({155, 102}, {145,  14}, WidgetType::spinner,      WindowColour::secondary, kStringIdNone,                         STR_WINDOW_SCALE_TIP                     )",
+              "sourceStringIds": [
+                "STR_WINDOW_SCALE_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": "increase"
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_DRAWING_ENGINE"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_DRAWING_ENGINE",
+        "screenId": "detail:options:01-显示-01",
+        "region": [
+          1112,
+          432,
+          608,
+          52
+        ],
+        "visualKind": "dropdown",
+        "label": "渲染引擎",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "dropdownMenu",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 119
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "dropdownMenu",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 296,
+              "sourceExpression": "makeWidget        ({155, 145}, {145,  14}, WidgetType::dropdownMenu, WindowColour::secondary                                                                                  )",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_DRAWING_ENGINE_DROPDOWN"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_DRAWING_ENGINE_DROPDOWN",
+        "screenId": "detail:options:01-显示-01",
+        "region": [
+          1724,
+          432,
+          66,
+          52
+        ],
+        "visualKind": "dropdown-button",
+        "label": "渲染引擎选择",
+        "state": "normal",
+        "parentControl": "WIDX_DRAWING_ENGINE",
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 120
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 297,
+              "sourceExpression": "makeWidget        ({288, 146}, { 11,  12}, WidgetType::button,       WindowColour::secondary, STR_DROPDOWN_GLYPH,                    STR_DRAWING_ENGINE_TIP                   )",
+              "sourceStringIds": [
+                "STR_DROPDOWN_GLYPH",
+                "STR_DRAWING_ENGINE_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_FRAME_RATE_LIMIT"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_FRAME_RATE_LIMIT",
+        "screenId": "detail:options:01-显示-01",
+        "region": [
+          394,
+          528,
+          608,
+          52
+        ],
+        "visualKind": "dropdown",
+        "label": "帧率上限",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "dropdownMenu",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 122
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "dropdownMenu",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 299,
+              "sourceExpression": "makeWidget        ({155, 160}, {145,  14}, WidgetType::dropdownMenu, WindowColour::secondary                                                                                  )",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_FRAME_RATE_LIMIT_DROPDOWN"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_FRAME_RATE_LIMIT_DROPDOWN",
+        "screenId": "detail:options:01-显示-01",
+        "region": [
+          1006,
+          528,
+          66,
+          52
+        ],
+        "visualKind": "dropdown-button",
+        "label": "帧率上限选择",
+        "state": "normal",
+        "parentControl": "WIDX_FRAME_RATE_LIMIT",
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 123
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 300,
+              "sourceExpression": "makeWidget        ({288, 161}, { 11,  12}, WidgetType::button,       WindowColour::secondary, STR_DROPDOWN_GLYPH                                                              )",
+              "sourceStringIds": [
+                "STR_DROPDOWN_GLYPH"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_SHOW_FPS_CHECKBOX"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_SHOW_FPS_CHECKBOX",
+        "screenId": "detail:options:01-显示-01",
+        "region": [
+          1108,
+          492,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "显示帧数",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 124
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 301,
+              "sourceExpression": "makeWidget        ({ 11, 178}, {136,  12}, WidgetType::checkbox,     WindowColour::secondary, STR_SHOW_FPS,                          STR_SHOW_FPS_TIP                         )",
+              "sourceStringIds": [
+                "STR_SHOW_FPS",
+                "STR_SHOW_FPS_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_MULTITHREADING_CHECKBOX"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_MULTITHREADING_CHECKBOX",
+        "screenId": "detail:options:01-显示-01",
+        "region": [
+          390,
+          588,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "多线程",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 125
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 302,
+              "sourceExpression": "makeWidget        ({155, 178}, {136,  12}, WidgetType::checkbox,     WindowColour::secondary, STR_MULTITHREADING,                    STR_MULTITHREADING_TIP                   )",
+              "sourceStringIds": [
+                "STR_MULTITHREADING",
+                "STR_MULTITHREADING_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_MINIMIZE_FOCUS_LOSS"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_MINIMIZE_FOCUS_LOSS",
+        "screenId": "detail:options:01-显示-01",
+        "region": [
+          1108,
+          588,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "当焦点失去时最小化全屏幕的游戏",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 128
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 305,
+              "sourceExpression": "makeWidget        ({ 11, 215}, {280,  12}, WidgetType::checkbox,     WindowColour::secondary, STR_MINIMISE_FULLSCREEN_ON_FOCUS_LOSS, STR_MINIMISE_FULLSCREEN_ON_FOCUS_LOSS_TIP)",
+              "sourceStringIds": [
+                "STR_MINIMISE_FULLSCREEN_ON_FOCUS_LOSS",
+                "STR_MINIMISE_FULLSCREEN_ON_FOCUS_LOSS_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_DISABLE_SCREENSAVER_LOCK"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_DISABLE_SCREENSAVER_LOCK",
+        "screenId": "detail:options:01-显示-01",
+        "region": [
+          390,
+          684,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "关闭屏保和屏幕省电模式",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 129
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 306,
+              "sourceExpression": "makeWidget        ({ 11, 230}, {280,  12}, WidgetType::checkbox,     WindowColour::secondary, STR_DISABLE_SCREENSAVER,               STR_DISABLE_SCREENSAVER_TIP              )",
+              "sourceStringIds": [
+                "STR_DISABLE_SCREENSAVER",
+                "STR_DISABLE_SCREENSAVER_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      }
+    ],
+    "decorativeArtPolicy": "Existing painted PNGs only"
+  },
+  "status": "produced_pending_review"
+}

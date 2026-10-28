@@ -1,0 +1,59 @@
+{
+  "name": "tab_selected",
+  "file": "assets/common/tab_selected.png",
+  "width": 256,
+  "height": 128,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "119a81554b9e332d698f5c704813cb047fcd4c5c71e9e5c36c7b6df6b4a789b9",
+  "borderLeftBottomRightTop": [
+    36,
+    28,
+    36,
+    28
+  ],
+  "resizeAxes": "horizontal",
+  "minimumSize": [
+    73,
+    57
+  ],
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "pixelsPerUnit": 100,
+  "containsDynamicText": false,
+  "source": "assets/masters/controls-native.png",
+  "sourceSha256": "54c9e9d6ea95d48c712bc1a103c787388816cff0990507e2138c7a55186592a5",
+  "sourceNativeSize": [
+    1024,
+    1536
+  ],
+  "sourceRectTopLeftXYXY": [
+    516,
+    610,
+    755,
+    728
+  ],
+  "pasteOffset": [
+    8,
+    5
+  ],
+  "operation": "Original-pixel crop; isolate specified alpha>100 connected silhouettes, retain original alpha>=16 within 2px edge support; center on padded canvas. No recoloring, painting, AI call or upscaling.",
+  "derivedFrom": {
+    "file": "assets/masters/controls-native.png",
+    "sha256": "54c9e9d6ea95d48c712bc1a103c787388816cff0990507e2138c7a55186592a5",
+    "generationRecord": "assets/masters/controls-native.png.generation.json"
+  },
+  "alpha": {
+    "minimum": 0,
+    "maximum": 253,
+    "transparentPixels": 5886,
+    "visiblePixels": 26882
+  },
+  "isolatedForegroundComponents": 1,
+  "qualityStatus": "passed_slice_visual_review_20261026",
+  "nativeDetailIncreased": false,
+  "processedAt": "2026-10-26T06:14:34.558546-04:00",
+  "visualEvidence": "docs/sprite-qa.md; previews/sprites-contact.jpg"
+}

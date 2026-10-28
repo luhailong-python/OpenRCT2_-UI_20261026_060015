@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/patrol-area_01.jpg",
+  "sha256": "1146e1c67395d996e7ce91bba9e954f43d216f28f97d62de2aa61ea705a70610",
+  "derivedFrom": [
+    {
+      "file": "designs/patrol-area/01-绘制.png",
+      "sha256": "9c6ec7cf614c38b12e0bfcf17b833be1e87bb3e8d84ab9c2c71eb167d8a10343",
+      "sourceRecord": "designs/patrol-area/01-绘制.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/operations_ride_07-graph-altitude.jpg",
+  "sha256": "1c9f525b5c1c0bd291b070d6fb56b325f1a574623177f17ee0e5231167e431d8",
+  "derivedFrom": [
+    {
+      "file": "designs/details/ride-ops/07-graph-altitude.png",
+      "sha256": "d5c2f87c210b24944770e2b276a399fc56b5277e6e9f31eaa069e54892199429",
+      "sourceRecord": "designs/details/ride-ops/07-graph-altitude.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

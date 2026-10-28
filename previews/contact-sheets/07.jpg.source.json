@@ -1,0 +1,135 @@
+{
+  "file": "previews/contact-sheets/07.jpg",
+  "sha256": "9f31bbd517d6b848fc99118db452ad21437c82de7bb49c61bac15481de642a96",
+  "derivedFrom": [
+    {
+      "file": "designs/themes/06-编辑器.png",
+      "sha256": "2bf483b2dac43391dcd3aa220aa7b7eb8bd90211220145c880142e7011228853"
+    },
+    {
+      "file": "designs/themes/07-杂项.png",
+      "sha256": "bd23fd6f27524b14cfa91e189ab174979c200e3f7a45370987b0593748a90502"
+    },
+    {
+      "file": "designs/themes/08-弹窗.png",
+      "sha256": "3648ed92aef1113791ebde7985ad371509b89be0093d4815b5e8cfe4687d58cb"
+    },
+    {
+      "file": "designs/themes/09-特性.png",
+      "sha256": "499eea0ae1a190b9e960656fcfcd16be8d59835feacf1459959f59393735a233"
+    },
+    {
+      "file": "designs/tile-inspector/01-地表.png",
+      "sha256": "542ad75969405c3ff1db99436399f156cdea020e997c76d3785ac959c3f66ce6"
+    },
+    {
+      "file": "designs/tile-inspector/02-步道.png",
+      "sha256": "f320d5e2333e23594cd240f0ea53bc5613b222bcea0879b589bc4c8bf7d80a91"
+    },
+    {
+      "file": "designs/tile-inspector/03-轨道.png",
+      "sha256": "6efab6edcd8b0d418c343dc9d51c40e4eeae1761905a829fe8251d2ac9bb79a5"
+    },
+    {
+      "file": "designs/tile-inspector/04-小景物.png",
+      "sha256": "5e1187d4c8630c160f7b277b82440164e5290c5b423ad8e2a28f046f73504bd3"
+    },
+    {
+      "file": "designs/tile-inspector/05-大景物.png",
+      "sha256": "1b1466b385027af76cd1a0ce9aefa6f55772013de4faf26c106a4b1de4585721"
+    },
+    {
+      "file": "designs/tile-inspector/06-墙.png",
+      "sha256": "351c8ec4847f8acf1e5e094bc55712f7cf31cf27b7f1d068f03397803a46aef5"
+    },
+    {
+      "file": "designs/tile-inspector/07-入口.png",
+      "sha256": "6ff0d4834d2c80f37c5378f82d0a6e3ad063ce6ea39a717345319cb3df019baa"
+    },
+    {
+      "file": "designs/tile-inspector/08-横幅.png",
+      "sha256": "07703685ceb709aa6cbcc6f562a0e48e515fdd6f5cb49665af2239bd8c36bb27"
+    },
+    {
+      "file": "designs/title-exit/01-退出.png",
+      "sha256": "818b4cbe53d7b793730673bfb858a9c2fc27a27450a9f2eb6a7bec3a0439d2ca"
+    },
+    {
+      "file": "designs/title-logo/01-标志.png",
+      "sha256": "818b4cbe53d7b793730673bfb858a9c2fc27a27450a9f2eb6a7bec3a0439d2ca"
+    },
+    {
+      "file": "designs/title-menu/01-主菜单.png",
+      "sha256": "acf13a004941a51df02742e3be5550697b5241e92f0560abc715563d3857e74e"
+    },
+    {
+      "file": "designs/title-menu/02-工具箱.png",
+      "sha256": "1180565c01aed6f4e97af58ad55991977ca469f7377a8c46b62900fe9a39b064"
+    },
+    {
+      "file": "designs/title-options/01-设置入口.png",
+      "sha256": "8db237913401aa50366284b391501fc0a7420b9ebbabde337fd18e94c8e96b1b"
+    },
+    {
+      "file": "designs/title-version/01-版本.png",
+      "sha256": "818b4cbe53d7b793730673bfb858a9c2fc27a27450a9f2eb6a7bec3a0439d2ca"
+    },
+    {
+      "file": "designs/tooltip/01-悬浮.png",
+      "sha256": "70bcd059bf9c9f08eaabea101d38fd6ceee1aff2034b54a2ac747b35cd9550a4"
+    },
+    {
+      "file": "designs/top-toolbar/01-文件.png",
+      "sha256": "61bb5788b46161a371dcdd27bef02747d01a46bca7fc7f11bf3b34db4b0de0e9"
+    },
+    {
+      "file": "designs/top-toolbar/02-视图.png",
+      "sha256": "e9f4939d92ed781c0e2ea5561ea924422777aa6fc5fa0cb09c391c87899a15ab"
+    },
+    {
+      "file": "designs/top-toolbar/03-多人.png",
+      "sha256": "8ae60543d29030331565e17328d73ebfa85bb62f31a115ef27572d1037674b2d"
+    },
+    {
+      "file": "designs/top-toolbar/04-调试.png",
+      "sha256": "4e3a2bad82c0daafacde22546560bd1e5add9c8747599d2f5c1e58c216047bc8"
+    },
+    {
+      "file": "designs/track-design-manage/01-管理.png",
+      "sha256": "a431a9574a8d740f3bed112f61a803c0b67ffa75582f6d8bf0212f7d2942619c"
+    },
+    {
+      "file": "designs/track-design-manage/02-删除确认.png",
+      "sha256": "c2cad309e63679c31b875d19251ff9fc4c5c18e582cf832392794bfdee6c8f0c"
+    },
+    {
+      "file": "designs/track-design-place/01-预览.png",
+      "sha256": "04a9d5ad1127f42b3b078a184813405c6e8f7f1f76f11c9148637ef96ef7f611"
+    },
+    {
+      "file": "designs/track-design-place/02-放置.png",
+      "sha256": "c09e063807041977218aed0a38083587f49e121ffe755486d482bf66f8704089"
+    },
+    {
+      "file": "designs/track-list/01-设计列表.png",
+      "sha256": "54311ff8925c657b5f25f64ecc78f0db642bef034f6fcf898c098f1ff52b2448"
+    },
+    {
+      "file": "designs/track-list/02-详情.png",
+      "sha256": "8006bca7a06de9093ae8e89124c652b3a0bf08e1d5c49455d18183a087d951df"
+    },
+    {
+      "file": "designs/transparency/01-可见性.png",
+      "sha256": "99a177a3a944a293247a296716485ee838980436dfbd85267fd20d55f95dd85b"
+    },
+    {
+      "file": "designs/view-clipping/01-高度.png",
+      "sha256": "b8684333c31c8d59f208c6d0747690ac625e8c2a3018514a20d24b3e4dbb16da"
+    },
+    {
+      "file": "designs/view-clipping/02-区域.png",
+      "sha256": "0f60c57191f4da62da0aeae531101836c65fbc5808f463c472b04b67d3257183"
+    }
+  ],
+  "operation": "review_contact_sheet_thumbnail_composition_no_new_model_generation"
+}

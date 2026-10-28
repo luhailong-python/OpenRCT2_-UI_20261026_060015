@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/finances_06.jpg",
+  "sha256": "849ecd7fa9843c712e1ded56a51aa0f4f683c917a794130a1abc8767c6ae5cad",
+  "derivedFrom": [
+    {
+      "file": "designs/finances/06-研究经费.png",
+      "sha256": "dc864c0d65598e7d05b7b08fad2fdeda29504f617a5aaa486f93011b72d996c6",
+      "sourceRecord": "designs/finances/06-研究经费.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

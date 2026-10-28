@@ -1,0 +1,30 @@
+[
+  {
+    "file": "assets/backgrounds/park-day-native.png",
+    "record": "assets/backgrounds/park-day-native.png.generation.json"
+  },
+  {
+    "file": "assets/masters/controls-native.png",
+    "record": "assets/masters/controls-native.png.generation.json"
+  },
+  {
+    "file": "assets/masters/icons-native.png",
+    "record": "assets/masters/icons-native.png.generation.json"
+  },
+  {
+    "file": "assets/masters/illustrations-native.png",
+    "record": "assets/masters/illustrations-native.png.generation.json"
+  },
+  {
+    "file": "assets/masters/supplement-native.png",
+    "record": "assets/masters/supplement-native.png.generation.json"
+  },
+  {
+    "file": "assets/masters/surfaces-native.png",
+    "record": "assets/masters/surfaces-native.png.generation.json"
+  },
+  {
+    "file": "assets/masters/tracktools-native.png",
+    "record": "assets/masters/tracktools-native.png.generation.json"
+  }
+]

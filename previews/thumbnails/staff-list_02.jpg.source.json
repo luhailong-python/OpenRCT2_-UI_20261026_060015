@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/staff-list_02.jpg",
+  "sha256": "0dace0af5cc21dfa8c5b6ce03610e396cb23587f901f61e960cc71717801eb67",
+  "derivedFrom": [
+    {
+      "file": "designs/staff-list/02-维修.png",
+      "sha256": "5d390d1f4c0dfb2eba4bb423483c6caa438eb4757ef1f1e7c3d8f8160c9204c9",
+      "sourceRecord": "designs/staff-list/02-维修.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

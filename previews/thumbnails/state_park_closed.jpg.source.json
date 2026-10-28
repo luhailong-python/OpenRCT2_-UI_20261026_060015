@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_park_closed.jpg",
+  "sha256": "ae5c4d99ba4b3f124d08dfa88c5893bd7ab58d08209e33a59d0a588a8845f65c",
+  "derivedFrom": [
+    {
+      "file": "previews/states/park/closed.png",
+      "sha256": "fd068440030ac15e29213693a2ff6e857afc5e41affc4f1aebd44b79d303f592",
+      "sourceRecord": "previews/states/park/closed.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

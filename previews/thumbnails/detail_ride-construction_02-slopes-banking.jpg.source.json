@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_ride-construction_02-slopes-banking.jpg",
+  "sha256": "ef354902fd4249a55448ea899cead69e4341492fc0a24628476caad8744ab5e9",
+  "derivedFrom": [
+    {
+      "file": "designs/details/ride-construction/02-slopes-banking.png",
+      "sha256": "683a4c363f77f712d6cc382edfd683747775359161f09b4b197d4f6badba91da",
+      "sourceRecord": "designs/details/ride-construction/02-slopes-banking.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

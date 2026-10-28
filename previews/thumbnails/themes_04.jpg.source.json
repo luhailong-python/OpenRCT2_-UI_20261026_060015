@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/themes_04.jpg",
+  "sha256": "252ab8ff71004c93e54bc2aaca6adb30c559808b21e89b1dc015612c56ade54d",
+  "derivedFrom": [
+    {
+      "file": "designs/themes/04-工具.png",
+      "sha256": "3bc65aa9c63946877af65b2600fe57afd06ed2e5054eb444796c3c1fa2cf4e50",
+      "sourceRecord": "designs/themes/04-工具.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

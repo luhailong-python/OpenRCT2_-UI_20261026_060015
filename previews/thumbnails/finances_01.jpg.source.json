@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/finances_01.jpg",
+  "sha256": "6a7c3e2c84a1aa565451688e0afdd99b3bc56b9dc36d34f89c98d1eb4cfbefe6",
+  "derivedFrom": [
+    {
+      "file": "designs/finances/01-收支.png",
+      "sha256": "556ccdb65e8c9bdfbdbfcda47edd5e9f698107b86e8345c9a6690523f602a344",
+      "sourceRecord": "designs/finances/01-收支.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

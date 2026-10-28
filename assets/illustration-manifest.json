@@ -1,0 +1,470 @@
+[
+  {
+    "file": "assets/illustrations/dragon_coaster.png",
+    "width": 440,
+    "height": 440,
+    "mode": "RGBA",
+    "sha256": "0952fb2165263c21be86668920519ce5da918416f777455bed9538f4a0f4b935",
+    "sourceRectXYXY": [
+      9,
+      13,
+      386,
+      409
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "borderLeftBottomRightTop": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "spriteType": "Simple",
+    "operation": "connected_alpha_silhouette_crop_seed_alpha_gt40_mask_dilate3_keep_original_alpha_equal_canvas_no_scaling",
+    "excluded": "邻格碎片及断开的微小装饰碎片；没有重绘内容",
+    "nativeContentSize": [
+      377,
+      396
+    ],
+    "derivedFrom": [
+      {
+        "file": "assets/masters/illustrations-native.png",
+        "sha256": "38b639e2585e8fe3b7218cfd8bb9d4255bc6676b3d20248ee94281b5da3d53cd",
+        "generationRecord": "assets/masters/illustrations-native.png.generation.json"
+      }
+    ],
+    "reviewStatus": "produced_pending_visual_review",
+    "usage": "界面卡面/详情插画，不是可运行世界精灵或动画"
+  },
+  {
+    "file": "assets/illustrations/celestial_wheel.png",
+    "width": 440,
+    "height": 440,
+    "mode": "RGBA",
+    "sha256": "925962df9249028bd6a5548a74c972f185b0c0f6c607725f506808c3dae945d3",
+    "sourceRectXYXY": [
+      409,
+      12,
+      742,
+      408
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "borderLeftBottomRightTop": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "spriteType": "Simple",
+    "operation": "connected_alpha_silhouette_crop_seed_alpha_gt40_mask_dilate3_keep_original_alpha_equal_canvas_no_scaling",
+    "excluded": "邻格碎片及断开的微小装饰碎片；没有重绘内容",
+    "nativeContentSize": [
+      333,
+      396
+    ],
+    "derivedFrom": [
+      {
+        "file": "assets/masters/illustrations-native.png",
+        "sha256": "38b639e2585e8fe3b7218cfd8bb9d4255bc6676b3d20248ee94281b5da3d53cd",
+        "generationRecord": "assets/masters/illustrations-native.png.generation.json"
+      }
+    ],
+    "reviewStatus": "produced_pending_visual_review",
+    "usage": "界面卡面/详情插画，不是可运行世界精灵或动画"
+  },
+  {
+    "file": "assets/illustrations/gourd_carousel.png",
+    "width": 440,
+    "height": 440,
+    "mode": "RGBA",
+    "sha256": "bbc0106dd1cbfcd8c793a541a0934984441004fec27a0494cfe0e32fa50750c4",
+    "sourceRectXYXY": [
+      753,
+      14,
+      1074,
+      407
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "borderLeftBottomRightTop": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "spriteType": "Simple",
+    "operation": "connected_alpha_silhouette_crop_seed_alpha_gt40_mask_dilate3_keep_original_alpha_equal_canvas_no_scaling",
+    "excluded": "邻格碎片及断开的微小装饰碎片；没有重绘内容",
+    "nativeContentSize": [
+      321,
+      393
+    ],
+    "derivedFrom": [
+      {
+        "file": "assets/masters/illustrations-native.png",
+        "sha256": "38b639e2585e8fe3b7218cfd8bb9d4255bc6676b3d20248ee94281b5da3d53cd",
+        "generationRecord": "assets/masters/illustrations-native.png.generation.json"
+      }
+    ],
+    "reviewStatus": "produced_pending_visual_review",
+    "usage": "界面卡面/详情插画，不是可运行世界精灵或动画"
+  },
+  {
+    "file": "assets/illustrations/bamboo_flume.png",
+    "width": 440,
+    "height": 440,
+    "mode": "RGBA",
+    "sha256": "ada52ff9d8311b837614ce80ef48248c9f4e946ba4833dbe4ac64fe16b9568a5",
+    "sourceRectXYXY": [
+      10,
+      414,
+      386,
+      758
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "borderLeftBottomRightTop": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "spriteType": "Simple",
+    "operation": "connected_alpha_silhouette_crop_seed_alpha_gt40_mask_dilate3_keep_original_alpha_equal_canvas_no_scaling",
+    "excluded": "邻格碎片及断开的微小装饰碎片；没有重绘内容",
+    "nativeContentSize": [
+      376,
+      344
+    ],
+    "derivedFrom": [
+      {
+        "file": "assets/masters/illustrations-native.png",
+        "sha256": "38b639e2585e8fe3b7218cfd8bb9d4255bc6676b3d20248ee94281b5da3d53cd",
+        "generationRecord": "assets/masters/illustrations-native.png.generation.json"
+      }
+    ],
+    "reviewStatus": "produced_pending_visual_review",
+    "usage": "界面卡面/详情插画，不是可运行世界精灵或动画"
+  },
+  {
+    "file": "assets/illustrations/cloud_train.png",
+    "width": 440,
+    "height": 440,
+    "mode": "RGBA",
+    "sha256": "3b63ed55129cbe0daba835ad940d3948673181daaa1392c4b02926d364517dd6",
+    "sourceRectXYXY": [
+      375,
+      457,
+      742,
+      770
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "borderLeftBottomRightTop": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "spriteType": "Simple",
+    "operation": "connected_alpha_silhouette_crop_seed_alpha_gt40_mask_dilate3_keep_original_alpha_equal_canvas_no_scaling",
+    "excluded": "邻格碎片及断开的微小装饰碎片；没有重绘内容",
+    "nativeContentSize": [
+      367,
+      313
+    ],
+    "derivedFrom": [
+      {
+        "file": "assets/masters/illustrations-native.png",
+        "sha256": "38b639e2585e8fe3b7218cfd8bb9d4255bc6676b3d20248ee94281b5da3d53cd",
+        "generationRecord": "assets/masters/illustrations-native.png.generation.json"
+      }
+    ],
+    "reviewStatus": "produced_pending_visual_review",
+    "usage": "界面卡面/详情插画，不是可运行世界精灵或动画"
+  },
+  {
+    "file": "assets/illustrations/hedge_maze.png",
+    "width": 440,
+    "height": 440,
+    "mode": "RGBA",
+    "sha256": "8289fee6313f06fe0b3b84ba6ecdf0a34ac8feabf8a9d57c0289153db391503c",
+    "sourceRectXYXY": [
+      741,
+      422,
+      1083,
+      773
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "borderLeftBottomRightTop": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "spriteType": "Simple",
+    "operation": "connected_alpha_silhouette_crop_seed_alpha_gt40_mask_dilate3_keep_original_alpha_equal_canvas_no_scaling",
+    "excluded": "邻格碎片及断开的微小装饰碎片；没有重绘内容",
+    "nativeContentSize": [
+      342,
+      351
+    ],
+    "derivedFrom": [
+      {
+        "file": "assets/masters/illustrations-native.png",
+        "sha256": "38b639e2585e8fe3b7218cfd8bb9d4255bc6676b3d20248ee94281b5da3d53cd",
+        "generationRecord": "assets/masters/illustrations-native.png.generation.json"
+      }
+    ],
+    "reviewStatus": "produced_pending_visual_review",
+    "usage": "界面卡面/详情插画，不是可运行世界精灵或动画"
+  },
+  {
+    "file": "assets/illustrations/tea_keeper.png",
+    "width": 440,
+    "height": 440,
+    "mode": "RGBA",
+    "sha256": "a30c66273d496e5d80fb69f9ddccf21edb8bfa75c60a7012168d35adcadc5458",
+    "sourceRectXYXY": [
+      18,
+      758,
+      391,
+      1104
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "borderLeftBottomRightTop": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "spriteType": "Simple",
+    "operation": "connected_alpha_silhouette_crop_seed_alpha_gt40_mask_dilate3_keep_original_alpha_equal_canvas_no_scaling",
+    "excluded": "邻格碎片及断开的微小装饰碎片；没有重绘内容",
+    "nativeContentSize": [
+      373,
+      346
+    ],
+    "derivedFrom": [
+      {
+        "file": "assets/masters/illustrations-native.png",
+        "sha256": "38b639e2585e8fe3b7218cfd8bb9d4255bc6676b3d20248ee94281b5da3d53cd",
+        "generationRecord": "assets/masters/illustrations-native.png.generation.json"
+      }
+    ],
+    "reviewStatus": "produced_pending_visual_review",
+    "usage": "界面卡面/详情插画，不是可运行世界精灵或动画"
+  },
+  {
+    "file": "assets/illustrations/mechanic.png",
+    "width": 440,
+    "height": 440,
+    "mode": "RGBA",
+    "sha256": "f2593e3572cf73a022be9e686e8fcfce8a8ecdf839d9303ab9d194effb331fe1",
+    "sourceRectXYXY": [
+      408,
+      771,
+      741,
+      1097
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "borderLeftBottomRightTop": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "spriteType": "Simple",
+    "operation": "connected_alpha_silhouette_crop_seed_alpha_gt40_mask_dilate3_keep_original_alpha_equal_canvas_no_scaling",
+    "excluded": "邻格碎片及断开的微小装饰碎片；没有重绘内容",
+    "nativeContentSize": [
+      333,
+      326
+    ],
+    "derivedFrom": [
+      {
+        "file": "assets/masters/illustrations-native.png",
+        "sha256": "38b639e2585e8fe3b7218cfd8bb9d4255bc6676b3d20248ee94281b5da3d53cd",
+        "generationRecord": "assets/masters/illustrations-native.png.generation.json"
+      }
+    ],
+    "reviewStatus": "produced_pending_visual_review",
+    "usage": "界面卡面/详情插画，不是可运行世界精灵或动画"
+  },
+  {
+    "file": "assets/illustrations/cleaner.png",
+    "width": 440,
+    "height": 440,
+    "mode": "RGBA",
+    "sha256": "4102da5ef4eb0e884878bca46eea8376a340a6847b6509e7f82655ce0eef682d",
+    "sourceRectXYXY": [
+      767,
+      786,
+      1032,
+      1102
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "borderLeftBottomRightTop": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "spriteType": "Simple",
+    "operation": "connected_alpha_silhouette_crop_seed_alpha_gt40_mask_dilate3_keep_original_alpha_equal_canvas_no_scaling",
+    "excluded": "邻格碎片及断开的微小装饰碎片；没有重绘内容",
+    "nativeContentSize": [
+      265,
+      316
+    ],
+    "derivedFrom": [
+      {
+        "file": "assets/masters/illustrations-native.png",
+        "sha256": "38b639e2585e8fe3b7218cfd8bb9d4255bc6676b3d20248ee94281b5da3d53cd",
+        "generationRecord": "assets/masters/illustrations-native.png.generation.json"
+      }
+    ],
+    "reviewStatus": "produced_pending_visual_review",
+    "usage": "界面卡面/详情插画，不是可运行世界精灵或动画"
+  },
+  {
+    "file": "assets/illustrations/mountain_scenario.png",
+    "width": 440,
+    "height": 440,
+    "mode": "RGBA",
+    "sha256": "51032a4343a8e94bb53c18f04de46f9aacee420f4d5b47edc9bbdf5071d42a2b",
+    "sourceRectXYXY": [
+      13,
+      1101,
+      379,
+      1438
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "borderLeftBottomRightTop": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "spriteType": "Simple",
+    "operation": "connected_alpha_silhouette_crop_seed_alpha_gt40_mask_dilate3_keep_original_alpha_equal_canvas_no_scaling",
+    "excluded": "邻格碎片及断开的微小装饰碎片；没有重绘内容",
+    "nativeContentSize": [
+      366,
+      337
+    ],
+    "derivedFrom": [
+      {
+        "file": "assets/masters/illustrations-native.png",
+        "sha256": "38b639e2585e8fe3b7218cfd8bb9d4255bc6676b3d20248ee94281b5da3d53cd",
+        "generationRecord": "assets/masters/illustrations-native.png.generation.json"
+      }
+    ],
+    "reviewStatus": "produced_pending_visual_review",
+    "usage": "界面卡面/详情插画，不是可运行世界精灵或动画"
+  },
+  {
+    "file": "assets/illustrations/lake_scenario.png",
+    "width": 440,
+    "height": 440,
+    "mode": "RGBA",
+    "sha256": "cf2244bb45d22111c8baedad189c2f794db46efed16d586425376b19221676f6",
+    "sourceRectXYXY": [
+      374,
+      1094,
+      770,
+      1437
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "borderLeftBottomRightTop": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "spriteType": "Simple",
+    "operation": "connected_alpha_silhouette_crop_seed_alpha_gt40_mask_dilate3_keep_original_alpha_equal_canvas_no_scaling",
+    "excluded": "邻格碎片及断开的微小装饰碎片；没有重绘内容",
+    "nativeContentSize": [
+      396,
+      343
+    ],
+    "derivedFrom": [
+      {
+        "file": "assets/masters/illustrations-native.png",
+        "sha256": "38b639e2585e8fe3b7218cfd8bb9d4255bc6676b3d20248ee94281b5da3d53cd",
+        "generationRecord": "assets/masters/illustrations-native.png.generation.json"
+      }
+    ],
+    "reviewStatus": "produced_pending_visual_review",
+    "usage": "界面卡面/详情插画，不是可运行世界精灵或动画"
+  },
+  {
+    "file": "assets/illustrations/achievement_trophy.png",
+    "width": 440,
+    "height": 440,
+    "mode": "RGBA",
+    "sha256": "77dc726d1f315617181725cd129c2f6f98f974ac18f3e167c3577a77a6d3cb8d",
+    "sourceRectXYXY": [
+      772,
+      1109,
+      1068,
+      1423
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "borderLeftBottomRightTop": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "spriteType": "Simple",
+    "operation": "connected_alpha_silhouette_crop_seed_alpha_gt40_mask_dilate3_keep_original_alpha_equal_canvas_no_scaling",
+    "excluded": "邻格碎片及断开的微小装饰碎片；没有重绘内容",
+    "nativeContentSize": [
+      296,
+      314
+    ],
+    "derivedFrom": [
+      {
+        "file": "assets/masters/illustrations-native.png",
+        "sha256": "38b639e2585e8fe3b7218cfd8bb9d4255bc6676b3d20248ee94281b5da3d53cd",
+        "generationRecord": "assets/masters/illustrations-native.png.generation.json"
+      }
+    ],
+    "reviewStatus": "produced_pending_visual_review",
+    "usage": "界面卡面/详情插画，不是可运行世界精灵或动画"
+  }
+]

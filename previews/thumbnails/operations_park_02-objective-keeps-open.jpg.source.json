@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/operations_park_02-objective-keeps-open.jpg",
+  "sha256": "b8e4bf68dd1c00068a0001a39722fae2a0ed02df86a908b301f660d21235f5c2",
+  "derivedFrom": [
+    {
+      "file": "designs/details/park-ops/02-objective-keeps-open.png",
+      "sha256": "8661193a4dad0daed973ebe31653418db334f7aa1f4dd2810ba7ce6024df619f",
+      "sourceRecord": "designs/details/park-ops/02-objective-keeps-open.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

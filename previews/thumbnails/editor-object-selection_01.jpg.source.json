@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/editor-object-selection_01.jpg",
+  "sha256": "f36d41c46b9bd0fcfd61ea66ba202bff1525eaa2765d95f74ec21ba40238cc62",
+  "derivedFrom": [
+    {
+      "file": "designs/editor-object-selection/01-设施车辆.png",
+      "sha256": "3f0c33f0219ff617261cd63a6be216a92dde708ced83c2e0e7216157d9a684aa",
+      "sourceRecord": "designs/editor-object-selection/01-设施车辆.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_editor_park-invalid.jpg",
+  "sha256": "f85479d65c8994015ddb19ac9eda9bd868aa4f8000965e4d2f22c5c4dcaf0a23",
+  "derivedFrom": [
+    {
+      "file": "previews/states/editor/park-invalid.png",
+      "sha256": "304857478784015ebbfdbfb06da2550f853fdf58cbe2a0ee92d27f7425a50334",
+      "sourceRecord": "previews/states/editor/park-invalid.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

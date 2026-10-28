@@ -1,0 +1,135 @@
+{
+  "file": "previews/contact-sheets/06.jpg",
+  "sha256": "d491b9ae1f7a9cb10983be84620a18d54d649b16cce6b1fb1812410c990f1fee",
+  "derivedFrom": [
+    {
+      "file": "designs/scenario-select/07-UCES.png",
+      "sha256": "1be0a32559b0b664b9970f778b45a4a682cf27efbb030c197b588485e458b61f"
+    },
+    {
+      "file": "designs/scenario-select/08-真实公园.png",
+      "sha256": "8197a1a0daa1f245f1a62e66c070dcc3e05f981dc255e2e01972ddc2a061e0b5"
+    },
+    {
+      "file": "designs/scenario-select/09-额外公园.png",
+      "sha256": "7fd4100c969f6284a6f40adbfe7ecb68b5b6c8afb4ede318685e250e93653d4e"
+    },
+    {
+      "file": "designs/scenario-select/10-其他公园.png",
+      "sha256": "f55638f6dba383f2a99a5aa6574cd69af7d3de3f3ae9cabd1fc7668fdbb12b07"
+    },
+    {
+      "file": "designs/scenery-scatter/01-散布.png",
+      "sha256": "42f473bf1c90a2f215891e847429ce72b531a97729dc09eab4ccb31586f9bd9c"
+    },
+    {
+      "file": "designs/scenery/01-主题.png",
+      "sha256": "b82fc0a328b31c77b693be7c441bcc6d219f9d60b39098f7e7708588a84680d8"
+    },
+    {
+      "file": "designs/scenery/02-搜索.png",
+      "sha256": "d919c71584acce3ef85169cca14f9652ad69b480899c4d63fd31e92fffe6a519"
+    },
+    {
+      "file": "designs/scenery/03-重涂.png",
+      "sha256": "dc7c114df36fc109445717de782828126b61155421e34aeebca2df15966e2633"
+    },
+    {
+      "file": "designs/server-list/01-公共列表.png",
+      "sha256": "fd22ba37559ad44f0ad5b54b9faaf2f54c03fd7a9352380945a95d61f92d04d1"
+    },
+    {
+      "file": "designs/server-list/02-收藏.png",
+      "sha256": "83c084e2d30115fb8b72e14892b64bed621e51191d860f1d907b33d2e811ec26"
+    },
+    {
+      "file": "designs/server-list/03-直接连接.png",
+      "sha256": "e66d651c61100d13918ce67ca3518c70dc5a31dcf7112d785f2e970d1a353ff1"
+    },
+    {
+      "file": "designs/server-start/01-新建.png",
+      "sha256": "1f5a0a4060213fa6bed16dd60b472e736acee25068d6528f564b6d9443a3a276"
+    },
+    {
+      "file": "designs/server-start/02-读档.png",
+      "sha256": "1289c0cb0e68a1270e7cc85447ce87598527aec215f881ba2b0c1cce8f15f66d"
+    },
+    {
+      "file": "designs/shortcut-keys/01-快捷键.png",
+      "sha256": "b53ed44f29d1a20dcfc0e3336808d895b71e117a0ff0487308f9f3a43810ccc1"
+    },
+    {
+      "file": "designs/sign/01-招牌.png",
+      "sha256": "4ae1fcd5f47f5c9c04697cf907d7f19c1affd24a0b244d8b3ee7e92a5e6d65f9"
+    },
+    {
+      "file": "designs/staff-fire-prompt/01-确认.png",
+      "sha256": "d5693071cc826d2426dd594d33af16630b87d9ccf7d880ad4004439e68c3356a"
+    },
+    {
+      "file": "designs/staff-fire-prompt/02-取消.png",
+      "sha256": "d5693071cc826d2426dd594d33af16630b87d9ccf7d880ad4004439e68c3356a"
+    },
+    {
+      "file": "designs/staff-list/01-清洁.png",
+      "sha256": "5bad948f83ed53b376928d8ffd7f72b5a31a5d6c519097d71b5f6b7f21fd54fe"
+    },
+    {
+      "file": "designs/staff-list/02-维修.png",
+      "sha256": "5d390d1f4c0dfb2eba4bb423483c6caa438eb4757ef1f1e7c3d8f8160c9204c9"
+    },
+    {
+      "file": "designs/staff-list/03-安保.png",
+      "sha256": "a66cf1cd05a17b48e13bcde758c6035646a80094e6925ec843496c0341fa8b7f"
+    },
+    {
+      "file": "designs/staff-list/04-演员.png",
+      "sha256": "2b0e6ed732bf9ad8ab55e82de5327b295671c0952f72d55d98b8f7e2a27298b8"
+    },
+    {
+      "file": "designs/staff/01-概览.png",
+      "sha256": "6f7ee6b573cabbfda3161d280779f872dba6a51a2fe5c455bc6679c2343f762e"
+    },
+    {
+      "file": "designs/staff/02-职责.png",
+      "sha256": "cd434842535fc8c25f7d63e1bdf469eeadf04c589c1b8b76daecc7998271224b"
+    },
+    {
+      "file": "designs/staff/03-统计.png",
+      "sha256": "079f0f824e23988f4f3dd6faf5c81e7582128f2bb5ffd0dd06c9e85249849d4d"
+    },
+    {
+      "file": "designs/text-input/01-输入.png",
+      "sha256": "4ca200d0271f3ab224b651bcbb8cf48f3cf9ff11d3e3c1f1ab1fff0c09db310e"
+    },
+    {
+      "file": "designs/text-input/02-确认.png",
+      "sha256": "4ca200d0271f3ab224b651bcbb8cf48f3cf9ff11d3e3c1f1ab1fff0c09db310e"
+    },
+    {
+      "file": "designs/text-input/03-取消.png",
+      "sha256": "4ca200d0271f3ab224b651bcbb8cf48f3cf9ff11d3e3c1f1ab1fff0c09db310e"
+    },
+    {
+      "file": "designs/themes/01-主题.png",
+      "sha256": "11078201fa223ebc8b0783f9458a254cf21ede08462a7a5b1a911cbe84ecef5f"
+    },
+    {
+      "file": "designs/themes/02-主界面.png",
+      "sha256": "4da5ed276c253c74e0ba57bc014fe4035cce25b15b22786d311df2af4d0eb32f"
+    },
+    {
+      "file": "designs/themes/03-公园.png",
+      "sha256": "ececdcd971bef30e7e3bb2fc9066554736d43bdca446846231052452c64a301a"
+    },
+    {
+      "file": "designs/themes/04-工具.png",
+      "sha256": "3bc65aa9c63946877af65b2600fe57afd06ed2e5054eb444796c3c1fa2cf4e50"
+    },
+    {
+      "file": "designs/themes/05-设施游客.png",
+      "sha256": "8ee6e0d05c43cdc3c0ba4da638bb6ee2cb23775cda47f8fa41c1373e2e28a6e5"
+    }
+  ],
+  "operation": "review_contact_sheet_thumbnail_composition_no_new_model_generation"
+}

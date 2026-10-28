@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/editor-scenario-options_05.jpg",
+  "sha256": "711bdd0a751421811b6b7e0055041a197d1d012647aa458c67aaf07d048a25e2",
+  "derivedFrom": [
+    {
+      "file": "designs/editor-scenario-options/05-公园限制.png",
+      "sha256": "671703dc3a67dac7be60d2c88f46c4c598bc87ed7650e55535ee7c43605820bf",
+      "sourceRecord": "designs/editor-scenario-options/05-公园限制.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

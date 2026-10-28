@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_new-ride_locked.jpg",
+  "sha256": "e32e1d4208614105e9946f8d5643939793f6ab6d4eb211aa28330797ae2b18e9",
+  "derivedFrom": [
+    {
+      "file": "previews/states/new-ride/locked.png",
+      "sha256": "7d204cf4253d5e50f61d599527fa48cd3416537e219645ce0d1bf29df8a0ce35",
+      "sourceRecord": "previews/states/new-ride/locked.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

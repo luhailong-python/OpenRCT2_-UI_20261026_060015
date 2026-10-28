@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_map-gen_06-terrain.jpg",
+  "sha256": "8d84f80ecfe4fba2f935762898dbf10ac58b41f93fc9d8d7c39c9b0570048154",
+  "derivedFrom": [
+    {
+      "file": "designs/details/map-gen/06-terrain.png",
+      "sha256": "25826dcec4e7b18025ec9c75525cdaf08348120b49fcb5a122cdf4af9cffd830",
+      "sourceRecord": "designs/details/map-gen/06-terrain.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

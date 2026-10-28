@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/utility-detail_newride-search-group.jpg",
+  "sha256": "3cc46dd2cd4af8d15e9adf986cf2112694edef1b0471ec1707cff4bbb98c260e",
+  "derivedFrom": [
+    {
+      "file": "designs/details/utility/newride-search-group.png",
+      "sha256": "7ca100152cde53f9bdaa9170eb7540af9a99a68adbbdc0df9b8f12ec5099353d",
+      "sourceRecord": "designs/details/utility/newride-search-group.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,135 @@
+{
+  "file": "previews/contact-sheets/09.jpg",
+  "sha256": "1c3b9071677b1b46a0b4177ce4d7342f25634283fb4c40d880ebcad7db3df277",
+  "derivedFrom": [
+    {
+      "file": "designs/details/map-gen/04-image-loaded.png",
+      "sha256": "2f0247bbafacfc4279a773e1d5048b2b9f11cb02040ad08a57ab2d913025fde2"
+    },
+    {
+      "file": "designs/details/map-gen/05-image-smooth.png",
+      "sha256": "baedca7e9a6bf3c10ca78b2c31a032d54bfbb012f4cf9a13cd6a559d2743064b"
+    },
+    {
+      "file": "designs/details/map-gen/06-terrain.png",
+      "sha256": "25826dcec4e7b18025ec9c75525cdaf08348120b49fcb5a122cdf4af9cffd830"
+    },
+    {
+      "file": "designs/details/map-gen/07-water.png",
+      "sha256": "279d0fdbc445f538a3efc9487b4b2331b55f3f3c4312cf5d029698c126ceb43e"
+    },
+    {
+      "file": "designs/details/map-gen/08-forest.png",
+      "sha256": "d0c2d83a766ac5e29e109957602a98b662abd8c0bc6b9dd00cb290353070f6e2"
+    },
+    {
+      "file": "designs/details/map-gen/09-forest-disabled.png",
+      "sha256": "20bac17082852f921ac9b579db0d45bf07ca5e4a92d474fd61b1e33799d54d3e"
+    },
+    {
+      "file": "designs/details/tile-inspector/01-element-tools.png",
+      "sha256": "6ac70b9ce8cfa70db1b0d3d9ac7763433f316341863db5e5938982ad7a1070cb"
+    },
+    {
+      "file": "designs/details/tile-inspector/00-element-list.png",
+      "sha256": "af104f9cdf5f296e96561be339ea2138152136a7fecfa7490e7a15838a1ca359"
+    },
+    {
+      "file": "designs/details/tile-inspector/02-surface.png",
+      "sha256": "64b54ba04679f029c936b7a823cef670bebc34410251b8920b29c2918acee45a"
+    },
+    {
+      "file": "designs/details/tile-inspector/03-path-1.png",
+      "sha256": "8a497b9b4b44febc91c329c5f9b8be61be44e562dd8d9ead83604e11bfee8198"
+    },
+    {
+      "file": "designs/details/tile-inspector/03-path-2.png",
+      "sha256": "bb0e3f36ec079f109d8af56339fd63b829ae7e134a95de8637df0bbb86f39574"
+    },
+    {
+      "file": "designs/details/tile-inspector/04-track.png",
+      "sha256": "7e37c9a01f772bc46829483705f8dcf0863de3f41115d63e8a4edffe79581ab0"
+    },
+    {
+      "file": "designs/details/tile-inspector/05-small-scenery.png",
+      "sha256": "dcbf64ea223b9628ded63528cc89cbfeb97914bf1d6fe75893922432a5d7c757"
+    },
+    {
+      "file": "designs/details/tile-inspector/06-large-scenery.png",
+      "sha256": "e509dbf21dd81e7324c101b619e15690c9d3b18f61fae533b63ea52a7ea46634"
+    },
+    {
+      "file": "designs/details/tile-inspector/07-wall-sloped.png",
+      "sha256": "49271b93e57f6677b0920d4ae0cf979684255d2860657000dcdeb762a4a739c8"
+    },
+    {
+      "file": "designs/details/tile-inspector/08-wall-animated.png",
+      "sha256": "76ce6139ee4c74cfdc847b73b051f5d60d0eee0f377395a3658677183b5f1aaf"
+    },
+    {
+      "file": "designs/details/tile-inspector/09-entrance.png",
+      "sha256": "7fb097d2bbf06cd1d665a6d6876e31e90a0882fcc7613ed532c941030a6d4f41"
+    },
+    {
+      "file": "designs/details/tile-inspector/10-banner.png",
+      "sha256": "331c3bd62a49805d1895f0c836526bed0268f721b3c77328a7a898717bc3f31b"
+    },
+    {
+      "file": "designs/details/management/cheats-1-1.png",
+      "sha256": "566d66504656dc9f280379f1c7dc5e85391f16e8be21c73ab4c7defa884cdd89"
+    },
+    {
+      "file": "designs/details/management/cheats-2-1.png",
+      "sha256": "ee817e709e2bada9f6fce27813088baa50b6ab6b16278fd5da812b2d05b372c9"
+    },
+    {
+      "file": "designs/details/management/cheats-guests-needs.png",
+      "sha256": "e5e5d3d28a33f9e1df50d4f834b718e94b9c50f047673ee984d8500bedf590a6"
+    },
+    {
+      "file": "designs/details/management/cheats-3-1.png",
+      "sha256": "f8236358368d7378f633df42c2866df30ff8f908caef4788bbb84bb3d4f8da70"
+    },
+    {
+      "file": "designs/details/management/cheats-4-1.png",
+      "sha256": "b36417a8341f3d405a8832facd53c112204c0624ddeb945d52eb7acda27cdbf6"
+    },
+    {
+      "file": "designs/details/management/cheats-5-1.png",
+      "sha256": "28a9c7f2f0732b2bf688e304598a4622e8eb27983ad43e68ee2144fc8024454d"
+    },
+    {
+      "file": "designs/details/management/cheats-6-1.png",
+      "sha256": "cd79a9da9788489e19254064d763b86e4e7307cf5a348378da76d8d28bd4e30e"
+    },
+    {
+      "file": "designs/details/management/cheats-6-2.png",
+      "sha256": "afa3840a19efa52d34f2522baf56dc3263ee8e57c670d037c2d4992ae9929166"
+    },
+    {
+      "file": "designs/details/management/cheats-7-1.png",
+      "sha256": "41e681f65275f124e3a0f78979e4d0d7f85bdab11108b0732797cb0dc138c33a"
+    },
+    {
+      "file": "designs/details/management/scenery-complete-tools.png",
+      "sha256": "f5fd26f65552c99a00d1daf88b3cd633958ce29e9948bf4b7d1c5621b81cc2fb"
+    },
+    {
+      "file": "designs/details/management/scenery-editor-restriction.png",
+      "sha256": "5220e4181c80b39b457e9d83607d54ec709a52ba238f2cdaf9726b148c2ce7bc"
+    },
+    {
+      "file": "designs/details/management/editor-object-complete-selection.png",
+      "sha256": "adcbba1e3e4a6caa57eac1364c2a3dda751808523dab801a20be9c9b4f2e14f6"
+    },
+    {
+      "file": "designs/details/management/editor-object-source-filter-open.png",
+      "sha256": "4e5d851965d2c5b368d4a1d7acba2deafc9afe12bd6776835d43ed4a9aec2131"
+    },
+    {
+      "file": "designs/details/management/themes-custom-management.png",
+      "sha256": "9511f13794387b1bb90baa0cccf8c6fcae21ca34e18401b0510db99b437ed745"
+    }
+  ],
+  "operation": "review_contact_sheet_thumbnail_composition_no_new_model_generation"
+}

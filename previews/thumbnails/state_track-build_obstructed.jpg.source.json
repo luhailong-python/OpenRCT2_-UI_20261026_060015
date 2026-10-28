@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_track-build_obstructed.jpg",
+  "sha256": "eba99533586f8c30935c9701606aa2d4d01c51ec43f2cb9d89e3ce53eff76e1d",
+  "derivedFrom": [
+    {
+      "file": "previews/states/track-build/obstructed.png",
+      "sha256": "cff80af28c965c2c7e53da76d1a4e556425857b9dbd5213c5907f2d885740732",
+      "sourceRecord": "previews/states/track-build/obstructed.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

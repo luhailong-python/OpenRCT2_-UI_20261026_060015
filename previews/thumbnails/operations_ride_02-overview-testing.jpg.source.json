@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/operations_ride_02-overview-testing.jpg",
+  "sha256": "7f2f990e82e3371c8e3b31b2f63520cee7c9ab88f77840e4b271f7b16a19b0c7",
+  "derivedFrom": [
+    {
+      "file": "designs/details/ride-ops/02-overview-testing.png",
+      "sha256": "59e2974628ddad053fecef7df223c7b18cf704fbb72fd3c1a9a03d67f7c76cfa",
+      "sourceRecord": "designs/details/ride-ops/02-overview-testing.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

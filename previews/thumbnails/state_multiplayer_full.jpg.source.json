@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_multiplayer_full.jpg",
+  "sha256": "f06d01b9907a22c5d68aa563bbd1a83c457516f43e0ae6f649f31a276765a708",
+  "derivedFrom": [
+    {
+      "file": "previews/states/multiplayer/full.png",
+      "sha256": "978c17c8f5dcbf3cee0803697d66a5de3948842e03b47f21d35d22a9f0099657",
+      "sourceRecord": "previews/states/multiplayer/full.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

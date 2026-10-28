@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/new-ride_01.jpg",
+  "sha256": "1e5df0e6eb7b76c5cc600bae4f7fd7734a95202758591f22ec9c7a3fe27c4338",
+  "derivedFrom": [
+    {
+      "file": "designs/new-ride/01-交通.png",
+      "sha256": "f58d8f515e4c8ff2b6b1ddd1c3430dbb9125b3b16b6bd4ab618d6b47071cb462",
+      "sourceRecord": "designs/new-ride/01-交通.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

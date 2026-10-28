@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/themes_08.jpg",
+  "sha256": "430c11f628358e8629e90bf3eb49730241e10254325f81cfc4f71793da2b8d14",
+  "derivedFrom": [
+    {
+      "file": "designs/themes/08-弹窗.png",
+      "sha256": "3648ed92aef1113791ebde7985ad371509b89be0093d4815b5e8cfe4687d58cb",
+      "sourceRecord": "designs/themes/08-弹窗.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

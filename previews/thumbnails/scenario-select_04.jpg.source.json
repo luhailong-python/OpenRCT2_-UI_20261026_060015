@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/scenario-select_04.jpg",
+  "sha256": "aff2b3698d93af81526fa8126bf4d26c94ebe1684d998d4d2635f3897cb0b22c",
+  "derivedFrom": [
+    {
+      "file": "designs/scenario-select/04-RCT2.png",
+      "sha256": "5e70c224f20e11668bce06c31b5115a5c1659847b7c448c56bbc192413336e99",
+      "sourceRecord": "designs/scenario-select/04-RCT2.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

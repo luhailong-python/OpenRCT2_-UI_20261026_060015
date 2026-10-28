@@ -1,0 +1,570 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/details/options/06-操作-01.png",
+  "sha256": "fbe48163eab472f9090f50676e984d4a5887083830cd2cdfbdba112ed6b33a20",
+  "exportedAt": "2026-10-26T08:00:05.948858-04:00",
+  "width": 1920,
+  "height": 1080,
+  "format": "PNG",
+  "operation": "composite_preview_not_native_generation",
+  "process": [
+    "Nine-slice/contain/cover composition of painted PNG sprites",
+    "Separate Chinese text typesetting and data diagrams"
+  ],
+  "resampling": "LANCZOS where art is fitted; output dimensions do not represent new native generated detail.",
+  "nativeModelClaim": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidencePolicy": "Resolve original AI model/quality through each source asset record; unreported values remain unconfirmed.",
+  "derivedFrom": [
+    {
+      "file": "assets/backgrounds/park-day-native.png",
+      "sha256": "27c3ac998fcd81e675c9a05712ead25c83443b133844c169d1476c3cebe25712",
+      "nativeDimensions": [
+        1672,
+        941
+      ],
+      "generationRecord": "assets/backgrounds/park-day-native.png.generation.json",
+      "derivationRecord": "assets/slice-manifest.json"
+    },
+    {
+      "file": "assets/common/panel_main.png",
+      "sha256": "704856762248133110624f38365e0ff337dd1f2f6304f66298e2230077ebca00",
+      "nativeDimensions": [
+        619,
+        610
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_main.png.source.json"
+    },
+    {
+      "file": "assets/common/title_plate.png",
+      "sha256": "f1011dd30d1ef42cbeedf64f31025c6c77c91ffbbcdd09ef74c065ad1d91ddfe",
+      "nativeDimensions": [
+        594,
+        195
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/title_plate.png.source.json"
+    },
+    {
+      "file": "assets/common/close.png",
+      "sha256": "f9089fdc15bfbfbd496d9c02de94c46b0e1e4052fffa9689de0b461e043737ec",
+      "nativeDimensions": [
+        184,
+        184
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/close.png.source.json"
+    },
+    {
+      "file": "assets/common/panel_card.png",
+      "sha256": "b82ed16e818b3bb86c16a68453bc4b73f1764c6fdb4541c2e470e5c60789568e",
+      "nativeDimensions": [
+        589,
+        558
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_card.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_normal.png",
+      "sha256": "9327a3d9577111e5985e3453a8a201010887c606a094b7e080421417aef3f92e",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_selected.png",
+      "sha256": "119a81554b9e332d698f5c704813cb047fcd4c5c71e9e5c36c7b6df6b4a789b9",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_selected.png.source.json"
+    },
+    {
+      "file": "assets/common/checkbox_on.png",
+      "sha256": "b986cc788cbae485e12a8a778be057715201d11e3d1154776881966b680b77b9",
+      "nativeDimensions": [
+        128,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/checkbox_on.png.source.json"
+    },
+    {
+      "file": "assets/common/secondary_normal.png",
+      "sha256": "5f6418c0ede62320bc017ef1f00ec1d60a5d5fc34dac8c4e96d0016e6523881f",
+      "nativeDimensions": [
+        256,
+        112
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/secondary_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/slider_track.png",
+      "sha256": "5919ec4975d82d653e74d39f750cf8ecd6412694fe8f0c85bec4629bb7b9d0b2",
+      "nativeDimensions": [
+        296,
+        64
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/slider_track.png.source.json"
+    },
+    {
+      "file": "assets/common/slider_thumb.png",
+      "sha256": "0d717bc517e3146f3f56d83df930e7f571588fdae0f9e658faa4e5631e93da7f",
+      "nativeDimensions": [
+        112,
+        112
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/slider_thumb.png.source.json"
+    }
+  ],
+  "layoutRecord": "designs/details/options/06-操作-01.layout.json",
+  "functionalReference": {
+    "functionalRepository": "https://github.com/OpenRCT2/OpenRCT2.git",
+    "commit": "52a55c3e8da5972460642bdfed61d091fe9cabfd",
+    "sourceUnit": "Options",
+    "sourceFiles": [
+      "src/openrct2-ui/windows/Options.cpp"
+    ],
+    "condition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+    "scope": "Complete controls arranged as an actual product UI proposal; no runtime verification.",
+    "sourceControls": [
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_SCREEN_EDGE_SCROLLING"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_SCREEN_EDGE_SCROLLING",
+        "screenId": "detail:options:06-操作-01",
+        "region": [
+          390,
+          300,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "当鼠标位于屏幕边缘时滚动视图",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 202
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 376,
+              "sourceExpression": "makeWidget({ 10, kControlsGroupStart + 13},  {290, 14}, WidgetType::checkbox, WindowColour::tertiary,  STR_SCREEN_EDGE_SCROLLING,      STR_SCREEN_EDGE_SCROLLING_TIP     )",
+              "sourceStringIds": [
+                "STR_SCREEN_EDGE_SCROLLING",
+                "STR_SCREEN_EDGE_SCROLLING_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_TRAP_CURSOR"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_TRAP_CURSOR",
+        "screenId": "detail:options:06-操作-01",
+        "region": [
+          1108,
+          300,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "限制鼠标指针仅在窗口内移动",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 203
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 377,
+              "sourceExpression": "makeWidget({ 10, kControlsGroupStart + 30},  {290, 12}, WidgetType::checkbox, WindowColour::tertiary,  STR_TRAP_MOUSE,                 STR_TRAP_MOUSE_TIP                )",
+              "sourceStringIds": [
+                "STR_TRAP_MOUSE",
+                "STR_TRAP_MOUSE_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_INVERT_DRAG"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_INVERT_DRAG",
+        "screenId": "detail:options:06-操作-01",
+        "region": [
+          390,
+          396,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "拖拽时反转鼠标右键",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 204
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 378,
+              "sourceExpression": "makeWidget({ 10, kControlsGroupStart + 45},  {290, 12}, WidgetType::checkbox, WindowColour::tertiary,  STR_INVERT_RIGHT_MOUSE_DRAG,    STR_INVERT_RIGHT_MOUSE_DRAG_TIP   )",
+              "sourceStringIds": [
+                "STR_INVERT_RIGHT_MOUSE_DRAG",
+                "STR_INVERT_RIGHT_MOUSE_DRAG_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_ZOOM_TO_CURSOR"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_ZOOM_TO_CURSOR",
+        "screenId": "detail:options:06-操作-01",
+        "region": [
+          1108,
+          396,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "放大到鼠标所在位置",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 205
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 379,
+              "sourceExpression": "makeWidget({ 10, kControlsGroupStart + 60},  {290, 12}, WidgetType::checkbox, WindowColour::tertiary,  STR_ZOOM_TO_CURSOR,             STR_ZOOM_TO_CURSOR_TIP            )",
+              "sourceStringIds": [
+                "STR_ZOOM_TO_CURSOR",
+                "STR_ZOOM_TO_CURSOR_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_WINDOW_BUTTONS_ON_THE_LEFT"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_WINDOW_BUTTONS_ON_THE_LEFT",
+        "screenId": "detail:options:06-操作-01",
+        "region": [
+          390,
+          492,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "在左侧显示窗口按钮",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 206
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 380,
+              "sourceExpression": "makeWidget({ 10, kControlsGroupStart + 75},  {290, 12}, WidgetType::checkbox, WindowColour::tertiary,  STR_WINDOW_BUTTONS_ON_THE_LEFT, STR_WINDOW_BUTTONS_ON_THE_LEFT_TIP)",
+              "sourceStringIds": [
+                "STR_WINDOW_BUTTONS_ON_THE_LEFT",
+                "STR_WINDOW_BUTTONS_ON_THE_LEFT_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_ENLARGED_UI"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_ENLARGED_UI",
+        "screenId": "detail:options:06-操作-01",
+        "region": [
+          1108,
+          492,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "放大用户界面",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 207
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 381,
+              "sourceExpression": "makeWidget({ 10, kControlsGroupStart + 90},  {290, 12}, WidgetType::checkbox, WindowColour::tertiary,  STR_ENLARGED_UI,                STR_ENLARGED_UI_TIP               )",
+              "sourceStringIds": [
+                "STR_ENLARGED_UI",
+                "STR_ENLARGED_UI_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_TOUCH_ENHANCEMENTS"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_TOUCH_ENHANCEMENTS",
+        "screenId": "detail:options:06-操作-01",
+        "region": [
+          390,
+          588,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "增强触控模式",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 208
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 382,
+              "sourceExpression": "makeWidget({ 25, kControlsGroupStart + 105}, {275, 12}, WidgetType::checkbox, WindowColour::tertiary,  STR_TOUCH_ENHANCEMENTS,         STR_TOUCH_ENHANCEMENTS_TIP        )",
+              "sourceStringIds": [
+                "STR_TOUCH_ENHANCEMENTS",
+                "STR_TOUCH_ENHANCEMENTS_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 1688,
+            "expression": "             widgetSetEnabled(*this, WIDX_TOUCH_ENHANCEMENTS, Config::Get().interface.enlargedUi);              // Initialize scroll positions for sliders only on first frame"
+          }
+        ],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_HOTKEY_DROPDOWN"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_HOTKEY_DROPDOWN",
+        "screenId": "detail:options:06-操作-01",
+        "region": [
+          1112,
+          600,
+          682,
+          68
+        ],
+        "visualKind": "button",
+        "label": "快捷键设置",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 209
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 383,
+              "sourceExpression": "makeWidget({155, kControlsGroupStart + 120}, {144, 13}, WidgetType::button,   WindowColour::secondary, STR_HOTKEY,                     STR_HOTKEY_TIP                    )",
+              "sourceStringIds": [
+                "STR_HOTKEY",
+                "STR_HOTKEY_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_GAMEPAD_DEADZONE"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_GAMEPAD_DEADZONE",
+        "screenId": "detail:options:06-操作-01",
+        "region": [
+          394,
+          720,
+          682,
+          52
+        ],
+        "visualKind": "slider",
+        "label": "手柄死区",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "scroll",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 214
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "scroll",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 388,
+              "sourceExpression": "makeWidget({105, kGamepadGroupStart + 13},   {190, 13}, WidgetType::scroll,   WindowColour::secondary, SCROLL_HORIZONTAL,              STR_GAMEPAD_DEADZONE_TOOLTIP_FORMAT)",
+              "sourceStringIds": [
+                "STR_GAMEPAD_DEADZONE_TOOLTIP_FORMAT"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_GAMEPAD_SENSITIVITY"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_GAMEPAD_SENSITIVITY",
+        "screenId": "detail:options:06-操作-01",
+        "region": [
+          1112,
+          720,
+          682,
+          52
+        ],
+        "visualKind": "slider",
+        "label": "手柄灵敏度",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "scroll",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 216
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "scroll",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 390,
+              "sourceExpression": "makeWidget({105, kGamepadGroupStart + 28},   {190, 13}, WidgetType::scroll,   WindowColour::secondary, SCROLL_HORIZONTAL,              STR_GAMEPAD_SENSITIVITY_TOOLTIP_FORMAT)",
+              "sourceStringIds": [
+                "STR_GAMEPAD_SENSITIVITY_TOOLTIP_FORMAT"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      }
+    ],
+    "decorativeArtPolicy": "Existing painted PNGs only"
+  },
+  "status": "produced_pending_review"
+}

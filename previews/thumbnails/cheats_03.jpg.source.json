@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/cheats_03.jpg",
+  "sha256": "dfc4803b07a3ddacbcad495c1951176a6a2d245731d24e6e6e2f2b1f4f548e40",
+  "derivedFrom": [
+    {
+      "file": "designs/cheats/03-游客.png",
+      "sha256": "20b1bc8b5c29489a72343caa7710f2d52d9a10783d6a6789c0fffbeb33d0cc43",
+      "sourceRecord": "designs/cheats/03-游客.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

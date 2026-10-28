@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/management-detail_themes-misc-2.jpg",
+  "sha256": "ebee4682c6b9cfb96d12e415daa9c36fbe6c0eebb64a2eeefeeb21fa5544ec39",
+  "derivedFrom": [
+    {
+      "file": "designs/details/management/themes-misc-2.png",
+      "sha256": "99aadf7c6a3417010f18c07d41d79d3bdfb1f04f59939b84a1cbe841f41b90e5",
+      "sourceRecord": "designs/details/management/themes-misc-2.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

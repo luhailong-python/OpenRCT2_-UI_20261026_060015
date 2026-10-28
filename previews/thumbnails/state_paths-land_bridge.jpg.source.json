@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_paths-land_bridge.jpg",
+  "sha256": "2fa3a49218c2fee6b2b484301cc140f958c19b93d48df3c75c3bfccc7ecb0a1f",
+  "derivedFrom": [
+    {
+      "file": "previews/states/paths-land/bridge.png",
+      "sha256": "35b09414ba59a9acda6bb3330a280daa9daaf4e00f87c2bb752de67227c613d2",
+      "sourceRecord": "previews/states/paths-land/bridge.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

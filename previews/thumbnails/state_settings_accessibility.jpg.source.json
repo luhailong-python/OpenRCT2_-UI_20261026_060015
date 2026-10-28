@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_settings_accessibility.jpg",
+  "sha256": "b4ad06931aaa037f24d726af82ea388efd5e235c3de8e4275ba1d07424ec108f",
+  "derivedFrom": [
+    {
+      "file": "previews/states/settings/accessibility.png",
+      "sha256": "755afcfe484eed1a5efd90524b45afbccc5bb1c5e487e9053044f36224b43497",
+      "sourceRecord": "previews/states/settings/accessibility.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

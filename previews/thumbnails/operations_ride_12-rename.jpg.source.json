@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/operations_ride_12-rename.jpg",
+  "sha256": "50dd30cb9c158e2d41e37fe7d2ffb2632742646660ce5eb7fb0595ab7a6dee31",
+  "derivedFrom": [
+    {
+      "file": "designs/details/ride-ops/12-rename.png",
+      "sha256": "f200e6f93850d3b5a8ac3cced6bfed9d3866d44da1fff6a251286b45a6e06741",
+      "sourceRecord": "designs/details/ride-ops/12-rename.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

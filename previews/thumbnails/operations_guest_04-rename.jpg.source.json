@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/operations_guest_04-rename.jpg",
+  "sha256": "a4c0d383a16cca2ba297ec8781e09f7bd993c613a7ef8b5c5b3b8531a5c64e78",
+  "derivedFrom": [
+    {
+      "file": "designs/details/guest-ops/04-rename.png",
+      "sha256": "7c8c78b68ce5c3c1f4b20ed59684bd5274a30c699506e06aae46fd2dd6c2f1d7",
+      "sourceRecord": "designs/details/guest-ops/04-rename.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

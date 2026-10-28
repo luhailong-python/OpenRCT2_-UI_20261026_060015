@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/operations_guest_03-pickup-placement.jpg",
+  "sha256": "da5f06ef76f4097b2244801be61a2f0710dd735887a014d669e114448b96d672",
+  "derivedFrom": [
+    {
+      "file": "designs/details/guest-ops/03-pickup-placement.png",
+      "sha256": "f297c705f97a9aa49caecfe85c579c9dea29543121c696f96c0521c068524bd0",
+      "sourceRecord": "designs/details/guest-ops/03-pickup-placement.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

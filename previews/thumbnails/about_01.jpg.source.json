@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/about_01.jpg",
+  "sha256": "6a73d5b7d24976681bce870e8789501f96ff79c5773b5e58b71c75930ec09ff7",
+  "derivedFrom": [
+    {
+      "file": "designs/about/01-OpenRCT2.png",
+      "sha256": "201ce69a45fe64b6f6b03817afcd1db448999345f59c90993f93af76c2d9e461",
+      "sourceRecord": "designs/about/01-OpenRCT2.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

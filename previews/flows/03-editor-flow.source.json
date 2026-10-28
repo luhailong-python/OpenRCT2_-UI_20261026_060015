@@ -1,0 +1,45 @@
+{
+  "file": "previews/flows/03-editor-flow.png",
+  "sha256": "b87e3eef4ec311caa17e278b3aec2618de9c0410122dada093aca378c9dc1e79",
+  "operation": "diagram_typesetting_and_composition_from_handpainted_sprites_not_AI_generation",
+  "derivedFrom": [
+    {
+      "file": "assets/common/panel_card.png",
+      "sha256": "b82ed16e818b3bb86c16a68453bc4b73f1764c6fdb4541c2e470e5c60789568e",
+      "sourceRecord": "assets/common/panel_card.png.source.json"
+    },
+    {
+      "file": "assets/icons/mountain.png",
+      "sha256": "23c004ff301a7f892fa09a5e158cb154c70e69e7fb11431579d265cb67526dc6",
+      "sourceRecord": "assets/icons/mountain.png.source.json"
+    },
+    {
+      "file": "assets/icons/objective.png",
+      "sha256": "1b2159eaa2f5449a48a5f3dcb13f8dad0bdea7cb81aaf07e01dc48a4e51d4545",
+      "sourceRecord": "assets/icons/objective.png.source.json"
+    },
+    {
+      "file": "assets/icons/research.png",
+      "sha256": "cd0bf4a4383e63abd1da17d7bb41227354873261d4532aa15760d03ea4c58838",
+      "sourceRecord": "assets/icons/research.png.source.json"
+    },
+    {
+      "file": "assets/icons/roller_coaster.png",
+      "sha256": "4468c378149e31796e8eef9f03728d69f4acbe302135ec985f4c48b1a9d79f61",
+      "sourceRecord": "assets/icons/roller_coaster.png.source.json"
+    },
+    {
+      "file": "assets/icons/save.png",
+      "sha256": "a39978f7e93b79753cb58885acc3e44faaea46b0e4ae8f8744dd234ab0cc427f",
+      "sourceRecord": "assets/icons/save.png.source.json"
+    },
+    {
+      "file": "assets/icons/settings.png",
+      "sha256": "323cf6f8285d42d51f3eb542b89609e2c64cfe2e9a0d20694608dace5cab4ce1",
+      "sourceRecord": "assets/icons/settings.png.source.json"
+    }
+  ],
+  "logicReference": "docs/workflows.md",
+  "fonts": "records/font-sources.json",
+  "nativeDetailIncreased": false
+}

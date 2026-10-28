@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_messages-support_asset-packs.jpg",
+  "sha256": "0625443b0e40d3042fed33a1eb58787e6cfd8364fd0ceace5cbac62631ae0bf6",
+  "derivedFrom": [
+    {
+      "file": "previews/states/messages-support/asset-packs.png",
+      "sha256": "5f217d9955fbb9b1700dad276aaf32b4a6a50d2b925dddd553ce8d59c2455881",
+      "sourceRecord": "previews/states/messages-support/asset-packs.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

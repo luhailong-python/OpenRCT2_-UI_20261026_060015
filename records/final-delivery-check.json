@@ -1,0 +1,30 @@
+{
+  "verifiedAt": "2026-10-26T09:34:23.387263-04:00",
+  "scope": "final_local_delivery_indexes_and_navigation",
+  "counts": {
+    "screens": 346,
+    "states": 125,
+    "gallery": 471,
+    "formalSprites": 130,
+    "thumbnailPNGsOrJPGs": 471,
+    "provenanceRasters": 1228
+  },
+  "navigationTargets": [
+    "docs/UI功能与资源总清单.md",
+    "docs/UI功能与资源总清单.csv",
+    "assets/manifest.json",
+    "docs/unity-import-guide.md",
+    "docs/acceptance-results.md",
+    "previews/flows/index.html",
+    "previews/control-contracts/index.html",
+    "previews/sprites-contact.jpg",
+    "previews/illustrations-contact.jpg"
+  ],
+  "missingNavigationTargets": [],
+  "deliveryMachineFailureCount": 0,
+  "browserStatus": "passed",
+  "sourceRepositoryExcludedFromRasterIndex": true,
+  "gitCommitPushPerformed": false,
+  "unityVerified": false,
+  "passed": true
+}

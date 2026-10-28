@@ -1,0 +1,135 @@
+{
+  "file": "previews/contact-sheets/05.jpg",
+  "sha256": "17c82110e74955b1084e884cfa766a3771be42ebcbe06da53933d7c580324661",
+  "derivedFrom": [
+    {
+      "file": "designs/plugin-window/01-插件窗口.png",
+      "sha256": "23a7f6bf0980648a0c07b3883655aa5b847f13f1eb6411c4b738c553e33446b3"
+    },
+    {
+      "file": "designs/progress-window/01-进行中.png",
+      "sha256": "ca85eb08f7af0f110b5b4295e9c15b72f668a2a8063501a9225f6a0b3f20c326"
+    },
+    {
+      "file": "designs/refurbish-ride-prompt/01-确认.png",
+      "sha256": "ae4f6a74d98f065a98270e49e7b4025020a6df986c9b4bd78306f9874b9c7f2c"
+    },
+    {
+      "file": "designs/refurbish-ride-prompt/02-取消.png",
+      "sha256": "ae4f6a74d98f065a98270e49e7b4025020a6df986c9b4bd78306f9874b9c7f2c"
+    },
+    {
+      "file": "designs/research/01-进展.png",
+      "sha256": "3cd29b2bd47857c0af674497c87718588a9083796d05d0107d18380c87c259b6"
+    },
+    {
+      "file": "designs/research/02-经费.png",
+      "sha256": "8ecec3fb3289e3ae6013cc52d1911601843cfbf606da9aa3249455efaf919920"
+    },
+    {
+      "file": "designs/ride-construction/01-轨道.png",
+      "sha256": "f9a1f3af8a724f4556689e48441d351fedf1da5c709ff38521ec174916a6372a"
+    },
+    {
+      "file": "designs/ride-construction/02-入口.png",
+      "sha256": "ecce2185861a96ed17152ff8ecf8f331bfc5ba7fca5f1968ebf482c19e9977af"
+    },
+    {
+      "file": "designs/ride-construction/03-出口.png",
+      "sha256": "188031f6cd955cc6bc25437a24d017d57fac7c1f44b39423b6a968ed5847e93d"
+    },
+    {
+      "file": "designs/ride-construction/04-特殊轨道.png",
+      "sha256": "39b3610598d25892e20ea895ac5711cc07ac78fa02bb2fa9f7fcd36e9cc38a7c"
+    },
+    {
+      "file": "designs/ride-list/01-游乐设施.png",
+      "sha256": "745592a408d6672c2e00af00ff37abedf25d68384210dd25e6498111848e3f0a"
+    },
+    {
+      "file": "designs/ride-list/02-商店摊位.png",
+      "sha256": "7e4ca2e90e9487e7a3f34a21c003b5c821ea6ae504a2a10db3b211a764f6c29c"
+    },
+    {
+      "file": "designs/ride-list/03-服务设施.png",
+      "sha256": "d57f1c9c31c0a9ddd69a50391454e58212a2320ec494f236c1818b127c037436"
+    },
+    {
+      "file": "designs/ride/01-概览.png",
+      "sha256": "f7631721027ac5d7a40fa2da97c7049c987d1c8b2085de444a5ad42c4c4b5fb3"
+    },
+    {
+      "file": "designs/ride/02-车辆.png",
+      "sha256": "83e5e90395b00ad96f3d6287c2ef55f9f4dfb678b5d7f7c77c240918dfa5dae4"
+    },
+    {
+      "file": "designs/ride/03-运行.png",
+      "sha256": "f4b41f53eabe6b97b0938f9d98d19b4d85a416e2e1b0a0694902b82417b29c4a"
+    },
+    {
+      "file": "designs/ride/04-维护.png",
+      "sha256": "c6477686cd739c57c9ff6922c81b9104673b7f1a2b019f00d243481331eef109"
+    },
+    {
+      "file": "designs/ride/05-配色.png",
+      "sha256": "a56dda5b39f7922370b6bce3ed265a4f2b9ef2ffadd009360b8db40845f12ff4"
+    },
+    {
+      "file": "designs/ride/06-音乐.png",
+      "sha256": "197be80a4d2dc1fe2ef8a5fc97efca3451999028e8449e73d5c5c7349b5f6d19"
+    },
+    {
+      "file": "designs/ride/07-测试.png",
+      "sha256": "b93776b9f9650002af72eaeb628ee08e003def9b61efd9eb5e444b769cad8efd"
+    },
+    {
+      "file": "designs/ride/08-图表.png",
+      "sha256": "9454f77b435c4ba4a1bc5db054c11459e6234255d51941cd13c05a3dd7a50692"
+    },
+    {
+      "file": "designs/ride/09-收入.png",
+      "sha256": "fe10da7f8f60b41efd2740b77460a10ad06ae5e8bdb1ac678817ad85385f9bc0"
+    },
+    {
+      "file": "designs/ride/10-游客.png",
+      "sha256": "1b1e8ec5a112d2fce38acc5cbee502fb2d56e65850ffce4883c6a8ba5b3a7028"
+    },
+    {
+      "file": "designs/save-prompt/01-保存.png",
+      "sha256": "fb44c8881302312f0697000a2024ea6b8908da76946ebd7637e67758734d596a"
+    },
+    {
+      "file": "designs/save-prompt/02-不保存.png",
+      "sha256": "fb44c8881302312f0697000a2024ea6b8908da76946ebd7637e67758734d596a"
+    },
+    {
+      "file": "designs/save-prompt/03-取消.png",
+      "sha256": "fb44c8881302312f0697000a2024ea6b8908da76946ebd7637e67758734d596a"
+    },
+    {
+      "file": "designs/scenario-select/01-RCT1.png",
+      "sha256": "75d4619f3cc9b4c34b4976950f55ed568b3f3533b27783999ad1e87b00bc0c64"
+    },
+    {
+      "file": "designs/scenario-select/02-RCT1新增设施.png",
+      "sha256": "fd6f5d70fc068aa370d8bcdf1c6e246136866db3ed3910c6a78a31467b29a595"
+    },
+    {
+      "file": "designs/scenario-select/03-RCT1疯狂景观.png",
+      "sha256": "7d672abb36da3909d5ff3d5b8cadcd4da19ee34c41db0804c50582807cdb1857"
+    },
+    {
+      "file": "designs/scenario-select/04-RCT2.png",
+      "sha256": "5e70c224f20e11668bce06c31b5115a5c1659847b7c448c56bbc192413336e99"
+    },
+    {
+      "file": "designs/scenario-select/05-RCT2奇异世界.png",
+      "sha256": "6cfe02ceaae959621e1af1aea42995714e595460e941f1ff27094826dec96b29"
+    },
+    {
+      "file": "designs/scenario-select/06-RCT2时光之旅.png",
+      "sha256": "74db1394ca0c01823177dfa1666083333cc5c77fa1994974fd1f1020ed014df2"
+    }
+  ],
+  "operation": "review_contact_sheet_thumbnail_composition_no_new_model_generation"
+}

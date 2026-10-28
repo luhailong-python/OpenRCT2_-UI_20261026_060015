@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_guests_debug-disabled.jpg",
+  "sha256": "17dcd110780def5b00793ac6aaac5f9b6bc055ee39dfda88a5228f0f398ab437",
+  "derivedFrom": [
+    {
+      "file": "previews/states/guests/debug-disabled.png",
+      "sha256": "80c4a07c1f55738d57725260c1cad1756be366bb72844973865c78f188e4f3a2",
+      "sourceRecord": "previews/states/guests/debug-disabled.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

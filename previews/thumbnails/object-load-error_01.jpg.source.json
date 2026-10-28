@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/object-load-error_01.jpg",
+  "sha256": "6e60f912eb3110851414d53fd8fbb96a4e961d7bbd510376b3e7c47caacf0bf5",
+  "derivedFrom": [
+    {
+      "file": "designs/object-load-error/01-缺失对象.png",
+      "sha256": "e1d3cf2d2e8c8aee6707fe054f1dd7e8bcd3db12719b29adb0521463667417b9",
+      "sourceRecord": "designs/object-load-error/01-缺失对象.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

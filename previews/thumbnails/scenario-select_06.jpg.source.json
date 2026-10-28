@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/scenario-select_06.jpg",
+  "sha256": "3da83ceeb4a716f4fab2fa5e56afa0f5adfb55206248158390af14113da9c91c",
+  "derivedFrom": [
+    {
+      "file": "designs/scenario-select/06-RCT2时光之旅.png",
+      "sha256": "74db1394ca0c01823177dfa1666083333cc5c77fa1994974fd1f1020ed014df2",
+      "sourceRecord": "designs/scenario-select/06-RCT2时光之旅.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

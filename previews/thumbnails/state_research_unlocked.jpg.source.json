@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_research_unlocked.jpg",
+  "sha256": "c1b0237eb97141e73634cb5bfc23c8c335dcfd160fdc87e4ee98e9ace4ed453d",
+  "derivedFrom": [
+    {
+      "file": "previews/states/research/unlocked.png",
+      "sha256": "ea06c19c3f3ce79f3f73500d596694f9eaecdbd6e5c085c782dedee2564b37ac",
+      "sourceRecord": "previews/states/research/unlocked.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

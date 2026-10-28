@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/title-menu_02.jpg",
+  "sha256": "e1c646b81c5182426a6a511c4f9b7002d6fcaa3d4edb30b7d882728892009eea",
+  "derivedFrom": [
+    {
+      "file": "designs/title-menu/02-工具箱.png",
+      "sha256": "1180565c01aed6f4e97af58ad55991977ca469f7377a8c46b62900fe9a39b064",
+      "sourceRecord": "designs/title-menu/02-工具箱.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

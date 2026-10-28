@@ -1,0 +1,135 @@
+{
+  "file": "previews/contact-sheets/11.jpg",
+  "sha256": "0835e66c8ce2a52bba842fe7d251bf25da7ca34c3335cce396beccf55fb8c032",
+  "derivedFrom": [
+    {
+      "file": "designs/details/guest-ops/02-pickup-unavailable.png",
+      "sha256": "0d3048184d799f6b4b6ef80f32b23f78325c1cf9d6b9b4f02da8a6319183b221"
+    },
+    {
+      "file": "designs/details/guest-ops/03-pickup-placement.png",
+      "sha256": "f297c705f97a9aa49caecfe85c579c9dea29543121c696f96c0521c068524bd0"
+    },
+    {
+      "file": "designs/details/guest-ops/04-rename.png",
+      "sha256": "7c8c78b68ce5c3c1f4b20ed59684bd5274a30c699506e06aae46fd2dd6c2f1d7"
+    },
+    {
+      "file": "designs/details/park-ops/01-park-actions.png",
+      "sha256": "eb5be8edbed8bf4bb100ce593ebc59c3f57a1dbd36caab32d005ea3e51381cd5"
+    },
+    {
+      "file": "designs/details/park-ops/02-objective-keeps-open.png",
+      "sha256": "8661193a4dad0daed973ebe31653418db334f7aa1f4dd2810ba7ce6024df619f"
+    },
+    {
+      "file": "designs/details/park-ops/03-no-money-actions.png",
+      "sha256": "668b5745a243aac6850c649f614060956d8d809d75d3e33c1f2ab9c4a6c93746"
+    },
+    {
+      "file": "designs/details/park-ops/04-ticket-price.png",
+      "sha256": "7e54767697fa664c95d18081a252d7addcd884e51b9d9a95ec9b243274f7ca3d"
+    },
+    {
+      "file": "designs/details/park-ops/05-ticket-free-locked.png",
+      "sha256": "26187bb86640dc56e7eaa5a9d263b265864fd41753a97c55bbc616e534e472eb"
+    },
+    {
+      "file": "designs/details/park-ops/06-rename.png",
+      "sha256": "a6754adca499ed4306158448511d39c9d301ec09b4674847b7906ec1c9f5feef"
+    },
+    {
+      "file": "designs/details/park-ops/07-completion-name-entry.png",
+      "sha256": "bb7d77714e96fb39c5ae5985f0afb12824e1fd2ef01b68b8a61ecb2d38cee89f"
+    },
+    {
+      "file": "designs/details/utility/newride-search-group.png",
+      "sha256": "7ca100152cde53f9bdaa9170eb7540af9a99a68adbbdc0df9b8f12ec5099353d"
+    },
+    {
+      "file": "designs/details/utility/newride-shop-group-disabled.png",
+      "sha256": "cab65c64da4c7d4d9a535d22d8e14d44c1dc297386395773f6ffdff24428c233"
+    },
+    {
+      "file": "designs/details/utility/newride-research-shortcuts.png",
+      "sha256": "25fecd6290c4048a39c7054f170e99165dac76aef272c4984234db0cdb3bf4c5"
+    },
+    {
+      "file": "designs/details/utility/guestlist-individual-tools.png",
+      "sha256": "11613bbf0e19f6abc47fb7e99c7b966cfb4088155b2056abff425e92926dbe40"
+    },
+    {
+      "file": "designs/details/utility/guestlist-information-menu.png",
+      "sha256": "9bbfa2731781aa469e88e049621dfbcbdf8040e31f49054368dc4927933505bb"
+    },
+    {
+      "file": "designs/details/utility/guestlist-summarised-tools.png",
+      "sha256": "c28e7fd25bb2b7f1e6d49e52e422e59ebb88bdb23d421ba950999fd6370f47a8"
+    },
+    {
+      "file": "designs/details/utility/ridelist-menu.png",
+      "sha256": "d30e58132a5fa0c9f4f0abe3413b22f29ad8657143be14eebae8557804ab27ab"
+    },
+    {
+      "file": "designs/details/utility/ridelist-lights.png",
+      "sha256": "a11df0a71b247217edc61b2a31aa13174c2b7342b16af4848c67cdddc29b9c50"
+    },
+    {
+      "file": "designs/details/utility/ridelist-client.png",
+      "sha256": "4eace319f4c8283197cf27113b0ae62c466edd376e193340f63b1660dc061c8c"
+    },
+    {
+      "file": "designs/details/utility/filebrowser-save.png",
+      "sha256": "e7b756984e5cf3959d39f27ae70e05fc365068f1775bfc9301c04348039ba0ff"
+    },
+    {
+      "file": "designs/details/utility/filebrowser-read.png",
+      "sha256": "959975bb2b3a42cd0f82b9f371193e385ebf3db40d669840bb9293223a70af1a"
+    },
+    {
+      "file": "designs/details/utility/filebrowser-drives.png",
+      "sha256": "a0221570be37731da3dc5bde87f198ef2b1cee28582268c77ce082b3bb3a311c"
+    },
+    {
+      "file": "designs/details/utility/filebrowser-customise.png",
+      "sha256": "c0d31ad077d076596f37885713ae657670ce44f80878b3f06a7be9a3c62dedbd"
+    },
+    {
+      "file": "designs/details/utility/stafflist-normal.png",
+      "sha256": "3a66085370db0fa31d0a788553ce1e069c5f6c652c0e16b78c479cdda48494f2"
+    },
+    {
+      "file": "designs/details/utility/stafflist-quickfire.png",
+      "sha256": "22aad123410cfb4e6be70ebb886ccc1c166dc6f6d6cde93ae475c0946816b3fc"
+    },
+    {
+      "file": "designs/details/utility/stafflist-entertainer.png",
+      "sha256": "b7b3497f5363b783cd105e928d6a9f8ddd3418c87fedae828a20a2bfc4877439"
+    },
+    {
+      "file": "previews/states/editor/details.png",
+      "sha256": "2613da3150c86393fc721cd399f45d00fa65161113fc07aa974a740b79ac9414"
+    },
+    {
+      "file": "previews/states/editor/landscape.png",
+      "sha256": "3216f0261f24876a3a50adbe99c404ed9b2b7a67c4d2c863ec43157a795432e0"
+    },
+    {
+      "file": "previews/states/editor/object-required.png",
+      "sha256": "35b66c14ad18223e8bec32ebe27b457b5c06958aab6caacce1adb17dbd36423f"
+    },
+    {
+      "file": "previews/states/editor/object-selection.png",
+      "sha256": "061c9aece14089cf677d03541a59ff928898b5d050c9ed9af27668c83df38402"
+    },
+    {
+      "file": "previews/states/editor/objective.png",
+      "sha256": "4986ae0487f700072d1e89064e4c45a6cd09ea2088dd56fc0b669c8206a3aa1b"
+    },
+    {
+      "file": "previews/states/editor/options.png",
+      "sha256": "be7f80ebb4f101874343b67fc17a289a80c6d5c574ccacb02b6e29d1ee19f912"
+    }
+  ],
+  "operation": "review_contact_sheet_thumbnail_composition_no_new_model_generation"
+}

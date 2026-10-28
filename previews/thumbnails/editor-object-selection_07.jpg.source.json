@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/editor-object-selection_07.jpg",
+  "sha256": "86bde0f7b923ad37b851f97a6dad9db3e5486a381ba3a6f2e556d555d5929f7c",
+  "derivedFrom": [
+    {
+      "file": "designs/editor-object-selection/07-游客员工.png",
+      "sha256": "bdce7a6d9a4705b35a908c266c461e070e4db645176eb3ba09e9cd7ec1906c35",
+      "sourceRecord": "designs/editor-object-selection/07-游客员工.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

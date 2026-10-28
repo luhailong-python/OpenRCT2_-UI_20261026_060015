@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/utility-detail_guestlist-information-menu.jpg",
+  "sha256": "94781bd0567dd5d4d49c01062ef6f34129ca00b59b2018c600871e915072f392",
+  "derivedFrom": [
+    {
+      "file": "designs/details/utility/guestlist-information-menu.png",
+      "sha256": "9bbfa2731781aa469e88e049621dfbcbdf8040e31f49054368dc4927933505bb",
+      "sourceRecord": "designs/details/utility/guestlist-information-menu.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

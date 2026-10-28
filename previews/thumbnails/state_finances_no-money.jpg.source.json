@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_finances_no-money.jpg",
+  "sha256": "fa640eb914b0f9f0cfe1c46c5ed5d982c8db276886373039595761d1ccbb7912",
+  "derivedFrom": [
+    {
+      "file": "previews/states/finances/no-money.png",
+      "sha256": "08f311ea552c815ce37b088b9ee7eadc3ad2aa9ad419a8c7c3de2ef3be9bf78c",
+      "sourceRecord": "previews/states/finances/no-money.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_finances_repay-insufficient.jpg",
+  "sha256": "b19f7a712c9dff6597d1aa6ee4f5efba641fe3ad9ac749929417972fad1de6da",
+  "derivedFrom": [
+    {
+      "file": "previews/states/finances/repay-insufficient.png",
+      "sha256": "0882aa2e6c1fa9077bc7bd057961b09bd8ec5c0d745896918a1d15d5fea92355",
+      "sourceRecord": "previews/states/finances/repay-insufficient.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

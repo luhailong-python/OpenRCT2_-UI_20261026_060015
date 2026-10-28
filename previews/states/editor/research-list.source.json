@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "file": "previews/states/editor/research-list.png",
+  "sha256": "5d8578b0e7801972e09400166075f9d607c151e9c27f6c3466fe531f60a07d1e",
+  "exportedAt": "2026-10-26T06:48:38.529304-04:00",
+  "width": 1920,
+  "height": 1080,
+  "format": "PNG",
+  "operation": "composite_preview_not_native_generation",
+  "process": [
+    "Nine-slice/contain/cover composition of painted PNG sprites",
+    "Separate Chinese text typesetting and data diagrams"
+  ],
+  "resampling": "LANCZOS where art is fitted; output dimensions do not represent new native generated detail.",
+  "nativeModelClaim": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidencePolicy": "Resolve original AI model/quality through each source asset record; unreported values remain unconfirmed.",
+  "derivedFrom": [
+    {
+      "file": "assets/backgrounds/park-day-native.png",
+      "sha256": "27c3ac998fcd81e675c9a05712ead25c83443b133844c169d1476c3cebe25712",
+      "nativeDimensions": [
+        1672,
+        941
+      ],
+      "generationRecord": "assets/backgrounds/park-day-native.png.generation.json",
+      "derivationRecord": "assets/slice-manifest.json"
+    },
+    {
+      "file": "assets/common/panel_main.png",
+      "sha256": "704856762248133110624f38365e0ff337dd1f2f6304f66298e2230077ebca00",
+      "nativeDimensions": [
+        619,
+        610
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_main.png.source.json"
+    },
+    {
+      "file": "assets/common/title_plate.png",
+      "sha256": "f1011dd30d1ef42cbeedf64f31025c6c77c91ffbbcdd09ef74c065ad1d91ddfe",
+      "nativeDimensions": [
+        594,
+        195
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/title_plate.png.source.json"
+    },
+    {
+      "file": "assets/common/close.png",
+      "sha256": "f9089fdc15bfbfbd496d9c02de94c46b0e1e4052fffa9689de0b461e043737ec",
+      "nativeDimensions": [
+        184,
+        184
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/close.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_selected.png",
+      "sha256": "119a81554b9e332d698f5c704813cb047fcd4c5c71e9e5c36c7b6df6b4a789b9",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_selected.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_normal.png",
+      "sha256": "9327a3d9577111e5985e3453a8a201010887c606a094b7e080421417aef3f92e",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/panel_card.png",
+      "sha256": "b82ed16e818b3bb86c16a68453bc4b73f1764c6fdb4541c2e470e5c60789568e",
+      "nativeDimensions": [
+        589,
+        558
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_card.png.source.json"
+    },
+    {
+      "file": "assets/icons/path.png",
+      "sha256": "d3a4c892126c876c8282cd8f7527f3518d748b41c7711a62faa9ec95229d28ec",
+      "nativeDimensions": [
+        192,
+        192
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/icons/path.png.source.json"
+    },
+    {
+      "file": "assets/icons/roller_coaster.png",
+      "sha256": "4468c378149e31796e8eef9f03728d69f4acbe302135ec985f4c48b1a9d79f61",
+      "nativeDimensions": [
+        192,
+        192
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/icons/roller_coaster.png.source.json"
+    },
+    {
+      "file": "assets/icons/pine_tree.png",
+      "sha256": "3654049dee6a59b8595728081e4d8321da9ffd3676364a63aee45598c6a7e48f",
+      "nativeDimensions": [
+        192,
+        192
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/icons/pine_tree.png.source.json"
+    },
+    {
+      "file": "assets/icons/visitor.png",
+      "sha256": "6864154acf8da64c9b7cc110d0c12a89d29af988137bf12e9515104a77cc8f29",
+      "nativeDimensions": [
+        192,
+        192
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/icons/visitor.png.source.json"
+    },
+    {
+      "file": "assets/icons/mechanic.png",
+      "sha256": "db8b46de0445dc87f79342c5cf8584c991eed86e63e3d162529c2c05b9228aac",
+      "nativeDimensions": [
+        192,
+        192
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/icons/mechanic.png.source.json"
+    },
+    {
+      "file": "assets/icons/coins.png",
+      "sha256": "7323314b8133c1b45467afabff3d394457147dda489d4a324744b3894ba51182",
+      "nativeDimensions": [
+        192,
+        192
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/icons/coins.png.source.json"
+    },
+    {
+      "file": "assets/icons/research.png",
+      "sha256": "cd0bf4a4383e63abd1da17d7bb41227354873261d4532aa15760d03ea4c58838",
+      "nativeDimensions": [
+        192,
+        192
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/icons/research.png.source.json"
+    },
+    {
+      "file": "assets/icons/news.png",
+      "sha256": "8e8f1603f81b0d3837a209a92e16b3e81d8a794fe0f90f47f2a375cd03e2f673",
+      "nativeDimensions": [
+        192,
+        192
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/icons/news.png.source.json"
+    },
+    {
+      "file": "assets/common/secondary_normal.png",
+      "sha256": "5f6418c0ede62320bc017ef1f00ec1d60a5d5fc34dac8c4e96d0016e6523881f",
+      "nativeDimensions": [
+        256,
+        112
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/secondary_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/primary_normal.png",
+      "sha256": "83fe20f7969e29bf064885d8947b6ab9042e99b47dcac58c7277505e75cd1b5d",
+      "nativeDimensions": [
+        256,
+        120
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/primary_normal.png.source.json"
+    }
+  ],
+  "layoutRecord": "previews/states/editor/research-list.layout.json",
+  "functionalReference": {
+    "repository": "https://github.com/OpenRCT2/OpenRCT2.git",
+    "commit": "52a55c3e8da5972460642bdfed61d091fe9cabfd",
+    "stateContract": "docs/state-contracts.json",
+    "system": "editor",
+    "state": {
+      "id": "research-list",
+      "title": "设置研究顺序",
+      "message": "区分已发明与待研究对象，可调整顺序。",
+      "primaryAction": "下一步",
+      "secondaryAction": "上一步",
+      "visualKind": "list",
+      "logicBasis": "existing",
+      "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+    },
+    "evidence": [
+      "src/openrct2/scenes/editor/EditorStep.h:16",
+      "src/openrct2-ui/windows/EditorStepController.cpp:138",
+      "src/openrct2-ui/windows/EditorStepController.cpp:212",
+      "src/openrct2/scenes/editor/EditorController.cpp:97",
+      "src/openrct2/scenes/editor/EditorController.cpp:169"
+    ]
+  },
+  "status": "produced_pending_review"
+}

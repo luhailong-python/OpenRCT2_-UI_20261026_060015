@@ -1,0 +1,1574 @@
+{
+  "schemaVersion": 1,
+  "screenId": "detail:tile-inspector:03-path-1",
+  "title": "地块检查  步道",
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "origin": "top-left",
+  "textLayers": [
+    {
+      "id": "text-001",
+      "text": "地块检查",
+      "role": "dynamic-text",
+      "region": [
+        620,
+        66,
+        680,
+        75
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 46,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 65,
+      "wrappedLines": [
+        "地块检查"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-002",
+      "text": "元素操作",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        231,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "元素操作"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-003",
+      "text": "地表",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        301,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "地表"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-004",
+      "text": "步道",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        371,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "步道"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-005",
+      "text": "轨道",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        441,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "轨道"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-006",
+      "text": "小景物",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        511,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "小景物"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-007",
+      "text": "大景物",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        581,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "大景物"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-008",
+      "text": "墙",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        651,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "墙"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-009",
+      "text": "入口",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        721,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "入口"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-010",
+      "text": "横幅",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        791,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "横幅"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-011",
+      "text": "步道",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        218,
+        1388,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 32,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 45,
+      "wrappedLines": [
+        "步道"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-012",
+      "text": "美术设计样例 · 名称 / 数值待定",
+      "role": "dynamic-text",
+      "region": [
+        600,
+        1046,
+        720,
+        28
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "美术设计样例 · 名称 / 数值待定"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-013",
+      "text": "基础高度",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        300,
+        674,
+        34
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "基础高度"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-014",
+      "text": "8",
+      "role": "dynamic-text",
+      "region": [
+        458,
+        344,
+        554,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "8"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-015",
+      "text": "道路附件损坏",
+      "role": "dynamic-text",
+      "region": [
+        1174,
+        314,
+        602,
+        62
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "center",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "道路附件损坏"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-016",
+      "text": "坡道",
+      "role": "dynamic-text",
+      "region": [
+        456,
+        410,
+        602,
+        62
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "center",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "坡道"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-017",
+      "text": "路口显示栏杆",
+      "role": "dynamic-text",
+      "region": [
+        1174,
+        410,
+        602,
+        62
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "center",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "路口显示栏杆"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-018",
+      "text": "东北连通边",
+      "role": "dynamic-text",
+      "region": [
+        456,
+        506,
+        602,
+        62
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "center",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "东北连通边"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-019",
+      "text": "东连通边",
+      "role": "dynamic-text",
+      "region": [
+        1174,
+        506,
+        602,
+        62
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "center",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "东连通边"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-020",
+      "text": "东南连通边",
+      "role": "dynamic-text",
+      "region": [
+        456,
+        602,
+        602,
+        62
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "center",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "东南连通边"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-021",
+      "text": "南连通边",
+      "role": "dynamic-text",
+      "region": [
+        1174,
+        602,
+        602,
+        62
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "center",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "南连通边"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-022",
+      "text": "西南连通边",
+      "role": "dynamic-text",
+      "region": [
+        456,
+        698,
+        602,
+        62
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "center",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "西南连通边"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-023",
+      "text": "西连通边",
+      "role": "dynamic-text",
+      "region": [
+        1174,
+        698,
+        602,
+        62
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "center",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "西连通边"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-024",
+      "text": "地块坐标 64, 72 · 方向基于当前视图",
+      "role": "dynamic-text",
+      "region": [
+        397,
+        870,
+        1394,
+        39
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#7A745E",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "地块坐标 64, 72 · 方向基于当前视图"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-025",
+      "text": "移除元素",
+      "role": "dynamic-text",
+      "region": [
+        1608,
+        924,
+        154,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "移除元素"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-026",
+      "text": "复制元素",
+      "role": "dynamic-text",
+      "region": [
+        1380,
+        924,
+        154,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "复制元素"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-027",
+      "text": "旋转元素",
+      "role": "dynamic-text",
+      "region": [
+        1152,
+        924,
+        154,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "旋转元素"
+      ],
+      "dynamic": true
+    }
+  ],
+  "artAndControlLayers": [
+    {
+      "role": "park-background",
+      "asset": "assets/backgrounds/park-day-native.png",
+      "region": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "resize": "cover"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_main.png",
+      "region": [
+        52,
+        96,
+        1816,
+        930
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "title-plaque",
+      "asset": "assets/common/title_plate.png",
+      "region": [
+        520,
+        22,
+        880,
+        170
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "close",
+      "asset": "assets/common/close.png",
+      "region": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_card.png",
+      "region": [
+        84,
+        208,
+        268,
+        756
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        224,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        294,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_selected.png",
+      "region": [
+        100,
+        364,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        434,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        504,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        574,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        644,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        714,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        784,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "value-field",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        394,
+        336,
+        682,
+        52
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "spinner-decrease",
+      "asset": "assets/common/minus.png",
+      "region": [
+        403,
+        342,
+        40,
+        40
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "spinner-increase",
+      "asset": "assets/common/plus.png",
+      "region": [
+        1027,
+        342,
+        40,
+        40
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "TileInspector:WIDX_PATH_SPINNER_HEIGHT"
+      ],
+      "unit": "TileInspector",
+      "controlId": "WIDX_PATH_SPINNER_HEIGHT",
+      "screenId": "detail:tile-inspector:03-path-1",
+      "region": [
+        450,
+        336,
+        570,
+        52
+      ],
+      "visualKind": "spinner",
+      "label": "基础高度",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "spinner",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 125
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "spinner",
+            "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 331,
+            "sourceExpression": "makeHoldableSpinnerWidgets(PropertyRowCol({ 12, 0 }, 0, 1), kPropertySpinnerSize, WidgetType::spinner, WindowColour::secondary)",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "value"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "选中有效的步道元素。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "TileInspector:WIDX_PATH_SPINNER_HEIGHT_DECREASE"
+      ],
+      "unit": "TileInspector",
+      "controlId": "WIDX_PATH_SPINNER_HEIGHT_DECREASE",
+      "screenId": "detail:tile-inspector:03-path-1",
+      "region": [
+        403,
+        342,
+        40,
+        40
+      ],
+      "visualKind": "stepper-decrease",
+      "label": "基础高度减少",
+      "state": "normal",
+      "parentControl": "WIDX_PATH_SPINNER_HEIGHT",
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 127
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 331,
+            "sourceExpression": "makeHoldableSpinnerWidgets(PropertyRowCol({ 12, 0 }, 0, 1), kPropertySpinnerSize, WidgetType::spinner, WindowColour::secondary)",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "decrease"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "选中有效的步道元素。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "TileInspector:WIDX_PATH_SPINNER_HEIGHT_INCREASE"
+      ],
+      "unit": "TileInspector",
+      "controlId": "WIDX_PATH_SPINNER_HEIGHT_INCREASE",
+      "screenId": "detail:tile-inspector:03-path-1",
+      "region": [
+        1027,
+        342,
+        40,
+        40
+      ],
+      "visualKind": "stepper-increase",
+      "label": "基础高度增加",
+      "state": "normal",
+      "parentControl": "WIDX_PATH_SPINNER_HEIGHT",
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 126
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 331,
+            "sourceExpression": "makeHoldableSpinnerWidgets(PropertyRowCol({ 12, 0 }, 0, 1), kPropertySpinnerSize, WidgetType::spinner, WindowColour::secondary)",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "increase"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "选中有效的步道元素。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "checkbox",
+      "asset": "assets/common/checkbox_off.png",
+      "region": [
+        1116,
+        318,
+        42,
+        42
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "TileInspector:WIDX_PATH_CHECK_BROKEN"
+      ],
+      "unit": "TileInspector",
+      "controlId": "WIDX_PATH_CHECK_BROKEN",
+      "screenId": "detail:tile-inspector:03-path-1",
+      "region": [
+        1108,
+        300,
+        690,
+        96
+      ],
+      "visualKind": "checkbox",
+      "label": "道路附件损坏",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "checkbox",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 128
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "checkbox",
+            "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 332,
+            "sourceExpression": "makeWidget(PropertyRowCol({ 12, 0 }, 1, 0), kPropertyFullWidth, WidgetType::checkbox, WindowColour::secondary, STR_TILE_INSPECTOR_PATH_BROKEN)",
+            "sourceStringIds": [
+              "STR_TILE_INSPECTOR_PATH_BROKEN"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "选中有效的步道元素。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "checkbox",
+      "asset": "assets/common/checkbox_on.png",
+      "region": [
+        398,
+        414,
+        42,
+        42
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "TileInspector:WIDX_PATH_CHECK_SLOPED"
+      ],
+      "unit": "TileInspector",
+      "controlId": "WIDX_PATH_CHECK_SLOPED",
+      "screenId": "detail:tile-inspector:03-path-1",
+      "region": [
+        390,
+        396,
+        690,
+        96
+      ],
+      "visualKind": "checkbox",
+      "label": "坡道",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "checkbox",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 129
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "checkbox",
+            "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 333,
+            "sourceExpression": "makeWidget(PropertyRowCol({ 12, 0 }, 2, 0), kPropertyFullWidth, WidgetType::checkbox, WindowColour::secondary, STR_TILE_INSPECTOR_PATH_SLOPED)",
+            "sourceStringIds": [
+              "STR_TILE_INSPECTOR_PATH_SLOPED"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "选中有效的步道元素。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "checkbox",
+      "asset": "assets/common/checkbox_on.png",
+      "region": [
+        1116,
+        414,
+        42,
+        42
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "TileInspector:WIDX_PATH_CHECK_JUNCTION_RAILINGS"
+      ],
+      "unit": "TileInspector",
+      "controlId": "WIDX_PATH_CHECK_JUNCTION_RAILINGS",
+      "screenId": "detail:tile-inspector:03-path-1",
+      "region": [
+        1108,
+        396,
+        690,
+        96
+      ],
+      "visualKind": "checkbox",
+      "label": "路口显示栏杆",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "checkbox",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 130
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "checkbox",
+            "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 334,
+            "sourceExpression": "makeWidget(PropertyRowCol({ 12, 0 }, 3, 0), kPropertyFullWidth, WidgetType::checkbox, WindowColour::secondary, STR_TILE_INSPECTOR_PATH_JUNCTION_RAILINGS)",
+            "sourceStringIds": [
+              "STR_TILE_INSPECTOR_PATH_JUNCTION_RAILINGS"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "选中有效的步道元素。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "checkbox",
+      "asset": "assets/common/checkbox_on.png",
+      "region": [
+        398,
+        510,
+        42,
+        42
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "TileInspector:WIDX_PATH_CHECK_EDGE_NE"
+      ],
+      "unit": "TileInspector",
+      "controlId": "WIDX_PATH_CHECK_EDGE_NE",
+      "screenId": "detail:tile-inspector:03-path-1",
+      "region": [
+        390,
+        492,
+        690,
+        96
+      ],
+      "visualKind": "checkbox",
+      "label": "东北连通边",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "checkbox",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 131
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "checkbox",
+            "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 335,
+            "sourceExpression": "makeWidget(CheckboxGroupOffset(PropertyRowCol({ 12, 0 }, 4, 1), 3, 1), { 12, 12 }, WidgetType::checkbox, WindowColour::secondary)",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "选中有效的步道元素。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "checkbox",
+      "asset": "assets/common/checkbox_off.png",
+      "region": [
+        1116,
+        510,
+        42,
+        42
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "TileInspector:WIDX_PATH_CHECK_EDGE_E"
+      ],
+      "unit": "TileInspector",
+      "controlId": "WIDX_PATH_CHECK_EDGE_E",
+      "screenId": "detail:tile-inspector:03-path-1",
+      "region": [
+        1108,
+        492,
+        690,
+        96
+      ],
+      "visualKind": "checkbox",
+      "label": "东连通边",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "checkbox",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 131
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "checkbox",
+            "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 336,
+            "sourceExpression": "makeWidget(CheckboxGroupOffset(PropertyRowCol({ 12, 0 }, 4, 1), 4, 2), { 12, 12 }, WidgetType::checkbox, WindowColour::secondary)",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "选中有效的步道元素。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "checkbox",
+      "asset": "assets/common/checkbox_off.png",
+      "region": [
+        398,
+        606,
+        42,
+        42
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "TileInspector:WIDX_PATH_CHECK_EDGE_SE"
+      ],
+      "unit": "TileInspector",
+      "controlId": "WIDX_PATH_CHECK_EDGE_SE",
+      "screenId": "detail:tile-inspector:03-path-1",
+      "region": [
+        390,
+        588,
+        690,
+        96
+      ],
+      "visualKind": "checkbox",
+      "label": "东南连通边",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "checkbox",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 132
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "checkbox",
+            "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 337,
+            "sourceExpression": "makeWidget(CheckboxGroupOffset(PropertyRowCol({ 12, 0 }, 4, 1), 3, 3), { 12, 12 }, WidgetType::checkbox, WindowColour::secondary)",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "选中有效的步道元素。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "checkbox",
+      "asset": "assets/common/checkbox_off.png",
+      "region": [
+        1116,
+        606,
+        42,
+        42
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "TileInspector:WIDX_PATH_CHECK_EDGE_S"
+      ],
+      "unit": "TileInspector",
+      "controlId": "WIDX_PATH_CHECK_EDGE_S",
+      "screenId": "detail:tile-inspector:03-path-1",
+      "region": [
+        1108,
+        588,
+        690,
+        96
+      ],
+      "visualKind": "checkbox",
+      "label": "南连通边",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "checkbox",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 134
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "checkbox",
+            "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 338,
+            "sourceExpression": "makeWidget(CheckboxGroupOffset(PropertyRowCol({ 12, 0 }, 4, 1), 2, 4), { 12, 12 }, WidgetType::checkbox, WindowColour::secondary)",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "选中有效的步道元素。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "checkbox",
+      "asset": "assets/common/checkbox_on.png",
+      "region": [
+        398,
+        702,
+        42,
+        42
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "TileInspector:WIDX_PATH_CHECK_EDGE_SW"
+      ],
+      "unit": "TileInspector",
+      "controlId": "WIDX_PATH_CHECK_EDGE_SW",
+      "screenId": "detail:tile-inspector:03-path-1",
+      "region": [
+        390,
+        684,
+        690,
+        96
+      ],
+      "visualKind": "checkbox",
+      "label": "西南连通边",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "checkbox",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 135
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "checkbox",
+            "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 339,
+            "sourceExpression": "makeWidget(CheckboxGroupOffset(PropertyRowCol({ 12, 0 }, 4, 1), 1, 3), { 12, 12 }, WidgetType::checkbox, WindowColour::secondary)",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "选中有效的步道元素。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "checkbox",
+      "asset": "assets/common/checkbox_off.png",
+      "region": [
+        1116,
+        702,
+        42,
+        42
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "TileInspector:WIDX_PATH_CHECK_EDGE_W"
+      ],
+      "unit": "TileInspector",
+      "controlId": "WIDX_PATH_CHECK_EDGE_W",
+      "screenId": "detail:tile-inspector:03-path-1",
+      "region": [
+        1108,
+        684,
+        690,
+        96
+      ],
+      "visualKind": "checkbox",
+      "label": "西连通边",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "checkbox",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 136
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "checkbox",
+            "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 340,
+            "sourceExpression": "makeWidget(CheckboxGroupOffset(PropertyRowCol({ 12, 0 }, 4, 1), 0, 2), { 12, 12 }, WidgetType::checkbox, WindowColour::secondary)",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "选中有效的步道元素。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1584,
+        916,
+        202,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "TileInspector:WIDX_BUTTON_REMOVE"
+      ],
+      "unit": "TileInspector",
+      "controlId": "WIDX_BUTTON_REMOVE",
+      "screenId": "detail:tile-inspector:03-path-1",
+      "region": [
+        1584,
+        916,
+        202,
+        68
+      ],
+      "visualKind": "button",
+      "label": "移除元素",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 93
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 285,
+            "sourceExpression": "makeWidget(kToolbarButtonAnchor + kToolbarButtonOffsetX * 0,                     kToolbarButtonSize,     WidgetType::flatBtn,     WindowColour::secondary, ImageId(SPR_DEMOLISH),     STR_REMOVE_SELECTED_ELEMENT_TIP )",
+            "sourceStringIds": [
+              "STR_REMOVE_SELECTED_ELEMENT_TIP"
+            ],
+            "originalSpriteIds": [
+              "SPR_DEMOLISH"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "选中有效的步道元素。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1356,
+        916,
+        202,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "TileInspector:WIDX_BUTTON_COPY"
+      ],
+      "unit": "TileInspector",
+      "controlId": "WIDX_BUTTON_COPY",
+      "screenId": "detail:tile-inspector:03-path-1",
+      "region": [
+        1356,
+        916,
+        202,
+        68
+      ],
+      "visualKind": "button",
+      "label": "复制元素",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 99
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 291,
+            "sourceExpression": "makeWidget(kToolbarButtonAnchor + kToolbarButtonOffsetX * 5,                     kToolbarButtonSize,     WidgetType::flatBtn,     WindowColour::secondary, ImageId(SPR_G2_COPY),      STR_TILE_INSPECTOR_COPY_TIP)",
+            "sourceStringIds": [
+              "STR_TILE_INSPECTOR_COPY_TIP"
+            ],
+            "originalSpriteIds": [
+              "SPR_G2_COPY"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 2151,
+          "expression": "            // Copy button             setWidgetDisabledAndInvalidate(WIDX_BUTTON_COPY, windowTileInspectorSelectedIndex < 0);              // Paste button"
+        }
+      ],
+      "displayedCondition": "选中有效的步道元素。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1128,
+        916,
+        202,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "TileInspector:WIDX_BUTTON_ROTATE"
+      ],
+      "unit": "TileInspector",
+      "controlId": "WIDX_BUTTON_ROTATE",
+      "screenId": "detail:tile-inspector:03-path-1",
+      "region": [
+        1128,
+        916,
+        202,
+        68
+      ],
+      "visualKind": "button",
+      "label": "旋转元素",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/TileInspector.cpp",
+          "line": 96
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 288,
+            "sourceExpression": "makeWidget(kToolbarButtonAnchor + kToolbarButtonOffsetX * 2,                     kToolbarButtonSize,     WidgetType::flatBtn,     WindowColour::secondary, ImageId(SPR_ROTATE_ARROW), STR_ROTATE_SELECTED_ELEMENT_TIP)",
+            "sourceStringIds": [
+              "STR_ROTATE_SELECTED_ELEMENT_TIP"
+            ],
+            "originalSpriteIds": [
+              "SPR_ROTATE_ARROW"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "选中有效的步道元素。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    }
+  ],
+  "dataDiagrams": [
+    {
+      "role": "data-rule",
+      "points": [
+        [
+          398,
+          276
+        ],
+        [
+          1790,
+          276
+        ]
+      ],
+      "color": "#B28C43",
+      "width": 1
+    }
+  ],
+  "layoutIssues": [],
+  "fontDistribution": "Official OFL-licensed fonts are included in assets/fonts; see records/font-sources.json.",
+  "status": "produced_pending_review"
+}

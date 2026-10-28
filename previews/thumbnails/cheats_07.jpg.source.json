@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/cheats_07.jpg",
+  "sha256": "a67b8732968ac5068d600f425959915701c92a2e17a07e9bb80ce7d72061d9c5",
+  "derivedFrom": [
+    {
+      "file": "designs/cheats/07-天气.png",
+      "sha256": "934a6867a9680877a81b9681ea6db60122536721614e973b241069299238f744",
+      "sourceRecord": "designs/cheats/07-天气.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/staff_01.jpg",
+  "sha256": "91a24e4212c02e5f87b18b2ba6525695d1387b17aeba9bf823f7db40f307cc71",
+  "derivedFrom": [
+    {
+      "file": "designs/staff/01-概览.png",
+      "sha256": "6f7ee6b573cabbfda3161d280779f872dba6a51a2fe5c455bc6679c2343f762e",
+      "sourceRecord": "designs/staff/01-概览.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

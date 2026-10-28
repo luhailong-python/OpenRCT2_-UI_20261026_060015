@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/sign_01.jpg",
+  "sha256": "e761054564f85df3610e9c49c2b81e96a58271dcf2ac512dc32f000570687b26",
+  "derivedFrom": [
+    {
+      "file": "designs/sign/01-招牌.png",
+      "sha256": "4ae1fcd5f47f5c9c04697cf907d7f19c1affd24a0b244d8b3ee7e92a5e6d65f9",
+      "sourceRecord": "designs/sign/01-招牌.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,494 @@
+{
+  "schemaVersion": 1,
+  "screenId": "detail:footpath:04-mode-switch",
+  "title": "步道建设  选择铺设方式",
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "origin": "top-left",
+  "textLayers": [
+    {
+      "id": "text-001",
+      "text": "步道建设",
+      "role": "dynamic-text",
+      "region": [
+        620,
+        66,
+        680,
+        75
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 46,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 65,
+      "wrappedLines": [
+        "步道建设"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-002",
+      "text": "地面铺设",
+      "role": "dynamic-text",
+      "region": [
+        128,
+        208,
+        290,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 26,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 36,
+      "wrappedLines": [
+        "地面铺设"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-003",
+      "text": "桥梁与隧道",
+      "role": "dynamic-text",
+      "region": [
+        470,
+        208,
+        290,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 26,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 36,
+      "wrappedLines": [
+        "桥梁与隧道"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-004",
+      "text": "区域拖建",
+      "role": "dynamic-text",
+      "region": [
+        812,
+        208,
+        290,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 26,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 36,
+      "wrappedLines": [
+        "区域拖建"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-005",
+      "text": "地面铺设",
+      "role": "dynamic-text",
+      "region": [
+        118,
+        300,
+        1664,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 32,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 45,
+      "wrappedLines": [
+        "地面铺设"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-006",
+      "text": "美术设计样例 · 名称 / 数值待定",
+      "role": "dynamic-text",
+      "region": [
+        600,
+        1046,
+        720,
+        28
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "美术设计样例 · 名称 / 数值待定"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-007",
+      "text": "在地面铺设",
+      "role": "dynamic-text",
+      "region": [
+        138,
+        402,
+        1278,
+        37
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "在地面铺设"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-008",
+      "text": "建造桥梁或隧道",
+      "role": "dynamic-text",
+      "region": [
+        138,
+        498,
+        1278,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "建造桥梁或隧道"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-009",
+      "text": "按区域拖建",
+      "role": "dynamic-text",
+      "region": [
+        138,
+        594,
+        1278,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "按区域拖建"
+      ],
+      "dynamic": true
+    }
+  ],
+  "artAndControlLayers": [
+    {
+      "role": "park-background",
+      "asset": "assets/backgrounds/park-day-native.png",
+      "region": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "resize": "cover"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_main.png",
+      "region": [
+        52,
+        96,
+        1816,
+        930
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "title-plaque",
+      "asset": "assets/common/title_plate.png",
+      "region": [
+        520,
+        22,
+        880,
+        170
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "close",
+      "asset": "assets/common/close.png",
+      "region": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_selected.png",
+      "region": [
+        108,
+        200,
+        330,
+        66
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        450,
+        200,
+        330,
+        66
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        792,
+        200,
+        330,
+        66
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "illustration",
+      "asset": "assets/illustrations/mountain_scenario.png",
+      "region": [
+        1474,
+        442,
+        320,
+        378
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/primary_selected.png",
+      "region": [
+        114,
+        394,
+        1326,
+        68
+      ],
+      "resize": "nine",
+      "state": "selected"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Footpath:WIDX_CONSTRUCT_ON_LAND"
+      ],
+      "unit": "Footpath",
+      "controlId": "WIDX_CONSTRUCT_ON_LAND",
+      "screenId": "detail:footpath:04-mode-switch",
+      "region": [
+        114,
+        394,
+        1326,
+        68
+      ],
+      "visualKind": "button",
+      "label": "在地面铺设",
+      "state": "selected",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Footpath.cpp",
+          "line": 184
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 216,
+            "sourceExpression": "makeWidget({13, 372}, { 36, 36}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_CONSTRUCTION_FOOTPATH_LAND),    STR_CONSTRUCT_FOOTPATH_ON_LAND_TIP             )",
+            "sourceStringIds": [
+              "STR_CONSTRUCT_FOOTPATH_ON_LAND_TIP"
+            ],
+            "originalSpriteIds": [
+              "SPR_CONSTRUCTION_FOOTPATH_LAND"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "铺设方式可切换，当前选择地面铺设。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        114,
+        490,
+        1326,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Footpath:WIDX_CONSTRUCT_BRIDGE_OR_TUNNEL"
+      ],
+      "unit": "Footpath",
+      "controlId": "WIDX_CONSTRUCT_BRIDGE_OR_TUNNEL",
+      "screenId": "detail:footpath:04-mode-switch",
+      "region": [
+        114,
+        490,
+        1326,
+        68
+      ],
+      "visualKind": "button",
+      "label": "建造桥梁或隧道",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Footpath.cpp",
+          "line": 185
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 217,
+            "sourceExpression": "makeWidget({57, 372}, { 36, 36}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_CONSTRUCTION_FOOTPATH_BRIDGE),  STR_CONSTRUCT_BRIDGE_OR_TUNNEL_FOOTPATH_TIP    )",
+            "sourceStringIds": [
+              "STR_CONSTRUCT_BRIDGE_OR_TUNNEL_FOOTPATH_TIP"
+            ],
+            "originalSpriteIds": [
+              "SPR_CONSTRUCTION_FOOTPATH_BRIDGE"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "铺设方式可切换，当前选择地面铺设。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        114,
+        586,
+        1326,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Footpath:WIDX_CONSTRUCT_DRAG_AREA"
+      ],
+      "unit": "Footpath",
+      "controlId": "WIDX_CONSTRUCT_DRAG_AREA",
+      "screenId": "detail:footpath:04-mode-switch",
+      "region": [
+        114,
+        586,
+        1326,
+        68
+      ],
+      "visualKind": "button",
+      "label": "按区域拖建",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Footpath.cpp",
+          "line": 186
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 218,
+            "sourceExpression": "makeWidget({35, 416}, { 36, 36}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_G2_ICON_PATH_DRAG_TOOL),        STR_DRAG_AREA_OF_FOOTPATH_TIP                  )",
+            "sourceStringIds": [
+              "STR_DRAG_AREA_OF_FOOTPATH_TIP"
+            ],
+            "originalSpriteIds": [
+              "SPR_G2_ICON_PATH_DRAG_TOOL"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Footpath.cpp",
+          "line": 565,
+          "expression": "            }             setWidgetDisabled(WIDX_CONSTRUCT_DRAG_AREA, !canDrag); #endif "
+        }
+      ],
+      "displayedCondition": "铺设方式可切换，当前选择地面铺设。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    }
+  ],
+  "dataDiagrams": [
+    {
+      "role": "data-rule",
+      "points": [
+        [
+          118,
+          358
+        ],
+        [
+          1786,
+          358
+        ]
+      ],
+      "color": "#B28C43",
+      "width": 1
+    }
+  ],
+  "layoutIssues": [],
+  "fontDistribution": "Official OFL-licensed fonts are included in assets/fonts; see records/font-sources.json.",
+  "status": "produced_pending_review"
+}

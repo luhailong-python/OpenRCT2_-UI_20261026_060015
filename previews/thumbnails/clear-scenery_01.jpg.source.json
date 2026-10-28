@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/clear-scenery_01.jpg",
+  "sha256": "cd316d414728b8780b4ea55b860a04c5b830aa4478565ec57141af9087bcc970",
+  "derivedFrom": [
+    {
+      "file": "designs/clear-scenery/01-清除.png",
+      "sha256": "6f21f0683caa6b5c44657b9393da6c9f18dc42c773808a0d0902db3c05e6bc1d",
+      "sourceRecord": "designs/clear-scenery/01-清除.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/water_01.jpg",
+  "sha256": "c96bdf1f923f7eb819f54fc6cb7f0d3895644b602804721e45e1393e25f4e93d",
+  "derivedFrom": [
+    {
+      "file": "designs/water/01-升降水位.png",
+      "sha256": "00ec152749441c258646e42e7c4858cb83eb4418bc312058b8e9c0df7062a845",
+      "sourceRecord": "designs/water/01-升降水位.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_map-gen_02-noise.jpg",
+  "sha256": "e35cb059e6a5fbad24586cc0020957408e26de9f272a1f03a1f255efacf03995",
+  "derivedFrom": [
+    {
+      "file": "designs/details/map-gen/02-noise.png",
+      "sha256": "96cb22427ca3f2d8b8e099d110e32b271b1b635012f61fc7449246cfe4c1a78e",
+      "sourceRecord": "designs/details/map-gen/02-noise.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

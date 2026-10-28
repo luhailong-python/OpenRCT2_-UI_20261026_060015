@@ -1,0 +1,1196 @@
+{
+  "schemaVersion": 1,
+  "screenId": "detail:map-gen:08-forest",
+  "title": "地图生成  森林",
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "origin": "top-left",
+  "textLayers": [
+    {
+      "id": "text-001",
+      "text": "地图生成",
+      "role": "dynamic-text",
+      "region": [
+        620,
+        66,
+        680,
+        75
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 46,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 65,
+      "wrappedLines": [
+        "地图生成"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-002",
+      "text": "平地",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        231,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "平地"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-003",
+      "text": "噪声",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        301,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "噪声"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-004",
+      "text": "高度图",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        371,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "高度图"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-005",
+      "text": "地形",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        441,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "地形"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-006",
+      "text": "水域",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        511,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "水域"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-007",
+      "text": "森林",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        581,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "森林"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-008",
+      "text": "森林",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        218,
+        1388,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 32,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 45,
+      "wrappedLines": [
+        "森林"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-009",
+      "text": "美术设计样例 · 名称 / 数值待定",
+      "role": "dynamic-text",
+      "region": [
+        600,
+        1046,
+        720,
+        28
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "美术设计样例 · 名称 / 数值待定"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-010",
+      "text": "放置树木",
+      "role": "dynamic-text",
+      "region": [
+        456,
+        314,
+        970,
+        62
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "center",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "放置树木"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-011",
+      "text": "树木与土地比例",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        396,
+        1042,
+        34
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "树木与土地比例"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-012",
+      "text": "35%",
+      "role": "dynamic-text",
+      "region": [
+        458,
+        440,
+        922,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "35%"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-013",
+      "text": "树木最低海拔",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        492,
+        1042,
+        34
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "树木最低海拔"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-014",
+      "text": "8",
+      "role": "dynamic-text",
+      "region": [
+        458,
+        536,
+        922,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "8"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-015",
+      "text": "树木最高海拔",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        588,
+        1042,
+        34
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "树木最高海拔"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-016",
+      "text": "28",
+      "role": "dynamic-text",
+      "region": [
+        458,
+        632,
+        922,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "28"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-017",
+      "text": "生成地图",
+      "role": "dynamic-text",
+      "region": [
+        1608,
+        924,
+        154,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "生成地图"
+      ],
+      "dynamic": true
+    }
+  ],
+  "artAndControlLayers": [
+    {
+      "role": "park-background",
+      "asset": "assets/backgrounds/park-day-native.png",
+      "region": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "resize": "cover"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_main.png",
+      "region": [
+        52,
+        96,
+        1816,
+        930
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "title-plaque",
+      "asset": "assets/common/title_plate.png",
+      "region": [
+        520,
+        22,
+        880,
+        170
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "close",
+      "asset": "assets/common/close.png",
+      "region": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_card.png",
+      "region": [
+        84,
+        208,
+        268,
+        756
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        224,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        294,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        364,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        434,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        504,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_selected.png",
+      "region": [
+        100,
+        574,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "illustration",
+      "asset": "assets/illustrations/mountain_scenario.png",
+      "region": [
+        1478,
+        360,
+        320,
+        462
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "checkbox",
+      "asset": "assets/common/checkbox_on.png",
+      "region": [
+        398,
+        318,
+        42,
+        42
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "MapGen:WIDX_FORESTS_PLACE_TREES"
+      ],
+      "unit": "MapGen",
+      "controlId": "WIDX_FORESTS_PLACE_TREES",
+      "screenId": "detail:map-gen:08-forest",
+      "region": [
+        390,
+        300,
+        1058,
+        96
+      ],
+      "visualKind": "checkbox",
+      "label": "放置树木",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "checkbox",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 106
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "checkbox",
+            "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 173,
+            "sourceExpression": "makeWidget                ({ 10,  52}, {255, 12}, WidgetType::checkbox, WindowColour::secondary, STR_MAPGEN_OPTION_PLACE_TREES)",
+            "sourceStringIds": [
+              "STR_MAPGEN_OPTION_PLACE_TREES"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "placeTrees=True；未勾选放置树木时禁用比例和海拔控制。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "value-field",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        394,
+        432,
+        1050,
+        52
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "spinner-decrease",
+      "asset": "assets/common/minus.png",
+      "region": [
+        403,
+        438,
+        40,
+        40
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "spinner-increase",
+      "asset": "assets/common/plus.png",
+      "region": [
+        1395,
+        438,
+        40,
+        40
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "MapGen:WIDX_TREE_LAND_RATIO"
+      ],
+      "unit": "MapGen",
+      "controlId": "WIDX_TREE_LAND_RATIO",
+      "screenId": "detail:map-gen:08-forest",
+      "region": [
+        450,
+        432,
+        938,
+        52
+      ],
+      "visualKind": "spinner",
+      "label": "树木与土地比例",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "spinner",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 107
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "spinner",
+            "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 174,
+            "sourceExpression": "makeHoldableSpinnerWidgets({179,  70}, {109, 14}, WidgetType::spinner,  WindowColour::secondary                               )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "value"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 689,
+          "expression": "             setWidgetDisabled(WIDX_TREE_LAND_RATIO, !_settings.trees);             setWidgetDisabled(WIDX_TREE_LAND_RATIO_UP, !_settings.trees);             setWidgetDisabled(WIDX_TREE_LAND_RATIO_DOWN, !_settings.trees);"
+        },
+        {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 690,
+          "expression": "            setWidgetDisabled(WIDX_TREE_LAND_RATIO, !_settings.trees);             setWidgetDisabled(WIDX_TREE_LAND_RATIO_UP, !_settings.trees);             setWidgetDisabled(WIDX_TREE_LAND_RATIO_DOWN, !_settings.trees);             setWidgetDisabled(WIDX_TREE_ALTITUDE_MIN, !_settings.trees);"
+        },
+        {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 691,
+          "expression": "            setWidgetDisabled(WIDX_TREE_LAND_RATIO_UP, !_settings.trees);             setWidgetDisabled(WIDX_TREE_LAND_RATIO_DOWN, !_settings.trees);             setWidgetDisabled(WIDX_TREE_ALTITUDE_MIN, !_settings.trees);             setWidgetDisabled(WIDX_TREE_ALTITUDE_MIN_UP, !_settings.trees);"
+        }
+      ],
+      "displayedCondition": "placeTrees=True；未勾选放置树木时禁用比例和海拔控制。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "MapGen:WIDX_TREE_LAND_RATIO_DOWN"
+      ],
+      "unit": "MapGen",
+      "controlId": "WIDX_TREE_LAND_RATIO_DOWN",
+      "screenId": "detail:map-gen:08-forest",
+      "region": [
+        403,
+        438,
+        40,
+        40
+      ],
+      "visualKind": "stepper-decrease",
+      "label": "树木与土地比例减少",
+      "state": "normal",
+      "parentControl": "WIDX_TREE_LAND_RATIO",
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 109
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 174,
+            "sourceExpression": "makeHoldableSpinnerWidgets({179,  70}, {109, 14}, WidgetType::spinner,  WindowColour::secondary                               )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "decrease"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 691,
+          "expression": "            setWidgetDisabled(WIDX_TREE_LAND_RATIO_UP, !_settings.trees);             setWidgetDisabled(WIDX_TREE_LAND_RATIO_DOWN, !_settings.trees);             setWidgetDisabled(WIDX_TREE_ALTITUDE_MIN, !_settings.trees);             setWidgetDisabled(WIDX_TREE_ALTITUDE_MIN_UP, !_settings.trees);"
+        }
+      ],
+      "displayedCondition": "placeTrees=True；未勾选放置树木时禁用比例和海拔控制。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "MapGen:WIDX_TREE_LAND_RATIO_UP"
+      ],
+      "unit": "MapGen",
+      "controlId": "WIDX_TREE_LAND_RATIO_UP",
+      "screenId": "detail:map-gen:08-forest",
+      "region": [
+        1395,
+        438,
+        40,
+        40
+      ],
+      "visualKind": "stepper-increase",
+      "label": "树木与土地比例增加",
+      "state": "normal",
+      "parentControl": "WIDX_TREE_LAND_RATIO",
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 108
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 174,
+            "sourceExpression": "makeHoldableSpinnerWidgets({179,  70}, {109, 14}, WidgetType::spinner,  WindowColour::secondary                               )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "increase"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 690,
+          "expression": "            setWidgetDisabled(WIDX_TREE_LAND_RATIO, !_settings.trees);             setWidgetDisabled(WIDX_TREE_LAND_RATIO_UP, !_settings.trees);             setWidgetDisabled(WIDX_TREE_LAND_RATIO_DOWN, !_settings.trees);             setWidgetDisabled(WIDX_TREE_ALTITUDE_MIN, !_settings.trees);"
+        }
+      ],
+      "displayedCondition": "placeTrees=True；未勾选放置树木时禁用比例和海拔控制。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "value-field",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        394,
+        528,
+        1050,
+        52
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "spinner-decrease",
+      "asset": "assets/common/minus.png",
+      "region": [
+        403,
+        534,
+        40,
+        40
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "spinner-increase",
+      "asset": "assets/common/plus.png",
+      "region": [
+        1395,
+        534,
+        40,
+        40
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "MapGen:WIDX_TREE_ALTITUDE_MIN"
+      ],
+      "unit": "MapGen",
+      "controlId": "WIDX_TREE_ALTITUDE_MIN",
+      "screenId": "detail:map-gen:08-forest",
+      "region": [
+        450,
+        528,
+        938,
+        52
+      ],
+      "visualKind": "spinner",
+      "label": "树木最低海拔",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "spinner",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 110
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "spinner",
+            "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 175,
+            "sourceExpression": "makeHoldableSpinnerWidgets({179,  88}, {109, 14}, WidgetType::spinner,  WindowColour::secondary                               )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "value"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 692,
+          "expression": "            setWidgetDisabled(WIDX_TREE_LAND_RATIO_DOWN, !_settings.trees);             setWidgetDisabled(WIDX_TREE_ALTITUDE_MIN, !_settings.trees);             setWidgetDisabled(WIDX_TREE_ALTITUDE_MIN_UP, !_settings.trees);             setWidgetDisabled(WIDX_TREE_ALTITUDE_MIN_DOWN, !_settings.trees);"
+        },
+        {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 693,
+          "expression": "            setWidgetDisabled(WIDX_TREE_ALTITUDE_MIN, !_settings.trees);             setWidgetDisabled(WIDX_TREE_ALTITUDE_MIN_UP, !_settings.trees);             setWidgetDisabled(WIDX_TREE_ALTITUDE_MIN_DOWN, !_settings.trees);             setWidgetDisabled(WIDX_TREE_ALTITUDE_MAX, !_settings.trees || isFlatland);"
+        },
+        {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 694,
+          "expression": "            setWidgetDisabled(WIDX_TREE_ALTITUDE_MIN_UP, !_settings.trees);             setWidgetDisabled(WIDX_TREE_ALTITUDE_MIN_DOWN, !_settings.trees);             setWidgetDisabled(WIDX_TREE_ALTITUDE_MAX, !_settings.trees || isFlatland);             setWidgetDisabled(WIDX_TREE_ALTITUDE_MAX_UP, !_settings.trees || isFlatland);"
+        }
+      ],
+      "displayedCondition": "placeTrees=True；未勾选放置树木时禁用比例和海拔控制。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "MapGen:WIDX_TREE_ALTITUDE_MIN_DOWN"
+      ],
+      "unit": "MapGen",
+      "controlId": "WIDX_TREE_ALTITUDE_MIN_DOWN",
+      "screenId": "detail:map-gen:08-forest",
+      "region": [
+        403,
+        534,
+        40,
+        40
+      ],
+      "visualKind": "stepper-decrease",
+      "label": "树木最低海拔减少",
+      "state": "normal",
+      "parentControl": "WIDX_TREE_ALTITUDE_MIN",
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 112
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 175,
+            "sourceExpression": "makeHoldableSpinnerWidgets({179,  88}, {109, 14}, WidgetType::spinner,  WindowColour::secondary                               )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "decrease"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 694,
+          "expression": "            setWidgetDisabled(WIDX_TREE_ALTITUDE_MIN_UP, !_settings.trees);             setWidgetDisabled(WIDX_TREE_ALTITUDE_MIN_DOWN, !_settings.trees);             setWidgetDisabled(WIDX_TREE_ALTITUDE_MAX, !_settings.trees || isFlatland);             setWidgetDisabled(WIDX_TREE_ALTITUDE_MAX_UP, !_settings.trees || isFlatland);"
+        }
+      ],
+      "displayedCondition": "placeTrees=True；未勾选放置树木时禁用比例和海拔控制。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "MapGen:WIDX_TREE_ALTITUDE_MIN_UP"
+      ],
+      "unit": "MapGen",
+      "controlId": "WIDX_TREE_ALTITUDE_MIN_UP",
+      "screenId": "detail:map-gen:08-forest",
+      "region": [
+        1395,
+        534,
+        40,
+        40
+      ],
+      "visualKind": "stepper-increase",
+      "label": "树木最低海拔增加",
+      "state": "normal",
+      "parentControl": "WIDX_TREE_ALTITUDE_MIN",
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 111
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 175,
+            "sourceExpression": "makeHoldableSpinnerWidgets({179,  88}, {109, 14}, WidgetType::spinner,  WindowColour::secondary                               )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "increase"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 693,
+          "expression": "            setWidgetDisabled(WIDX_TREE_ALTITUDE_MIN, !_settings.trees);             setWidgetDisabled(WIDX_TREE_ALTITUDE_MIN_UP, !_settings.trees);             setWidgetDisabled(WIDX_TREE_ALTITUDE_MIN_DOWN, !_settings.trees);             setWidgetDisabled(WIDX_TREE_ALTITUDE_MAX, !_settings.trees || isFlatland);"
+        }
+      ],
+      "displayedCondition": "placeTrees=True；未勾选放置树木时禁用比例和海拔控制。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "value-field",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        394,
+        624,
+        1050,
+        52
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "spinner-decrease",
+      "asset": "assets/common/minus.png",
+      "region": [
+        403,
+        630,
+        40,
+        40
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "spinner-increase",
+      "asset": "assets/common/plus.png",
+      "region": [
+        1395,
+        630,
+        40,
+        40
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "MapGen:WIDX_TREE_ALTITUDE_MAX"
+      ],
+      "unit": "MapGen",
+      "controlId": "WIDX_TREE_ALTITUDE_MAX",
+      "screenId": "detail:map-gen:08-forest",
+      "region": [
+        450,
+        624,
+        938,
+        52
+      ],
+      "visualKind": "spinner",
+      "label": "树木最高海拔",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "spinner",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 113
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "spinner",
+            "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 176,
+            "sourceExpression": "makeHoldableSpinnerWidgets({179, 106}, {109, 14}, WidgetType::spinner,  WindowColour::secondary                               )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "value"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 695,
+          "expression": "            setWidgetDisabled(WIDX_TREE_ALTITUDE_MIN_DOWN, !_settings.trees);             setWidgetDisabled(WIDX_TREE_ALTITUDE_MAX, !_settings.trees || isFlatland);             setWidgetDisabled(WIDX_TREE_ALTITUDE_MAX_UP, !_settings.trees || isFlatland);             setWidgetDisabled(WIDX_TREE_ALTITUDE_MAX_DOWN, !_settings.trees || isFlatland);"
+        },
+        {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 696,
+          "expression": "            setWidgetDisabled(WIDX_TREE_ALTITUDE_MAX, !_settings.trees || isFlatland);             setWidgetDisabled(WIDX_TREE_ALTITUDE_MAX_UP, !_settings.trees || isFlatland);             setWidgetDisabled(WIDX_TREE_ALTITUDE_MAX_DOWN, !_settings.trees || isFlatland);         }"
+        },
+        {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 697,
+          "expression": "            setWidgetDisabled(WIDX_TREE_ALTITUDE_MAX_UP, !_settings.trees || isFlatland);             setWidgetDisabled(WIDX_TREE_ALTITUDE_MAX_DOWN, !_settings.trees || isFlatland);         } "
+        }
+      ],
+      "displayedCondition": "placeTrees=True；未勾选放置树木时禁用比例和海拔控制。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "MapGen:WIDX_TREE_ALTITUDE_MAX_DOWN"
+      ],
+      "unit": "MapGen",
+      "controlId": "WIDX_TREE_ALTITUDE_MAX_DOWN",
+      "screenId": "detail:map-gen:08-forest",
+      "region": [
+        403,
+        630,
+        40,
+        40
+      ],
+      "visualKind": "stepper-decrease",
+      "label": "树木最高海拔减少",
+      "state": "normal",
+      "parentControl": "WIDX_TREE_ALTITUDE_MAX",
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 115
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 176,
+            "sourceExpression": "makeHoldableSpinnerWidgets({179, 106}, {109, 14}, WidgetType::spinner,  WindowColour::secondary                               )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "decrease"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 697,
+          "expression": "            setWidgetDisabled(WIDX_TREE_ALTITUDE_MAX_UP, !_settings.trees || isFlatland);             setWidgetDisabled(WIDX_TREE_ALTITUDE_MAX_DOWN, !_settings.trees || isFlatland);         } "
+        }
+      ],
+      "displayedCondition": "placeTrees=True；未勾选放置树木时禁用比例和海拔控制。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "MapGen:WIDX_TREE_ALTITUDE_MAX_UP"
+      ],
+      "unit": "MapGen",
+      "controlId": "WIDX_TREE_ALTITUDE_MAX_UP",
+      "screenId": "detail:map-gen:08-forest",
+      "region": [
+        1395,
+        630,
+        40,
+        40
+      ],
+      "visualKind": "stepper-increase",
+      "label": "树木最高海拔增加",
+      "state": "normal",
+      "parentControl": "WIDX_TREE_ALTITUDE_MAX",
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 114
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 176,
+            "sourceExpression": "makeHoldableSpinnerWidgets({179, 106}, {109, 14}, WidgetType::spinner,  WindowColour::secondary                               )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "increase"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 696,
+          "expression": "            setWidgetDisabled(WIDX_TREE_ALTITUDE_MAX, !_settings.trees || isFlatland);             setWidgetDisabled(WIDX_TREE_ALTITUDE_MAX_UP, !_settings.trees || isFlatland);             setWidgetDisabled(WIDX_TREE_ALTITUDE_MAX_DOWN, !_settings.trees || isFlatland);         }"
+        }
+      ],
+      "displayedCondition": "placeTrees=True；未勾选放置树木时禁用比例和海拔控制。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1584,
+        916,
+        202,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "MapGen:WIDX_MAP_GENERATE"
+      ],
+      "unit": "MapGen",
+      "controlId": "WIDX_MAP_GENERATE",
+      "screenId": "detail:map-gen:08-forest",
+      "region": [
+        1584,
+        916,
+        202,
+        68
+      ],
+      "visualKind": "button",
+      "label": "生成地图",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 58
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/MapGen.cpp",
+            "line": 131,
+            "sourceExpression": "makeWidget({ 185, 200 }, { 109, 14 }, WidgetType::button, WindowColour::secondary, STR_MAPGEN_ACTION_GENERATE)",
+            "sourceStringIds": [
+              "STR_MAPGEN_ACTION_GENERATE"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/MapGen.cpp",
+          "line": 1392,
+          "expression": "            bool isHeightMapImage = _settings.algorithm == MapGenerator::Algorithm::heightmapImage;             setWidgetDisabled(WIDX_MAP_GENERATE, isHeightMapImage && !_heightmapLoaded);              switch (page)"
+        }
+      ],
+      "displayedCondition": "placeTrees=True；未勾选放置树木时禁用比例和海拔控制。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    }
+  ],
+  "dataDiagrams": [
+    {
+      "role": "data-rule",
+      "points": [
+        [
+          398,
+          276
+        ],
+        [
+          1790,
+          276
+        ]
+      ],
+      "color": "#B28C43",
+      "width": 1
+    }
+  ],
+  "layoutIssues": [],
+  "fontDistribution": "Official OFL-licensed fonts are included in assets/fonts; see records/font-sources.json.",
+  "status": "produced_pending_review"
+}

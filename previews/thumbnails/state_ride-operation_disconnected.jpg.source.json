@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_ride-operation_disconnected.jpg",
+  "sha256": "56aa4367a74d7625da175487950005fe01320a653414386ca8592ffb0017fdfc",
+  "derivedFrom": [
+    {
+      "file": "previews/states/ride-operation/disconnected.png",
+      "sha256": "546faeb280e1ab2541876d355423357a9f92ef0826850e2a72f8e89d29bbfee9",
+      "sourceRecord": "previews/states/ride-operation/disconnected.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

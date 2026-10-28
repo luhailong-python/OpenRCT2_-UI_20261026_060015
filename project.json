@@ -1,0 +1,22 @@
+{
+  "projectName": "云游仙苑（暂名）· OpenRCT2 道家 Q 版 UI",
+  "createdAt": "2026-10-26T06:00:15-04:00",
+  "timezone": "America/New_York",
+  "functionalReferenceRepository": "https://github.com/OpenRCT2/OpenRCT2.git",
+  "functionalReferenceCommit": "52a55c3e8da5972460642bdfed61d091fe9cabfd",
+  "functionalReferenceLocal": "reference/OpenRCT2",
+  "artReferenceRepositoryLocal": "F:/work/image",
+  "productionLocal": "E:/work/image/OpenRCT2_道家UI_20261026_060015",
+  "deliveryRemoteRepository": null,
+  "deliveryRemoteStatus": "待用户提供，未提交、推送或发布",
+  "phase": "图片与UI美术；Unity接入为下一阶段",
+  "referenceCanvas": [
+    1920,
+    1080
+  ],
+  "targetPlatformAssumption": "桌面横屏、鼠标键盘；移动端未约定",
+  "targetEngine": "Unity",
+  "actualUnityVerification": false,
+  "artReferenceAccess": "readonly_after_latest_user_instruction",
+  "associationsRecord": "docs/image-reference-associations.md"
+}

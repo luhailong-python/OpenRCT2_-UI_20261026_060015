@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_map-gen_07-water.jpg",
+  "sha256": "6d9fd757413d29ec263e55e63ce04308a4f336b492c86d316f1b358f3594741c",
+  "derivedFrom": [
+    {
+      "file": "designs/details/map-gen/07-water.png",
+      "sha256": "279d0fdbc445f538a3efc9487b4b2331b55f3f3c4312cf5d029698c126ceb43e",
+      "sourceRecord": "designs/details/map-gen/07-water.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

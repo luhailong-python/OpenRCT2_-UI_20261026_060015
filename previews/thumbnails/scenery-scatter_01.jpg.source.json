@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/scenery-scatter_01.jpg",
+  "sha256": "cbadfdf364db6e68a2d6d2e2640330712fa1a997c5e26f80db48a0988f24faa5",
+  "derivedFrom": [
+    {
+      "file": "designs/scenery-scatter/01-散布.png",
+      "sha256": "42f473bf1c90a2f215891e847429ce72b531a97729dc09eab4ccb31586f9bd9c",
+      "sourceRecord": "designs/scenery-scatter/01-散布.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

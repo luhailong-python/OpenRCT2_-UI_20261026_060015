@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_tile-inspector_06-large-scenery.jpg",
+  "sha256": "abd260c4a4a82eba32ab667725ea77e3775194d0e118fd8e694e391cbaa5f67c",
+  "derivedFrom": [
+    {
+      "file": "designs/details/tile-inspector/06-large-scenery.png",
+      "sha256": "e509dbf21dd81e7324c101b619e15690c9d3b18f61fae533b63ea52a7ea46634",
+      "sourceRecord": "designs/details/tile-inspector/06-large-scenery.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

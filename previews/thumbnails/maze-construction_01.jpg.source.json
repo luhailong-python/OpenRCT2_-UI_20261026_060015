@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/maze-construction_01.jpg",
+  "sha256": "02267ec579fab9d92567b52d28a2ef585f6199ae4018a9d9b8a8572ae0897576",
+  "derivedFrom": [
+    {
+      "file": "designs/maze-construction/01-建造.png",
+      "sha256": "eb7fe1d92de3c8886c31687c906dd8dc5bcbcacf7cc205a1dd1715252843e162",
+      "sourceRecord": "designs/maze-construction/01-建造.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

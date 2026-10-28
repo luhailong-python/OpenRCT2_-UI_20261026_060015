@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/management-detail_editor-inventions-complete-tools.jpg",
+  "sha256": "792ba524bdd7b2d6a21d14502cee05871e9c4d4269e502f10a9c5fc74ab18717",
+  "derivedFrom": [
+    {
+      "file": "designs/details/management/editor-inventions-complete-tools.png",
+      "sha256": "51f3c1bc68bd9ef3bc6f60dd7deea61e9649d452ce91146b69a2c2ad2a11da5a",
+      "sourceRecord": "designs/details/management/editor-inventions-complete-tools.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,45 @@
+{
+  "file": "previews/flows/02-ride-flow.png",
+  "sha256": "96768faa023cf22bfbf68a6548c5b799d68b4cc640f6df63aadb7334a2c9ed97",
+  "operation": "diagram_typesetting_and_composition_from_handpainted_sprites_not_AI_generation",
+  "derivedFrom": [
+    {
+      "file": "assets/common/panel_card.png",
+      "sha256": "b82ed16e818b3bb86c16a68453bc4b73f1764c6fdb4541c2e470e5c60789568e",
+      "sourceRecord": "assets/common/panel_card.png.source.json"
+    },
+    {
+      "file": "assets/icons/build.png",
+      "sha256": "0fc7ef5b45c5569da1bb8755219953f491e16aa7416ec1f352498a559a0d6654",
+      "sourceRecord": "assets/icons/build.png.source.json"
+    },
+    {
+      "file": "assets/icons/demolish.png",
+      "sha256": "724e4ee29772011b165ff4d9d4fb2709d21e3eb55eab8046104dd76558a3bcd9",
+      "sourceRecord": "assets/icons/demolish.png.source.json"
+    },
+    {
+      "file": "assets/icons/mechanic.png",
+      "sha256": "db8b46de0445dc87f79342c5cf8584c991eed86e63e3d162529c2c05b9228aac",
+      "sourceRecord": "assets/icons/mechanic.png.source.json"
+    },
+    {
+      "file": "assets/icons/park_gate.png",
+      "sha256": "6ede8f9e35da2f6e9d36cc8e1e3d7f3277fbe1d1002471833c60bb5efb2e7c71",
+      "sourceRecord": "assets/icons/park_gate.png.source.json"
+    },
+    {
+      "file": "assets/icons/research.png",
+      "sha256": "cd0bf4a4383e63abd1da17d7bb41227354873261d4532aa15760d03ea4c58838",
+      "sourceRecord": "assets/icons/research.png.source.json"
+    },
+    {
+      "file": "assets/icons/track_blueprint.png",
+      "sha256": "0af67cf081b96aaa3c75d451754add0b3143e3c45d8c61cd3be109fc3da0062b",
+      "sourceRecord": "assets/icons/track_blueprint.png.source.json"
+    }
+  ],
+  "logicReference": "docs/workflows.md",
+  "fonts": "records/font-sources.json",
+  "nativeDetailIncreased": false
+}

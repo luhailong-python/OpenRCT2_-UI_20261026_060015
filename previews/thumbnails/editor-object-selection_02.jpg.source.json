@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/editor-object-selection_02.jpg",
+  "sha256": "2cb7debb027ced4df578a08b6f51b3e3a291fac5fc52f48c9c9444baf4ad5382",
+  "derivedFrom": [
+    {
+      "file": "designs/editor-object-selection/02-景观主题.png",
+      "sha256": "e3bbd3dff5e8db2088c897ecdc889881c6fcb6069f0cd8ecb5aea97036950506",
+      "sourceRecord": "designs/editor-object-selection/02-景观主题.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

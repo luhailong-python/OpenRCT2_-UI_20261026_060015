@@ -1,0 +1,135 @@
+{
+  "file": "previews/contact-sheets/03.jpg",
+  "sha256": "a45dec33688d3e04ba4fc2b0913541745ca612eedcb2d1f27761a1e46b980f43",
+  "derivedFrom": [
+    {
+      "file": "designs/land-rights/01-土地所有权.png",
+      "sha256": "a19c0b1e4c44c44e490106bc923cd304840080615af5172f6af0ffef5ec61020"
+    },
+    {
+      "file": "designs/land-rights/02-建造权.png",
+      "sha256": "e5796b651d4f6d92aa07275bfebebf90c8fda7763557956f17932c2fdc1aae9d"
+    },
+    {
+      "file": "designs/land/01-整形.png",
+      "sha256": "37b0c9c68e3113f1fb99c0e342e0ba780e790dffb88465e25014cc823ea0539f"
+    },
+    {
+      "file": "designs/land/02-涂绘.png",
+      "sha256": "f7276a61f2c3059e89bb9e56ccddb8145b9283b41c0c5b36bb8cd029cac6fbf4"
+    },
+    {
+      "file": "designs/load-save/01-读取.png",
+      "sha256": "ce5a58655fec7de39ac5d8cf5e8c04117905ffa360646562705800e525540887"
+    },
+    {
+      "file": "designs/load-save/02-保存.png",
+      "sha256": "070e187f366acd09470c9e2dbde06ba416bcdf3e547fc1f9bba5cbc2d7f71e61"
+    },
+    {
+      "file": "designs/load-save/03-场景.png",
+      "sha256": "51ead1b6401b0e60f003d1e7b8320526d9cbdce0eddda5a3ff99ac628c6b866d"
+    },
+    {
+      "file": "designs/load-save/04-轨道.png",
+      "sha256": "2418b237b8d85e0034cc7a424a90bf1bc620e6a2cebbf180ea0cb6c5fe631338"
+    },
+    {
+      "file": "designs/load-save/05-高度图.png",
+      "sha256": "44051b8f1080ca78cc76d288292c07c3e28568f7eb983afcb71baa310aaf0d23"
+    },
+    {
+      "file": "designs/main/01-运行.png",
+      "sha256": "624fa80cee557f2c0f371fe43d6db13603e49fc67da90ef08625775b35cbfee2"
+    },
+    {
+      "file": "designs/main/02-暂停.png",
+      "sha256": "6042c31db3365e8c5b397be5c0f19b2dff495a84397933afdaa5bb1ec175d5da"
+    },
+    {
+      "file": "designs/map-gen/01-基础.png",
+      "sha256": "5afcdc8d9225e895ab6a88e6b54947bdd29b6480b0244e1880353ef4f6fe9370"
+    },
+    {
+      "file": "designs/map-gen/02-地形.png",
+      "sha256": "9814afe724351b8a797f04f509d67703ebc756525b30ce810e2019988ddce7c7"
+    },
+    {
+      "file": "designs/map-gen/03-水域.png",
+      "sha256": "4f0041db807e96616c38cd9b095db0fd7639b78cb4f82e0b4a92be873a7f6dc1"
+    },
+    {
+      "file": "designs/map-gen/04-森林.png",
+      "sha256": "60ebae5c80c24625989e7bdf782339381d1d31a275fb46f73c7df6f5df1adb56"
+    },
+    {
+      "file": "designs/map-tooltip/01-悬浮.png",
+      "sha256": "bd52f3934cb340970ff7a807d1d775b62747fe570d3ec45a2e50264e83f58c57"
+    },
+    {
+      "file": "designs/map/01-游客.png",
+      "sha256": "e43380e033ad5c38b8e134eb2ee509d7e489ba1a0f86b8334ec665f315ad0eb0"
+    },
+    {
+      "file": "designs/map/02-设施.png",
+      "sha256": "0eb8f1b86e75c4ca06772a246c0f7b6459e47b62259e245453658a057049e342"
+    },
+    {
+      "file": "designs/maze-construction/01-建造.png",
+      "sha256": "eb7fe1d92de3c8886c31687c906dd8dc5bcbcacf7cc205a1dd1715252843e162"
+    },
+    {
+      "file": "designs/maze-construction/02-移动.png",
+      "sha256": "22141d4edbfec84fd492f6cba517d80b39693cc35fc9006be6329724f9c0bdc3"
+    },
+    {
+      "file": "designs/maze-construction/03-填充.png",
+      "sha256": "43d0c6f296563dfaf86a2b3f86007f748df6282665b1c7f91a30b4f9cc40d17a"
+    },
+    {
+      "file": "designs/multiplayer/01-信息.png",
+      "sha256": "209715c1ceddd0c48a8a22b6b5f0d44a88f0d14e5cbf1971806872467048fd35"
+    },
+    {
+      "file": "designs/multiplayer/02-玩家.png",
+      "sha256": "254d4dd58f28b1d0641e7cac223e54730e05c5505e37ddb6592f97245da2d9ea"
+    },
+    {
+      "file": "designs/multiplayer/03-权限组.png",
+      "sha256": "e2426a3e63c8c9b1cf13d7077b02407dac7f2aa9311cdf9ad2e0a7456fa738e4"
+    },
+    {
+      "file": "designs/multiplayer/04-选项.png",
+      "sha256": "31fdfdfe3e10c99b5d92c2e0848098ec7b083142096a61c0b359e8d1354cacac"
+    },
+    {
+      "file": "designs/network-status/01-连接中.png",
+      "sha256": "5cc8917ac91eca9c34e647704179ebe7a2a845a5b7ec644df6372895cd1ea6bb"
+    },
+    {
+      "file": "designs/network-status/02-下载中.png",
+      "sha256": "244e7abce5625def341c46e6f99e4f3ecd5bb2f9eb4df62afe95c82aca9fa438"
+    },
+    {
+      "file": "designs/network-status/03-失败.png",
+      "sha256": "70818b64500e36ae1a68bad53c7bd3a3d14d088ca4019a3b4a95672df5edbd45"
+    },
+    {
+      "file": "designs/new-campaign/01-活动设置.png",
+      "sha256": "41f259a21d641a13928cba3d8ab68e3b9fc8b591e054418fe155ec676b939f8b"
+    },
+    {
+      "file": "designs/new-ride/01-交通.png",
+      "sha256": "f58d8f515e4c8ff2b6b1ddd1c3430dbb9125b3b16b6bd4ab618d6b47071cb462"
+    },
+    {
+      "file": "designs/new-ride/02-温和.png",
+      "sha256": "e9135cbe65ace17bc224801363ae0ca514fbae9727cdbd17e4dd9039b73df856"
+    },
+    {
+      "file": "designs/new-ride/03-过山车.png",
+      "sha256": "4f23cfb0ba946c5407fa5aeb4150e4c819fcad2a2f540707275b6d2ae567f3af"
+    }
+  ],
+  "operation": "review_contact_sheet_thumbnail_composition_no_new_model_generation"
+}

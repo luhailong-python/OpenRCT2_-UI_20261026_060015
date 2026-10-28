@@ -1,0 +1,1472 @@
+{
+  "processedAt": "2026-10-26T06:18:32.841024-04:00",
+  "operation": "Offline Pillow nine-slice raster proof from final PNGs. Source corner pixels copied without resampling; only edge middles/center resized. Contact thumbnails downsampled for review. Not a Unity screenshot.",
+  "unityValidated": false,
+  "titlePlatePolicy": "Not sliced. Preserve aspect and Taiji shape.",
+  "panelMainCorrection": "Top border 252px keeps side jade beads and red tassels inside the fixed top corners; 384x256 is below valid fixed height and is not used.",
+  "checks": [
+    {
+      "name": "panel_main",
+      "file": "assets/common/panel_main.png",
+      "sha256": "704856762248133110624f38365e0ff337dd1f2f6304f66298e2230077ebca00",
+      "sourceSize": [
+        619,
+        610
+      ],
+      "targetSize": [
+        384,
+        384
+      ],
+      "borderLeftBottomRightTop": [
+        94,
+        91,
+        94,
+        252
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": null
+    },
+    {
+      "name": "panel_main",
+      "file": "assets/common/panel_main.png",
+      "sha256": "704856762248133110624f38365e0ff337dd1f2f6304f66298e2230077ebca00",
+      "sourceSize": [
+        619,
+        610
+      ],
+      "targetSize": [
+        960,
+        640
+      ],
+      "borderLeftBottomRightTop": [
+        94,
+        91,
+        94,
+        252
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": null
+    },
+    {
+      "name": "panel_main",
+      "file": "assets/common/panel_main.png",
+      "sha256": "704856762248133110624f38365e0ff337dd1f2f6304f66298e2230077ebca00",
+      "sourceSize": [
+        619,
+        610
+      ],
+      "targetSize": [
+        1440,
+        800
+      ],
+      "borderLeftBottomRightTop": [
+        94,
+        91,
+        94,
+        252
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": null
+    },
+    {
+      "name": "panel_card",
+      "file": "assets/common/panel_card.png",
+      "sha256": "b82ed16e818b3bb86c16a68453bc4b73f1764c6fdb4541c2e470e5c60789568e",
+      "sourceSize": [
+        589,
+        558
+      ],
+      "targetSize": [
+        256,
+        256
+      ],
+      "borderLeftBottomRightTop": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": null
+    },
+    {
+      "name": "panel_card",
+      "file": "assets/common/panel_card.png",
+      "sha256": "b82ed16e818b3bb86c16a68453bc4b73f1764c6fdb4541c2e470e5c60789568e",
+      "sourceSize": [
+        589,
+        558
+      ],
+      "targetSize": [
+        720,
+        480
+      ],
+      "borderLeftBottomRightTop": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": null
+    },
+    {
+      "name": "panel_card",
+      "file": "assets/common/panel_card.png",
+      "sha256": "b82ed16e818b3bb86c16a68453bc4b73f1764c6fdb4541c2e470e5c60789568e",
+      "sourceSize": [
+        589,
+        558
+      ],
+      "targetSize": [
+        1200,
+        720
+      ],
+      "borderLeftBottomRightTop": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": null
+    },
+    {
+      "name": "toolbar",
+      "file": "assets/common/toolbar.png",
+      "sha256": "59c03a5df1706fb70e113a463e3ff18140da92319e7fee8442b83326f781eebf",
+      "sourceSize": [
+        590,
+        115
+      ],
+      "targetSize": [
+        180,
+        115
+      ],
+      "borderLeftBottomRightTop": [
+        45,
+        23,
+        45,
+        23
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "toolbar",
+      "file": "assets/common/toolbar.png",
+      "sha256": "59c03a5df1706fb70e113a463e3ff18140da92319e7fee8442b83326f781eebf",
+      "sourceSize": [
+        590,
+        115
+      ],
+      "targetSize": [
+        590,
+        115
+      ],
+      "borderLeftBottomRightTop": [
+        45,
+        23,
+        45,
+        23
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "toolbar",
+      "file": "assets/common/toolbar.png",
+      "sha256": "59c03a5df1706fb70e113a463e3ff18140da92319e7fee8442b83326f781eebf",
+      "sourceSize": [
+        590,
+        115
+      ],
+      "targetSize": [
+        1180,
+        115
+      ],
+      "borderLeftBottomRightTop": [
+        45,
+        23,
+        45,
+        23
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "primary_normal",
+      "file": "assets/common/primary_normal.png",
+      "sha256": "83fe20f7969e29bf064885d8947b6ab9042e99b47dcac58c7277505e75cd1b5d",
+      "sourceSize": [
+        256,
+        120
+      ],
+      "targetSize": [
+        180,
+        120
+      ],
+      "borderLeftBottomRightTop": [
+        56,
+        30,
+        56,
+        30
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "primary_normal",
+      "file": "assets/common/primary_normal.png",
+      "sha256": "83fe20f7969e29bf064885d8947b6ab9042e99b47dcac58c7277505e75cd1b5d",
+      "sourceSize": [
+        256,
+        120
+      ],
+      "targetSize": [
+        256,
+        120
+      ],
+      "borderLeftBottomRightTop": [
+        56,
+        30,
+        56,
+        30
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "primary_normal",
+      "file": "assets/common/primary_normal.png",
+      "sha256": "83fe20f7969e29bf064885d8947b6ab9042e99b47dcac58c7277505e75cd1b5d",
+      "sourceSize": [
+        256,
+        120
+      ],
+      "targetSize": [
+        520,
+        120
+      ],
+      "borderLeftBottomRightTop": [
+        56,
+        30,
+        56,
+        30
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "primary_pressed",
+      "file": "assets/common/primary_pressed.png",
+      "sha256": "2624882f736a26b68b1ffb03b824d99734ccc59a68a883ccf59be190f539a18a",
+      "sourceSize": [
+        256,
+        120
+      ],
+      "targetSize": [
+        180,
+        120
+      ],
+      "borderLeftBottomRightTop": [
+        56,
+        30,
+        56,
+        30
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "primary_pressed",
+      "file": "assets/common/primary_pressed.png",
+      "sha256": "2624882f736a26b68b1ffb03b824d99734ccc59a68a883ccf59be190f539a18a",
+      "sourceSize": [
+        256,
+        120
+      ],
+      "targetSize": [
+        256,
+        120
+      ],
+      "borderLeftBottomRightTop": [
+        56,
+        30,
+        56,
+        30
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "primary_pressed",
+      "file": "assets/common/primary_pressed.png",
+      "sha256": "2624882f736a26b68b1ffb03b824d99734ccc59a68a883ccf59be190f539a18a",
+      "sourceSize": [
+        256,
+        120
+      ],
+      "targetSize": [
+        520,
+        120
+      ],
+      "borderLeftBottomRightTop": [
+        56,
+        30,
+        56,
+        30
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "primary_selected",
+      "file": "assets/common/primary_selected.png",
+      "sha256": "59c783e4602ec39fc988975d01afb66441b85a13b589a5143c69953e36f7640e",
+      "sourceSize": [
+        256,
+        120
+      ],
+      "targetSize": [
+        180,
+        120
+      ],
+      "borderLeftBottomRightTop": [
+        56,
+        30,
+        56,
+        30
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "primary_selected",
+      "file": "assets/common/primary_selected.png",
+      "sha256": "59c783e4602ec39fc988975d01afb66441b85a13b589a5143c69953e36f7640e",
+      "sourceSize": [
+        256,
+        120
+      ],
+      "targetSize": [
+        256,
+        120
+      ],
+      "borderLeftBottomRightTop": [
+        56,
+        30,
+        56,
+        30
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "primary_selected",
+      "file": "assets/common/primary_selected.png",
+      "sha256": "59c783e4602ec39fc988975d01afb66441b85a13b589a5143c69953e36f7640e",
+      "sourceSize": [
+        256,
+        120
+      ],
+      "targetSize": [
+        520,
+        120
+      ],
+      "borderLeftBottomRightTop": [
+        56,
+        30,
+        56,
+        30
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "primary_disabled",
+      "file": "assets/common/primary_disabled.png",
+      "sha256": "794613930d3a7b820769179f3a9606226b9a1073d2e7b32e4874f74cba60b96d",
+      "sourceSize": [
+        256,
+        120
+      ],
+      "targetSize": [
+        180,
+        120
+      ],
+      "borderLeftBottomRightTop": [
+        56,
+        30,
+        56,
+        30
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "primary_disabled",
+      "file": "assets/common/primary_disabled.png",
+      "sha256": "794613930d3a7b820769179f3a9606226b9a1073d2e7b32e4874f74cba60b96d",
+      "sourceSize": [
+        256,
+        120
+      ],
+      "targetSize": [
+        256,
+        120
+      ],
+      "borderLeftBottomRightTop": [
+        56,
+        30,
+        56,
+        30
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "primary_disabled",
+      "file": "assets/common/primary_disabled.png",
+      "sha256": "794613930d3a7b820769179f3a9606226b9a1073d2e7b32e4874f74cba60b96d",
+      "sourceSize": [
+        256,
+        120
+      ],
+      "targetSize": [
+        520,
+        120
+      ],
+      "borderLeftBottomRightTop": [
+        56,
+        30,
+        56,
+        30
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "secondary_normal",
+      "file": "assets/common/secondary_normal.png",
+      "sha256": "5f6418c0ede62320bc017ef1f00ec1d60a5d5fc34dac8c4e96d0016e6523881f",
+      "sourceSize": [
+        256,
+        112
+      ],
+      "targetSize": [
+        180,
+        112
+      ],
+      "borderLeftBottomRightTop": [
+        48,
+        27,
+        48,
+        27
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "secondary_normal",
+      "file": "assets/common/secondary_normal.png",
+      "sha256": "5f6418c0ede62320bc017ef1f00ec1d60a5d5fc34dac8c4e96d0016e6523881f",
+      "sourceSize": [
+        256,
+        112
+      ],
+      "targetSize": [
+        256,
+        112
+      ],
+      "borderLeftBottomRightTop": [
+        48,
+        27,
+        48,
+        27
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "secondary_normal",
+      "file": "assets/common/secondary_normal.png",
+      "sha256": "5f6418c0ede62320bc017ef1f00ec1d60a5d5fc34dac8c4e96d0016e6523881f",
+      "sourceSize": [
+        256,
+        112
+      ],
+      "targetSize": [
+        520,
+        112
+      ],
+      "borderLeftBottomRightTop": [
+        48,
+        27,
+        48,
+        27
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "secondary_pressed",
+      "file": "assets/common/secondary_pressed.png",
+      "sha256": "6cab02d5d2e5aad5decf8fc40a365508b1f76aee318657e37d74e3a2a21488f8",
+      "sourceSize": [
+        256,
+        112
+      ],
+      "targetSize": [
+        180,
+        112
+      ],
+      "borderLeftBottomRightTop": [
+        48,
+        27,
+        48,
+        27
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "secondary_pressed",
+      "file": "assets/common/secondary_pressed.png",
+      "sha256": "6cab02d5d2e5aad5decf8fc40a365508b1f76aee318657e37d74e3a2a21488f8",
+      "sourceSize": [
+        256,
+        112
+      ],
+      "targetSize": [
+        256,
+        112
+      ],
+      "borderLeftBottomRightTop": [
+        48,
+        27,
+        48,
+        27
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "secondary_pressed",
+      "file": "assets/common/secondary_pressed.png",
+      "sha256": "6cab02d5d2e5aad5decf8fc40a365508b1f76aee318657e37d74e3a2a21488f8",
+      "sourceSize": [
+        256,
+        112
+      ],
+      "targetSize": [
+        520,
+        112
+      ],
+      "borderLeftBottomRightTop": [
+        48,
+        27,
+        48,
+        27
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "secondary_selected",
+      "file": "assets/common/secondary_selected.png",
+      "sha256": "94c3eff0f4cbb90425ced5351f1f09d625d02b4d523e7936ccc3a14843f4277c",
+      "sourceSize": [
+        256,
+        112
+      ],
+      "targetSize": [
+        180,
+        112
+      ],
+      "borderLeftBottomRightTop": [
+        48,
+        27,
+        48,
+        27
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "secondary_selected",
+      "file": "assets/common/secondary_selected.png",
+      "sha256": "94c3eff0f4cbb90425ced5351f1f09d625d02b4d523e7936ccc3a14843f4277c",
+      "sourceSize": [
+        256,
+        112
+      ],
+      "targetSize": [
+        256,
+        112
+      ],
+      "borderLeftBottomRightTop": [
+        48,
+        27,
+        48,
+        27
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "secondary_selected",
+      "file": "assets/common/secondary_selected.png",
+      "sha256": "94c3eff0f4cbb90425ced5351f1f09d625d02b4d523e7936ccc3a14843f4277c",
+      "sourceSize": [
+        256,
+        112
+      ],
+      "targetSize": [
+        520,
+        112
+      ],
+      "borderLeftBottomRightTop": [
+        48,
+        27,
+        48,
+        27
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "secondary_disabled",
+      "file": "assets/common/secondary_disabled.png",
+      "sha256": "9033970323911aa959f63cbcc180f5dec0edcdea230ea0ef5a9f91d281b60f89",
+      "sourceSize": [
+        256,
+        112
+      ],
+      "targetSize": [
+        180,
+        112
+      ],
+      "borderLeftBottomRightTop": [
+        48,
+        27,
+        48,
+        27
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "secondary_disabled",
+      "file": "assets/common/secondary_disabled.png",
+      "sha256": "9033970323911aa959f63cbcc180f5dec0edcdea230ea0ef5a9f91d281b60f89",
+      "sourceSize": [
+        256,
+        112
+      ],
+      "targetSize": [
+        256,
+        112
+      ],
+      "borderLeftBottomRightTop": [
+        48,
+        27,
+        48,
+        27
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "secondary_disabled",
+      "file": "assets/common/secondary_disabled.png",
+      "sha256": "9033970323911aa959f63cbcc180f5dec0edcdea230ea0ef5a9f91d281b60f89",
+      "sourceSize": [
+        256,
+        112
+      ],
+      "targetSize": [
+        520,
+        112
+      ],
+      "borderLeftBottomRightTop": [
+        48,
+        27,
+        48,
+        27
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "tab_normal",
+      "file": "assets/common/tab_normal.png",
+      "sha256": "9327a3d9577111e5985e3453a8a201010887c606a094b7e080421417aef3f92e",
+      "sourceSize": [
+        256,
+        128
+      ],
+      "targetSize": [
+        180,
+        128
+      ],
+      "borderLeftBottomRightTop": [
+        36,
+        28,
+        36,
+        28
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "tab_normal",
+      "file": "assets/common/tab_normal.png",
+      "sha256": "9327a3d9577111e5985e3453a8a201010887c606a094b7e080421417aef3f92e",
+      "sourceSize": [
+        256,
+        128
+      ],
+      "targetSize": [
+        256,
+        128
+      ],
+      "borderLeftBottomRightTop": [
+        36,
+        28,
+        36,
+        28
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "tab_normal",
+      "file": "assets/common/tab_normal.png",
+      "sha256": "9327a3d9577111e5985e3453a8a201010887c606a094b7e080421417aef3f92e",
+      "sourceSize": [
+        256,
+        128
+      ],
+      "targetSize": [
+        520,
+        128
+      ],
+      "borderLeftBottomRightTop": [
+        36,
+        28,
+        36,
+        28
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "tab_pressed",
+      "file": "assets/common/tab_pressed.png",
+      "sha256": "94e67d0eceffb10143dfc1914b83e72a9ba58726ea5ff550c5f4d46c12be6f66",
+      "sourceSize": [
+        256,
+        128
+      ],
+      "targetSize": [
+        180,
+        128
+      ],
+      "borderLeftBottomRightTop": [
+        36,
+        28,
+        36,
+        28
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "tab_pressed",
+      "file": "assets/common/tab_pressed.png",
+      "sha256": "94e67d0eceffb10143dfc1914b83e72a9ba58726ea5ff550c5f4d46c12be6f66",
+      "sourceSize": [
+        256,
+        128
+      ],
+      "targetSize": [
+        256,
+        128
+      ],
+      "borderLeftBottomRightTop": [
+        36,
+        28,
+        36,
+        28
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "tab_pressed",
+      "file": "assets/common/tab_pressed.png",
+      "sha256": "94e67d0eceffb10143dfc1914b83e72a9ba58726ea5ff550c5f4d46c12be6f66",
+      "sourceSize": [
+        256,
+        128
+      ],
+      "targetSize": [
+        520,
+        128
+      ],
+      "borderLeftBottomRightTop": [
+        36,
+        28,
+        36,
+        28
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "tab_selected",
+      "file": "assets/common/tab_selected.png",
+      "sha256": "119a81554b9e332d698f5c704813cb047fcd4c5c71e9e5c36c7b6df6b4a789b9",
+      "sourceSize": [
+        256,
+        128
+      ],
+      "targetSize": [
+        180,
+        128
+      ],
+      "borderLeftBottomRightTop": [
+        36,
+        28,
+        36,
+        28
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "tab_selected",
+      "file": "assets/common/tab_selected.png",
+      "sha256": "119a81554b9e332d698f5c704813cb047fcd4c5c71e9e5c36c7b6df6b4a789b9",
+      "sourceSize": [
+        256,
+        128
+      ],
+      "targetSize": [
+        256,
+        128
+      ],
+      "borderLeftBottomRightTop": [
+        36,
+        28,
+        36,
+        28
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "tab_selected",
+      "file": "assets/common/tab_selected.png",
+      "sha256": "119a81554b9e332d698f5c704813cb047fcd4c5c71e9e5c36c7b6df6b4a789b9",
+      "sourceSize": [
+        256,
+        128
+      ],
+      "targetSize": [
+        520,
+        128
+      ],
+      "borderLeftBottomRightTop": [
+        36,
+        28,
+        36,
+        28
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "tab_disabled",
+      "file": "assets/common/tab_disabled.png",
+      "sha256": "eaa77522951fef56308d4cdecc62e94d082c04965d02f0bac36fb2b8b079ba07",
+      "sourceSize": [
+        256,
+        128
+      ],
+      "targetSize": [
+        180,
+        128
+      ],
+      "borderLeftBottomRightTop": [
+        36,
+        28,
+        36,
+        28
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "tab_disabled",
+      "file": "assets/common/tab_disabled.png",
+      "sha256": "eaa77522951fef56308d4cdecc62e94d082c04965d02f0bac36fb2b8b079ba07",
+      "sourceSize": [
+        256,
+        128
+      ],
+      "targetSize": [
+        256,
+        128
+      ],
+      "borderLeftBottomRightTop": [
+        36,
+        28,
+        36,
+        28
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "tab_disabled",
+      "file": "assets/common/tab_disabled.png",
+      "sha256": "eaa77522951fef56308d4cdecc62e94d082c04965d02f0bac36fb2b8b079ba07",
+      "sourceSize": [
+        256,
+        128
+      ],
+      "targetSize": [
+        520,
+        128
+      ],
+      "borderLeftBottomRightTop": [
+        36,
+        28,
+        36,
+        28
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "slider_track",
+      "file": "assets/common/slider_track.png",
+      "sha256": "5919ec4975d82d653e74d39f750cf8ecd6412694fe8f0c85bec4629bb7b9d0b2",
+      "sourceSize": [
+        296,
+        64
+      ],
+      "targetSize": [
+        180,
+        64
+      ],
+      "borderLeftBottomRightTop": [
+        27,
+        18,
+        27,
+        18
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "slider_track",
+      "file": "assets/common/slider_track.png",
+      "sha256": "5919ec4975d82d653e74d39f750cf8ecd6412694fe8f0c85bec4629bb7b9d0b2",
+      "sourceSize": [
+        296,
+        64
+      ],
+      "targetSize": [
+        296,
+        64
+      ],
+      "borderLeftBottomRightTop": [
+        27,
+        18,
+        27,
+        18
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "slider_track",
+      "file": "assets/common/slider_track.png",
+      "sha256": "5919ec4975d82d653e74d39f750cf8ecd6412694fe8f0c85bec4629bb7b9d0b2",
+      "sourceSize": [
+        296,
+        64
+      ],
+      "targetSize": [
+        592,
+        64
+      ],
+      "borderLeftBottomRightTop": [
+        27,
+        18,
+        27,
+        18
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "progress_track",
+      "file": "assets/common/progress_track.png",
+      "sha256": "e41bb50d9e74546757e0035d20bd4fb1f497efb2f0ee088c7378379886e6bed2",
+      "sourceSize": [
+        280,
+        64
+      ],
+      "targetSize": [
+        180,
+        64
+      ],
+      "borderLeftBottomRightTop": [
+        35,
+        18,
+        35,
+        18
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "progress_track",
+      "file": "assets/common/progress_track.png",
+      "sha256": "e41bb50d9e74546757e0035d20bd4fb1f497efb2f0ee088c7378379886e6bed2",
+      "sourceSize": [
+        280,
+        64
+      ],
+      "targetSize": [
+        280,
+        64
+      ],
+      "borderLeftBottomRightTop": [
+        35,
+        18,
+        35,
+        18
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "progress_track",
+      "file": "assets/common/progress_track.png",
+      "sha256": "e41bb50d9e74546757e0035d20bd4fb1f497efb2f0ee088c7378379886e6bed2",
+      "sourceSize": [
+        280,
+        64
+      ],
+      "targetSize": [
+        560,
+        64
+      ],
+      "borderLeftBottomRightTop": [
+        35,
+        18,
+        35,
+        18
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "progress_fill",
+      "file": "assets/common/progress_fill.png",
+      "sha256": "459461fd9c87058abd69c2cee2ea75d703cab5d59dfded05e2f749c4b829d463",
+      "sourceSize": [
+        280,
+        64
+      ],
+      "targetSize": [
+        180,
+        64
+      ],
+      "borderLeftBottomRightTop": [
+        28,
+        18,
+        28,
+        18
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "progress_fill",
+      "file": "assets/common/progress_fill.png",
+      "sha256": "459461fd9c87058abd69c2cee2ea75d703cab5d59dfded05e2f749c4b829d463",
+      "sourceSize": [
+        280,
+        64
+      ],
+      "targetSize": [
+        280,
+        64
+      ],
+      "borderLeftBottomRightTop": [
+        28,
+        18,
+        28,
+        18
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    },
+    {
+      "name": "progress_fill",
+      "file": "assets/common/progress_fill.png",
+      "sha256": "459461fd9c87058abd69c2cee2ea75d703cab5d59dfded05e2f749c4b829d463",
+      "sourceSize": [
+        280,
+        64
+      ],
+      "targetSize": [
+        560,
+        64
+      ],
+      "borderLeftBottomRightTop": [
+        28,
+        18,
+        28,
+        18
+      ],
+      "cornerPixelEquality": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "allCornersPreserved": true,
+      "fixedHeightMaintained": true
+    }
+  ],
+  "totalTests": 54,
+  "allCornerChecksPassed": true,
+  "contactSheet": "previews/nine-slice-contact.jpg",
+  "contactSha256": "10b562e9726d6beaacc4cc360c4a1e9946771554392a5292859ccbff46fdd718",
+  "sourceManifestSha256": "793901b5a4a76a6014ff77ff3c7344b2f281df73887a755714480718a1ea522f"
+}

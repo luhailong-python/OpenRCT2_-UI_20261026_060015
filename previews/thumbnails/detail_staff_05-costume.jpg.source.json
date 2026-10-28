@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_staff_05-costume.jpg",
+  "sha256": "958ec707ff704cd3a6fda3304443ea837113eae245a1b88396a6cd13c26c8d8a",
+  "derivedFrom": [
+    {
+      "file": "designs/details/staff/05-costume.png",
+      "sha256": "1823b19d0766d27c4bcfcb9bac34f8c3608fab1a6e6998bde31c6b3c1238285a",
+      "sourceRecord": "designs/details/staff/05-costume.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

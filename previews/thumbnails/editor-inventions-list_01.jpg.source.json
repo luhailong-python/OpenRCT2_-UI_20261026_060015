@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/editor-inventions-list_01.jpg",
+  "sha256": "1e2302640e5d879a53321ed2ca67f0efa1a7c197fec0989400f14680d45115d7",
+  "derivedFrom": [
+    {
+      "file": "designs/editor-inventions-list/01-已研究.png",
+      "sha256": "e10207511c1ec3d9d542e31d27f6abc0a629aebbff596fee5130c4d3b30842e4",
+      "sourceRecord": "designs/editor-inventions-list/01-已研究.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

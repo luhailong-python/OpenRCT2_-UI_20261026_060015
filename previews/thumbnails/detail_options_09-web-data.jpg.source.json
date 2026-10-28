@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_options_09-web-data.jpg",
+  "sha256": "3db0ca064bc74bd0bccc2be2b6b0da685b4e17a1bf836973fcab676ec1aa9892",
+  "derivedFrom": [
+    {
+      "file": "designs/details/options/09-web-data.png",
+      "sha256": "9d6fb367b561b8c712d56bfa0408caeae0d282eb59a9deb31f3f1234fc13aba4",
+      "sourceRecord": "designs/details/options/09-web-data.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

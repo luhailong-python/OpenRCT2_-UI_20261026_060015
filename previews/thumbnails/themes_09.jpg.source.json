@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/themes_09.jpg",
+  "sha256": "1d1b92ebf0b783cff2637d56d14992381a36195a0b5fd63c9657a24579eb7499",
+  "derivedFrom": [
+    {
+      "file": "designs/themes/09-特性.png",
+      "sha256": "499eea0ae1a190b9e960656fcfcd16be8d59835feacf1459959f59393735a233",
+      "sourceRecord": "designs/themes/09-特性.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/game-status-bar_01.jpg",
+  "sha256": "367b792ca4b895f78f61236d4bbd3413902ff360180fb3f07a72c9aeb5310440",
+  "derivedFrom": [
+    {
+      "file": "designs/game-status-bar/01-状态栏.png",
+      "sha256": "624fa80cee557f2c0f371fe43d6db13603e49fc67da90ef08625775b35cbfee2",
+      "sourceRecord": "designs/game-status-bar/01-状态栏.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

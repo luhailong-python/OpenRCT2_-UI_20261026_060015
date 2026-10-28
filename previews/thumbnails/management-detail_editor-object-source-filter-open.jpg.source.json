@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/management-detail_editor-object-source-filter-open.jpg",
+  "sha256": "106d025b7305869ea508683458c9b956e779c59d9b52627d8a983d38d09e0015",
+  "derivedFrom": [
+    {
+      "file": "designs/details/management/editor-object-source-filter-open.png",
+      "sha256": "4e5d851965d2c5b368d4a1d7acba2deafc9afe12bd6776835d43ed4a9aec2131",
+      "sourceRecord": "designs/details/management/editor-object-source-filter-open.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/load-save_04.jpg",
+  "sha256": "bd477175923332b87a565cd38050001dfb23b155092f84e78dec2633710b1449",
+  "derivedFrom": [
+    {
+      "file": "designs/load-save/04-轨道.png",
+      "sha256": "2418b237b8d85e0034cc7a424a90bf1bc620e6a2cebbf180ea0cb6c5fe631338",
+      "sourceRecord": "designs/load-save/04-轨道.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

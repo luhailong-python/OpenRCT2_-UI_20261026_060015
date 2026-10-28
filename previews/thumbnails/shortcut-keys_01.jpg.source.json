@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/shortcut-keys_01.jpg",
+  "sha256": "b61e5b088a84cf035cd0bf04425587f06b681b993f0322d950fc389f334d754d",
+  "derivedFrom": [
+    {
+      "file": "designs/shortcut-keys/01-快捷键.png",
+      "sha256": "b53ed44f29d1a20dcfc0e3336808d895b71e117a0ff0487308f9f3a43810ccc1",
+      "sourceRecord": "designs/shortcut-keys/01-快捷键.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

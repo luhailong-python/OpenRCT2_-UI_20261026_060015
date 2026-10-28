@@ -1,0 +1,212 @@
+{
+  "verifiedAt": "2026-10-26T06:22:47.831604-04:00",
+  "sourcePolicy": "Only original font bytes and licenses from authoritative upstream GitHub repositories. No Windows font files copied, no font installation or credentials used.",
+  "verificationMethod": "Read-only standard-library SFNT table parsing of name and Unicode cmap formats 4/12; fontTools is absent in all three available Python environments, so no installation was performed. Both original binaries were successfully loaded by Pillow/FreeType and Chinese string bounding boxes were measured.",
+  "corpus": [
+    {
+      "file": "docs/repo-ui-inventory.json",
+      "sha256": "f24690c9e647f00ebb3bc0aaf4a3b18660c7f005d4abb9340e1c74947f972ef0"
+    },
+    {
+      "file": "docs/state-contracts.json",
+      "sha256": "837cabefb581333a082ccf930c54e145fd7bd407e201888cde2000484360ff6a"
+    }
+  ],
+  "chineseUniqueCount": 872,
+  "fonts": [
+    {
+      "file": "assets/fonts/NotoSansCJKsc-Regular.otf",
+      "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+      "bytes": 16437364,
+      "gitBlobSha1": "dc15562470b4f842321894787a0d066879ccff8b",
+      "officialGitBlobSha1": "dc15562470b4f842321894787a0d066879ccff8b",
+      "officialBlobMatches": true,
+      "repository": "https://github.com/notofonts/noto-cjk",
+      "commit": "f8d157532fbfaeda587e826d4cd5b21a49186f7c",
+      "sourcePath": "Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf",
+      "downloadUrlUsed": "https://raw.githubusercontent.com/notofonts/noto-cjk/main/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf",
+      "immutableSourceUrl": "https://raw.githubusercontent.com/notofonts/noto-cjk/f8d157532fbfaeda587e826d4cd5b21a49186f7c/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf",
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/NotoSansCJK-LICENSE.txt",
+      "licenseSha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "licenseSourceUrl": "https://raw.githubusercontent.com/notofonts/noto-cjk/f8d157532fbfaeda587e826d4cd5b21a49186f7c/Sans/LICENSE",
+      "names": {
+        "0": "© 2014-2021 Adobe (http://www.adobe.com/).",
+        "1": "Noto Sans CJK SC",
+        "2": "Regular",
+        "3": "2.004;GOOG;NotoSansCJKsc-Regular;ADOBE",
+        "4": "Noto Sans CJK SC",
+        "5": "Version 2.004;hotconv 1.0.118;makeotfexe 2.5.65603",
+        "6": "NotoSansCJKsc-Regular",
+        "13": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+        "14": "http://scripts.sil.org/OFL"
+      },
+      "fontTables": [
+        "BASE",
+        "CFF ",
+        "DSIG",
+        "GDEF",
+        "GPOS",
+        "GSUB",
+        "OS/2",
+        "VORG",
+        "cmap",
+        "head",
+        "hhea",
+        "hmtx",
+        "maxp",
+        "name",
+        "post",
+        "vhea",
+        "vmtx"
+      ],
+      "cmapFormats": [
+        4,
+        12
+      ],
+      "unicodeCmapCodepoints": 44810,
+      "chineseCorpusCount": 872,
+      "missingChineseCharacters": "",
+      "missingNonAsciiCharacters": "",
+      "usage": "body and title fallback",
+      "modified": false,
+      "subset": false,
+      "installedToSystem": false
+    },
+    {
+      "file": "assets/fonts/MaShanZheng-Regular.ttf",
+      "sha256": "6d2546bb189c732a8ca29af9e22457b152387d158aa459e4ac2ce1e51788b7fb",
+      "bytes": 5857936,
+      "gitBlobSha1": "11bbfb9867d70612158229d037e7a5f622bd0e38",
+      "officialGitBlobSha1": "11bbfb9867d70612158229d037e7a5f622bd0e38",
+      "officialBlobMatches": true,
+      "repository": "https://github.com/google/fonts",
+      "commit": "e7db6ca603fd4862010383ff17ffd6cc4ffac1c0",
+      "sourcePath": "ofl/mashanzheng/MaShanZheng-Regular.ttf",
+      "downloadUrlUsed": "https://raw.githubusercontent.com/google/fonts/main/ofl/mashanzheng/MaShanZheng-Regular.ttf",
+      "immutableSourceUrl": "https://raw.githubusercontent.com/google/fonts/e7db6ca603fd4862010383ff17ffd6cc4ffac1c0/ofl/mashanzheng/MaShanZheng-Regular.ttf",
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/MaShanZheng-OFL.txt",
+      "licenseSha256": "d7bdb1cee215b689e23c2f95672a6084c790542170648267a55114103d756a08",
+      "licenseSourceUrl": "https://raw.githubusercontent.com/google/fonts/e7db6ca603fd4862010383ff17ffd6cc4ffac1c0/ofl/mashanzheng/OFL.txt",
+      "names": {
+        "0": "Copyright 2018 The MaShanZheng Project Authors (https://github.com/googlefonts/mashanzheng)",
+        "1": "Ma Shan Zheng",
+        "2": "Regular",
+        "3": "2.003;ZYEC;MaShanZheng-Regular",
+        "4": "Ma Shan Zheng Regular",
+        "5": "Version 2.003",
+        "6": "MaShanZheng-Regular",
+        "13": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org",
+        "14": "https://openfontlicense.org"
+      },
+      "fontTables": [
+        "GPOS",
+        "GSUB",
+        "OS/2",
+        "cmap",
+        "gasp",
+        "glyf",
+        "head",
+        "hhea",
+        "hmtx",
+        "loca",
+        "maxp",
+        "name",
+        "post",
+        "prep"
+      ],
+      "cmapFormats": [
+        4
+      ],
+      "unicodeCmapCodepoints": 7015,
+      "chineseCorpusCount": 872,
+      "missingChineseCharacters": "",
+      "missingNonAsciiCharacters": "",
+      "usage": "short display titles",
+      "modified": false,
+      "subset": false,
+      "installedToSystem": false
+    }
+  ],
+  "titleFallback": "Ma Shan Zheng is for probed short titles only. U+00B7 is confirmed missing in FreeType; replace the separator with whitespace or render it using Noto Sans CJK SC. Probe newly composed strings against each font, including punctuation and Latin; unsupported characters must fall back to Noto, and missing characters in both must be explicitly flagged.",
+  "unityImportValidated": false,
+  "webSourcesVerified": [
+    "https://raw.githubusercontent.com/notofonts/noto-cjk/main/Sans/LICENSE",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mashanzheng/OFL.txt"
+  ],
+  "freeTypeLoadChecks": [
+    {
+      "file": "assets/fonts/NotoSansCJKsc-Regular.otf",
+      "familyStyle": [
+        "Noto Sans CJK SC",
+        "Regular"
+      ],
+      "sample": "仙游乐园 游客研究 财务建造",
+      "bbox": [
+        0,
+        10,
+        398,
+        42
+      ]
+    },
+    {
+      "file": "assets/fonts/MaShanZheng-Regular.ttf",
+      "familyStyle": [
+        "Ma Shan Zheng",
+        "Regular"
+      ],
+      "sample": "仙游乐园 游客研究 财务建造",
+      "bbox": [
+        0,
+        2,
+        398,
+        34
+      ]
+    }
+  ],
+  "scopeClarification": "The original 872 Chinese/no-missing-non-ASCII result applies only to repo-ui-inventory.json and state-contracts.json hashes recorded above. Neither input contains U+00B7. It did not verify all Unicode or dynamically composed renderer text.",
+  "renderedTextGlyphProbe": {
+    "verifiedAt": "2026-10-26T06:42:42.540314-04:00",
+    "layoutFileCount": 351,
+    "textLayerCount": 9880,
+    "uniqueNonWhitespaceCharacters": 899,
+    "concatenatedTextSha256": "49c8450bd2b0add07677fa9c3e2fdeea9e8aa59dc2bd88d11b129713919d174b",
+    "results": [
+      {
+        "file": "assets/fonts/NotoSansCJKsc-Regular.otf",
+        "fontSize": 32,
+        "checkedUniqueCharacters": 899,
+        "missingGlyphs": [],
+        "middleDotU00B7IsMissing": false,
+        "probeMethod": "Compare each non-whitespace rendered character glyph mask and dimensions against known missing glyph U+10FFFF using the same Pillow/FreeType rasterizer used for previews."
+      },
+      {
+        "file": "assets/fonts/MaShanZheng-Regular.ttf",
+        "fontSize": 32,
+        "checkedUniqueCharacters": 899,
+        "missingGlyphs": [
+          {
+            "character": "·",
+            "unicode": "U+00B7"
+          },
+          {
+            "character": "›",
+            "unicode": "U+203A"
+          },
+          {
+            "character": "⇄",
+            "unicode": "U+21C4"
+          },
+          {
+            "character": "✓",
+            "unicode": "U+2713"
+          }
+        ],
+        "middleDotU00B7IsMissing": true,
+        "probeMethod": "Compare each non-whitespace rendered character glyph mask and dimensions against known missing glyph U+10FFFF using the same Pillow/FreeType rasterizer used for previews."
+      }
+    ],
+    "finding": "Ma Shan Zheng lacks U+00B7 MIDDLE DOT in actual FreeType rendering. Use whitespace in short display headings or Noto Sans CJK SC for this character. Other unsupported characters must trigger the same fallback. Do not assume the title font covers all text."
+  }
+}

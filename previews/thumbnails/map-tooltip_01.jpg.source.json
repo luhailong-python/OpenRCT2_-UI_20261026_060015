@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/map-tooltip_01.jpg",
+  "sha256": "a691b84edff43d0146f7108f36d9c5ab0ec2138a544460d7270efe1324652f43",
+  "derivedFrom": [
+    {
+      "file": "designs/map-tooltip/01-悬浮.png",
+      "sha256": "bd52f3934cb340970ff7a807d1d775b62747fe570d3ec45a2e50264e83f58c57",
+      "sourceRecord": "designs/map-tooltip/01-悬浮.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

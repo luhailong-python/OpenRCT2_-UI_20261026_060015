@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_park_objective-failure.jpg",
+  "sha256": "ad685c0ff5c8998938f7b6b282444d58996ff960b12b5141e5e6ac7cfae20803",
+  "derivedFrom": [
+    {
+      "file": "previews/states/park/objective-failure.png",
+      "sha256": "588c1f35150326880c5d3c42ab55f30d780a44f6d450e51d460a11bdc5b2677a",
+      "sourceRecord": "previews/states/park/objective-failure.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

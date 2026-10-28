@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/staff-list_01.jpg",
+  "sha256": "fd54c525df6e5400e1b05bf33a79a256bb82ec3476fe0d7fd6a1a5f9dc1f480f",
+  "derivedFrom": [
+    {
+      "file": "designs/staff-list/01-清洁.png",
+      "sha256": "5bad948f83ed53b376928d8ffd7f72b5a31a5d6c519097d71b5f6b7f21fd54fe",
+      "sourceRecord": "designs/staff-list/01-清洁.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

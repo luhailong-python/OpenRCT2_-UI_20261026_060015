@@ -1,0 +1,135 @@
+{
+  "file": "previews/contact-sheets/02.jpg",
+  "sha256": "d650a021de951187b22660e0cca0318a9092a2202d9c06536b85cc6e2528cb4e",
+  "derivedFrom": [
+    {
+      "file": "designs/editor-object-selection/07-游客员工.png",
+      "sha256": "bdce7a6d9a4705b35a908c266c461e070e4db645176eb3ba09e9cd7ec1906c35"
+    },
+    {
+      "file": "designs/editor-park-entrance/01-入口.png",
+      "sha256": "ddd042f05cbfe8c7f6d812b17dc435e4848404de2468f2aebed11ad9bfdb0050"
+    },
+    {
+      "file": "designs/editor-scenario-options/01-目标.png",
+      "sha256": "0f39ae86a87952166ddaf156c89644f0868939cce784fc075a6b80d88a9d53a6"
+    },
+    {
+      "file": "designs/editor-scenario-options/02-场景详情.png",
+      "sha256": "0edac18713d515f51e0105515809ad28f7cfd02b0cf3fe68694af5de2ebca838"
+    },
+    {
+      "file": "designs/editor-scenario-options/03-财务.png",
+      "sha256": "494a117b527ac36687252f9f0306ea0d72b69b25dc81d19226d77eaf5c5c9018"
+    },
+    {
+      "file": "designs/editor-scenario-options/04-游客.png",
+      "sha256": "eea9a5bd31e176828bd7a9b114dc263c49002bb5b2efab1b65f36f5f91b6a6c1"
+    },
+    {
+      "file": "designs/editor-scenario-options/05-公园限制.png",
+      "sha256": "671703dc3a67dac7be60d2c88f46c4c598bc87ed7650e55535ee7c43605820bf"
+    },
+    {
+      "file": "designs/editor-scenario-options/06-保留设施.png",
+      "sha256": "3dccfb02930c525d54ea23b69b4118317addeabcd014b121c877f8269b9a8394"
+    },
+    {
+      "file": "designs/editor-status-line/01-步骤状态.png",
+      "sha256": "1358aff0a31f51597503fe0ce04ca428d98f0031fa74d87594f062ab25ce795f"
+    },
+    {
+      "file": "designs/editor-step-controller/01-上一步.png",
+      "sha256": "1358aff0a31f51597503fe0ce04ca428d98f0031fa74d87594f062ab25ce795f"
+    },
+    {
+      "file": "designs/editor-step-controller/02-下一步.png",
+      "sha256": "1358aff0a31f51597503fe0ce04ca428d98f0031fa74d87594f062ab25ce795f"
+    },
+    {
+      "file": "designs/error/01-失败.png",
+      "sha256": "cc190c50b4436b9f607cca3a4127a6d1e3cb459d0460a48bb8b70759f6535036"
+    },
+    {
+      "file": "designs/finances/01-收支.png",
+      "sha256": "556ccdb65e8c9bdfbdbfcda47edd5e9f698107b86e8345c9a6690523f602a344"
+    },
+    {
+      "file": "designs/finances/02-现金.png",
+      "sha256": "57896f212faa93e462cba39ffc6d5499e0ef7d6c75b8a8d37f0268034d57b07e"
+    },
+    {
+      "file": "designs/finances/03-公园价值.png",
+      "sha256": "250eb6764a8835ae73c0e2f8934df82178b9289dffb02fce591c109e5b8a3003"
+    },
+    {
+      "file": "designs/finances/04-周利润.png",
+      "sha256": "90189f1aabedfb97399b6e8c54152bc8e9051ccd7c68a3a13894ee990a7212f1"
+    },
+    {
+      "file": "designs/finances/05-营销.png",
+      "sha256": "99542d55490d22a4400b5e83ee38160bb81f31888853833cef1e040cbe18768c"
+    },
+    {
+      "file": "designs/finances/06-研究经费.png",
+      "sha256": "dc864c0d65598e7d05b7b08fad2fdeda29504f617a5aaa486f93011b72d996c6"
+    },
+    {
+      "file": "designs/footpath/01-地面.png",
+      "sha256": "8955c9bd2250e108e6ab0d297463736c83ff89fdfd1abfd9cfbbe382b7765122"
+    },
+    {
+      "file": "designs/footpath/02-桥梁隧道.png",
+      "sha256": "65202b718d2b5f0c4324794160cdacd8a99fed2194323dd051fb59bc31301754"
+    },
+    {
+      "file": "designs/footpath/03-区域.png",
+      "sha256": "b00c2bcc5d72de64ed793de613f883d7d1f16d4d6f6c5c1f16840348a2862cdb"
+    },
+    {
+      "file": "designs/game-status-bar/01-状态栏.png",
+      "sha256": "624fa80cee557f2c0f371fe43d6db13603e49fc67da90ef08625775b35cbfee2"
+    },
+    {
+      "file": "designs/guest-list/01-个体.png",
+      "sha256": "4a841c904b086d2dad57f1d59769f0a20473b11365b8352b7ac3667395169c09"
+    },
+    {
+      "file": "designs/guest-list/02-汇总.png",
+      "sha256": "4fdd4a868d2848934851d5685b15fb72e8894bdd7f0ce0b05511a9e429e2ca3a"
+    },
+    {
+      "file": "designs/guest/01-概览.png",
+      "sha256": "cccf8a827ec781702e0069a981c6beb7ac64ec0907c601eacdeb0f6244868ba4"
+    },
+    {
+      "file": "designs/guest/02-需求.png",
+      "sha256": "b5ff8e3974a57ba5f106a5e9a9dac205243a24145d1e967aad63c05d0616e72b"
+    },
+    {
+      "file": "designs/guest/03-游玩记录.png",
+      "sha256": "ef7366b714515ff9f35572055bba1cfd99078d98d905b3b5a754dd31c45edc19"
+    },
+    {
+      "file": "designs/guest/04-消费.png",
+      "sha256": "64f3f90cc5930abbdcba32329fc8687d04d69a5f44d4e394c2b7f2eb9073fc99"
+    },
+    {
+      "file": "designs/guest/05-想法.png",
+      "sha256": "8f41be5f5234bbd4e3530c1ee566f73f28365531320847c01542f089670bdbe6"
+    },
+    {
+      "file": "designs/guest/06-携带物.png",
+      "sha256": "2a0af4c1ddf879d2d6f4a5c9854fb6eed8de984bd4b324dab3d18db953fd2eb2"
+    },
+    {
+      "file": "designs/guest/07-调试.png",
+      "sha256": "7075ddd6e0ad191560ff08586ccb343fedf74396f71ed5e5be6c28d71df11d84"
+    },
+    {
+      "file": "designs/install-track/01-安装.png",
+      "sha256": "931ba0c7791e774fefcac84cc7e68c2e46e3281821b2483eae0aaaff10d01b4a"
+    }
+  ],
+  "operation": "review_contact_sheet_thumbnail_composition_no_new_model_generation"
+}

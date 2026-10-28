@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/banner_01.jpg",
+  "sha256": "bf474ae2bf00df0827591d6f7e8d913b354488fb3953ebda31d057651f0483ac",
+  "derivedFrom": [
+    {
+      "file": "designs/banner/01-横幅.png",
+      "sha256": "3216d3ab22cb857a98717f45672caad24b6d118280fb79733f7de7f305a56e84",
+      "sourceRecord": "designs/banner/01-横幅.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_shops_disconnected.jpg",
+  "sha256": "f66b7ba01c1a9a670d897618766010ca1c0e713e591e25f126548c1e4c79f34b",
+  "derivedFrom": [
+    {
+      "file": "previews/states/shops/disconnected.png",
+      "sha256": "9f3d855883458fa9d6f9a5cad0fa3a9186fb975e50b52bef4199d61c396a52db",
+      "sourceRecord": "previews/states/shops/disconnected.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

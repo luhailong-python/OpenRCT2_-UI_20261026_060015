@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_new-ride_blueprints-empty.jpg",
+  "sha256": "4806fbbf651a17bde2abbe055c082c8c27cdcaa26b14b1813c52d363d097838a",
+  "derivedFrom": [
+    {
+      "file": "previews/states/new-ride/blueprints-empty.png",
+      "sha256": "9b3e56e677c798702e01a431ef8b4a2cab1a6e581fe3890694fe4ae858ac2f8b",
+      "sourceRecord": "previews/states/new-ride/blueprints-empty.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

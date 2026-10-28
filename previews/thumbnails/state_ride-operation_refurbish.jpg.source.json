@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_ride-operation_refurbish.jpg",
+  "sha256": "07a3302a8abe876e84ee074248b0cc21d1a5922d9c54d0ae517db4532aa0f2f5",
+  "derivedFrom": [
+    {
+      "file": "previews/states/ride-operation/refurbish.png",
+      "sha256": "9002568a3718a2c1b9291308cadc6ae4000e0fec6108675e5a3aee119f270905",
+      "sourceRecord": "previews/states/ride-operation/refurbish.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

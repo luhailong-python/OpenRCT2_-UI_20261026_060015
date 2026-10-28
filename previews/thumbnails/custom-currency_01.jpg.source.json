@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/custom-currency_01.jpg",
+  "sha256": "9e978004348a15567cd1ea72b1ab148617b469d778d2404418447de1e4093ad7",
+  "derivedFrom": [
+    {
+      "file": "designs/custom-currency/01-自定义货币.png",
+      "sha256": "c69f3d16c499e92c98d17fdc0a532185c68e8b0e901d499d75e6c50fb77abbdb",
+      "sourceRecord": "designs/custom-currency/01-自定义货币.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

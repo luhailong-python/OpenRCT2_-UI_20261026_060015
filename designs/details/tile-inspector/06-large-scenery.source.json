@@ -1,0 +1,398 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/details/tile-inspector/06-large-scenery.png",
+  "sha256": "e509dbf21dd81e7324c101b619e15690c9d3b18f61fae533b63ea52a7ea46634",
+  "exportedAt": "2026-10-26T08:00:11.406892-04:00",
+  "width": 1920,
+  "height": 1080,
+  "format": "PNG",
+  "operation": "composite_preview_not_native_generation",
+  "process": [
+    "Nine-slice/contain/cover composition of painted PNG sprites",
+    "Separate Chinese text typesetting and data diagrams"
+  ],
+  "resampling": "LANCZOS where art is fitted; output dimensions do not represent new native generated detail.",
+  "nativeModelClaim": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidencePolicy": "Resolve original AI model/quality through each source asset record; unreported values remain unconfirmed.",
+  "derivedFrom": [
+    {
+      "file": "assets/backgrounds/park-day-native.png",
+      "sha256": "27c3ac998fcd81e675c9a05712ead25c83443b133844c169d1476c3cebe25712",
+      "nativeDimensions": [
+        1672,
+        941
+      ],
+      "generationRecord": "assets/backgrounds/park-day-native.png.generation.json",
+      "derivationRecord": "assets/slice-manifest.json"
+    },
+    {
+      "file": "assets/common/panel_main.png",
+      "sha256": "704856762248133110624f38365e0ff337dd1f2f6304f66298e2230077ebca00",
+      "nativeDimensions": [
+        619,
+        610
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_main.png.source.json"
+    },
+    {
+      "file": "assets/common/title_plate.png",
+      "sha256": "f1011dd30d1ef42cbeedf64f31025c6c77c91ffbbcdd09ef74c065ad1d91ddfe",
+      "nativeDimensions": [
+        594,
+        195
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/title_plate.png.source.json"
+    },
+    {
+      "file": "assets/common/close.png",
+      "sha256": "f9089fdc15bfbfbd496d9c02de94c46b0e1e4052fffa9689de0b461e043737ec",
+      "nativeDimensions": [
+        184,
+        184
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/close.png.source.json"
+    },
+    {
+      "file": "assets/common/panel_card.png",
+      "sha256": "b82ed16e818b3bb86c16a68453bc4b73f1764c6fdb4541c2e470e5c60789568e",
+      "nativeDimensions": [
+        589,
+        558
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_card.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_normal.png",
+      "sha256": "9327a3d9577111e5985e3453a8a201010887c606a094b7e080421417aef3f92e",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_selected.png",
+      "sha256": "119a81554b9e332d698f5c704813cb047fcd4c5c71e9e5c36c7b6df6b4a789b9",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_selected.png.source.json"
+    },
+    {
+      "file": "assets/illustrations/mountain_scenario.png",
+      "sha256": "51032a4343a8e94bb53c18f04de46f9aacee420f4d5b47edc9bbdf5071d42a2b",
+      "nativeDimensions": [
+        440,
+        440
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/illustrations/mountain_scenario.png.source.json"
+    },
+    {
+      "file": "assets/common/secondary_normal.png",
+      "sha256": "5f6418c0ede62320bc017ef1f00ec1d60a5d5fc34dac8c4e96d0016e6523881f",
+      "nativeDimensions": [
+        256,
+        112
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/secondary_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/minus.png",
+      "sha256": "dbbb2ba1960865f8e4c2d82d877c08a21bd29d753a8b26d604220e3d24a6575d",
+      "nativeDimensions": [
+        184,
+        184
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/minus.png.source.json"
+    },
+    {
+      "file": "assets/common/plus.png",
+      "sha256": "324062095caa2442389b3c6bf725b6956ad555e022ef54e6421e26bed292bc88",
+      "nativeDimensions": [
+        184,
+        184
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/plus.png.source.json"
+    }
+  ],
+  "layoutRecord": "designs/details/tile-inspector/06-large-scenery.layout.json",
+  "functionalReference": {
+    "functionalRepository": "https://github.com/OpenRCT2/OpenRCT2.git",
+    "commit": "52a55c3e8da5972460642bdfed61d091fe9cabfd",
+    "sourceUnit": "TileInspector",
+    "sourceFiles": [
+      "src/openrct2-ui/windows/TileInspector.cpp"
+    ],
+    "condition": "选中有效的大景物元素。",
+    "scope": "Complete controls arranged as an actual product UI proposal; no runtime verification.",
+    "sourceControls": [
+      {
+        "sourceControlKeys": [
+          "TileInspector:WIDX_LARGE_SCENERY_SPINNER_HEIGHT"
+        ],
+        "unit": "TileInspector",
+        "controlId": "WIDX_LARGE_SCENERY_SPINNER_HEIGHT",
+        "screenId": "detail:tile-inspector:06-large-scenery",
+        "region": [
+          450,
+          336,
+          938,
+          52
+        ],
+        "visualKind": "spinner",
+        "label": "基础高度",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "spinner",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 180
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "spinner",
+              "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+              "line": 404,
+              "sourceExpression": "makeHoldableSpinnerWidgets(PropertyRowCol({ 12, 0 }, 0, 1), kPropertySpinnerSize, WidgetType::spinner, WindowColour::secondary)",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": "value"
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "选中有效的大景物元素。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "TileInspector:WIDX_LARGE_SCENERY_SPINNER_HEIGHT_DECREASE"
+        ],
+        "unit": "TileInspector",
+        "controlId": "WIDX_LARGE_SCENERY_SPINNER_HEIGHT_DECREASE",
+        "screenId": "detail:tile-inspector:06-large-scenery",
+        "region": [
+          403,
+          342,
+          40,
+          40
+        ],
+        "visualKind": "stepper-decrease",
+        "label": "基础高度减少",
+        "state": "normal",
+        "parentControl": "WIDX_LARGE_SCENERY_SPINNER_HEIGHT",
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 182
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+              "line": 404,
+              "sourceExpression": "makeHoldableSpinnerWidgets(PropertyRowCol({ 12, 0 }, 0, 1), kPropertySpinnerSize, WidgetType::spinner, WindowColour::secondary)",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": "decrease"
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "选中有效的大景物元素。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "TileInspector:WIDX_LARGE_SCENERY_SPINNER_HEIGHT_INCREASE"
+        ],
+        "unit": "TileInspector",
+        "controlId": "WIDX_LARGE_SCENERY_SPINNER_HEIGHT_INCREASE",
+        "screenId": "detail:tile-inspector:06-large-scenery",
+        "region": [
+          1395,
+          342,
+          40,
+          40
+        ],
+        "visualKind": "stepper-increase",
+        "label": "基础高度增加",
+        "state": "normal",
+        "parentControl": "WIDX_LARGE_SCENERY_SPINNER_HEIGHT",
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 181
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+              "line": 404,
+              "sourceExpression": "makeHoldableSpinnerWidgets(PropertyRowCol({ 12, 0 }, 0, 1), kPropertySpinnerSize, WidgetType::spinner, WindowColour::secondary)",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": "increase"
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "选中有效的大景物元素。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "TileInspector:WIDX_BUTTON_REMOVE"
+        ],
+        "unit": "TileInspector",
+        "controlId": "WIDX_BUTTON_REMOVE",
+        "screenId": "detail:tile-inspector:06-large-scenery",
+        "region": [
+          1584,
+          916,
+          202,
+          68
+        ],
+        "visualKind": "button",
+        "label": "移除元素",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 93
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+              "line": 285,
+              "sourceExpression": "makeWidget(kToolbarButtonAnchor + kToolbarButtonOffsetX * 0,                     kToolbarButtonSize,     WidgetType::flatBtn,     WindowColour::secondary, ImageId(SPR_DEMOLISH),     STR_REMOVE_SELECTED_ELEMENT_TIP )",
+              "sourceStringIds": [
+                "STR_REMOVE_SELECTED_ELEMENT_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_DEMOLISH"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "选中有效的大景物元素。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "TileInspector:WIDX_BUTTON_COPY"
+        ],
+        "unit": "TileInspector",
+        "controlId": "WIDX_BUTTON_COPY",
+        "screenId": "detail:tile-inspector:06-large-scenery",
+        "region": [
+          1356,
+          916,
+          202,
+          68
+        ],
+        "visualKind": "button",
+        "label": "复制元素",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 99
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+              "line": 291,
+              "sourceExpression": "makeWidget(kToolbarButtonAnchor + kToolbarButtonOffsetX * 5,                     kToolbarButtonSize,     WidgetType::flatBtn,     WindowColour::secondary, ImageId(SPR_G2_COPY),      STR_TILE_INSPECTOR_COPY_TIP)",
+              "sourceStringIds": [
+                "STR_TILE_INSPECTOR_COPY_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_G2_COPY"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 2151,
+            "expression": "            // Copy button             setWidgetDisabledAndInvalidate(WIDX_BUTTON_COPY, windowTileInspectorSelectedIndex < 0);              // Paste button"
+          }
+        ],
+        "displayedCondition": "选中有效的大景物元素。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "TileInspector:WIDX_BUTTON_ROTATE"
+        ],
+        "unit": "TileInspector",
+        "controlId": "WIDX_BUTTON_ROTATE",
+        "screenId": "detail:tile-inspector:06-large-scenery",
+        "region": [
+          1128,
+          916,
+          202,
+          68
+        ],
+        "visualKind": "button",
+        "label": "旋转元素",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 96
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+              "line": 288,
+              "sourceExpression": "makeWidget(kToolbarButtonAnchor + kToolbarButtonOffsetX * 2,                     kToolbarButtonSize,     WidgetType::flatBtn,     WindowColour::secondary, ImageId(SPR_ROTATE_ARROW), STR_ROTATE_SELECTED_ELEMENT_TIP)",
+              "sourceStringIds": [
+                "STR_ROTATE_SELECTED_ELEMENT_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_ROTATE_ARROW"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "选中有效的大景物元素。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      }
+    ],
+    "decorativeArtPolicy": "Existing painted PNGs only"
+  },
+  "status": "produced_pending_review"
+}

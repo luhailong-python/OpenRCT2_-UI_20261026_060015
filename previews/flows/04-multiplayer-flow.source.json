@@ -1,0 +1,45 @@
+{
+  "file": "previews/flows/04-multiplayer-flow.png",
+  "sha256": "cedc4af5f3a1763b0170037c7ed03f70fd06da4caa602979b096543620bec0a7",
+  "operation": "diagram_typesetting_and_composition_from_handpainted_sprites_not_AI_generation",
+  "derivedFrom": [
+    {
+      "file": "assets/common/panel_card.png",
+      "sha256": "b82ed16e818b3bb86c16a68453bc4b73f1764c6fdb4541c2e470e5c60789568e",
+      "sourceRecord": "assets/common/panel_card.png.source.json"
+    },
+    {
+      "file": "assets/icons/chat.png",
+      "sha256": "7f52ea328ef4bbc02ac3b248f31689de8d89a3240ba075b921e44eabae3f10ea",
+      "sourceRecord": "assets/icons/chat.png.source.json"
+    },
+    {
+      "file": "assets/icons/lock.png",
+      "sha256": "aa4a68ef5b8180cd441cd1a2172a30dbbdde920f89c11a62d194ebbe9022b2e7",
+      "sourceRecord": "assets/icons/lock.png.source.json"
+    },
+    {
+      "file": "assets/icons/multiplayer.png",
+      "sha256": "6755486bbe32c693e3ea5d378108face4f7419d89f73197ae5375e9d2c9a7f43",
+      "sourceRecord": "assets/icons/multiplayer.png.source.json"
+    },
+    {
+      "file": "assets/icons/open.png",
+      "sha256": "34783aa2cfe531264145709601a93443898d7539715a8dff13619d0267e47cde",
+      "sourceRecord": "assets/icons/open.png.source.json"
+    },
+    {
+      "file": "assets/icons/security.png",
+      "sha256": "08c244693c2187c84cab2bca87d5852116e5f259629e4c53850d2e1f1ccafd33",
+      "sourceRecord": "assets/icons/security.png.source.json"
+    },
+    {
+      "file": "assets/icons/warning.png",
+      "sha256": "e498ecdf0e655a72b28589f6085970eef22698cd59a742a13c4c3d9eea9d9c61",
+      "sourceRecord": "assets/icons/warning.png.source.json"
+    }
+  ],
+  "logicReference": "docs/workflows.md",
+  "fonts": "records/font-sources.json",
+  "nativeDetailIncreased": false
+}

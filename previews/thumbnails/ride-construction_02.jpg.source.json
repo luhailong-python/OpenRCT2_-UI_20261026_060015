@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/ride-construction_02.jpg",
+  "sha256": "65a43d92d42bb63bda294f7e3af3ceb021b58800250b13571e754f427e47d7b7",
+  "derivedFrom": [
+    {
+      "file": "designs/ride-construction/02-入口.png",
+      "sha256": "ecce2185861a96ed17152ff8ecf8f331bfc5ba7fca5f1968ebf482c19e9977af",
+      "sourceRecord": "designs/ride-construction/02-入口.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

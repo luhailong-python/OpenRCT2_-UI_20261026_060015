@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_track-build_missing-exit.jpg",
+  "sha256": "4f184d1c4cac7dfb99396f95ad6db84aa47096c86c9df5c72835860f95cde891",
+  "derivedFrom": [
+    {
+      "file": "previews/states/track-build/missing-exit.png",
+      "sha256": "6e7833f393218246955baffcb974b0f01b8b71d6bb9f558af76732a69e2e81ed",
+      "sourceRecord": "previews/states/track-build/missing-exit.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

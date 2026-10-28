@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "file": "previews/states/new-ride/normal.png",
+  "sha256": "47b3e282ac9ea2e9142b8e9037f9c9954522dd09d8bf641127dd29ae31c2af68",
+  "exportedAt": "2026-10-26T06:48:34.967383-04:00",
+  "width": 1920,
+  "height": 1080,
+  "format": "PNG",
+  "operation": "composite_preview_not_native_generation",
+  "process": [
+    "Nine-slice/contain/cover composition of painted PNG sprites",
+    "Separate Chinese text typesetting and data diagrams"
+  ],
+  "resampling": "LANCZOS where art is fitted; output dimensions do not represent new native generated detail.",
+  "nativeModelClaim": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidencePolicy": "Resolve original AI model/quality through each source asset record; unreported values remain unconfirmed.",
+  "derivedFrom": [
+    {
+      "file": "assets/backgrounds/park-day-native.png",
+      "sha256": "27c3ac998fcd81e675c9a05712ead25c83443b133844c169d1476c3cebe25712",
+      "nativeDimensions": [
+        1672,
+        941
+      ],
+      "generationRecord": "assets/backgrounds/park-day-native.png.generation.json",
+      "derivationRecord": "assets/slice-manifest.json"
+    },
+    {
+      "file": "assets/common/panel_main.png",
+      "sha256": "704856762248133110624f38365e0ff337dd1f2f6304f66298e2230077ebca00",
+      "nativeDimensions": [
+        619,
+        610
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_main.png.source.json"
+    },
+    {
+      "file": "assets/common/title_plate.png",
+      "sha256": "f1011dd30d1ef42cbeedf64f31025c6c77c91ffbbcdd09ef74c065ad1d91ddfe",
+      "nativeDimensions": [
+        594,
+        195
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/title_plate.png.source.json"
+    },
+    {
+      "file": "assets/common/close.png",
+      "sha256": "f9089fdc15bfbfbd496d9c02de94c46b0e1e4052fffa9689de0b461e043737ec",
+      "nativeDimensions": [
+        184,
+        184
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/close.png.source.json"
+    },
+    {
+      "file": "assets/common/panel_card.png",
+      "sha256": "b82ed16e818b3bb86c16a68453bc4b73f1764c6fdb4541c2e470e5c60789568e",
+      "nativeDimensions": [
+        589,
+        558
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_card.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_selected.png",
+      "sha256": "119a81554b9e332d698f5c704813cb047fcd4c5c71e9e5c36c7b6df6b4a789b9",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_selected.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_normal.png",
+      "sha256": "9327a3d9577111e5985e3453a8a201010887c606a094b7e080421417aef3f92e",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_normal.png.source.json"
+    },
+    {
+      "file": "assets/illustrations/cloud_train.png",
+      "sha256": "3b63ed55129cbe0daba835ad940d3948673181daaa1392c4b02926d364517dd6",
+      "nativeDimensions": [
+        440,
+        440
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/illustrations/cloud_train.png.source.json"
+    },
+    {
+      "file": "assets/illustrations/monorail.png",
+      "sha256": "c526ca10cc339d1ef6535fa88d87d763076847405946a79d4d738d5cddb82834",
+      "nativeDimensions": [
+        480,
+        480
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/illustrations/monorail.png.source.json"
+    },
+    {
+      "file": "assets/illustrations/cable_car.png",
+      "sha256": "e77949bdabe6640e0fd0604cea59c296800df286ac71d99a544bff8269927dc6",
+      "nativeDimensions": [
+        480,
+        480
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/illustrations/cable_car.png.source.json"
+    },
+    {
+      "file": "assets/illustrations/suspended_monorail.png",
+      "sha256": "af027f69e1a29b7f9fea8a012f20be61d5119c4a89f7f70940b034f0fbe65406",
+      "nativeDimensions": [
+        480,
+        480
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/illustrations/suspended_monorail.png.source.json"
+    },
+    {
+      "file": "assets/illustrations/observation_lift.png",
+      "sha256": "3c3221c02bb5bb9cc166cfd7d1df268d80d3314d951dd55a57b9a451b05c79e6",
+      "nativeDimensions": [
+        480,
+        480
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/illustrations/observation_lift.png.source.json"
+    },
+    {
+      "file": "assets/common/secondary_normal.png",
+      "sha256": "5f6418c0ede62320bc017ef1f00ec1d60a5d5fc34dac8c4e96d0016e6523881f",
+      "nativeDimensions": [
+        256,
+        112
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/secondary_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/primary_normal.png",
+      "sha256": "83fe20f7969e29bf064885d8947b6ab9042e99b47dcac58c7277505e75cd1b5d",
+      "nativeDimensions": [
+        256,
+        120
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/primary_normal.png.source.json"
+    }
+  ],
+  "layoutRecord": "previews/states/new-ride/normal.layout.json",
+  "functionalReference": {
+    "repository": "https://github.com/OpenRCT2/OpenRCT2.git",
+    "commit": "52a55c3e8da5972460642bdfed61d091fe9cabfd",
+    "stateContract": "docs/state-contracts.json",
+    "system": "new-ride",
+    "state": {
+      "id": "normal",
+      "title": "选择设施",
+      "message": "查看类型、造价与说明，可选预制蓝图或自建。",
+      "primaryAction": "选择设施",
+      "secondaryAction": "返回",
+      "visualKind": "cards",
+      "logicBasis": "existing",
+      "copyBasis": "本项目中文设计稿文案，非原版逐字翻译"
+    },
+    "evidence": [
+      "src/openrct2-ui/windows/NewRide.cpp:1",
+      "src/openrct2-ui/windows/TrackList.cpp:1",
+      "src/openrct2-ui/windows/TrackDesignPlace.cpp:1",
+      "src/openrct2-ui/windows/Research.cpp:1"
+    ]
+  },
+  "status": "produced_pending_review"
+}

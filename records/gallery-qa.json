@@ -1,0 +1,51 @@
+{
+  "verifiedAt": "2026-10-26T13:32:27.178Z",
+  "scope": "offline_image_gallery_only_not_game_or_Unity",
+  "browser": "134.0.3124.83",
+  "checks": [
+    {
+      "name": "initial_count",
+      "passed": true,
+      "actual": 471,
+      "expected": 471
+    },
+    {
+      "name": "search",
+      "passed": true,
+      "actual": 14
+    },
+    {
+      "name": "modal_next",
+      "passed": true
+    },
+    {
+      "name": "escape_close",
+      "passed": true
+    },
+    {
+      "name": "state_filter",
+      "passed": true,
+      "actual": 125
+    },
+    {
+      "name": "product_detail_filter",
+      "passed": true,
+      "actual": 120
+    },
+    {
+      "name": "all_gallery_files_exist",
+      "passed": true,
+      "missing": []
+    },
+    {
+      "name": "desktop_viewer_no_horizontal_overflow",
+      "passed": true
+    },
+    {
+      "name": "browser_no_errors",
+      "passed": true,
+      "errors": []
+    }
+  ],
+  "status": "passed"
+}

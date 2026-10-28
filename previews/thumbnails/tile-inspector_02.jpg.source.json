@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/tile-inspector_02.jpg",
+  "sha256": "965a68afc132194b6d5796110aac46eb4519f862d8dda92c3bb562a8e9548eb6",
+  "derivedFrom": [
+    {
+      "file": "designs/tile-inspector/02-步道.png",
+      "sha256": "f320d5e2333e23594cd240f0ea53bc5613b222bcea0879b589bc4c8bf7d80a91",
+      "sourceRecord": "designs/tile-inspector/02-步道.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

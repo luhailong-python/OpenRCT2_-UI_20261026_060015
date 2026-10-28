@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/operations_park_06-rename.jpg",
+  "sha256": "f9143b91ccabe8bf2912af2c2085dd19f8d4aadf4a8502b594f942a1f17b6008",
+  "derivedFrom": [
+    {
+      "file": "designs/details/park-ops/06-rename.png",
+      "sha256": "a6754adca499ed4306158448511d39c9d301ec09b4674847b7906ec1c9f5feef",
+      "sourceRecord": "designs/details/park-ops/06-rename.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

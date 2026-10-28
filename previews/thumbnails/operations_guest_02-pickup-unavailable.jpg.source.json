@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/operations_guest_02-pickup-unavailable.jpg",
+  "sha256": "d287294125b6eb04d912d85b4793679fe7efd4b459447c7f77c836bedfbd695f",
+  "derivedFrom": [
+    {
+      "file": "designs/details/guest-ops/02-pickup-unavailable.png",
+      "sha256": "0d3048184d799f6b4b6ef80f32b23f78325c1cf9d6b9b4f02da8a6319183b221",
+      "sourceRecord": "designs/details/guest-ops/02-pickup-unavailable.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

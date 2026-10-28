@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/staff_03.jpg",
+  "sha256": "7840f1313ce661705bac8c8cf5f63234e0d547a59e6ed4c480d476c4214ad1c7",
+  "derivedFrom": [
+    {
+      "file": "designs/staff/03-统计.png",
+      "sha256": "079f0f824e23988f4f3dd6faf5c81e7582128f2bb5ffd0dd06c9e85249849d4d",
+      "sourceRecord": "designs/staff/03-统计.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

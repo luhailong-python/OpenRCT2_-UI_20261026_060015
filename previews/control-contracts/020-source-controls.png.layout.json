@@ -1,0 +1,393 @@
+{
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "purpose": "technical_style_contract_not_product_screen",
+  "controls": [
+    {
+      "unit": "EditorParkEntrance",
+      "controlId": "WIDX_CLOSE",
+      "rectTopLeftXYWH": [
+        58,
+        146,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        229,
+        554,
+        98
+      ],
+      "sourceWidgetType": "closeBox",
+      "sourceLabelDisplayed": "关闭",
+      "existingTargetScreenGroups": [
+        "入口"
+      ],
+      "formalAssets": [
+        "assets/common/close.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "EditorParkEntrance",
+      "controlId": "WIDX_TAB_CONTENT_PANEL",
+      "rectTopLeftXYWH": [
+        665,
+        146,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        229,
+        554,
+        98
+      ],
+      "sourceWidgetType": "resize",
+      "sourceLabelDisplayed": "可伸缩区域",
+      "existingTargetScreenGroups": [
+        "入口"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "EditorParkEntrance",
+      "controlId": "WIDX_TAB",
+      "rectTopLeftXYWH": [
+        1272,
+        146,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        229,
+        554,
+        98
+      ],
+      "sourceWidgetType": "tab",
+      "sourceLabelDisplayed": "标签页",
+      "existingTargetScreenGroups": [
+        "入口"
+      ],
+      "formalAssets": [
+        "assets/common/tab_normal.png",
+        "assets/common/tab_pressed.png",
+        "assets/common/tab_selected.png",
+        "assets/common/tab_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "EditorParkEntrance",
+      "controlId": "WIDX_LIST",
+      "rectTopLeftXYWH": [
+        58,
+        368,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        451,
+        554,
+        98
+      ],
+      "sourceWidgetType": "scroll",
+      "sourceLabelDisplayed": "列表 / 图表 / 音量等动态区域",
+      "existingTargetScreenGroups": [
+        "入口"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "EditorParkEntrance",
+      "controlId": "WIDX_ROTATE_ENTRANCE_BUTTON",
+      "rectTopLeftXYWH": [
+        665,
+        368,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        451,
+        554,
+        98
+      ],
+      "sourceWidgetType": "flatBtn",
+      "sourceLabelDisplayed": "旋转物体 90°",
+      "existingTargetScreenGroups": [
+        "入口"
+      ],
+      "formalAssets": [
+        "assets/common/secondary_normal.png",
+        "assets/common/secondary_pressed.png",
+        "assets/common/secondary_selected.png",
+        "assets/common/secondary_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "EditorScenarioOptions",
+      "controlId": "WIDX_BACKGROUND",
+      "rectTopLeftXYWH": [
+        1272,
+        368,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        451,
+        554,
+        98
+      ],
+      "sourceWidgetType": "frame",
+      "sourceLabelDisplayed": "窗口框板",
+      "existingTargetScreenGroups": [
+        "目标",
+        "场景详情",
+        "财务",
+        "游客",
+        "公园限制",
+        "保留设施"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "EditorScenarioOptions",
+      "controlId": "WIDX_TITLE",
+      "rectTopLeftXYWH": [
+        58,
+        590,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        673,
+        554,
+        98
+      ],
+      "sourceWidgetType": "caption",
+      "sourceLabelDisplayed": "动态标题",
+      "existingTargetScreenGroups": [
+        "目标",
+        "场景详情",
+        "财务",
+        "游客",
+        "公园限制",
+        "保留设施"
+      ],
+      "formalAssets": [],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "EditorScenarioOptions",
+      "controlId": "WIDX_CLOSE",
+      "rectTopLeftXYWH": [
+        665,
+        590,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        673,
+        554,
+        98
+      ],
+      "sourceWidgetType": "closeBox",
+      "sourceLabelDisplayed": "关闭",
+      "existingTargetScreenGroups": [
+        "目标",
+        "场景详情",
+        "财务",
+        "游客",
+        "公园限制",
+        "保留设施"
+      ],
+      "formalAssets": [
+        "assets/common/close.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "EditorScenarioOptions",
+      "controlId": "WIDX_PAGE_BACKGROUND",
+      "rectTopLeftXYWH": [
+        1272,
+        590,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        673,
+        554,
+        98
+      ],
+      "sourceWidgetType": "resize",
+      "sourceLabelDisplayed": "可伸缩区域",
+      "existingTargetScreenGroups": [
+        "目标",
+        "场景详情",
+        "财务",
+        "游客",
+        "公园限制",
+        "保留设施"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "EditorScenarioOptions",
+      "controlId": "WIDX_TAB_1",
+      "rectTopLeftXYWH": [
+        58,
+        812,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        895,
+        554,
+        98
+      ],
+      "sourceWidgetType": "tab",
+      "sourceLabelDisplayed": "显示目标选项",
+      "existingTargetScreenGroups": [
+        "目标",
+        "场景详情",
+        "财务",
+        "游客",
+        "公园限制",
+        "保留设施"
+      ],
+      "formalAssets": [
+        "assets/common/tab_normal.png",
+        "assets/common/tab_pressed.png",
+        "assets/common/tab_selected.png",
+        "assets/common/tab_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "EditorScenarioOptions",
+      "controlId": "WIDX_TAB_2",
+      "rectTopLeftXYWH": [
+        665,
+        812,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        895,
+        554,
+        98
+      ],
+      "sourceWidgetType": "tab",
+      "sourceLabelDisplayed": "显示剧情详情选项",
+      "existingTargetScreenGroups": [
+        "目标",
+        "场景详情",
+        "财务",
+        "游客",
+        "公园限制",
+        "保留设施"
+      ],
+      "formalAssets": [
+        "assets/common/tab_normal.png",
+        "assets/common/tab_pressed.png",
+        "assets/common/tab_selected.png",
+        "assets/common/tab_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "EditorScenarioOptions",
+      "controlId": "WIDX_TAB_3",
+      "rectTopLeftXYWH": [
+        1272,
+        812,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        895,
+        554,
+        98
+      ],
+      "sourceWidgetType": "tab",
+      "sourceLabelDisplayed": "显示财政选项",
+      "existingTargetScreenGroups": [
+        "目标",
+        "场景详情",
+        "财务",
+        "游客",
+        "公园限制",
+        "保留设施"
+      ],
+      "formalAssets": [
+        "assets/common/tab_normal.png",
+        "assets/common/tab_pressed.png",
+        "assets/common/tab_selected.png",
+        "assets/common/tab_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    }
+  ]
+}

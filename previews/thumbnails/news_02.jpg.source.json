@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/news_02.jpg",
+  "sha256": "d13db5586dd3fca2d296806b1062d969cd2219754e58e841921d9e64a243794e",
+  "derivedFrom": [
+    {
+      "file": "designs/news/02-通知设置.png",
+      "sha256": "400796a893f552eea31c4920ba1ed21c44fd6bba94658f5c99455a92b9f76891",
+      "sourceRecord": "designs/news/02-通知设置.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

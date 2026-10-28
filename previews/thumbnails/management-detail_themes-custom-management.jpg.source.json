@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/management-detail_themes-custom-management.jpg",
+  "sha256": "c12a451c92144a4d8f3faa93aa05ffcd32617e81df0833de6690d94197e3874c",
+  "derivedFrom": [
+    {
+      "file": "designs/details/management/themes-custom-management.png",
+      "sha256": "9511f13794387b1bb90baa0cccf8c6fcae21ca34e18401b0510db99b437ed745",
+      "sourceRecord": "designs/details/management/themes-custom-management.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

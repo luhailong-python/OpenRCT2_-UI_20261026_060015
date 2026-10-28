@@ -1,0 +1,135 @@
+{
+  "file": "previews/contact-sheets/04.jpg",
+  "sha256": "7bd2db78376c3a50512cea05a64e4561925a270a2a9d91dccdac4b49b53ec32a",
+  "derivedFrom": [
+    {
+      "file": "designs/new-ride/04-惊险.png",
+      "sha256": "19d748dec37608b67a49f1dc4d4872836a0ee16bba5109377370b28971135c09"
+    },
+    {
+      "file": "designs/new-ride/05-水上.png",
+      "sha256": "c2adc748c8ffabf651c2cb1020fd4ffae1388eb55ba6702a764bbd8e0550cb2d"
+    },
+    {
+      "file": "designs/new-ride/06-商店摊位.png",
+      "sha256": "c84b210347528649e482dca804ae05c4b45b3945a80c9c827ffb6dcd6c432c88"
+    },
+    {
+      "file": "designs/new-ride/07-研发.png",
+      "sha256": "44d66c0ac9fc510808ffd5fd6b652c933200591b07f8c622c297ab414c52e932"
+    },
+    {
+      "file": "designs/news-ticker/01-消息.png",
+      "sha256": "430ade3b3d970901aaae748bfb44b863271751f640f38ff6582623b66379ba24"
+    },
+    {
+      "file": "designs/news/01-近期消息.png",
+      "sha256": "5940e14bdf3c1fb8886b4021601f507183269b31e61f2ff2a47da33fdf8f89f0"
+    },
+    {
+      "file": "designs/news/02-通知设置.png",
+      "sha256": "400796a893f552eea31c4920ba1ed21c44fd6bba94658f5c99455a92b9f76891"
+    },
+    {
+      "file": "designs/object-load-error/01-缺失对象.png",
+      "sha256": "e1d3cf2d2e8c8aee6707fe054f1dd7e8bcd3db12719b29adb0521463667417b9"
+    },
+    {
+      "file": "designs/object-load-error/02-下载中.png",
+      "sha256": "ee9e4f6a19ff128be1019362b4e8e2a9f096a0ae37f771f068fbdd5ba6909709"
+    },
+    {
+      "file": "designs/object-load-error/03-失败.png",
+      "sha256": "9fc6660db8fb1bb5153466e5736d9d668314d4898d72d04c3ef75c9d2b855884"
+    },
+    {
+      "file": "designs/options/01-显示.png",
+      "sha256": "d7f04f4eb723e64c043ed2f606d13c9971b1ebf7f2ae4c5abc116a35243b54ac"
+    },
+    {
+      "file": "designs/options/02-渲染.png",
+      "sha256": "0f59b59d9df7f7803f0f972723210d11ec3d90f190c5b633f29bc3e4079f74e8"
+    },
+    {
+      "file": "designs/options/03-文化.png",
+      "sha256": "f49b88472a6e36b98f0997ba75005e17f2530384de537adddf839b3896612882"
+    },
+    {
+      "file": "designs/options/04-声音.png",
+      "sha256": "152ca4cde1c6b74ca4e339f0df22dde286d3b112aec2175884cd8a254ea0d7c2"
+    },
+    {
+      "file": "designs/options/05-界面.png",
+      "sha256": "78e18e16bfbfe75642ad4e0b52e4157adfe85f5199eae458b36936ac013fefb3"
+    },
+    {
+      "file": "designs/options/06-操作.png",
+      "sha256": "b33e1c2a7936bbb6c4ecee42f14ed3bd3224f09cd065b5ffa011a16118441180"
+    },
+    {
+      "file": "designs/options/07-杂项.png",
+      "sha256": "bf84ed6e28b70da9481464abf0cb30a07f858235603704a4df42df503f4b88de"
+    },
+    {
+      "file": "designs/options/08-高级.png",
+      "sha256": "4f6dc0b85cf889dca3e192f579b6b4a25dc89735496d01056e96a8b51aa3d440"
+    },
+    {
+      "file": "designs/overwrite-prompt/01-确认.png",
+      "sha256": "b9f46d6506a034d3c81fcfa5f017997d97bee1cbf99d5f83e33850accb83b90c"
+    },
+    {
+      "file": "designs/overwrite-prompt/02-取消.png",
+      "sha256": "b9f46d6506a034d3c81fcfa5f017997d97bee1cbf99d5f83e33850accb83b90c"
+    },
+    {
+      "file": "designs/park-info-panel/01-公园指标.png",
+      "sha256": "5e342575d1c913898eda61e7838fb125cffca626c1f7cae8dd9ec2a0087c997c"
+    },
+    {
+      "file": "designs/park/01-入口.png",
+      "sha256": "68b60ac82586fe3e984665b10ee4284067f66de48f4487def46e7c783ccd3681"
+    },
+    {
+      "file": "designs/park/02-评分.png",
+      "sha256": "5b9358a1ccde2b2d6651d3bdba59ded1fa80efec73866569afa034e4c4fe137a"
+    },
+    {
+      "file": "designs/park/03-游客.png",
+      "sha256": "7cc7e16cd628ef75d34289ed13ea21daed052de99552e31904e5f23596b1a9f0"
+    },
+    {
+      "file": "designs/park/04-票价.png",
+      "sha256": "03da4b8c0b61d8ec4bf7c50383e73897558dc6ae2057b467fadfe8b87cc59ab0"
+    },
+    {
+      "file": "designs/park/05-统计.png",
+      "sha256": "a1f6349337238309fd739d312841188c96c7f8359e9d147ddabf4d713858c0cd"
+    },
+    {
+      "file": "designs/park/06-目标.png",
+      "sha256": "d8abdaea9ec5ad677c3748fcea3a4b17d4dc9e6bb7b5906443b0b593f186d623"
+    },
+    {
+      "file": "designs/park/07-奖项.png",
+      "sha256": "56a52faad189b347e236eaafb56b36de4f6f88ccaf407eb05344fa95032d0952"
+    },
+    {
+      "file": "designs/patrol-area/01-绘制.png",
+      "sha256": "9c6ec7cf614c38b12e0bfcf17b833be1e87bb3e8d84ab9c2c71eb167d8a10343"
+    },
+    {
+      "file": "designs/patrol-area/02-擦除.png",
+      "sha256": "88e1813c6ee8e701989c16a113804f889ea5150d4d9b68c7d8190b43939e0da9"
+    },
+    {
+      "file": "designs/player/01-概览.png",
+      "sha256": "b812a8dac3f33f7d9688ae1e835de48adafa2b9e511063c6383d8e80956ad869"
+    },
+    {
+      "file": "designs/player/02-统计.png",
+      "sha256": "3cf332638de5306b03adeecdd0b958ce2909fdc796dcb120d79bf80c4f641765"
+    }
+  ],
+  "operation": "review_contact_sheet_thumbnail_composition_no_new_model_generation"
+}

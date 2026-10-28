@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_settings_theme-edit.jpg",
+  "sha256": "248760b624a3e73b71ce69f189b796c3081b0a31b23fbe912226765507a9f62c",
+  "derivedFrom": [
+    {
+      "file": "previews/states/settings/theme-edit.png",
+      "sha256": "5f43f3af275a66ddcfc0ca25a5887b89a53228101d8bb2d8855bf969a8f23cd5",
+      "sourceRecord": "previews/states/settings/theme-edit.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

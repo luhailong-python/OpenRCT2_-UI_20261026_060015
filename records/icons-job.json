@@ -1,0 +1,12 @@
+{
+  "file": "assets/masters/icons-native.png",
+  "source": "C:\\Users\\luyua\\.codex\\generated_images\\01a177a6-ab28-7732-aee8-f17747d127e1\\exec-e4f16d31-d792-4b65-ad56-ecb106ad9605.png",
+  "startedAt": "2026-10-26T10:07:20Z",
+  "transparent_background": true,
+  "references": [
+    "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+    "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+  ],
+  "prompt": "records/icons-prompt.txt",
+  "receipt": "records/icons-receipt.json"
+}

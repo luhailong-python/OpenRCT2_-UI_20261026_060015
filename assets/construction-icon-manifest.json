@@ -1,0 +1,962 @@
+[
+  {
+    "name": "track_straight",
+    "file": "assets/construction-icons/track_straight.png",
+    "width": 352,
+    "height": 352,
+    "format": "PNG",
+    "mode": "RGBA",
+    "sha256": "764b9ea089a907039d017d6229a7b449b38b719bf4a040be6ea672fb91b20912",
+    "borderLeftBottomRightTop": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "resizeAxes": "none",
+    "minimumSize": [
+      352,
+      352
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "pixelsPerUnit": 100,
+    "containsDynamicText": false,
+    "source": "assets/masters/tracktools-native.png",
+    "sourceSha256": "8bf43c7a037eaa49614eb1d0f766080fa34e09269f72305e755fe7b7e12b559e",
+    "sourceNativeSize": [
+      1254,
+      1254
+    ],
+    "sourceRectTopLeftXYXY": [
+      34,
+      91,
+      321,
+      280
+    ],
+    "pasteOffset": [
+      32,
+      81
+    ],
+    "operation": "Original-pixel crop; isolate specified alpha>100 connected silhouettes, retain original alpha>=16 within 2px edge support; center on padded canvas. No recoloring, painting, AI call or upscaling.",
+    "derivedFrom": {
+      "file": "assets/masters/tracktools-native.png",
+      "sha256": "8bf43c7a037eaa49614eb1d0f766080fa34e09269f72305e755fe7b7e12b559e",
+      "generationRecord": "assets/masters/tracktools-native.png.generation.json"
+    },
+    "alpha": {
+      "minimum": 0,
+      "maximum": 255,
+      "transparentPixels": 91774,
+      "visiblePixels": 32130
+    },
+    "isolatedForegroundComponents": 1,
+    "qualityStatus": "slice_checked_pending_sheet_visual_review",
+    "nativeDetailIncreased": false,
+    "processedAt": "2026-10-26T08:06:26.807928-04:00",
+    "targetWindow": "RideConstruction",
+    "usage": "轨道建设工具按钮/特殊段列表/方向与角度选项；图标非世界轨道图块"
+  },
+  {
+    "name": "track_curve_left",
+    "file": "assets/construction-icons/track_curve_left.png",
+    "width": 352,
+    "height": 352,
+    "format": "PNG",
+    "mode": "RGBA",
+    "sha256": "9b63df89139901191a5e03187e2fc696b82fbd4a559d992064a53a1521cb3eb5",
+    "borderLeftBottomRightTop": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "resizeAxes": "none",
+    "minimumSize": [
+      352,
+      352
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "pixelsPerUnit": 100,
+    "containsDynamicText": false,
+    "source": "assets/masters/tracktools-native.png",
+    "sourceSha256": "8bf43c7a037eaa49614eb1d0f766080fa34e09269f72305e755fe7b7e12b559e",
+    "sourceNativeSize": [
+      1254,
+      1254
+    ],
+    "sourceRectTopLeftXYXY": [
+      351,
+      60,
+      585,
+      299
+    ],
+    "pasteOffset": [
+      59,
+      56
+    ],
+    "operation": "Original-pixel crop; isolate specified alpha>100 connected silhouettes, retain original alpha>=16 within 2px edge support; center on padded canvas. No recoloring, painting, AI call or upscaling.",
+    "derivedFrom": {
+      "file": "assets/masters/tracktools-native.png",
+      "sha256": "8bf43c7a037eaa49614eb1d0f766080fa34e09269f72305e755fe7b7e12b559e",
+      "generationRecord": "assets/masters/tracktools-native.png.generation.json"
+    },
+    "alpha": {
+      "minimum": 0,
+      "maximum": 255,
+      "transparentPixels": 88808,
+      "visiblePixels": 35096
+    },
+    "isolatedForegroundComponents": 1,
+    "qualityStatus": "slice_checked_pending_sheet_visual_review",
+    "nativeDetailIncreased": false,
+    "processedAt": "2026-10-26T08:06:26.920046-04:00",
+    "targetWindow": "RideConstruction",
+    "usage": "轨道建设工具按钮/特殊段列表/方向与角度选项；图标非世界轨道图块"
+  },
+  {
+    "name": "track_curve_right",
+    "file": "assets/construction-icons/track_curve_right.png",
+    "width": 352,
+    "height": 352,
+    "format": "PNG",
+    "mode": "RGBA",
+    "sha256": "d22b666852e7c44fe9cbf5fbfb6faf5778a2afeb4328566567d36429237c172d",
+    "borderLeftBottomRightTop": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "resizeAxes": "none",
+    "minimumSize": [
+      352,
+      352
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "pixelsPerUnit": 100,
+    "containsDynamicText": false,
+    "source": "assets/masters/tracktools-native.png",
+    "sourceSha256": "8bf43c7a037eaa49614eb1d0f766080fa34e09269f72305e755fe7b7e12b559e",
+    "sourceNativeSize": [
+      1254,
+      1254
+    ],
+    "sourceRectTopLeftXYXY": [
+      668,
+      60,
+      902,
+      300
+    ],
+    "pasteOffset": [
+      59,
+      56
+    ],
+    "operation": "Original-pixel crop; isolate specified alpha>100 connected silhouettes, retain original alpha>=16 within 2px edge support; center on padded canvas. No recoloring, painting, AI call or upscaling.",
+    "derivedFrom": {
+      "file": "assets/masters/tracktools-native.png",
+      "sha256": "8bf43c7a037eaa49614eb1d0f766080fa34e09269f72305e755fe7b7e12b559e",
+      "generationRecord": "assets/masters/tracktools-native.png.generation.json"
+    },
+    "alpha": {
+      "minimum": 0,
+      "maximum": 255,
+      "transparentPixels": 88962,
+      "visiblePixels": 34942
+    },
+    "isolatedForegroundComponents": 1,
+    "qualityStatus": "slice_checked_pending_sheet_visual_review",
+    "nativeDetailIncreased": false,
+    "processedAt": "2026-10-26T08:06:27.030967-04:00",
+    "targetWindow": "RideConstruction",
+    "usage": "轨道建设工具按钮/特殊段列表/方向与角度选项；图标非世界轨道图块"
+  },
+  {
+    "name": "track_s_bend",
+    "file": "assets/construction-icons/track_s_bend.png",
+    "width": 352,
+    "height": 352,
+    "format": "PNG",
+    "mode": "RGBA",
+    "sha256": "bde8ea1caa589b10ac9920c19530d7db2a9a238d11b9121dd895bbacf67ba655",
+    "borderLeftBottomRightTop": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "resizeAxes": "none",
+    "minimumSize": [
+      352,
+      352
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "pixelsPerUnit": 100,
+    "containsDynamicText": false,
+    "source": "assets/masters/tracktools-native.png",
+    "sourceSha256": "8bf43c7a037eaa49614eb1d0f766080fa34e09269f72305e755fe7b7e12b559e",
+    "sourceNativeSize": [
+      1254,
+      1254
+    ],
+    "sourceRectTopLeftXYXY": [
+      935,
+      50,
+      1229,
+      304
+    ],
+    "pasteOffset": [
+      29,
+      49
+    ],
+    "operation": "Original-pixel crop; isolate specified alpha>100 connected silhouettes, retain original alpha>=16 within 2px edge support; center on padded canvas. No recoloring, painting, AI call or upscaling.",
+    "derivedFrom": {
+      "file": "assets/masters/tracktools-native.png",
+      "sha256": "8bf43c7a037eaa49614eb1d0f766080fa34e09269f72305e755fe7b7e12b559e",
+      "generationRecord": "assets/masters/tracktools-native.png.generation.json"
+    },
+    "alpha": {
+      "minimum": 0,
+      "maximum": 255,
+      "transparentPixels": 83944,
+      "visiblePixels": 39960
+    },
+    "isolatedForegroundComponents": 1,
+    "qualityStatus": "slice_checked_pending_sheet_visual_review",
+    "nativeDetailIncreased": false,
+    "processedAt": "2026-10-26T08:06:27.144078-04:00",
+    "targetWindow": "RideConstruction",
+    "usage": "轨道建设工具按钮/特殊段列表/方向与角度选项；图标非世界轨道图块"
+  },
+  {
+    "name": "track_up",
+    "file": "assets/construction-icons/track_up.png",
+    "width": 352,
+    "height": 352,
+    "format": "PNG",
+    "mode": "RGBA",
+    "sha256": "7a3f89ec1de084d244affa91394561fdef5a4fb4f94139ac9aac4b63d5df7ea3",
+    "borderLeftBottomRightTop": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "resizeAxes": "none",
+    "minimumSize": [
+      352,
+      352
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "pixelsPerUnit": 100,
+    "containsDynamicText": false,
+    "source": "assets/masters/tracktools-native.png",
+    "sourceSha256": "8bf43c7a037eaa49614eb1d0f766080fa34e09269f72305e755fe7b7e12b559e",
+    "sourceNativeSize": [
+      1254,
+      1254
+    ],
+    "sourceRectTopLeftXYXY": [
+      29,
+      348,
+      311,
+      606
+    ],
+    "pasteOffset": [
+      35,
+      47
+    ],
+    "operation": "Original-pixel crop; isolate specified alpha>100 connected silhouettes, retain original alpha>=16 within 2px edge support; center on padded canvas. No recoloring, painting, AI call or upscaling.",
+    "derivedFrom": {
+      "file": "assets/masters/tracktools-native.png",
+      "sha256": "8bf43c7a037eaa49614eb1d0f766080fa34e09269f72305e755fe7b7e12b559e",
+      "generationRecord": "assets/masters/tracktools-native.png.generation.json"
+    },
+    "alpha": {
+      "minimum": 0,
+      "maximum": 255,
+      "transparentPixels": 88600,
+      "visiblePixels": 35304
+    },
+    "isolatedForegroundComponents": 2,
+    "qualityStatus": "slice_checked_pending_sheet_visual_review",
+    "nativeDetailIncreased": false,
+    "processedAt": "2026-10-26T08:06:27.251698-04:00",
+    "targetWindow": "RideConstruction",
+    "usage": "轨道建设工具按钮/特殊段列表/方向与角度选项；图标非世界轨道图块"
+  },
+  {
+    "name": "track_down",
+    "file": "assets/construction-icons/track_down.png",
+    "width": 352,
+    "height": 352,
+    "format": "PNG",
+    "mode": "RGBA",
+    "sha256": "de5298509574a6ddea1647cb0dc4a71b66cda1fd72360c6ea05b01499945adab",
+    "borderLeftBottomRightTop": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "resizeAxes": "none",
+    "minimumSize": [
+      352,
+      352
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "pixelsPerUnit": 100,
+    "containsDynamicText": false,
+    "source": "assets/masters/tracktools-native.png",
+    "sourceSha256": "8bf43c7a037eaa49614eb1d0f766080fa34e09269f72305e755fe7b7e12b559e",
+    "sourceNativeSize": [
+      1254,
+      1254
+    ],
+    "sourceRectTopLeftXYXY": [
+      342,
+      377,
+      613,
+      604
+    ],
+    "pasteOffset": [
+      40,
+      62
+    ],
+    "operation": "Original-pixel crop; isolate specified alpha>100 connected silhouettes, retain original alpha>=16 within 2px edge support; center on padded canvas. No recoloring, painting, AI call or upscaling.",
+    "derivedFrom": {
+      "file": "assets/masters/tracktools-native.png",
+      "sha256": "8bf43c7a037eaa49614eb1d0f766080fa34e09269f72305e755fe7b7e12b559e",
+      "generationRecord": "assets/masters/tracktools-native.png.generation.json"
+    },
+    "alpha": {
+      "minimum": 0,
+      "maximum": 255,
+      "transparentPixels": 91056,
+      "visiblePixels": 32848
+    },
+    "isolatedForegroundComponents": 1,
+    "qualityStatus": "slice_checked_pending_sheet_visual_review",
+    "nativeDetailIncreased": false,
+    "processedAt": "2026-10-26T08:06:27.359045-04:00",
+    "targetWindow": "RideConstruction",
+    "usage": "轨道建设工具按钮/特殊段列表/方向与角度选项；图标非世界轨道图块"
+  },
+  {
+    "name": "track_bank_left",
+    "file": "assets/construction-icons/track_bank_left.png",
+    "width": 352,
+    "height": 352,
+    "format": "PNG",
+    "mode": "RGBA",
+    "sha256": "f9f6ed0d76dc70f201dbcf2b8a108263e0d4eaae0c9f4cf834809103b89b913f",
+    "borderLeftBottomRightTop": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "resizeAxes": "none",
+    "minimumSize": [
+      352,
+      352
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "pixelsPerUnit": 100,
+    "containsDynamicText": false,
+    "source": "assets/masters/tracktools-native.png",
+    "sourceSha256": "8bf43c7a037eaa49614eb1d0f766080fa34e09269f72305e755fe7b7e12b559e",
+    "sourceNativeSize": [
+      1254,
+      1254
+    ],
+    "sourceRectTopLeftXYXY": [
+      653,
+      353,
+      914,
+      608
+    ],
+    "pasteOffset": [
+      45,
+      48
+    ],
+    "operation": "Original-pixel crop; isolate specified alpha>100 connected silhouettes, retain original alpha>=16 within 2px edge support; center on padded canvas. No recoloring, painting, AI call or upscaling.",
+    "derivedFrom": {
+      "file": "assets/masters/tracktools-native.png",
+      "sha256": "8bf43c7a037eaa49614eb1d0f766080fa34e09269f72305e755fe7b7e12b559e",
+      "generationRecord": "assets/masters/tracktools-native.png.generation.json"
+    },
+    "alpha": {
+      "minimum": 0,
+      "maximum": 255,
+      "transparentPixels": 86027,
+      "visiblePixels": 37877
+    },
+    "isolatedForegroundComponents": 2,
+    "qualityStatus": "slice_checked_pending_sheet_visual_review",
+    "nativeDetailIncreased": false,
+    "processedAt": "2026-10-26T08:06:27.472737-04:00",
+    "targetWindow": "RideConstruction",
+    "usage": "轨道建设工具按钮/特殊段列表/方向与角度选项；图标非世界轨道图块"
+  },
+  {
+    "name": "track_bank_right",
+    "file": "assets/construction-icons/track_bank_right.png",
+    "width": 352,
+    "height": 352,
+    "format": "PNG",
+    "mode": "RGBA",
+    "sha256": "268f10a052b930a96df77939c573a2bbea2119fa3cc069d01752ceb3c8d9ca49",
+    "borderLeftBottomRightTop": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "resizeAxes": "none",
+    "minimumSize": [
+      352,
+      352
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "pixelsPerUnit": 100,
+    "containsDynamicText": false,
+    "source": "assets/masters/tracktools-native.png",
+    "sourceSha256": "8bf43c7a037eaa49614eb1d0f766080fa34e09269f72305e755fe7b7e12b559e",
+    "sourceNativeSize": [
+      1254,
+      1254
+    ],
+    "sourceRectTopLeftXYXY": [
+      969,
+      353,
+      1235,
+      609
+    ],
+    "pasteOffset": [
+      43,
+      48
+    ],
+    "operation": "Original-pixel crop; isolate specified alpha>100 connected silhouettes, retain original alpha>=16 within 2px edge support; center on padded canvas. No recoloring, painting, AI call or upscaling.",
+    "derivedFrom": {
+      "file": "assets/masters/tracktools-native.png",
+      "sha256": "8bf43c7a037eaa49614eb1d0f766080fa34e09269f72305e755fe7b7e12b559e",
+      "generationRecord": "assets/masters/tracktools-native.png.generation.json"
+    },
+    "alpha": {
+      "minimum": 0,
+      "maximum": 255,
+      "transparentPixels": 85398,
+      "visiblePixels": 38506
+    },
+    "isolatedForegroundComponents": 2,
+    "qualityStatus": "slice_checked_pending_sheet_visual_review",
+    "nativeDetailIncreased": false,
+    "processedAt": "2026-10-26T08:06:27.580546-04:00",
+    "targetWindow": "RideConstruction",
+    "usage": "轨道建设工具按钮/特殊段列表/方向与角度选项；图标非世界轨道图块"
+  },
+  {
+    "name": "track_brake",
+    "file": "assets/construction-icons/track_brake.png",
+    "width": 352,
+    "height": 352,
+    "format": "PNG",
+    "mode": "RGBA",
+    "sha256": "293eac5a15b928c816a6a164565445b4429bb5f224bc9e36e65c0167a8afaead",
+    "borderLeftBottomRightTop": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "resizeAxes": "none",
+    "minimumSize": [
+      352,
+      352
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "pixelsPerUnit": 100,
+    "containsDynamicText": false,
+    "source": "assets/masters/tracktools-native.png",
+    "sourceSha256": "8bf43c7a037eaa49614eb1d0f766080fa34e09269f72305e755fe7b7e12b559e",
+    "sourceNativeSize": [
+      1254,
+      1254
+    ],
+    "sourceRectTopLeftXYXY": [
+      26,
+      717,
+      316,
+      902
+    ],
+    "pasteOffset": [
+      31,
+      83
+    ],
+    "operation": "Original-pixel crop; isolate specified alpha>100 connected silhouettes, retain original alpha>=16 within 2px edge support; center on padded canvas. No recoloring, painting, AI call or upscaling.",
+    "derivedFrom": {
+      "file": "assets/masters/tracktools-native.png",
+      "sha256": "8bf43c7a037eaa49614eb1d0f766080fa34e09269f72305e755fe7b7e12b559e",
+      "generationRecord": "assets/masters/tracktools-native.png.generation.json"
+    },
+    "alpha": {
+      "minimum": 0,
+      "maximum": 255,
+      "transparentPixels": 87409,
+      "visiblePixels": 36495
+    },
+    "isolatedForegroundComponents": 1,
+    "qualityStatus": "slice_checked_pending_sheet_visual_review",
+    "nativeDetailIncreased": false,
+    "processedAt": "2026-10-26T08:06:27.688624-04:00",
+    "targetWindow": "RideConstruction",
+    "usage": "轨道建设工具按钮/特殊段列表/方向与角度选项；图标非世界轨道图块"
+  },
+  {
+    "name": "track_booster",
+    "file": "assets/construction-icons/track_booster.png",
+    "width": 352,
+    "height": 352,
+    "format": "PNG",
+    "mode": "RGBA",
+    "sha256": "4eba5220bec0d9666851eaa1964e25788577403909bdef179906569e51d26a60",
+    "borderLeftBottomRightTop": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "resizeAxes": "none",
+    "minimumSize": [
+      352,
+      352
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "pixelsPerUnit": 100,
+    "containsDynamicText": false,
+    "source": "assets/masters/tracktools-native.png",
+    "sourceSha256": "8bf43c7a037eaa49614eb1d0f766080fa34e09269f72305e755fe7b7e12b559e",
+    "sourceNativeSize": [
+      1254,
+      1254
+    ],
+    "sourceRectTopLeftXYXY": [
+      342,
+      716,
+      615,
+      902
+    ],
+    "pasteOffset": [
+      39,
+      83
+    ],
+    "operation": "Original-pixel crop; isolate specified alpha>100 connected silhouettes, retain original alpha>=16 within 2px edge support; center on padded canvas. No recoloring, painting, AI call or upscaling.",
+    "derivedFrom": {
+      "file": "assets/masters/tracktools-native.png",
+      "sha256": "8bf43c7a037eaa49614eb1d0f766080fa34e09269f72305e755fe7b7e12b559e",
+      "generationRecord": "assets/masters/tracktools-native.png.generation.json"
+    },
+    "alpha": {
+      "minimum": 0,
+      "maximum": 255,
+      "transparentPixels": 89490,
+      "visiblePixels": 34414
+    },
+    "isolatedForegroundComponents": 1,
+    "qualityStatus": "slice_checked_pending_sheet_visual_review",
+    "nativeDetailIncreased": false,
+    "processedAt": "2026-10-26T08:06:27.801675-04:00",
+    "targetWindow": "RideConstruction",
+    "usage": "轨道建设工具按钮/特殊段列表/方向与角度选项；图标非世界轨道图块"
+  },
+  {
+    "name": "track_station",
+    "file": "assets/construction-icons/track_station.png",
+    "width": 352,
+    "height": 352,
+    "format": "PNG",
+    "mode": "RGBA",
+    "sha256": "fd8d273946fe0d49a61586fe0dda59455d34bc437770e4207a35b484457b9ada",
+    "borderLeftBottomRightTop": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "resizeAxes": "none",
+    "minimumSize": [
+      352,
+      352
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "pixelsPerUnit": 100,
+    "containsDynamicText": false,
+    "source": "assets/masters/tracktools-native.png",
+    "sourceSha256": "8bf43c7a037eaa49614eb1d0f766080fa34e09269f72305e755fe7b7e12b559e",
+    "sourceNativeSize": [
+      1254,
+      1254
+    ],
+    "sourceRectTopLeftXYXY": [
+      631,
+      633,
+      950,
+      947
+    ],
+    "pasteOffset": [
+      16,
+      19
+    ],
+    "operation": "Original-pixel crop; isolate specified alpha>100 connected silhouettes, retain original alpha>=16 within 2px edge support; center on padded canvas. No recoloring, painting, AI call or upscaling.",
+    "derivedFrom": {
+      "file": "assets/masters/tracktools-native.png",
+      "sha256": "8bf43c7a037eaa49614eb1d0f766080fa34e09269f72305e755fe7b7e12b559e",
+      "generationRecord": "assets/masters/tracktools-native.png.generation.json"
+    },
+    "alpha": {
+      "minimum": 0,
+      "maximum": 255,
+      "transparentPixels": 59683,
+      "visiblePixels": 64221
+    },
+    "isolatedForegroundComponents": 1,
+    "qualityStatus": "slice_checked_pending_sheet_visual_review",
+    "nativeDetailIncreased": false,
+    "processedAt": "2026-10-26T08:06:27.917787-04:00",
+    "targetWindow": "RideConstruction",
+    "usage": "轨道建设工具按钮/特殊段列表/方向与角度选项；图标非世界轨道图块"
+  },
+  {
+    "name": "track_seat_angle",
+    "file": "assets/construction-icons/track_seat_angle.png",
+    "width": 352,
+    "height": 352,
+    "format": "PNG",
+    "mode": "RGBA",
+    "sha256": "e0f48db2e0a333599e5caf9a84f4aebfb9df9f9c0c3130792d5effde26394bd8",
+    "borderLeftBottomRightTop": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "resizeAxes": "none",
+    "minimumSize": [
+      352,
+      352
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "pixelsPerUnit": 100,
+    "containsDynamicText": false,
+    "source": "assets/masters/tracktools-native.png",
+    "sourceSha256": "8bf43c7a037eaa49614eb1d0f766080fa34e09269f72305e755fe7b7e12b559e",
+    "sourceNativeSize": [
+      1254,
+      1254
+    ],
+    "sourceRectTopLeftXYXY": [
+      956,
+      651,
+      1238,
+      947
+    ],
+    "pasteOffset": [
+      35,
+      28
+    ],
+    "operation": "Original-pixel crop; isolate specified alpha>100 connected silhouettes, retain original alpha>=16 within 2px edge support; center on padded canvas. No recoloring, painting, AI call or upscaling.",
+    "derivedFrom": {
+      "file": "assets/masters/tracktools-native.png",
+      "sha256": "8bf43c7a037eaa49614eb1d0f766080fa34e09269f72305e755fe7b7e12b559e",
+      "generationRecord": "assets/masters/tracktools-native.png.generation.json"
+    },
+    "alpha": {
+      "minimum": 0,
+      "maximum": 255,
+      "transparentPixels": 67791,
+      "visiblePixels": 56113
+    },
+    "isolatedForegroundComponents": 1,
+    "qualityStatus": "slice_checked_pending_sheet_visual_review",
+    "nativeDetailIncreased": false,
+    "processedAt": "2026-10-26T08:06:28.033938-04:00",
+    "targetWindow": "RideConstruction",
+    "usage": "轨道建设工具按钮/特殊段列表/方向与角度选项；图标非世界轨道图块"
+  },
+  {
+    "name": "track_entrance",
+    "file": "assets/construction-icons/track_entrance.png",
+    "width": 352,
+    "height": 352,
+    "format": "PNG",
+    "mode": "RGBA",
+    "sha256": "fd10567e3213c0a3169213cb72fe92687bad42ed878500db86731e25192e6e04",
+    "borderLeftBottomRightTop": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "resizeAxes": "none",
+    "minimumSize": [
+      352,
+      352
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "pixelsPerUnit": 100,
+    "containsDynamicText": false,
+    "source": "assets/masters/tracktools-native.png",
+    "sourceSha256": "8bf43c7a037eaa49614eb1d0f766080fa34e09269f72305e755fe7b7e12b559e",
+    "sourceNativeSize": [
+      1254,
+      1254
+    ],
+    "sourceRectTopLeftXYXY": [
+      41,
+      919,
+      310,
+      1204
+    ],
+    "pasteOffset": [
+      41,
+      33
+    ],
+    "operation": "Original-pixel crop; isolate specified alpha>100 connected silhouettes, retain original alpha>=16 within 2px edge support; center on padded canvas. No recoloring, painting, AI call or upscaling.",
+    "derivedFrom": {
+      "file": "assets/masters/tracktools-native.png",
+      "sha256": "8bf43c7a037eaa49614eb1d0f766080fa34e09269f72305e755fe7b7e12b559e",
+      "generationRecord": "assets/masters/tracktools-native.png.generation.json"
+    },
+    "alpha": {
+      "minimum": 0,
+      "maximum": 255,
+      "transparentPixels": 71367,
+      "visiblePixels": 52537
+    },
+    "isolatedForegroundComponents": 1,
+    "qualityStatus": "slice_checked_pending_sheet_visual_review",
+    "nativeDetailIncreased": false,
+    "processedAt": "2026-10-26T08:06:28.150337-04:00",
+    "targetWindow": "RideConstruction",
+    "usage": "轨道建设工具按钮/特殊段列表/方向与角度选项；图标非世界轨道图块"
+  },
+  {
+    "name": "track_exit",
+    "file": "assets/construction-icons/track_exit.png",
+    "width": 352,
+    "height": 352,
+    "format": "PNG",
+    "mode": "RGBA",
+    "sha256": "1df1c084223daa137cbcc53fbeb21d05dc4f5e9e12a3aa933bf7ed5956bf916c",
+    "borderLeftBottomRightTop": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "resizeAxes": "none",
+    "minimumSize": [
+      352,
+      352
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "pixelsPerUnit": 100,
+    "containsDynamicText": false,
+    "source": "assets/masters/tracktools-native.png",
+    "sourceSha256": "8bf43c7a037eaa49614eb1d0f766080fa34e09269f72305e755fe7b7e12b559e",
+    "sourceNativeSize": [
+      1254,
+      1254
+    ],
+    "sourceRectTopLeftXYXY": [
+      338,
+      924,
+      622,
+      1205
+    ],
+    "pasteOffset": [
+      34,
+      35
+    ],
+    "operation": "Original-pixel crop; isolate specified alpha>100 connected silhouettes, retain original alpha>=16 within 2px edge support; center on padded canvas. No recoloring, painting, AI call or upscaling.",
+    "derivedFrom": {
+      "file": "assets/masters/tracktools-native.png",
+      "sha256": "8bf43c7a037eaa49614eb1d0f766080fa34e09269f72305e755fe7b7e12b559e",
+      "generationRecord": "assets/masters/tracktools-native.png.generation.json"
+    },
+    "alpha": {
+      "minimum": 0,
+      "maximum": 255,
+      "transparentPixels": 75521,
+      "visiblePixels": 48383
+    },
+    "isolatedForegroundComponents": 1,
+    "qualityStatus": "slice_checked_pending_sheet_visual_review",
+    "nativeDetailIncreased": false,
+    "processedAt": "2026-10-26T08:06:28.268015-04:00",
+    "targetWindow": "RideConstruction",
+    "usage": "轨道建设工具按钮/特殊段列表/方向与角度选项；图标非世界轨道图块"
+  },
+  {
+    "name": "track_previous",
+    "file": "assets/construction-icons/track_previous.png",
+    "width": 352,
+    "height": 352,
+    "format": "PNG",
+    "mode": "RGBA",
+    "sha256": "1fa8ec6febdaaad16c5e64d0b93b6977424e1b8af30c234a3ab3bf3d41fc4a26",
+    "borderLeftBottomRightTop": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "resizeAxes": "none",
+    "minimumSize": [
+      352,
+      352
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "pixelsPerUnit": 100,
+    "containsDynamicText": false,
+    "source": "assets/masters/tracktools-native.png",
+    "sourceSha256": "8bf43c7a037eaa49614eb1d0f766080fa34e09269f72305e755fe7b7e12b559e",
+    "sourceNativeSize": [
+      1254,
+      1254
+    ],
+    "sourceRectTopLeftXYXY": [
+      680,
+      989,
+      921,
+      1186
+    ],
+    "pasteOffset": [
+      55,
+      77
+    ],
+    "operation": "Original-pixel crop; isolate specified alpha>100 connected silhouettes, retain original alpha>=16 within 2px edge support; center on padded canvas. No recoloring, painting, AI call or upscaling.",
+    "derivedFrom": {
+      "file": "assets/masters/tracktools-native.png",
+      "sha256": "8bf43c7a037eaa49614eb1d0f766080fa34e09269f72305e755fe7b7e12b559e",
+      "generationRecord": "assets/masters/tracktools-native.png.generation.json"
+    },
+    "alpha": {
+      "minimum": 0,
+      "maximum": 255,
+      "transparentPixels": 92830,
+      "visiblePixels": 31074
+    },
+    "isolatedForegroundComponents": 1,
+    "qualityStatus": "slice_checked_pending_sheet_visual_review",
+    "nativeDetailIncreased": false,
+    "processedAt": "2026-10-26T08:06:28.379320-04:00",
+    "targetWindow": "RideConstruction",
+    "usage": "轨道建设工具按钮/特殊段列表/方向与角度选项；图标非世界轨道图块"
+  },
+  {
+    "name": "track_next",
+    "file": "assets/construction-icons/track_next.png",
+    "width": 352,
+    "height": 352,
+    "format": "PNG",
+    "mode": "RGBA",
+    "sha256": "534c779979a7759bb3c3d858e687fe7faa3075329fcf222a1d30306062fcf17f",
+    "borderLeftBottomRightTop": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "resizeAxes": "none",
+    "minimumSize": [
+      352,
+      352
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "pixelsPerUnit": 100,
+    "containsDynamicText": false,
+    "source": "assets/masters/tracktools-native.png",
+    "sourceSha256": "8bf43c7a037eaa49614eb1d0f766080fa34e09269f72305e755fe7b7e12b559e",
+    "sourceNativeSize": [
+      1254,
+      1254
+    ],
+    "sourceRectTopLeftXYXY": [
+      973,
+      989,
+      1207,
+      1186
+    ],
+    "pasteOffset": [
+      59,
+      77
+    ],
+    "operation": "Original-pixel crop; isolate specified alpha>100 connected silhouettes, retain original alpha>=16 within 2px edge support; center on padded canvas. No recoloring, painting, AI call or upscaling.",
+    "derivedFrom": {
+      "file": "assets/masters/tracktools-native.png",
+      "sha256": "8bf43c7a037eaa49614eb1d0f766080fa34e09269f72305e755fe7b7e12b559e",
+      "generationRecord": "assets/masters/tracktools-native.png.generation.json"
+    },
+    "alpha": {
+      "minimum": 0,
+      "maximum": 255,
+      "transparentPixels": 93463,
+      "visiblePixels": 30441
+    },
+    "isolatedForegroundComponents": 1,
+    "qualityStatus": "slice_checked_pending_sheet_visual_review",
+    "nativeDetailIncreased": false,
+    "processedAt": "2026-10-26T08:06:28.492287-04:00",
+    "targetWindow": "RideConstruction",
+    "usage": "轨道建设工具按钮/特殊段列表/方向与角度选项；图标非世界轨道图块"
+  }
+]

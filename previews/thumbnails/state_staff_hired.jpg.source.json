@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_staff_hired.jpg",
+  "sha256": "05ec9bcf5d771a2ace498f3086168db7f8f1cb6400a97f593d855e7a2bdda38b",
+  "derivedFrom": [
+    {
+      "file": "previews/states/staff/hired.png",
+      "sha256": "217204585981bae3e0eb8af73b5a85a6d66aba6fdfcfa3ec6bc8aadd68055b05",
+      "sourceRecord": "previews/states/staff/hired.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

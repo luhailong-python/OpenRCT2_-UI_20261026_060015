@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_tile-inspector_00-element-list.jpg",
+  "sha256": "422ed586624eb3e534415711db05a869b21a83b7181a72ead976b0d19d466430",
+  "derivedFrom": [
+    {
+      "file": "designs/details/tile-inspector/00-element-list.png",
+      "sha256": "af104f9cdf5f296e96561be339ea2138152136a7fecfa7490e7a15838a1ca359",
+      "sourceRecord": "designs/details/tile-inspector/00-element-list.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

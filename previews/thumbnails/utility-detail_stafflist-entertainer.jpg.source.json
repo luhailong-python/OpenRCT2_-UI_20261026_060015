@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/utility-detail_stafflist-entertainer.jpg",
+  "sha256": "61dc5292d8d9c854895da75d359a57c8ff73d1a9742422ee53ee53c08c3d75b4",
+  "derivedFrom": [
+    {
+      "file": "designs/details/utility/stafflist-entertainer.png",
+      "sha256": "b7b3497f5363b783cd105e928d6a9f8ddd3418c87fedae828a20a2bfc4877439",
+      "sourceRecord": "designs/details/utility/stafflist-entertainer.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

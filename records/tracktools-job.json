@@ -1,0 +1,12 @@
+{
+  "file": "assets/masters/tracktools-native.png",
+  "source": "C:\\Users\\luyua\\.codex\\generated_images\\01a177a6-ab28-7732-aee8-f17747d127e1\\exec-a71c7d72-3c77-4248-b251-bc583f88ee5f.png",
+  "startedAt": "2026-10-26T11:55:51Z",
+  "transparent_background": true,
+  "references": [
+    "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+    "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+  ],
+  "prompt": "records/tracktools-prompt.txt",
+  "receipt": "records/tracktools-receipt.json"
+}

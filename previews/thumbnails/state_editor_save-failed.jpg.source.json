@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_editor_save-failed.jpg",
+  "sha256": "d87ad288cab7c24e7d6d25360f34db26d45ba2e30dda1393811ae596747530e7",
+  "derivedFrom": [
+    {
+      "file": "previews/states/editor/save-failed.png",
+      "sha256": "7d8f7da79c99313ac9a8c0abbf09f7082d9b5c635bf78650db9f95764c57230a",
+      "sourceRecord": "previews/states/editor/save-failed.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

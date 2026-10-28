@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/network-status_01.jpg",
+  "sha256": "b2a87f15e207ec50604850c8b1eb01d8e4b0feb3b8d3fa849739229c42ba7ea0",
+  "derivedFrom": [
+    {
+      "file": "designs/network-status/01-连接中.png",
+      "sha256": "5cc8917ac91eca9c34e647704179ebe7a2a845a5b7ec644df6372895cd1ea6bb",
+      "sourceRecord": "designs/network-status/01-连接中.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

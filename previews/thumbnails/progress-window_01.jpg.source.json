@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/progress-window_01.jpg",
+  "sha256": "0cd61745bc36ef23f55007e415d48bdd88909b96a878919c71a414f047cd0d95",
+  "derivedFrom": [
+    {
+      "file": "designs/progress-window/01-进行中.png",
+      "sha256": "ca85eb08f7af0f110b5b4295e9c15b72f668a2a8063501a9225f6a0b3f20c326",
+      "sourceRecord": "designs/progress-window/01-进行中.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

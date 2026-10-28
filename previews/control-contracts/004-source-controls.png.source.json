@@ -1,0 +1,63 @@
+{
+  "file": "previews/control-contracts/004-source-controls.png",
+  "sha256": "e5b04827522ee674c29bc2465408bfbb791202fb1ef88412f7df344a5ed62f1d",
+  "width": 1920,
+  "height": 1080,
+  "format": "PNG",
+  "operation": "Deterministic QA contract composition from existing painted shared sprites, native text and technical grid; resizing, valid nine-slice and rotated scrollbar-track review samples. Review thumbnails are not new native AI detail or product placement.",
+  "processedAt": "2026-10-26T06:33:58.186964-04:00",
+  "route": "deterministic_postprocess_no_AI_call",
+  "derivedFrom": [
+    {
+      "file": "assets/common/close.png",
+      "sha256": "f9089fdc15bfbfbd496d9c02de94c46b0e1e4052fffa9689de0b461e043737ec",
+      "sourceRecord": "assets/common/close.png.source.json"
+    },
+    {
+      "file": "assets/common/panel_card.png",
+      "sha256": "b82ed16e818b3bb86c16a68453bc4b73f1764c6fdb4541c2e470e5c60789568e",
+      "sourceRecord": "assets/common/panel_card.png.source.json"
+    },
+    {
+      "file": "assets/common/slider_thumb.png",
+      "sha256": "0d717bc517e3146f3f56d83df930e7f571588fdae0f9e658faa4e5631e93da7f",
+      "sourceRecord": "assets/common/slider_thumb.png.source.json"
+    },
+    {
+      "file": "assets/common/slider_track.png",
+      "sha256": "5919ec4975d82d653e74d39f750cf8ecd6412694fe8f0c85bec4629bb7b9d0b2",
+      "sourceRecord": "assets/common/slider_track.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_disabled.png",
+      "sha256": "eaa77522951fef56308d4cdecc62e94d082c04965d02f0bac36fb2b8b079ba07",
+      "sourceRecord": "assets/common/tab_disabled.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_normal.png",
+      "sha256": "9327a3d9577111e5985e3453a8a201010887c606a094b7e080421417aef3f92e",
+      "sourceRecord": "assets/common/tab_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_selected.png",
+      "sha256": "119a81554b9e332d698f5c704813cb047fcd4c5c71e9e5c36c7b6df6b4a789b9",
+      "sourceRecord": "assets/common/tab_selected.png.source.json"
+    },
+    {
+      "file": "assets/common/title_plate.png",
+      "sha256": "f1011dd30d1ef42cbeedf64f31025c6c77c91ffbbcdd09ef74c065ad1d91ddfe",
+      "sourceRecord": "assets/common/title_plate.png.source.json"
+    }
+  ],
+  "sourceControlMapping": {
+    "file": "docs/control-resource-mapping.json",
+    "sha256BeforeDisplayEvidence": "f645bea41a5083d37be57f8118473a6b13e802438982a81d831bd1958cc2410c"
+  },
+  "font": {
+    "file": "assets/fonts/NotoSansCJKsc-Regular.otf",
+    "license": "OFL-1.1"
+  },
+  "scope": "source control skin contract review only",
+  "nativeDetailIncreased": false,
+  "unityStatus": "not_imported_not_runtime_validated"
+}

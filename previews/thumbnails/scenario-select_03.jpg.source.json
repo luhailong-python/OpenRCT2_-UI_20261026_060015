@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/scenario-select_03.jpg",
+  "sha256": "ec32a5d9c267e94e32be2497b7e276a9208f7244fb1167acb03ab598326fe9ce",
+  "derivedFrom": [
+    {
+      "file": "designs/scenario-select/03-RCT1疯狂景观.png",
+      "sha256": "7d672abb36da3909d5ff3d5b8cadcd4da19ee34c41db0804c50582807cdb1857",
+      "sourceRecord": "designs/scenario-select/03-RCT1疯狂景观.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

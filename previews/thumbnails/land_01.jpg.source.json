@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/land_01.jpg",
+  "sha256": "4f8b6654bc5e6e032c62eefb58d6cfdd701217cb300164169047b4c9b4758776",
+  "derivedFrom": [
+    {
+      "file": "designs/land/01-整形.png",
+      "sha256": "37b0c9c68e3113f1fb99c0e342e0ba780e790dffb88465e25014cc823ea0539f",
+      "sourceRecord": "designs/land/01-整形.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

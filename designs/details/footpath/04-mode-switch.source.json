@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/details/footpath/04-mode-switch.png",
+  "sha256": "5ff40b94a0236be6aac42242d66d2f49dc0171a4243d3b8088c8d5a31446c95a",
+  "exportedAt": "2026-10-26T08:00:02.552598-04:00",
+  "width": 1920,
+  "height": 1080,
+  "format": "PNG",
+  "operation": "composite_preview_not_native_generation",
+  "process": [
+    "Nine-slice/contain/cover composition of painted PNG sprites",
+    "Separate Chinese text typesetting and data diagrams"
+  ],
+  "resampling": "LANCZOS where art is fitted; output dimensions do not represent new native generated detail.",
+  "nativeModelClaim": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidencePolicy": "Resolve original AI model/quality through each source asset record; unreported values remain unconfirmed.",
+  "derivedFrom": [
+    {
+      "file": "assets/backgrounds/park-day-native.png",
+      "sha256": "27c3ac998fcd81e675c9a05712ead25c83443b133844c169d1476c3cebe25712",
+      "nativeDimensions": [
+        1672,
+        941
+      ],
+      "generationRecord": "assets/backgrounds/park-day-native.png.generation.json",
+      "derivationRecord": "assets/slice-manifest.json"
+    },
+    {
+      "file": "assets/common/panel_main.png",
+      "sha256": "704856762248133110624f38365e0ff337dd1f2f6304f66298e2230077ebca00",
+      "nativeDimensions": [
+        619,
+        610
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_main.png.source.json"
+    },
+    {
+      "file": "assets/common/title_plate.png",
+      "sha256": "f1011dd30d1ef42cbeedf64f31025c6c77c91ffbbcdd09ef74c065ad1d91ddfe",
+      "nativeDimensions": [
+        594,
+        195
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/title_plate.png.source.json"
+    },
+    {
+      "file": "assets/common/close.png",
+      "sha256": "f9089fdc15bfbfbd496d9c02de94c46b0e1e4052fffa9689de0b461e043737ec",
+      "nativeDimensions": [
+        184,
+        184
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/close.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_selected.png",
+      "sha256": "119a81554b9e332d698f5c704813cb047fcd4c5c71e9e5c36c7b6df6b4a789b9",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_selected.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_normal.png",
+      "sha256": "9327a3d9577111e5985e3453a8a201010887c606a094b7e080421417aef3f92e",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_normal.png.source.json"
+    },
+    {
+      "file": "assets/illustrations/mountain_scenario.png",
+      "sha256": "51032a4343a8e94bb53c18f04de46f9aacee420f4d5b47edc9bbdf5071d42a2b",
+      "nativeDimensions": [
+        440,
+        440
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/illustrations/mountain_scenario.png.source.json"
+    },
+    {
+      "file": "assets/common/primary_selected.png",
+      "sha256": "59c783e4602ec39fc988975d01afb66441b85a13b589a5143c69953e36f7640e",
+      "nativeDimensions": [
+        256,
+        120
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/primary_selected.png.source.json"
+    },
+    {
+      "file": "assets/common/secondary_normal.png",
+      "sha256": "5f6418c0ede62320bc017ef1f00ec1d60a5d5fc34dac8c4e96d0016e6523881f",
+      "nativeDimensions": [
+        256,
+        112
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/secondary_normal.png.source.json"
+    }
+  ],
+  "layoutRecord": "designs/details/footpath/04-mode-switch.layout.json",
+  "functionalReference": {
+    "functionalRepository": "https://github.com/OpenRCT2/OpenRCT2.git",
+    "commit": "52a55c3e8da5972460642bdfed61d091fe9cabfd",
+    "sourceUnit": "Footpath",
+    "sourceFiles": [
+      "src/openrct2-ui/windows/Footpath.cpp"
+    ],
+    "condition": "铺设方式可切换，当前选择地面铺设。",
+    "scope": "Complete controls arranged as an actual product UI proposal; no runtime verification.",
+    "sourceControls": [
+      {
+        "sourceControlKeys": [
+          "Footpath:WIDX_CONSTRUCT_ON_LAND"
+        ],
+        "unit": "Footpath",
+        "controlId": "WIDX_CONSTRUCT_ON_LAND",
+        "screenId": "detail:footpath:04-mode-switch",
+        "region": [
+          114,
+          394,
+          1326,
+          68
+        ],
+        "visualKind": "button",
+        "label": "在地面铺设",
+        "state": "selected",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 184
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/Footpath.cpp",
+              "line": 216,
+              "sourceExpression": "makeWidget({13, 372}, { 36, 36}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_CONSTRUCTION_FOOTPATH_LAND),    STR_CONSTRUCT_FOOTPATH_ON_LAND_TIP             )",
+              "sourceStringIds": [
+                "STR_CONSTRUCT_FOOTPATH_ON_LAND_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_CONSTRUCTION_FOOTPATH_LAND"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "铺设方式可切换，当前选择地面铺设。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Footpath:WIDX_CONSTRUCT_BRIDGE_OR_TUNNEL"
+        ],
+        "unit": "Footpath",
+        "controlId": "WIDX_CONSTRUCT_BRIDGE_OR_TUNNEL",
+        "screenId": "detail:footpath:04-mode-switch",
+        "region": [
+          114,
+          490,
+          1326,
+          68
+        ],
+        "visualKind": "button",
+        "label": "建造桥梁或隧道",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 185
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/Footpath.cpp",
+              "line": 217,
+              "sourceExpression": "makeWidget({57, 372}, { 36, 36}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_CONSTRUCTION_FOOTPATH_BRIDGE),  STR_CONSTRUCT_BRIDGE_OR_TUNNEL_FOOTPATH_TIP    )",
+              "sourceStringIds": [
+                "STR_CONSTRUCT_BRIDGE_OR_TUNNEL_FOOTPATH_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_CONSTRUCTION_FOOTPATH_BRIDGE"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "铺设方式可切换，当前选择地面铺设。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Footpath:WIDX_CONSTRUCT_DRAG_AREA"
+        ],
+        "unit": "Footpath",
+        "controlId": "WIDX_CONSTRUCT_DRAG_AREA",
+        "screenId": "detail:footpath:04-mode-switch",
+        "region": [
+          114,
+          586,
+          1326,
+          68
+        ],
+        "visualKind": "button",
+        "label": "按区域拖建",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 186
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/Footpath.cpp",
+              "line": 218,
+              "sourceExpression": "makeWidget({35, 416}, { 36, 36}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_G2_ICON_PATH_DRAG_TOOL),        STR_DRAG_AREA_OF_FOOTPATH_TIP                  )",
+              "sourceStringIds": [
+                "STR_DRAG_AREA_OF_FOOTPATH_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_G2_ICON_PATH_DRAG_TOOL"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 565,
+            "expression": "            }             setWidgetDisabled(WIDX_CONSTRUCT_DRAG_AREA, !canDrag); #endif "
+          }
+        ],
+        "displayedCondition": "铺设方式可切换，当前选择地面铺设。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      }
+    ],
+    "decorativeArtPolicy": "Existing painted PNGs only"
+  },
+  "status": "produced_pending_review"
+}

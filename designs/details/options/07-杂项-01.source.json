@@ -1,0 +1,640 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/details/options/07-杂项-01.png",
+  "sha256": "784339e9f57ac56d332c99df334d19ca5a91fe3e2b7a8463abcbf3b628a181ad",
+  "exportedAt": "2026-10-26T08:00:06.209137-04:00",
+  "width": 1920,
+  "height": 1080,
+  "format": "PNG",
+  "operation": "composite_preview_not_native_generation",
+  "process": [
+    "Nine-slice/contain/cover composition of painted PNG sprites",
+    "Separate Chinese text typesetting and data diagrams"
+  ],
+  "resampling": "LANCZOS where art is fitted; output dimensions do not represent new native generated detail.",
+  "nativeModelClaim": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidencePolicy": "Resolve original AI model/quality through each source asset record; unreported values remain unconfirmed.",
+  "derivedFrom": [
+    {
+      "file": "assets/backgrounds/park-day-native.png",
+      "sha256": "27c3ac998fcd81e675c9a05712ead25c83443b133844c169d1476c3cebe25712",
+      "nativeDimensions": [
+        1672,
+        941
+      ],
+      "generationRecord": "assets/backgrounds/park-day-native.png.generation.json",
+      "derivationRecord": "assets/slice-manifest.json"
+    },
+    {
+      "file": "assets/common/panel_main.png",
+      "sha256": "704856762248133110624f38365e0ff337dd1f2f6304f66298e2230077ebca00",
+      "nativeDimensions": [
+        619,
+        610
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_main.png.source.json"
+    },
+    {
+      "file": "assets/common/title_plate.png",
+      "sha256": "f1011dd30d1ef42cbeedf64f31025c6c77c91ffbbcdd09ef74c065ad1d91ddfe",
+      "nativeDimensions": [
+        594,
+        195
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/title_plate.png.source.json"
+    },
+    {
+      "file": "assets/common/close.png",
+      "sha256": "f9089fdc15bfbfbd496d9c02de94c46b0e1e4052fffa9689de0b461e043737ec",
+      "nativeDimensions": [
+        184,
+        184
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/close.png.source.json"
+    },
+    {
+      "file": "assets/common/panel_card.png",
+      "sha256": "b82ed16e818b3bb86c16a68453bc4b73f1764c6fdb4541c2e470e5c60789568e",
+      "nativeDimensions": [
+        589,
+        558
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_card.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_normal.png",
+      "sha256": "9327a3d9577111e5985e3453a8a201010887c606a094b7e080421417aef3f92e",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_selected.png",
+      "sha256": "119a81554b9e332d698f5c704813cb047fcd4c5c71e9e5c36c7b6df6b4a789b9",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_selected.png.source.json"
+    },
+    {
+      "file": "assets/common/secondary_normal.png",
+      "sha256": "5f6418c0ede62320bc017ef1f00ec1d60a5d5fc34dac8c4e96d0016e6523881f",
+      "nativeDimensions": [
+        256,
+        112
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/secondary_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/checkbox_on.png",
+      "sha256": "b986cc788cbae485e12a8a778be057715201d11e3d1154776881966b680b77b9",
+      "nativeDimensions": [
+        128,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/checkbox_on.png.source.json"
+    }
+  ],
+  "layoutRecord": "designs/details/options/07-杂项-01.layout.json",
+  "functionalReference": {
+    "functionalRepository": "https://github.com/OpenRCT2/OpenRCT2.git",
+    "commit": "52a55c3e8da5972460642bdfed61d091fe9cabfd",
+    "sourceUnit": "Options",
+    "sourceFiles": [
+      "src/openrct2-ui/windows/Options.cpp"
+    ],
+    "condition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+    "scope": "Complete controls arranged as an actual product UI proposal; no runtime verification.",
+    "sourceControls": [
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_TITLE_SEQUENCE"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_TITLE_SEQUENCE",
+        "screenId": "detail:options:07-杂项-01",
+        "region": [
+          394,
+          336,
+          608,
+          52
+        ],
+        "visualKind": "dropdown",
+        "label": "主菜单游园动画",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "dropdownMenu",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 220
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "dropdownMenu",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 424,
+              "sourceExpression": "makeDropdownWidgets({ 10, kTitleSequenceStart + 15}, {290, 14}, WidgetType::dropdownMenu, WindowColour::secondary, kStringIdEmpty,               STR_TITLE_SEQUENCE_TIP    )",
+              "sourceStringIds": [
+                "STR_TITLE_SEQUENCE_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": "value"
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_TITLE_SEQUENCE_DROPDOWN"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_TITLE_SEQUENCE_DROPDOWN",
+        "screenId": "detail:options:07-杂项-01",
+        "region": [
+          1006,
+          336,
+          66,
+          52
+        ],
+        "visualKind": "dropdown-button",
+        "label": "主菜单游园动画选择",
+        "state": "normal",
+        "parentControl": "WIDX_TITLE_SEQUENCE",
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 221
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 424,
+              "sourceExpression": "makeDropdownWidgets({ 10, kTitleSequenceStart + 15}, {290, 14}, WidgetType::dropdownMenu, WindowColour::secondary, kStringIdEmpty,               STR_TITLE_SEQUENCE_TIP    )",
+              "sourceStringIds": [
+                "STR_TITLE_SEQUENCE_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": "dropdown-arrow"
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_SCENARIO_PREVIEWS"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_SCENARIO_PREVIEWS",
+        "screenId": "detail:options:07-杂项-01",
+        "region": [
+          1112,
+          336,
+          608,
+          52
+        ],
+        "visualKind": "dropdown",
+        "label": "场景预览类型",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "dropdownMenu",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 224
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "dropdownMenu",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 428,
+              "sourceExpression": "makeWidget({175, kScenarioOptionsGroupStart + 15}, {125, 14}, WidgetType::dropdownMenu, WindowColour::secondary                                                            )",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_SCENARIO_PREVIEWS_DROPDOWN"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_SCENARIO_PREVIEWS_DROPDOWN",
+        "screenId": "detail:options:07-杂项-01",
+        "region": [
+          1724,
+          336,
+          66,
+          52
+        ],
+        "visualKind": "dropdown-button",
+        "label": "场景预览类型选择",
+        "state": "normal",
+        "parentControl": "WIDX_SCENARIO_PREVIEWS",
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 225
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 429,
+              "sourceExpression": "makeWidget({288, kScenarioOptionsGroupStart + 16}, { 11, 12}, WidgetType::button,       WindowColour::secondary, STR_DROPDOWN_GLYPH,             STR_SCENARIO_PREVIEWS_TIP )",
+              "sourceStringIds": [
+                "STR_DROPDOWN_GLYPH",
+                "STR_SCENARIO_PREVIEWS_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_SCENARIO_UNLOCKING"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_SCENARIO_UNLOCKING",
+        "screenId": "detail:options:07-杂项-01",
+        "region": [
+          390,
+          396,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "允许逐步解锁",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 226
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 430,
+              "sourceExpression": "makeWidget({ 10, kScenarioOptionsGroupStart + 32}, {275, 16}, WidgetType::checkbox,     WindowColour::tertiary,  STR_OPTIONS_SCENARIO_UNLOCKING, STR_SCENARIO_UNLOCKING_TIP)",
+              "sourceStringIds": [
+                "STR_OPTIONS_SCENARIO_UNLOCKING",
+                "STR_SCENARIO_UNLOCKING_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_ALLOW_EARLY_COMPLETION"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_ALLOW_EARLY_COMPLETION",
+        "screenId": "detail:options:07-杂项-01",
+        "region": [
+          1108,
+          396,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "允许剧情提前完成",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 227
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 431,
+              "sourceExpression": "makeWidget({ 10, kScenarioOptionsGroupStart + 47}, {290, 15}, WidgetType::checkbox,     WindowColour::tertiary,  STR_ALLOW_EARLY_COMPLETION,     STR_EARLY_COMPLETION_TIP  )",
+              "sourceStringIds": [
+                "STR_ALLOW_EARLY_COMPLETION",
+                "STR_EARLY_COMPLETION_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 1978,
+            "expression": "            setWidgetDisabled(WIDX_REAL_NAMES_STAFF_CHECKBOX, inNetwork);             setWidgetDisabled(WIDX_ALLOW_EARLY_COMPLETION, Network::GetMode() == Network::Mode::client);             if (inNetwork)             {"
+          }
+        ],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_REAL_NAMES_GUESTS_CHECKBOX"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_REAL_NAMES_GUESTS_CHECKBOX",
+        "screenId": "detail:options:07-杂项-01",
+        "region": [
+          390,
+          492,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "显示游客的“真实”姓名",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 229
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 434,
+              "sourceExpression": "makeWidget({ 10, kTweaksStart + 15}, {290, 15}, WidgetType::checkbox,     WindowColour::tertiary , STR_REAL_NAME_GUESTS,     STR_REAL_NAME_GUESTS_TIP                  )",
+              "sourceStringIds": [
+                "STR_REAL_NAME_GUESTS",
+                "STR_REAL_NAME_GUESTS_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 1976,
+            "expression": "            const bool inNetwork = Network::GetMode() != Network::Mode::none;             setWidgetDisabled(WIDX_REAL_NAMES_GUESTS_CHECKBOX, inNetwork);             setWidgetDisabled(WIDX_REAL_NAMES_STAFF_CHECKBOX, inNetwork);             setWidgetDisabled(WIDX_ALLOW_EARLY_COMPLETION, Network::GetMode() == Network::Mode::client);"
+          }
+        ],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_REAL_NAMES_STAFF_CHECKBOX"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_REAL_NAMES_STAFF_CHECKBOX",
+        "screenId": "detail:options:07-杂项-01",
+        "region": [
+          1108,
+          492,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "显示员工的“真实”姓名",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 230
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 435,
+              "sourceExpression": "makeWidget({ 10, kTweaksStart + 30}, {290, 15}, WidgetType::checkbox,     WindowColour::tertiary , STR_REAL_NAME_STAFF,      STR_REAL_NAME_STAFF_TIP                   )",
+              "sourceStringIds": [
+                "STR_REAL_NAME_STAFF",
+                "STR_REAL_NAME_STAFF_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 1977,
+            "expression": "            setWidgetDisabled(WIDX_REAL_NAMES_GUESTS_CHECKBOX, inNetwork);             setWidgetDisabled(WIDX_REAL_NAMES_STAFF_CHECKBOX, inNetwork);             setWidgetDisabled(WIDX_ALLOW_EARLY_COMPLETION, Network::GetMode() == Network::Mode::client);             if (inNetwork)"
+          }
+        ],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_AUTO_STAFF_PLACEMENT"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_AUTO_STAFF_PLACEMENT",
+        "screenId": "detail:options:07-杂项-01",
+        "region": [
+          390,
+          588,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "自动放置员工",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 231
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 436,
+              "sourceExpression": "makeWidget({ 10, kTweaksStart + 45}, {290, 15}, WidgetType::checkbox,     WindowColour::tertiary , STR_AUTO_STAFF_PLACEMENT, STR_AUTO_STAFF_PLACEMENT_TIP              )",
+              "sourceStringIds": [
+                "STR_AUTO_STAFF_PLACEMENT",
+                "STR_AUTO_STAFF_PLACEMENT_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_AUTO_OPEN_SHOPS"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_AUTO_OPEN_SHOPS",
+        "screenId": "detail:options:07-杂项-01",
+        "region": [
+          1108,
+          588,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "自动开放商店和摊位",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 232
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 437,
+              "sourceExpression": "makeWidget({ 10, kTweaksStart + 60}, {290, 15}, WidgetType::checkbox,     WindowColour::tertiary , STR_AUTO_OPEN_SHOPS,      STR_AUTO_OPEN_SHOPS_TIP                   )",
+              "sourceStringIds": [
+                "STR_AUTO_OPEN_SHOPS",
+                "STR_AUTO_OPEN_SHOPS_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_DEFAULT_INSPECTION_INTERVAL"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_DEFAULT_INSPECTION_INTERVAL",
+        "screenId": "detail:options:07-杂项-01",
+        "region": [
+          394,
+          720,
+          608,
+          52
+        ],
+        "visualKind": "dropdown",
+        "label": "默认设施检查间隔",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "dropdownMenu",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 234
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "dropdownMenu",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 439,
+              "sourceExpression": "makeWidget({175, kTweaksStart + 76}, {125, 14}, WidgetType::dropdownMenu, WindowColour::secondary                                                                      )",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_DEFAULT_INSPECTION_INTERVAL_DROPDOWN"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_DEFAULT_INSPECTION_INTERVAL_DROPDOWN",
+        "screenId": "detail:options:07-杂项-01",
+        "region": [
+          1006,
+          720,
+          66,
+          52
+        ],
+        "visualKind": "dropdown-button",
+        "label": "默认设施检查间隔选择",
+        "state": "normal",
+        "parentControl": "WIDX_DEFAULT_INSPECTION_INTERVAL",
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 235
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 440,
+              "sourceExpression": "makeWidget({288, kTweaksStart + 77}, { 11, 12}, WidgetType::button,       WindowColour::secondary, STR_DROPDOWN_GLYPH,       STR_DEFAULT_INSPECTION_INTERVAL_TIP       )",
+              "sourceStringIds": [
+                "STR_DROPDOWN_GLYPH",
+                "STR_DEFAULT_INSPECTION_INTERVAL_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      }
+    ],
+    "decorativeArtPolicy": "Existing painted PNGs only"
+  },
+  "status": "produced_pending_review"
+}

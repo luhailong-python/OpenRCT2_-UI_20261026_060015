@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_ride-construction_01-curves.jpg",
+  "sha256": "b1e3ec20738c7e042632cc074130ff8116809de1c30ad14e18eaf1e22ed38ec3",
+  "derivedFrom": [
+    {
+      "file": "designs/details/ride-construction/01-curves.png",
+      "sha256": "343a9292d4b686970de65b06afe4c9774f633bfbdbff1731a37153461e523176",
+      "sourceRecord": "designs/details/ride-construction/01-curves.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/ride_02.jpg",
+  "sha256": "f6c2d3833bcd81b34aebf1e7197e47bda929cde8b0b0bdecfd073b5fa0a9250c",
+  "derivedFrom": [
+    {
+      "file": "designs/ride/02-车辆.png",
+      "sha256": "83e5e90395b00ad96f3d6287c2ef55f9f4dfb678b5d7f7c77c240918dfa5dae4",
+      "sourceRecord": "designs/ride/02-车辆.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

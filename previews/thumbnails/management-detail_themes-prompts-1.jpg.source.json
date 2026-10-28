@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/management-detail_themes-prompts-1.jpg",
+  "sha256": "78e22202e4631fe97eb189365d4959e1877147296459aa73e76d25e4fec3628e",
+  "derivedFrom": [
+    {
+      "file": "designs/details/management/themes-prompts-1.png",
+      "sha256": "a16db9f0fe49f68a6a0409986e1d67b30b72705f393533199e26480aedae1ab4",
+      "sourceRecord": "designs/details/management/themes-prompts-1.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

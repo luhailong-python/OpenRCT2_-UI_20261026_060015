@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/utility-detail_stafflist-normal.jpg",
+  "sha256": "729bf003be1081e2ecd9820b662cb54e58b6a7aaf7ca1ca20cdfc1057a106c34",
+  "derivedFrom": [
+    {
+      "file": "designs/details/utility/stafflist-normal.png",
+      "sha256": "3a66085370db0fa31d0a788553ce1e069c5f6c652c0e16b78c479cdda48494f2",
+      "sourceRecord": "designs/details/utility/stafflist-normal.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

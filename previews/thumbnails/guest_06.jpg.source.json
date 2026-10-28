@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/guest_06.jpg",
+  "sha256": "561a9958e9f9c856516968aa66a9e34672c5da459a4d9604ffb8d54de85675ff",
+  "derivedFrom": [
+    {
+      "file": "designs/guest/06-携带物.png",
+      "sha256": "2a0af4c1ddf879d2d6f4a5c9854fb6eed8de984bd4b324dab3d18db953fd2eb2",
+      "sourceRecord": "designs/guest/06-携带物.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

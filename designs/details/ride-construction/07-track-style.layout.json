@@ -1,0 +1,541 @@
+{
+  "schemaVersion": 1,
+  "screenId": "detail:ride-construction:07-track-style",
+  "title": "轨道建造  轨道样式",
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "origin": "top-left",
+  "textLayers": [
+    {
+      "id": "text-001",
+      "text": "轨道建造",
+      "role": "dynamic-text",
+      "region": [
+        620,
+        66,
+        680,
+        75
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 46,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 65,
+      "wrappedLines": [
+        "轨道建造"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-002",
+      "text": "曲线方向",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        231,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "曲线方向"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-003",
+      "text": "坡度与侧倾",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        301,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "坡度与侧倾"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-004",
+      "text": "制动与推进",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        371,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "制动与推进"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-005",
+      "text": "座椅旋转",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        441,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "座椅旋转"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-006",
+      "text": "入口与出口",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        511,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "入口与出口"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-007",
+      "text": "坡度与侧倾",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        218,
+        1388,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 32,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 45,
+      "wrappedLines": [
+        "坡度与侧倾"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-008",
+      "text": "美术设计样例 · 名称 / 数值待定",
+      "role": "dynamic-text",
+      "region": [
+        600,
+        1046,
+        720,
+        28
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "美术设计样例 · 名称 / 数值待定"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-009",
+      "text": "开放式轨道",
+      "role": "dynamic-text",
+      "region": [
+        418,
+        320,
+        1002,
+        37
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "开放式轨道"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-010",
+      "text": "覆盖式轨道",
+      "role": "dynamic-text",
+      "region": [
+        418,
+        416,
+        1002,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "覆盖式轨道"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-011",
+      "text": "此设施可在开放式与覆盖式轨道之间选择。",
+      "role": "dynamic-text",
+      "region": [
+        397,
+        870,
+        1044,
+        39
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#7A745E",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "此设施可在开放式与覆盖式轨道之间选择。"
+      ],
+      "dynamic": true
+    }
+  ],
+  "artAndControlLayers": [
+    {
+      "role": "park-background",
+      "asset": "assets/backgrounds/park-day-native.png",
+      "region": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "resize": "cover"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_main.png",
+      "region": [
+        52,
+        96,
+        1816,
+        930
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "title-plaque",
+      "asset": "assets/common/title_plate.png",
+      "region": [
+        520,
+        22,
+        880,
+        170
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "close",
+      "asset": "assets/common/close.png",
+      "region": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_card.png",
+      "region": [
+        84,
+        208,
+        268,
+        756
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        224,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_selected.png",
+      "region": [
+        100,
+        294,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        364,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        434,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        504,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "illustration",
+      "asset": "assets/illustrations/bamboo_flume.png",
+      "region": [
+        1478,
+        360,
+        320,
+        462
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/primary_selected.png",
+      "region": [
+        394,
+        312,
+        1050,
+        68
+      ],
+      "resize": "nine",
+      "state": "selected"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "RideConstruction:WIDX_U_TRACK"
+      ],
+      "unit": "RideConstruction",
+      "controlId": "WIDX_U_TRACK",
+      "screenId": "detail:ride-construction:07-track-style",
+      "region": [
+        394,
+        312,
+        1050,
+        68
+      ],
+      "visualKind": "button",
+      "label": "开放式轨道",
+      "state": "selected",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+          "line": 138
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 191,
+            "sourceExpression": "makeWidget        ({ 41, 132}, {              24,  24}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_RIDE_CONSTRUCTION_U_SHAPED_TRACK),    STR_RIDE_CONSTRUCTION_U_SHAPED_OPEN_TRACK_TIP       )",
+            "sourceStringIds": [
+              "STR_RIDE_CONSTRUCTION_U_SHAPED_OPEN_TRACK_TIP"
+            ],
+            "originalSpriteIds": [
+              "SPR_RIDE_CONSTRUCTION_U_SHAPED_TRACK"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+          "line": 1676,
+          "expression": "        {             widgets[WIDX_U_TRACK].setHidden();             widgets[WIDX_O_TRACK].setHidden(); "
+        },
+        {
+          "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+          "line": 1694,
+          "expression": "            widgets[WIDX_BANKING_GROUPBOX].text = STR_RIDE_CONSTRUCTION_TRACK_STYLE;             widgets[WIDX_U_TRACK].setVisible();             widgets[WIDX_O_TRACK].setVisible(); "
+        },
+        {
+          "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+          "line": 1933,
+          "expression": "            widgets[WIDX_BANK_RIGHT].setHidden();             widgets[WIDX_U_TRACK].setHidden();             widgets[WIDX_O_TRACK].setHidden(); "
+        }
+      ],
+      "displayedCondition": "trackDrawerDescriptor.HasCoveredPieces() 为真，当前轨道元素有效且非速度设置段。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        394,
+        408,
+        1050,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "RideConstruction:WIDX_O_TRACK"
+      ],
+      "unit": "RideConstruction",
+      "controlId": "WIDX_O_TRACK",
+      "screenId": "detail:ride-construction:07-track-style",
+      "region": [
+        394,
+        408,
+        1050,
+        68
+      ],
+      "visualKind": "button",
+      "label": "覆盖式轨道",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+          "line": 139
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 192,
+            "sourceExpression": "makeWidget        ({144, 132}, {              24,  24}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_RIDE_CONSTRUCTION_O_SHAPED_TRACK),    STR_RIDE_CONSTRUCTION_O_SHAPED_ENCLOSED_TRACK_TIP   )",
+            "sourceStringIds": [
+              "STR_RIDE_CONSTRUCTION_O_SHAPED_ENCLOSED_TRACK_TIP"
+            ],
+            "originalSpriteIds": [
+              "SPR_RIDE_CONSTRUCTION_O_SHAPED_TRACK"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+          "line": 1677,
+          "expression": "            widgets[WIDX_U_TRACK].setHidden();             widgets[WIDX_O_TRACK].setHidden();              if (!trackDrawerDescriptor.HasCoveredPieces())"
+        },
+        {
+          "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+          "line": 1695,
+          "expression": "            widgets[WIDX_U_TRACK].setVisible();             widgets[WIDX_O_TRACK].setVisible();              widgets[WIDX_U_TRACK].image = ImageId(trackDrawerDescriptor.Regular.icon);"
+        },
+        {
+          "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+          "line": 1934,
+          "expression": "            widgets[WIDX_U_TRACK].setHidden();             widgets[WIDX_O_TRACK].setHidden();              widgets[WIDX_SPEED_GROUPBOX].setHidden();"
+        }
+      ],
+      "displayedCondition": "trackDrawerDescriptor.HasCoveredPieces() 为真，当前轨道元素有效且非速度设置段。",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    }
+  ],
+  "dataDiagrams": [
+    {
+      "role": "data-rule",
+      "points": [
+        [
+          398,
+          276
+        ],
+        [
+          1790,
+          276
+        ]
+      ],
+      "color": "#B28C43",
+      "width": 1
+    }
+  ],
+  "layoutIssues": [],
+  "fontDistribution": "Official OFL-licensed fonts are included in assets/fonts; see records/font-sources.json.",
+  "status": "produced_pending_review"
+}

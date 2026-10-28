@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/staff-list_04.jpg",
+  "sha256": "9204cfc667b4a1efd7ae7577ba0e0d3dd73e9bccb94d5a025892156f5884071f",
+  "derivedFrom": [
+    {
+      "file": "designs/staff-list/04-演员.png",
+      "sha256": "2b0e6ed732bf9ad8ab55e82de5327b295671c0952f72d55d98b8f7e2a27298b8",
+      "sourceRecord": "designs/staff-list/04-演员.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

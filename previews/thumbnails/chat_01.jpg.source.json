@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/chat_01.jpg",
+  "sha256": "137467dee77e1e417f22c7080ac728bf63e344726b9baf0279fdab2e12acf490",
+  "derivedFrom": [
+    {
+      "file": "designs/chat/01-聊天.png",
+      "sha256": "53e6c96071dc93b75da1f52eed15cbff5b94363ca30ff3c3b3e66fad4919434c",
+      "sourceRecord": "designs/chat/01-聊天.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

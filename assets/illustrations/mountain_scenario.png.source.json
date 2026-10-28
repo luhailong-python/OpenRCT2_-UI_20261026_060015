@@ -1,0 +1,39 @@
+{
+  "file": "assets/illustrations/mountain_scenario.png",
+  "width": 440,
+  "height": 440,
+  "mode": "RGBA",
+  "sha256": "51032a4343a8e94bb53c18f04de46f9aacee420f4d5b47edc9bbdf5071d42a2b",
+  "sourceRectXYXY": [
+    13,
+    1101,
+    379,
+    1438
+  ],
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "spriteType": "Simple",
+  "operation": "connected_alpha_silhouette_crop_seed_alpha_gt40_mask_dilate3_keep_original_alpha_equal_canvas_no_scaling",
+  "excluded": "邻格碎片及断开的微小装饰碎片；没有重绘内容",
+  "nativeContentSize": [
+    366,
+    337
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/masters/illustrations-native.png",
+      "sha256": "38b639e2585e8fe3b7218cfd8bb9d4255bc6676b3d20248ee94281b5da3d53cd",
+      "generationRecord": "assets/masters/illustrations-native.png.generation.json"
+    }
+  ],
+  "reviewStatus": "produced_pending_visual_review",
+  "usage": "界面卡面/详情插画，不是可运行世界精灵或动画"
+}

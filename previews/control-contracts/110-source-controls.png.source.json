@@ -1,0 +1,48 @@
+{
+  "file": "previews/control-contracts/110-source-controls.png",
+  "sha256": "79f6e8a0c6ee4ab8892f75a622838c8bd70326f6ae60b29f5a3596a921bc939d",
+  "width": 1920,
+  "height": 1080,
+  "format": "PNG",
+  "operation": "Deterministic QA contract composition from existing painted shared sprites, native text and technical grid; resizing, valid nine-slice and rotated scrollbar-track review samples. Review thumbnails are not new native AI detail or product placement.",
+  "processedAt": "2026-10-26T06:34:12.502187-04:00",
+  "route": "deterministic_postprocess_no_AI_call",
+  "derivedFrom": [
+    {
+      "file": "assets/common/minus.png",
+      "sha256": "dbbb2ba1960865f8e4c2d82d877c08a21bd29d753a8b26d604220e3d24a6575d",
+      "sourceRecord": "assets/common/minus.png.source.json"
+    },
+    {
+      "file": "assets/common/plus.png",
+      "sha256": "324062095caa2442389b3c6bf725b6956ad555e022ef54e6421e26bed292bc88",
+      "sourceRecord": "assets/common/plus.png.source.json"
+    },
+    {
+      "file": "assets/common/secondary_disabled.png",
+      "sha256": "9033970323911aa959f63cbcc180f5dec0edcdea230ea0ef5a9f91d281b60f89",
+      "sourceRecord": "assets/common/secondary_disabled.png.source.json"
+    },
+    {
+      "file": "assets/common/secondary_normal.png",
+      "sha256": "5f6418c0ede62320bc017ef1f00ec1d60a5d5fc34dac8c4e96d0016e6523881f",
+      "sourceRecord": "assets/common/secondary_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/secondary_pressed.png",
+      "sha256": "6cab02d5d2e5aad5decf8fc40a365508b1f76aee318657e37d74e3a2a21488f8",
+      "sourceRecord": "assets/common/secondary_pressed.png.source.json"
+    }
+  ],
+  "sourceControlMapping": {
+    "file": "docs/control-resource-mapping.json",
+    "sha256BeforeDisplayEvidence": "f645bea41a5083d37be57f8118473a6b13e802438982a81d831bd1958cc2410c"
+  },
+  "font": {
+    "file": "assets/fonts/NotoSansCJKsc-Regular.otf",
+    "license": "OFL-1.1"
+  },
+  "scope": "source control skin contract review only",
+  "nativeDetailIncreased": false,
+  "unityStatus": "not_imported_not_runtime_validated"
+}

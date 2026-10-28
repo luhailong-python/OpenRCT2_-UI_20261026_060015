@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/new-ride_06.jpg",
+  "sha256": "cf1fa213022af82021599c254f4fcaa53d31e202118ff639debd4d1543622217",
+  "derivedFrom": [
+    {
+      "file": "designs/new-ride/06-商店摊位.png",
+      "sha256": "c84b210347528649e482dca804ae05c4b45b3945a80c9c827ffb6dcd6c432c88",
+      "sourceRecord": "designs/new-ride/06-商店摊位.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

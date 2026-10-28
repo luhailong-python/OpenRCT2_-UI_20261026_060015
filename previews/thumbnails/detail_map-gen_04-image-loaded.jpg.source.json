@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_map-gen_04-image-loaded.jpg",
+  "sha256": "16f6e1f7967ccc387bd8a43cd3d4f1655fe540641cf4a7bc5e836b1e49a3e83b",
+  "derivedFrom": [
+    {
+      "file": "designs/details/map-gen/04-image-loaded.png",
+      "sha256": "2f0247bbafacfc4279a773e1d5048b2b9f11cb02040ad08a57ab2d913025fde2",
+      "sourceRecord": "designs/details/map-gen/04-image-loaded.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

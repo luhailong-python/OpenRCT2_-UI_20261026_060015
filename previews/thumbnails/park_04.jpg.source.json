@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/park_04.jpg",
+  "sha256": "15c6b63bbf1ce86e48436895376b047555d15165fecc9546b4709523e94471f3",
+  "derivedFrom": [
+    {
+      "file": "designs/park/04-票价.png",
+      "sha256": "03da4b8c0b61d8ec4bf7c50383e73897558dc6ae2057b467fadfe8b87cc59ab0",
+      "sourceRecord": "designs/park/04-票价.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

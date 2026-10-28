@@ -1,0 +1,717 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/details/tile-inspector/01-element-tools.png",
+  "sha256": "6ac70b9ce8cfa70db1b0d3d9ac7763433f316341863db5e5938982ad7a1070cb",
+  "exportedAt": "2026-10-26T08:00:09.488014-04:00",
+  "width": 1920,
+  "height": 1080,
+  "format": "PNG",
+  "operation": "composite_preview_not_native_generation",
+  "process": [
+    "Nine-slice/contain/cover composition of painted PNG sprites",
+    "Separate Chinese text typesetting and data diagrams"
+  ],
+  "resampling": "LANCZOS where art is fitted; output dimensions do not represent new native generated detail.",
+  "nativeModelClaim": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidencePolicy": "Resolve original AI model/quality through each source asset record; unreported values remain unconfirmed.",
+  "derivedFrom": [
+    {
+      "file": "assets/backgrounds/park-day-native.png",
+      "sha256": "27c3ac998fcd81e675c9a05712ead25c83443b133844c169d1476c3cebe25712",
+      "nativeDimensions": [
+        1672,
+        941
+      ],
+      "generationRecord": "assets/backgrounds/park-day-native.png.generation.json",
+      "derivationRecord": "assets/slice-manifest.json"
+    },
+    {
+      "file": "assets/common/panel_main.png",
+      "sha256": "704856762248133110624f38365e0ff337dd1f2f6304f66298e2230077ebca00",
+      "nativeDimensions": [
+        619,
+        610
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_main.png.source.json"
+    },
+    {
+      "file": "assets/common/title_plate.png",
+      "sha256": "f1011dd30d1ef42cbeedf64f31025c6c77c91ffbbcdd09ef74c065ad1d91ddfe",
+      "nativeDimensions": [
+        594,
+        195
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/title_plate.png.source.json"
+    },
+    {
+      "file": "assets/common/close.png",
+      "sha256": "f9089fdc15bfbfbd496d9c02de94c46b0e1e4052fffa9689de0b461e043737ec",
+      "nativeDimensions": [
+        184,
+        184
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/close.png.source.json"
+    },
+    {
+      "file": "assets/common/panel_card.png",
+      "sha256": "b82ed16e818b3bb86c16a68453bc4b73f1764c6fdb4541c2e470e5c60789568e",
+      "nativeDimensions": [
+        589,
+        558
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_card.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_selected.png",
+      "sha256": "119a81554b9e332d698f5c704813cb047fcd4c5c71e9e5c36c7b6df6b4a789b9",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_selected.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_normal.png",
+      "sha256": "9327a3d9577111e5985e3453a8a201010887c606a094b7e080421417aef3f92e",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/secondary_normal.png",
+      "sha256": "5f6418c0ede62320bc017ef1f00ec1d60a5d5fc34dac8c4e96d0016e6523881f",
+      "nativeDimensions": [
+        256,
+        112
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/secondary_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/minus.png",
+      "sha256": "dbbb2ba1960865f8e4c2d82d877c08a21bd29d753a8b26d604220e3d24a6575d",
+      "nativeDimensions": [
+        184,
+        184
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/minus.png.source.json"
+    },
+    {
+      "file": "assets/common/plus.png",
+      "sha256": "324062095caa2442389b3c6bf725b6956ad555e022ef54e6421e26bed292bc88",
+      "nativeDimensions": [
+        184,
+        184
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/plus.png.source.json"
+    }
+  ],
+  "layoutRecord": "designs/details/tile-inspector/01-element-tools.layout.json",
+  "functionalReference": {
+    "functionalRepository": "https://github.com/OpenRCT2/OpenRCT2.git",
+    "commit": "52a55c3e8da5972460642bdfed61d091fe9cabfd",
+    "sourceUnit": "TileInspector",
+    "sourceFiles": [
+      "src/openrct2-ui/windows/TileInspector.cpp"
+    ],
+    "condition": "已选择一个元素且剪贴板已有可粘贴元素；移动按钮还受元素顺序约束。",
+    "scope": "Complete controls arranged as an actual product UI proposal; no runtime verification.",
+    "sourceControls": [
+      {
+        "sourceControlKeys": [
+          "TileInspector:WIDX_SPINNER_X"
+        ],
+        "unit": "TileInspector",
+        "controlId": "WIDX_SPINNER_X",
+        "screenId": "detail:tile-inspector:01-element-tools",
+        "region": [
+          450,
+          336,
+          570,
+          52
+        ],
+        "visualKind": "spinner",
+        "label": "地块 X 坐标",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "spinner",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 86
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "spinner",
+              "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+              "line": 281,
+              "sourceExpression": "makeHoldableSpinnerWidgets({20, 23}, {58, 14}, WidgetType::spinner, WindowColour::secondary)",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": "value"
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 2133,
+            "expression": "                WIDX_SPINNER_X_INCREASE, !(_tileSelected && ((_toolMap.x / 32) < kMaximumMapSizeTechnical - 1)));             setWidgetDisabledAndInvalidate(WIDX_SPINNER_X_DECREASE, !(_tileSelected && ((_toolMap.x / 32) > 0)));             setWidgetDisabledAndInvalidate(                 WIDX_SPINNER_Y_INCREASE, !(_tileSelected && ((_toolMap.y / 32) < kMaximumMapSizeTechnical - 1)));"
+          }
+        ],
+        "displayedCondition": "已选择一个元素且剪贴板已有可粘贴元素；移动按钮还受元素顺序约束。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "TileInspector:WIDX_SPINNER_X_DECREASE"
+        ],
+        "unit": "TileInspector",
+        "controlId": "WIDX_SPINNER_X_DECREASE",
+        "screenId": "detail:tile-inspector:01-element-tools",
+        "region": [
+          403,
+          342,
+          40,
+          40
+        ],
+        "visualKind": "stepper-decrease",
+        "label": "地块 X 坐标减少",
+        "state": "normal",
+        "parentControl": "WIDX_SPINNER_X",
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 88
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+              "line": 281,
+              "sourceExpression": "makeHoldableSpinnerWidgets({20, 23}, {58, 14}, WidgetType::spinner, WindowColour::secondary)",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": "decrease"
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 2133,
+            "expression": "                WIDX_SPINNER_X_INCREASE, !(_tileSelected && ((_toolMap.x / 32) < kMaximumMapSizeTechnical - 1)));             setWidgetDisabledAndInvalidate(WIDX_SPINNER_X_DECREASE, !(_tileSelected && ((_toolMap.x / 32) > 0)));             setWidgetDisabledAndInvalidate(                 WIDX_SPINNER_Y_INCREASE, !(_tileSelected && ((_toolMap.y / 32) < kMaximumMapSizeTechnical - 1)));"
+          }
+        ],
+        "displayedCondition": "已选择一个元素且剪贴板已有可粘贴元素；移动按钮还受元素顺序约束。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "TileInspector:WIDX_SPINNER_X_INCREASE"
+        ],
+        "unit": "TileInspector",
+        "controlId": "WIDX_SPINNER_X_INCREASE",
+        "screenId": "detail:tile-inspector:01-element-tools",
+        "region": [
+          1027,
+          342,
+          40,
+          40
+        ],
+        "visualKind": "stepper-increase",
+        "label": "地块 X 坐标增加",
+        "state": "normal",
+        "parentControl": "WIDX_SPINNER_X",
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 87
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+              "line": 281,
+              "sourceExpression": "makeHoldableSpinnerWidgets({20, 23}, {58, 14}, WidgetType::spinner, WindowColour::secondary)",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": "increase"
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "已选择一个元素且剪贴板已有可粘贴元素；移动按钮还受元素顺序约束。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "TileInspector:WIDX_SPINNER_Y"
+        ],
+        "unit": "TileInspector",
+        "controlId": "WIDX_SPINNER_Y",
+        "screenId": "detail:tile-inspector:01-element-tools",
+        "region": [
+          1168,
+          336,
+          570,
+          52
+        ],
+        "visualKind": "spinner",
+        "label": "地块 Y 坐标",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "spinner",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 90
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "spinner",
+              "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+              "line": 283,
+              "sourceExpression": "makeHoldableSpinnerWidgets({97, 23}, {58, 14}, WidgetType::spinner, WindowColour::secondary)",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": "value"
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 2136,
+            "expression": "                WIDX_SPINNER_Y_INCREASE, !(_tileSelected && ((_toolMap.y / 32) < kMaximumMapSizeTechnical - 1)));             setWidgetDisabledAndInvalidate(WIDX_SPINNER_Y_DECREASE, !(_tileSelected && ((_toolMap.y / 32) > 0)));              // Sort buttons"
+          }
+        ],
+        "displayedCondition": "已选择一个元素且剪贴板已有可粘贴元素；移动按钮还受元素顺序约束。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "TileInspector:WIDX_SPINNER_Y_DECREASE"
+        ],
+        "unit": "TileInspector",
+        "controlId": "WIDX_SPINNER_Y_DECREASE",
+        "screenId": "detail:tile-inspector:01-element-tools",
+        "region": [
+          1121,
+          342,
+          40,
+          40
+        ],
+        "visualKind": "stepper-decrease",
+        "label": "地块 Y 坐标减少",
+        "state": "normal",
+        "parentControl": "WIDX_SPINNER_Y",
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 92
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+              "line": 283,
+              "sourceExpression": "makeHoldableSpinnerWidgets({97, 23}, {58, 14}, WidgetType::spinner, WindowColour::secondary)",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": "decrease"
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 2136,
+            "expression": "                WIDX_SPINNER_Y_INCREASE, !(_tileSelected && ((_toolMap.y / 32) < kMaximumMapSizeTechnical - 1)));             setWidgetDisabledAndInvalidate(WIDX_SPINNER_Y_DECREASE, !(_tileSelected && ((_toolMap.y / 32) > 0)));              // Sort buttons"
+          }
+        ],
+        "displayedCondition": "已选择一个元素且剪贴板已有可粘贴元素；移动按钮还受元素顺序约束。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "TileInspector:WIDX_SPINNER_Y_INCREASE"
+        ],
+        "unit": "TileInspector",
+        "controlId": "WIDX_SPINNER_Y_INCREASE",
+        "screenId": "detail:tile-inspector:01-element-tools",
+        "region": [
+          1745,
+          342,
+          40,
+          40
+        ],
+        "visualKind": "stepper-increase",
+        "label": "地块 Y 坐标增加",
+        "state": "normal",
+        "parentControl": "WIDX_SPINNER_Y",
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 91
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+              "line": 283,
+              "sourceExpression": "makeHoldableSpinnerWidgets({97, 23}, {58, 14}, WidgetType::spinner, WindowColour::secondary)",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": "increase"
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "已选择一个元素且剪贴板已有可粘贴元素；移动按钮还受元素顺序约束。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "TileInspector:WIDX_BUTTON_COPY"
+        ],
+        "unit": "TileInspector",
+        "controlId": "WIDX_BUTTON_COPY",
+        "screenId": "detail:tile-inspector:01-element-tools",
+        "region": [
+          394,
+          408,
+          682,
+          68
+        ],
+        "visualKind": "button",
+        "label": "复制所选元素",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 99
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+              "line": 291,
+              "sourceExpression": "makeWidget(kToolbarButtonAnchor + kToolbarButtonOffsetX * 5,                     kToolbarButtonSize,     WidgetType::flatBtn,     WindowColour::secondary, ImageId(SPR_G2_COPY),      STR_TILE_INSPECTOR_COPY_TIP)",
+              "sourceStringIds": [
+                "STR_TILE_INSPECTOR_COPY_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_G2_COPY"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 2151,
+            "expression": "            // Copy button             setWidgetDisabledAndInvalidate(WIDX_BUTTON_COPY, windowTileInspectorSelectedIndex < 0);              // Paste button"
+          }
+        ],
+        "displayedCondition": "已选择一个元素且剪贴板已有可粘贴元素；移动按钮还受元素顺序约束。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "TileInspector:WIDX_BUTTON_PASTE"
+        ],
+        "unit": "TileInspector",
+        "controlId": "WIDX_BUTTON_PASTE",
+        "screenId": "detail:tile-inspector:01-element-tools",
+        "region": [
+          1112,
+          408,
+          682,
+          68
+        ],
+        "visualKind": "button",
+        "label": "粘贴元素",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 98
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+              "line": 290,
+              "sourceExpression": "makeWidget(kToolbarButtonAnchor + kToolbarButtonOffsetX * 4,                     kToolbarButtonSize,     WidgetType::flatBtn,     WindowColour::secondary, ImageId(SPR_G2_PASTE),     STR_TILE_INSPECTOR_PASTE_TIP)",
+              "sourceStringIds": [
+                "STR_TILE_INSPECTOR_PASTE_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_G2_PASTE"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 2154,
+            "expression": "            // Paste button             setWidgetDisabledAndInvalidate(WIDX_BUTTON_PASTE, !(_tileSelected && _elementCopied));              widgets[WIDX_BACKGROUND].bottom = height - 1;"
+          }
+        ],
+        "displayedCondition": "已选择一个元素且剪贴板已有可粘贴元素；移动按钮还受元素顺序约束。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "TileInspector:WIDX_BUTTON_MOVE_UP"
+        ],
+        "unit": "TileInspector",
+        "controlId": "WIDX_BUTTON_MOVE_UP",
+        "screenId": "detail:tile-inspector:01-element-tools",
+        "region": [
+          394,
+          504,
+          682,
+          68
+        ],
+        "visualKind": "button",
+        "label": "元素上移",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 94
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+              "line": 286,
+              "sourceExpression": "makeWidget(kToolbarButtonAnchor + kToolbarButtonOffsetX * 1,                     kToolbarButtonHalfSize, WidgetType::button,      WindowColour::secondary, STR_UP,                    STR_MOVE_SELECTED_ELEMENT_UP_TIP)",
+              "sourceStringIds": [
+                "STR_UP",
+                "STR_MOVE_SELECTED_ELEMENT_UP_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "已选择一个元素且剪贴板已有可粘贴元素；移动按钮还受元素顺序约束。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "TileInspector:WIDX_BUTTON_MOVE_DOWN"
+        ],
+        "unit": "TileInspector",
+        "controlId": "WIDX_BUTTON_MOVE_DOWN",
+        "screenId": "detail:tile-inspector:01-element-tools",
+        "region": [
+          1112,
+          504,
+          682,
+          68
+        ],
+        "visualKind": "button",
+        "label": "元素下移",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 95
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+              "line": 287,
+              "sourceExpression": "makeWidget(kToolbarButtonAnchor + kToolbarButtonOffsetX * 1 + ScreenSize{0, 12}, kToolbarButtonHalfSize, WidgetType::button,      WindowColour::secondary, STR_DOWN,                  STR_MOVE_SELECTED_ELEMENT_DOWN_TIP)",
+              "sourceStringIds": [
+                "STR_DOWN",
+                "STR_MOVE_SELECTED_ELEMENT_DOWN_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 2148,
+            "expression": "            // Move Down button             setWidgetDisabledAndInvalidate(WIDX_BUTTON_MOVE_DOWN, windowTileInspectorSelectedIndex <= 0);              // Copy button"
+          }
+        ],
+        "displayedCondition": "已选择一个元素且剪贴板已有可粘贴元素；移动按钮还受元素顺序约束。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "TileInspector:WIDX_BUTTON_ROTATE"
+        ],
+        "unit": "TileInspector",
+        "controlId": "WIDX_BUTTON_ROTATE",
+        "screenId": "detail:tile-inspector:01-element-tools",
+        "region": [
+          394,
+          600,
+          682,
+          68
+        ],
+        "visualKind": "button",
+        "label": "旋转所选元素",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 96
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+              "line": 288,
+              "sourceExpression": "makeWidget(kToolbarButtonAnchor + kToolbarButtonOffsetX * 2,                     kToolbarButtonSize,     WidgetType::flatBtn,     WindowColour::secondary, ImageId(SPR_ROTATE_ARROW), STR_ROTATE_SELECTED_ELEMENT_TIP)",
+              "sourceStringIds": [
+                "STR_ROTATE_SELECTED_ELEMENT_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_ROTATE_ARROW"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "已选择一个元素且剪贴板已有可粘贴元素；移动按钮还受元素顺序约束。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "TileInspector:WIDX_BUTTON_SORT"
+        ],
+        "unit": "TileInspector",
+        "controlId": "WIDX_BUTTON_SORT",
+        "screenId": "detail:tile-inspector:01-element-tools",
+        "region": [
+          1112,
+          600,
+          682,
+          68
+        ],
+        "visualKind": "button",
+        "label": "按基础高度排序",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 97
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+              "line": 289,
+              "sourceExpression": "makeWidget(kToolbarButtonAnchor + kToolbarButtonOffsetX * 3,                     kToolbarButtonSize,     WidgetType::flatBtn,     WindowColour::secondary, ImageId(SPR_G2_SORT),      STR_TILE_INSPECTOR_SORT_TIP)",
+              "sourceStringIds": [
+                "STR_TILE_INSPECTOR_SORT_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_G2_SORT"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 2139,
+            "expression": "            // Sort buttons             setWidgetDisabledAndInvalidate(WIDX_BUTTON_SORT, !(_tileSelected && windowTileInspectorElementCount > 1));              // Move Up button"
+          }
+        ],
+        "displayedCondition": "已选择一个元素且剪贴板已有可粘贴元素；移动按钮还受元素顺序约束。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "TileInspector:WIDX_BUTTON_REMOVE"
+        ],
+        "unit": "TileInspector",
+        "controlId": "WIDX_BUTTON_REMOVE",
+        "screenId": "detail:tile-inspector:01-element-tools",
+        "region": [
+          394,
+          696,
+          682,
+          68
+        ],
+        "visualKind": "button",
+        "label": "移除所选元素",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/TileInspector.cpp",
+            "line": 93
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/TileInspector.cpp",
+              "line": 285,
+              "sourceExpression": "makeWidget(kToolbarButtonAnchor + kToolbarButtonOffsetX * 0,                     kToolbarButtonSize,     WidgetType::flatBtn,     WindowColour::secondary, ImageId(SPR_DEMOLISH),     STR_REMOVE_SELECTED_ELEMENT_TIP )",
+              "sourceStringIds": [
+                "STR_REMOVE_SELECTED_ELEMENT_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_DEMOLISH"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "已选择一个元素且剪贴板已有可粘贴元素；移动按钮还受元素顺序约束。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      }
+    ],
+    "decorativeArtPolicy": "Existing painted PNGs only"
+  },
+  "status": "produced_pending_review"
+}

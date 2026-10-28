@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/plugin-window_01.jpg",
+  "sha256": "039c1eae5242244df302269f1608b1755f0e2790ef899948ec0337dcb949781b",
+  "derivedFrom": [
+    {
+      "file": "designs/plugin-window/01-插件窗口.png",
+      "sha256": "23a7f6bf0980648a0c07b3883655aa5b847f13f1eb6411c4b738c553e33446b3",
+      "sourceRecord": "designs/plugin-window/01-插件窗口.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

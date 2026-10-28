@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_settings_reset-confirm.jpg",
+  "sha256": "e9a97eb96995983d83bf3d9010a679d78ec62c1ed9411e5e0ff5ca8981de0e1d",
+  "derivedFrom": [
+    {
+      "file": "previews/states/settings/reset-confirm.png",
+      "sha256": "de2765f0d2dadf9f53496713d79de357d5c9cb295cc30d05b27807627492adde",
+      "sourceRecord": "previews/states/settings/reset-confirm.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_messages-support_news.jpg",
+  "sha256": "8beec5ddeba27e0c13231044fa871b2f8ccaceb99d62b99e6cf1f0070d16af05",
+  "derivedFrom": [
+    {
+      "file": "previews/states/messages-support/news.png",
+      "sha256": "16581b05d102be65abe55265ca2a4d0d2bc0e15733e2e697b1f7ad53fca5ce2e",
+      "sourceRecord": "previews/states/messages-support/news.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

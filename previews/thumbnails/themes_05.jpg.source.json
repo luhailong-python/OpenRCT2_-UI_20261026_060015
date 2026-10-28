@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/themes_05.jpg",
+  "sha256": "df1a9292db6a3870b4414e5f1d32bf72b12453d130cc2f22453874b7e679a129",
+  "derivedFrom": [
+    {
+      "file": "designs/themes/05-设施游客.png",
+      "sha256": "8ee6e0d05c43cdc3c0ba4da638bb6ee2cb23775cda47f8fa41c1373e2e28a6e5",
+      "sourceRecord": "designs/themes/05-设施游客.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_new-ride_normal.jpg",
+  "sha256": "b9330f4351808d228f01f5a17a9f5c1d9a7ea4065f8a715f3403f7eec68c8f03",
+  "derivedFrom": [
+    {
+      "file": "previews/states/new-ride/normal.png",
+      "sha256": "47b3e282ac9ea2e9142b8e9037f9c9954522dd09d8bf641127dd29ae31c2af68",
+      "sourceRecord": "previews/states/new-ride/normal.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

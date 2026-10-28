@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/finances_03.jpg",
+  "sha256": "7b29d2e2efac25588b555e995d9dd2111049d8a0bd6156a3f3d18e71ad7a7d94",
+  "derivedFrom": [
+    {
+      "file": "designs/finances/03-公园价值.png",
+      "sha256": "250eb6764a8835ae73c0e2f8934df82178b9289dffb02fce591c109e5b8a3003",
+      "sourceRecord": "designs/finances/03-公园价值.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

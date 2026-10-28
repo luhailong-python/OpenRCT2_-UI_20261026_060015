@@ -1,0 +1,58 @@
+{
+  "file": "previews/control-contracts/099-source-controls.png",
+  "sha256": "2e66f8f4a130d08b2fa8a647e520dac787bf10cb478f4eed789fd3a541c1e6ba",
+  "width": 1920,
+  "height": 1080,
+  "format": "PNG",
+  "operation": "Deterministic QA contract composition from existing painted shared sprites, native text and technical grid; resizing, valid nine-slice and rotated scrollbar-track review samples. Review thumbnails are not new native AI detail or product placement.",
+  "processedAt": "2026-10-26T06:34:10.864525-04:00",
+  "route": "deterministic_postprocess_no_AI_call",
+  "derivedFrom": [
+    {
+      "file": "assets/common/checkbox_off.png",
+      "sha256": "679e9f340dc1923bea8ed6473870a6fe3005881c5a9974b9e03f1b4647cec9b2",
+      "sourceRecord": "assets/common/checkbox_off.png.source.json"
+    },
+    {
+      "file": "assets/common/checkbox_on.png",
+      "sha256": "b986cc788cbae485e12a8a778be057715201d11e3d1154776881966b680b77b9",
+      "sourceRecord": "assets/common/checkbox_on.png.source.json"
+    },
+    {
+      "file": "assets/common/panel_card.png",
+      "sha256": "b82ed16e818b3bb86c16a68453bc4b73f1764c6fdb4541c2e470e5c60789568e",
+      "sourceRecord": "assets/common/panel_card.png.source.json"
+    },
+    {
+      "file": "assets/common/secondary_disabled.png",
+      "sha256": "9033970323911aa959f63cbcc180f5dec0edcdea230ea0ef5a9f91d281b60f89",
+      "sourceRecord": "assets/common/secondary_disabled.png.source.json"
+    },
+    {
+      "file": "assets/common/secondary_normal.png",
+      "sha256": "5f6418c0ede62320bc017ef1f00ec1d60a5d5fc34dac8c4e96d0016e6523881f",
+      "sourceRecord": "assets/common/secondary_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/secondary_pressed.png",
+      "sha256": "6cab02d5d2e5aad5decf8fc40a365508b1f76aee318657e37d74e3a2a21488f8",
+      "sourceRecord": "assets/common/secondary_pressed.png.source.json"
+    },
+    {
+      "file": "assets/common/title_plate.png",
+      "sha256": "f1011dd30d1ef42cbeedf64f31025c6c77c91ffbbcdd09ef74c065ad1d91ddfe",
+      "sourceRecord": "assets/common/title_plate.png.source.json"
+    }
+  ],
+  "sourceControlMapping": {
+    "file": "docs/control-resource-mapping.json",
+    "sha256BeforeDisplayEvidence": "f645bea41a5083d37be57f8118473a6b13e802438982a81d831bd1958cc2410c"
+  },
+  "font": {
+    "file": "assets/fonts/NotoSansCJKsc-Regular.otf",
+    "license": "OFL-1.1"
+  },
+  "scope": "source control skin contract review only",
+  "nativeDetailIncreased": false,
+  "unityStatus": "not_imported_not_runtime_validated"
+}

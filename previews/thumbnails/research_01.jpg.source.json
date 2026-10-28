@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/research_01.jpg",
+  "sha256": "012ae10089906b083480e054f94dadf8f448d95fd5d850ca8dd59c2c7050e980",
+  "derivedFrom": [
+    {
+      "file": "designs/research/01-进展.png",
+      "sha256": "3cd29b2bd47857c0af674497c87718588a9083796d05d0107d18380c87c259b6",
+      "sourceRecord": "designs/research/01-进展.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

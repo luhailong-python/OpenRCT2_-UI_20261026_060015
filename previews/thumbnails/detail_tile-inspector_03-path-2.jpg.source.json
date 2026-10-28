@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_tile-inspector_03-path-2.jpg",
+  "sha256": "cf07123ee270bed71861e09d7e6f39fb2cd03ec5cd8bebf20b665d3556a736c7",
+  "derivedFrom": [
+    {
+      "file": "designs/details/tile-inspector/03-path-2.png",
+      "sha256": "bb0e3f36ec079f109d8af56339fd63b829ae7e134a95de8637df0bbb86f39574",
+      "sourceRecord": "designs/details/tile-inspector/03-path-2.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/details/ride-construction/06-entrance-exit.png",
+  "sha256": "7771c8ccfa7a45b9a1d6ab8ca239dc12f9294c13d736ff6d2f75cc02ed40892a",
+  "exportedAt": "2026-10-26T08:00:01.151980-04:00",
+  "width": 1920,
+  "height": 1080,
+  "format": "PNG",
+  "operation": "composite_preview_not_native_generation",
+  "process": [
+    "Nine-slice/contain/cover composition of painted PNG sprites",
+    "Separate Chinese text typesetting and data diagrams"
+  ],
+  "resampling": "LANCZOS where art is fitted; output dimensions do not represent new native generated detail.",
+  "nativeModelClaim": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidencePolicy": "Resolve original AI model/quality through each source asset record; unreported values remain unconfirmed.",
+  "derivedFrom": [
+    {
+      "file": "assets/backgrounds/park-day-native.png",
+      "sha256": "27c3ac998fcd81e675c9a05712ead25c83443b133844c169d1476c3cebe25712",
+      "nativeDimensions": [
+        1672,
+        941
+      ],
+      "generationRecord": "assets/backgrounds/park-day-native.png.generation.json",
+      "derivationRecord": "assets/slice-manifest.json"
+    },
+    {
+      "file": "assets/common/panel_main.png",
+      "sha256": "704856762248133110624f38365e0ff337dd1f2f6304f66298e2230077ebca00",
+      "nativeDimensions": [
+        619,
+        610
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_main.png.source.json"
+    },
+    {
+      "file": "assets/common/title_plate.png",
+      "sha256": "f1011dd30d1ef42cbeedf64f31025c6c77c91ffbbcdd09ef74c065ad1d91ddfe",
+      "nativeDimensions": [
+        594,
+        195
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/title_plate.png.source.json"
+    },
+    {
+      "file": "assets/common/close.png",
+      "sha256": "f9089fdc15bfbfbd496d9c02de94c46b0e1e4052fffa9689de0b461e043737ec",
+      "nativeDimensions": [
+        184,
+        184
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/close.png.source.json"
+    },
+    {
+      "file": "assets/common/panel_card.png",
+      "sha256": "b82ed16e818b3bb86c16a68453bc4b73f1764c6fdb4541c2e470e5c60789568e",
+      "nativeDimensions": [
+        589,
+        558
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_card.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_normal.png",
+      "sha256": "9327a3d9577111e5985e3453a8a201010887c606a094b7e080421417aef3f92e",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_selected.png",
+      "sha256": "119a81554b9e332d698f5c704813cb047fcd4c5c71e9e5c36c7b6df6b4a789b9",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_selected.png.source.json"
+    },
+    {
+      "file": "assets/illustrations/dragon_coaster.png",
+      "sha256": "0952fb2165263c21be86668920519ce5da918416f777455bed9538f4a0f4b935",
+      "nativeDimensions": [
+        440,
+        440
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/illustrations/dragon_coaster.png.source.json"
+    },
+    {
+      "file": "assets/common/primary_selected.png",
+      "sha256": "59c783e4602ec39fc988975d01afb66441b85a13b589a5143c69953e36f7640e",
+      "nativeDimensions": [
+        256,
+        120
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/primary_selected.png.source.json"
+    },
+    {
+      "file": "assets/common/secondary_normal.png",
+      "sha256": "5f6418c0ede62320bc017ef1f00ec1d60a5d5fc34dac8c4e96d0016e6523881f",
+      "nativeDimensions": [
+        256,
+        112
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/secondary_normal.png.source.json"
+    }
+  ],
+  "layoutRecord": "designs/details/ride-construction/06-entrance-exit.layout.json",
+  "functionalReference": {
+    "functionalRepository": "https://github.com/OpenRCT2/OpenRCT2.git",
+    "commit": "52a55c3e8da5972460642bdfed61d091fe9cabfd",
+    "sourceUnit": "RideConstruction",
+    "sourceFiles": [
+      "src/openrct2-ui/windows/RideConstruction.cpp"
+    ],
+    "condition": "设施支持车站出入口，选择入口或出口放置工具。",
+    "scope": "Complete controls arranged as an actual product UI proposal; no runtime verification.",
+    "sourceControls": [
+      {
+        "sourceControlKeys": [
+          "RideConstruction:WIDX_ENTRANCE"
+        ],
+        "unit": "RideConstruction",
+        "controlId": "WIDX_ENTRANCE",
+        "screenId": "detail:ride-construction:06-entrance-exit",
+        "region": [
+          394,
+          312,
+          1050,
+          68
+        ],
+        "visualKind": "button",
+        "label": "建造或移动入口",
+        "state": "selected",
+        "parentControl": null,
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 135
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/RideConstruction.cpp",
+              "line": 188,
+              "sourceExpression": "makeWidget        ({ 31, 372}, {              70,  12}, WidgetType::button,   WindowColour::secondary, STR_RIDE_CONSTRUCTION_ENTRANCE,                   STR_RIDE_CONSTRUCTION_ENTRANCE_TIP                  )",
+              "sourceStringIds": [
+                "STR_RIDE_CONSTRUCTION_ENTRANCE",
+                "STR_RIDE_CONSTRUCTION_ENTRANCE_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1763,
+            "expression": "            const bool showEntranceExit = !rtd.flags.has(RtdFlag::isShopOrFacility) && currentRide->hasStation();             widgets[WIDX_ENTRANCE_EXIT_GROUPBOX].setVisible(showEntranceExit);             widgets[WIDX_ENTRANCE].setVisible(showEntranceExit);             widgets[WIDX_EXIT].setVisible(showEntranceExit);"
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1764,
+            "expression": "            widgets[WIDX_ENTRANCE_EXIT_GROUPBOX].setVisible(showEntranceExit);             widgets[WIDX_ENTRANCE].setVisible(showEntranceExit);             widgets[WIDX_EXIT].setVisible(showEntranceExit); "
+          }
+        ],
+        "displayedCondition": "设施支持车站出入口，选择入口或出口放置工具。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "RideConstruction:WIDX_EXIT"
+        ],
+        "unit": "RideConstruction",
+        "controlId": "WIDX_EXIT",
+        "screenId": "detail:ride-construction:06-entrance-exit",
+        "region": [
+          394,
+          408,
+          1050,
+          68
+        ],
+        "visualKind": "button",
+        "label": "建造或移动出口",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 136
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/RideConstruction.cpp",
+              "line": 189,
+              "sourceExpression": "makeWidget        ({109, 372}, {              70,  12}, WidgetType::button,   WindowColour::secondary, STR_RIDE_CONSTRUCTION_EXIT,                       STR_RIDE_CONSTRUCTION_EXIT_TIP                      )",
+              "sourceStringIds": [
+                "STR_RIDE_CONSTRUCTION_EXIT",
+                "STR_RIDE_CONSTRUCTION_EXIT_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 1765,
+            "expression": "            widgets[WIDX_ENTRANCE].setVisible(showEntranceExit);             widgets[WIDX_EXIT].setVisible(showEntranceExit);              widgets[WIDX_SPECIAL_TRACK_DROPDOWN].setVisible(_specialElementDropdownState.HasActiveElements);"
+          }
+        ],
+        "displayedCondition": "设施支持车站出入口，选择入口或出口放置工具。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "RideConstruction:WIDX_ROTATE"
+        ],
+        "unit": "RideConstruction",
+        "controlId": "WIDX_ROTATE",
+        "screenId": "detail:ride-construction:06-entrance-exit",
+        "region": [
+          394,
+          504,
+          1050,
+          68
+        ],
+        "visualKind": "button",
+        "label": "旋转 90°",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 137
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/RideConstruction.cpp",
+              "line": 190,
+              "sourceExpression": "makeWidget        ({ 94, 338}, {              24,  24}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_ROTATE_ARROW),                        STR_ROTATE_90_TIP                                   )",
+              "sourceStringIds": [
+                "STR_ROTATE_90_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_ROTATE_ARROW"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 2045,
+            "expression": "            widgets[WIDX_DEMOLISH].setVisible();             widgets[WIDX_ROTATE].setHidden();             if (rtd.flags.has(RtdFlag::cannotHaveGaps))             {"
+          },
+          {
+            "path": "src/openrct2-ui/windows/RideConstruction.cpp",
+            "line": 2072,
+            "expression": "                    widgets[WIDX_PREVIOUS_SECTION].setHidden();                     widgets[WIDX_ROTATE].setVisible();                     break;                 case RideConstructionState::entranceExit:"
+          }
+        ],
+        "displayedCondition": "设施支持车站出入口，选择入口或出口放置工具。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      }
+    ],
+    "decorativeArtPolicy": "Existing painted PNGs only"
+  },
+  "status": "produced_pending_review"
+}

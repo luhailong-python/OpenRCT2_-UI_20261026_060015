@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/multiplayer_03.jpg",
+  "sha256": "9188d36b32be131787c7be012539373a42ecc166921da9d742e82f70506f92fe",
+  "derivedFrom": [
+    {
+      "file": "designs/multiplayer/03-权限组.png",
+      "sha256": "e2426a3e63c8c9b1cf13d7077b02407dac7f2aa9311cdf9ad2e0a7456fa738e4",
+      "sourceRecord": "designs/multiplayer/03-权限组.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

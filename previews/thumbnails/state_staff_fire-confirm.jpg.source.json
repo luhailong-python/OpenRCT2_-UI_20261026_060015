@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_staff_fire-confirm.jpg",
+  "sha256": "9567cf1a226f49b60caea36a1387d1be5a38e4af8b02c7de8dc8f72c9706807c",
+  "derivedFrom": [
+    {
+      "file": "previews/states/staff/fire-confirm.png",
+      "sha256": "03f84e2cb9318c4b9f80f83436cccd2835acc5d3b4b0b98b997a43084f31213e",
+      "sourceRecord": "previews/states/staff/fire-confirm.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

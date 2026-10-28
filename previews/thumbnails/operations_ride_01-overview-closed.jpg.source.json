@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/operations_ride_01-overview-closed.jpg",
+  "sha256": "044529328df308e10b80bf542508dea70e3a8eb38cacf4978a9c5a3228d44167",
+  "derivedFrom": [
+    {
+      "file": "designs/details/ride-ops/01-overview-closed.png",
+      "sha256": "6c715e5bdd48cc490d53ce840ffa5ff587641875df817023a7ec0f8e388a8076",
+      "sourceRecord": "designs/details/ride-ops/01-overview-closed.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

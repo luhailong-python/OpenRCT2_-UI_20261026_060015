@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/ride-list_01.jpg",
+  "sha256": "fa4f23865f15168f72fd7e2d44e5d7852932ed358370afc675bb0dd893fbf205",
+  "derivedFrom": [
+    {
+      "file": "designs/ride-list/01-游乐设施.png",
+      "sha256": "745592a408d6672c2e00af00ff37abedf25d68384210dd25e6498111848e3f0a",
+      "sourceRecord": "designs/ride-list/01-游乐设施.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

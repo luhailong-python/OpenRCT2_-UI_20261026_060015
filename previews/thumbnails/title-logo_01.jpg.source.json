@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/title-logo_01.jpg",
+  "sha256": "774297cefdee5c0d4e63cad12baaafcbd23d84d40021157001328b7fb2dc83fe",
+  "derivedFrom": [
+    {
+      "file": "designs/title-logo/01-标志.png",
+      "sha256": "818b4cbe53d7b793730673bfb858a9c2fc27a27450a9f2eb6a7bec3a0439d2ca",
+      "sourceRecord": "designs/title-logo/01-标志.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

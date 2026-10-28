@@ -1,0 +1,1434 @@
+{
+  "schemaVersion": 1,
+  "screenId": "operations:ride:13-blueprint-entry",
+  "title": "设施试车与蓝图",
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "origin": "top-left",
+  "textLayers": [
+    {
+      "id": "text-001",
+      "text": "设施试车与蓝图",
+      "role": "dynamic-text",
+      "region": [
+        620,
+        66,
+        680,
+        75
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 46,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 65,
+      "wrappedLines": [
+        "设施试车与蓝图"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-002",
+      "text": "概览",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        231,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "概览"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-003",
+      "text": "车辆",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        301,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "车辆"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-004",
+      "text": "运行",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        371,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "运行"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-005",
+      "text": "维护",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        441,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "维护"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-006",
+      "text": "配色",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        511,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "配色"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-007",
+      "text": "音乐",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        581,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "音乐"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-008",
+      "text": "测试",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        651,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "测试"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-009",
+      "text": "图表",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        721,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "图表"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-010",
+      "text": "收入",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        791,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "收入"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-011",
+      "text": "游客",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        861,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "游客"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-012",
+      "text": "测试",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        218,
+        1388,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 32,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 45,
+      "wrappedLines": [
+        "测试"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-013",
+      "text": "美术设计样例 · 名称 / 数值待定",
+      "role": "dynamic-text",
+      "region": [
+        600,
+        1046,
+        720,
+        28
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "美术设计样例 · 名称 / 数值待定"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-014",
+      "text": "试车记录已完成",
+      "role": "dynamic-text",
+      "region": [
+        451,
+        354,
+        1280,
+        58
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 35,
+      "color": "#397D60",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 49,
+      "wrappedLines": [
+        "试车记录已完成"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-015",
+      "text": "刺激度 6.80  强度 5.20  眩晕度 2.40\n本次为游龙飞车的试车数据样例。",
+      "role": "dynamic-text",
+      "region": [
+        451,
+        432,
+        1280,
+        101
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 27,
+      "color": "#7A745E",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 38,
+      "wrappedLines": [
+        "刺激度 6.80  强度 5.20  眩晕度 2.40",
+        "本次为游龙飞车的试车数据样例。"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-016",
+      "text": "保存轨道蓝图",
+      "role": "dynamic-text",
+      "region": [
+        1175,
+        617,
+        569,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "保存轨道蓝图"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-017",
+      "text": "只保存轨道",
+      "role": "dynamic-text",
+      "region": [
+        1186,
+        727,
+        557,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "只保存轨道"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-018",
+      "text": "包含周围景物",
+      "role": "dynamic-text",
+      "region": [
+        1186,
+        813,
+        557,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "包含周围景物"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-019",
+      "text": "返回设施",
+      "role": "dynamic-text",
+      "region": [
+        1592,
+        925,
+        172,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "返回设施"
+      ],
+      "dynamic": true
+    }
+  ],
+  "artAndControlLayers": [
+    {
+      "role": "park-background",
+      "asset": "assets/backgrounds/park-day-native.png",
+      "region": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "resize": "cover"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_main.png",
+      "region": [
+        52,
+        96,
+        1816,
+        930
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "title-plaque",
+      "asset": "assets/common/title_plate.png",
+      "region": [
+        520,
+        22,
+        880,
+        170
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "close",
+      "asset": "assets/common/close.png",
+      "region": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_card.png",
+      "region": [
+        84,
+        208,
+        268,
+        756
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        224,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        294,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        364,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        434,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        504,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        574,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_selected.png",
+      "region": [
+        100,
+        644,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        714,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        784,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        854,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_CLOSE"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_CLOSE",
+      "screenId": "operations:ride:13-blueprint-entry",
+      "region": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "visualKind": "close",
+      "label": "关闭窗口",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "closeBox",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 114
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "closeBox",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 260,
+            "sourceExpression": "makeWindowShim(kWindowTitle, kWindowSize)",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "closeBox"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 2455,
+          "expression": "                widgets[WIDX_OPEN].setHidden();                 widgets[WIDX_CLOSE_LIGHT].setVisible();                 widgets[WIDX_SIMULATE_LIGHT].setHidden(); #ifdef __SIMULATE_IN_RIDE_WINDOW__"
+        },
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 2484,
+          "expression": "                widgets[WIDX_OPEN].setVisible();                 widgets[WIDX_CLOSE_LIGHT].setHidden();                 widgets[WIDX_SIMULATE_LIGHT].setHidden();                 widgets[WIDX_TEST_LIGHT].setHidden();"
+        }
+      ],
+      "displayedCondition": "Not in design save mode; canSaveTrackDesign = tested flag and non-null ratings; condition met; hasTrack ride",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_TAB_1"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_TAB_1",
+      "screenId": "operations:ride:13-blueprint-entry",
+      "region": [
+        100,
+        224,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "概览",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 116
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 262,
+            "sourceExpression": "makeTab({   3, 17 }, STR_VIEW_OF_RIDE_ATTRACTION_TIP)",
+            "sourceStringIds": [
+              "STR_VIEW_OF_RIDE_ATTRACTION_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 1461,
+          "expression": "            setWidgetDisabled(WIDX_TAB_9, disableTab9);             setWidgetDisabled(WIDX_TAB_10, disableTab10);              if (getGameState().cheats.allowArbitraryRideTypeChanges)"
+        }
+      ],
+      "displayedCondition": "Not in design save mode; canSaveTrackDesign = tested flag and non-null ratings; condition met; hasTrack ride",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_TAB_2"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_TAB_2",
+      "screenId": "operations:ride:13-blueprint-entry",
+      "region": [
+        100,
+        294,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "车辆",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 117
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 263,
+            "sourceExpression": "makeTab({  34, 17 }, STR_VEHICLE_DETAILS_AND_OPTIONS_TIP)",
+            "sourceStringIds": [
+              "STR_VEHICLE_DETAILS_AND_OPTIONS_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 1453,
+          "expression": "             setWidgetDisabled(WIDX_TAB_2, disableTab2);             setWidgetDisabled(WIDX_TAB_3, disableTab3);             setWidgetDisabled(WIDX_TAB_4, disableTab4);"
+        }
+      ],
+      "displayedCondition": "Not in design save mode; canSaveTrackDesign = tested flag and non-null ratings; condition met; hasTrack ride",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_TAB_3"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_TAB_3",
+      "screenId": "operations:ride:13-blueprint-entry",
+      "region": [
+        100,
+        364,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "运行",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 118
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 264,
+            "sourceExpression": "makeTab({  65, 17 }, STR_OPERATING_OPTIONS_TIP)",
+            "sourceStringIds": [
+              "STR_OPERATING_OPTIONS_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 1454,
+          "expression": "            setWidgetDisabled(WIDX_TAB_2, disableTab2);             setWidgetDisabled(WIDX_TAB_3, disableTab3);             setWidgetDisabled(WIDX_TAB_4, disableTab4);             setWidgetDisabled(WIDX_TAB_5, disableTab5);"
+        },
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 1466,
+          "expression": "                // Keep operation and colour tabs visible for ride type cheats                 setWidgetDisabled(WIDX_TAB_3, false);                 setWidgetDisabled(WIDX_TAB_5, false);             }"
+        }
+      ],
+      "displayedCondition": "Not in design save mode; canSaveTrackDesign = tested flag and non-null ratings; condition met; hasTrack ride",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_TAB_4"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_TAB_4",
+      "screenId": "operations:ride:13-blueprint-entry",
+      "region": [
+        100,
+        434,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "维护",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 119
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 265,
+            "sourceExpression": "makeTab({  96, 17 }, STR_MAINTENANCE_OPTIONS_TIP)",
+            "sourceStringIds": [
+              "STR_MAINTENANCE_OPTIONS_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 1455,
+          "expression": "            setWidgetDisabled(WIDX_TAB_3, disableTab3);             setWidgetDisabled(WIDX_TAB_4, disableTab4);             setWidgetDisabled(WIDX_TAB_5, disableTab5);             setWidgetDisabled(WIDX_TAB_6, disableTab6);"
+        }
+      ],
+      "displayedCondition": "Not in design save mode; canSaveTrackDesign = tested flag and non-null ratings; condition met; hasTrack ride",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_TAB_5"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_TAB_5",
+      "screenId": "operations:ride:13-blueprint-entry",
+      "region": [
+        100,
+        504,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "配色",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 120
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 266,
+            "sourceExpression": "makeTab({ 127, 17 }, STR_COLOUR_SCHEME_OPTIONS_TIP)",
+            "sourceStringIds": [
+              "STR_COLOUR_SCHEME_OPTIONS_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 1456,
+          "expression": "            setWidgetDisabled(WIDX_TAB_4, disableTab4);             setWidgetDisabled(WIDX_TAB_5, disableTab5);             setWidgetDisabled(WIDX_TAB_6, disableTab6);             setWidgetDisabled(WIDX_TAB_7, disableTab7);"
+        },
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 1467,
+          "expression": "                setWidgetDisabled(WIDX_TAB_3, false);                 setWidgetDisabled(WIDX_TAB_5, false);             }         }"
+        }
+      ],
+      "displayedCondition": "Not in design save mode; canSaveTrackDesign = tested flag and non-null ratings; condition met; hasTrack ride",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_TAB_6"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_TAB_6",
+      "screenId": "operations:ride:13-blueprint-entry",
+      "region": [
+        100,
+        574,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "音乐",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 121
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 267,
+            "sourceExpression": "makeTab({ 158, 17 }, STR_SOUND_AND_MUSIC_OPTIONS_TIP)",
+            "sourceStringIds": [
+              "STR_SOUND_AND_MUSIC_OPTIONS_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 1457,
+          "expression": "            setWidgetDisabled(WIDX_TAB_5, disableTab5);             setWidgetDisabled(WIDX_TAB_6, disableTab6);             setWidgetDisabled(WIDX_TAB_7, disableTab7);             setWidgetDisabled(WIDX_TAB_8, disableTab8);"
+        }
+      ],
+      "displayedCondition": "Not in design save mode; canSaveTrackDesign = tested flag and non-null ratings; condition met; hasTrack ride",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_TAB_7"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_TAB_7",
+      "screenId": "operations:ride:13-blueprint-entry",
+      "region": [
+        100,
+        644,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "测试",
+      "state": "selected",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 122
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 268,
+            "sourceExpression": "makeTab({ 189, 17 }, STR_MEASUREMENTS_AND_TEST_DATA_TIP)",
+            "sourceStringIds": [
+              "STR_MEASUREMENTS_AND_TEST_DATA_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 1458,
+          "expression": "            setWidgetDisabled(WIDX_TAB_6, disableTab6);             setWidgetDisabled(WIDX_TAB_7, disableTab7);             setWidgetDisabled(WIDX_TAB_8, disableTab8);             setWidgetDisabled(WIDX_TAB_9, disableTab9);"
+        }
+      ],
+      "displayedCondition": "Not in design save mode; canSaveTrackDesign = tested flag and non-null ratings; condition met; hasTrack ride",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_TAB_8"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_TAB_8",
+      "screenId": "operations:ride:13-blueprint-entry",
+      "region": [
+        100,
+        714,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "图表",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 123
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 269,
+            "sourceExpression": "makeTab({ 220, 17 }, STR_GRAPHS_TIP)",
+            "sourceStringIds": [
+              "STR_GRAPHS_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 1459,
+          "expression": "            setWidgetDisabled(WIDX_TAB_7, disableTab7);             setWidgetDisabled(WIDX_TAB_8, disableTab8);             setWidgetDisabled(WIDX_TAB_9, disableTab9);             setWidgetDisabled(WIDX_TAB_10, disableTab10);"
+        }
+      ],
+      "displayedCondition": "Not in design save mode; canSaveTrackDesign = tested flag and non-null ratings; condition met; hasTrack ride",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_TAB_9"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_TAB_9",
+      "screenId": "operations:ride:13-blueprint-entry",
+      "region": [
+        100,
+        784,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "收入",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 124
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 270,
+            "sourceExpression": "makeTab({ 251, 17 }, STR_INCOME_AND_COSTS_TIP)",
+            "sourceStringIds": [
+              "STR_INCOME_AND_COSTS_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 1460,
+          "expression": "            setWidgetDisabled(WIDX_TAB_8, disableTab8);             setWidgetDisabled(WIDX_TAB_9, disableTab9);             setWidgetDisabled(WIDX_TAB_10, disableTab10); "
+        }
+      ],
+      "displayedCondition": "Not in design save mode; canSaveTrackDesign = tested flag and non-null ratings; condition met; hasTrack ride",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_TAB_10"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_TAB_10",
+      "screenId": "operations:ride:13-blueprint-entry",
+      "region": [
+        100,
+        854,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "游客",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 125
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 271,
+            "sourceExpression": "makeTab({ 282, 17 }, STR_CUSTOMER_INFORMATION_TIP)",
+            "sourceStringIds": [
+              "STR_CUSTOMER_INFORMATION_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 1461,
+          "expression": "            setWidgetDisabled(WIDX_TAB_9, disableTab9);             setWidgetDisabled(WIDX_TAB_10, disableTab10);              if (getGameState().cheats.allowArbitraryRideTypeChanges)"
+        }
+      ],
+      "displayedCondition": "Not in design save mode; canSaveTrackDesign = tested flag and non-null ratings; condition met; hasTrack ride",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_card.png",
+      "region": [
+        414,
+        323,
+        1365,
+        230
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1151,
+        609,
+        617,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_SAVE_TRACK_DESIGN"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_SAVE_TRACK_DESIGN",
+      "screenId": "operations:ride:13-blueprint-entry",
+      "region": [
+        1151,
+        609,
+        617,
+        68
+      ],
+      "visualKind": "button",
+      "label": "保存轨道蓝图",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 228
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 404,
+            "sourceExpression": "makeWidget({288, 194}, { 24, 24}, WidgetType::flatBtn, WindowColour::secondary, ImageId(SPR_FLOPPY),       STR_SAVE_TRACK_DESIGN)",
+            "sourceStringIds": [
+              "STR_SAVE_TRACK_DESIGN"
+            ],
+            "originalSpriteIds": [
+              "SPR_FLOPPY"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 5928,
+          "expression": "            widgets[WIDX_CANCEL_DESIGN].setVisible(inSaveMode);             widgets[WIDX_SAVE_TRACK_DESIGN].setHidden(inSaveMode);              if (!inSaveMode)"
+        },
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 5933,
+          "expression": "                const bool canSaveTrackDesign = ride->flags.has(RideFlag::tested) && !ride->ratings.isNull();                 setWidgetDisabled(WIDX_SAVE_TRACK_DESIGN, !canSaveTrackDesign);                 if (canSaveTrackDesign)                     widgets[WIDX_SAVE_TRACK_DESIGN].tooltip = STR_SAVE_TRACK_DESIGN;"
+        }
+      ],
+      "displayedCondition": "Not in design save mode; canSaveTrackDesign = tested flag and non-null ratings; condition met; hasTrack ride",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1162,
+        718,
+        605,
+        70
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_SAVE_TRACK_DESIGN"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_SAVE_TRACK_DESIGN",
+      "screenId": "operations:ride:13-blueprint-entry",
+      "region": [
+        1162,
+        718,
+        605,
+        70
+      ],
+      "visualKind": "dynamic-menu-choice",
+      "label": "只保存轨道",
+      "state": "normal",
+      "parentControl": "WIDX_SAVE_TRACK_DESIGN",
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 228
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 404,
+            "sourceExpression": "makeWidget({288, 194}, { 24, 24}, WidgetType::flatBtn, WindowColour::secondary, ImageId(SPR_FLOPPY),       STR_SAVE_TRACK_DESIGN)",
+            "sourceStringIds": [
+              "STR_SAVE_TRACK_DESIGN"
+            ],
+            "originalSpriteIds": [
+              "SPR_FLOPPY"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 5928,
+          "expression": "            widgets[WIDX_CANCEL_DESIGN].setVisible(inSaveMode);             widgets[WIDX_SAVE_TRACK_DESIGN].setHidden(inSaveMode);              if (!inSaveMode)"
+        },
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 5933,
+          "expression": "                const bool canSaveTrackDesign = ride->flags.has(RideFlag::tested) && !ride->ratings.isNull();                 setWidgetDisabled(WIDX_SAVE_TRACK_DESIGN, !canSaveTrackDesign);                 if (canSaveTrackDesign)                     widgets[WIDX_SAVE_TRACK_DESIGN].tooltip = STR_SAVE_TRACK_DESIGN;"
+        }
+      ],
+      "displayedCondition": "Not in design save mode; canSaveTrackDesign = tested flag and non-null ratings; condition met; hasTrack ride",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1162,
+        804,
+        605,
+        70
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_SAVE_TRACK_DESIGN"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_SAVE_TRACK_DESIGN",
+      "screenId": "operations:ride:13-blueprint-entry",
+      "region": [
+        1162,
+        804,
+        605,
+        70
+      ],
+      "visualKind": "dynamic-menu-choice",
+      "label": "包含周围景物",
+      "state": "normal",
+      "parentControl": "WIDX_SAVE_TRACK_DESIGN",
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 228
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 404,
+            "sourceExpression": "makeWidget({288, 194}, { 24, 24}, WidgetType::flatBtn, WindowColour::secondary, ImageId(SPR_FLOPPY),       STR_SAVE_TRACK_DESIGN)",
+            "sourceStringIds": [
+              "STR_SAVE_TRACK_DESIGN"
+            ],
+            "originalSpriteIds": [
+              "SPR_FLOPPY"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 5928,
+          "expression": "            widgets[WIDX_CANCEL_DESIGN].setVisible(inSaveMode);             widgets[WIDX_SAVE_TRACK_DESIGN].setHidden(inSaveMode);              if (!inSaveMode)"
+        },
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 5933,
+          "expression": "                const bool canSaveTrackDesign = ride->flags.has(RideFlag::tested) && !ride->ratings.isNull();                 setWidgetDisabled(WIDX_SAVE_TRACK_DESIGN, !canSaveTrackDesign);                 if (canSaveTrackDesign)                     widgets[WIDX_SAVE_TRACK_DESIGN].tooltip = STR_SAVE_TRACK_DESIGN;"
+        }
+      ],
+      "displayedCondition": "Not in design save mode; canSaveTrackDesign = tested flag and non-null ratings; condition met; hasTrack ride",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1568,
+        916,
+        220,
+        70
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_CLOSE"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_CLOSE",
+      "screenId": "operations:ride:13-blueprint-entry",
+      "region": [
+        1568,
+        916,
+        220,
+        70
+      ],
+      "visualKind": "button",
+      "label": "返回设施",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "closeBox",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 114
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "closeBox",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 260,
+            "sourceExpression": "makeWindowShim(kWindowTitle, kWindowSize)",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "closeBox"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 2455,
+          "expression": "                widgets[WIDX_OPEN].setHidden();                 widgets[WIDX_CLOSE_LIGHT].setVisible();                 widgets[WIDX_SIMULATE_LIGHT].setHidden(); #ifdef __SIMULATE_IN_RIDE_WINDOW__"
+        },
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 2484,
+          "expression": "                widgets[WIDX_OPEN].setVisible();                 widgets[WIDX_CLOSE_LIGHT].setHidden();                 widgets[WIDX_SIMULATE_LIGHT].setHidden();                 widgets[WIDX_TEST_LIGHT].setHidden();"
+        }
+      ],
+      "displayedCondition": "Not in design save mode; canSaveTrackDesign = tested flag and non-null ratings; condition met; hasTrack ride",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    }
+  ],
+  "dataDiagrams": [
+    {
+      "role": "data-rule",
+      "points": [
+        [
+          398,
+          276
+        ],
+        [
+          1790,
+          276
+        ]
+      ],
+      "color": "#B28C43",
+      "width": 1
+    }
+  ],
+  "layoutIssues": [],
+  "fontDistribution": "Official OFL-licensed fonts are included in assets/fonts; see records/font-sources.json.",
+  "status": "produced_pending_review"
+}

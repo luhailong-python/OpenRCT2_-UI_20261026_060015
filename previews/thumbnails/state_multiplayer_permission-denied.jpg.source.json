@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_multiplayer_permission-denied.jpg",
+  "sha256": "10292ac58f70fc8b38e490dc962e3394e94490d09b0b04b0afac2d05f98b3bbc",
+  "derivedFrom": [
+    {
+      "file": "previews/states/multiplayer/permission-denied.png",
+      "sha256": "357b2d664e072def0ac04569991e0c96ba0fe1ec65f0dda992e74319bb9310e2",
+      "sourceRecord": "previews/states/multiplayer/permission-denied.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_marketing_selection-required.jpg",
+  "sha256": "6108eeea3a6f8564f2c273c2a8434eaefded6007a7eb15646c80647f8242f8f1",
+  "derivedFrom": [
+    {
+      "file": "previews/states/marketing/selection-required.png",
+      "sha256": "95f270aa07a0b72e94fd391b51020c073e4a955ce4b0e5f09536cbf8a7bd3b0a",
+      "sourceRecord": "previews/states/marketing/selection-required.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

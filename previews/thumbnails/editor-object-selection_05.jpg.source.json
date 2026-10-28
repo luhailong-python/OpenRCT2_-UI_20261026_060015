@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/editor-object-selection_05.jpg",
+  "sha256": "3d7d31a0ef91e5ac97418d81e56114a93842be65e2d157da0a8d352b0d44233d",
+  "derivedFrom": [
+    {
+      "file": "designs/editor-object-selection/05-地形.png",
+      "sha256": "174fec678ec6b7cc378a5f5e3489efbcebfddc594c693fb980d282e5894d5a55",
+      "sourceRecord": "designs/editor-object-selection/05-地形.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

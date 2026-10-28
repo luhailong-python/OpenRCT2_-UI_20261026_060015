@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_research_paused.jpg",
+  "sha256": "b30e1e8802fefc10fcdf844c6dad4c6fb18a6f9ae3cb2098e8d65cd1b0a1b552",
+  "derivedFrom": [
+    {
+      "file": "previews/states/research/paused.png",
+      "sha256": "880d1c7faacb6cde7d46bada419c06a28e581c595e9ee3478c4b943298a0a5c8",
+      "sourceRecord": "previews/states/research/paused.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

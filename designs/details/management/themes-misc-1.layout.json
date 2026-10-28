@@ -1,0 +1,2666 @@
+{
+  "schemaVersion": 1,
+  "screenId": "management-detail:themes-misc-1",
+  "title": "界面主题编辑 · 杂项 · 窗口配色 1",
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "origin": "top-left",
+  "textLayers": [
+    {
+      "id": "text-001",
+      "text": "界面主题编辑",
+      "role": "dynamic-text",
+      "region": [
+        620,
+        66,
+        680,
+        75
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 46,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 65,
+      "wrappedLines": [
+        "界面主题编辑"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-002",
+      "text": "主题",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        231,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "主题"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-003",
+      "text": "主界面",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        301,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "主界面"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-004",
+      "text": "公园",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        371,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "公园"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-005",
+      "text": "工具",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        441,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "工具"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-006",
+      "text": "设施游客",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        511,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "设施游客"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-007",
+      "text": "编辑器",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        581,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "编辑器"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-008",
+      "text": "杂项",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        651,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "杂项"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-009",
+      "text": "弹窗",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        721,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "弹窗"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-010",
+      "text": "特性",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        791,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "特性"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-011",
+      "text": "杂项",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        218,
+        1388,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 32,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 45,
+      "wrappedLines": [
+        "杂项"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-012",
+      "text": "美术设计样例 · 名称 / 数值待定",
+      "role": "dynamic-text",
+      "region": [
+        600,
+        1046,
+        720,
+        28
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "美术设计样例 · 名称 / 数值待定"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-013",
+      "text": "杂项 · 窗口配色 1",
+      "role": "dynamic-text",
+      "region": [
+        395,
+        865,
+        1398,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#7A745E",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "杂项 · 窗口配色 1"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-014",
+      "text": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        1002,
+        1660,
+        30
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-015",
+      "text": "窗口",
+      "role": "dynamic-text",
+      "region": [
+        415,
+        300,
+        520,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 27,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 38,
+      "wrappedLines": [
+        "窗口"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-016",
+      "text": "调色板",
+      "role": "dynamic-text",
+      "region": [
+        953,
+        300,
+        350,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 27,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 38,
+      "wrappedLines": [
+        "调色板"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-017",
+      "text": "逐色透明",
+      "role": "dynamic-text",
+      "region": [
+        1417,
+        300,
+        337,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 27,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 38,
+      "wrappedLines": [
+        "逐色透明"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-018",
+      "text": "作弊",
+      "role": "dynamic-text",
+      "region": [
+        450,
+        380,
+        442,
+        50
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "作弊"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-019",
+      "text": "地块检查工具",
+      "role": "dynamic-text",
+      "region": [
+        450,
+        456,
+        442,
+        50
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "地块检查工具"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-020",
+      "text": "剖视图",
+      "role": "dynamic-text",
+      "region": [
+        450,
+        532,
+        442,
+        50
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "剖视图"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-021",
+      "text": "透明化选项",
+      "role": "dynamic-text",
+      "region": [
+        450,
+        608,
+        442,
+        50
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "透明化选项"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-022",
+      "text": "主题",
+      "role": "dynamic-text",
+      "region": [
+        450,
+        684,
+        442,
+        50
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "主题"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-023",
+      "text": "选项",
+      "role": "dynamic-text",
+      "region": [
+        450,
+        760,
+        442,
+        50
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 24,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 34,
+      "wrappedLines": [
+        "选项"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-024",
+      "text": "返回设置",
+      "role": "dynamic-text",
+      "region": [
+        1616,
+        924,
+        148,
+        38
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "返回设置"
+      ],
+      "dynamic": true
+    }
+  ],
+  "artAndControlLayers": [
+    {
+      "role": "park-background",
+      "asset": "assets/backgrounds/park-day-native.png",
+      "region": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "resize": "cover"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_main.png",
+      "region": [
+        52,
+        96,
+        1816,
+        930
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "title-plaque",
+      "asset": "assets/common/title_plate.png",
+      "region": [
+        520,
+        22,
+        880,
+        170
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "close",
+      "asset": "assets/common/close.png",
+      "region": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_card.png",
+      "region": [
+        84,
+        208,
+        268,
+        756
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        224,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        294,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        364,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        434,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        504,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        574,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_selected.png",
+      "region": [
+        100,
+        644,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        714,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        784,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_card.png",
+      "region": [
+        390,
+        356,
+        1408,
+        506
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "detail-color-button",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        953,
+        376,
+        64,
+        48
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "per-color-transparency",
+      "asset": "assets/common/checkbox_off.png",
+      "region": [
+        1417,
+        382,
+        34,
+        34
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "detail-color-button",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1026,
+        376,
+        64,
+        48
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "per-color-transparency",
+      "asset": "assets/common/checkbox_off.png",
+      "region": [
+        1473,
+        382,
+        34,
+        34
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "detail-color-button",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        953,
+        452,
+        64,
+        48
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "per-color-transparency",
+      "asset": "assets/common/checkbox_on.png",
+      "region": [
+        1417,
+        458,
+        34,
+        34
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "detail-color-button",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1026,
+        452,
+        64,
+        48
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "per-color-transparency",
+      "asset": "assets/common/checkbox_off.png",
+      "region": [
+        1473,
+        458,
+        34,
+        34
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "detail-color-button",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        953,
+        528,
+        64,
+        48
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "per-color-transparency",
+      "asset": "assets/common/checkbox_off.png",
+      "region": [
+        1417,
+        534,
+        34,
+        34
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "detail-color-button",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        953,
+        604,
+        64,
+        48
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "per-color-transparency",
+      "asset": "assets/common/checkbox_off.png",
+      "region": [
+        1417,
+        610,
+        34,
+        34
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "detail-color-button",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1026,
+        604,
+        64,
+        48
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "per-color-transparency",
+      "asset": "assets/common/checkbox_off.png",
+      "region": [
+        1473,
+        610,
+        34,
+        34
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "detail-color-button",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1099,
+        604,
+        64,
+        48
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "per-color-transparency",
+      "asset": "assets/common/checkbox_off.png",
+      "region": [
+        1529,
+        610,
+        34,
+        34
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "detail-color-button",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        953,
+        680,
+        64,
+        48
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "per-color-transparency",
+      "asset": "assets/common/checkbox_off.png",
+      "region": [
+        1417,
+        686,
+        34,
+        34
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "detail-color-button",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1026,
+        680,
+        64,
+        48
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "per-color-transparency",
+      "asset": "assets/common/checkbox_off.png",
+      "region": [
+        1473,
+        686,
+        34,
+        34
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "detail-color-button",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1099,
+        680,
+        64,
+        48
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "per-color-transparency",
+      "asset": "assets/common/checkbox_off.png",
+      "region": [
+        1529,
+        686,
+        34,
+        34
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "detail-color-button",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        953,
+        756,
+        64,
+        48
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "per-color-transparency",
+      "asset": "assets/common/checkbox_off.png",
+      "region": [
+        1417,
+        762,
+        34,
+        34
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "detail-color-button",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1026,
+        756,
+        64,
+        48
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "per-color-transparency",
+      "asset": "assets/common/checkbox_off.png",
+      "region": [
+        1473,
+        762,
+        34,
+        34
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "detail-color-button",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1099,
+        756,
+        64,
+        48
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "per-color-transparency",
+      "asset": "assets/common/checkbox_off.png",
+      "region": [
+        1529,
+        762,
+        34,
+        34
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/primary_normal.png",
+      "region": [
+        1592,
+        916,
+        196,
+        70
+      ],
+      "resize": "nine",
+      "state": "normal"
+    }
+  ],
+  "dataDiagrams": [
+    {
+      "role": "data-rule",
+      "points": [
+        [
+          398,
+          276
+        ],
+        [
+          1790,
+          276
+        ]
+      ],
+      "color": "#B28C43",
+      "width": 1
+    },
+    {
+      "role": "dynamic-color-swatch",
+      "rect": [
+        971,
+        386,
+        28,
+        28
+      ],
+      "color": "#397D60"
+    },
+    {
+      "role": "dynamic-color-swatch",
+      "rect": [
+        1044,
+        386,
+        28,
+        28
+      ],
+      "color": "#F3E8CC"
+    },
+    {
+      "role": "dynamic-color-swatch",
+      "rect": [
+        971,
+        462,
+        28,
+        28
+      ],
+      "color": "#397D60"
+    },
+    {
+      "role": "dynamic-color-swatch",
+      "rect": [
+        1044,
+        462,
+        28,
+        28
+      ],
+      "color": "#F3E8CC"
+    },
+    {
+      "role": "dynamic-color-swatch",
+      "rect": [
+        971,
+        538,
+        28,
+        28
+      ],
+      "color": "#397D60"
+    },
+    {
+      "role": "dynamic-color-swatch",
+      "rect": [
+        971,
+        614,
+        28,
+        28
+      ],
+      "color": "#397D60"
+    },
+    {
+      "role": "dynamic-color-swatch",
+      "rect": [
+        1044,
+        614,
+        28,
+        28
+      ],
+      "color": "#F3E8CC"
+    },
+    {
+      "role": "dynamic-color-swatch",
+      "rect": [
+        1117,
+        614,
+        28,
+        28
+      ],
+      "color": "#BF994F"
+    },
+    {
+      "role": "dynamic-color-swatch",
+      "rect": [
+        971,
+        690,
+        28,
+        28
+      ],
+      "color": "#397D60"
+    },
+    {
+      "role": "dynamic-color-swatch",
+      "rect": [
+        1044,
+        690,
+        28,
+        28
+      ],
+      "color": "#F3E8CC"
+    },
+    {
+      "role": "dynamic-color-swatch",
+      "rect": [
+        1117,
+        690,
+        28,
+        28
+      ],
+      "color": "#BF994F"
+    },
+    {
+      "role": "dynamic-color-swatch",
+      "rect": [
+        971,
+        766,
+        28,
+        28
+      ],
+      "color": "#397D60"
+    },
+    {
+      "role": "dynamic-color-swatch",
+      "rect": [
+        1044,
+        766,
+        28,
+        28
+      ],
+      "color": "#F3E8CC"
+    },
+    {
+      "role": "dynamic-color-swatch",
+      "rect": [
+        1117,
+        766,
+        28,
+        28
+      ],
+      "color": "#BF994F"
+    }
+  ],
+  "layoutIssues": [],
+  "fontDistribution": "Official OFL-licensed fonts are included in assets/fonts; see records/font-sources.json.",
+  "status": "produced_pending_review",
+  "sourceControlBindings": [
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_BACKGROUND",
+      "sourceControlKey": "Themes:WIDX_THEMES_BACKGROUND",
+      "rectTopLeftXYWH": [
+        52,
+        96,
+        1816,
+        930
+      ],
+      "role": "window-structure",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 52
+      },
+      "sourceWidgetType": "frame",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_TITLE",
+      "sourceControlKey": "Themes:WIDX_THEMES_TITLE",
+      "rectTopLeftXYWH": [
+        520,
+        22,
+        880,
+        170
+      ],
+      "role": "window-structure",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 53
+      },
+      "sourceWidgetType": "caption",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_CLOSE",
+      "sourceControlKey": "Themes:WIDX_THEMES_CLOSE",
+      "rectTopLeftXYWH": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "role": "window-structure",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 54
+      },
+      "sourceWidgetType": "closeBox",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_SETTINGS_TAB",
+      "sourceControlKey": "Themes:WIDX_THEMES_SETTINGS_TAB",
+      "rectTopLeftXYWH": [
+        100,
+        224,
+        236,
+        64
+      ],
+      "role": "source-navigation",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 56
+      },
+      "sourceWidgetType": "tab",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_MAIN_UI_TAB",
+      "sourceControlKey": "Themes:WIDX_THEMES_MAIN_UI_TAB",
+      "rectTopLeftXYWH": [
+        100,
+        294,
+        236,
+        64
+      ],
+      "role": "source-navigation",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 57
+      },
+      "sourceWidgetType": "tab",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_PARK_TAB",
+      "sourceControlKey": "Themes:WIDX_THEMES_PARK_TAB",
+      "rectTopLeftXYWH": [
+        100,
+        364,
+        236,
+        64
+      ],
+      "role": "source-navigation",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 58
+      },
+      "sourceWidgetType": "tab",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_TOOLS_TAB",
+      "sourceControlKey": "Themes:WIDX_THEMES_TOOLS_TAB",
+      "rectTopLeftXYWH": [
+        100,
+        434,
+        236,
+        64
+      ],
+      "role": "source-navigation",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 59
+      },
+      "sourceWidgetType": "tab",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_RIDE_PEEPS_TAB",
+      "sourceControlKey": "Themes:WIDX_THEMES_RIDE_PEEPS_TAB",
+      "rectTopLeftXYWH": [
+        100,
+        504,
+        236,
+        64
+      ],
+      "role": "source-navigation",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 60
+      },
+      "sourceWidgetType": "tab",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_EDITORS_TAB",
+      "sourceControlKey": "Themes:WIDX_THEMES_EDITORS_TAB",
+      "rectTopLeftXYWH": [
+        100,
+        574,
+        236,
+        64
+      ],
+      "role": "source-navigation",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 61
+      },
+      "sourceWidgetType": "tab",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_MISC_TAB",
+      "sourceControlKey": "Themes:WIDX_THEMES_MISC_TAB",
+      "rectTopLeftXYWH": [
+        100,
+        644,
+        236,
+        64
+      ],
+      "role": "source-navigation",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 62
+      },
+      "sourceWidgetType": "tab",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_PROMPTS_TAB",
+      "sourceControlKey": "Themes:WIDX_THEMES_PROMPTS_TAB",
+      "rectTopLeftXYWH": [
+        100,
+        714,
+        236,
+        64
+      ],
+      "role": "source-navigation",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 63
+      },
+      "sourceWidgetType": "tab",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_FEATURES_TAB",
+      "sourceControlKey": "Themes:WIDX_THEMES_FEATURES_TAB",
+      "rectTopLeftXYWH": [
+        100,
+        784,
+        236,
+        64
+      ],
+      "role": "source-navigation",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 64
+      },
+      "sourceWidgetType": "tab",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_HEADER_WINDOW",
+      "sourceControlKey": "Themes:WIDX_THEMES_HEADER_WINDOW",
+      "rectTopLeftXYWH": [
+        415,
+        300,
+        520,
+        48
+      ],
+      "role": "table-header",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 65
+      },
+      "sourceWidgetType": "tableHeader",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_HEADER_PALETTE",
+      "sourceControlKey": "Themes:WIDX_THEMES_HEADER_PALETTE",
+      "rectTopLeftXYWH": [
+        953,
+        300,
+        350,
+        48
+      ],
+      "role": "table-header",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 66
+      },
+      "sourceWidgetType": "tableHeader",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_HEADER_TRANSPARENCY",
+      "sourceControlKey": "Themes:WIDX_THEMES_HEADER_TRANSPARENCY",
+      "rectTopLeftXYWH": [
+        1417,
+        300,
+        337,
+        48
+      ],
+      "role": "table-header",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 67
+      },
+      "sourceWidgetType": "tableHeader",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_LIST",
+      "sourceControlKey": "Themes:WIDX_THEMES_LIST",
+      "rectTopLeftXYWH": [
+        390,
+        356,
+        1408,
+        506
+      ],
+      "role": "per-window-theme-editing-table",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 74
+      },
+      "sourceWidgetType": "scroll",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_COLOURBTN_MASK",
+      "sourceControlKey": "Themes:WIDX_THEMES_COLOURBTN_MASK",
+      "rectTopLeftXYWH": [
+        953,
+        376,
+        64,
+        48
+      ],
+      "role": "color-button",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 73
+      },
+      "sourceWidgetType": "colourBtn",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated",
+      "subpart": {
+        "windowClass": "cheats",
+        "paletteIndex": 0
+      }
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_LIST",
+      "sourceControlKey": "Themes:WIDX_THEMES_LIST",
+      "rectTopLeftXYWH": [
+        1417,
+        382,
+        34,
+        34
+      ],
+      "role": "per-color-transparency",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 74
+      },
+      "sourceWidgetType": "scroll",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated",
+      "subpart": {
+        "windowClass": "cheats",
+        "paletteIndex": 0
+      }
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_COLOURBTN_MASK",
+      "sourceControlKey": "Themes:WIDX_THEMES_COLOURBTN_MASK",
+      "rectTopLeftXYWH": [
+        1026,
+        376,
+        64,
+        48
+      ],
+      "role": "color-button",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 73
+      },
+      "sourceWidgetType": "colourBtn",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated",
+      "subpart": {
+        "windowClass": "cheats",
+        "paletteIndex": 1
+      }
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_LIST",
+      "sourceControlKey": "Themes:WIDX_THEMES_LIST",
+      "rectTopLeftXYWH": [
+        1473,
+        382,
+        34,
+        34
+      ],
+      "role": "per-color-transparency",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 74
+      },
+      "sourceWidgetType": "scroll",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated",
+      "subpart": {
+        "windowClass": "cheats",
+        "paletteIndex": 1
+      }
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_COLOURBTN_MASK",
+      "sourceControlKey": "Themes:WIDX_THEMES_COLOURBTN_MASK",
+      "rectTopLeftXYWH": [
+        953,
+        452,
+        64,
+        48
+      ],
+      "role": "color-button",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 73
+      },
+      "sourceWidgetType": "colourBtn",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated",
+      "subpart": {
+        "windowClass": "tileInspector",
+        "paletteIndex": 0
+      }
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_LIST",
+      "sourceControlKey": "Themes:WIDX_THEMES_LIST",
+      "rectTopLeftXYWH": [
+        1417,
+        458,
+        34,
+        34
+      ],
+      "role": "per-color-transparency",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 74
+      },
+      "sourceWidgetType": "scroll",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated",
+      "subpart": {
+        "windowClass": "tileInspector",
+        "paletteIndex": 0
+      }
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_COLOURBTN_MASK",
+      "sourceControlKey": "Themes:WIDX_THEMES_COLOURBTN_MASK",
+      "rectTopLeftXYWH": [
+        1026,
+        452,
+        64,
+        48
+      ],
+      "role": "color-button",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 73
+      },
+      "sourceWidgetType": "colourBtn",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated",
+      "subpart": {
+        "windowClass": "tileInspector",
+        "paletteIndex": 1
+      }
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_LIST",
+      "sourceControlKey": "Themes:WIDX_THEMES_LIST",
+      "rectTopLeftXYWH": [
+        1473,
+        458,
+        34,
+        34
+      ],
+      "role": "per-color-transparency",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 74
+      },
+      "sourceWidgetType": "scroll",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated",
+      "subpart": {
+        "windowClass": "tileInspector",
+        "paletteIndex": 1
+      }
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_COLOURBTN_MASK",
+      "sourceControlKey": "Themes:WIDX_THEMES_COLOURBTN_MASK",
+      "rectTopLeftXYWH": [
+        953,
+        528,
+        64,
+        48
+      ],
+      "role": "color-button",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 73
+      },
+      "sourceWidgetType": "colourBtn",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated",
+      "subpart": {
+        "windowClass": "viewClipping",
+        "paletteIndex": 0
+      }
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_LIST",
+      "sourceControlKey": "Themes:WIDX_THEMES_LIST",
+      "rectTopLeftXYWH": [
+        1417,
+        534,
+        34,
+        34
+      ],
+      "role": "per-color-transparency",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 74
+      },
+      "sourceWidgetType": "scroll",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated",
+      "subpart": {
+        "windowClass": "viewClipping",
+        "paletteIndex": 0
+      }
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_COLOURBTN_MASK",
+      "sourceControlKey": "Themes:WIDX_THEMES_COLOURBTN_MASK",
+      "rectTopLeftXYWH": [
+        953,
+        604,
+        64,
+        48
+      ],
+      "role": "color-button",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 73
+      },
+      "sourceWidgetType": "colourBtn",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated",
+      "subpart": {
+        "windowClass": "transparency",
+        "paletteIndex": 0
+      }
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_LIST",
+      "sourceControlKey": "Themes:WIDX_THEMES_LIST",
+      "rectTopLeftXYWH": [
+        1417,
+        610,
+        34,
+        34
+      ],
+      "role": "per-color-transparency",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 74
+      },
+      "sourceWidgetType": "scroll",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated",
+      "subpart": {
+        "windowClass": "transparency",
+        "paletteIndex": 0
+      }
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_COLOURBTN_MASK",
+      "sourceControlKey": "Themes:WIDX_THEMES_COLOURBTN_MASK",
+      "rectTopLeftXYWH": [
+        1026,
+        604,
+        64,
+        48
+      ],
+      "role": "color-button",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 73
+      },
+      "sourceWidgetType": "colourBtn",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated",
+      "subpart": {
+        "windowClass": "transparency",
+        "paletteIndex": 1
+      }
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_LIST",
+      "sourceControlKey": "Themes:WIDX_THEMES_LIST",
+      "rectTopLeftXYWH": [
+        1473,
+        610,
+        34,
+        34
+      ],
+      "role": "per-color-transparency",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 74
+      },
+      "sourceWidgetType": "scroll",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated",
+      "subpart": {
+        "windowClass": "transparency",
+        "paletteIndex": 1
+      }
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_COLOURBTN_MASK",
+      "sourceControlKey": "Themes:WIDX_THEMES_COLOURBTN_MASK",
+      "rectTopLeftXYWH": [
+        1099,
+        604,
+        64,
+        48
+      ],
+      "role": "color-button",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 73
+      },
+      "sourceWidgetType": "colourBtn",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated",
+      "subpart": {
+        "windowClass": "transparency",
+        "paletteIndex": 2
+      }
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_LIST",
+      "sourceControlKey": "Themes:WIDX_THEMES_LIST",
+      "rectTopLeftXYWH": [
+        1529,
+        610,
+        34,
+        34
+      ],
+      "role": "per-color-transparency",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 74
+      },
+      "sourceWidgetType": "scroll",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated",
+      "subpart": {
+        "windowClass": "transparency",
+        "paletteIndex": 2
+      }
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_COLOURBTN_MASK",
+      "sourceControlKey": "Themes:WIDX_THEMES_COLOURBTN_MASK",
+      "rectTopLeftXYWH": [
+        953,
+        680,
+        64,
+        48
+      ],
+      "role": "color-button",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 73
+      },
+      "sourceWidgetType": "colourBtn",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated",
+      "subpart": {
+        "windowClass": "themes",
+        "paletteIndex": 0
+      }
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_LIST",
+      "sourceControlKey": "Themes:WIDX_THEMES_LIST",
+      "rectTopLeftXYWH": [
+        1417,
+        686,
+        34,
+        34
+      ],
+      "role": "per-color-transparency",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 74
+      },
+      "sourceWidgetType": "scroll",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated",
+      "subpart": {
+        "windowClass": "themes",
+        "paletteIndex": 0
+      }
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_COLOURBTN_MASK",
+      "sourceControlKey": "Themes:WIDX_THEMES_COLOURBTN_MASK",
+      "rectTopLeftXYWH": [
+        1026,
+        680,
+        64,
+        48
+      ],
+      "role": "color-button",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 73
+      },
+      "sourceWidgetType": "colourBtn",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated",
+      "subpart": {
+        "windowClass": "themes",
+        "paletteIndex": 1
+      }
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_LIST",
+      "sourceControlKey": "Themes:WIDX_THEMES_LIST",
+      "rectTopLeftXYWH": [
+        1473,
+        686,
+        34,
+        34
+      ],
+      "role": "per-color-transparency",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 74
+      },
+      "sourceWidgetType": "scroll",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated",
+      "subpart": {
+        "windowClass": "themes",
+        "paletteIndex": 1
+      }
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_COLOURBTN_MASK",
+      "sourceControlKey": "Themes:WIDX_THEMES_COLOURBTN_MASK",
+      "rectTopLeftXYWH": [
+        1099,
+        680,
+        64,
+        48
+      ],
+      "role": "color-button",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 73
+      },
+      "sourceWidgetType": "colourBtn",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated",
+      "subpart": {
+        "windowClass": "themes",
+        "paletteIndex": 2
+      }
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_LIST",
+      "sourceControlKey": "Themes:WIDX_THEMES_LIST",
+      "rectTopLeftXYWH": [
+        1529,
+        686,
+        34,
+        34
+      ],
+      "role": "per-color-transparency",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 74
+      },
+      "sourceWidgetType": "scroll",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated",
+      "subpart": {
+        "windowClass": "themes",
+        "paletteIndex": 2
+      }
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_COLOURBTN_MASK",
+      "sourceControlKey": "Themes:WIDX_THEMES_COLOURBTN_MASK",
+      "rectTopLeftXYWH": [
+        953,
+        756,
+        64,
+        48
+      ],
+      "role": "color-button",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 73
+      },
+      "sourceWidgetType": "colourBtn",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated",
+      "subpart": {
+        "windowClass": "options",
+        "paletteIndex": 0
+      }
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_LIST",
+      "sourceControlKey": "Themes:WIDX_THEMES_LIST",
+      "rectTopLeftXYWH": [
+        1417,
+        762,
+        34,
+        34
+      ],
+      "role": "per-color-transparency",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 74
+      },
+      "sourceWidgetType": "scroll",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated",
+      "subpart": {
+        "windowClass": "options",
+        "paletteIndex": 0
+      }
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_COLOURBTN_MASK",
+      "sourceControlKey": "Themes:WIDX_THEMES_COLOURBTN_MASK",
+      "rectTopLeftXYWH": [
+        1026,
+        756,
+        64,
+        48
+      ],
+      "role": "color-button",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 73
+      },
+      "sourceWidgetType": "colourBtn",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated",
+      "subpart": {
+        "windowClass": "options",
+        "paletteIndex": 1
+      }
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_LIST",
+      "sourceControlKey": "Themes:WIDX_THEMES_LIST",
+      "rectTopLeftXYWH": [
+        1473,
+        762,
+        34,
+        34
+      ],
+      "role": "per-color-transparency",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 74
+      },
+      "sourceWidgetType": "scroll",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated",
+      "subpart": {
+        "windowClass": "options",
+        "paletteIndex": 1
+      }
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_COLOURBTN_MASK",
+      "sourceControlKey": "Themes:WIDX_THEMES_COLOURBTN_MASK",
+      "rectTopLeftXYWH": [
+        1099,
+        756,
+        64,
+        48
+      ],
+      "role": "color-button",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 73
+      },
+      "sourceWidgetType": "colourBtn",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated",
+      "subpart": {
+        "windowClass": "options",
+        "paletteIndex": 2
+      }
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_LIST",
+      "sourceControlKey": "Themes:WIDX_THEMES_LIST",
+      "rectTopLeftXYWH": [
+        1529,
+        762,
+        34,
+        34
+      ],
+      "role": "per-color-transparency",
+      "sourcePageGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Themes.cpp",
+        "line": 74
+      },
+      "sourceWidgetType": "scroll",
+      "condition": "每个颜色槽可独立设色与透明；未出现的颜色槽表示该窗口没有此槽。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated",
+      "subpart": {
+        "windowClass": "options",
+        "paletteIndex": 2
+      }
+    }
+  ],
+  "productDetailPurpose": "additional_actual_product_ui_layout"
+}

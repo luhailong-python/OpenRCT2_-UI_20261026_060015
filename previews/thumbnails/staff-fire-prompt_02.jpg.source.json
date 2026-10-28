@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/staff-fire-prompt_02.jpg",
+  "sha256": "30d8fb6adc393d0cbafe3aa8776ccf8cfc891c1bfbe50a590cc8c2dcd73d0919",
+  "derivedFrom": [
+    {
+      "file": "designs/staff-fire-prompt/02-取消.png",
+      "sha256": "d5693071cc826d2426dd594d33af16630b87d9ccf7d880ad4004439e68c3356a",
+      "sourceRecord": "designs/staff-fire-prompt/02-取消.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

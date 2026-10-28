@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/demolish-ride-prompt_01.jpg",
+  "sha256": "856e6b0dacc844ffccc57770cf75861584d500d102520f97ebd9c79a2e6c6bbf",
+  "derivedFrom": [
+    {
+      "file": "designs/demolish-ride-prompt/01-确认.png",
+      "sha256": "33cad31864249cb2fdb351cd8bb1a0a8c3b50e8895061672109c6c32ede67de7",
+      "sourceRecord": "designs/demolish-ride-prompt/01-确认.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

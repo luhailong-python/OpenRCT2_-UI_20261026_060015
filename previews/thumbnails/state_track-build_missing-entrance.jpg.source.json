@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_track-build_missing-entrance.jpg",
+  "sha256": "84cbc6eb5afb1e67e5b9ae6e8e142288158897083e32c91674961316bd2c8223",
+  "derivedFrom": [
+    {
+      "file": "previews/states/track-build/missing-entrance.png",
+      "sha256": "916d38ffd36065bbb639a4474e46bf4f50d9815089205c37a6959f144491b882",
+      "sourceRecord": "previews/states/track-build/missing-entrance.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,468 @@
+{
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "purpose": "technical_style_contract_not_product_screen",
+  "controls": [
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_CLOSE",
+      "rectTopLeftXYWH": [
+        58,
+        146,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        229,
+        554,
+        98
+      ],
+      "sourceWidgetType": "closeBox",
+      "sourceLabelDisplayed": "关闭",
+      "existingTargetScreenGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "formalAssets": [
+        "assets/common/close.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_TAB_CONTENT_PANEL",
+      "rectTopLeftXYWH": [
+        665,
+        146,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        229,
+        554,
+        98
+      ],
+      "sourceWidgetType": "resize",
+      "sourceLabelDisplayed": "可伸缩区域",
+      "existingTargetScreenGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_SETTINGS_TAB",
+      "rectTopLeftXYWH": [
+        1272,
+        146,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        229,
+        554,
+        98
+      ],
+      "sourceWidgetType": "tab",
+      "sourceLabelDisplayed": "设置",
+      "existingTargetScreenGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "formalAssets": [
+        "assets/common/tab_normal.png",
+        "assets/common/tab_pressed.png",
+        "assets/common/tab_selected.png",
+        "assets/common/tab_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_MAIN_UI_TAB",
+      "rectTopLeftXYWH": [
+        58,
+        368,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        451,
+        554,
+        98
+      ],
+      "sourceWidgetType": "tab",
+      "sourceLabelDisplayed": "主界面",
+      "existingTargetScreenGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "formalAssets": [
+        "assets/common/tab_normal.png",
+        "assets/common/tab_pressed.png",
+        "assets/common/tab_selected.png",
+        "assets/common/tab_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_PARK_TAB",
+      "rectTopLeftXYWH": [
+        665,
+        368,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        451,
+        554,
+        98
+      ],
+      "sourceWidgetType": "tab",
+      "sourceLabelDisplayed": "公园",
+      "existingTargetScreenGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "formalAssets": [
+        "assets/common/tab_normal.png",
+        "assets/common/tab_pressed.png",
+        "assets/common/tab_selected.png",
+        "assets/common/tab_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_TOOLS_TAB",
+      "rectTopLeftXYWH": [
+        1272,
+        368,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        451,
+        554,
+        98
+      ],
+      "sourceWidgetType": "tab",
+      "sourceLabelDisplayed": "工具",
+      "existingTargetScreenGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "formalAssets": [
+        "assets/common/tab_normal.png",
+        "assets/common/tab_pressed.png",
+        "assets/common/tab_selected.png",
+        "assets/common/tab_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_RIDE_PEEPS_TAB",
+      "rectTopLeftXYWH": [
+        58,
+        590,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        673,
+        554,
+        98
+      ],
+      "sourceWidgetType": "tab",
+      "sourceLabelDisplayed": "游乐设施和游客",
+      "existingTargetScreenGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "formalAssets": [
+        "assets/common/tab_normal.png",
+        "assets/common/tab_pressed.png",
+        "assets/common/tab_selected.png",
+        "assets/common/tab_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_EDITORS_TAB",
+      "rectTopLeftXYWH": [
+        665,
+        590,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        673,
+        554,
+        98
+      ],
+      "sourceWidgetType": "tab",
+      "sourceLabelDisplayed": "编辑器",
+      "existingTargetScreenGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "formalAssets": [
+        "assets/common/tab_normal.png",
+        "assets/common/tab_pressed.png",
+        "assets/common/tab_selected.png",
+        "assets/common/tab_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_MISC_TAB",
+      "rectTopLeftXYWH": [
+        1272,
+        590,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        673,
+        554,
+        98
+      ],
+      "sourceWidgetType": "tab",
+      "sourceLabelDisplayed": "杂项",
+      "existingTargetScreenGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "formalAssets": [
+        "assets/common/tab_normal.png",
+        "assets/common/tab_pressed.png",
+        "assets/common/tab_selected.png",
+        "assets/common/tab_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_PROMPTS_TAB",
+      "rectTopLeftXYWH": [
+        58,
+        812,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        76,
+        895,
+        554,
+        98
+      ],
+      "sourceWidgetType": "tab",
+      "sourceLabelDisplayed": "提示",
+      "existingTargetScreenGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "formalAssets": [
+        "assets/common/tab_normal.png",
+        "assets/common/tab_pressed.png",
+        "assets/common/tab_selected.png",
+        "assets/common/tab_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_FEATURES_TAB",
+      "rectTopLeftXYWH": [
+        665,
+        812,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        683,
+        895,
+        554,
+        98
+      ],
+      "sourceWidgetType": "tab",
+      "sourceLabelDisplayed": "功能",
+      "existingTargetScreenGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "formalAssets": [
+        "assets/common/tab_normal.png",
+        "assets/common/tab_pressed.png",
+        "assets/common/tab_selected.png",
+        "assets/common/tab_disabled.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    },
+    {
+      "unit": "Themes",
+      "controlId": "WIDX_THEMES_HEADER_WINDOW",
+      "rectTopLeftXYWH": [
+        1272,
+        812,
+        590,
+        210
+      ],
+      "componentSampleRectTopLeftXYWH": [
+        1290,
+        895,
+        554,
+        98
+      ],
+      "sourceWidgetType": "tableHeader",
+      "sourceLabelDisplayed": "窗口",
+      "existingTargetScreenGroups": [
+        "主题",
+        "主界面",
+        "公园",
+        "工具",
+        "设施游客",
+        "编辑器",
+        "杂项",
+        "弹窗",
+        "特性"
+      ],
+      "formalAssets": [
+        "assets/common/panel_card.png"
+      ],
+      "spriteReuse": true,
+      "presence": "displayed_style_contract_only",
+      "productScreenshotPlacement": "pending_unverified",
+      "unityPlacement": "待接入验证"
+    }
+  ]
+}

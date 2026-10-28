@@ -1,0 +1,759 @@
+{
+  "schemaVersion": 1,
+  "screenId": "utility-detail:guestlist-summarised-tools",
+  "title": "游客列表 · 游客行动与想法汇总",
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "origin": "top-left",
+  "textLayers": [
+    {
+      "id": "text-001",
+      "text": "游客列表",
+      "role": "dynamic-text",
+      "region": [
+        620,
+        66,
+        680,
+        75
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 46,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 65,
+      "wrappedLines": [
+        "游客列表"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-002",
+      "text": "个体",
+      "role": "dynamic-text",
+      "region": [
+        128,
+        208,
+        290,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 26,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 36,
+      "wrappedLines": [
+        "个体"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-003",
+      "text": "汇总",
+      "role": "dynamic-text",
+      "region": [
+        470,
+        208,
+        290,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 26,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 36,
+      "wrappedLines": [
+        "汇总"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-004",
+      "text": "汇总",
+      "role": "dynamic-text",
+      "region": [
+        118,
+        300,
+        1664,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 32,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 45,
+      "wrappedLines": [
+        "汇总"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-005",
+      "text": "美术设计样例 · 名称 / 数值待定",
+      "role": "dynamic-text",
+      "region": [
+        600,
+        1046,
+        720,
+        28
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "美术设计样例 · 名称 / 数值待定"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-006",
+      "text": "游客行动与想法汇总",
+      "role": "dynamic-text",
+      "region": [
+        115,
+        865,
+        1674,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#7A745E",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "游客行动与想法汇总"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-007",
+      "text": "汇总页不显示姓名筛选、追踪或地图按钮；点选一行进入对应的个体筛选列表。",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        1002,
+        1660,
+        30
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "汇总页不显示姓名筛选、追踪或地图按钮；点选一行进入对应的个体筛选列表。"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-008",
+      "text": "汇总内容",
+      "role": "dynamic-text",
+      "region": [
+        115,
+        390,
+        275,
+        57
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "汇总内容"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-009",
+      "text": "游客想法",
+      "role": "dynamic-text",
+      "region": [
+        450,
+        394,
+        507,
+        45
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "center",
+      "lineHeight": 31,
+      "wrappedLines": [
+        "游客想法"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-010",
+      "text": "▼",
+      "role": "dynamic-text",
+      "region": [
+        963,
+        387,
+        40,
+        55
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "▼"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-011",
+      "text": "想法分组",
+      "role": "dynamic-text",
+      "region": [
+        145,
+        497,
+        594,
+        44
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "想法分组"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-012",
+      "text": "游客数量",
+      "role": "dynamic-text",
+      "region": [
+        784,
+        497,
+        999,
+        44
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "游客数量"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-013",
+      "text": "这里的景色真好！",
+      "role": "dynamic-text",
+      "region": [
+        145,
+        568,
+        591,
+        59
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "这里的景色真好！"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-014",
+      "text": "126",
+      "role": "dynamic-text",
+      "region": [
+        784,
+        568,
+        996,
+        59
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "126"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-015",
+      "text": "我想喝点东西",
+      "role": "dynamic-text",
+      "region": [
+        145,
+        646,
+        591,
+        59
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "我想喝点东西"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-016",
+      "text": "42",
+      "role": "dynamic-text",
+      "region": [
+        784,
+        646,
+        996,
+        59
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "42"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-017",
+      "text": "我正在找出口",
+      "role": "dynamic-text",
+      "region": [
+        145,
+        724,
+        591,
+        59
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "我正在找出口"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-018",
+      "text": "9",
+      "role": "dynamic-text",
+      "region": [
+        784,
+        724,
+        996,
+        59
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "9"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-019",
+      "text": "返回园区",
+      "role": "dynamic-text",
+      "region": [
+        1616,
+        924,
+        148,
+        38
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "返回园区"
+      ],
+      "dynamic": true
+    }
+  ],
+  "artAndControlLayers": [
+    {
+      "role": "park-background",
+      "asset": "assets/backgrounds/park-day-native.png",
+      "region": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "resize": "cover"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_main.png",
+      "region": [
+        52,
+        96,
+        1816,
+        930
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "title-plaque",
+      "asset": "assets/common/title_plate.png",
+      "region": [
+        520,
+        22,
+        880,
+        170
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "close",
+      "asset": "assets/common/close.png",
+      "region": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        108,
+        200,
+        330,
+        66
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_selected.png",
+      "region": [
+        450,
+        200,
+        330,
+        66
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "detail-dropdown",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        407,
+        383,
+        603,
+        63
+      ],
+      "resize": "nine",
+      "sourceControlKey": "GuestList:WIDX_INFO_TYPE_DROPDOWN"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_card.png",
+      "region": [
+        110,
+        477,
+        1684,
+        383
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "selected-data-row",
+      "asset": "assets/common/secondary_selected.png",
+      "region": [
+        130,
+        557,
+        1644,
+        71
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/primary_normal.png",
+      "region": [
+        1592,
+        916,
+        196,
+        70
+      ],
+      "resize": "nine",
+      "state": "normal"
+    }
+  ],
+  "dataDiagrams": [
+    {
+      "role": "data-rule",
+      "points": [
+        [
+          118,
+          358
+        ],
+        [
+          1786,
+          358
+        ]
+      ],
+      "color": "#B28C43",
+      "width": 1
+    }
+  ],
+  "layoutIssues": [],
+  "fontDistribution": "Official OFL-licensed fonts are included in assets/fonts; see records/font-sources.json.",
+  "status": "produced_pending_review",
+  "sourceControlBindings": [
+    {
+      "unit": "GuestList",
+      "controlId": "WIDX_BACKGROUND",
+      "sourceControlKey": "GuestList:WIDX_BACKGROUND",
+      "rectTopLeftXYWH": [
+        52,
+        96,
+        1816,
+        930
+      ],
+      "role": "window-structure",
+      "sourcePageGroups": [
+        "个体",
+        "汇总"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/GuestList.cpp",
+        "line": 45
+      },
+      "sourceWidgetType": "frame",
+      "condition": "汇总页不显示姓名筛选、追踪或地图按钮；点选一行进入对应的个体筛选列表。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "GuestList",
+      "controlId": "WIDX_TITLE",
+      "sourceControlKey": "GuestList:WIDX_TITLE",
+      "rectTopLeftXYWH": [
+        520,
+        22,
+        880,
+        170
+      ],
+      "role": "window-structure",
+      "sourcePageGroups": [
+        "个体",
+        "汇总"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/GuestList.cpp",
+        "line": 46
+      },
+      "sourceWidgetType": "caption",
+      "condition": "汇总页不显示姓名筛选、追踪或地图按钮；点选一行进入对应的个体筛选列表。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "GuestList",
+      "controlId": "WIDX_CLOSE",
+      "sourceControlKey": "GuestList:WIDX_CLOSE",
+      "rectTopLeftXYWH": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "role": "window-structure",
+      "sourcePageGroups": [
+        "个体",
+        "汇总"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/GuestList.cpp",
+        "line": 47
+      },
+      "sourceWidgetType": "closeBox",
+      "condition": "汇总页不显示姓名筛选、追踪或地图按钮；点选一行进入对应的个体筛选列表。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "GuestList",
+      "controlId": "WIDX_TAB_1",
+      "sourceControlKey": "GuestList:WIDX_TAB_1",
+      "rectTopLeftXYWH": [
+        108,
+        200,
+        330,
+        66
+      ],
+      "role": "source-navigation",
+      "sourcePageGroups": [
+        "个体",
+        "汇总"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/GuestList.cpp",
+        "line": 56
+      },
+      "sourceWidgetType": "tab",
+      "condition": "汇总页不显示姓名筛选、追踪或地图按钮；点选一行进入对应的个体筛选列表。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "GuestList",
+      "controlId": "WIDX_TAB_2",
+      "sourceControlKey": "GuestList:WIDX_TAB_2",
+      "rectTopLeftXYWH": [
+        450,
+        200,
+        330,
+        66
+      ],
+      "role": "source-navigation",
+      "sourcePageGroups": [
+        "个体",
+        "汇总"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/GuestList.cpp",
+        "line": 57
+      },
+      "sourceWidgetType": "tab",
+      "condition": "汇总页不显示姓名筛选、追踪或地图按钮；点选一行进入对应的个体筛选列表。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "GuestList",
+      "controlId": "WIDX_INFO_TYPE_DROPDOWN",
+      "sourceControlKey": "GuestList:WIDX_INFO_TYPE_DROPDOWN",
+      "rectTopLeftXYWH": [
+        407,
+        383,
+        603,
+        63
+      ],
+      "role": "dropdown",
+      "sourcePageGroups": [
+        "个体",
+        "汇总"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/GuestList.cpp",
+        "line": 51
+      },
+      "sourceWidgetType": "dropdownMenu",
+      "condition": "汇总页不显示姓名筛选、追踪或地图按钮；点选一行进入对应的个体筛选列表。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "GuestList",
+      "controlId": "WIDX_INFO_TYPE_DROPDOWN_BUTTON",
+      "sourceControlKey": "GuestList:WIDX_INFO_TYPE_DROPDOWN_BUTTON",
+      "rectTopLeftXYWH": [
+        963,
+        387,
+        40,
+        55
+      ],
+      "role": "dropdown-arrow",
+      "sourcePageGroups": [
+        "个体",
+        "汇总"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/GuestList.cpp",
+        "line": 52
+      },
+      "sourceWidgetType": "button",
+      "condition": "汇总页不显示姓名筛选、追踪或地图按钮；点选一行进入对应的个体筛选列表。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "GuestList",
+      "controlId": "WIDX_GUEST_LIST",
+      "sourceControlKey": "GuestList:WIDX_GUEST_LIST",
+      "rectTopLeftXYWH": [
+        110,
+        477,
+        1684,
+        383
+      ],
+      "role": "selectable-data-list",
+      "sourcePageGroups": [
+        "个体",
+        "汇总"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/GuestList.cpp",
+        "line": 58
+      },
+      "sourceWidgetType": "scroll",
+      "condition": "汇总页不显示姓名筛选、追踪或地图按钮；点选一行进入对应的个体筛选列表。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    }
+  ],
+  "productDetailPurpose": "additional_actual_product_ui_layout"
+}

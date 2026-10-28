@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_ride-construction_04-booster.jpg",
+  "sha256": "a4483646348166ab75ddee9bf592ebb77f4b66dd9e04f10b33e2f149a7443426",
+  "derivedFrom": [
+    {
+      "file": "designs/details/ride-construction/04-booster.png",
+      "sha256": "cbc924d29e10a7f5c7ce86687af95ef23a60ae8a139074af1399b412a9548de6",
+      "sourceRecord": "designs/details/ride-construction/04-booster.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

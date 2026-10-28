@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/load-save_03.jpg",
+  "sha256": "b12f39d93e05d05a1500154d12cfebe4088c59bac126885b19f32d78197a843a",
+  "derivedFrom": [
+    {
+      "file": "designs/load-save/03-场景.png",
+      "sha256": "51ead1b6401b0e60f003d1e7b8320526d9cbdce0eddda5a3ff99ac628c6b866d",
+      "sourceRecord": "designs/load-save/03-场景.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/operations_guest_01-guest-actions.jpg",
+  "sha256": "11ea8884d4dfded25b45c7aa10fad91b885aea39d2eba5ba76af280ac1fffb90",
+  "derivedFrom": [
+    {
+      "file": "designs/details/guest-ops/01-guest-actions.png",
+      "sha256": "ce5a86c04983898562ba648471fe16dab7eb80dab75deae9854151d51f9f6807",
+      "sourceRecord": "designs/details/guest-ops/01-guest-actions.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

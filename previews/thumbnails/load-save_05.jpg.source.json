@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/load-save_05.jpg",
+  "sha256": "440b7bdfc118351629dce7d69c92b66528dd0f285ea8d998fa554c00bf08f8d8",
+  "derivedFrom": [
+    {
+      "file": "designs/load-save/05-高度图.png",
+      "sha256": "44051b8f1080ca78cc76d288292c07c3e28568f7eb983afcb71baa310aaf0d23",
+      "sourceRecord": "designs/load-save/05-高度图.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

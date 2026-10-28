@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_footpath_04-mode-switch.jpg",
+  "sha256": "914763564514ceda6c7fefa7cc5b470d036bbf1300457e840628dc9bd981380c",
+  "derivedFrom": [
+    {
+      "file": "designs/details/footpath/04-mode-switch.png",
+      "sha256": "5ff40b94a0236be6aac42242d66d2f49dc0171a4243d3b8088c8d5a31446c95a",
+      "sourceRecord": "designs/details/footpath/04-mode-switch.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

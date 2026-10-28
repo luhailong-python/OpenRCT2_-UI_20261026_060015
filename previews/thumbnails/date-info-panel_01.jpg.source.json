@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/date-info-panel_01.jpg",
+  "sha256": "5cb29c27c47c163a7dc811605fb56d85814dc22ba9587038328443476ed3becb",
+  "derivedFrom": [
+    {
+      "file": "designs/date-info-panel/01-日期天气.png",
+      "sha256": "f478c0e769dc577d4c1715332241127cde919c5897863a7650ade0c6094fcbfc",
+      "sourceRecord": "designs/date-info-panel/01-日期天气.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

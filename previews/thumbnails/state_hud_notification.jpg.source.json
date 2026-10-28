@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_hud_notification.jpg",
+  "sha256": "3adbd9b1ce4aafc91835b45b65d4e3724ce057a7799a16aa27fe98fa622c5284",
+  "derivedFrom": [
+    {
+      "file": "previews/states/hud/notification.png",
+      "sha256": "77b2ca260f66b4a7bd2c1a24290bdb8acbd2d0dc27048f820d7dbab7fb76d843",
+      "sourceRecord": "previews/states/hud/notification.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

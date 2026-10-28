@@ -1,0 +1,599 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/details/options/02-渲染-01.png",
+  "sha256": "1726c53799b900bbef25b3ca2dd842545ed7a074052f72bf5ee59f41bf543daa",
+  "exportedAt": "2026-10-26T08:00:04.353346-04:00",
+  "width": 1920,
+  "height": 1080,
+  "format": "PNG",
+  "operation": "composite_preview_not_native_generation",
+  "process": [
+    "Nine-slice/contain/cover composition of painted PNG sprites",
+    "Separate Chinese text typesetting and data diagrams"
+  ],
+  "resampling": "LANCZOS where art is fitted; output dimensions do not represent new native generated detail.",
+  "nativeModelClaim": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidencePolicy": "Resolve original AI model/quality through each source asset record; unreported values remain unconfirmed.",
+  "derivedFrom": [
+    {
+      "file": "assets/backgrounds/park-day-native.png",
+      "sha256": "27c3ac998fcd81e675c9a05712ead25c83443b133844c169d1476c3cebe25712",
+      "nativeDimensions": [
+        1672,
+        941
+      ],
+      "generationRecord": "assets/backgrounds/park-day-native.png.generation.json",
+      "derivationRecord": "assets/slice-manifest.json"
+    },
+    {
+      "file": "assets/common/panel_main.png",
+      "sha256": "704856762248133110624f38365e0ff337dd1f2f6304f66298e2230077ebca00",
+      "nativeDimensions": [
+        619,
+        610
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_main.png.source.json"
+    },
+    {
+      "file": "assets/common/title_plate.png",
+      "sha256": "f1011dd30d1ef42cbeedf64f31025c6c77c91ffbbcdd09ef74c065ad1d91ddfe",
+      "nativeDimensions": [
+        594,
+        195
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/title_plate.png.source.json"
+    },
+    {
+      "file": "assets/common/close.png",
+      "sha256": "f9089fdc15bfbfbd496d9c02de94c46b0e1e4052fffa9689de0b461e043737ec",
+      "nativeDimensions": [
+        184,
+        184
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/close.png.source.json"
+    },
+    {
+      "file": "assets/common/panel_card.png",
+      "sha256": "b82ed16e818b3bb86c16a68453bc4b73f1764c6fdb4541c2e470e5c60789568e",
+      "nativeDimensions": [
+        589,
+        558
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_card.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_normal.png",
+      "sha256": "9327a3d9577111e5985e3453a8a201010887c606a094b7e080421417aef3f92e",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_selected.png",
+      "sha256": "119a81554b9e332d698f5c704813cb047fcd4c5c71e9e5c36c7b6df6b4a789b9",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_selected.png.source.json"
+    },
+    {
+      "file": "assets/common/checkbox_on.png",
+      "sha256": "b986cc788cbae485e12a8a778be057715201d11e3d1154776881966b680b77b9",
+      "nativeDimensions": [
+        128,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/checkbox_on.png.source.json"
+    },
+    {
+      "file": "assets/common/secondary_normal.png",
+      "sha256": "5f6418c0ede62320bc017ef1f00ec1d60a5d5fc34dac8c4e96d0016e6523881f",
+      "nativeDimensions": [
+        256,
+        112
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/secondary_normal.png.source.json"
+    }
+  ],
+  "layoutRecord": "designs/details/options/02-渲染-01.layout.json",
+  "functionalReference": {
+    "functionalRepository": "https://github.com/OpenRCT2/OpenRCT2.git",
+    "commit": "52a55c3e8da5972460642bdfed61d091fe9cabfd",
+    "sourceUnit": "Options",
+    "sourceFiles": [
+      "src/openrct2-ui/windows/Options.cpp"
+    ],
+    "condition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+    "scope": "Complete controls arranged as an actual product UI proposal; no runtime verification.",
+    "sourceControls": [
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_TILE_SMOOTHING_CHECKBOX"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_TILE_SMOOTHING_CHECKBOX",
+        "screenId": "detail:options:02-渲染-01",
+        "region": [
+          390,
+          300,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "地表边缘平滑",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 133
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 315,
+              "sourceExpression": "makeWidget({ 10, kFrameRenderingStart + 15}, {281,  12}, WidgetType::checkbox,     WindowColour::secondary, STR_TILE_SMOOTHING,         STR_TILE_SMOOTHING_TIP        )",
+              "sourceStringIds": [
+                "STR_TILE_SMOOTHING",
+                "STR_TILE_SMOOTHING_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_GRIDLINES_CHECKBOX"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_GRIDLINES_CHECKBOX",
+        "screenId": "detail:options:02-渲染-01",
+        "region": [
+          1108,
+          300,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "地表网格",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 134
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 316,
+              "sourceExpression": "makeWidget({ 10, kFrameRenderingStart + 30}, {281,  12}, WidgetType::checkbox,     WindowColour::secondary, STR_GRIDLINES,              STR_GRIDLINES_TIP             )",
+              "sourceStringIds": [
+                "STR_GRIDLINES",
+                "STR_GRIDLINES_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_UPPER_CASE_BANNERS_CHECKBOX"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_UPPER_CASE_BANNERS_CHECKBOX",
+        "screenId": "detail:options:02-渲染-01",
+        "region": [
+          390,
+          396,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "横幅上显示全大写字母",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 135
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 317,
+              "sourceExpression": "makeWidget({ 10, kFrameRenderingStart + 45}, {281,  12}, WidgetType::checkbox,     WindowColour::secondary, STR_UPPERCASE_BANNERS,      STR_UPPERCASE_BANNERS_TIP     )",
+              "sourceStringIds": [
+                "STR_UPPERCASE_BANNERS",
+                "STR_UPPERCASE_BANNERS_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_SHOW_GUEST_PURCHASES_CHECKBOX"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_SHOW_GUEST_PURCHASES_CHECKBOX",
+        "screenId": "detail:options:02-渲染-01",
+        "region": [
+          1108,
+          396,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "将游客的购买行为用动画表现",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 136
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 318,
+              "sourceExpression": "makeWidget({ 10, kFrameRenderingStart + 60}, {281,  12}, WidgetType::checkbox,     WindowColour::secondary, STR_SHOW_GUEST_PURCHASES,   STR_SHOW_GUEST_PURCHASES_TIP  )",
+              "sourceStringIds": [
+                "STR_SHOW_GUEST_PURCHASES",
+                "STR_SHOW_GUEST_PURCHASES_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_TRANSPARENT_SCREENSHOTS_CHECKBOX"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_TRANSPARENT_SCREENSHOTS_CHECKBOX",
+        "screenId": "detail:options:02-渲染-01",
+        "region": [
+          390,
+          492,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "大型截图使用透明背景",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 137
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 319,
+              "sourceExpression": "makeWidget({ 10, kFrameRenderingStart + 75}, {281,  12}, WidgetType::checkbox,     WindowColour::secondary, STR_TRANSPARENT_SCREENSHOT, STR_TRANSPARENT_SCREENSHOT_TIP)",
+              "sourceStringIds": [
+                "STR_TRANSPARENT_SCREENSHOT",
+                "STR_TRANSPARENT_SCREENSHOT_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_VIRTUAL_FLOOR"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_VIRTUAL_FLOOR",
+        "screenId": "detail:options:02-渲染-01",
+        "region": [
+          1112,
+          528,
+          608,
+          52
+        ],
+        "visualKind": "dropdown",
+        "label": "虚拟楼层",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "dropdownMenu",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 139
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "dropdownMenu",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 321,
+              "sourceExpression": "makeWidget({155, kFrameRenderingStart + 90}, {145,  14}, WidgetType::dropdownMenu, WindowColour::secondary, kStringIdNone,              STR_VIRTUAL_FLOOR_STYLE_TIP   )",
+              "sourceStringIds": [
+                "STR_VIRTUAL_FLOOR_STYLE_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_VIRTUAL_FLOOR_DROPDOWN"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_VIRTUAL_FLOOR_DROPDOWN",
+        "screenId": "detail:options:02-渲染-01",
+        "region": [
+          1724,
+          528,
+          66,
+          52
+        ],
+        "visualKind": "dropdown-button",
+        "label": "虚拟楼层选择",
+        "state": "normal",
+        "parentControl": "WIDX_VIRTUAL_FLOOR",
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 140
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 322,
+              "sourceExpression": "makeWidget({288, kFrameRenderingStart + 91}, { 11,  12}, WidgetType::button,       WindowColour::secondary, STR_DROPDOWN_GLYPH,         STR_VIRTUAL_FLOOR_STYLE_TIP   )",
+              "sourceStringIds": [
+                "STR_DROPDOWN_GLYPH",
+                "STR_VIRTUAL_FLOOR_STYLE_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_DAY_NIGHT_CHECKBOX"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_DAY_NIGHT_CHECKBOX",
+        "screenId": "detail:options:02-渲染-01",
+        "region": [
+          390,
+          588,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "日夜循环",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 142
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 325,
+              "sourceExpression": "makeWidget({10, kFrameEffectStart + 15}, {281, 12}, WidgetType::checkbox, WindowColour::secondary, STR_CYCLE_DAY_NIGHT,          STR_CYCLE_DAY_NIGHT_TIP         )",
+              "sourceStringIds": [
+                "STR_CYCLE_DAY_NIGHT",
+                "STR_CYCLE_DAY_NIGHT_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_ENABLE_LIGHT_FX_CHECKBOX"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_ENABLE_LIGHT_FX_CHECKBOX",
+        "screenId": "detail:options:02-渲染-01",
+        "region": [
+          1108,
+          588,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "启用光照效果（实验性质）",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 143
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 326,
+              "sourceExpression": "makeWidget({25, kFrameEffectStart + 30}, {266, 12}, WidgetType::checkbox, WindowColour::secondary, STR_ENABLE_LIGHTING_EFFECTS,  STR_ENABLE_LIGHTING_EFFECTS_TIP )",
+              "sourceStringIds": [
+                "STR_ENABLE_LIGHTING_EFFECTS",
+                "STR_ENABLE_LIGHTING_EFFECTS_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 1144,
+            "expression": "                && Config::Get().general.drawingEngine == DrawingEngine::softwareWithHardwareDisplay;             setWidgetDisabled(WIDX_ENABLE_LIGHT_FX_CHECKBOX, !lightFxEnabled);             if (!lightFxEnabled)                 Config::Get().general.enableLightFx = false;"
+          }
+        ],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_ENABLE_LIGHT_FX_FOR_VEHICLES_CHECKBOX"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_ENABLE_LIGHT_FX_FOR_VEHICLES_CHECKBOX",
+        "screenId": "detail:options:02-渲染-01",
+        "region": [
+          390,
+          684,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "开启灯光效果（实验性）",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 144
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 327,
+              "sourceExpression": "makeWidget({40, kFrameEffectStart + 45}, {251, 12}, WidgetType::checkbox, WindowColour::secondary, STR_ENABLE_LIGHTING_VEHICLES, STR_ENABLE_LIGHTING_VEHICLES_TIP)",
+              "sourceStringIds": [
+                "STR_ENABLE_LIGHTING_VEHICLES",
+                "STR_ENABLE_LIGHTING_VEHICLES_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 1150,
+            "expression": "            const bool lightFxForVehiclesEnabled = lightFxEnabled && Config::Get().general.enableLightFx;             setWidgetDisabled(WIDX_ENABLE_LIGHT_FX_FOR_VEHICLES_CHECKBOX, !lightFxForVehiclesEnabled);             if (!lightFxForVehiclesEnabled)                 Config::Get().general.enableLightFxForVehicles = false;"
+          }
+        ],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_RENDER_WEATHER_EFFECTS_CHECKBOX"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_RENDER_WEATHER_EFFECTS_CHECKBOX",
+        "screenId": "detail:options:02-渲染-01",
+        "region": [
+          1108,
+          684,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "渲染天气效果",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 145
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 328,
+              "sourceExpression": "makeWidget({10, kFrameEffectStart + 60}, {281, 12}, WidgetType::checkbox, WindowColour::secondary, STR_RENDER_WEATHER_EFFECTS,   STR_RENDER_WEATHER_EFFECTS_TIP  )",
+              "sourceStringIds": [
+                "STR_RENDER_WEATHER_EFFECTS",
+                "STR_RENDER_WEATHER_EFFECTS_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      }
+    ],
+    "decorativeArtPolicy": "Existing painted PNGs only"
+  },
+  "status": "produced_pending_review"
+}

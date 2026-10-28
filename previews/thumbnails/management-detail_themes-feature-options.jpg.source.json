@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/management-detail_themes-feature-options.jpg",
+  "sha256": "047270d0db642187bb1ea9649449c24008183f74fbac07eab45e99dae251f3e9",
+  "derivedFrom": [
+    {
+      "file": "designs/details/management/themes-feature-options.png",
+      "sha256": "8f3c5065677967bb0139a85f69c704ccd632d8f6d138d81536d3b0ff4fd3528b",
+      "sourceRecord": "designs/details/management/themes-feature-options.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

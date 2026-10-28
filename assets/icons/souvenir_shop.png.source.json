@@ -1,0 +1,60 @@
+{
+  "name": "souvenir_shop",
+  "file": "assets/icons/souvenir_shop.png",
+  "width": 192,
+  "height": 192,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "d57b0b9f79526b5da69ebbc2c172c76b311d0d93babaec8c0bd3fe9ae8e28450",
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "resizeAxes": "none",
+  "minimumSize": [
+    192,
+    192
+  ],
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "pixelsPerUnit": 100,
+  "containsDynamicText": false,
+  "source": "assets/masters/icons-native.png",
+  "sourceSha256": "d0f99448ab11be63840698af42b9839ab68ffc6b13a4ac654a5ab3252620f8c6",
+  "sourceNativeSize": [
+    1254,
+    1254
+  ],
+  "sourceRectTopLeftXYXY": [
+    333,
+    218,
+    475,
+    379
+  ],
+  "pasteOffset": [
+    25,
+    15
+  ],
+  "operation": "Original-pixel crop; isolate specified alpha>100 connected silhouettes, retain original alpha>=16 within 2px edge support; center on padded canvas. No recoloring, painting, AI call or upscaling.",
+  "derivedFrom": {
+    "file": "assets/masters/icons-native.png",
+    "sha256": "d0f99448ab11be63840698af42b9839ab68ffc6b13a4ac654a5ab3252620f8c6",
+    "generationRecord": "assets/masters/icons-native.png.generation.json"
+  },
+  "alpha": {
+    "minimum": 0,
+    "maximum": 255,
+    "transparentPixels": 20154,
+    "visiblePixels": 16710
+  },
+  "isolatedForegroundComponents": 1,
+  "qualityStatus": "passed_slice_visual_review_20261026",
+  "nativeDetailIncreased": false,
+  "processedAt": "2026-10-26T06:14:37.164019-04:00",
+  "rowMajorIndex": 11,
+  "visualEvidence": "docs/sprite-qa.md; previews/sprites-contact.jpg"
+}

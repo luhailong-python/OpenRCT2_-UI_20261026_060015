@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_mapgen_heightmap-required.jpg",
+  "sha256": "965f5a37923789d6f942528a176f54060695d5d195c084dcfc1d1db6e4f01c9e",
+  "derivedFrom": [
+    {
+      "file": "previews/states/mapgen/heightmap-required.png",
+      "sha256": "43c089fcc37cdc81310ddbf85339d867f6cdde883eb7d48946caba0708e4686e",
+      "sourceRecord": "previews/states/mapgen/heightmap-required.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

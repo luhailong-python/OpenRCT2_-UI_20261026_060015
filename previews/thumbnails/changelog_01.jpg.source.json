@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/changelog_01.jpg",
+  "sha256": "378c2c8a2ff47b442cd38ca2eae39f1bb3718dadeea075b470cdf7dcb37aaf6f",
+  "derivedFrom": [
+    {
+      "file": "designs/changelog/01-更新日志.png",
+      "sha256": "7d78ef63644f5af64f3e6aa6ed4629d5222f568f1d1f460afcf2a8ce84927de4",
+      "sourceRecord": "designs/changelog/01-更新日志.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

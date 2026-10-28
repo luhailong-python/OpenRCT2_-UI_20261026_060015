@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/cheats_02.jpg",
+  "sha256": "a7c82ee043e8bdc499fddc2caa44fb71d2e2158f5504aa2cb40031553a457d8b",
+  "derivedFrom": [
+    {
+      "file": "designs/cheats/02-日期.png",
+      "sha256": "33e45b9e4fd135c333a3c7c7be8d6be02ee843a9d6312ba2799f9cfdadde4b10",
+      "sourceRecord": "designs/cheats/02-日期.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

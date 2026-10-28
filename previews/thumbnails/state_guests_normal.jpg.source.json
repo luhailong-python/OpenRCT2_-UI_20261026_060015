@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_guests_normal.jpg",
+  "sha256": "7534c4968943235688e4ca151f4381ca783d42f1291295b29688c3cbce7ee77e",
+  "derivedFrom": [
+    {
+      "file": "previews/states/guests/normal.png",
+      "sha256": "fe9e6674b50fb75dbfd9880fa670b22fdef0a7705e5b5eb93a4b183d4a035ed9",
+      "sourceRecord": "previews/states/guests/normal.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

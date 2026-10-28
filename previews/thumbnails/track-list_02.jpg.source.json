@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/track-list_02.jpg",
+  "sha256": "04d4329f20366c75af90ac6611329752c70250e48ad968d703c67a6c5a573056",
+  "derivedFrom": [
+    {
+      "file": "designs/track-list/02-详情.png",
+      "sha256": "8006bca7a06de9093ae8e89124c652b3a0bf08e1d5c49455d18183a087d951df",
+      "sourceRecord": "designs/track-list/02-详情.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

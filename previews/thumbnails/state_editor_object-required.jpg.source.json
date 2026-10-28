@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_editor_object-required.jpg",
+  "sha256": "e75fbbdfa1165baea585ae3d930022bc11ac0bdc7d53998a3a75fd45484457d7",
+  "derivedFrom": [
+    {
+      "file": "previews/states/editor/object-required.png",
+      "sha256": "35b66c14ad18223e8bec32ebe27b457b5c06958aab6caacce1adb17dbd36423f",
+      "sourceRecord": "previews/states/editor/object-required.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

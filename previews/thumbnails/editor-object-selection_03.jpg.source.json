@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/editor-object-selection_03.jpg",
+  "sha256": "900d5f174e324bc3154973126e3305bf4b5f134ec3f9d63f0c8581762a7721b7",
+  "derivedFrom": [
+    {
+      "file": "designs/editor-object-selection/03-步道.png",
+      "sha256": "e4535b425ca679358e4a1a41a749524120ecf3f759a53e69c1068877d57273b8",
+      "sourceRecord": "designs/editor-object-selection/03-步道.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "file": "previews/flows/01-core-loop.png",
+    "title": "经营系统与反馈循环",
+    "sourceRecord": "previews\\flows\\01-core-loop.source.json",
+    "layoutFile": "previews\\flows\\01-core-loop.layout.json"
+  },
+  {
+    "file": "previews/flows/02-ride-flow.png",
+    "title": "设施建造与运营流程",
+    "sourceRecord": "previews\\flows\\02-ride-flow.source.json",
+    "layoutFile": "previews\\flows\\02-ride-flow.layout.json"
+  },
+  {
+    "file": "previews/flows/03-editor-flow.png",
+    "title": "场景编辑与保存流程",
+    "sourceRecord": "previews\\flows\\03-editor-flow.source.json",
+    "layoutFile": "previews\\flows\\03-editor-flow.layout.json"
+  },
+  {
+    "file": "previews/flows/04-multiplayer-flow.png",
+    "title": "多人协作与异常返回",
+    "sourceRecord": "previews\\flows\\04-multiplayer-flow.source.json",
+    "layoutFile": "previews\\flows\\04-multiplayer-flow.layout.json"
+  }
+]

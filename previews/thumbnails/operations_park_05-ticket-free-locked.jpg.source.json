@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/operations_park_05-ticket-free-locked.jpg",
+  "sha256": "1e74ad5181336bcb8a4fd116889814b62e8055f8401a018866ef69f8d49a549a",
+  "derivedFrom": [
+    {
+      "file": "designs/details/park-ops/05-ticket-free-locked.png",
+      "sha256": "26187bb86640dc56e7eaa5a9d263b265864fd41753a97c55bbc616e534e472eb",
+      "sourceRecord": "designs/details/park-ops/05-ticket-free-locked.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_tile-inspector_09-entrance.jpg",
+  "sha256": "435a0bdfc121eb34b2fa7bdbc04e648228ef8f085f08ed4473e6440dba5b4aa6",
+  "derivedFrom": [
+    {
+      "file": "designs/details/tile-inspector/09-entrance.png",
+      "sha256": "7fb097d2bbf06cd1d665a6d6876e31e90a0882fcc7613ed532c941030a6d4f41",
+      "sourceRecord": "designs/details/tile-inspector/09-entrance.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

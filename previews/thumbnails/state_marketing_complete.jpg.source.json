@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_marketing_complete.jpg",
+  "sha256": "6d3195e699bb72136514f5d4ec8bdc9840c64c79041b8656e274f826430e5038",
+  "derivedFrom": [
+    {
+      "file": "previews/states/marketing/complete.png",
+      "sha256": "7f48cb32a54c53042cbfe2bbc17d61dab27eac797cc5c735bf2d54567fdcf6a6",
+      "sourceRecord": "previews/states/marketing/complete.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

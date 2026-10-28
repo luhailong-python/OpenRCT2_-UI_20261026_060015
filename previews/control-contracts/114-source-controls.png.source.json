@@ -1,0 +1,38 @@
+{
+  "file": "previews/control-contracts/114-source-controls.png",
+  "sha256": "e50e29c5e88077a5fd23ffa1823e20ce1a08b81272d2a103a8c618bd78c1b10c",
+  "width": 1920,
+  "height": 1080,
+  "format": "PNG",
+  "operation": "Deterministic QA contract composition from existing painted shared sprites, native text and technical grid; resizing, valid nine-slice and rotated scrollbar-track review samples. Review thumbnails are not new native AI detail or product placement.",
+  "processedAt": "2026-10-26T06:34:12.948672-04:00",
+  "route": "deterministic_postprocess_no_AI_call",
+  "derivedFrom": [
+    {
+      "file": "assets/common/secondary_disabled.png",
+      "sha256": "9033970323911aa959f63cbcc180f5dec0edcdea230ea0ef5a9f91d281b60f89",
+      "sourceRecord": "assets/common/secondary_disabled.png.source.json"
+    },
+    {
+      "file": "assets/common/secondary_normal.png",
+      "sha256": "5f6418c0ede62320bc017ef1f00ec1d60a5d5fc34dac8c4e96d0016e6523881f",
+      "sourceRecord": "assets/common/secondary_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/secondary_pressed.png",
+      "sha256": "6cab02d5d2e5aad5decf8fc40a365508b1f76aee318657e37d74e3a2a21488f8",
+      "sourceRecord": "assets/common/secondary_pressed.png.source.json"
+    }
+  ],
+  "sourceControlMapping": {
+    "file": "docs/control-resource-mapping.json",
+    "sha256BeforeDisplayEvidence": "f645bea41a5083d37be57f8118473a6b13e802438982a81d831bd1958cc2410c"
+  },
+  "font": {
+    "file": "assets/fonts/NotoSansCJKsc-Regular.otf",
+    "license": "OFL-1.1"
+  },
+  "scope": "source control skin contract review only",
+  "nativeDetailIncreased": false,
+  "unityStatus": "not_imported_not_runtime_validated"
+}

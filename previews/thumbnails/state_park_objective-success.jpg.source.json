@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_park_objective-success.jpg",
+  "sha256": "bd1f940d40ad12ea98e5b3aded8dc3b24b55d621a9ddd2b7a0736fc55868b46e",
+  "derivedFrom": [
+    {
+      "file": "previews/states/park/objective-success.png",
+      "sha256": "a017c77c9fc0dd63a30c6cd9aa93d86ec6d36ae7b37a1bf6ca4d280947c744ae",
+      "sourceRecord": "previews/states/park/objective-success.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

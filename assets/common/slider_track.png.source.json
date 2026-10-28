@@ -1,0 +1,59 @@
+{
+  "name": "slider_track",
+  "file": "assets/common/slider_track.png",
+  "width": 296,
+  "height": 64,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "5919ec4975d82d653e74d39f750cf8ecd6412694fe8f0c85bec4629bb7b9d0b2",
+  "borderLeftBottomRightTop": [
+    27,
+    18,
+    27,
+    18
+  ],
+  "resizeAxes": "horizontal",
+  "minimumSize": [
+    55,
+    37
+  ],
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "pixelsPerUnit": 100,
+  "containsDynamicText": false,
+  "source": "assets/masters/controls-native.png",
+  "sourceSha256": "54c9e9d6ea95d48c712bc1a103c787388816cff0990507e2138c7a55186592a5",
+  "sourceNativeSize": [
+    1024,
+    1536
+  ],
+  "sourceRectTopLeftXYXY": [
+    21,
+    1347,
+    307,
+    1391
+  ],
+  "pasteOffset": [
+    5,
+    10
+  ],
+  "operation": "Original-pixel crop; isolate specified alpha>100 connected silhouettes, retain original alpha>=16 within 2px edge support; center on padded canvas. No recoloring, painting, AI call or upscaling.",
+  "derivedFrom": {
+    "file": "assets/masters/controls-native.png",
+    "sha256": "54c9e9d6ea95d48c712bc1a103c787388816cff0990507e2138c7a55186592a5",
+    "generationRecord": "assets/masters/controls-native.png.generation.json"
+  },
+  "alpha": {
+    "minimum": 0,
+    "maximum": 253,
+    "transparentPixels": 7240,
+    "visiblePixels": 11704
+  },
+  "isolatedForegroundComponents": 1,
+  "qualityStatus": "passed_slice_visual_review_20261026",
+  "nativeDetailIncreased": false,
+  "processedAt": "2026-10-26T06:14:35.570454-04:00",
+  "visualEvidence": "docs/sprite-qa.md; previews/sprites-contact.jpg"
+}

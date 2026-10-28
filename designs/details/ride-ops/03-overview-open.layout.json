@@ -1,0 +1,2205 @@
+{
+  "schemaVersion": 1,
+  "screenId": "operations:ride:03-overview-open",
+  "title": "设施经营",
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "origin": "top-left",
+  "textLayers": [
+    {
+      "id": "text-001",
+      "text": "设施经营",
+      "role": "dynamic-text",
+      "region": [
+        620,
+        66,
+        680,
+        75
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 46,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 65,
+      "wrappedLines": [
+        "设施经营"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-002",
+      "text": "概览",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        231,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "概览"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-003",
+      "text": "车辆",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        301,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "车辆"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-004",
+      "text": "运行",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        371,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "运行"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-005",
+      "text": "维护",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        441,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "维护"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-006",
+      "text": "配色",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        511,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "配色"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-007",
+      "text": "音乐",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        581,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "音乐"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-008",
+      "text": "测试",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        651,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "测试"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-009",
+      "text": "图表",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        721,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "图表"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-010",
+      "text": "收入",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        791,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "收入"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-011",
+      "text": "游客",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        861,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "游客"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-012",
+      "text": "概览",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        218,
+        1388,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 32,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 45,
+      "wrappedLines": [
+        "概览"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-013",
+      "text": "美术设计样例 · 名称 / 数值待定",
+      "role": "dynamic-text",
+      "region": [
+        600,
+        1046,
+        720,
+        28
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "美术设计样例 · 名称 / 数值待定"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-014",
+      "text": "游龙飞车",
+      "role": "dynamic-text",
+      "region": [
+        460,
+        423,
+        262,
+        37
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "游龙飞车"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-015",
+      "text": "观察位置",
+      "role": "dynamic-text",
+      "region": [
+        412,
+        292,
+        719,
+        34
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "观察位置"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-016",
+      "text": "整体设施",
+      "role": "dynamic-text",
+      "region": [
+        444,
+        336,
+        615,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "整体设施"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-017",
+      "text": "▼",
+      "role": "dynamic-text",
+      "region": [
+        1072,
+        336,
+        40,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "▼"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-018",
+      "text": "当前状态：营业中",
+      "role": "dynamic-text",
+      "region": [
+        425,
+        825,
+        690,
+        40
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 25,
+      "color": "#397D60",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "当前状态：营业中"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-019",
+      "text": "设施运行状态",
+      "role": "dynamic-text",
+      "region": [
+        1170,
+        292,
+        608,
+        34
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "设施运行状态"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-020",
+      "text": "营业中",
+      "role": "dynamic-text",
+      "region": [
+        1202,
+        336,
+        504,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "营业中"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-021",
+      "text": "▼",
+      "role": "dynamic-text",
+      "region": [
+        1719,
+        336,
+        40,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "▼"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-022",
+      "text": "关闭",
+      "role": "dynamic-text",
+      "region": [
+        1190,
+        415,
+        247,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "关闭"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-023",
+      "text": "试车",
+      "role": "dynamic-text",
+      "region": [
+        1505,
+        415,
+        247,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "试车"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-024",
+      "text": "开放",
+      "role": "dynamic-text",
+      "region": [
+        1190,
+        497,
+        247,
+        37
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "开放"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-025",
+      "text": "继续建造",
+      "role": "dynamic-text",
+      "region": [
+        1190,
+        604,
+        247,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "继续建造"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-026",
+      "text": "重新命名",
+      "role": "dynamic-text",
+      "region": [
+        1505,
+        604,
+        247,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "重新命名"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-027",
+      "text": "定位设施",
+      "role": "dynamic-text",
+      "region": [
+        1190,
+        692,
+        247,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "定位设施"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-028",
+      "text": "拆除设施",
+      "role": "dynamic-text",
+      "region": [
+        1505,
+        692,
+        247,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "拆除设施"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-029",
+      "text": "修改轨道、命名与拆除均有独立后续步骤。",
+      "role": "dynamic-text",
+      "region": [
+        1170,
+        785,
+        605,
+        68
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#7A745E",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "修改轨道、命名与拆除均有独立后续步骤。"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-030",
+      "text": "返回园区",
+      "role": "dynamic-text",
+      "region": [
+        1592,
+        925,
+        172,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "返回园区"
+      ],
+      "dynamic": true
+    }
+  ],
+  "artAndControlLayers": [
+    {
+      "role": "park-background",
+      "asset": "assets/backgrounds/park-day-native.png",
+      "region": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "resize": "cover"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_main.png",
+      "region": [
+        52,
+        96,
+        1816,
+        930
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "title-plaque",
+      "asset": "assets/common/title_plate.png",
+      "region": [
+        520,
+        22,
+        880,
+        170
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "close",
+      "asset": "assets/common/close.png",
+      "region": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_card.png",
+      "region": [
+        84,
+        208,
+        268,
+        756
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_selected.png",
+      "region": [
+        100,
+        224,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        294,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        364,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        434,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        504,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        574,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        644,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        714,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        784,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        854,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_CLOSE"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_CLOSE",
+      "screenId": "operations:ride:03-overview-open",
+      "region": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "visualKind": "close",
+      "label": "关闭窗口",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "closeBox",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 114
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "closeBox",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 260,
+            "sourceExpression": "makeWindowShim(kWindowTitle, kWindowSize)",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "closeBox"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 2455,
+          "expression": "                widgets[WIDX_OPEN].setHidden();                 widgets[WIDX_CLOSE_LIGHT].setVisible();                 widgets[WIDX_SIMULATE_LIGHT].setHidden(); #ifdef __SIMULATE_IN_RIDE_WINDOW__"
+        },
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 2484,
+          "expression": "                widgets[WIDX_OPEN].setVisible();                 widgets[WIDX_CLOSE_LIGHT].setHidden();                 widgets[WIDX_SIMULATE_LIGHT].setHidden();                 widgets[WIDX_TEST_LIGHT].setHidden();"
+        }
+      ],
+      "displayedCondition": "A steel coaster supports testing; sample status open",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_TAB_1"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_TAB_1",
+      "screenId": "operations:ride:03-overview-open",
+      "region": [
+        100,
+        224,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "概览",
+      "state": "selected",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 116
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 262,
+            "sourceExpression": "makeTab({   3, 17 }, STR_VIEW_OF_RIDE_ATTRACTION_TIP)",
+            "sourceStringIds": [
+              "STR_VIEW_OF_RIDE_ATTRACTION_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 1461,
+          "expression": "            setWidgetDisabled(WIDX_TAB_9, disableTab9);             setWidgetDisabled(WIDX_TAB_10, disableTab10);              if (getGameState().cheats.allowArbitraryRideTypeChanges)"
+        }
+      ],
+      "displayedCondition": "A steel coaster supports testing; sample status open",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_TAB_2"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_TAB_2",
+      "screenId": "operations:ride:03-overview-open",
+      "region": [
+        100,
+        294,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "车辆",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 117
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 263,
+            "sourceExpression": "makeTab({  34, 17 }, STR_VEHICLE_DETAILS_AND_OPTIONS_TIP)",
+            "sourceStringIds": [
+              "STR_VEHICLE_DETAILS_AND_OPTIONS_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 1453,
+          "expression": "             setWidgetDisabled(WIDX_TAB_2, disableTab2);             setWidgetDisabled(WIDX_TAB_3, disableTab3);             setWidgetDisabled(WIDX_TAB_4, disableTab4);"
+        }
+      ],
+      "displayedCondition": "A steel coaster supports testing; sample status open",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_TAB_3"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_TAB_3",
+      "screenId": "operations:ride:03-overview-open",
+      "region": [
+        100,
+        364,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "运行",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 118
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 264,
+            "sourceExpression": "makeTab({  65, 17 }, STR_OPERATING_OPTIONS_TIP)",
+            "sourceStringIds": [
+              "STR_OPERATING_OPTIONS_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 1454,
+          "expression": "            setWidgetDisabled(WIDX_TAB_2, disableTab2);             setWidgetDisabled(WIDX_TAB_3, disableTab3);             setWidgetDisabled(WIDX_TAB_4, disableTab4);             setWidgetDisabled(WIDX_TAB_5, disableTab5);"
+        },
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 1466,
+          "expression": "                // Keep operation and colour tabs visible for ride type cheats                 setWidgetDisabled(WIDX_TAB_3, false);                 setWidgetDisabled(WIDX_TAB_5, false);             }"
+        }
+      ],
+      "displayedCondition": "A steel coaster supports testing; sample status open",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_TAB_4"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_TAB_4",
+      "screenId": "operations:ride:03-overview-open",
+      "region": [
+        100,
+        434,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "维护",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 119
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 265,
+            "sourceExpression": "makeTab({  96, 17 }, STR_MAINTENANCE_OPTIONS_TIP)",
+            "sourceStringIds": [
+              "STR_MAINTENANCE_OPTIONS_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 1455,
+          "expression": "            setWidgetDisabled(WIDX_TAB_3, disableTab3);             setWidgetDisabled(WIDX_TAB_4, disableTab4);             setWidgetDisabled(WIDX_TAB_5, disableTab5);             setWidgetDisabled(WIDX_TAB_6, disableTab6);"
+        }
+      ],
+      "displayedCondition": "A steel coaster supports testing; sample status open",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_TAB_5"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_TAB_5",
+      "screenId": "operations:ride:03-overview-open",
+      "region": [
+        100,
+        504,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "配色",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 120
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 266,
+            "sourceExpression": "makeTab({ 127, 17 }, STR_COLOUR_SCHEME_OPTIONS_TIP)",
+            "sourceStringIds": [
+              "STR_COLOUR_SCHEME_OPTIONS_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 1456,
+          "expression": "            setWidgetDisabled(WIDX_TAB_4, disableTab4);             setWidgetDisabled(WIDX_TAB_5, disableTab5);             setWidgetDisabled(WIDX_TAB_6, disableTab6);             setWidgetDisabled(WIDX_TAB_7, disableTab7);"
+        },
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 1467,
+          "expression": "                setWidgetDisabled(WIDX_TAB_3, false);                 setWidgetDisabled(WIDX_TAB_5, false);             }         }"
+        }
+      ],
+      "displayedCondition": "A steel coaster supports testing; sample status open",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_TAB_6"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_TAB_6",
+      "screenId": "operations:ride:03-overview-open",
+      "region": [
+        100,
+        574,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "音乐",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 121
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 267,
+            "sourceExpression": "makeTab({ 158, 17 }, STR_SOUND_AND_MUSIC_OPTIONS_TIP)",
+            "sourceStringIds": [
+              "STR_SOUND_AND_MUSIC_OPTIONS_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 1457,
+          "expression": "            setWidgetDisabled(WIDX_TAB_5, disableTab5);             setWidgetDisabled(WIDX_TAB_6, disableTab6);             setWidgetDisabled(WIDX_TAB_7, disableTab7);             setWidgetDisabled(WIDX_TAB_8, disableTab8);"
+        }
+      ],
+      "displayedCondition": "A steel coaster supports testing; sample status open",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_TAB_7"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_TAB_7",
+      "screenId": "operations:ride:03-overview-open",
+      "region": [
+        100,
+        644,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "测试",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 122
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 268,
+            "sourceExpression": "makeTab({ 189, 17 }, STR_MEASUREMENTS_AND_TEST_DATA_TIP)",
+            "sourceStringIds": [
+              "STR_MEASUREMENTS_AND_TEST_DATA_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 1458,
+          "expression": "            setWidgetDisabled(WIDX_TAB_6, disableTab6);             setWidgetDisabled(WIDX_TAB_7, disableTab7);             setWidgetDisabled(WIDX_TAB_8, disableTab8);             setWidgetDisabled(WIDX_TAB_9, disableTab9);"
+        }
+      ],
+      "displayedCondition": "A steel coaster supports testing; sample status open",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_TAB_8"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_TAB_8",
+      "screenId": "operations:ride:03-overview-open",
+      "region": [
+        100,
+        714,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "图表",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 123
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 269,
+            "sourceExpression": "makeTab({ 220, 17 }, STR_GRAPHS_TIP)",
+            "sourceStringIds": [
+              "STR_GRAPHS_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 1459,
+          "expression": "            setWidgetDisabled(WIDX_TAB_7, disableTab7);             setWidgetDisabled(WIDX_TAB_8, disableTab8);             setWidgetDisabled(WIDX_TAB_9, disableTab9);             setWidgetDisabled(WIDX_TAB_10, disableTab10);"
+        }
+      ],
+      "displayedCondition": "A steel coaster supports testing; sample status open",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_TAB_9"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_TAB_9",
+      "screenId": "operations:ride:03-overview-open",
+      "region": [
+        100,
+        784,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "收入",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 124
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 270,
+            "sourceExpression": "makeTab({ 251, 17 }, STR_INCOME_AND_COSTS_TIP)",
+            "sourceStringIds": [
+              "STR_INCOME_AND_COSTS_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 1460,
+          "expression": "            setWidgetDisabled(WIDX_TAB_8, disableTab8);             setWidgetDisabled(WIDX_TAB_9, disableTab9);             setWidgetDisabled(WIDX_TAB_10, disableTab10); "
+        }
+      ],
+      "displayedCondition": "A steel coaster supports testing; sample status open",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_TAB_10"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_TAB_10",
+      "screenId": "operations:ride:03-overview-open",
+      "region": [
+        100,
+        854,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "游客",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 125
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 271,
+            "sourceExpression": "makeTab({ 282, 17 }, STR_CUSTOMER_INFORMATION_TIP)",
+            "sourceStringIds": [
+              "STR_CUSTOMER_INFORMATION_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 1461,
+          "expression": "            setWidgetDisabled(WIDX_TAB_9, disableTab9);             setWidgetDisabled(WIDX_TAB_10, disableTab10);              if (getGameState().cheats.allowArbitraryRideTypeChanges)"
+        }
+      ],
+      "displayedCondition": "A steel coaster supports testing; sample status open",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_card.png",
+      "region": [
+        404,
+        388,
+        735,
+        427
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "viewport-art",
+      "asset": "assets/backgrounds/park-day-native.png",
+      "region": [
+        420,
+        404,
+        703,
+        395
+      ],
+      "resize": "cover"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        436,
+        416,
+        310,
+        54
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_VIEWPORT"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_VIEWPORT",
+      "screenId": "operations:ride:03-overview-open",
+      "region": [
+        404,
+        388,
+        735,
+        427
+      ],
+      "visualKind": "viewport",
+      "label": "游龙飞车视图",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "viewport",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 127
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "viewport",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 277,
+            "sourceExpression": "makeWidget({  3,  62}, {288, 107}, WidgetType::viewport,      WindowColour::secondary                                                                  )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "A steel coaster supports testing; sample status open",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "value-field",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        408,
+        328,
+        727,
+        52
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_VIEW"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_VIEW",
+      "screenId": "operations:ride:03-overview-open",
+      "region": [
+        408,
+        328,
+        653,
+        52
+      ],
+      "visualKind": "dropdown",
+      "label": "观察位置",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "dropdownMenu",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 128
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "dropdownMenu",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 278,
+            "sourceExpression": "makeWidget({ 35,  46}, {222,  14}, WidgetType::dropdownMenu,  WindowColour::secondary, kWidgetContentEmpty,                 STR_VIEW_SELECTION         )",
+            "sourceStringIds": [
+              "STR_VIEW_SELECTION"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "A steel coaster supports testing; sample status open",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_VIEW_DROPDOWN"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_VIEW_DROPDOWN",
+      "screenId": "operations:ride:03-overview-open",
+      "region": [
+        1065,
+        328,
+        66,
+        52
+      ],
+      "visualKind": "dropdown-button",
+      "label": "观察位置选择",
+      "state": "normal",
+      "parentControl": "WIDX_VIEW",
+      "sourceWidgetType": "button",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 129
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "button",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 279,
+            "sourceExpression": "makeWidget({245,  47}, { 11,  12}, WidgetType::button,        WindowColour::secondary, STR_DROPDOWN_GLYPH,                  STR_VIEW_SELECTION         )",
+            "sourceStringIds": [
+              "STR_DROPDOWN_GLYPH",
+              "STR_VIEW_SELECTION"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "A steel coaster supports testing; sample status open",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_STATUS"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_STATUS",
+      "screenId": "operations:ride:03-overview-open",
+      "region": [
+        425,
+        825,
+        690,
+        40
+      ],
+      "visualKind": "status",
+      "label": "当前状态：营业中",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "labelCentred",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 130
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "labelCentred",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 280,
+            "sourceExpression": "makeWidget({  3, 167}, {288,  11}, WidgetType::labelCentred,  WindowColour::secondary                                                                  )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "A steel coaster supports testing; sample status open",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "value-field",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1166,
+        328,
+        616,
+        52
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_OPEN"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_OPEN",
+      "screenId": "operations:ride:03-overview-open",
+      "region": [
+        1166,
+        328,
+        542,
+        52
+      ],
+      "visualKind": "dropdown",
+      "label": "设施运行状态",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 131
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 281,
+            "sourceExpression": "makeWidget({291,  46}, { 24,  24}, WidgetType::flatBtn,       WindowColour::secondary, kWidgetContentEmpty,                 STR_OPEN_CLOSE_OR_TEST_RIDE)",
+            "sourceStringIds": [
+              "STR_OPEN_CLOSE_OR_TEST_RIDE"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 2454,
+          "expression": "            {                 widgets[WIDX_OPEN].setHidden();                 widgets[WIDX_CLOSE_LIGHT].setVisible();                 widgets[WIDX_SIMULATE_LIGHT].setHidden();"
+        },
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 2462,
+          "expression": "                widgets[WIDX_TEST_LIGHT].setVisible(ride->supportsStatus(RideStatus::testing));                 widgets[WIDX_OPEN_LIGHT].setVisible();                  widgetHeight = widgets[WIDX_PAGE_BACKGROUND].top + 19;"
+        },
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 2483,
+          "expression": "            {                 widgets[WIDX_OPEN].setVisible();                 widgets[WIDX_CLOSE_LIGHT].setHidden();                 widgets[WIDX_SIMULATE_LIGHT].setHidden();"
+        },
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 2487,
+          "expression": "                widgets[WIDX_TEST_LIGHT].setHidden();                 widgets[WIDX_OPEN_LIGHT].setHidden();                 widgetHeight = widgets[WIDX_PAGE_BACKGROUND].top + 3;             }"
+        }
+      ],
+      "displayedCondition": "A steel coaster supports testing; sample status open",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1166,
+        407,
+        295,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_CLOSE_LIGHT"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_CLOSE_LIGHT",
+      "screenId": "operations:ride:03-overview-open",
+      "region": [
+        1166,
+        407,
+        295,
+        68
+      ],
+      "visualKind": "button",
+      "label": "关闭",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "imgBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 136
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "imgBtn",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 286,
+            "sourceExpression": "makeWidget({296,  48}, { 14,  14}, WidgetType::imgBtn,        WindowColour::secondary, ImageId(SPR_G2_RCT1_CLOSE_BUTTON_0), STR_CLOSE_RIDE_TIP         )",
+            "sourceStringIds": [
+              "STR_CLOSE_RIDE_TIP"
+            ],
+            "originalSpriteIds": [
+              "SPR_G2_RCT1_CLOSE_BUTTON_0"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 2455,
+          "expression": "                widgets[WIDX_OPEN].setHidden();                 widgets[WIDX_CLOSE_LIGHT].setVisible();                 widgets[WIDX_SIMULATE_LIGHT].setHidden(); #ifdef __SIMULATE_IN_RIDE_WINDOW__"
+        },
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 2484,
+          "expression": "                widgets[WIDX_OPEN].setVisible();                 widgets[WIDX_CLOSE_LIGHT].setHidden();                 widgets[WIDX_SIMULATE_LIGHT].setHidden();                 widgets[WIDX_TEST_LIGHT].setHidden();"
+        }
+      ],
+      "displayedCondition": "A steel coaster supports testing; sample status open",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1481,
+        407,
+        295,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_TEST_LIGHT"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_TEST_LIGHT",
+      "screenId": "operations:ride:03-overview-open",
+      "region": [
+        1481,
+        407,
+        295,
+        68
+      ],
+      "visualKind": "button",
+      "label": "试车",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "imgBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 138
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "imgBtn",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 288,
+            "sourceExpression": "makeWidget({296,  62}, { 14,  14}, WidgetType::imgBtn,        WindowColour::secondary, ImageId(SPR_G2_RCT1_TEST_BUTTON_0),  STR_TEST_RIDE_TIP          )",
+            "sourceStringIds": [
+              "STR_TEST_RIDE_TIP"
+            ],
+            "originalSpriteIds": [
+              "SPR_G2_RCT1_TEST_BUTTON_0"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 2461,
+          "expression": "#endif                 widgets[WIDX_TEST_LIGHT].setVisible(ride->supportsStatus(RideStatus::testing));                 widgets[WIDX_OPEN_LIGHT].setVisible(); "
+        },
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 2486,
+          "expression": "                widgets[WIDX_SIMULATE_LIGHT].setHidden();                 widgets[WIDX_TEST_LIGHT].setHidden();                 widgets[WIDX_OPEN_LIGHT].setHidden();                 widgetHeight = widgets[WIDX_PAGE_BACKGROUND].top + 3;"
+        }
+      ],
+      "displayedCondition": "A steel coaster supports testing; sample status open",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/primary_selected.png",
+      "region": [
+        1166,
+        489,
+        295,
+        68
+      ],
+      "resize": "nine",
+      "state": "selected"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_OPEN_LIGHT"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_OPEN_LIGHT",
+      "screenId": "operations:ride:03-overview-open",
+      "region": [
+        1166,
+        489,
+        295,
+        68
+      ],
+      "visualKind": "button",
+      "label": "开放",
+      "state": "selected",
+      "parentControl": null,
+      "sourceWidgetType": "imgBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 139
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "imgBtn",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 289,
+            "sourceExpression": "makeWidget({296,  76}, { 14,  14}, WidgetType::imgBtn,        WindowColour::secondary, ImageId(SPR_G2_RCT1_OPEN_BUTTON_0),  STR_OPEN_RIDE_TIP          )",
+            "sourceStringIds": [
+              "STR_OPEN_RIDE_TIP"
+            ],
+            "originalSpriteIds": [
+              "SPR_G2_RCT1_OPEN_BUTTON_0"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 2462,
+          "expression": "                widgets[WIDX_TEST_LIGHT].setVisible(ride->supportsStatus(RideStatus::testing));                 widgets[WIDX_OPEN_LIGHT].setVisible();                  widgetHeight = widgets[WIDX_PAGE_BACKGROUND].top + 19;"
+        },
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 2487,
+          "expression": "                widgets[WIDX_TEST_LIGHT].setHidden();                 widgets[WIDX_OPEN_LIGHT].setHidden();                 widgetHeight = widgets[WIDX_PAGE_BACKGROUND].top + 3;             }"
+        }
+      ],
+      "displayedCondition": "A steel coaster supports testing; sample status open",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1166,
+        596,
+        295,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_CONSTRUCTION"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_CONSTRUCTION",
+      "screenId": "operations:ride:03-overview-open",
+      "region": [
+        1166,
+        596,
+        295,
+        68
+      ],
+      "visualKind": "button",
+      "label": "继续建造",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 132
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 282,
+            "sourceExpression": "makeWidget({291,  70}, { 24,  24}, WidgetType::flatBtn,       WindowColour::secondary, ImageId(SPR_CONSTRUCTION),           STR_CONSTRUCTION           )",
+            "sourceStringIds": [
+              "STR_CONSTRUCTION"
+            ],
+            "originalSpriteIds": [
+              "SPR_CONSTRUCTION"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 2403,
+          "expression": "            const auto& gameState = getGameState();             setWidgetDisabled(WIDX_CONSTRUCTION, false);             setWidgetDisabled(                 WIDX_DEMOLISH,"
+        }
+      ],
+      "displayedCondition": "A steel coaster supports testing; sample status open",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1481,
+        596,
+        295,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_RENAME"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_RENAME",
+      "screenId": "operations:ride:03-overview-open",
+      "region": [
+        1481,
+        596,
+        295,
+        68
+      ],
+      "visualKind": "button",
+      "label": "重新命名",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 133
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 283,
+            "sourceExpression": "makeWidget({291,  94}, { 24,  24}, WidgetType::flatBtn,       WindowColour::secondary, ImageId(SPR_RENAME),                 STR_NAME_RIDE_TIP          )",
+            "sourceStringIds": [
+              "STR_NAME_RIDE_TIP"
+            ],
+            "originalSpriteIds": [
+              "SPR_RENAME"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "A steel coaster supports testing; sample status open",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1166,
+        684,
+        295,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_LOCATE"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_LOCATE",
+      "screenId": "operations:ride:03-overview-open",
+      "region": [
+        1166,
+        684,
+        295,
+        68
+      ],
+      "visualKind": "button",
+      "label": "定位设施",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 134
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 284,
+            "sourceExpression": "makeWidget({291, 118}, { 24,  24}, WidgetType::flatBtn,       WindowColour::secondary, ImageId(SPR_LOCATE),                 STR_LOCATE_SUBJECT_TIP     )",
+            "sourceStringIds": [
+              "STR_LOCATE_SUBJECT_TIP"
+            ],
+            "originalSpriteIds": [
+              "SPR_LOCATE"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "A steel coaster supports testing; sample status open",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1481,
+        684,
+        295,
+        68
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_DEMOLISH"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_DEMOLISH",
+      "screenId": "operations:ride:03-overview-open",
+      "region": [
+        1481,
+        684,
+        295,
+        68
+      ],
+      "visualKind": "button",
+      "label": "拆除设施",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 135
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 285,
+            "sourceExpression": "makeWidget({291, 142}, { 24,  24}, WidgetType::flatBtn,       WindowColour::secondary, ImageId(SPR_DEMOLISH),               STR_DEMOLISH_RIDE_TIP      )",
+            "sourceStringIds": [
+              "STR_DEMOLISH_RIDE_TIP"
+            ],
+            "originalSpriteIds": [
+              "SPR_DEMOLISH"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "A steel coaster supports testing; sample status open",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1568,
+        916,
+        220,
+        70
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Ride:WIDX_CLOSE"
+      ],
+      "unit": "Ride",
+      "controlId": "WIDX_CLOSE",
+      "screenId": "operations:ride:03-overview-open",
+      "region": [
+        1568,
+        916,
+        220,
+        70
+      ],
+      "visualKind": "button",
+      "label": "返回园区",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "closeBox",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 114
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "closeBox",
+            "sourcePath": "src/openrct2-ui/windows/Ride.cpp",
+            "line": 260,
+            "sourceExpression": "makeWindowShim(kWindowTitle, kWindowSize)",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "closeBox"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 2455,
+          "expression": "                widgets[WIDX_OPEN].setHidden();                 widgets[WIDX_CLOSE_LIGHT].setVisible();                 widgets[WIDX_SIMULATE_LIGHT].setHidden(); #ifdef __SIMULATE_IN_RIDE_WINDOW__"
+        },
+        {
+          "path": "src/openrct2-ui/windows/Ride.cpp",
+          "line": 2484,
+          "expression": "                widgets[WIDX_OPEN].setVisible();                 widgets[WIDX_CLOSE_LIGHT].setHidden();                 widgets[WIDX_SIMULATE_LIGHT].setHidden();                 widgets[WIDX_TEST_LIGHT].setHidden();"
+        }
+      ],
+      "displayedCondition": "A steel coaster supports testing; sample status open",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    }
+  ],
+  "dataDiagrams": [
+    {
+      "role": "data-rule",
+      "points": [
+        [
+          398,
+          276
+        ],
+        [
+          1790,
+          276
+        ]
+      ],
+      "color": "#B28C43",
+      "width": 1
+    },
+    {
+      "role": "selection-diagram",
+      "points": [
+        [
+          696,
+          644
+        ],
+        [
+          786,
+          596
+        ],
+        [
+          876,
+          644
+        ],
+        [
+          786,
+          692
+        ],
+        [
+          696,
+          644
+        ]
+      ],
+      "color": "#F3CD71",
+      "width": 5
+    }
+  ],
+  "layoutIssues": [],
+  "fontDistribution": "Official OFL-licensed fonts are included in assets/fonts; see records/font-sources.json.",
+  "status": "produced_pending_review"
+}

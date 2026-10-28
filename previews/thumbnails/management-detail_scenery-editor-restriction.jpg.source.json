@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/management-detail_scenery-editor-restriction.jpg",
+  "sha256": "e0cf15b6ca533f77f073021e6e13a5f4d48db4da2131ac5e5b403d32a5855920",
+  "derivedFrom": [
+    {
+      "file": "designs/details/management/scenery-editor-restriction.png",
+      "sha256": "5220e4181c80b39b457e9d83607d54ec709a52ba238f2cdaf9726b148c2ce7bc",
+      "sourceRecord": "designs/details/management/scenery-editor-restriction.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

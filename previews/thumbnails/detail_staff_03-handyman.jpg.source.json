@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_staff_03-handyman.jpg",
+  "sha256": "5f47442e6f61f6bbc2ab428a3042ebb741a709b3a9b45607630fb00144627eae",
+  "derivedFrom": [
+    {
+      "file": "designs/details/staff/03-handyman.png",
+      "sha256": "72f2604acba02363d0584ecd149fa80125a407ff07f8edfc30d4d5e3e5a344ff",
+      "sourceRecord": "designs/details/staff/03-handyman.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

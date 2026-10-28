@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/editor-scenario-options_06.jpg",
+  "sha256": "1214fa9301e7295f53775d8292b0afd4139391e2a22014bd35ef9b57c09b500e",
+  "derivedFrom": [
+    {
+      "file": "designs/editor-scenario-options/06-保留设施.png",
+      "sha256": "3dccfb02930c525d54ea23b69b4118317addeabcd014b121c877f8269b9a8394",
+      "sourceRecord": "designs/editor-scenario-options/06-保留设施.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

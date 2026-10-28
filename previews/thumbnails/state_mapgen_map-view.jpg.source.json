@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_mapgen_map-view.jpg",
+  "sha256": "3da287c80977c7b5f0e04f973261393a1b70a5c685325b1476276b286a17f52d",
+  "derivedFrom": [
+    {
+      "file": "previews/states/mapgen/map-view.png",
+      "sha256": "558cbb527d367cb19df6ecf799187070e6d0f12fbe3d6f079e645e4d0ffe11d3",
+      "sourceRecord": "previews/states/mapgen/map-view.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

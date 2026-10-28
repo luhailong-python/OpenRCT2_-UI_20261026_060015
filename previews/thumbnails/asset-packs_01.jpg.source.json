@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/asset-packs_01.jpg",
+  "sha256": "d7f6984f5f7f749dfeb6e808a56b130ca58f829dc3c0e9cb575a65802d13c541",
+  "derivedFrom": [
+    {
+      "file": "designs/asset-packs/01-资源包.png",
+      "sha256": "2005f09f1b187e7275656a895d3414c76e1173be12ba352ac9d87cbcad5cf83f",
+      "sourceRecord": "designs/asset-packs/01-资源包.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

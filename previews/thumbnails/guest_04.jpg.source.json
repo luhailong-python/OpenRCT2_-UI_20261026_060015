@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/guest_04.jpg",
+  "sha256": "31ef7ff68e845c5ea84990d385e1e0077c9df8267f445a52fb87bbd784346139",
+  "derivedFrom": [
+    {
+      "file": "designs/guest/04-消费.png",
+      "sha256": "64f3f90cc5930abbdcba32329fc8687d04d69a5f44d4e394c2b7f2eb9073fc99",
+      "sourceRecord": "designs/guest/04-消费.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

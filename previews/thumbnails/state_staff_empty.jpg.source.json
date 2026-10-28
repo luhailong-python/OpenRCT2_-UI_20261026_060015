@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_staff_empty.jpg",
+  "sha256": "454cd060e08fd3e7c1765608dbfeee289709de59926e955e0bf23d98eeebabbf",
+  "derivedFrom": [
+    {
+      "file": "previews/states/staff/empty.png",
+      "sha256": "06afa2d3c20b9251a2862f15ed0e7dd74754023b1163dacaba3de105cbde40be",
+      "sourceRecord": "previews/states/staff/empty.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

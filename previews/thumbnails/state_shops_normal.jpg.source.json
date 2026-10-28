@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_shops_normal.jpg",
+  "sha256": "44930a5df48530c6c18a99e2e26f1f2df049944e1691efd769682e3489aff8ee",
+  "derivedFrom": [
+    {
+      "file": "previews/states/shops/normal.png",
+      "sha256": "3b62c0189ff2dca8a594976859223a83b4a8669a1fbe8174abea88792b4a1174",
+      "sourceRecord": "previews/states/shops/normal.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

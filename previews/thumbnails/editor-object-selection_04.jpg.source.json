@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/editor-object-selection_04.jpg",
+  "sha256": "9866de329919efe17ed0836a647f87c20ced45870121594026f98c33516386bf",
+  "derivedFrom": [
+    {
+      "file": "designs/editor-object-selection/04-入口建筑.png",
+      "sha256": "daa69264fd60079d1d465d6d4994f776a884888bc10ba5e7c2c18f4d6b7e71a5",
+      "sourceRecord": "designs/editor-object-selection/04-入口建筑.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

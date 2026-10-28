@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/park-info-panel_01.jpg",
+  "sha256": "874387382b63f81d8d9dfaa64c64eded314282df8431e438c021da85af71ee54",
+  "derivedFrom": [
+    {
+      "file": "designs/park-info-panel/01-公园指标.png",
+      "sha256": "5e342575d1c913898eda61e7838fb125cffca626c1f7cae8dd9ec2a0087c997c",
+      "sourceRecord": "designs/park-info-panel/01-公园指标.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

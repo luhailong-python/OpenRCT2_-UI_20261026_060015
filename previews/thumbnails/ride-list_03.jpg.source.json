@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/ride-list_03.jpg",
+  "sha256": "fef630c96ffdd58d7d4fb5e878740658d3d8cbccea0d8bfc520fde6fc9e1f620",
+  "derivedFrom": [
+    {
+      "file": "designs/ride-list/03-服务设施.png",
+      "sha256": "d57f1c9c31c0a9ddd69a50391454e58212a2320ec494f236c1818b127c037436",
+      "sourceRecord": "designs/ride-list/03-服务设施.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

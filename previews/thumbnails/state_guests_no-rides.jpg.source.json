@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_guests_no-rides.jpg",
+  "sha256": "8b609e283e35a994138681cbf9911d20c6a8965080021f10712664fce5655706",
+  "derivedFrom": [
+    {
+      "file": "previews/states/guests/no-rides.png",
+      "sha256": "4081dd671aa34606e26f6cdee16f5f4ff0954210a6f9b493876a851cae78690f",
+      "sourceRecord": "previews/states/guests/no-rides.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

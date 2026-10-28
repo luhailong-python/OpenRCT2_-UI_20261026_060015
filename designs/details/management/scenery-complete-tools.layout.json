@@ -1,0 +1,1097 @@
+{
+  "schemaVersion": 1,
+  "screenId": "management-detail:scenery-complete-tools",
+  "title": "景观与装饰目录 · 景观搜索、取色与布置",
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "origin": "top-left",
+  "textLayers": [
+    {
+      "id": "text-001",
+      "text": "景观与装饰目录",
+      "role": "dynamic-text",
+      "region": [
+        620,
+        66,
+        680,
+        75
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 46,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 65,
+      "wrappedLines": [
+        "景观与装饰目录"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-002",
+      "text": "主题",
+      "role": "dynamic-text",
+      "region": [
+        128,
+        208,
+        290,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 26,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 36,
+      "wrappedLines": [
+        "主题"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-003",
+      "text": "搜索",
+      "role": "dynamic-text",
+      "region": [
+        470,
+        208,
+        290,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 26,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 36,
+      "wrappedLines": [
+        "搜索"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-004",
+      "text": "重涂",
+      "role": "dynamic-text",
+      "region": [
+        812,
+        208,
+        290,
+        46
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 26,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 36,
+      "wrappedLines": [
+        "重涂"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-005",
+      "text": "主题",
+      "role": "dynamic-text",
+      "region": [
+        118,
+        300,
+        1664,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 32,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 45,
+      "wrappedLines": [
+        "主题"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-006",
+      "text": "美术设计样例 · 名称 / 数值待定",
+      "role": "dynamic-text",
+      "region": [
+        600,
+        1046,
+        720,
+        28
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "美术设计样例 · 名称 / 数值待定"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-007",
+      "text": "景观搜索、取色与布置",
+      "role": "dynamic-text",
+      "region": [
+        115,
+        865,
+        1674,
+        36
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#7A745E",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "景观搜索、取色与布置"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-008",
+      "text": "当前对象支持三种配色；对象可用颜色以其定义为准。",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        1002,
+        1660,
+        30
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "当前对象支持三种配色；对象可用颜色以其定义为准。"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-009",
+      "text": "搜索景物",
+      "role": "dynamic-text",
+      "region": [
+        115,
+        390,
+        260,
+        56
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "搜索景物"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-010",
+      "text": "",
+      "role": "dynamic-text",
+      "region": [
+        435,
+        394,
+        283,
+        44
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 22,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "center",
+      "lineHeight": 31,
+      "wrappedLines": [
+        ""
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-011",
+      "text": "清除",
+      "role": "dynamic-text",
+      "region": [
+        774,
+        393,
+        97,
+        42
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "清除"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-012",
+      "text": "流云路灯",
+      "role": "dynamic-text",
+      "region": [
+        272,
+        514,
+        370,
+        46
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 27,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 38,
+      "wrappedLines": [
+        "流云路灯"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-013",
+      "text": "桃花树",
+      "role": "dynamic-text",
+      "region": [
+        272,
+        618,
+        370,
+        46
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 27,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 38,
+      "wrappedLines": [
+        "桃花树"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-014",
+      "text": "休憩长椅",
+      "role": "dynamic-text",
+      "region": [
+        272,
+        722,
+        370,
+        46
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 27,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 38,
+      "wrappedLines": [
+        "休憩长椅"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-015",
+      "text": "旋转 90°",
+      "role": "dynamic-text",
+      "region": [
+        939,
+        390,
+        327,
+        45
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "旋转 90°"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-016",
+      "text": "重涂景物",
+      "role": "dynamic-text",
+      "region": [
+        1339,
+        390,
+        327,
+        45
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "重涂景物"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-017",
+      "text": "吸取景物",
+      "role": "dynamic-text",
+      "region": [
+        939,
+        484,
+        327,
+        45
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "吸取景物"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-018",
+      "text": "随机成簇摆放",
+      "role": "dynamic-text",
+      "region": [
+        1339,
+        484,
+        327,
+        45
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "随机成簇摆放"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-019",
+      "text": "主色 / 第二色 / 第三色",
+      "role": "dynamic-text",
+      "region": [
+        920,
+        587,
+        730,
+        40
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "主色 / 第二色 / 第三色"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-020",
+      "text": "点击园区中的景物，可重涂或选取同种景物。",
+      "role": "dynamic-text",
+      "region": [
+        923,
+        749,
+        750,
+        77
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 23,
+      "color": "#7A745E",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 32,
+      "wrappedLines": [
+        "点击园区中的景物，可重涂或选取同种景物。"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-021",
+      "text": "返回园区",
+      "role": "dynamic-text",
+      "region": [
+        1616,
+        924,
+        148,
+        38
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "返回园区"
+      ],
+      "dynamic": true
+    }
+  ],
+  "artAndControlLayers": [
+    {
+      "role": "park-background",
+      "asset": "assets/backgrounds/park-day-native.png",
+      "region": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "resize": "cover"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_main.png",
+      "region": [
+        52,
+        96,
+        1816,
+        930
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "title-plaque",
+      "asset": "assets/common/title_plate.png",
+      "region": [
+        520,
+        22,
+        880,
+        170
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "close",
+      "asset": "assets/common/close.png",
+      "region": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_selected.png",
+      "region": [
+        108,
+        200,
+        330,
+        66
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        450,
+        200,
+        330,
+        66
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        792,
+        200,
+        330,
+        66
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "detail-text",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        392,
+        383,
+        347,
+        62
+      ],
+      "resize": "nine",
+      "sourceControlKey": "Scenery:WIDX_FILTER_TEXT_BOX"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        750,
+        385,
+        145,
+        62
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "Scenery:WIDX_FILTER_CLEAR_BUTTON"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_card.png",
+      "region": [
+        110,
+        468,
+        760,
+        392
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "icon",
+      "asset": "assets/icons/lantern.png",
+      "region": [
+        157,
+        490,
+        88,
+        88
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "icon",
+      "asset": "assets/icons/peach_flowers.png",
+      "region": [
+        157,
+        594,
+        88,
+        88
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "icon",
+      "asset": "assets/icons/bench.png",
+      "region": [
+        157,
+        698,
+        88,
+        88
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        915,
+        382,
+        375,
+        66
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "Scenery:WIDX_SCENERY_ROTATE_OBJECTS_BUTTON"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1315,
+        382,
+        375,
+        66
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "Scenery:WIDX_SCENERY_REPAINT_SCENERY_BUTTON"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        915,
+        476,
+        375,
+        66
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "Scenery:WIDX_SCENERY_EYEDROPPER_BUTTON"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1315,
+        476,
+        375,
+        66
+      ],
+      "resize": "nine",
+      "state": "normal",
+      "sourceControlKey": "Scenery:WIDX_SCENERY_BUILD_CLUSTER_BUTTON"
+    },
+    {
+      "role": "detail-color-button",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        915,
+        640,
+        215,
+        76
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "detail-color-button",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1160,
+        640,
+        215,
+        76
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "detail-color-button",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1405,
+        640,
+        215,
+        76
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/primary_normal.png",
+      "region": [
+        1592,
+        916,
+        196,
+        70
+      ],
+      "resize": "nine",
+      "state": "normal"
+    }
+  ],
+  "dataDiagrams": [
+    {
+      "role": "data-rule",
+      "points": [
+        [
+          118,
+          358
+        ],
+        [
+          1786,
+          358
+        ]
+      ],
+      "color": "#B28C43",
+      "width": 1
+    },
+    {
+      "role": "dynamic-color-swatch",
+      "rect": [
+        1008,
+        664,
+        28,
+        28
+      ],
+      "color": "#397D60"
+    },
+    {
+      "role": "dynamic-color-swatch",
+      "rect": [
+        1253,
+        664,
+        28,
+        28
+      ],
+      "color": "#E4D8B3"
+    },
+    {
+      "role": "dynamic-color-swatch",
+      "rect": [
+        1498,
+        664,
+        28,
+        28
+      ],
+      "color": "#C09048"
+    }
+  ],
+  "layoutIssues": [],
+  "fontDistribution": "Official OFL-licensed fonts are included in assets/fonts; see records/font-sources.json.",
+  "status": "produced_pending_review",
+  "sourceControlBindings": [
+    {
+      "unit": "Scenery",
+      "controlId": "WIDX_SCENERY_BACKGROUND",
+      "sourceControlKey": "Scenery:WIDX_SCENERY_BACKGROUND",
+      "rectTopLeftXYWH": [
+        52,
+        96,
+        1816,
+        930
+      ],
+      "role": "window-structure",
+      "sourcePageGroups": [
+        "主题",
+        "搜索",
+        "重涂"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Scenery.cpp",
+        "line": 96
+      },
+      "sourceWidgetType": "frame",
+      "condition": "当前对象支持三种配色；对象可用颜色以其定义为准。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Scenery",
+      "controlId": "WIDX_SCENERY_TITLE",
+      "sourceControlKey": "Scenery:WIDX_SCENERY_TITLE",
+      "rectTopLeftXYWH": [
+        520,
+        22,
+        880,
+        170
+      ],
+      "role": "window-structure",
+      "sourcePageGroups": [
+        "主题",
+        "搜索",
+        "重涂"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Scenery.cpp",
+        "line": 97
+      },
+      "sourceWidgetType": "caption",
+      "condition": "当前对象支持三种配色；对象可用颜色以其定义为准。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Scenery",
+      "controlId": "WIDX_SCENERY_CLOSE",
+      "sourceControlKey": "Scenery:WIDX_SCENERY_CLOSE",
+      "rectTopLeftXYWH": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "role": "window-structure",
+      "sourcePageGroups": [
+        "主题",
+        "搜索",
+        "重涂"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Scenery.cpp",
+        "line": 98
+      },
+      "sourceWidgetType": "closeBox",
+      "condition": "当前对象支持三种配色；对象可用颜色以其定义为准。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Scenery",
+      "controlId": "WIDX_FILTER_TEXT_BOX",
+      "sourceControlKey": "Scenery:WIDX_FILTER_TEXT_BOX",
+      "rectTopLeftXYWH": [
+        392,
+        383,
+        347,
+        62
+      ],
+      "role": "text",
+      "sourcePageGroups": [
+        "主题",
+        "搜索",
+        "重涂"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Scenery.cpp",
+        "line": 108
+      },
+      "sourceWidgetType": "textBox",
+      "condition": "当前对象支持三种配色；对象可用颜色以其定义为准。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Scenery",
+      "controlId": "WIDX_FILTER_CLEAR_BUTTON",
+      "sourceControlKey": "Scenery:WIDX_FILTER_CLEAR_BUTTON",
+      "rectTopLeftXYWH": [
+        750,
+        385,
+        145,
+        62
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "主题",
+        "搜索",
+        "重涂"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Scenery.cpp",
+        "line": 109
+      },
+      "sourceWidgetType": "button",
+      "condition": "当前对象支持三种配色；对象可用颜色以其定义为准。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Scenery",
+      "controlId": "WIDX_SCENERY_LIST",
+      "sourceControlKey": "Scenery:WIDX_SCENERY_LIST",
+      "rectTopLeftXYWH": [
+        110,
+        468,
+        760,
+        392
+      ],
+      "role": "object-catalog-list",
+      "sourcePageGroups": [
+        "主题",
+        "搜索",
+        "重涂"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Scenery.cpp",
+        "line": 100
+      },
+      "sourceWidgetType": "scroll",
+      "condition": "当前对象支持三种配色；对象可用颜色以其定义为准。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Scenery",
+      "controlId": "WIDX_SCENERY_ROTATE_OBJECTS_BUTTON",
+      "sourceControlKey": "Scenery:WIDX_SCENERY_ROTATE_OBJECTS_BUTTON",
+      "rectTopLeftXYWH": [
+        915,
+        382,
+        375,
+        66
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "主题",
+        "搜索",
+        "重涂"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Scenery.cpp",
+        "line": 101
+      },
+      "sourceWidgetType": "flatBtn",
+      "condition": "当前对象支持三种配色；对象可用颜色以其定义为准。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Scenery",
+      "controlId": "WIDX_SCENERY_REPAINT_SCENERY_BUTTON",
+      "sourceControlKey": "Scenery:WIDX_SCENERY_REPAINT_SCENERY_BUTTON",
+      "rectTopLeftXYWH": [
+        1315,
+        382,
+        375,
+        66
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "主题",
+        "搜索",
+        "重涂"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Scenery.cpp",
+        "line": 102
+      },
+      "sourceWidgetType": "flatBtn",
+      "condition": "当前对象支持三种配色；对象可用颜色以其定义为准。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Scenery",
+      "controlId": "WIDX_SCENERY_EYEDROPPER_BUTTON",
+      "sourceControlKey": "Scenery:WIDX_SCENERY_EYEDROPPER_BUTTON",
+      "rectTopLeftXYWH": [
+        915,
+        476,
+        375,
+        66
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "主题",
+        "搜索",
+        "重涂"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Scenery.cpp",
+        "line": 106
+      },
+      "sourceWidgetType": "flatBtn",
+      "condition": "当前对象支持三种配色；对象可用颜色以其定义为准。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Scenery",
+      "controlId": "WIDX_SCENERY_BUILD_CLUSTER_BUTTON",
+      "sourceControlKey": "Scenery:WIDX_SCENERY_BUILD_CLUSTER_BUTTON",
+      "rectTopLeftXYWH": [
+        1315,
+        476,
+        375,
+        66
+      ],
+      "role": "button",
+      "sourcePageGroups": [
+        "主题",
+        "搜索",
+        "重涂"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Scenery.cpp",
+        "line": 107
+      },
+      "sourceWidgetType": "flatBtn",
+      "condition": "当前对象支持三种配色；对象可用颜色以其定义为准。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Scenery",
+      "controlId": "WIDX_SCENERY_PRIMARY_COLOUR_BUTTON",
+      "sourceControlKey": "Scenery:WIDX_SCENERY_PRIMARY_COLOUR_BUTTON",
+      "rectTopLeftXYWH": [
+        915,
+        640,
+        215,
+        76
+      ],
+      "role": "color-button",
+      "sourcePageGroups": [
+        "主题",
+        "搜索",
+        "重涂"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Scenery.cpp",
+        "line": 103
+      },
+      "sourceWidgetType": "colourBtn",
+      "condition": "当前对象支持三种配色；对象可用颜色以其定义为准。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Scenery",
+      "controlId": "WIDX_SCENERY_SECONDARY_COLOUR_BUTTON",
+      "sourceControlKey": "Scenery:WIDX_SCENERY_SECONDARY_COLOUR_BUTTON",
+      "rectTopLeftXYWH": [
+        1160,
+        640,
+        215,
+        76
+      ],
+      "role": "color-button",
+      "sourcePageGroups": [
+        "主题",
+        "搜索",
+        "重涂"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Scenery.cpp",
+        "line": 104
+      },
+      "sourceWidgetType": "colourBtn",
+      "condition": "当前对象支持三种配色；对象可用颜色以其定义为准。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    },
+    {
+      "unit": "Scenery",
+      "controlId": "WIDX_SCENERY_TERTIARY_COLOUR_BUTTON",
+      "sourceControlKey": "Scenery:WIDX_SCENERY_TERTIARY_COLOUR_BUTTON",
+      "rectTopLeftXYWH": [
+        1405,
+        640,
+        215,
+        76
+      ],
+      "role": "color-button",
+      "sourcePageGroups": [
+        "主题",
+        "搜索",
+        "重涂"
+      ],
+      "sourceEvidence": {
+        "path": "src/openrct2-ui/windows/Scenery.cpp",
+        "line": 105
+      },
+      "sourceWidgetType": "colourBtn",
+      "condition": "当前对象支持三种配色；对象可用颜色以其定义为准。",
+      "productPlacement": "explicit_source_bound_product_layout",
+      "unityStatus": "not_integrated"
+    }
+  ],
+  "productDetailPurpose": "additional_actual_product_ui_layout"
+}

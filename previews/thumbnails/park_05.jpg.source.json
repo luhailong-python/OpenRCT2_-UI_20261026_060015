@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/park_05.jpg",
+  "sha256": "35050b6e9bd56e64ca86874cb7a4a3f1134689bb724e9abb2d459f9e635e6564",
+  "derivedFrom": [
+    {
+      "file": "designs/park/05-统计.png",
+      "sha256": "a1f6349337238309fd739d312841188c96c7f8359e9d147ddabf4d713858c0cd",
+      "sourceRecord": "designs/park/05-统计.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

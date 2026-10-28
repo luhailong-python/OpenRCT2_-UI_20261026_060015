@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/management-detail_themes-ridesguests-1.jpg",
+  "sha256": "1c012c03e427c0d5281605b37a5ca2e4638bec80135f40ce69d7f890762efbf8",
+  "derivedFrom": [
+    {
+      "file": "designs/details/management/themes-ridesguests-1.png",
+      "sha256": "3e259e8c62fc4bb854661e7e8a78bfb0f56c8022c8c486b418b219c60d365d79",
+      "sourceRecord": "designs/details/management/themes-ridesguests-1.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

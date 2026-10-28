@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/new-ride/06-商店摊位.png",
+  "sha256": "c84b210347528649e482dca804ae05c4b45b3945a80c9c827ffb6dcd6c432c88",
+  "exportedAt": "2026-10-26T06:48:33.453766-04:00",
+  "width": 1920,
+  "height": 1080,
+  "format": "PNG",
+  "operation": "composite_preview_not_native_generation",
+  "process": [
+    "Nine-slice/contain/cover composition of painted PNG sprites",
+    "Separate Chinese text typesetting and data diagrams"
+  ],
+  "resampling": "LANCZOS where art is fitted; output dimensions do not represent new native generated detail.",
+  "nativeModelClaim": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidencePolicy": "Resolve original AI model/quality through each source asset record; unreported values remain unconfirmed.",
+  "derivedFrom": [
+    {
+      "file": "assets/backgrounds/park-day-native.png",
+      "sha256": "27c3ac998fcd81e675c9a05712ead25c83443b133844c169d1476c3cebe25712",
+      "nativeDimensions": [
+        1672,
+        941
+      ],
+      "generationRecord": "assets/backgrounds/park-day-native.png.generation.json",
+      "derivationRecord": "assets/slice-manifest.json"
+    },
+    {
+      "file": "assets/common/panel_main.png",
+      "sha256": "704856762248133110624f38365e0ff337dd1f2f6304f66298e2230077ebca00",
+      "nativeDimensions": [
+        619,
+        610
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_main.png.source.json"
+    },
+    {
+      "file": "assets/common/title_plate.png",
+      "sha256": "f1011dd30d1ef42cbeedf64f31025c6c77c91ffbbcdd09ef74c065ad1d91ddfe",
+      "nativeDimensions": [
+        594,
+        195
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/title_plate.png.source.json"
+    },
+    {
+      "file": "assets/common/close.png",
+      "sha256": "f9089fdc15bfbfbd496d9c02de94c46b0e1e4052fffa9689de0b461e043737ec",
+      "nativeDimensions": [
+        184,
+        184
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/close.png.source.json"
+    },
+    {
+      "file": "assets/common/panel_card.png",
+      "sha256": "b82ed16e818b3bb86c16a68453bc4b73f1764c6fdb4541c2e470e5c60789568e",
+      "nativeDimensions": [
+        589,
+        558
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_card.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_normal.png",
+      "sha256": "9327a3d9577111e5985e3453a8a201010887c606a094b7e080421417aef3f92e",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_selected.png",
+      "sha256": "119a81554b9e332d698f5c704813cb047fcd4c5c71e9e5c36c7b6df6b4a789b9",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_selected.png.source.json"
+    },
+    {
+      "file": "assets/illustrations/tea_kiosk.png",
+      "sha256": "e51543e06aa9ded8885c11e54f596f60a73be0b1ce8c2573187ad0055102a7e6",
+      "nativeDimensions": [
+        480,
+        480
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/illustrations/tea_kiosk.png.source.json"
+    },
+    {
+      "file": "assets/illustrations/dumpling_kiosk.png",
+      "sha256": "91bc1f261f7b5e39e70f4ff191575eb82cf1f44efd6b7c3689ebb854d4bab6b3",
+      "nativeDimensions": [
+        480,
+        480
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/illustrations/dumpling_kiosk.png.source.json"
+    },
+    {
+      "file": "assets/icons/souvenir_shop.png",
+      "sha256": "d57b0b9f79526b5da69ebbc2c172c76b311d0d93babaec8c0bd3fe9ae8e28450",
+      "nativeDimensions": [
+        192,
+        192
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/icons/souvenir_shop.png.source.json"
+    },
+    {
+      "file": "assets/icons/information.png",
+      "sha256": "94329137e64a63c7777ddfd4d616e803621ad7eb9909d69a64a325c83e2e2edd",
+      "nativeDimensions": [
+        192,
+        192
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/icons/information.png.source.json"
+    },
+    {
+      "file": "assets/illustrations/toilet_pavilion.png",
+      "sha256": "85bd2dfddded4e38ec99f35ab90845c6e26562fc40d00a4a93358b18e77cc153",
+      "nativeDimensions": [
+        480,
+        480
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/illustrations/toilet_pavilion.png.source.json"
+    },
+    {
+      "file": "assets/icons/cash_machine.png",
+      "sha256": "c65fc7ced384b3c59eeb787ecd72070ffecb51b6305a681add0a257281871aef",
+      "nativeDimensions": [
+        192,
+        192
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/icons/cash_machine.png.source.json"
+    },
+    {
+      "file": "assets/common/secondary_normal.png",
+      "sha256": "5f6418c0ede62320bc017ef1f00ec1d60a5d5fc34dac8c4e96d0016e6523881f",
+      "nativeDimensions": [
+        256,
+        112
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/secondary_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/primary_normal.png",
+      "sha256": "83fe20f7969e29bf064885d8947b6ab9042e99b47dcac58c7277505e75cd1b5d",
+      "nativeDimensions": [
+        256,
+        120
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/primary_normal.png.source.json"
+    }
+  ],
+  "layoutRecord": "designs/new-ride/06-商店摊位.layout.json",
+  "functionalReference": {
+    "repository": "https://github.com/OpenRCT2/OpenRCT2.git",
+    "commit": "52a55c3e8da5972460642bdfed61d091fe9cabfd",
+    "windowKey": "new-ride",
+    "tab": "商店摊位",
+    "sourceEvidence": [
+      {
+        "path": "src/openrct2-ui/windows/NewRide.cpp",
+        "line": 194,
+        "text": "enum WindowNewRideWidgetIdx : WidgetIndex"
+      },
+      {
+        "path": "src/openrct2-ui/windows/NewRide.cpp",
+        "line": 223,
+        "text": "static constexpr auto window_new_ride_widgets = makeWidgets("
+      },
+      {
+        "path": "src/openrct2-ui/windows/NewRide.cpp",
+        "line": 224,
+        "text": "makeWindowShim(WindowTitle, kWindowSize),"
+      },
+      {
+        "path": "src/openrct2-ui/windows/NewRide.cpp",
+        "line": 180,
+        "text": "enum NewRideTabId"
+      },
+      {
+        "path": "src/openrct2-ui/windows/NewRide.cpp",
+        "line": 226,
+        "text": "makeTab   ({  3,  17},                                                                                STR_TRANSPORT_RIDES_TIP                                        ),"
+      },
+      {
+        "path": "src/openrct2-ui/windows/NewRide.cpp",
+        "line": 227,
+        "text": "makeTab   ({ 34,  17},                                                                                STR_GENTLE_RIDES_TIP                                           ),"
+      },
+      {
+        "path": "src/openrct2-ui/windows/NewRide.cpp",
+        "line": 228,
+        "text": "makeTab   ({ 65,  17},                                                                                STR_ROLLER_COASTERS_TIP                                        ),"
+      },
+      {
+        "path": "src/openrct2-ui/windows/NewRide.cpp",
+        "line": 229,
+        "text": "makeTab   ({ 96,  17},                                                                                STR_THRILL_RIDES_TIP                                           ),"
+      },
+      {
+        "path": "src/openrct2-ui/windows/NewRide.cpp",
+        "line": 230,
+        "text": "makeTab   ({127,  17},                                                                                STR_WATER_RIDES_TIP                                            ),"
+      },
+      {
+        "path": "src/openrct2-ui/windows/NewRide.cpp",
+        "line": 231,
+        "text": "makeTab   ({158,  17},                                                                                STR_SHOPS_STALLS_TIP                                           ),"
+      },
+      {
+        "path": "src/openrct2-ui/windows/NewRide.cpp",
+        "line": 232,
+        "text": "makeTab   ({189,  17},                                                                                STR_RESEARCH_AND_DEVELOPMENT_TIP                               ),"
+      },
+      {
+        "path": "src/openrct2-ui/windows/NewRide.cpp",
+        "line": 367,
+        "text": "void onMouseUp(WidgetIndex widgetIndex) override"
+      }
+    ],
+    "visualAssumptions": [
+      "所有金额、名字、指标为排版样例",
+      "道家主题命名和铜钱显示属于美术改编",
+      "保留经营模拟逻辑，不叠加角色战斗或抽卡系统"
+    ]
+  },
+  "status": "produced_pending_review"
+}

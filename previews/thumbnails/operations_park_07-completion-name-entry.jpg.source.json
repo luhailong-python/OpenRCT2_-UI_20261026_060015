@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/operations_park_07-completion-name-entry.jpg",
+  "sha256": "1ccd4feffaa0d16b7535e253a7e5254f2d69a9fa59bba8fb5276aba95288a893",
+  "derivedFrom": [
+    {
+      "file": "designs/details/park-ops/07-completion-name-entry.png",
+      "sha256": "bb7d77714e96fb39c5ae5985f0afb12824e1fd2ef01b68b8a61ecb2d38cee89f",
+      "sourceRecord": "designs/details/park-ops/07-completion-name-entry.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

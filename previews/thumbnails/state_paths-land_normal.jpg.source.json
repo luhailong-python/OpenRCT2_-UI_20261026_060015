@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_paths-land_normal.jpg",
+  "sha256": "0e656adc5d60aab0cbebc25632a8224f16eeb5ab7594b15dd3fb505802c0b46e",
+  "derivedFrom": [
+    {
+      "file": "previews/states/paths-land/normal.png",
+      "sha256": "d1ae28a9a2a60edcd82ef75ea9a89cd8b9c75af277157c5b6b6714dfc158cd8d",
+      "sourceRecord": "previews/states/paths-land/normal.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

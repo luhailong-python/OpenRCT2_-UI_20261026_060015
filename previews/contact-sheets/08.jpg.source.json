@@ -1,0 +1,135 @@
+{
+  "file": "previews/contact-sheets/08.jpg",
+  "sha256": "53e38c498582fe6761fc959856a453feb751e1d9a1936269a760bb8b8ac5eb18",
+  "derivedFrom": [
+    {
+      "file": "designs/viewport/01-辅助视口.png",
+      "sha256": "ef73ae50fc8ddd3485e4a749aba8d85ebecd9c69dd0f25693a8109da90f2d47e"
+    },
+    {
+      "file": "designs/water/01-升降水位.png",
+      "sha256": "00ec152749441c258646e42e7c4858cb83eb4418bc312058b8e9c0df7062a845"
+    },
+    {
+      "file": "designs/details/ride-construction/01-curves.png",
+      "sha256": "343a9292d4b686970de65b06afe4c9774f633bfbdbff1731a37153461e523176"
+    },
+    {
+      "file": "designs/details/ride-construction/02-slopes-banking.png",
+      "sha256": "683a4c363f77f712d6cc382edfd683747775359161f09b4b197d4f6badba91da"
+    },
+    {
+      "file": "designs/details/ride-construction/03-brake.png",
+      "sha256": "f96f46527f84c36432e01dfa060bcd3ef2d61a3c412fd79bdb29bea8d7f583d2"
+    },
+    {
+      "file": "designs/details/ride-construction/04-booster.png",
+      "sha256": "cbc924d29e10a7f5c7ce86687af95ef23a60ae8a139074af1399b412a9548de6"
+    },
+    {
+      "file": "designs/details/ride-construction/05-seat-angle.png",
+      "sha256": "b3ff937b1324471441666b0e65b654b8abdcc1a1946c408ad101a5baad9cb708"
+    },
+    {
+      "file": "designs/details/ride-construction/06-entrance-exit.png",
+      "sha256": "7771c8ccfa7a45b9a1d6ab8ca239dc12f9294c13d736ff6d2f75cc02ed40892a"
+    },
+    {
+      "file": "designs/details/ride-construction/07-track-style.png",
+      "sha256": "ca4f6f2a59399c22b888becee683d99b432682c5d01010d7908a4c2e4a88d6b7"
+    },
+    {
+      "file": "designs/details/footpath/01-ground.png",
+      "sha256": "67a0bc5a2be4c6cf1e50c0d4b22976e4f8d8564922786fa06a4f09c4f21c7da9"
+    },
+    {
+      "file": "designs/details/footpath/02-bridge.png",
+      "sha256": "c65e27d94d3b8ed48ce1e09731778b8fa01733067cd113fb2c01274c53cbc299"
+    },
+    {
+      "file": "designs/details/footpath/03-area.png",
+      "sha256": "76c64a6006117bc560eb55d080591edc0d9c3383772120140fbc121156185f11"
+    },
+    {
+      "file": "designs/details/footpath/04-mode-switch.png",
+      "sha256": "5ff40b94a0236be6aac42242d66d2f49dc0171a4243d3b8088c8d5a31446c95a"
+    },
+    {
+      "file": "designs/details/staff/01-overview.png",
+      "sha256": "fc40b588725cc9000d44136b243aa4f74dd5b306cfdb4bdb2a45149c2df45b47"
+    },
+    {
+      "file": "designs/details/staff/02-working.png",
+      "sha256": "0461f7e9e3468174305417654b1594e2ee31b334ea9b520ef83856aba939d314"
+    },
+    {
+      "file": "designs/details/staff/03-handyman.png",
+      "sha256": "72f2604acba02363d0584ecd149fa80125a407ff07f8edfc30d4d5e3e5a344ff"
+    },
+    {
+      "file": "designs/details/staff/04-mechanic.png",
+      "sha256": "a4a8c37bc83bc6da75b3f273f9785004307ee1456d287a87cb54ec9d27825165"
+    },
+    {
+      "file": "designs/details/staff/05-costume.png",
+      "sha256": "1823b19d0766d27c4bcfcb9bac34f8c3608fab1a6e6998bde31c6b3c1238285a"
+    },
+    {
+      "file": "designs/details/options/01-显示-01.png",
+      "sha256": "4cb20aa22cdfc586a5f1cfdf661fd9a7c4bccb82100f9079ff52a7a27d6ef11f"
+    },
+    {
+      "file": "designs/details/options/02-渲染-01.png",
+      "sha256": "1726c53799b900bbef25b3ca2dd842545ed7a074052f72bf5ee59f41bf543daa"
+    },
+    {
+      "file": "designs/details/options/02-渲染-02.png",
+      "sha256": "d5f9f059067c041a39787352e205423fba9ddf8f3ca8c650f382e519190a0321"
+    },
+    {
+      "file": "designs/details/options/03-文化-01.png",
+      "sha256": "2e72c31ab5a134e8e3af1b927bc42b0bbc99ac284cedb7c68c38e7f704a2a9d8"
+    },
+    {
+      "file": "designs/details/options/04-声音-01.png",
+      "sha256": "9e71ce36efa629e0370b7cd9ab4a180587e6148f81b1d1364c0538f14837eb84"
+    },
+    {
+      "file": "designs/details/options/05-界面-01.png",
+      "sha256": "b3693763898a7374a5c6051267abdca8c86372e85e228eb382c0ef8a451a856f"
+    },
+    {
+      "file": "designs/details/options/05-界面-02.png",
+      "sha256": "420faa26f22f8c586751f0ee0cd9f1b2f21fe8547da7ab83e080bdd5034b7efa"
+    },
+    {
+      "file": "designs/details/options/06-操作-01.png",
+      "sha256": "fbe48163eab472f9090f50676e984d4a5887083830cd2cdfbdba112ed6b33a20"
+    },
+    {
+      "file": "designs/details/options/07-杂项-01.png",
+      "sha256": "784339e9f57ac56d332c99df334d19ca5a91fe3e2b7a8463abcbf3b628a181ad"
+    },
+    {
+      "file": "designs/details/options/08-高级-01.png",
+      "sha256": "436102f706850f578522873dcdcfa3776ed4cf8a29d52e451b3e828b96298143"
+    },
+    {
+      "file": "designs/details/options/09-web-data.png",
+      "sha256": "9d6fb367b561b8c712d56bfa0408caeae0d282eb59a9deb31f3f1234fc13aba4"
+    },
+    {
+      "file": "designs/details/map-gen/01-flatland.png",
+      "sha256": "003715df656eece553ab54bf2a7525b60a1e926a37868aba46d6916d950d8456"
+    },
+    {
+      "file": "designs/details/map-gen/02-noise.png",
+      "sha256": "96cb22427ca3f2d8b8e099d110e32b271b1b635012f61fc7449246cfe4c1a78e"
+    },
+    {
+      "file": "designs/details/map-gen/03-image-unloaded.png",
+      "sha256": "35df12d55eec7945489f8dc9d83a48d13d642aa7c53d04f580c5d837da4113bc"
+    }
+  ],
+  "operation": "review_contact_sheet_thumbnail_composition_no_new_model_generation"
+}

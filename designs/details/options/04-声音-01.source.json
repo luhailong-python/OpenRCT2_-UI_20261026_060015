@@ -1,0 +1,611 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/details/options/04-声音-01.png",
+  "sha256": "9e71ce36efa629e0370b7cd9ab4a180587e6148f81b1d1364c0538f14837eb84",
+  "exportedAt": "2026-10-26T08:00:05.140953-04:00",
+  "width": 1920,
+  "height": 1080,
+  "format": "PNG",
+  "operation": "composite_preview_not_native_generation",
+  "process": [
+    "Nine-slice/contain/cover composition of painted PNG sprites",
+    "Separate Chinese text typesetting and data diagrams"
+  ],
+  "resampling": "LANCZOS where art is fitted; output dimensions do not represent new native generated detail.",
+  "nativeModelClaim": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidencePolicy": "Resolve original AI model/quality through each source asset record; unreported values remain unconfirmed.",
+  "derivedFrom": [
+    {
+      "file": "assets/backgrounds/park-day-native.png",
+      "sha256": "27c3ac998fcd81e675c9a05712ead25c83443b133844c169d1476c3cebe25712",
+      "nativeDimensions": [
+        1672,
+        941
+      ],
+      "generationRecord": "assets/backgrounds/park-day-native.png.generation.json",
+      "derivationRecord": "assets/slice-manifest.json"
+    },
+    {
+      "file": "assets/common/panel_main.png",
+      "sha256": "704856762248133110624f38365e0ff337dd1f2f6304f66298e2230077ebca00",
+      "nativeDimensions": [
+        619,
+        610
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_main.png.source.json"
+    },
+    {
+      "file": "assets/common/title_plate.png",
+      "sha256": "f1011dd30d1ef42cbeedf64f31025c6c77c91ffbbcdd09ef74c065ad1d91ddfe",
+      "nativeDimensions": [
+        594,
+        195
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/title_plate.png.source.json"
+    },
+    {
+      "file": "assets/common/close.png",
+      "sha256": "f9089fdc15bfbfbd496d9c02de94c46b0e1e4052fffa9689de0b461e043737ec",
+      "nativeDimensions": [
+        184,
+        184
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/close.png.source.json"
+    },
+    {
+      "file": "assets/common/panel_card.png",
+      "sha256": "b82ed16e818b3bb86c16a68453bc4b73f1764c6fdb4541c2e470e5c60789568e",
+      "nativeDimensions": [
+        589,
+        558
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_card.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_normal.png",
+      "sha256": "9327a3d9577111e5985e3453a8a201010887c606a094b7e080421417aef3f92e",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_selected.png",
+      "sha256": "119a81554b9e332d698f5c704813cb047fcd4c5c71e9e5c36c7b6df6b4a789b9",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_selected.png.source.json"
+    },
+    {
+      "file": "assets/common/secondary_normal.png",
+      "sha256": "5f6418c0ede62320bc017ef1f00ec1d60a5d5fc34dac8c4e96d0016e6523881f",
+      "nativeDimensions": [
+        256,
+        112
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/secondary_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/checkbox_on.png",
+      "sha256": "b986cc788cbae485e12a8a778be057715201d11e3d1154776881966b680b77b9",
+      "nativeDimensions": [
+        128,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/checkbox_on.png.source.json"
+    },
+    {
+      "file": "assets/common/slider_track.png",
+      "sha256": "5919ec4975d82d653e74d39f750cf8ecd6412694fe8f0c85bec4629bb7b9d0b2",
+      "nativeDimensions": [
+        296,
+        64
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/slider_track.png.source.json"
+    },
+    {
+      "file": "assets/common/slider_thumb.png",
+      "sha256": "0d717bc517e3146f3f56d83df930e7f571588fdae0f9e658faa4e5631e93da7f",
+      "nativeDimensions": [
+        112,
+        112
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/slider_thumb.png.source.json"
+    }
+  ],
+  "layoutRecord": "designs/details/options/04-声音-01.layout.json",
+  "functionalReference": {
+    "functionalRepository": "https://github.com/OpenRCT2/OpenRCT2.git",
+    "commit": "52a55c3e8da5972460642bdfed61d091fe9cabfd",
+    "sourceUnit": "Options",
+    "sourceFiles": [
+      "src/openrct2-ui/windows/Options.cpp"
+    ],
+    "condition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+    "scope": "Complete controls arranged as an actual product UI proposal; no runtime verification.",
+    "sourceControls": [
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_SOUND"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_SOUND",
+        "screenId": "detail:options:04-声音-01",
+        "region": [
+          394,
+          336,
+          608,
+          52
+        ],
+        "visualKind": "dropdown",
+        "label": "声音设备",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "dropdownMenu",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 169
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "dropdownMenu",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 356,
+              "sourceExpression": "makeWidget({ 10,  53}, {290, 14}, WidgetType::dropdownMenu, WindowColour::secondary                                                )",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 1608,
+            "expression": "            setCheckboxValue(WIDX_AUDIO_FOCUS_CHECKBOX, Config::Get().sound.audioFocus);             widgetSetEnabled(*this, WIDX_SOUND_CHECKBOX, Config::Get().sound.masterSoundEnabled);             widgetSetEnabled(*this, WIDX_MUSIC_CHECKBOX, Config::Get().sound.masterSoundEnabled); "
+          }
+        ],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_SOUND_DROPDOWN"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_SOUND_DROPDOWN",
+        "screenId": "detail:options:04-声音-01",
+        "region": [
+          1006,
+          336,
+          66,
+          52
+        ],
+        "visualKind": "dropdown-button",
+        "label": "声音设备选择",
+        "state": "normal",
+        "parentControl": "WIDX_SOUND",
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 170
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 357,
+              "sourceExpression": "makeWidget({288,  54}, { 11, 12}, WidgetType::button,       WindowColour::secondary, STR_DROPDOWN_GLYPH,      STR_AUDIO_DEVICE_TIP )",
+              "sourceStringIds": [
+                "STR_DROPDOWN_GLYPH",
+                "STR_AUDIO_DEVICE_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_MASTER_SOUND_CHECKBOX"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_MASTER_SOUND_CHECKBOX",
+        "screenId": "detail:options:04-声音-01",
+        "region": [
+          1108,
+          300,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "主音量",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 171
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 358,
+              "sourceExpression": "makeWidget({ 10,  71}, {220, 12}, WidgetType::checkbox,     WindowColour::secondary, STR_MASTER_VOLUME,       STR_MASTER_VOLUME_TIP)",
+              "sourceStringIds": [
+                "STR_MASTER_VOLUME",
+                "STR_MASTER_VOLUME_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_SOUND_CHECKBOX"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_SOUND_CHECKBOX",
+        "screenId": "detail:options:04-声音-01",
+        "region": [
+          390,
+          396,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "音效",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 172
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 359,
+              "sourceExpression": "makeWidget({ 10,  86}, {220, 12}, WidgetType::checkbox,     WindowColour::secondary, STR_SOUND_EFFECTS,       STR_SOUND_EFFECTS_TIP)",
+              "sourceStringIds": [
+                "STR_SOUND_EFFECTS",
+                "STR_SOUND_EFFECTS_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 1608,
+            "expression": "            setCheckboxValue(WIDX_AUDIO_FOCUS_CHECKBOX, Config::Get().sound.audioFocus);             widgetSetEnabled(*this, WIDX_SOUND_CHECKBOX, Config::Get().sound.masterSoundEnabled);             widgetSetEnabled(*this, WIDX_MUSIC_CHECKBOX, Config::Get().sound.masterSoundEnabled); "
+          }
+        ],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_MUSIC_CHECKBOX"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_MUSIC_CHECKBOX",
+        "screenId": "detail:options:04-声音-01",
+        "region": [
+          1108,
+          396,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "设施音乐",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 173
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 360,
+              "sourceExpression": "makeWidget({ 10, 101}, {220, 12}, WidgetType::checkbox,     WindowColour::secondary, STR_RIDE_MUSIC,          STR_RIDE_MUSIC_TIP   )",
+              "sourceStringIds": [
+                "STR_RIDE_MUSIC",
+                "STR_RIDE_MUSIC_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 1609,
+            "expression": "            widgetSetEnabled(*this, WIDX_SOUND_CHECKBOX, Config::Get().sound.masterSoundEnabled);             widgetSetEnabled(*this, WIDX_MUSIC_CHECKBOX, Config::Get().sound.masterSoundEnabled);              // Initialize only on first frame, otherwise the scrollbars won't be able to be modified"
+          }
+        ],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_AUDIO_FOCUS_CHECKBOX"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_AUDIO_FOCUS_CHECKBOX",
+        "screenId": "detail:options:04-声音-01",
+        "region": [
+          390,
+          492,
+          690,
+          96
+        ],
+        "visualKind": "checkbox",
+        "label": "游戏失去焦点时静音",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "checkbox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 174
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "checkbox",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 361,
+              "sourceExpression": "makeWidget({ 10, 115}, {290, 13}, WidgetType::checkbox,     WindowColour::secondary, STR_AUDIO_FOCUS,         STR_AUDIO_FOCUS_TIP  )",
+              "sourceStringIds": [
+                "STR_AUDIO_FOCUS",
+                "STR_AUDIO_FOCUS_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_TITLE_MUSIC"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_TITLE_MUSIC",
+        "screenId": "detail:options:04-声音-01",
+        "region": [
+          1112,
+          528,
+          608,
+          52
+        ],
+        "visualKind": "dropdown",
+        "label": "主菜单音乐",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "dropdownMenu",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 176
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "dropdownMenu",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 363,
+              "sourceExpression": "makeWidget({155, 129}, {145, 14}, WidgetType::dropdownMenu, WindowColour::secondary                                                )",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_TITLE_MUSIC_DROPDOWN"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_TITLE_MUSIC_DROPDOWN",
+        "screenId": "detail:options:04-声音-01",
+        "region": [
+          1724,
+          528,
+          66,
+          52
+        ],
+        "visualKind": "dropdown-button",
+        "label": "主菜单音乐选择",
+        "state": "normal",
+        "parentControl": "WIDX_TITLE_MUSIC",
+        "sourceWidgetType": "button",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 177
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "button",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 364,
+              "sourceExpression": "makeWidget({288, 130}, { 11, 12}, WidgetType::button,       WindowColour::secondary, STR_DROPDOWN_GLYPH,      STR_TITLE_MUSIC_TIP  )",
+              "sourceStringIds": [
+                "STR_DROPDOWN_GLYPH",
+                "STR_TITLE_MUSIC_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_MASTER_VOLUME"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_MASTER_VOLUME",
+        "screenId": "detail:options:04-声音-01",
+        "region": [
+          394,
+          624,
+          682,
+          52
+        ],
+        "visualKind": "slider",
+        "label": "主音量",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "scroll",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 178
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "scroll",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 365,
+              "sourceExpression": "makeWidget({155,  72}, {145, 13}, WidgetType::scroll,       WindowColour::secondary, SCROLL_HORIZONTAL                             )",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_SOUND_VOLUME"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_SOUND_VOLUME",
+        "screenId": "detail:options:04-声音-01",
+        "region": [
+          1112,
+          624,
+          682,
+          52
+        ],
+        "visualKind": "slider",
+        "label": "音效音量",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "scroll",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 179
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "scroll",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 366,
+              "sourceExpression": "makeWidget({155,  87}, {145, 13}, WidgetType::scroll,       WindowColour::secondary, SCROLL_HORIZONTAL                             )",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Options:WIDX_MUSIC_VOLUME"
+        ],
+        "unit": "Options",
+        "controlId": "WIDX_MUSIC_VOLUME",
+        "screenId": "detail:options:04-声音-01",
+        "region": [
+          394,
+          720,
+          682,
+          52
+        ],
+        "visualKind": "slider",
+        "label": "设施音乐音量",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "scroll",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Options.cpp",
+            "line": 180
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "scroll",
+              "sourcePath": "src/openrct2-ui/windows/Options.cpp",
+              "line": 367,
+              "sourceExpression": "makeWidget({155, 102}, {145, 13}, WidgetType::scroll,       WindowColour::secondary, SCROLL_HORIZONTAL                             )",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "当前是桌面版，适用的渲染/设备选项已启用；即时变更，不增加应用确认。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      }
+    ],
+    "decorativeArtPolicy": "Existing painted PNGs only"
+  },
+  "status": "produced_pending_review"
+}

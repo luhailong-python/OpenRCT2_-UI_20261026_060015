@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/map_02.jpg",
+  "sha256": "be788ae31f48caa00dcaa12f9b6c26acf2e817d9db21f580ab6549267e8dbb5b",
+  "derivedFrom": [
+    {
+      "file": "designs/map/02-设施.png",
+      "sha256": "0eb8f1b86e75c4ca06772a246c0f7b6459e47b62259e245453658a057049e342",
+      "sourceRecord": "designs/map/02-设施.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/new-ride_04.jpg",
+  "sha256": "287184a008d80d636b9f3adc8f79dde0d54dab9b93224a093639de334ef35f87",
+  "derivedFrom": [
+    {
+      "file": "designs/new-ride/04-惊险.png",
+      "sha256": "19d748dec37608b67a49f1dc4d4872836a0ee16bba5109377370b28971135c09",
+      "sourceRecord": "designs/new-ride/04-惊险.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

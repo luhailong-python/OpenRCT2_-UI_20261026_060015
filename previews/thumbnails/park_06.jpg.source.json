@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/park_06.jpg",
+  "sha256": "6d431696edf84163acf975defa2bf55aa4d2d8dcc5ac566260966803b6689eaa",
+  "derivedFrom": [
+    {
+      "file": "designs/park/06-目标.png",
+      "sha256": "d8abdaea9ec5ad677c3748fcea3a4b17d4dc9e6bb7b5906443b0b593f186d623",
+      "sourceRecord": "designs/park/06-目标.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

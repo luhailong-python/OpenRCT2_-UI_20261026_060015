@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/news-ticker_01.jpg",
+  "sha256": "9582eff1fd5a2499a4f37d505060904c56631546d0e0df291bf03b12eef06313",
+  "derivedFrom": [
+    {
+      "file": "designs/news-ticker/01-消息.png",
+      "sha256": "430ade3b3d970901aaae748bfb44b863271751f640f38ff6582623b66379ba24",
+      "sourceRecord": "designs/news-ticker/01-消息.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

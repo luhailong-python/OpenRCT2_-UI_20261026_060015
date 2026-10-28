@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/tile-inspector_04.jpg",
+  "sha256": "91a54496db65b08f755642c8bddfa0978b3428d4f1f945e65e13449d364f69c6",
+  "derivedFrom": [
+    {
+      "file": "designs/tile-inspector/04-小景物.png",
+      "sha256": "5e1187d4c8630c160f7b277b82440164e5290c5b423ad8e2a28f046f73504bd3",
+      "sourceRecord": "designs/tile-inspector/04-小景物.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

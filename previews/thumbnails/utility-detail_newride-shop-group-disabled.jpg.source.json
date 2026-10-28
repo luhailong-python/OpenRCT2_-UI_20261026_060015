@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/utility-detail_newride-shop-group-disabled.jpg",
+  "sha256": "aa12fb26442ffe63f6e97f8216e29fbaa192592f07647f890cf0e6de68231362",
+  "derivedFrom": [
+    {
+      "file": "designs/details/utility/newride-shop-group-disabled.png",
+      "sha256": "cab65c64da4c7d4d9a535d22d8e14d44c1dc297386395773f6ffdff24428c233",
+      "sourceRecord": "designs/details/utility/newride-shop-group-disabled.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

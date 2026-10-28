@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/detail_ride-construction_06-entrance-exit.jpg",
+  "sha256": "ab2edbd3bebed75eae47ecd11ecd6d1a1c088d7dba6aef56998d8b0fca251d4b",
+  "derivedFrom": [
+    {
+      "file": "designs/details/ride-construction/06-entrance-exit.png",
+      "sha256": "7771c8ccfa7a45b9a1d6ab8ca239dc12f9294c13d736ff6d2f75cc02ed40892a",
+      "sourceRecord": "designs/details/ride-construction/06-entrance-exit.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

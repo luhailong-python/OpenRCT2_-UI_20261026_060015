@@ -1,0 +1,60 @@
+{
+  "name": "toilet",
+  "file": "assets/icons/toilet.png",
+  "width": 192,
+  "height": 192,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "7899f5e6ae2f07d24bf9ef50a0de22465858388efd05da21d0e0a858312e2d78",
+  "borderLeftBottomRightTop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "resizeAxes": "none",
+  "minimumSize": [
+    192,
+    192
+  ],
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "pixelsPerUnit": 100,
+  "containsDynamicText": false,
+  "source": "assets/masters/icons-native.png",
+  "sourceSha256": "d0f99448ab11be63840698af42b9839ab68ffc6b13a4ac654a5ab3252620f8c6",
+  "sourceNativeSize": [
+    1254,
+    1254
+  ],
+  "sourceRectTopLeftXYXY": [
+    481,
+    216,
+    627,
+    383
+  ],
+  "pasteOffset": [
+    23,
+    12
+  ],
+  "operation": "Original-pixel crop; isolate specified alpha>100 connected silhouettes, retain original alpha>=16 within 2px edge support; center on padded canvas. No recoloring, painting, AI call or upscaling.",
+  "derivedFrom": {
+    "file": "assets/masters/icons-native.png",
+    "sha256": "d0f99448ab11be63840698af42b9839ab68ffc6b13a4ac654a5ab3252620f8c6",
+    "generationRecord": "assets/masters/icons-native.png.generation.json"
+  },
+  "alpha": {
+    "minimum": 0,
+    "maximum": 255,
+    "transparentPixels": 19975,
+    "visiblePixels": 16889
+  },
+  "isolatedForegroundComponents": 1,
+  "qualityStatus": "passed_slice_visual_review_20261026",
+  "nativeDetailIncreased": false,
+  "processedAt": "2026-10-26T06:14:37.273723-04:00",
+  "rowMajorIndex": 12,
+  "visualEvidence": "docs/sprite-qa.md; previews/sprites-contact.jpg"
+}

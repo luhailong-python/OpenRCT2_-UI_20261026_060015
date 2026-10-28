@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/staff_02.jpg",
+  "sha256": "2968d66ddcf0fc76b5a28e70540ec8df426045f5ded1c432eb9c5c152928c3b9",
+  "derivedFrom": [
+    {
+      "file": "designs/staff/02-职责.png",
+      "sha256": "cd434842535fc8c25f7d63e1bdf469eeadf04c589c1b8b76daecc7998271224b",
+      "sourceRecord": "designs/staff/02-职责.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

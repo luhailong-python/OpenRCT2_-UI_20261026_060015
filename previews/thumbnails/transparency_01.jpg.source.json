@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/transparency_01.jpg",
+  "sha256": "0e0bf26f800d7e5cce57bf48a47f7414124e57692c0281cfb67c4c971719b827",
+  "derivedFrom": [
+    {
+      "file": "designs/transparency/01-可见性.png",
+      "sha256": "99a177a3a944a293247a296716485ee838980436dfbd85267fd20d55f95dd85b",
+      "sourceRecord": "designs/transparency/01-可见性.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

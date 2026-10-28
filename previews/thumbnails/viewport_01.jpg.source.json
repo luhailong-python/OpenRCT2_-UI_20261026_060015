@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/viewport_01.jpg",
+  "sha256": "9cc225874d65fb26f2a366b95b1f2ebb68b917c7396beee2069f73609ae6e504",
+  "derivedFrom": [
+    {
+      "file": "designs/viewport/01-辅助视口.png",
+      "sha256": "ef73ae50fc8ddd3485e4a749aba8d85ebecd9c69dd0f25693a8109da90f2d47e",
+      "sourceRecord": "designs/viewport/01-辅助视口.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

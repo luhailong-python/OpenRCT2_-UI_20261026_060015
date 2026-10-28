@@ -1,0 +1,366 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-26T08:55:20.962035-04:00",
+  "scope": "26 Ride/Guest/Park operational product art proposal screens, not all source control placement and not Unity.",
+  "status": "passed_visual_production_review",
+  "criticalVisualIssueCount": 0,
+  "layoutIssueCount": 0,
+  "fileCheckFailures": [],
+  "screenCount": 26,
+  "fullSizeSamplesActuallyViewed": 14,
+  "contactSheet": "previews/operations-contact.jpg",
+  "contactSha256": "7dca90b972d091396ca6eff2ee70065fecd892960eb323cf075fb8de79ea6c40",
+  "screens": [
+    {
+      "id": "operations:ride:01-overview-closed",
+      "file": "designs/details/ride-ops/01-overview-closed.png",
+      "sha256": "6c715e5bdd48cc490d53ce840ffa5ff587641875df817023a7ec0f8e388a8076",
+      "modifiedAt": "2026-10-26T08:41:26.343403-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actualVisualEvidence": "full-size PNG opened with view_image plus contact sheet",
+      "layoutIssues": []
+    },
+    {
+      "id": "operations:ride:02-overview-testing",
+      "file": "designs/details/ride-ops/02-overview-testing.png",
+      "sha256": "59e2974628ddad053fecef7df223c7b18cf704fbb72fd3c1a9a03d67f7c76cfa",
+      "modifiedAt": "2026-10-26T08:41:26.657335-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actualVisualEvidence": "contact-sheet overview opened with view_image; related same-layout full-size mode also inspected",
+      "layoutIssues": []
+    },
+    {
+      "id": "operations:ride:03-overview-open",
+      "file": "designs/details/ride-ops/03-overview-open.png",
+      "sha256": "82a94266128b23e9a2ea643254bdb401d84c546e4f713d44dc4a24ae4ba58fa8",
+      "modifiedAt": "2026-10-26T08:41:26.958700-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actualVisualEvidence": "contact-sheet overview opened with view_image; related same-layout full-size mode also inspected",
+      "layoutIssues": []
+    },
+    {
+      "id": "operations:ride:04-overview-simulating",
+      "file": "designs/details/ride-ops/04-overview-simulating.png",
+      "sha256": "c8a364d27c55b7fa8fd10c9cf81d89e5519cf384e16e43a64d76d7dbdef230be",
+      "modifiedAt": "2026-10-26T08:41:27.261213-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actualVisualEvidence": "contact-sheet overview opened with view_image; related same-layout full-size mode also inspected",
+      "layoutIssues": []
+    },
+    {
+      "id": "operations:ride:05-protected",
+      "file": "designs/details/ride-ops/05-protected.png",
+      "sha256": "1e7d40f2fab1f62e5b0975a1b41eb64279012e2fb7d2401ef49c2a37f20f4b0b",
+      "modifiedAt": "2026-10-26T08:41:27.566825-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actualVisualEvidence": "full-size PNG opened with view_image plus contact sheet",
+      "layoutIssues": []
+    },
+    {
+      "id": "operations:ride:06-graph-velocity",
+      "file": "designs/details/ride-ops/06-graph-velocity.png",
+      "sha256": "0b562ffa365a728a9736f511cb982220eaf0e3f7a8a593b8b11ebb62cbb10783",
+      "modifiedAt": "2026-10-26T08:41:27.855024-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actualVisualEvidence": "full-size PNG opened with view_image plus contact sheet",
+      "layoutIssues": []
+    },
+    {
+      "id": "operations:ride:07-graph-altitude",
+      "file": "designs/details/ride-ops/07-graph-altitude.png",
+      "sha256": "d5c2f87c210b24944770e2b276a399fc56b5277e6e9f31eaa069e54892199429",
+      "modifiedAt": "2026-10-26T08:41:28.135327-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actualVisualEvidence": "contact-sheet overview opened with view_image; related same-layout full-size mode also inspected",
+      "layoutIssues": []
+    },
+    {
+      "id": "operations:ride:08-graph-vertical",
+      "file": "designs/details/ride-ops/08-graph-vertical.png",
+      "sha256": "5fe8a8e5949dd2955dc3a57ddaf1140b9bcbb98fbf095abf4a3798b6ec041c29",
+      "modifiedAt": "2026-10-26T08:41:28.422127-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actualVisualEvidence": "contact-sheet overview opened with view_image; related same-layout full-size mode also inspected",
+      "layoutIssues": []
+    },
+    {
+      "id": "operations:ride:09-graph-lateral",
+      "file": "designs/details/ride-ops/09-graph-lateral.png",
+      "sha256": "34167e89eed262b58dae826fb773fd545b26889b2438c70c442aa2e8c4452185",
+      "modifiedAt": "2026-10-26T08:41:28.710074-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actualVisualEvidence": "contact-sheet overview opened with view_image; related same-layout full-size mode also inspected",
+      "layoutIssues": []
+    },
+    {
+      "id": "operations:ride:10-shop-prices",
+      "file": "designs/details/ride-ops/10-shop-prices.png",
+      "sha256": "9cab4c1327aa37f83eab93c97d291f0c70ef38c97f54d674d4cc5e68fac4d860",
+      "modifiedAt": "2026-10-26T08:41:29.014105-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actualVisualEvidence": "full-size PNG opened with view_image plus contact sheet",
+      "layoutIssues": []
+    },
+    {
+      "id": "operations:ride:11-admission-price-locked",
+      "file": "designs/details/ride-ops/11-admission-price-locked.png",
+      "sha256": "846f84c150a3c30fe7adf39fb439d6b5cf190ffab44980e4ca1a49b8f8d74bf4",
+      "modifiedAt": "2026-10-26T08:41:29.279473-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actualVisualEvidence": "contact-sheet overview opened with view_image; related same-layout full-size mode also inspected",
+      "layoutIssues": []
+    },
+    {
+      "id": "operations:ride:13-blueprint-entry",
+      "file": "designs/details/ride-ops/13-blueprint-entry.png",
+      "sha256": "9a7b358b14a95bf6993014e3dcd81581a001bd355b3712670b7ee30ea9cb85af",
+      "modifiedAt": "2026-10-26T08:41:29.555677-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actualVisualEvidence": "full-size PNG opened with view_image plus contact sheet",
+      "layoutIssues": []
+    },
+    {
+      "id": "operations:ride:14-blueprint-entry-locked",
+      "file": "designs/details/ride-ops/14-blueprint-entry-locked.png",
+      "sha256": "1f7755ffdf438dac18753f24b9046bc9299f0bd7cea167f7557e0bfb3572e2db",
+      "modifiedAt": "2026-10-26T08:41:29.820053-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actualVisualEvidence": "full-size PNG opened with view_image plus contact sheet",
+      "layoutIssues": []
+    },
+    {
+      "id": "operations:ride:15-blueprint-scenery-selection",
+      "file": "designs/details/ride-ops/15-blueprint-scenery-selection.png",
+      "sha256": "31359efe20d989a21f170f00190bce0bd9a2eee63760d9f3393dc04a14456676",
+      "modifiedAt": "2026-10-26T08:41:30.121128-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actualVisualEvidence": "full-size PNG opened with view_image plus contact sheet",
+      "layoutIssues": []
+    },
+    {
+      "id": "operations:ride:12-rename",
+      "file": "designs/details/ride-ops/12-rename.png",
+      "sha256": "f200e6f93850d3b5a8ac3cced6bfed9d3866d44da1fff6a251286b45a6e06741",
+      "modifiedAt": "2026-10-26T08:41:30.401093-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actualVisualEvidence": "contact-sheet overview opened with view_image; related same-layout full-size mode also inspected",
+      "layoutIssues": []
+    },
+    {
+      "id": "operations:guest:01-guest-actions",
+      "file": "designs/details/guest-ops/01-guest-actions.png",
+      "sha256": "ce5a86c04983898562ba648471fe16dab7eb80dab75deae9854151d51f9f6807",
+      "modifiedAt": "2026-10-26T08:41:30.701310-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actualVisualEvidence": "full-size PNG opened with view_image plus contact sheet",
+      "layoutIssues": []
+    },
+    {
+      "id": "operations:guest:02-pickup-unavailable",
+      "file": "designs/details/guest-ops/02-pickup-unavailable.png",
+      "sha256": "0d3048184d799f6b4b6ef80f32b23f78325c1cf9d6b9b4f02da8a6319183b221",
+      "modifiedAt": "2026-10-26T08:41:31.001907-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actualVisualEvidence": "contact-sheet overview opened with view_image; related same-layout full-size mode also inspected",
+      "layoutIssues": []
+    },
+    {
+      "id": "operations:guest:03-pickup-placement",
+      "file": "designs/details/guest-ops/03-pickup-placement.png",
+      "sha256": "f297c705f97a9aa49caecfe85c579c9dea29543121c696f96c0521c068524bd0",
+      "modifiedAt": "2026-10-26T08:41:31.304840-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actualVisualEvidence": "full-size PNG opened with view_image plus contact sheet",
+      "layoutIssues": []
+    },
+    {
+      "id": "operations:guest:04-rename",
+      "file": "designs/details/guest-ops/04-rename.png",
+      "sha256": "7c8c78b68ce5c3c1f4b20ed59684bd5274a30c699506e06aae46fd2dd6c2f1d7",
+      "modifiedAt": "2026-10-26T08:41:31.571549-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actualVisualEvidence": "full-size PNG opened with view_image plus contact sheet",
+      "layoutIssues": []
+    },
+    {
+      "id": "operations:park:01-park-actions",
+      "file": "designs/details/park-ops/01-park-actions.png",
+      "sha256": "eb5be8edbed8bf4bb100ce593ebc59c3f57a1dbd36caab32d005ea3e51381cd5",
+      "modifiedAt": "2026-10-26T08:41:31.878599-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actualVisualEvidence": "full-size PNG opened with view_image plus contact sheet",
+      "layoutIssues": []
+    },
+    {
+      "id": "operations:park:02-objective-keeps-open",
+      "file": "designs/details/park-ops/02-objective-keeps-open.png",
+      "sha256": "8661193a4dad0daed973ebe31653418db334f7aa1f4dd2810ba7ce6024df619f",
+      "modifiedAt": "2026-10-26T08:41:32.197284-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actualVisualEvidence": "contact-sheet overview opened with view_image; related same-layout full-size mode also inspected",
+      "layoutIssues": []
+    },
+    {
+      "id": "operations:park:03-no-money-actions",
+      "file": "designs/details/park-ops/03-no-money-actions.png",
+      "sha256": "668b5745a243aac6850c649f614060956d8d809d75d3e33c1f2ab9c4a6c93746",
+      "modifiedAt": "2026-10-26T08:41:32.520749-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actualVisualEvidence": "contact-sheet overview opened with view_image; related same-layout full-size mode also inspected",
+      "layoutIssues": []
+    },
+    {
+      "id": "operations:park:04-ticket-price",
+      "file": "designs/details/park-ops/04-ticket-price.png",
+      "sha256": "7e54767697fa664c95d18081a252d7addcd884e51b9d9a95ec9b243274f7ca3d",
+      "modifiedAt": "2026-10-26T08:41:32.771409-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actualVisualEvidence": "full-size PNG opened with view_image plus contact sheet",
+      "layoutIssues": []
+    },
+    {
+      "id": "operations:park:05-ticket-free-locked",
+      "file": "designs/details/park-ops/05-ticket-free-locked.png",
+      "sha256": "26187bb86640dc56e7eaa5a9d263b265864fd41753a97c55bbc616e534e472eb",
+      "modifiedAt": "2026-10-26T08:41:33.024703-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actualVisualEvidence": "full-size PNG opened with view_image plus contact sheet",
+      "layoutIssues": []
+    },
+    {
+      "id": "operations:park:06-rename",
+      "file": "designs/details/park-ops/06-rename.png",
+      "sha256": "a6754adca499ed4306158448511d39c9d301ec09b4674847b7906ec1c9f5feef",
+      "modifiedAt": "2026-10-26T08:41:33.287810-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actualVisualEvidence": "contact-sheet overview opened with view_image; related same-layout full-size mode also inspected",
+      "layoutIssues": []
+    },
+    {
+      "id": "operations:park:07-completion-name-entry",
+      "file": "designs/details/park-ops/07-completion-name-entry.png",
+      "sha256": "bb7d77714e96fb39c5ae5985f0afb12824e1fd2ef01b68b8a61ecb2d38cee89f",
+      "modifiedAt": "2026-10-26T08:41:33.561392-04:00",
+      "size": [
+        1920,
+        1080
+      ],
+      "actualVisualEvidence": "full-size PNG opened with view_image plus contact sheet",
+      "layoutIssues": []
+    }
+  ],
+  "observedCorrections": [
+    "Graph time unit moved below tick labels, no overlap with60second tick.",
+    "Ticket explanation uses intentional two-line copy, no orphan punctuation.",
+    "Ride/Guest/Park rename limits come from actual text-input call32; completed-scenario chart name separately uses128.",
+    "Blueprint save entry and later save confirmation are separate pages and source controls."
+  ],
+  "sourceBehaviorChecks": [
+    "Ride status light controls are alternative source skins; redesigned status menu records the intentional semantic merge.",
+    "Simulation entry remains build/ride-capability conditional in metadata.",
+    "Protected ride demolition disabled with visible reason.",
+    "Guest pickup disabled by canBePickedUp.",
+    "Park guestsAndRating objective disables open/close.",
+    "Park noMoney hides rights-purchase entry.",
+    "Park entrance price locked/free hides stepper controls.",
+    "Same-price-throughout-park checkboxes belong to Ride sale items, not Park ticket price.",
+    "Scenario chart name entry only appears for scenarioCompleteNameInput."
+  ],
+  "assignedFontProbe": {
+    "layoutFiles": 471,
+    "textLayers": 12606,
+    "method": "Pillow/FreeType actual assigned fontFileReference glyph masks vs U+10FFFF missing glyph, nonwhitespace noncontrol characters.",
+    "fonts": [
+      {
+        "fontFile": "assets\\fonts\\MaShanZheng-Regular.ttf",
+        "fontSha256": "6d2546bb189c732a8ca29af9e22457b152387d158aa459e4ac2ce1e51788b7fb",
+        "uniqueCharacters": 667,
+        "missingGlyphs": []
+      },
+      {
+        "fontFile": "assets\\fonts\\NotoSansCJKsc-Regular.otf",
+        "fontSha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+        "uniqueCharacters": 961,
+        "missingGlyphs": []
+      }
+    ],
+    "missingCount": 0
+  },
+  "unityValidated": false,
+  "allSourceControlsClaimed": false
+}

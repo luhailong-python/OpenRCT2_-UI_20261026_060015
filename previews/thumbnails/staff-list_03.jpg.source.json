@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/staff-list_03.jpg",
+  "sha256": "ddf06a6e1f1fa4708f44123c377e8d92a2a5c5bb679be78639a58e8e0340e9b6",
+  "derivedFrom": [
+    {
+      "file": "designs/staff-list/03-安保.png",
+      "sha256": "a66cf1cd05a17b48e13bcde758c6035646a80094e6925ec843496c0341fa8b7f",
+      "sourceRecord": "designs/staff-list/03-安保.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

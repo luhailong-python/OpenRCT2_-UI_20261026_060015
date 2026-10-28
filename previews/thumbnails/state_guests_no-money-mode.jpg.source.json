@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_guests_no-money-mode.jpg",
+  "sha256": "ce37667a3f8f3038d409823e6a2cf84fb6f9257ae4fb35f74bcf90d972da6df9",
+  "derivedFrom": [
+    {
+      "file": "previews/states/guests/no-money-mode.png",
+      "sha256": "3aedbfeaed514aa784a532dbfd5061c9904007d8a932d60746f1165f991186d0",
+      "sourceRecord": "previews/states/guests/no-money-mode.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

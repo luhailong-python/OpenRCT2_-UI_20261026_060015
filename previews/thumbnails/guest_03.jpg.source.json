@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/guest_03.jpg",
+  "sha256": "bc78116eb0d7affec2014c5861408370b56f4cad77dd9a10797a559bed1b218e",
+  "derivedFrom": [
+    {
+      "file": "designs/guest/03-游玩记录.png",
+      "sha256": "ef7366b714515ff9f35572055bba1cfd99078d98d905b3b5a754dd31c45edc19",
+      "sourceRecord": "designs/guest/03-游玩记录.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

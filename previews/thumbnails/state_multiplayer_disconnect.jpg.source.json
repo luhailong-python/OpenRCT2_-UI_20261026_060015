@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_multiplayer_disconnect.jpg",
+  "sha256": "cddd2af94dcdd0fb020be4d8eb7e4df9b4c1afb326cd1b74f88f0bff7eb3a6af",
+  "derivedFrom": [
+    {
+      "file": "previews/states/multiplayer/disconnect.png",
+      "sha256": "98460152ff52162f25aa9c919208a4e82a6dfae97c3e2235ca14b705fa6e7b89",
+      "sourceRecord": "previews/states/multiplayer/disconnect.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/dropdown_03.jpg",
+  "sha256": "56ec1e26e005afce2dc46081edbb6077756809f91d72ed0227288f2fd7d7baf6",
+  "derivedFrom": [
+    {
+      "file": "designs/dropdown/03-图像.png",
+      "sha256": "cbe37bba3e9d0c971a5874df45860b3d005c62a0bb6c036a146b05f761a8dd94",
+      "sourceRecord": "designs/dropdown/03-图像.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

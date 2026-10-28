@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/park/06-目标.png",
+  "sha256": "d8abdaea9ec5ad677c3748fcea3a4b17d4dc9e6bb7b5906443b0b593f186d623",
+  "exportedAt": "2026-10-26T06:44:27.223684-04:00",
+  "width": 1920,
+  "height": 1080,
+  "format": "PNG",
+  "operation": "composite_preview_not_native_generation",
+  "process": [
+    "Nine-slice/contain/cover composition of painted PNG sprites",
+    "Separate Chinese text typesetting and data diagrams"
+  ],
+  "resampling": "LANCZOS where art is fitted; output dimensions do not represent new native generated detail.",
+  "nativeModelClaim": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidencePolicy": "Resolve original AI model/quality through each source asset record; unreported values remain unconfirmed.",
+  "derivedFrom": [
+    {
+      "file": "assets/backgrounds/park-day-native.png",
+      "sha256": "27c3ac998fcd81e675c9a05712ead25c83443b133844c169d1476c3cebe25712",
+      "nativeDimensions": [
+        1672,
+        941
+      ],
+      "generationRecord": "assets/backgrounds/park-day-native.png.generation.json",
+      "derivationRecord": "assets/slice-manifest.json"
+    },
+    {
+      "file": "assets/common/panel_main.png",
+      "sha256": "704856762248133110624f38365e0ff337dd1f2f6304f66298e2230077ebca00",
+      "nativeDimensions": [
+        619,
+        610
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_main.png.source.json"
+    },
+    {
+      "file": "assets/common/title_plate.png",
+      "sha256": "f1011dd30d1ef42cbeedf64f31025c6c77c91ffbbcdd09ef74c065ad1d91ddfe",
+      "nativeDimensions": [
+        594,
+        195
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/title_plate.png.source.json"
+    },
+    {
+      "file": "assets/common/close.png",
+      "sha256": "f9089fdc15bfbfbd496d9c02de94c46b0e1e4052fffa9689de0b461e043737ec",
+      "nativeDimensions": [
+        184,
+        184
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/close.png.source.json"
+    },
+    {
+      "file": "assets/common/panel_card.png",
+      "sha256": "b82ed16e818b3bb86c16a68453bc4b73f1764c6fdb4541c2e470e5c60789568e",
+      "nativeDimensions": [
+        589,
+        558
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_card.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_normal.png",
+      "sha256": "9327a3d9577111e5985e3453a8a201010887c606a094b7e080421417aef3f92e",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_selected.png",
+      "sha256": "119a81554b9e332d698f5c704813cb047fcd4c5c71e9e5c36c7b6df6b4a789b9",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_selected.png.source.json"
+    },
+    {
+      "file": "assets/illustrations/achievement_trophy.png",
+      "sha256": "77dc726d1f315617181725cd129c2f6f98f974ac18f3e167c3577a77a6d3cb8d",
+      "nativeDimensions": [
+        440,
+        440
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/illustrations/achievement_trophy.png.source.json"
+    },
+    {
+      "file": "assets/common/secondary_normal.png",
+      "sha256": "5f6418c0ede62320bc017ef1f00ec1d60a5d5fc34dac8c4e96d0016e6523881f",
+      "nativeDimensions": [
+        256,
+        112
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/secondary_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/progress_track.png",
+      "sha256": "e41bb50d9e74546757e0035d20bd4fb1f497efb2f0ee088c7378379886e6bed2",
+      "nativeDimensions": [
+        280,
+        64
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/progress_track.png.source.json"
+    },
+    {
+      "file": "assets/common/progress_fill.png",
+      "sha256": "459461fd9c87058abd69c2cee2ea75d703cab5d59dfded05e2f749c4b829d463",
+      "nativeDimensions": [
+        280,
+        64
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/progress_fill.png.source.json"
+    },
+    {
+      "file": "assets/common/primary_normal.png",
+      "sha256": "83fe20f7969e29bf064885d8947b6ab9042e99b47dcac58c7277505e75cd1b5d",
+      "nativeDimensions": [
+        256,
+        120
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/primary_normal.png.source.json"
+    }
+  ],
+  "layoutRecord": "designs/park/06-目标.layout.json",
+  "functionalReference": {
+    "repository": "https://github.com/OpenRCT2/OpenRCT2.git",
+    "commit": "52a55c3e8da5972460642bdfed61d091fe9cabfd",
+    "windowKey": "park",
+    "tab": "目标",
+    "sourceEvidence": [
+      {
+        "path": "src/openrct2-ui/windows/Park.cpp",
+        "line": 63,
+        "text": "enum WindowParkWidgetIdx : WidgetIndex"
+      },
+      {
+        "path": "src/openrct2-ui/windows/Park.cpp",
+        "line": 97,
+        "text": "static constexpr auto makeParkWidgets = [](int16_t width) {"
+      },
+      {
+        "path": "src/openrct2-ui/windows/Park.cpp",
+        "line": 111,
+        "text": "static constexpr auto _entranceWidgets = makeWidgets("
+      },
+      {
+        "path": "src/openrct2-ui/windows/Park.cpp",
+        "line": 123,
+        "text": "static constexpr auto _ratingWidgets = makeWidgets("
+      },
+      {
+        "path": "src/openrct2-ui/windows/Park.cpp",
+        "line": 127,
+        "text": "static constexpr auto _guestsWidgets = makeWidgets("
+      },
+      {
+        "path": "src/openrct2-ui/windows/Park.cpp",
+        "line": 131,
+        "text": "static constexpr auto _priceWidgets = makeWidgets("
+      },
+      {
+        "path": "src/openrct2-ui/windows/Park.cpp",
+        "line": 137,
+        "text": "static constexpr auto _statsWidgets = makeWidgets("
+      },
+      {
+        "path": "src/openrct2-ui/windows/Park.cpp",
+        "line": 141,
+        "text": "static constexpr auto _objectiveWidgets = makeWidgets("
+      },
+      {
+        "path": "src/openrct2-ui/windows/Park.cpp",
+        "line": 146,
+        "text": "static constexpr auto _awardsWidgets = makeWidgets("
+      },
+      {
+        "path": "src/openrct2-ui/windows/Park.cpp",
+        "line": 99,
+        "text": "makeWindowShim(kWindowTitle, { width, kWindowHeight }),"
+      },
+      {
+        "path": "src/openrct2-ui/windows/Park.cpp",
+        "line": 51,
+        "text": "enum WindowParkPage"
+      },
+      {
+        "path": "src/openrct2-ui/windows/Park.cpp",
+        "line": 53,
+        "text": "WINDOW_PARK_PAGE_ENTRANCE,"
+      }
+    ],
+    "visualAssumptions": [
+      "所有金额、名字、指标为排版样例",
+      "道家主题命名和铜钱显示属于美术改编",
+      "保留经营模拟逻辑，不叠加角色战斗或抽卡系统"
+    ]
+  },
+  "status": "produced_pending_review"
+}

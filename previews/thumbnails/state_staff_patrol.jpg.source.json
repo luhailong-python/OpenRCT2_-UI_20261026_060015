@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_staff_patrol.jpg",
+  "sha256": "e0397f1f3ebce49fc084ddde389e1131608e994b9bdd2e88736362f6ea3baac3",
+  "derivedFrom": [
+    {
+      "file": "previews/states/staff/patrol.png",
+      "sha256": "3b5f4261b32c34e6b5d5cbfd30ecacd7b5d3ffad19a226bbe90f8d346dd5e36e",
+      "sourceRecord": "previews/states/staff/patrol.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

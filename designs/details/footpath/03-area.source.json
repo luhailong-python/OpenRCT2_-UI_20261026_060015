@@ -1,0 +1,694 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/details/footpath/03-area.png",
+  "sha256": "76c64a6006117bc560eb55d080591edc0d9c3383772120140fbc121156185f11",
+  "exportedAt": "2026-10-26T08:00:02.300854-04:00",
+  "width": 1920,
+  "height": 1080,
+  "format": "PNG",
+  "operation": "composite_preview_not_native_generation",
+  "process": [
+    "Nine-slice/contain/cover composition of painted PNG sprites",
+    "Separate Chinese text typesetting and data diagrams"
+  ],
+  "resampling": "LANCZOS where art is fitted; output dimensions do not represent new native generated detail.",
+  "nativeModelClaim": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidencePolicy": "Resolve original AI model/quality through each source asset record; unreported values remain unconfirmed.",
+  "derivedFrom": [
+    {
+      "file": "assets/backgrounds/park-day-native.png",
+      "sha256": "27c3ac998fcd81e675c9a05712ead25c83443b133844c169d1476c3cebe25712",
+      "nativeDimensions": [
+        1672,
+        941
+      ],
+      "generationRecord": "assets/backgrounds/park-day-native.png.generation.json",
+      "derivationRecord": "assets/slice-manifest.json"
+    },
+    {
+      "file": "assets/common/panel_main.png",
+      "sha256": "704856762248133110624f38365e0ff337dd1f2f6304f66298e2230077ebca00",
+      "nativeDimensions": [
+        619,
+        610
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_main.png.source.json"
+    },
+    {
+      "file": "assets/common/title_plate.png",
+      "sha256": "f1011dd30d1ef42cbeedf64f31025c6c77c91ffbbcdd09ef74c065ad1d91ddfe",
+      "nativeDimensions": [
+        594,
+        195
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/title_plate.png.source.json"
+    },
+    {
+      "file": "assets/common/close.png",
+      "sha256": "f9089fdc15bfbfbd496d9c02de94c46b0e1e4052fffa9689de0b461e043737ec",
+      "nativeDimensions": [
+        184,
+        184
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/close.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_normal.png",
+      "sha256": "9327a3d9577111e5985e3453a8a201010887c606a094b7e080421417aef3f92e",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_selected.png",
+      "sha256": "119a81554b9e332d698f5c704813cb047fcd4c5c71e9e5c36c7b6df6b4a789b9",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_selected.png.source.json"
+    },
+    {
+      "file": "assets/common/secondary_normal.png",
+      "sha256": "5f6418c0ede62320bc017ef1f00ec1d60a5d5fc34dac8c4e96d0016e6523881f",
+      "nativeDimensions": [
+        256,
+        112
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/secondary_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/secondary_disabled.png",
+      "sha256": "9033970323911aa959f63cbcc180f5dec0edcdea230ea0ef5a9f91d281b60f89",
+      "nativeDimensions": [
+        256,
+        112
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/secondary_disabled.png.source.json"
+    }
+  ],
+  "layoutRecord": "designs/details/footpath/03-area.layout.json",
+  "functionalReference": {
+    "functionalRepository": "https://github.com/OpenRCT2/OpenRCT2.git",
+    "commit": "52a55c3e8da5972460642bdfed61d091fe9cabfd",
+    "sourceUnit": "Footpath",
+    "sourceFiles": [
+      "src/openrct2-ui/windows/Footpath.cpp"
+    ],
+    "condition": "bridgeOrTunnel=False; 方向可用性还受 validDirections 约束，此例为四向可用。",
+    "scope": "Complete controls arranged as an actual product UI proposal; no runtime verification.",
+    "sourceControls": [
+      {
+        "sourceControlKeys": [
+          "Footpath:WIDX_FOOTPATH_TYPE"
+        ],
+        "unit": "Footpath",
+        "controlId": "WIDX_FOOTPATH_TYPE",
+        "screenId": "detail:footpath:03-area",
+        "region": [
+          114,
+          418,
+          746,
+          52
+        ],
+        "visualKind": "dropdown",
+        "label": "普通道路路面",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 166
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/Footpath.cpp",
+              "line": 195,
+              "sourceExpression": "makeWidget({ 6,  30}, { 47, 36}, WidgetType::flatBtn,  WindowColour::secondary, 0xFFFFFFFF,                             STR_FOOTPATH_TIP                                   )",
+              "sourceStringIds": [
+                "STR_FOOTPATH_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "bridgeOrTunnel=False; 方向可用性还受 validDirections 约束，此例为四向可用。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Footpath:WIDX_QUEUELINE_TYPE"
+        ],
+        "unit": "Footpath",
+        "controlId": "WIDX_QUEUELINE_TYPE",
+        "screenId": "detail:footpath:03-area",
+        "region": [
+          970,
+          418,
+          746,
+          52
+        ],
+        "visualKind": "dropdown",
+        "label": "排队道路路面",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 167
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/Footpath.cpp",
+              "line": 196,
+              "sourceExpression": "makeWidget({53,  30}, { 47, 36}, WidgetType::flatBtn,  WindowColour::secondary, 0xFFFFFFFF,                             STR_QUEUE_LINE_PATH_TIP                            )",
+              "sourceStringIds": [
+                "STR_QUEUE_LINE_PATH_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "bridgeOrTunnel=False; 方向可用性还受 validDirections 约束，此例为四向可用。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Footpath:WIDX_RAILINGS_TYPE"
+        ],
+        "unit": "Footpath",
+        "controlId": "WIDX_RAILINGS_TYPE",
+        "screenId": "detail:footpath:03-area",
+        "region": [
+          114,
+          513,
+          746,
+          52
+        ],
+        "visualKind": "dropdown",
+        "label": "道路栏杆",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 168
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/Footpath.cpp",
+              "line": 197,
+              "sourceExpression": "makeWidget({29,  69}, { 47, 36}, WidgetType::flatBtn,  WindowColour::secondary, 0xFFFFFFFF,                             STR_OBJECT_SELECTION_FOOTPATH_RAILINGS             )",
+              "sourceStringIds": [
+                "STR_OBJECT_SELECTION_FOOTPATH_RAILINGS"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 568,
+            "expression": "             widgets[WIDX_RAILINGS_TYPE].setVisible(gFootpathSelection.legacyPath == kObjectEntryIndexNull);         } "
+          }
+        ],
+        "displayedCondition": "bridgeOrTunnel=False; 方向可用性还受 validDirections 约束，此例为四向可用。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Footpath:WIDX_DIRECTION_NW"
+        ],
+        "unit": "Footpath",
+        "controlId": "WIDX_DIRECTION_NW",
+        "screenId": "detail:footpath:03-area",
+        "region": [
+          970,
+          489,
+          820,
+          68
+        ],
+        "visualKind": "button",
+        "label": "西北",
+        "state": "disabled",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 171
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/Footpath.cpp",
+              "line": 201,
+              "sourceExpression": "makeWidget({53, 127}, { 45, 29}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_CONSTRUCTION_DIRECTION_NE),     STR_DIRECTION_TIP                              )",
+              "sourceStringIds": [
+                "STR_DIRECTION_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_CONSTRUCTION_DIRECTION_NE"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 1775,
+            "expression": "            };             setWidgetDisabled(WIDX_DIRECTION_NW, directionDisabled(0));             setWidgetDisabled(WIDX_DIRECTION_NE, directionDisabled(1));             setWidgetDisabled(WIDX_DIRECTION_SW, directionDisabled(2));"
+          }
+        ],
+        "displayedCondition": "bridgeOrTunnel=False; 方向可用性还受 validDirections 约束，此例为四向可用。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Footpath:WIDX_DIRECTION_NE"
+        ],
+        "unit": "Footpath",
+        "controlId": "WIDX_DIRECTION_NE",
+        "screenId": "detail:footpath:03-area",
+        "region": [
+          114,
+          584,
+          820,
+          68
+        ],
+        "visualKind": "button",
+        "label": "东北",
+        "state": "disabled",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 172
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/Footpath.cpp",
+              "line": 202,
+              "sourceExpression": "makeWidget({53, 156}, { 45, 29}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_CONSTRUCTION_DIRECTION_SE),     STR_DIRECTION_TIP                              )",
+              "sourceStringIds": [
+                "STR_DIRECTION_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_CONSTRUCTION_DIRECTION_SE"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 1776,
+            "expression": "            setWidgetDisabled(WIDX_DIRECTION_NW, directionDisabled(0));             setWidgetDisabled(WIDX_DIRECTION_NE, directionDisabled(1));             setWidgetDisabled(WIDX_DIRECTION_SW, directionDisabled(2));             setWidgetDisabled(WIDX_DIRECTION_SE, directionDisabled(3));"
+          }
+        ],
+        "displayedCondition": "bridgeOrTunnel=False; 方向可用性还受 validDirections 约束，此例为四向可用。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Footpath:WIDX_DIRECTION_SW"
+        ],
+        "unit": "Footpath",
+        "controlId": "WIDX_DIRECTION_SW",
+        "screenId": "detail:footpath:03-area",
+        "region": [
+          970,
+          584,
+          820,
+          68
+        ],
+        "visualKind": "button",
+        "label": "西南",
+        "state": "disabled",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 173
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/Footpath.cpp",
+              "line": 203,
+              "sourceExpression": "makeWidget({ 8, 156}, { 45, 29}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_CONSTRUCTION_DIRECTION_SW),     STR_DIRECTION_TIP                              )",
+              "sourceStringIds": [
+                "STR_DIRECTION_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_CONSTRUCTION_DIRECTION_SW"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 1777,
+            "expression": "            setWidgetDisabled(WIDX_DIRECTION_NE, directionDisabled(1));             setWidgetDisabled(WIDX_DIRECTION_SW, directionDisabled(2));             setWidgetDisabled(WIDX_DIRECTION_SE, directionDisabled(3)); "
+          }
+        ],
+        "displayedCondition": "bridgeOrTunnel=False; 方向可用性还受 validDirections 约束，此例为四向可用。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Footpath:WIDX_DIRECTION_SE"
+        ],
+        "unit": "Footpath",
+        "controlId": "WIDX_DIRECTION_SE",
+        "screenId": "detail:footpath:03-area",
+        "region": [
+          114,
+          679,
+          820,
+          68
+        ],
+        "visualKind": "button",
+        "label": "东南",
+        "state": "disabled",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 174
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/Footpath.cpp",
+              "line": 204,
+              "sourceExpression": "makeWidget({ 8, 127}, { 45, 29}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_CONSTRUCTION_DIRECTION_NW),     STR_DIRECTION_TIP                              )",
+              "sourceStringIds": [
+                "STR_DIRECTION_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_CONSTRUCTION_DIRECTION_NW"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 1778,
+            "expression": "            setWidgetDisabled(WIDX_DIRECTION_SW, directionDisabled(2));             setWidgetDisabled(WIDX_DIRECTION_SE, directionDisabled(3));              // Bridge-mode group / slope widgets"
+          }
+        ],
+        "displayedCondition": "bridgeOrTunnel=False; 方向可用性还受 validDirections 约束，此例为四向可用。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Footpath:WIDX_SLOPEDOWN"
+        ],
+        "unit": "Footpath",
+        "controlId": "WIDX_SLOPEDOWN",
+        "screenId": "detail:footpath:03-area",
+        "region": [
+          970,
+          679,
+          820,
+          68
+        ],
+        "visualKind": "button",
+        "label": "下坡",
+        "state": "disabled",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 177
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/Footpath.cpp",
+              "line": 208,
+              "sourceExpression": "makeWidget({17, 207}, { 24, 24}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_RIDE_CONSTRUCTION_SLOPE_DOWN),  STR_SLOPE_DOWN_TIP                             )",
+              "sourceStringIds": [
+                "STR_SLOPE_DOWN_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_RIDE_CONSTRUCTION_SLOPE_DOWN"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 1783,
+            "expression": "            setWidgetDisabled(WIDX_SLOPE_GROUP, !bridgeMode);             setWidgetDisabled(WIDX_SLOPEDOWN, !bridgeMode);             setWidgetDisabled(WIDX_LEVEL, !bridgeMode);             setWidgetDisabled(WIDX_SLOPEUP, !bridgeMode);"
+          }
+        ],
+        "displayedCondition": "bridgeOrTunnel=False; 方向可用性还受 validDirections 约束，此例为四向可用。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Footpath:WIDX_LEVEL"
+        ],
+        "unit": "Footpath",
+        "controlId": "WIDX_LEVEL",
+        "screenId": "detail:footpath:03-area",
+        "region": [
+          114,
+          774,
+          820,
+          68
+        ],
+        "visualKind": "button",
+        "label": "水平",
+        "state": "disabled",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 178
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/Footpath.cpp",
+              "line": 209,
+              "sourceExpression": "makeWidget({41, 207}, { 24, 24}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_RIDE_CONSTRUCTION_SLOPE_LEVEL), STR_LEVEL_TIP                                  )",
+              "sourceStringIds": [
+                "STR_LEVEL_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_RIDE_CONSTRUCTION_SLOPE_LEVEL"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 1784,
+            "expression": "            setWidgetDisabled(WIDX_SLOPEDOWN, !bridgeMode);             setWidgetDisabled(WIDX_LEVEL, !bridgeMode);             setWidgetDisabled(WIDX_SLOPEUP, !bridgeMode);             setWidgetDisabled(WIDX_CONSTRUCT, !bridgeMode);"
+          }
+        ],
+        "displayedCondition": "bridgeOrTunnel=False; 方向可用性还受 validDirections 约束，此例为四向可用。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Footpath:WIDX_SLOPEUP"
+        ],
+        "unit": "Footpath",
+        "controlId": "WIDX_SLOPEUP",
+        "screenId": "detail:footpath:03-area",
+        "region": [
+          970,
+          774,
+          820,
+          68
+        ],
+        "visualKind": "button",
+        "label": "上坡",
+        "state": "disabled",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 179
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/Footpath.cpp",
+              "line": 210,
+              "sourceExpression": "makeWidget({65, 207}, { 24, 24}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_RIDE_CONSTRUCTION_SLOPE_UP),    STR_SLOPE_UP_TIP                               )",
+              "sourceStringIds": [
+                "STR_SLOPE_UP_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_RIDE_CONSTRUCTION_SLOPE_UP"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 1785,
+            "expression": "            setWidgetDisabled(WIDX_LEVEL, !bridgeMode);             setWidgetDisabled(WIDX_SLOPEUP, !bridgeMode);             setWidgetDisabled(WIDX_CONSTRUCT, !bridgeMode);             setWidgetDisabled(WIDX_REMOVE, !bridgeMode);"
+          }
+        ],
+        "displayedCondition": "bridgeOrTunnel=False; 方向可用性还受 validDirections 约束，此例为四向可用。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Footpath:WIDX_REMOVE"
+        ],
+        "unit": "Footpath",
+        "controlId": "WIDX_REMOVE",
+        "screenId": "detail:footpath:03-area",
+        "region": [
+          1584,
+          916,
+          202,
+          68
+        ],
+        "visualKind": "button",
+        "label": "移除上一段",
+        "state": "disabled",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 181
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/Footpath.cpp",
+              "line": 212,
+              "sourceExpression": "makeWidget({30, 335}, { 46, 24}, WidgetType::flatBtn,  WindowColour::secondary, ImageId(SPR_DEMOLISH_CURRENT_SECTION),      STR_REMOVE_PREVIOUS_FOOTPATH_SECTION_TIP       )",
+              "sourceStringIds": [
+                "STR_REMOVE_PREVIOUS_FOOTPATH_SECTION_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_DEMOLISH_CURRENT_SECTION"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 1787,
+            "expression": "            setWidgetDisabled(WIDX_CONSTRUCT, !bridgeMode);             setWidgetDisabled(WIDX_REMOVE, !bridgeMode);              invalidate();"
+          }
+        ],
+        "displayedCondition": "bridgeOrTunnel=False; 方向可用性还受 validDirections 约束，此例为四向可用。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Footpath:WIDX_CONSTRUCT"
+        ],
+        "unit": "Footpath",
+        "controlId": "WIDX_CONSTRUCT",
+        "screenId": "detail:footpath:03-area",
+        "region": [
+          1356,
+          916,
+          202,
+          68
+        ],
+        "visualKind": "button",
+        "label": "建造道路",
+        "state": "disabled",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 180
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/Footpath.cpp",
+              "line": 211,
+              "sourceExpression": "makeWidget({ 8, 242}, { 90, 90}, WidgetType::flatBtn,  WindowColour::secondary, 0xFFFFFFFF,                                 STR_CONSTRUCT_THE_SELECTED_FOOTPATH_SECTION_TIP)",
+              "sourceStringIds": [
+                "STR_CONSTRUCT_THE_SELECTED_FOOTPATH_SECTION_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 557,
+            "expression": "            // Enable / disable construct button             widgets[WIDX_CONSTRUCT].setVisible(_footpathConstructionMode == PathConstructionMode::bridgeOrTunnel);  #ifndef DISABLE_NETWORK"
+          },
+          {
+            "path": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 565,
+            "expression": "            }             setWidgetDisabled(WIDX_CONSTRUCT_DRAG_AREA, !canDrag); #endif "
+          },
+          {
+            "path": "src/openrct2-ui/windows/Footpath.cpp",
+            "line": 1786,
+            "expression": "            setWidgetDisabled(WIDX_SLOPEUP, !bridgeMode);             setWidgetDisabled(WIDX_CONSTRUCT, !bridgeMode);             setWidgetDisabled(WIDX_REMOVE, !bridgeMode); "
+          }
+        ],
+        "displayedCondition": "bridgeOrTunnel=False; 方向可用性还受 validDirections 约束，此例为四向可用。",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      }
+    ],
+    "decorativeArtPolicy": "Existing painted PNGs only"
+  },
+  "status": "produced_pending_review"
+}

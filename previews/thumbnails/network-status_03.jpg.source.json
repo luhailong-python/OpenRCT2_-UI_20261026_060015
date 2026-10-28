@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/network-status_03.jpg",
+  "sha256": "8d1f7ead571dd604bc4c0a2202a292bc7f6197451ddbb340d8687b55efa8d6db",
+  "derivedFrom": [
+    {
+      "file": "designs/network-status/03-失败.png",
+      "sha256": "70818b64500e36ae1a68bad53c7bd3a3d14d088ca4019a3b4a95672df5edbd45",
+      "sourceRecord": "designs/network-status/03-失败.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

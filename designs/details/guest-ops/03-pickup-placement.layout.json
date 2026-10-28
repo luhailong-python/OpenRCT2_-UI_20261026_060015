@@ -1,0 +1,1039 @@
+{
+  "schemaVersion": 1,
+  "screenId": "operations:guest:03-pickup-placement",
+  "title": "移动游客",
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "origin": "top-left",
+  "textLayers": [
+    {
+      "id": "text-001",
+      "text": "移动游客",
+      "role": "dynamic-text",
+      "region": [
+        620,
+        66,
+        680,
+        75
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 46,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 65,
+      "wrappedLines": [
+        "移动游客"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-002",
+      "text": "概览",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        231,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "概览"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-003",
+      "text": "需求",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        301,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "需求"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-004",
+      "text": "游玩记录",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        371,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "游玩记录"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-005",
+      "text": "消费",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        441,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "消费"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-006",
+      "text": "想法",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        511,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "想法"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-007",
+      "text": "携带物",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        581,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "携带物"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-008",
+      "text": "调试",
+      "role": "dynamic-text",
+      "region": [
+        116,
+        651,
+        204,
+        54
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "调试"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-009",
+      "text": "概览",
+      "role": "dynamic-text",
+      "region": [
+        398,
+        218,
+        1388,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 32,
+      "color": "#183F36",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 45,
+      "wrappedLines": [
+        "概览"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-010",
+      "text": "美术设计样例 · 名称 / 数值待定",
+      "role": "dynamic-text",
+      "region": [
+        600,
+        1046,
+        720,
+        28
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 18,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 25,
+      "wrappedLines": [
+        "美术设计样例 · 名称 / 数值待定"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-011",
+      "text": "选择游客落脚位置",
+      "role": "dynamic-text",
+      "region": [
+        470,
+        360,
+        262,
+        37
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "选择游客落脚位置"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-012",
+      "text": "青云小客",
+      "role": "dynamic-text",
+      "region": [
+        1400,
+        630,
+        340,
+        50
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 30,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "top",
+      "lineHeight": 42,
+      "wrappedLines": [
+        "青云小客"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-013",
+      "text": "选择可用步道放下游客。取消后保留原位置。",
+      "role": "dynamic-text",
+      "region": [
+        430,
+        826,
+        1330,
+        65
+      ],
+      "fontFamily": "body",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\NotoSansCJKsc-Regular.otf",
+      "fontSize": 25,
+      "color": "#7A745E",
+      "alignment": "left",
+      "verticalAlignment": "top",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "选择可用步道放下游客。取消后保留原位置。"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-014",
+      "text": "移动中",
+      "role": "dynamic-text",
+      "region": [
+        1148,
+        924,
+        244,
+        37
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#FFF8DF",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "移动中"
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "text-015",
+      "text": "取消移动",
+      "role": "dynamic-text",
+      "region": [
+        1484,
+        925,
+        277,
+        48
+      ],
+      "fontFamily": "title",
+      "fontFileReference": "E:\\work\\image\\OpenRCT2_道家UI_20261026_060015\\assets\\fonts\\MaShanZheng-Regular.ttf",
+      "fontSize": 25,
+      "color": "#183F36",
+      "alignment": "center",
+      "verticalAlignment": "center",
+      "lineHeight": 35,
+      "wrappedLines": [
+        "取消移动"
+      ],
+      "dynamic": true
+    }
+  ],
+  "artAndControlLayers": [
+    {
+      "role": "park-background",
+      "asset": "assets/backgrounds/park-day-native.png",
+      "region": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "resize": "cover"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_main.png",
+      "region": [
+        52,
+        96,
+        1816,
+        930
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "title-plaque",
+      "asset": "assets/common/title_plate.png",
+      "region": [
+        520,
+        22,
+        880,
+        170
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "close",
+      "asset": "assets/common/close.png",
+      "region": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_card.png",
+      "region": [
+        84,
+        208,
+        268,
+        756
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_selected.png",
+      "region": [
+        100,
+        224,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        294,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        364,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        434,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        504,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        574,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "navigation-tab",
+      "asset": "assets/common/tab_normal.png",
+      "region": [
+        100,
+        644,
+        236,
+        64
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Guest:WIDX_CLOSE"
+      ],
+      "unit": "Guest",
+      "controlId": "WIDX_CLOSE",
+      "screenId": "operations:guest:03-pickup-placement",
+      "region": [
+        1776,
+        110,
+        68,
+        68
+      ],
+      "visualKind": "close",
+      "label": "关闭窗口",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "closeBox",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Guest.cpp",
+          "line": 74
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "closeBox",
+            "sourcePath": "src/openrct2-ui/windows/Guest.cpp",
+            "line": 122,
+            "sourceExpression": "makeWindowShim(kWindowTitle, kWindowSize)",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": "closeBox"
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "Pickup action succeeded; picker tool active; target path is a placement preview",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Guest:WIDX_TAB_1"
+      ],
+      "unit": "Guest",
+      "controlId": "WIDX_TAB_1",
+      "screenId": "operations:guest:03-pickup-placement",
+      "region": [
+        100,
+        224,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "概览",
+      "state": "selected",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Guest.cpp",
+          "line": 76
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Guest.cpp",
+            "line": 124,
+            "sourceExpression": "makeTab({ 3, 17 }, STR_SHOW_GUEST_VIEW_TIP)",
+            "sourceStringIds": [
+              "STR_SHOW_GUEST_VIEW_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "Pickup action succeeded; picker tool active; target path is a placement preview",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Guest:WIDX_TAB_2"
+      ],
+      "unit": "Guest",
+      "controlId": "WIDX_TAB_2",
+      "screenId": "operations:guest:03-pickup-placement",
+      "region": [
+        100,
+        294,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "需求",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Guest.cpp",
+          "line": 77
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Guest.cpp",
+            "line": 125,
+            "sourceExpression": "makeTab({ 34, 17 }, STR_SHOW_GUEST_NEEDS_TIP)",
+            "sourceStringIds": [
+              "STR_SHOW_GUEST_NEEDS_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "Pickup action succeeded; picker tool active; target path is a placement preview",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Guest:WIDX_TAB_3"
+      ],
+      "unit": "Guest",
+      "controlId": "WIDX_TAB_3",
+      "screenId": "operations:guest:03-pickup-placement",
+      "region": [
+        100,
+        364,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "游玩记录",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Guest.cpp",
+          "line": 78
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Guest.cpp",
+            "line": 126,
+            "sourceExpression": "makeTab({ 65, 17 }, STR_SHOW_GUEST_VISITED_RIDES_TIP)",
+            "sourceStringIds": [
+              "STR_SHOW_GUEST_VISITED_RIDES_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "Pickup action succeeded; picker tool active; target path is a placement preview",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Guest:WIDX_TAB_4"
+      ],
+      "unit": "Guest",
+      "controlId": "WIDX_TAB_4",
+      "screenId": "operations:guest:03-pickup-placement",
+      "region": [
+        100,
+        434,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "消费",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Guest.cpp",
+          "line": 79
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Guest.cpp",
+            "line": 127,
+            "sourceExpression": "makeTab({ 96, 17 }, STR_SHOW_GUEST_FINANCE_TIP)",
+            "sourceStringIds": [
+              "STR_SHOW_GUEST_FINANCE_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Guest.cpp",
+          "line": 499,
+          "expression": "             setWidgetDisabled(WIDX_TAB_4, getGameState().park.flags.has(ParkFlag::noMoney));             setWidgetDisabled(WIDX_TAB_7, !Config::Get().general.debuggingTools);         }"
+        }
+      ],
+      "displayedCondition": "Pickup action succeeded; picker tool active; target path is a placement preview",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Guest:WIDX_TAB_5"
+      ],
+      "unit": "Guest",
+      "controlId": "WIDX_TAB_5",
+      "screenId": "operations:guest:03-pickup-placement",
+      "region": [
+        100,
+        504,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "想法",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Guest.cpp",
+          "line": 80
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Guest.cpp",
+            "line": 128,
+            "sourceExpression": "makeTab({ 127, 17 }, STR_SHOW_GUEST_THOUGHTS_TIP)",
+            "sourceStringIds": [
+              "STR_SHOW_GUEST_THOUGHTS_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "Pickup action succeeded; picker tool active; target path is a placement preview",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Guest:WIDX_TAB_6"
+      ],
+      "unit": "Guest",
+      "controlId": "WIDX_TAB_6",
+      "screenId": "operations:guest:03-pickup-placement",
+      "region": [
+        100,
+        574,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "携带物",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Guest.cpp",
+          "line": 81
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Guest.cpp",
+            "line": 129,
+            "sourceExpression": "makeTab({ 158, 17 }, STR_SHOW_GUEST_ITEMS_TIP)",
+            "sourceStringIds": [
+              "STR_SHOW_GUEST_ITEMS_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "Pickup action succeeded; picker tool active; target path is a placement preview",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Guest:WIDX_TAB_7"
+      ],
+      "unit": "Guest",
+      "controlId": "WIDX_TAB_7",
+      "screenId": "operations:guest:03-pickup-placement",
+      "region": [
+        100,
+        644,
+        236,
+        64
+      ],
+      "visualKind": "navigation-tab",
+      "label": "调试",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "tab",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Guest.cpp",
+          "line": 82
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "tab",
+            "sourcePath": "src/openrct2-ui/windows/Guest.cpp",
+            "line": 130,
+            "sourceExpression": "makeTab({ 189, 17 }, STR_DEBUG_TIP)",
+            "sourceStringIds": [
+              "STR_DEBUG_TIP"
+            ],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Guest.cpp",
+          "line": 500,
+          "expression": "            setWidgetDisabled(WIDX_TAB_4, getGameState().park.flags.has(ParkFlag::noMoney));             setWidgetDisabled(WIDX_TAB_7, !Config::Get().general.debuggingTools);         } "
+        }
+      ],
+      "displayedCondition": "Pickup action succeeded; picker tool active; target path is a placement preview",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "panel",
+      "asset": "assets/common/panel_card.png",
+      "region": [
+        414,
+        325,
+        970,
+        485
+      ],
+      "resize": "nine"
+    },
+    {
+      "role": "viewport-art",
+      "asset": "assets/backgrounds/park-day-native.png",
+      "region": [
+        430,
+        341,
+        938,
+        453
+      ],
+      "resize": "cover"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        446,
+        353,
+        310,
+        54
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Guest:WIDX_VIEWPORT"
+      ],
+      "unit": "Guest",
+      "controlId": "WIDX_VIEWPORT",
+      "screenId": "operations:guest:03-pickup-placement",
+      "region": [
+        414,
+        325,
+        970,
+        485
+      ],
+      "visualKind": "viewport",
+      "label": "游客落点预览",
+      "state": "normal",
+      "parentControl": null,
+      "sourceWidgetType": "viewport",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Guest.cpp",
+          "line": 87
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "viewport",
+            "sourcePath": "src/openrct2-ui/windows/Guest.cpp",
+            "line": 136,
+            "sourceExpression": "makeWidget({  3,  57}, {164, 87}, WidgetType::viewport,     WindowColour::secondary                                                        )",
+            "sourceStringIds": [],
+            "originalSpriteIds": [],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [],
+      "displayedCondition": "Pickup action succeeded; picker tool active; target path is a placement preview",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "icon",
+      "asset": "assets/icons/visitor.png",
+      "region": [
+        1440,
+        365,
+        250,
+        250
+      ],
+      "resize": "contain"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/primary_selected.png",
+      "region": [
+        1124,
+        916,
+        292,
+        68
+      ],
+      "resize": "nine",
+      "state": "selected"
+    },
+    {
+      "role": "source-control-geometry",
+      "sourceControlKeys": [
+        "Guest:WIDX_PICKUP"
+      ],
+      "unit": "Guest",
+      "controlId": "WIDX_PICKUP",
+      "screenId": "operations:guest:03-pickup-placement",
+      "region": [
+        1124,
+        916,
+        292,
+        68
+      ],
+      "visualKind": "button",
+      "label": "移动中",
+      "state": "selected",
+      "parentControl": null,
+      "sourceWidgetType": "flatBtn",
+      "sourceEvidence": {
+        "definition": {
+          "path": "src/openrct2-ui/windows/Guest.cpp",
+          "line": 89
+        },
+        "widgetCandidates": [
+          {
+            "widgetType": "flatBtn",
+            "sourcePath": "src/openrct2-ui/windows/Guest.cpp",
+            "line": 138,
+            "sourceExpression": "makeWidget({167,  45}, { 24, 24}, WidgetType::flatBtn,      WindowColour::secondary, ImageId(SPR_PICKUP_BTN), STR_PICKUP_TIP               )",
+            "sourceStringIds": [
+              "STR_PICKUP_TIP"
+            ],
+            "originalSpriteIds": [
+              "SPR_PICKUP_BTN"
+            ],
+            "helperPart": null
+          }
+        ]
+      },
+      "sourceVisibilityConditions": [
+        {
+          "path": "src/openrct2-ui/windows/Guest.cpp",
+          "line": 496,
+          "expression": "                    invalidate();                 setWidgetDisabled(WIDX_PICKUP, disablePickup);             } "
+        }
+      ],
+      "displayedCondition": "Pickup action succeeded; picker tool active; target path is a placement preview",
+      "claim": "drawn_product_layout_not_executed_game_logic"
+    },
+    {
+      "role": "action",
+      "asset": "assets/common/secondary_normal.png",
+      "region": [
+        1460,
+        916,
+        325,
+        70
+      ],
+      "resize": "nine",
+      "state": "normal"
+    },
+    {
+      "role": "pickup-cancel-action",
+      "region": [
+        1460,
+        916,
+        325,
+        70
+      ],
+      "sourceFunction": "Guest.cpp onToolAbortOverview",
+      "note": "Tool cancellation has no separate fixed WIDX."
+    }
+  ],
+  "dataDiagrams": [
+    {
+      "role": "data-rule",
+      "points": [
+        [
+          398,
+          276
+        ],
+        [
+          1790,
+          276
+        ]
+      ],
+      "color": "#B28C43",
+      "width": 1
+    },
+    {
+      "role": "selection-diagram",
+      "points": [
+        [
+          828,
+          616
+        ],
+        [
+          918,
+          568
+        ],
+        [
+          1008,
+          616
+        ],
+        [
+          918,
+          664
+        ],
+        [
+          828,
+          616
+        ]
+      ],
+      "color": "#F3CD71",
+      "width": 5
+    }
+  ],
+  "layoutIssues": [],
+  "fontDistribution": "Official OFL-licensed fonts are included in assets/fonts; see records/font-sources.json.",
+  "status": "produced_pending_review"
+}

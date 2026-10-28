@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/main_02.jpg",
+  "sha256": "e00a62bcc8d3e8899722d062eadf99c100f3d638b52d9b4e0d9895e1d3fd7f24",
+  "derivedFrom": [
+    {
+      "file": "designs/main/02-暂停.png",
+      "sha256": "6042c31db3365e8c5b397be5c0f19b2dff495a84397933afdaa5bb1ec175d5da",
+      "sourceRecord": "designs/main/02-暂停.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

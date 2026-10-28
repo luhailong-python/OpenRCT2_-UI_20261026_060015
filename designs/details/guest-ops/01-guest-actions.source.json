@@ -1,0 +1,802 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/details/guest-ops/01-guest-actions.png",
+  "sha256": "ce5a86c04983898562ba648471fe16dab7eb80dab75deae9854151d51f9f6807",
+  "exportedAt": "2026-10-26T08:41:30.702367-04:00",
+  "width": 1920,
+  "height": 1080,
+  "format": "PNG",
+  "operation": "composite_preview_not_native_generation",
+  "process": [
+    "Nine-slice/contain/cover composition of painted PNG sprites",
+    "Separate Chinese text typesetting and data diagrams"
+  ],
+  "resampling": "LANCZOS where art is fitted; output dimensions do not represent new native generated detail.",
+  "nativeModelClaim": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidencePolicy": "Resolve original AI model/quality through each source asset record; unreported values remain unconfirmed.",
+  "derivedFrom": [
+    {
+      "file": "assets/backgrounds/park-day-native.png",
+      "sha256": "27c3ac998fcd81e675c9a05712ead25c83443b133844c169d1476c3cebe25712",
+      "nativeDimensions": [
+        1672,
+        941
+      ],
+      "generationRecord": "assets/backgrounds/park-day-native.png.generation.json",
+      "derivationRecord": "assets/slice-manifest.json"
+    },
+    {
+      "file": "assets/common/panel_main.png",
+      "sha256": "704856762248133110624f38365e0ff337dd1f2f6304f66298e2230077ebca00",
+      "nativeDimensions": [
+        619,
+        610
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_main.png.source.json"
+    },
+    {
+      "file": "assets/common/title_plate.png",
+      "sha256": "f1011dd30d1ef42cbeedf64f31025c6c77c91ffbbcdd09ef74c065ad1d91ddfe",
+      "nativeDimensions": [
+        594,
+        195
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/title_plate.png.source.json"
+    },
+    {
+      "file": "assets/common/close.png",
+      "sha256": "f9089fdc15bfbfbd496d9c02de94c46b0e1e4052fffa9689de0b461e043737ec",
+      "nativeDimensions": [
+        184,
+        184
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/close.png.source.json"
+    },
+    {
+      "file": "assets/common/panel_card.png",
+      "sha256": "b82ed16e818b3bb86c16a68453bc4b73f1764c6fdb4541c2e470e5c60789568e",
+      "nativeDimensions": [
+        589,
+        558
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/panel_card.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_selected.png",
+      "sha256": "119a81554b9e332d698f5c704813cb047fcd4c5c71e9e5c36c7b6df6b4a789b9",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_selected.png.source.json"
+    },
+    {
+      "file": "assets/common/tab_normal.png",
+      "sha256": "9327a3d9577111e5985e3453a8a201010887c606a094b7e080421417aef3f92e",
+      "nativeDimensions": [
+        256,
+        128
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/tab_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/secondary_normal.png",
+      "sha256": "5f6418c0ede62320bc017ef1f00ec1d60a5d5fc34dac8c4e96d0016e6523881f",
+      "nativeDimensions": [
+        256,
+        112
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/secondary_normal.png.source.json"
+    },
+    {
+      "file": "assets/common/primary_selected.png",
+      "sha256": "59c783e4602ec39fc988975d01afb66441b85a13b589a5143c69953e36f7640e",
+      "nativeDimensions": [
+        256,
+        120
+      ],
+      "generationRecord": null,
+      "derivationRecord": "assets/common/primary_selected.png.source.json"
+    }
+  ],
+  "layoutRecord": "designs/details/guest-ops/01-guest-actions.layout.json",
+  "functionalReference": {
+    "functionalRepository": "https://github.com/OpenRCT2/OpenRCT2.git",
+    "commit": "52a55c3e8da5972460642bdfed61d091fe9cabfd",
+    "sourceUnit": "Guest",
+    "sourceFiles": [
+      "src/openrct2-ui/windows/Guest.cpp"
+    ],
+    "condition": "Guest.canBePickedUp is true; tracking enabled in sample",
+    "sourceControls": [
+      {
+        "sourceControlKeys": [
+          "Guest:WIDX_CLOSE"
+        ],
+        "unit": "Guest",
+        "controlId": "WIDX_CLOSE",
+        "screenId": "operations:guest:01-guest-actions",
+        "region": [
+          1776,
+          110,
+          68,
+          68
+        ],
+        "visualKind": "close",
+        "label": "关闭窗口",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "closeBox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Guest.cpp",
+            "line": 74
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "closeBox",
+              "sourcePath": "src/openrct2-ui/windows/Guest.cpp",
+              "line": 122,
+              "sourceExpression": "makeWindowShim(kWindowTitle, kWindowSize)",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": "closeBox"
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "Guest.canBePickedUp is true; tracking enabled in sample",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Guest:WIDX_TAB_1"
+        ],
+        "unit": "Guest",
+        "controlId": "WIDX_TAB_1",
+        "screenId": "operations:guest:01-guest-actions",
+        "region": [
+          100,
+          224,
+          236,
+          64
+        ],
+        "visualKind": "navigation-tab",
+        "label": "概览",
+        "state": "selected",
+        "parentControl": null,
+        "sourceWidgetType": "tab",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Guest.cpp",
+            "line": 76
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "tab",
+              "sourcePath": "src/openrct2-ui/windows/Guest.cpp",
+              "line": 124,
+              "sourceExpression": "makeTab({ 3, 17 }, STR_SHOW_GUEST_VIEW_TIP)",
+              "sourceStringIds": [
+                "STR_SHOW_GUEST_VIEW_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "Guest.canBePickedUp is true; tracking enabled in sample",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Guest:WIDX_TAB_2"
+        ],
+        "unit": "Guest",
+        "controlId": "WIDX_TAB_2",
+        "screenId": "operations:guest:01-guest-actions",
+        "region": [
+          100,
+          294,
+          236,
+          64
+        ],
+        "visualKind": "navigation-tab",
+        "label": "需求",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "tab",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Guest.cpp",
+            "line": 77
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "tab",
+              "sourcePath": "src/openrct2-ui/windows/Guest.cpp",
+              "line": 125,
+              "sourceExpression": "makeTab({ 34, 17 }, STR_SHOW_GUEST_NEEDS_TIP)",
+              "sourceStringIds": [
+                "STR_SHOW_GUEST_NEEDS_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "Guest.canBePickedUp is true; tracking enabled in sample",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Guest:WIDX_TAB_3"
+        ],
+        "unit": "Guest",
+        "controlId": "WIDX_TAB_3",
+        "screenId": "operations:guest:01-guest-actions",
+        "region": [
+          100,
+          364,
+          236,
+          64
+        ],
+        "visualKind": "navigation-tab",
+        "label": "游玩记录",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "tab",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Guest.cpp",
+            "line": 78
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "tab",
+              "sourcePath": "src/openrct2-ui/windows/Guest.cpp",
+              "line": 126,
+              "sourceExpression": "makeTab({ 65, 17 }, STR_SHOW_GUEST_VISITED_RIDES_TIP)",
+              "sourceStringIds": [
+                "STR_SHOW_GUEST_VISITED_RIDES_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "Guest.canBePickedUp is true; tracking enabled in sample",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Guest:WIDX_TAB_4"
+        ],
+        "unit": "Guest",
+        "controlId": "WIDX_TAB_4",
+        "screenId": "operations:guest:01-guest-actions",
+        "region": [
+          100,
+          434,
+          236,
+          64
+        ],
+        "visualKind": "navigation-tab",
+        "label": "消费",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "tab",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Guest.cpp",
+            "line": 79
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "tab",
+              "sourcePath": "src/openrct2-ui/windows/Guest.cpp",
+              "line": 127,
+              "sourceExpression": "makeTab({ 96, 17 }, STR_SHOW_GUEST_FINANCE_TIP)",
+              "sourceStringIds": [
+                "STR_SHOW_GUEST_FINANCE_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/Guest.cpp",
+            "line": 499,
+            "expression": "             setWidgetDisabled(WIDX_TAB_4, getGameState().park.flags.has(ParkFlag::noMoney));             setWidgetDisabled(WIDX_TAB_7, !Config::Get().general.debuggingTools);         }"
+          }
+        ],
+        "displayedCondition": "Guest.canBePickedUp is true; tracking enabled in sample",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Guest:WIDX_TAB_5"
+        ],
+        "unit": "Guest",
+        "controlId": "WIDX_TAB_5",
+        "screenId": "operations:guest:01-guest-actions",
+        "region": [
+          100,
+          504,
+          236,
+          64
+        ],
+        "visualKind": "navigation-tab",
+        "label": "想法",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "tab",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Guest.cpp",
+            "line": 80
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "tab",
+              "sourcePath": "src/openrct2-ui/windows/Guest.cpp",
+              "line": 128,
+              "sourceExpression": "makeTab({ 127, 17 }, STR_SHOW_GUEST_THOUGHTS_TIP)",
+              "sourceStringIds": [
+                "STR_SHOW_GUEST_THOUGHTS_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "Guest.canBePickedUp is true; tracking enabled in sample",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Guest:WIDX_TAB_6"
+        ],
+        "unit": "Guest",
+        "controlId": "WIDX_TAB_6",
+        "screenId": "operations:guest:01-guest-actions",
+        "region": [
+          100,
+          574,
+          236,
+          64
+        ],
+        "visualKind": "navigation-tab",
+        "label": "携带物",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "tab",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Guest.cpp",
+            "line": 81
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "tab",
+              "sourcePath": "src/openrct2-ui/windows/Guest.cpp",
+              "line": 129,
+              "sourceExpression": "makeTab({ 158, 17 }, STR_SHOW_GUEST_ITEMS_TIP)",
+              "sourceStringIds": [
+                "STR_SHOW_GUEST_ITEMS_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "Guest.canBePickedUp is true; tracking enabled in sample",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Guest:WIDX_TAB_7"
+        ],
+        "unit": "Guest",
+        "controlId": "WIDX_TAB_7",
+        "screenId": "operations:guest:01-guest-actions",
+        "region": [
+          100,
+          644,
+          236,
+          64
+        ],
+        "visualKind": "navigation-tab",
+        "label": "调试",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "tab",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Guest.cpp",
+            "line": 82
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "tab",
+              "sourcePath": "src/openrct2-ui/windows/Guest.cpp",
+              "line": 130,
+              "sourceExpression": "makeTab({ 189, 17 }, STR_DEBUG_TIP)",
+              "sourceStringIds": [
+                "STR_DEBUG_TIP"
+              ],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/Guest.cpp",
+            "line": 500,
+            "expression": "            setWidgetDisabled(WIDX_TAB_4, getGameState().park.flags.has(ParkFlag::noMoney));             setWidgetDisabled(WIDX_TAB_7, !Config::Get().general.debuggingTools);         } "
+          }
+        ],
+        "displayedCondition": "Guest.canBePickedUp is true; tracking enabled in sample",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Guest:WIDX_VIEWPORT"
+        ],
+        "unit": "Guest",
+        "controlId": "WIDX_VIEWPORT",
+        "screenId": "operations:guest:01-guest-actions",
+        "region": [
+          414,
+          325,
+          800,
+          473
+        ],
+        "visualKind": "viewport",
+        "label": "游客所在位置",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "viewport",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Guest.cpp",
+            "line": 87
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "viewport",
+              "sourcePath": "src/openrct2-ui/windows/Guest.cpp",
+              "line": 136,
+              "sourceExpression": "makeWidget({  3,  57}, {164, 87}, WidgetType::viewport,     WindowColour::secondary                                                        )",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "Guest.canBePickedUp is true; tracking enabled in sample",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Guest:WIDX_MARQUEE"
+        ],
+        "unit": "Guest",
+        "controlId": "WIDX_MARQUEE",
+        "screenId": "operations:guest:01-guest-actions",
+        "region": [
+          1245,
+          330,
+          525,
+          77
+        ],
+        "visualKind": "guest-summary",
+        "label": "游客姓名与当前行动",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "labelCentred",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Guest.cpp",
+            "line": 86
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "labelCentred",
+              "sourcePath": "src/openrct2-ui/windows/Guest.cpp",
+              "line": 135,
+              "sourceExpression": "makeWidget({  3,  45}, {164, 12}, WidgetType::labelCentred, WindowColour::secondary                                                        )",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "Guest.canBePickedUp is true; tracking enabled in sample",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Guest:WIDX_ACTION_LBL"
+        ],
+        "unit": "Guest",
+        "controlId": "WIDX_ACTION_LBL",
+        "screenId": "operations:guest:01-guest-actions",
+        "region": [
+          1245,
+          330,
+          525,
+          77
+        ],
+        "visualKind": "guest-summary",
+        "label": "游客姓名与当前行动",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "labelCentred",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Guest.cpp",
+            "line": 88
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "labelCentred",
+              "sourcePath": "src/openrct2-ui/windows/Guest.cpp",
+              "line": 137,
+              "sourceExpression": "makeWidget({  3, 144}, {164, 11}, WidgetType::labelCentred, WindowColour::secondary                                                        )",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "Guest.canBePickedUp is true; tracking enabled in sample",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Guest:WIDX_PICKUP"
+        ],
+        "unit": "Guest",
+        "controlId": "WIDX_PICKUP",
+        "screenId": "operations:guest:01-guest-actions",
+        "region": [
+          1244,
+          437,
+          527,
+          68
+        ],
+        "visualKind": "button",
+        "label": "移动游客",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Guest.cpp",
+            "line": 89
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/Guest.cpp",
+              "line": 138,
+              "sourceExpression": "makeWidget({167,  45}, { 24, 24}, WidgetType::flatBtn,      WindowColour::secondary, ImageId(SPR_PICKUP_BTN), STR_PICKUP_TIP               )",
+              "sourceStringIds": [
+                "STR_PICKUP_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_PICKUP_BTN"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [
+          {
+            "path": "src/openrct2-ui/windows/Guest.cpp",
+            "line": 496,
+            "expression": "                    invalidate();                 setWidgetDisabled(WIDX_PICKUP, disablePickup);             } "
+          }
+        ],
+        "displayedCondition": "Guest.canBePickedUp is true; tracking enabled in sample",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Guest:WIDX_RENAME"
+        ],
+        "unit": "Guest",
+        "controlId": "WIDX_RENAME",
+        "screenId": "operations:guest:01-guest-actions",
+        "region": [
+          1244,
+          524,
+          527,
+          68
+        ],
+        "visualKind": "button",
+        "label": "命名游客",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Guest.cpp",
+            "line": 90
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/Guest.cpp",
+              "line": 139,
+              "sourceExpression": "makeWidget({167,  69}, { 24, 24}, WidgetType::flatBtn,      WindowColour::secondary, ImageId(SPR_RENAME),     STR_NAME_GUEST_TIP           )",
+              "sourceStringIds": [
+                "STR_NAME_GUEST_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_RENAME"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "Guest.canBePickedUp is true; tracking enabled in sample",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Guest:WIDX_LOCATE"
+        ],
+        "unit": "Guest",
+        "controlId": "WIDX_LOCATE",
+        "screenId": "operations:guest:01-guest-actions",
+        "region": [
+          1244,
+          611,
+          527,
+          68
+        ],
+        "visualKind": "button",
+        "label": "定位游客",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Guest.cpp",
+            "line": 91
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/Guest.cpp",
+              "line": 140,
+              "sourceExpression": "makeWidget({167,  93}, { 24, 24}, WidgetType::flatBtn,      WindowColour::secondary, ImageId(SPR_LOCATE),     STR_LOCATE_SUBJECT_TIP       )",
+              "sourceStringIds": [
+                "STR_LOCATE_SUBJECT_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_LOCATE"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "Guest.canBePickedUp is true; tracking enabled in sample",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Guest:WIDX_TRACK"
+        ],
+        "unit": "Guest",
+        "controlId": "WIDX_TRACK",
+        "screenId": "operations:guest:01-guest-actions",
+        "region": [
+          1244,
+          698,
+          527,
+          68
+        ],
+        "visualKind": "button",
+        "label": "已开启追踪",
+        "state": "selected",
+        "parentControl": null,
+        "sourceWidgetType": "flatBtn",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Guest.cpp",
+            "line": 92
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "flatBtn",
+              "sourcePath": "src/openrct2-ui/windows/Guest.cpp",
+              "line": 141,
+              "sourceExpression": "makeWidget({167, 117}, { 24, 24}, WidgetType::flatBtn,      WindowColour::secondary, ImageId(SPR_TRACK_PEEP), STR_TOGGLE_GUEST_TRACKING_TIP)",
+              "sourceStringIds": [
+                "STR_TOGGLE_GUEST_TRACKING_TIP"
+              ],
+              "originalSpriteIds": [
+                "SPR_TRACK_PEEP"
+              ],
+              "helperPart": null
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "Guest.canBePickedUp is true; tracking enabled in sample",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      },
+      {
+        "sourceControlKeys": [
+          "Guest:WIDX_CLOSE"
+        ],
+        "unit": "Guest",
+        "controlId": "WIDX_CLOSE",
+        "screenId": "operations:guest:01-guest-actions",
+        "region": [
+          1568,
+          916,
+          220,
+          70
+        ],
+        "visualKind": "button",
+        "label": "返回游客列表",
+        "state": "normal",
+        "parentControl": null,
+        "sourceWidgetType": "closeBox",
+        "sourceEvidence": {
+          "definition": {
+            "path": "src/openrct2-ui/windows/Guest.cpp",
+            "line": 74
+          },
+          "widgetCandidates": [
+            {
+              "widgetType": "closeBox",
+              "sourcePath": "src/openrct2-ui/windows/Guest.cpp",
+              "line": 122,
+              "sourceExpression": "makeWindowShim(kWindowTitle, kWindowSize)",
+              "sourceStringIds": [],
+              "originalSpriteIds": [],
+              "helperPart": "closeBox"
+            }
+          ]
+        },
+        "sourceVisibilityConditions": [],
+        "displayedCondition": "Guest.canBePickedUp is true; tracking enabled in sample",
+        "claim": "drawn_product_layout_not_executed_game_logic"
+      }
+    ],
+    "scope": "Functional product layout proposal, not a technical styleboard or runtime result.",
+    "decorativeArtPolicy": "Existing painted assets and separate text; lines/graphs are data overlays.",
+    "sourceEvidenceNotes": [
+      "Guest.cpp:483-501 DisableWidgets",
+      "Guest.cpp:643-687 pickup, rename, tracking actions"
+    ]
+  },
+  "status": "produced_pending_review"
+}

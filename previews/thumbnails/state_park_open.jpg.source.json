@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/state_park_open.jpg",
+  "sha256": "25e4817b5078cb047ba00943061c742aae3ff25779a96873cfe7f83b0c920b9a",
+  "derivedFrom": [
+    {
+      "file": "previews/states/park/open.png",
+      "sha256": "e2053679d6a8450de2d405fd6043af197cb6497dd274d6fc80be1ea4afc14ca6",
+      "sourceRecord": "previews/states/park/open.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}

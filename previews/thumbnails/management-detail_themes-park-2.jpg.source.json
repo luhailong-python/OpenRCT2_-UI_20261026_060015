@@ -1,0 +1,12 @@
+{
+  "file": "previews/thumbnails/management-detail_themes-park-2.jpg",
+  "sha256": "198b38c254e819da173359ac55d6c1791a25eafb261dc23ff65aeb446e581fb2",
+  "derivedFrom": [
+    {
+      "file": "designs/details/management/themes-park-2.png",
+      "sha256": "266a4c094583cf36137877cb15dd136d4a87da1b9193937ebabf08f7587323b3",
+      "sourceRecord": "designs/details/management/themes-park-2.source.json"
+    }
+  ],
+  "operation": "thumbnail_resample_480x270_no_new_model_generation"
+}
